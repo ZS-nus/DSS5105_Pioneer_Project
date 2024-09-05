@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 #### Quit the venv
 ```
-deactibate
+deactivate
 ```
 
 
