@@ -1,49 +1,46 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './login.css';
+import './fonts/icomoon/style.css';
+import './css/style.css';
+import bgImage from './images/login_bg.jpg';
 
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-
-import Login from './components/login.component';
-import SignUp from './components/signup.component';
-
-function App() {
+function Login() {
   return (
-    <Router>
-      <div className="App">
-        <nav className="navbar navbar-expand-lg navbar-light fixed-top">
-          <div className="container">
-            <Link className="navbar-brand" to={'/sign-in'}>
-              positronX
-            </Link>
-            <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-              <ul className="navbar-nav ml-auto">
-                <li className="nav-item">
-                  <Link className="nav-link" to={'/sign-in'}>
-                    Login
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to={'/sign-up'}>
-                    Sign Up
-                  </Link>
-                </li>
-              </ul>
+    <div className="d-lg-flex half">
+      <div className="bg order-1 order-md-2" style={{ backgroundImage: `url(${bgImage})` }}></div>
+      <div className="contents order-2 order-md-1">
+        <div className="container">
+          <div className="row align-items-center justify-content-center">
+            <div className="col-md-7">
+              <h3>Login to <strong>Pionner Team Project</strong></h3>
+              <br></br>
+              <form action="#" method="post">
+                <div className="form-group first">
+                  <label htmlFor="username">Username</label>
+                  <input type="text" className="form-control" placeholder="Username" id="username" />
+                </div>
+                <div className="form-group last mb-3">
+                  <label htmlFor="password">Password</label>
+                  <input type="password" className="form-control" placeholder="Your Password" id="password" />
+                </div>
+                <div className="d-flex mb-5 align-items-center">
+                  <label className="control control--checkbox mb-0">
+                    <span className="caption">Remember me</span>
+                    <input type="checkbox" defaultChecked />
+                    <div className="control__indicator"></div>
+                  </label>
+                  {/* <span className="ml-auto">
+                    <button className="forgot-pass" onClick={() => alert('Forgot Password clicked!')}>Forgot Password</button>
+                  </span> */}
+                </div>
+                <input type="submit" value="Log In" className="btn btn-block btn-primary" />
+              </form>
             </div>
-          </div>
-        </nav>
-
-        <div className="auth-wrapper">
-          <div className="auth-inner">
-            <Routes>
-              <Route path="/sign-in" element={<Login />} />
-              <Route path="/sign-up" element={<SignUp />} />
-            </Routes>
           </div>
         </div>
       </div>
-    </Router>
+    </div>
   );
 }
 
-export default App;
+export default Login;
