@@ -1,6 +1,9 @@
 
 ## DSS5105 Pioneer Group Project
 
+#### SubGroup A : 
+#### SubGroup B : ZhaoSheng
+
 
 # Automated ESG Data Extraction and Performance Analysis
 
@@ -24,8 +27,23 @@ pip install -r requirements.txt
 deactivate
 ```
 
+## To run the dashboard web app
 
-#### SubGroup A : 
-#### SubGroup B : ZhaoSheng
+```
+cd groupB
+cd dashboard
+npm install
+
+cd client
+npm install
+
+cd .. 
+cd server 
+npm install
+
+cd ..
+npm start
+```
+
 
 
