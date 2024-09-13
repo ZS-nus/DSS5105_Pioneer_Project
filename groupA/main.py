@@ -21,12 +21,12 @@ if __name__ == "__main__":
         download_dir = '../ESG_reports'  # Directory to save the file
         fetch_file_from_storage(user_input, local_file_name, download_dir)
         
-        # Extract text from the downloaded PDF
-        local_file_path = f"{download_dir}/{local_file_name}"
-        text = extract_text_from_pdf(local_file_path)
+        # # Extract text from the downloaded PDF
+        # local_file_path = f"{download_dir}/{local_file_name}"
+        # text = extract_text_from_pdf(local_file_path)
         
-        # Save the extracted text as a markdown file
-        output_md = "output.md"
-        save_as_markdown(text, output_md)
+        # # Save the extracted text as a markdown file
+        # output_md = "output.md"
+        # save_as_markdown(text, output_md)
     else:
         print(f"Error: The file '{user_input}' does not exist in the bucket.")
