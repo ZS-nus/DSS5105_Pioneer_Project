@@ -17,7 +17,11 @@ pip freeze > requirements.txt
 ```
 python -m venv venv
 
+# for macos
 source venv/bin/activate
+
+# for windows
+.\venv\Scripts\Activate
 
 pip install -r requirements.txt
 ```

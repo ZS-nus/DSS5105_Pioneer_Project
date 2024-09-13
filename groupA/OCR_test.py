@@ -1,7 +1,9 @@
 import os
 import fitz  # PyMuPDF
 from PIL import Image, ImageEnhance, ImageFilter
+# pip install Pillow
 import easyocr
+# pip install easyocr
 import pdfplumber
 import re
 import ssl
