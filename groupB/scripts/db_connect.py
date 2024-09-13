@@ -7,6 +7,7 @@ endpoint = 'my-rds-instance.123456789012.us-east-1.rds.amazonaws.com'
 username = 'admin'
 password = 'mypassword'
 database = 'mydatabase'
+
 # Set the database credentials
 host = '<YOUR_RDS_ENDPOINT>'
 port = 3306
