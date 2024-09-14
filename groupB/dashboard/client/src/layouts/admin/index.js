@@ -9,6 +9,7 @@ import React, { useState } from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import routes from 'routes.js';
 
+
 // Custom Chakra theme
 export default function Dashboard(props) {
   const { ...rest } = props;

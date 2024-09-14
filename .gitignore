@@ -1,3 +1,6 @@
 venv/
 # pioneer_key.json
 ESG_reports/
+*.pyc
+groupB/dashboard/client/node_modules/
+groupB/dashboard/server/node_modules/

@@ -10,7 +10,7 @@ admin.initializeApp({
 });
 
 const app = express();
-const PORT = process.env.PORT || 5105;
+const PORT = 5105;
 
 app.use(cors());
 app.use(bodyParser.json());
@@ -22,11 +22,7 @@ app.post('/api/login', async (req, res) => {
   try {
     const userRecord = await admin.auth().getUserByEmail(email);
     if (userRecord) {
-      // Log user information
       console.log('User authenticated:', userRecord);
-
-      // In this case, Firebase Admin doesn't support password authentication
-      // You can validate the user based on email or use a third-party system.
       res.status(200).json({ message: 'User authenticated successfully', user: userRecord });
     } else {
       res.status(404).json({ error: 'User not found' });

@@ -1,9 +1,6 @@
 
 ## DSS5105 Pioneer Group Project
 
-#### SubGroup A : 
-#### SubGroup B : ZhaoSheng
-
 
 # Automated ESG Data Extraction and Performance Analysis
 
