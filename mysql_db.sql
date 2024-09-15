@@ -17,7 +17,7 @@ INSERT INTO Users (username, password) VALUES ('admin', '123456');
 
 -- Create company_info table
 CREATE TABLE company_info (
-    CompanyID INT PRIMARY KEY,
+    CompanyID INT PRIMARY KEY AUTO_INCREMENT,
     CompanyName VARCHAR(255) NOT NULL,
     Sector VARCHAR(255) NOT NULL,
     Location VARCHAR(255) NOT NULL,

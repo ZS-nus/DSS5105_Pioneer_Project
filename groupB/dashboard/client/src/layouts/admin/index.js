@@ -1,6 +1,5 @@
 // Chakra imports
 import { Portal, Box, useDisclosure } from '@chakra-ui/react';
-import Footer from 'components/footer/FooterAdmin.js';
 // Layout components
 import Navbar from 'components/navbar/NavbarAdmin.js';
 import Sidebar from 'components/sidebar/Sidebar.js';
@@ -21,7 +20,7 @@ export default function Dashboard(props) {
     return window.location.pathname !== '/admin/full-screen-maps';
   };
   const getActiveRoute = (routes) => {
-    let activeRoute = 'Default Brand Text';
+    let activeRoute = 'Admin Dashboard';
     for (let i = 0; i < routes.length; i++) {
       if (routes[i].collapse) {
         let collapseActiveRoute = getActiveRoute(routes[i].items);
@@ -162,7 +161,6 @@ export default function Dashboard(props) {
               </Box>
             ) : null}
             <Box>
-              <Footer />
             </Box>
           </Box>
         </SidebarContext.Provider>

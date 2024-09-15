@@ -1,51 +1,43 @@
-import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate, Outlet } from 'react-router-dom';
 import { ChakraProvider } from '@chakra-ui/react';
-import Login from './login';
+import SignIn from './views/auth/signIn';
 import AdminLayout from './layouts/admin';
+import AuthLayout from './layouts/auth';
 import initialTheme from './theme/theme';
 
 function App() {
-  const [currentTheme, setCurrentTheme] = useState(initialTheme);
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
+  const [currentTheme, setCurrentTheme] = React.useState(initialTheme);
 
-  useEffect(() => {
-    // Check authentication status here (e.g., from localStorage or a token)
-    const checkAuth = async () => {
-      // Replace this with your actual authentication check
-      const auth = localStorage.getItem('isAuthenticated') === 'true';
-      setIsAuthenticated(auth);
-      setIsLoading(false);
-    };
-    checkAuth();
-  }, []);
-
-  if (isLoading) {
-    return <div>Loading...</div>; // Or a loading spinner
-  }
+  const ProtectedRoute = () => {
+    const isAuthenticated = localStorage.getItem('isAuthenticated') === 'true';
+    const isLoggedOut = sessionStorage.getItem('isLoggedOut') === 'true';
+    
+    if (!isAuthenticated || isLoggedOut) {
+      return <Navigate to="/auth/sign-in" replace />;
+    }
+    
+    return <Outlet />;
+  };
 
   return (
     <ChakraProvider theme={currentTheme}>
       <Router>
         <Routes>
-          <Route path="/login" element={
-            isAuthenticated ? 
-              <Navigate to="/admin" replace /> : 
-              <Login setIsAuthenticated={setIsAuthenticated} />
-          } />
-          <Route
-            path="/admin/*"
-            element={
-              isAuthenticated ? (
-                <AdminLayout theme={currentTheme} setTheme={setCurrentTheme} />
-              ) : (
-                <Navigate to="/login" replace />
-              )
-            }
-          />
-          <Route path="/" element={<Navigate to="/admin" replace />} />
-          <Route path="*" element={<Navigate to="/admin" replace />} />
+          <Route path="/auth" element={<AuthLayout />}>
+            <Route path="sign-in" element={<SignIn />} />
+            {/* Add other auth routes here if needed */}
+          </Route>
+          
+          <Route element={<ProtectedRoute />}>
+            <Route 
+              path="/admin/*" 
+              element={<AdminLayout theme={currentTheme} setTheme={setCurrentTheme} />} 
+            />
+          </Route>
+
+          <Route path="/" element={<Navigate to="/auth/sign-in" replace />} />
+          <Route path="*" element={<Navigate to="/auth/sign-in" replace />} />
         </Routes>
       </Router>
     </ChakraProvider>

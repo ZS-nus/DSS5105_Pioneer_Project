@@ -4,3 +4,5 @@ ESG_reports/
 *.pyc
 groupB/dashboard/client/node_modules/
 groupB/dashboard/server/node_modules/
+groupB/dashboard/node_modules/
+*.DS_Store
