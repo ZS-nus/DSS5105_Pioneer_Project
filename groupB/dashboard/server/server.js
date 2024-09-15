@@ -91,6 +91,37 @@ app.get('/api/table/company', async (req, res) => {
   }
 });
 
+// Fetch latest environmental data for each company
+app.get('/api/table/environment', async (req, res) => {
+  try {
+    const query = `
+      SELECT 
+        c.CompanyName,
+        e.CompanyID,
+        e.ReportYear,
+        ROUND(e.EnergyConsumption) AS EnergyConsumption,
+        ROUND(e.GHGEmissions) AS GHGEmissions,
+        ROUND(e.WaterUsage) AS WaterUsage,
+        ROUND(e.WasteGenerated) AS WasteGenerated,
+        ROUND(e.RenewableEnergyUse) AS RenewableEnergyUse
+      FROM environment e
+      INNER JOIN company_info c ON e.CompanyID = c.CompanyID
+      INNER JOIN (
+        SELECT CompanyID, MAX(ReportYear) as LatestYear
+        FROM environment
+        GROUP BY CompanyID
+      ) latest ON e.CompanyID = latest.CompanyID AND e.ReportYear = latest.LatestYear
+      ORDER BY c.CompanyName
+    `;
+
+    const [rows] = await pool.query(query);
+    res.json(rows);
+  } catch (error) {
+    console.error('Error fetching environmental data:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
 // app.listen(PORT, () => {
 //   console.log(`Server running on port ${PORT}`);
 // });

@@ -87,11 +87,9 @@ function SignIn() {
         flexDirection='column'>
         <Box me='auto'>
           <Heading color={textColor} fontSize='36px' mb='10px'>
-            Sign In
+            Pioneer ESG Project
           </Heading>
-          <Heading color={textColor} fontSize='36px' mb='10px'>
-            Pioneer Group Project
-          </Heading>
+          <br>  </br>
           <Text
             mb='36px'
             ms='4px'

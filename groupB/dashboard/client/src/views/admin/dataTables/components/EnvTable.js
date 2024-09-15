@@ -36,7 +36,7 @@ export default function ComplexTable(props) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:5105/api/table/company');
+        const response = await axios.get('http://localhost:5105/api/table/environment');
         setData(response.data);
         setLoading(false);
       } catch (err) {
@@ -70,8 +70,8 @@ export default function ComplexTable(props) {
         </Flex>
       ),
     }),
-    columnHelper.accessor('Sector', {
-      id: 'company_id',
+    columnHelper.accessor('ReportYear', {
+      id: 'report_year',
       header: () => (
         <Text
           justifyContent="space-between"
@@ -79,7 +79,7 @@ export default function ComplexTable(props) {
           fontSize={{ sm: '10px', lg: '12px' }}
           color="gray.400"
         >
-          INDUSTRY
+          Year
         </Text>
       ),
       cell: (info) => (
@@ -90,8 +90,8 @@ export default function ComplexTable(props) {
         </Flex>
       ),
     }),
-    columnHelper.accessor('FoundedYear', {
-      id: 'company_sector',
+    columnHelper.accessor('GHGEmissions', {
+      id: 'ghg_emissions',
       header: () => (
         <Text
           justifyContent="space-between"
@@ -99,7 +99,7 @@ export default function ComplexTable(props) {
           fontSize={{ sm: '10px', lg: '12px' }}
           color="gray.400"
         >
-          Founded
+          GHG (MT of CO2e)
         </Text>
       ),
       cell: (info) => (
@@ -110,8 +110,8 @@ export default function ComplexTable(props) {
         </Flex>
       ),
     }),
-    columnHelper.accessor('Location', {
-      id: 'company_location',
+    columnHelper.accessor('EnergyConsumption', {
+      id: 'energy_consumption',
       header: () => (
         <Text
           justifyContent="space-between"
@@ -119,7 +119,27 @@ export default function ComplexTable(props) {
           fontSize={{ sm: '10px', lg: '12px' }}
           color="gray.400"
         >
-          LOCATION
+          Energy (MWh)
+        </Text>
+      ),
+      cell: (info) => (
+        <Flex align="center">
+          <Text color={textColor} fontSize="sm" fontWeight="700">
+            {info.getValue()}
+          </Text>
+        </Flex>
+      ),
+    }),
+    columnHelper.accessor('WaterUsage', {
+      id: 'water_consumption',
+      header: () => (
+        <Text
+          justifyContent="space-between"
+          align="center"
+          fontSize={{ sm: '10px', lg: '12px' }}
+          color="gray.400"
+        >
+          Water (MT)
         </Text>
       ),
       cell: (info) => (
@@ -163,7 +183,7 @@ export default function ComplexTable(props) {
           fontWeight="700"
           lineHeight="100%"
         >
-          Company Data
+          Environmental Data
         </Text>
       </Flex>
       <Box>

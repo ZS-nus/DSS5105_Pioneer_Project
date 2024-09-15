@@ -141,7 +141,7 @@ export default function UserReports() {
               }
             />
           }
-          name='Total Projects'
+          name='Conpanies Data Collected '
           value='2935'
         />
       </SimpleGrid>

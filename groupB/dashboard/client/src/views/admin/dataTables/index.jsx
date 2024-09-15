@@ -2,19 +2,15 @@
 // Chakra imports
 import { Box, SimpleGrid } from "@chakra-ui/react";
 import CompanyTable from "views/admin/dataTables/components/CompanyTable";
-import CheckTable from "views/admin/dataTables/components/CheckTable";
-import ColumnsTable from "views/admin/dataTables/components/ColumnsTable";
-import ComplexTable from "views/admin/dataTables/components/ComplexTable";
+import EnvTable from "views/admin/dataTables/components/EnvTable";
+import SocialTable from "views/admin/dataTables/components/SocialTable";
+import GovTable from "views/admin/dataTables/components/GovTable";
 import {
   columnsDataDevelopment,
   columnsDataCheck,
   columnsDataColumns,
   columnsDataComplex,
 } from "views/admin/dataTables/variables/columnsData";
-import tableDataDevelopment from "views/admin/dataTables/variables/tableDataDevelopment.json";
-import tableDataCheck from "views/admin/dataTables/variables/tableDataCheck.json";
-import tableDataColumns from "views/admin/dataTables/variables/tableDataColumns.json";
-import tableDataComplex from "views/admin/dataTables/variables/tableDataComplex.json";
 import React from "react";
 
 export default function Settings() {
@@ -26,15 +22,15 @@ export default function Settings() {
         columns={{ sm: 1, md: 2 }}
         spacing={{ base: "20px", xl: "20px" }}>
         <CompanyTable
-          columnsData={columnsDataDevelopment}
-          tableData={tableDataDevelopment}
         />
-        {/* <CheckTable columnsData={columnsDataCheck} tableData={tableDataCheck} />
-        <ColumnsTable
+        <EnvTable />
+        <SocialTable />
+        <GovTable />
+        {/* <ColumnsTable
           columnsData={columnsDataColumns}
           tableData={tableDataColumns}
-        />
-        <ComplexTable
+        /> */}
+        {/* <ComplexTable
           columnsData={columnsDataComplex}
           tableData={tableDataComplex}
         /> */}
