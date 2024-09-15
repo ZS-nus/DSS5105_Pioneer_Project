@@ -1,6 +1,5 @@
 // Chakra imports
 import { Portal, Box, useDisclosure } from '@chakra-ui/react';
-import Footer from 'components/footer/FooterAdmin.js';
 // Layout components
 import Navbar from 'components/navbar/NavbarAdmin.js';
 import Sidebar from 'components/sidebar/Sidebar.js';
@@ -8,6 +7,7 @@ import { SidebarContext } from 'contexts/SidebarContext';
 import React, { useState } from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import routes from 'routes.js';
+
 
 // Custom Chakra theme
 export default function Dashboard(props) {
@@ -20,7 +20,7 @@ export default function Dashboard(props) {
     return window.location.pathname !== '/admin/full-screen-maps';
   };
   const getActiveRoute = (routes) => {
-    let activeRoute = 'Default Brand Text';
+    let activeRoute = 'Admin Dashboard';
     for (let i = 0; i < routes.length; i++) {
       if (routes[i].collapse) {
         let collapseActiveRoute = getActiveRoute(routes[i].items);
@@ -133,7 +133,7 @@ export default function Dashboard(props) {
               <Box>
                 <Navbar
                   onOpen={onOpen}
-                  logoText={'Horizon UI Dashboard PRO'}
+                  // logoText={'Horizon UI Dashboard PRO'}
                   brandText={getActiveRoute(routes)}
                   secondary={getActiveNavbar(routes)}
                   message={getActiveNavbarText(routes)}
@@ -161,7 +161,6 @@ export default function Dashboard(props) {
               </Box>
             ) : null}
             <Box>
-              <Footer />
             </Box>
           </Box>
         </SidebarContext.Provider>

@@ -1,6 +1,6 @@
 /* eslint-disable */
 import React from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink, useLocation , useNavigate} from "react-router-dom";
 // chakra imports
 import { Box, Flex, HStack, Text, useColorModeValue } from "@chakra-ui/react";
 
@@ -17,6 +17,14 @@ export function SidebarLinks(props) {
   let brandColor = useColorModeValue("brand.500", "brand.400");
 
   const { routes } = props;
+
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    localStorage.removeItem('isAuthenticated');
+    sessionStorage.setItem('isLoggedOut', 'true');
+    navigate('/auth/sign-in', { replace: true });
+  };
 
   // verifies if routeName is the one active (in browser input)
   const activeRoute = (routeName) => {

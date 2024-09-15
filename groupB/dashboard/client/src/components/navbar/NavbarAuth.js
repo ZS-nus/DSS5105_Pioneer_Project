@@ -101,7 +101,7 @@ export default function AuthNavbar(props) {
       alignItems='center'
       color={mainText}>
       <Stack direction='row' spacing='12px' align='center' justify='center'>
-        <HorizonLogo h='26px' w='175px' color={logoColor} />
+        {/* <HorizonLogo h='26px' w='175px' color={logoColor} /> */}
       </Stack>
       <Text fontsize='sm' mt='3px'>
         {logoText}

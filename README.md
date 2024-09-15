@@ -1,9 +1,6 @@
 
 ## DSS5105 Pioneer Group Project
 
-#### SubGroup A : 
-#### SubGroup B : ZhaoSheng
-
 
 # Automated ESG Data Extraction and Performance Analysis
 
@@ -17,7 +14,11 @@ pip freeze > requirements.txt
 ```
 python -m venv venv
 
+# for macos
 source venv/bin/activate
+
+# for windows
+.\venv\Scripts\Activate
 
 pip install -r requirements.txt
 ```

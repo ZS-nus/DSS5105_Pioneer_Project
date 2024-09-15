@@ -1,24 +1,32 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './fonts/icomoon/style.css';
 import './css/style.css';
 import bgImage from './images/login_bg.jpg';
 import axios from 'axios';
 
-function Login() {
+function Login({ setIsAuthenticated }) {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
       const response = await axios.post('http://localhost:5105/api/login', { email, password });
       console.log('Login successful:', response.data);
-      // Handle successful login, e.g., redirect or show a success message
+      if (response.data && response.data.message) {
+        setIsAuthenticated(true);
+        localStorage.setItem('isAuthenticated', 'true');
+        navigate('/admin');
+      } else {
+        throw new Error('Unexpected server response');
+      }
     } catch (err) {
-      setError('Failed to log in: ' + err.response.data.error);
-      console.error('Login failed:', err.response.data.error);
+      console.error('Login failed:', err);
+      setError('Failed to log in: ' + (err.response?.data?.error || err.message || 'Unknown error'));
     }
   };
 

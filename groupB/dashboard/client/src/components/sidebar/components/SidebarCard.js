@@ -3,7 +3,6 @@ import {
   Flex,
   Image,
   Link,
-  Text,
   useColorModeValue,
 } from "@chakra-ui/react";
 import logoWhite from "assets/img/layout/logoWhite.png";
@@ -44,27 +43,6 @@ export default function SidebarDocs() {
         justify='center'
         px='15px'
         pt='55px'>
-        <Text
-          fontSize={{ base: "lg", xl: "18px" }}
-          color='white'
-          fontWeight='bold'
-          lineHeight='150%'
-          textAlign='center'
-          px='10px'
-          mt="10px"
-          mb='6px'>
-          Upgrade to PRO
-        </Text>
-        <Text
-          fontSize='14px'
-          color={"white"}
-          fontWeight='500'
-          px='10px'
-          mb='6px'
-          textAlign='center'>
-          Improve your development process and start doing more with Horizon UI
-          PRO!
-        </Text>
       </Flex>
       <Link href='https://horizon-ui.com/pro?ref=horizon-chakra-free'>
         <Button
