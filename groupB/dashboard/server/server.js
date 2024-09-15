@@ -33,6 +33,13 @@ app.post('/api/login', async (req, res) => {
   }
 });
 
+// Add this route to your existing server.js file
+app.post('/api/logout', (req, res) => {
+
+  // Example response
+  res.status(200).json({ message: 'Logged out successfully' });
+});
+
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
