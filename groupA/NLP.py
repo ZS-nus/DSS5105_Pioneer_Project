@@ -1,100 +1,110 @@
+# pip install markdown
+# pip install regex
+# pip install transformers
+# pip install datasets
+# pip install torch
+# pip install sentencepiece
+
 import markdown
 import re
 from transformers import AutoTokenizer
-from datasets import Dataset
+from datasets import Dataset, Features, Sequence, Value, ClassLabel
 from transformers import AutoModelForTokenClassification
 from transformers import TrainingArguments, Trainer, DataCollatorForTokenClassification
+import os
 
 
-def markdown_to_text(markdown_string):
-    """Converts markdown text to plain text."""
-    html = markdown.markdown(markdown_string)
-    # Remove HTML tags using regex
-    text = re.sub('<[^<]+?>', '', html)
-    return text
+# ... 其他函数保持不变 ...
 
+# 定义标签列表
+# label_list = ['O', 'B-Environmental', 'I-Environmental', 'B-Social', 'I-Social', 'B-Governance', 'I-Governance']
+# label2id = {label: i for i, label in enumerate(label_list)}
+# id2label = {i: label for i, label in enumerate(label_list)}
 
-tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
+def read_markdown_file(file_path):
+    """读取 Markdown 文件并返回其内容"""
+    with open(file_path, 'r', encoding='utf-8') as file:
+        return file.read()
 
-def tokenize_and_align_labels(texts, labels_list):
-    tokenized_inputs = tokenizer(
-        texts,
-        padding='max_length',
-        truncation=True,
-        max_length=128,
-        is_split_into_words=False,
-        return_offsets_mapping=True,
-    )
-    offset_mappings = tokenized_inputs.pop("offset_mapping")
-    token_labels = []
-    for i, offsets in enumerate(offset_mappings):
-        labels = labels_list[i]
-        label_ids = []
-        for offset in offsets:
-            if offset[0] == offset[1]:
-                label_ids.append(-100)  # Special tokens
-            else:
-                # Assign label based on character offsets
-                label_ids.append(labels.get(offset[0], 'O'))
-        token_labels.append(label_ids)
-    tokenized_inputs["labels"] = token_labels
-    return tokenized_inputs
+def process_markdown_files(directory):
+    """处理指定目录中的所有 Markdown 文件"""
+    texts = []
+    for filename in os.listdir(directory):
+        if filename.endswith('.md'):
+            file_path = os.path.join(directory, filename)
+            markdown_content = read_markdown_file(file_path)
+            texts.append(markdown_content)
+    return texts
 
-# Example data
+# 示例数据
 texts = [
     markdown_to_text("# Company Report\nThe company reduced its carbon footprint."),
     markdown_to_text("# Sustainability\nNew policies for social welfare were introduced."),
 ]
 
-# Example labels in the form of {char_index: label}
+# 示例标签
 labels_list = [
     {31: 'B-Environmental', 37: 'I-Environmental'},  # 'carbon footprint'
     {35: 'B-Social', 41: 'I-Social'},  # 'social welfare'
 ]
 
-# Tokenize and align labels
+# 初始化tokenizer
+tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
+
+# 标记化并对齐标签
 tokenized_dataset = tokenize_and_align_labels(texts, labels_list)
 
-dataset = Dataset.from_dict(tokenized_dataset)
+# 打印tokenized_dataset以检查内容
+print("Tokenized dataset (first few items):")
+for key, value in tokenized_dataset.items():
+    print(f"{key}: {value[:2]}")  # 只打印前两个项目
+
+# 定义特征
+features = Features({
+    'input_ids': Sequence(Value('int32')),
+    'attention_mask': Sequence(Value('int8')),
+    'labels': Sequence(ClassLabel(num_classes=len(label_list), names=label_list))
+})
+
+# 创建数据集
+dataset = Dataset.from_dict(tokenized_dataset, features=features)
 
 print(dataset)
 
-
-num_labels = 5  # Adjust based on your label set
+# 加载预训练模型
 model = AutoModelForTokenClassification.from_pretrained(
-    'bert-base-uncased',
-    num_labels=num_labels
+    "bert-base-uncased", 
+    num_labels=len(label_list),
+    id2label=id2label,
+    label2id=label2id
 )
 
-label_list = ['O', 'B-Environmental', 'I-Environmental', 'B-Social', 'I-Social']
-id2label = {i: label for i, label in enumerate(label_list)}
-label2id = {label: i for i, label in enumerate(label_list)}
-
-
-model.config.id2label = id2label
-model.config.label2id = label2id
-
+# 设置训练参数
 training_args = TrainingArguments(
-    output_dir='./results',
+    output_dir="./results",
+    evaluation_strategy="epoch",
+    learning_rate=2e-5,
+    per_device_train_batch_size=16,
+    per_device_eval_batch_size=16,
     num_train_epochs=3,
-    per_device_train_batch_size=4,
-    logging_dir='./logs',
-    logging_steps=10,
-    evaluation_strategy="no",
-    save_strategy="no",
+    weight_decay=0.01,
 )
 
-data_collator = DataCollatorForTokenClassification(tokenizer)
-
+# 初始化Trainer
 trainer = Trainer(
     model=model,
     args=training_args,
     train_dataset=dataset,
+    eval_dataset=dataset,
     tokenizer=tokenizer,
-    data_collator=data_collator,
+    data_collator=DataCollatorForTokenClassification(tokenizer),
 )
 
+# 训练模型
 trainer.train()
+
+# 保存模型
+trainer.save_model("./esg_ner_model")
 
 def extract_esg_data(markdown_text):
     text = markdown_to_text(markdown_text)
@@ -114,4 +124,31 @@ def extract_esg_data(markdown_text):
         label = id2label[pred]
         esg_data.append((token, label))
     return esg_data
+
+# 使用示例
+esg_report_dir = 'ESG_report'  # 请确保这是正确的路径
+processed_texts = process_markdown_files(esg_report_dir)
+
+# 打印处理后的文本数量
+print(f"处理了 {len(processed_texts)} 个 Markdown 文件")
+
+# 如果需要，可以打印每个处理后的文本的一部分
+for i, text in enumerate(processed_texts):
+    print(f"文件 {i+1} 的前100个字符: {text[:100]}...")
+    
+
+
+# 主程序
+if __name__ == "__main__":
+    # 在这里定义文件路径或目录
+    file_path = 'ESG_report/tesla.md'  # 单个文件的例子
+    # file_path = 'ESG_report'  # 整个目录的例子
+
+    # 处理 Markdown 文件
+    processed_texts = process_markdown_files(file_path)
+
+    print(f"处理了 {len(processed_texts)} 个 Markdown 文件")
+
+    # ... [后续代码保持不变] ...
+
 
