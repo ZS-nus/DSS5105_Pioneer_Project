@@ -7,6 +7,7 @@
 
 import markdown
 import re
+from bs4 import BeautifulSoup
 from transformers import AutoTokenizer
 from datasets import Dataset, Features, Sequence, Value, ClassLabel
 from transformers import AutoModelForTokenClassification
@@ -22,18 +23,19 @@ import os
 # id2label = {i: label for i, label in enumerate(label_list)}
 
 def read_markdown_file(file_path):
-    """读取 Markdown 文件并返回其内容"""
+    """Read a Markdown file and return its content"""
     with open(file_path, 'r', encoding='utf-8') as file:
         return file.read()
 
 def process_markdown_files(directory):
-    """处理指定目录中的所有 Markdown 文件"""
+    """Process all Markdown files in the specified directory"""
     texts = []
     for filename in os.listdir(directory):
         if filename.endswith('.md'):
             file_path = os.path.join(directory, filename)
             markdown_content = read_markdown_file(file_path)
-            texts.append(markdown_content)
+            plain_text = markdown_to_text(markdown_content)
+            texts.append(plain_text)
     return texts
 
 # 示例数据
