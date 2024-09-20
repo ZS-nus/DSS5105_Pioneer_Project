@@ -50,6 +50,6 @@ def summarize_txt(file_path, output_file):
 # 示例调用
 if __name__ == "__main__":
     # 使用txt文件路径
-    input_file = '../ESG_reports/tesla.txt'
-    output_file = '../ESG_reports/tesla_summary.txt'
+    input_file = '../../ESG_reports/tesla.txt' 
+    output_file = '../../ESG_reports/tesla_summary.txt'
     summarize_txt(input_file, output_file)
