@@ -139,5 +139,5 @@ def process_and_classify_esg(file_path):
 # Example usage
 if __name__ == "__main__":
     # 使用实际的文件路径
-    file_path = '../ESG_reports/tesla.md'
+    file_path = '../ESG_reports/seres_car.md'
     process_and_classify_esg(file_path)

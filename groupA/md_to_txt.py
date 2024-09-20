@@ -15,12 +15,12 @@ def markdown_to_text(markdown_string):
     return text
 
 # 读取Markdown文件
-with open('../ESG_reports/tesla.md', 'r', encoding='utf-8') as file:
+with open('../ESG_reports/seres_car.md', 'r', encoding='utf-8') as file:
     markdown_content = file.read()
 
 # 转换为纯文本
 plain_text = markdown_to_text(markdown_content)
 
 # 将纯文本保存为TXT文件
-with open('../ESG_reports/tesla.txt', 'w', encoding='utf-8') as text_file:
+with open('../ESG_reports/seres_car.txt', 'w', encoding='utf-8') as text_file:
     text_file.write(plain_text)

@@ -79,10 +79,10 @@ def save_as_markdown(text, output_file, output_dir="."):
 
 if __name__ == "__main__":
     # Example usage
-    pdf_path = "../ESG_reports/Tesla_ESG_2023.pdf"
+    pdf_path = "../ESG_reports/seres_car.pdf"
     print(f"Extracting text from {pdf_path}...")
     text = extract_text_from_pdf(pdf_path)
-    output_md = "tesla.md"
+    output_md = "seres_car.md"
     output_dir = "../ESG_reports"  # Directory to save the markdown file
     save_as_markdown(text, output_md, output_dir)
     print("Process completed.")
