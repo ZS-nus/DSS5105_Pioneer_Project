@@ -1,4 +1,5 @@
 import re
+import jionlp as jio
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
 def read_file(file_path):
@@ -8,26 +9,36 @@ def read_file(file_path):
 
 def preprocess_text(text):
     """对文本进行预处理，去除重复和无意义的内容"""
-    # 1. 去除重复行
+    # 去除重复行
     lines = text.splitlines()
-    unique_lines = list(dict.fromkeys(lines))  # 保留唯一行
+    unique_lines = list(dict.fromkeys(lines))
 
-    # 2. 去除特定关键词的重复
+    # 删除含有无意义的字符
+    unique_lines = [line for line in unique_lines if len(line.strip()) > 1]
+
+    # 合并文本并去除多余空格
     processed_text = ' '.join(unique_lines)
-    processed_text = re.sub(r'(数据来源)+', '', processed_text)  # 去除"数据来源"的重复
-    processed_text = re.sub(r'(层)+', '', processed_text)  # 去除"层"的重复
-    processed_text = re.sub(r'(件)+', '', processed_text)  # 去除"件"的重复
-    processed_text = re.sub(r'(优势)+', '', processed_text)  # 去除"优势"的重复
-    processed_text = re.sub(r'(<extra_id_\d>)+', '', processed_text)  # 去除无用的标记
+    processed_text = re.sub(r'\s+', ' ', processed_text).strip()
 
-    # 3. 去除多余的空格和无意义字符
-    processed_text = re.sub(r'\s+', ' ', processed_text).strip()  # 去除多余的空格
+    # 进一步去除特殊字符和标记
+    processed_text = re.sub(r'[”“’‘]', '', processed_text)  # 去除中文引号
+    processed_text = re.sub(r'[^\w\s.,]', '', processed_text)  # 去除非字母、数字和常规标点符号
 
     return processed_text
 
-def generate_summary(text, model_name="uer/t5-small-chinese-cluecorpussmall", max_length=150, num_beams=4):
-    """使用预训练的中文T5模型生成摘要"""
-    # 使用 AutoTokenizer 和 AutoModelForSeq2SeqLM 自动加载分词器和模型
+def extract_key_sentences(text, max_sentences=5):
+    """使用jioNLP抽取重要句子，手动控制句子数量"""
+    extracted_summary = jio.summary.extract_summary(text)
+    
+    # 将抽取出的摘要分割成句子
+    sentences = re.split(r'(。|！|\!|\.|？|\?)', extracted_summary)
+    
+    # 根据max_sentences控制返回的句子数量
+    selected_sentences = ''.join(sentences[:2 * max_sentences])  # 保留句子
+    return selected_sentences
+
+def generate_summary_with_t5(text, model_name="uer/t5-small-chinese-cluecorpussmall", max_length=200):
+    """使用AutoTokenizer和AutoModel生成总结"""
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
 
@@ -35,13 +46,7 @@ def generate_summary(text, model_name="uer/t5-small-chinese-cluecorpussmall", ma
     inputs = tokenizer.encode("summarize: " + text, return_tensors="pt", max_length=512, truncation=True)
 
     # 生成摘要
-    summary_ids = model.generate(
-        inputs, 
-        max_length=max_length, 
-        num_beams=num_beams, 
-        length_penalty=2.0, 
-        early_stopping=True
-    )
+    summary_ids = model.generate(inputs, max_length=max_length, num_beams=5, early_stopping=True)
 
     # 解码生成的摘要
     summary = tokenizer.decode(summary_ids[0], skip_special_tokens=True)
@@ -51,7 +56,7 @@ def save_summary_to_file(summary, output_file):
     """保存生成的摘要到文件"""
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(summary)
-    print(f"Summary successfully saved to {output_file}")
+    print(f"摘要已成功保存到 {output_file}")
 
 def summarize_txt(file_path, output_file):
     """读取txt文件、预处理文本、生成摘要并保存"""
@@ -61,8 +66,11 @@ def summarize_txt(file_path, output_file):
     # 预处理文本
     preprocessed_text = preprocess_text(input_text)
 
-    # 使用中文T5模型生成摘要
-    generated_summary = generate_summary(preprocessed_text, model_name="uer/t5-small-chinese-cluecorpussmall", max_length=200, num_beams=5)
+    # 使用jioNLP抽取重要句子
+    key_sentences = extract_key_sentences(preprocessed_text, max_sentences=5)
+
+    # 使用T5模型进一步总结抽取出的内容
+    generated_summary = generate_summary_with_t5(key_sentences)
 
     # 保存摘要到文件
     save_summary_to_file(generated_summary, output_file)
