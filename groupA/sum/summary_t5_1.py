@@ -89,7 +89,7 @@ def summarize_txt(file_path, output_file):
 # 示例调用：
 if __name__ == "__main__":
     # 使用txt文件的路径，确保路径正确
-    input_file = '../../ESG_reports/tesla.txt' 
-    output_file = '../../ESG_reports/tesla_summary.txt'
+    input_file = '../../ESG_reports/Apple.txt' 
+    output_file = '../../ESG_reports/Apple.txt'
     summarize_txt(input_file, output_file)
 
