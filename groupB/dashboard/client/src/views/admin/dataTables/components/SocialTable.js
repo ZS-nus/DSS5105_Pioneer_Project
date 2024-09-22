@@ -90,8 +90,8 @@ export default function ComplexTable(props) {
         </Flex>
       ),
     }),
-    columnHelper.accessor('GHGEmissions', {
-      id: 'ghg_emissions',
+    columnHelper.accessor('EmployeeCount', {
+      id: 'employee_count',
       header: () => (
         <Text
           justifyContent="space-between"
@@ -99,7 +99,7 @@ export default function ComplexTable(props) {
           fontSize={{ sm: '10px', lg: '12px' }}
           color="gray.400"
         >
-          GHG (MT of CO2e)
+          Employee Count
         </Text>
       ),
       cell: (info) => (
@@ -110,8 +110,8 @@ export default function ComplexTable(props) {
         </Flex>
       ),
     }),
-    columnHelper.accessor('EnergyConsumption', {
-      id: 'energy_consumption',
+    columnHelper.accessor('Male', {
+      id: 'male_employees',
       header: () => (
         <Text
           justifyContent="space-between"
@@ -119,7 +119,27 @@ export default function ComplexTable(props) {
           fontSize={{ sm: '10px', lg: '12px' }}
           color="gray.400"
         >
-          Energy (MWh)
+          Gender Diversity
+        </Text>
+      ),
+      cell: (info) => (
+        <Flex align="center">
+          <Text color={textColor} fontSize="sm" fontWeight="700">
+            {info.getValue()}
+          </Text>
+        </Flex>
+      ),
+    }),
+    columnHelper.accessor('WaterUsage', {
+      id: 'water_consumption',
+      header: () => (
+        <Text
+          justifyContent="space-between"
+          align="center"
+          fontSize={{ sm: '10px', lg: '12px' }}
+          color="gray.400"
+        >
+          Age Diversity
         </Text>
       ),
       cell: (info) => (
@@ -163,7 +183,7 @@ export default function ComplexTable(props) {
           fontWeight="700"
           lineHeight="100%"
         >
-          Environmental Data
+          Social Data
         </Text>
       </Flex>
       <Box>

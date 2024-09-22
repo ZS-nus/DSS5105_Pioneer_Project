@@ -1,43 +1,113 @@
-import numpy as np
-import pandas as pd
-import pymysql
+import os
+from dotenv import load_dotenv
 import mysql.connector
+from mysql.connector import pooling
+import pandas as pd
+import base64
+from sqlalchemy import create_engine
+from datetime import datetime
 
-endpoint = 'my-rds-instance.123456789012.us-east-1.rds.amazonaws.com'
-username = 'admin'
-password = 'mypassword'
-database = 'mydatabase'
+def connect_to_db():
+    load_dotenv()
 
-# Set the database credentials
-host = '<YOUR_RDS_ENDPOINT>'
-port = 3306
-user = '<YOUR_DATABASE_USERNAME>'
-password = '<YOUR_DATABASE_PASSWORD>'
-database = '<YOUR_DATABASE_NAME>'
+    db_config = {
+        'host': os.getenv('DB_HOST'),
+        'port': int(os.getenv('DB_PORT', 3306)),
+        'user': os.getenv('DB_USER'),
+        'password': os.getenv('DB_PASSWORD'),
+        'database': os.getenv('DB_NAME'),
+        'pool_size': 10,
+        'pool_name': 'mypool',
+        'charset': 'utf8mb4',
+        'collation': 'utf8mb4_general_ci'
+    }
 
-# Connect to the database
-connection = pymysql.connect(
-    host=host,
-    port=port,
-    user=user,
-    password=password,
-    database=database
-)
+    ssl_key_base64 = os.getenv('SSL_KEY_BASE64')
+    if ssl_key_base64:
+        ssl_cert = base64.b64decode(ssl_key_base64).decode('ascii')
+        db_config['ssl_ca'] = ssl_cert
+        db_config['ssl_verify_cert'] = False
 
-# Create a cursor object
-cursor = connection.cursor()
+    print(f"Connecting to {db_config['host']}:{db_config['port']} as {db_config['user']}")
 
-# Execute a SQL query
-cursor.execute('SELECT * FROM environment')
+    try:
+        pool = mysql.connector.pooling.MySQLConnectionPool(**db_config)
+        print("Successfully connected to the database.")
+        return pool
+    except mysql.connector.Error as err:
+        print(f"Error connecting to the database: {err}")
+        return None
 
-# Fetch the results
-results = cursor.fetchall()
+def execute_query(pool, query, params=None):
+    max_retries = 3
+    retries = 0
 
-# Print the results
-for result in results:
-    print(result)
+    while retries < max_retries:
+        try:
+            with pool.get_connection() as connection:
+                with connection.cursor(dictionary=True) as cursor:
+                    if params:
+                        cursor.execute(query, params)
+                    else:
+                        cursor.execute(query)
+                    result = cursor.fetchall()
+                    return result
+        except mysql.connector.Error as err:
+            print(f"Error executing query (attempt {retries + 1}): {err}")
+            retries += 1
+            if retries == max_retries:
+                raise
+            # Wait for 1 second before retrying
+            import time
+            time.sleep(1)
 
-# Close the cursor and connection
-cursor.close()
-connection.close()
+def fetch_company_info(pool):
+    query = "SELECT * FROM company_info"
+    return execute_query(pool, query)
+
+def fetch_environmental_data(pool):
+    query = "SELECT * FROM environment"
+
+    return execute_query(pool, query)
+
+
+def fetch_social_data(pool):
+    query = "SELECT * FROM social"
+
+    return execute_query(pool, query)
+
+
+def update_table(pool, df, table_name):
+    load_dotenv()
+    
+    db_config = {
+        'host': os.getenv('DB_HOST'),
+        'port': int(os.getenv('DB_PORT', 3306)),
+        'user': os.getenv('DB_USER'),
+        'password': os.getenv('DB_PASSWORD'),
+        'database': os.getenv('DB_NAME'),
+    }
+    
+    # Create SQLAlchemy engine
+    engine = create_engine(f"mysql+pymysql://{db_config['user']}:{db_config['password']}@{db_config['host']}:{db_config['port']}/{db_config['database']}")
+    
+    try:
+        # Convert float64 columns to float
+        float_columns = df.select_dtypes(include=['float64']).columns
+        df[float_columns] = df[float_columns].astype(float)
+
+        # Add update_time column
+        df['update_time'] = datetime.now()
+
+        # Write the DataFrame to the specified table
+        df.to_sql(table_name, engine, if_exists='replace', index=False)
+        print(f"Successfully updated the {table_name} table in the database.")
+    except Exception as e:
+        print(f"An error occurred while updating the {table_name} table: {str(e)}")
+    finally:
+        # Close the database connection
+        engine.dispose()
+
+
+
 

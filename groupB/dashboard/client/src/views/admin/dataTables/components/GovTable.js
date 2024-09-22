@@ -99,7 +99,7 @@ export default function ComplexTable(props) {
           fontSize={{ sm: '10px', lg: '12px' }}
           color="gray.400"
         >
-          GHG (MT of CO2e)
+          Board Diversity
         </Text>
       ),
       cell: (info) => (
@@ -119,7 +119,27 @@ export default function ComplexTable(props) {
           fontSize={{ sm: '10px', lg: '12px' }}
           color="gray.400"
         >
-          Energy (MWh)
+          Certifications
+        </Text>
+      ),
+      cell: (info) => (
+        <Flex align="center">
+          <Text color={textColor} fontSize="sm" fontWeight="700">
+            {info.getValue()}
+          </Text>
+        </Flex>
+      ),
+    }),
+    columnHelper.accessor('WaterUsage', {
+      id: 'water_consumption',
+      header: () => (
+        <Text
+          justifyContent="space-between"
+          align="center"
+          fontSize={{ sm: '10px', lg: '12px' }}
+          color="gray.400"
+        >
+          Ethical Behaviour
         </Text>
       ),
       cell: (info) => (
@@ -163,7 +183,7 @@ export default function ComplexTable(props) {
           fontWeight="700"
           lineHeight="100%"
         >
-          Environmental Data
+          Governance Data
         </Text>
       </Flex>
       <Box>

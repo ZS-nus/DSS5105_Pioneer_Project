@@ -87,3 +87,82 @@ VALUES
 (8, 2023, 5165168.20, 5793823.70, 8191328.40, 47858.1, 604277.10),
 (8, 2022, 5046045.10, 5739723.70, 8152481.90, 34113.4, 336419.50),
 (8, 2021, 4452650.10, 5871780.70, 6201651.60, 30173.6, 63000.00);
+
+
+-- Create the social_data table
+CREATE TABLE IF NOT EXISTS social (
+    CompanyID INT NOT NULL,
+    ReportYear INT NOT NULL,
+    EmployeeCount INT,
+    MalePercentage DECIMAL(5,2),
+    FemalePercentage DECIMAL(5,2),
+    AgeUnder30 DECIMAL(5,2),
+    Age30to50 DECIMAL(5,2),
+    AgeAbove50 DECIMAL(5,2),
+    TrainingHours DECIMAL(10,1),
+    CommunityInvestmentUSD DECIMAL(12,0),
+    PRIMARY KEY (CompanyID, ReportYear),
+    FOREIGN KEY (CompanyID) REFERENCES company_info(CompanyID)
+);
+
+-- Insert data into the social_data table
+INSERT INTO social (CompanyID, ReportYear, EmployeeCount, MalePercentage, FemalePercentage, AgeUnder30, Age30to50, AgeAbove50, TrainingHours, CommunityInvestmentUSD)
+VALUES
+(7, 2023, 204000, 65.90, 34.10, 40, 35, 15, NULL, NULL),
+(7, 2022, 190234, 65.90, 34.10, 40, 35, 15, NULL, NULL),
+(7, 2021, 186779, 66.10, 33.90, 40, 35, 15, NULL, NULL),
+(7, 2020, 156500, 67.50, 32.50, 40, 35, 15, NULL, NULL),
+(7, 2019, 118899, 68.00, 32.00, 40, 35, 15, NULL, NULL),
+(6, 2022, 270372, 64.9, 35.1, 31, NULL, NULL, 914000, NULL),
+(6, 2021, 266673, 63.7, 36.3, 33.72, NULL, NULL, 818000, NULL),
+(6, 2020, 267937, 62.7, 37.3, 38, NULL, NULL, 734000, NULL),
+(3, 2023, 35116, 73.65, 26.35, 35.76, 63.51, 0.73, 172705, NULL),
+(3, 2022, 35997, 69.35, 30.65, 39.4, 59.74, 0.86, 302383, NULL),
+(3, 2021, 33415, 66.7, 33.3, 43.69, 55.51, 0.8, 363531, NULL),
+(3, 2020, 24810, NULL, NULL, 47.32, 52.14, 0.53, NULL, NULL),
+(5, 2023, 67317, 63.30, 36.70, NULL, NULL, NULL, NULL, NULL),
+(5, 2022, 86482, 62.90, 37.10, NULL, NULL, NULL, NULL, NULL),
+(5, 2021, 71970, 63.30, 36.70, NULL, NULL, NULL, NULL, NULL),
+(5, 2020, 58604, 63.00, 37.00, NULL, NULL, NULL, NULL, NULL),
+(1, 2023, 161000, 64.41, 35.59, NULL, NULL, NULL, NULL, NULL),
+(1, 2022, 164000, 64.60, 35.30, NULL, NULL, NULL, NULL, NULL),
+(1, 2021, 154000, 65.20, 34.80, NULL, NULL, NULL, NULL, NULL),
+(1, 2020, 147000, 66.00, 34.00, NULL, NULL, NULL, NULL, NULL),
+(1, 2019, 137000, 67.00, 33.00, NULL, NULL, NULL, NULL, NULL),
+(4, 2023, 282200, 62.60, 37.40, NULL, NULL, NULL, 23100000, NULL),
+(4, 2022, 288300, 62.80, 37.20, NULL, NULL, NULL, 24300000, NULL),
+(4, 2021, 282100, 63.30, 36.70, NULL, NULL, NULL, 22500000, NULL),
+(4, 2020, 345900, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(4, 2019, 352600, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(2, 2023, 69500, 63.00, 37.00, 14, 72, 14, 625500, 17897690),
+(2, 2022, 77000, 63.00, 37.00, 15, 72, 13, 462000, 28340914),
+(2, 2021, 75000, 63.00, 37.00, 15, 73, 12, 375000, 20867596),
+(2, 2020, 71500, 64.00, 36.00, 15, 73, 12, NULL, 11831274),
+(2, 2019, 63000, 64.00, 36.00, NULL, NULL, NULL, NULL, 14482776),
+(8, 2023, 56780, 71.27, 28.73, 31.38, 68.02, 0.60, 1465109.1, NULL),
+(8, 2022, 61328, 71.24, 28.76, 36.97, 62.61, 0.42, 2225679.7, NULL),
+(8, 2021, 68226, 70.95, 29.05, 41.93, 57.78, 0.29, 2795780.2, NULL);
+
+
+-- Drop the existing e_score table if it exists
+DROP TABLE IF EXISTS e_score;
+
+-- Create the e_score table with all columns
+CREATE TABLE e_score (
+    CompanyID INT NOT NULL,
+    ReportYear INT NOT NULL,
+    Energy_score DECIMAL(5,2),
+    Water_score DECIMAL(5,2),
+    GHG_score DECIMAL(5,2),
+    Waste_score DECIMAL(5,2),
+    Renewable_score DECIMAL(5,2),
+    Energy_score_weighted DECIMAL(5,2),
+    Water_score_weighted DECIMAL(5,2),
+    GHG_score_weighted DECIMAL(5,2),
+    Waste_score_weighted DECIMAL(5,2),
+    Renewable_score_weighted DECIMAL(5,2),
+    env_score_weighted DECIMAL(5,2),
+    PRIMARY KEY (CompanyID, ReportYear),
+    FOREIGN KEY (CompanyID) REFERENCES company_info(CompanyID)
+);
+
