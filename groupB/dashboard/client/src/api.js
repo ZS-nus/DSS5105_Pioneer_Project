@@ -1,0 +1,36 @@
+import axios from 'axios';
+
+const API_BASE_URL = 'http://localhost:5105/api';
+
+const api = axios.create({
+  baseURL: API_BASE_URL,
+  headers: {
+    'Content-Type': 'application/json',
+    // Add any other default headers here
+  },
+});
+
+export const loginUser = (credentials) => {
+  return api.post('/login', credentials);
+};
+
+export const fetchGovernanceData = () => {
+    return api.get('/table/governance');
+  };
+
+  export const fetchCompanyData = () => {
+    return api.get('/table/company');
+  };
+
+  export const fetchEnvironmentalData = () => {
+    return api.get('/table/environment');
+  };
+
+  export const fetchSocialData = () => {
+    return api.get('/table/social');
+  };
+
+
+// Add other API calls as needed
+
+export default api;

@@ -5,9 +5,6 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 
 const mysql = require('mysql2/promise');
-const fs = require('fs');
-const path = require('path');
-
 const serviceAccount = require('../pioneer_key.json');
 
 // Update the dbConfig object
@@ -181,6 +178,48 @@ app.get('/api/table/environment', async (req, res) => {
     }
   } catch (error) {
     console.error('Error fetching environmental data:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
+// Add this new endpoint for social data
+app.get('/api/table/social', async (req, res) => {
+  try {
+    console.log('Fetching social data...');
+    const query = `
+      SELECT 
+        c.CompanyName,
+        s.CompanyID,
+        s.ReportYear,
+        s.EmployeeCount,
+        ROUND(s.MalePercentage, 2) AS MalePercentage,
+        ROUND(s.FemalePercentage, 2) AS FemalePercentage,
+        ROUND(s.AgeUnder30, 2) AS AgeUnder30,
+        ROUND(s.Age30to50, 2) AS Age30to50,
+        ROUND(s.AgeAbove50, 2) AS AgeAbove50,
+        ROUND(s.TrainingHours, 1) AS TrainingHours,
+        ROUND(s.CommunityInvestmentUSD) AS CommunityInvestmentUSD
+      FROM social s
+      INNER JOIN company_info c ON s.CompanyID = c.CompanyID
+      INNER JOIN (
+        SELECT CompanyID, MAX(ReportYear) as LatestYear
+        FROM social
+        GROUP BY CompanyID
+      ) latest ON s.CompanyID = latest.CompanyID AND s.ReportYear = latest.LatestYear
+      ORDER BY c.CompanyName
+    `;
+
+    const rows = await executeQuery(query);
+    
+    if (rows.length > 0) {
+      console.log('First social data row:', rows[0]);
+      res.json(rows);
+    } else {
+      console.log('No social data found.');
+      res.status(404).json({ error: 'No data found' });
+    }
+  } catch (error) {
+    console.error('Error fetching social data:', error);
     res.status(500).json({ error: 'Internal server error' });
   }
 });

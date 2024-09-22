@@ -1,6 +1,6 @@
 'use client';
 import React, { useEffect } from 'react';
-import axios from 'axios';
+import { fetchGovernanceData } from '../../../../api';
 import {
   Box,
   Flex,
@@ -36,7 +36,7 @@ export default function ComplexTable(props) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:5105/api/table/environment');
+        const response = await fetchGovernanceData();
         setData(response.data);
         setLoading(false);
       } catch (err) {

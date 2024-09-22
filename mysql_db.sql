@@ -144,25 +144,26 @@ VALUES
 (8, 2021, 68226, 70.95, 29.05, 41.93, 57.78, 0.29, 2795780.2, NULL);
 
 
--- Drop the existing e_score table if it exists
-DROP TABLE IF EXISTS e_score;
+    -- Drop the existing e_score table if it exists
+    DROP TABLE IF EXISTS e_score;
 
--- Create the e_score table with all columns
-CREATE TABLE e_score (
-    CompanyID INT NOT NULL,
-    ReportYear INT NOT NULL,
-    Energy_score DECIMAL(5,2),
-    Water_score DECIMAL(5,2),
-    GHG_score DECIMAL(5,2),
-    Waste_score DECIMAL(5,2),
-    Renewable_score DECIMAL(5,2),
-    Energy_score_weighted DECIMAL(5,2),
-    Water_score_weighted DECIMAL(5,2),
-    GHG_score_weighted DECIMAL(5,2),
-    Waste_score_weighted DECIMAL(5,2),
-    Renewable_score_weighted DECIMAL(5,2),
-    env_score_weighted DECIMAL(5,2),
-    PRIMARY KEY (CompanyID, ReportYear),
-    FOREIGN KEY (CompanyID) REFERENCES company_info(CompanyID)
-);
+    -- Create the e_score table with all columns including update_time
+    CREATE TABLE e_score (
+        CompanyID INT NOT NULL,
+        ReportYear INT NOT NULL,
+        Energy_score DECIMAL(5,2),
+        Water_score DECIMAL(5,2),
+        GHG_score DECIMAL(5,2),
+        Waste_score DECIMAL(5,2),
+        Renewable_score DECIMAL(5,2),
+        Energy_score_weighted DECIMAL(5,2),
+        Water_score_weighted DECIMAL(5,2),
+        GHG_score_weighted DECIMAL(5,2),
+        Waste_score_weighted DECIMAL(5,2),
+        Renewable_score_weighted DECIMAL(5,2),
+        env_score_weighted DECIMAL(5,2),
+        update_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+        PRIMARY KEY (CompanyID, ReportYear),
+        FOREIGN KEY (CompanyID) REFERENCES company_info(CompanyID)
+    );
 

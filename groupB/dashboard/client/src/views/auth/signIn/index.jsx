@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import axios from 'axios';
+// Import the loginUser function from api.js
+import { loginUser } from "../../../api";
+// Remove the axios import as it's no longer needed directly in this file
+// import axios from 'axios';
 // Chakra imports
 import {
   Box,
@@ -18,11 +21,11 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 // Custom components
-import { HSeparator } from "components/separator/Separator";
+// import { HSeparator } from "components/separator/Separator";
 import DefaultAuth from "layouts/auth/Default";
 // Assets
 import illustration from "assets/img/auth/login_bg.jpg";
-import { FcGoogle } from "react-icons/fc";
+// import { FcGoogle } from "react-icons/fc";
 import { MdOutlineRemoveRedEye } from "react-icons/md";
 import { RiEyeCloseLine } from "react-icons/ri";
 
@@ -30,8 +33,8 @@ function SignIn() {
   // Chakra color mode
   const textColor = useColorModeValue("navy.700", "white");
   const textColorSecondary = "gray.400";
-  const textColorDetails = useColorModeValue("navy.700", "secondaryGray.600");
-  const textColorBrand = useColorModeValue("brand.500", "white");
+  // const textColorDetails = useColorModeValue("navy.700", "secondaryGray.600");
+  // const textColorBrand = useColorModeValue("brand.500", "white");
   const brandStars = useColorModeValue("brand.500", "brand.400");
   const [show, setShow] = React.useState(false);
   const handleClick = () => setShow(!show);
@@ -56,7 +59,8 @@ function SignIn() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5105/api/login', { email, password });
+      // Use the imported loginUser function instead of axios.post
+      const response = await loginUser({ email, password });
       console.log('Login successful:', response.data);
       if (response.data && response.data.message) {
         localStorage.setItem('isAuthenticated', 'true');
