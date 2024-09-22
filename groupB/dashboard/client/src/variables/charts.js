@@ -7,6 +7,18 @@ export const barChartDataDailyTraffic = [
   },
 ];
 
+export const createBarChartData = (data) => {
+  if (!Array.isArray(data)) {
+    console.error("Expected data to be an array, but got:", data);
+    return { name: "Environmental Scores", data: [] }; // Return an empty array if not valid
+  }
+
+  return {
+    name: "Environmental Scores",
+    data: data.map(item => item.env_score_weighted || 0), // Default to 0 if property is missing
+  };
+};
+
 export const barChartOptionsDailyTraffic = {
   chart: {
     toolbar: {
@@ -27,7 +39,7 @@ export const barChartOptionsDailyTraffic = {
     theme: "dark",
   },
   xaxis: {
-    categories: ["00", "04", "08", "12", "14", "16", "18"],
+    categories: [],
     show: false,
     labels: {
       show: true,
@@ -94,6 +106,102 @@ export const barChartOptionsDailyTraffic = {
   },
   dataLabels: {
     enabled: false,
+  },
+  plotOptions: {
+    bar: {
+      borderRadius: 10,
+      columnWidth: "40px",
+    },
+  },
+};
+
+export const e_barChartOptionsDailyTraffic = {
+  chart: {
+    toolbar: {
+      show: false,
+    },
+  },
+  tooltip: {
+    style: {
+      fontSize: "12px",
+      fontFamily: undefined,
+    },
+    onDatasetHover: {
+      style: {
+        fontSize: "12px",
+        fontFamily: undefined,
+      },
+    },
+    theme: "dark",
+  },
+  xaxis: {
+    categories: [],
+    show: true,
+    labels: {
+      show: true,
+      style: {
+        colors: "#1B1B1B",
+        fontSize: "14px",
+        fontWeight: "500",
+      },
+    },
+    axisBorder: {
+      show: false,
+    },
+    axisTicks: {
+      show: false,
+    },
+  },
+  yaxis: {
+    show: false,
+    color: "black",
+    labels: {
+      show: true,
+      style: {
+        colors: "#CBD5E0",
+        fontSize: "14px",
+      },
+    },
+  },
+  grid: {
+    show: true,
+    strokeDashArray: 5,
+    yaxis: {
+      lines: {
+        show: true,
+      },
+    },
+    xaxis: {
+      lines: {
+        show: false,
+      },
+    },
+  },
+  fill: {
+    type: "gradient",
+    gradient: {
+      type: "vertical",
+      shadeIntensity: 1,
+      opacityFrom: 0.7,
+      opacityTo: 0.9,
+      colorStops: [
+        [
+          {
+            offset: 0,
+            color: "#10451D",
+            opacity: 1,
+          },
+          {
+            offset: 100,
+            color: "#6EDE8A",
+            opacity: 1,
+          },
+        ],
+      ],
+    },
+  },
+  dataLabels: {
+    enabled: true,
   },
   plotOptions: {
     bar: {

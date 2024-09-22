@@ -1,4 +1,4 @@
-
+import React, { useEffect, useState } from "react";
 import {
   Avatar,
   Box,
@@ -10,12 +10,9 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 // Assets
-import Usa from "assets/img/dashboards/usa.png";
-// Custom components
 import MiniCalendar from "components/calendar/MiniCalendar";
 import MiniStatistics from "components/card/MiniStatistics";
 import IconBox from "components/icons/IconBox";
-import React from "react";
 import {
   MdAddTask,
   MdAttachMoney,
@@ -29,14 +26,59 @@ import PieCard from "views/admin/default/components/PieCard";
 import Tasks from "views/admin/default/components/Tasks";
 import TotalSpent from "views/admin/default/components/TotalSpent";
 import WeeklyRevenue from "views/admin/default/components/WeeklyRevenue";
+import EBarChart from "views/admin/default/components/e_bar_chart";
 import {
   columnsDataCheck,
   columnsDataComplex,
 } from "views/admin/default/variables/columnsData";
 import tableDataCheck from "views/admin/default/variables/tableDataCheck.json";
 import tableDataComplex from "views/admin/default/variables/tableDataComplex.json";
+import { fetchEScoreData } from '../../../api'; // Import your API function
 
 export default function UserReports() {
+
+  const [e_score, setEScore] = useState([]); // State to store all fetched data
+  const [e_score_latest, setERateLatest] = useState([]); // State to store latest scores
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetchEScoreData(); // Call the API function
+        const data = response.data; // Access the data property of the response
+        console.log("Fetched Data:", data); // Log the fetched data
+
+        // Check if data is an array
+        if (!Array.isArray(data)) {
+          throw new Error("Fetched data is not an array");
+        }
+
+        setEScore(data); // Store the fetched data
+
+        // Process the data to get the latest scores
+        const latestScores = data.reduce((acc, current) => {
+          const existing = acc.find(item => item.CompanyName === current.CompanyName);
+          if (!existing || existing.ReportYear < current.ReportYear) {
+            // If no existing entry or current year is greater, update the entry
+            acc = acc.filter(item => item.CompanyName !== current.CompanyName); // Remove older entries
+            acc.push(current); // Add the current entry
+          }
+          return acc;
+        }, []);
+
+        // Sort the latest scores by env_score_weighted in ascending order
+        latestScores.sort((a, b) => a.env_score_weighted - b.env_score_weighted);
+
+        setERateLatest(latestScores); // Store the sorted latest scores
+
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+
   // Chakra Color Mode
   const brandColor = useColorModeValue("brand.500", "white");
   const boxBg = useColorModeValue("secondaryGray.300", "whiteAlpha.100");
@@ -60,7 +102,7 @@ export default function UserReports() {
           name='Earnings'
           value='$350.4'
         />
-        <MiniStatistics
+        {/* <MiniStatistics
           startContent={
             <IconBox
               w='56px'
@@ -73,9 +115,9 @@ export default function UserReports() {
           }
           name='Spend this month'
           value='$642.39'
-        />
-        <MiniStatistics growth='+23%' name='Sales' value='$574.34' />
-        <MiniStatistics
+        /> */}
+        {/* <MiniStatistics growth='+23%' name='Sales' value='$574.34' /> */}
+        {/* <MiniStatistics
           endContent={
             <Flex me='-16px' mt='10px'>
               <FormLabel htmlFor='balance'>
@@ -95,7 +137,7 @@ export default function UserReports() {
           }
           name='Your balance'
           value='$1,000'
-        />
+        /> */}
         <MiniStatistics
           startContent={
             <IconBox
@@ -123,10 +165,8 @@ export default function UserReports() {
           value='2935'
         />
       </SimpleGrid>
-
-      <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
-        <TotalSpent />
-        <WeeklyRevenue />
+      <SimpleGrid columns={{ base: 1, md: 1, xl: 1 }} gap='20px' mb='20px'>
+          <EBarChart data={e_score_latest} />
       </SimpleGrid>
       <SimpleGrid columns={{ base: 1, md: 1, xl: 2 }} gap='20px' mb='20px'>
         <CheckTable columnsData={columnsDataCheck} tableData={tableDataCheck} />

@@ -30,6 +30,18 @@ export const fetchGovernanceData = () => {
     return api.get('/table/social');
   };
 
+  export const fetchEScoreData = () => {
+    return api.get('/score/environment');
+  };
+
+  export const fetchSScoreData = () => {
+    return api.get('/score/social');
+  };
+
+  export const fetchGScoreData = () => {
+    return api.get('/score/governance');
+  };
+
 
 // Add other API calls as needed
 

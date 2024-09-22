@@ -224,6 +224,31 @@ app.get('/api/table/social', async (req, res) => {
   }
 });
 
+// Modify the /api/score/environment endpoint
+app.get('/api/score/environment', async (req, res) => {
+  try {
+    console.log('Fetching environmental score ...');
+    const query = `
+      SELECT 
+        c.CompanyName,
+        e.ReportYear,
+        ROUND(e.env_score_weighted,2) AS env_score_weighted
+      FROM e_score e
+      INNER JOIN company_info c ON e.CompanyID = c.CompanyID
+    `;
+    const rows = await executeQuery(query);
+    if (rows.length > 0) {
+      console.log('First e_score data row:', rows[0]);
+    } else {
+      console.log('No e_score data found.');
+    }
+    res.json(rows);
+  } catch (error) {
+    console.error('Error fetching e_score:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
 process.on('SIGINT', async () => {
   console.log('Shutting down gracefully...');
   if (pool) {
