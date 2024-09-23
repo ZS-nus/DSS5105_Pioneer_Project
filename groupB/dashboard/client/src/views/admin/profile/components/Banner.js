@@ -53,12 +53,7 @@ export default function Banner(props) {
         {job}
       </Text>
       <Flex w='max-content' mx='auto' mt='26px'>
-        <SimpleGrid columns='2' gap='20px'>
-          <Information
-            boxShadow={cardShadow}
-            title='Permission'
-            value='Full Access'
-          />
+        <SimpleGrid columns='1' gap='20px'>
           <Information
             boxShadow={cardShadow}
             title='Last login'

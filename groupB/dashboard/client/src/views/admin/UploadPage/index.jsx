@@ -38,8 +38,8 @@ export default function Overview() {
           total={100}
         />
       </Grid>
-
-      
+      <br></br>
+      <br></br>
 
       <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
         <UploadedReports
