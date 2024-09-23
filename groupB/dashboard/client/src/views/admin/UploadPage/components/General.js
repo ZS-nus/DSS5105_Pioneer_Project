@@ -23,31 +23,34 @@ export default function GeneralInformation(props) {
         fontSize='2xl'
         mt='10px'
         mb='4px'>
-        Project Information
+        ESG Data Extraction Model
       </Text>
       <Text color={textColorSecondary} fontSize='md' me='26px' mb='40px'>
-      This project focuses on automating the extraction and analysis of Environmental, Social, 
-      and Governance (ESG) data from unstructured reports, such as corporate sustainability reports and financial filings.
-      This project is essential for businesses, investors, and analysts who need accurate, reliable, and easily comparable ESG data to make informed decisions about corporate sustainability.
+      Our system utilizes an advanced Natural Language Processing (NLP) model to extract and analyze ESG (Environmental, Social, and Governance) 
+      data from unstructured reports. The model is designed to process large volumes of corporate
+       reports and extract key information related to sustainability practices across various industries.
       </Text>
       <SimpleGrid columns='2' gap='20px'>
         <Information
           boxShadow={cardShadow}
-          title='Module'
-          value='DSS5105'
+          title='NLP Model'
+          value='BERT'
         />
         <Information
           boxShadow={cardShadow}
-          title='Team Members'
-          value='8'
+          title='Languages supported'
+          value='English, Chinese'
         />
         <Information
           boxShadow={cardShadow}
-          title='Techonologies Used'
-          value='Python, React, Node.js, MySQL, AWS, Firebase'
+          title='Database'
+          value='MySQL'
         />
-
-
+        <Information
+          boxShadow={cardShadow}
+          title='Cloud Service'
+          value='AWS, Firebase'
+        />
       </SimpleGrid>
     </Card>
   );

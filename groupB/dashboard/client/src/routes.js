@@ -11,37 +11,39 @@ import {
 
 // Admin Imports
 import MainDashboard from 'views/admin/default';
-import NFTMarketplace from 'views/admin/marketplace';
+import UploadPage from 'views/admin/UploadPage';
 import Profile from 'views/admin/profile';
 import DataTables from 'views/admin/dataTables';
-import RTL from 'views/admin/rtl';
+import { MdUpload } from "react-icons/md";
+import NFTMarketplace from 'views/admin/marketplace';
+
 
 // Auth Imports
 import SignInCentered from 'views/auth/signIn';
 
 const routes = [
   {
-    name: 'Admin Dashboard',
+    name: 'Dashboard',
     layout: '/admin',
     path: '/default',
     icon: <Icon as={MdHome} width="20px" height="20px" color="inherit" />,
     component: <MainDashboard />,
   },
-//   {
-//     name: 'NFT Marketplace',
-//     layout: '/admin',
-//     path: '/nft-marketplace',
-//     icon: (
-//       <Icon
-//         as={MdOutlineShoppingCart}
-//         width="20px"
-//         height="20px"
-//         color="inherit"
-//       />
-//     ),
-//     component: <NFTMarketplace />,
-//     secondary: true,
-//   },
+  {
+    name: 'Upload Report',
+    layout: '/admin',
+    path: '/upload',
+    icon: (
+      <Icon
+        as={MdUpload}
+        width="20px"
+        height="20px"
+        color="inherit"
+      />
+    ),
+    component: <UploadPage />,
+    secondary: true,
+  },
   {
     name: 'Data Tables',
     layout: '/admin',

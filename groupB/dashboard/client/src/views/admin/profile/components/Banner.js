@@ -1,17 +1,33 @@
 // Chakra imports
-import { Avatar, Box, Flex, Text, useColorModeValue } from "@chakra-ui/react";
+import { Avatar, Box, Flex, Text, useColorModeValue, SimpleGrid } from "@chakra-ui/react";
 import Card from "components/card/Card.js";
 import React from "react";
+import Information from "views/admin/profile/components/Information";
 
 export default function Banner(props) {
   const { banner, avatar, name, job, posts, followers, following } = props;
   // Chakra Color Mode
   const textColorPrimary = useColorModeValue("secondaryGray.900", "white");
   const textColorSecondary = "gray.400";
+  const cardShadow = useColorModeValue(
+    "0px 18px 40px rgba(112, 144, 176, 0.12)",
+    "unset"
+  );
   const borderColor = useColorModeValue(
     "white !important",
     "#111C44 !important"
   );
+
+  // Get the current date and time formatted as dd/month/year hh:mm:ss AM/PM
+  const currentDateTime = new Date().toLocaleString('en-GB', {
+    day: '2-digit',
+    month: 'short', // Use 'short' for abbreviated month names
+    year: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: true, // Use 12-hour format
+  });
+
   return (
     <Card mb={{ base: "0px", lg: "20px" }} align='center'>
       <Box
@@ -37,30 +53,18 @@ export default function Banner(props) {
         {job}
       </Text>
       <Flex w='max-content' mx='auto' mt='26px'>
-        <Flex mx='auto' me='60px' align='center' direction='column'>
-          <Text color={textColorPrimary} fontSize='2xl' fontWeight='700'>
-            {posts}
-          </Text>
-          <Text color={textColorSecondary} fontSize='sm' fontWeight='400'>
-            Posts
-          </Text>
-        </Flex>
-        <Flex mx='auto' me='60px' align='center' direction='column'>
-          <Text color={textColorPrimary} fontSize='2xl' fontWeight='700'>
-            {followers}
-          </Text>
-          <Text color={textColorSecondary} fontSize='sm' fontWeight='400'>
-            Followers
-          </Text>
-        </Flex>
-        <Flex mx='auto' align='center' direction='column'>
-          <Text color={textColorPrimary} fontSize='2xl' fontWeight='700'>
-            {following}
-          </Text>
-          <Text color={textColorSecondary} fontSize='sm' fontWeight='400'>
-            Following
-          </Text>
-        </Flex>
+        <SimpleGrid columns='2' gap='20px'>
+          <Information
+            boxShadow={cardShadow}
+            title='Permission'
+            value='Full Access'
+          />
+          <Information
+            boxShadow={cardShadow}
+            title='Last login'
+            value={currentDateTime} // Display the formatted current date and time
+          />
+        </SimpleGrid>
       </Flex>
     </Card>
   );

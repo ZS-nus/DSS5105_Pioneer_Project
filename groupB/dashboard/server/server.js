@@ -3,9 +3,17 @@ const admin = require('firebase-admin');
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-
 const mysql = require('mysql2/promise');
 const serviceAccount = require('../pioneer_key.json');
+const { Storage } = require('@google-cloud/storage');
+const { S3Client, ListObjectsV2Command } = require('@aws-sdk/client-s3');
+
+
+// Create an S3 client without specifying credentials
+const s3Client = new S3Client({
+  region: 'ap-southeast-1' // Your AWS region
+});
+
 
 // Update the dbConfig object
 const dbConfig = {
@@ -76,8 +84,10 @@ async function executeQuery(query, params = []) {
   }
 }
 
+// Update the initialization to include the storage bucket
 admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount)
+  credential: admin.credential.cert(serviceAccount),
+  storageBucket: process.env.STORAGE_BUCKET // Ensure this environment variable is set
 });
 
 const app = express();
@@ -246,6 +256,53 @@ app.get('/api/score/environment', async (req, res) => {
   } catch (error) {
     console.error('Error fetching e_score:', error);
     res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
+// Add this new endpoint to list files in S3 and fallback to Firebase Storage
+app.get('/api/s3/storage/files', async (req, res) => {
+  const params = {
+    Bucket: 'rg-dss5105project1-pioneers3-648' // Updated S3 bucket name
+  };
+
+  try {
+    const command = new ListObjectsV2Command(params);
+    const data = await s3Client.send(command);
+    const fileList = data.Contents.map(file => ({
+      name: file.Key,
+      downloadUrl: `https://${params.Bucket}.s3.amazonaws.com/${file.Key}` // Generate a public URL for downloading
+    }));
+
+    // If files are found in S3, return them
+    if (fileList.length > 0) {
+      return res.json(fileList);
+    } else {
+      throw new Error('No files found in S3');
+    }
+  } catch (error) {
+    console.error('Error fetching files from S3:', error);
+    
+    // Fallback to Firebase Storage
+    try {
+      const bucket = admin.storage().bucket();
+      const [files] = await bucket.getFiles({ prefix: 'reports/' }); // Specify the prefix to fetch files from the reports folder
+      const firebaseFileList = files.map(file => {
+        const fileNameWithoutPrefix = file.name.replace('reports/', ''); // Remove the 'reports/' prefix
+        return {
+          name: fileNameWithoutPrefix, // Use the modified name
+          downloadUrl: `https://firebasestorage.googleapis.com/v0/b/${process.env.STORAGE_BUCKET}/o/${encodeURIComponent(file.name)}?alt=media`
+        };
+      });
+
+      // Log the firebaseFileList to the console
+      console.log('Files fetched from Firebase Storage:', firebaseFileList);
+
+      // Return files from Firebase Storage
+      return res.json(firebaseFileList);
+    } catch (firebaseError) {
+      console.error('Error fetching files from Firebase Storage:', firebaseError);
+      return res.status(500).json({ error: 'Internal server error' });
+    }
   }
 });
 
