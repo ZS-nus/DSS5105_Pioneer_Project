@@ -17,7 +17,7 @@ import ComplexTable from "views/admin/default/components/ComplexTable";
 import DailyTraffic from "views/admin/default/components/DailyTraffic";
 import PieCard from "views/admin/default/components/PieCard";
 import Tasks from "views/admin/default/components/Tasks";
-import TotalSpent from "views/admin/default/components/TotalSpent";
+import ELineChart from "views/admin/default/components/e_line_chart";
 import WeeklyRevenue from "views/admin/default/components/WeeklyRevenue";
 import EBarChart from "views/admin/default/components/e_bar_chart";
 import {
@@ -90,19 +90,27 @@ export default function UserReports() {
               columnsData={tableColumnsTopCreators}
             />
           </Card>
-          <card Card px='0px' mb='20px'>
-            <EBarChart data={e_score_latest} />
-          </card>
+          <Card px='0px' mb='20px'>
+            <OverallRanking
+              tableData={tableDataTopCreators}
+              columnsData={tableColumnsTopCreators}
+            />
+          </Card>
       </SimpleGrid>
 
 
       <SimpleGrid columns={{ base: 1, md: 1, xl: 1 }} gap='20px' mb='20px'>
           <EBarChart data={e_score_latest} />
       </SimpleGrid>
+
+
       <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
-        <TotalSpent />
-        <WeeklyRevenue />
+        <ELineChart />
+        <ELineChart />
       </SimpleGrid>
+
+
+
       <SimpleGrid columns={{ base: 1, md: 1, xl: 2 }} gap='20px' mb='20px'>
         <CheckTable columnsData={columnsDataCheck} tableData={tableDataCheck} />
         <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px'>

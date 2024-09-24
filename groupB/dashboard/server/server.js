@@ -8,37 +8,62 @@ const serviceAccount = require('../pioneer_key.json');
 const { Storage } = require('@google-cloud/storage');
 const { S3Client, ListObjectsV2Command } = require('@aws-sdk/client-s3');
 
+
 // Create an S3 client without specifying credentials
 const s3Client = new S3Client({
   region: 'ap-southeast-1' // Your AWS region
 });
 
+
+// Update the dbConfig object
 const dbConfig = {
   host: process.env.DB_HOST,
-  port: process.env.DB_PORT || 3306,
+  port: parseInt(process.env.DB_PORT, 10),
   user: process.env.DB_USER,
   password: process.env.DB_PASSWORD,
   database: process.env.DB_NAME,
+  ssl: process.env.SSL_KEY_BASE64
+    ? {
+        rejectUnauthorized: false,
+        key: Buffer.from(process.env.SSL_KEY_BASE64, 'base64').toString('ascii')
+      }
+    : false,
   waitForConnections: true,
   connectionLimit: 10,
-  queueLimit: 0,
-  connectTimeout: 60000, // 60 seconds
-  acquireTimeout: 60000 // 60 seconds
+  queueLimit: 0
 };
 
 let pool;
 
-async function createPool() {
+// Modify the createTunnel function
+async function createTunnel() {
   try {
+    console.log('Creating database connection...');
     pool = mysql.createPool(dbConfig);
-    console.log('Database pool created successfully.');
+    
+    // Test the connection
+    const connection = await pool.getConnection();
+    console.log('Successfully connected to the database through SSL.');
+    connection.release();
     return true;
   } catch (error) {
-    console.error('Error creating database pool:', error);
+    console.error('Error connecting to the database:', error);
     return false;
   }
 }
 
+// Update the testDatabaseConnection function
+async function testDatabaseConnection() {
+  try {
+    const success = await createTunnel();
+    return success;
+  } catch (error) {
+    console.error('Error connecting to the database:', error);
+    return false;
+  }
+}
+
+// Add a function to handle database queries with retries
 async function executeQuery(query, params = []) {
   const maxRetries = 3;
   let retries = 0;
@@ -53,6 +78,7 @@ async function executeQuery(query, params = []) {
       if (retries === maxRetries) {
         throw error;
       }
+      // Wait for 1 second before retrying
       await new Promise(resolve => setTimeout(resolve, 1000));
     }
   }
@@ -65,7 +91,7 @@ admin.initializeApp({
 });
 
 const app = express();
-const PORT = process.env.PORT || 5105;
+const PORT = process.env.PORT || 5105; 
 
 app.use(cors());
 app.use(bodyParser.json());
@@ -93,13 +119,13 @@ app.post('/api/logout', (req, res) => {
 
 async function startServer() {
   try {
-    const success = await createPool();
+    const success = await testDatabaseConnection();
     if (success) {
       app.listen(PORT, () => {
         console.log(`Server running on port ${PORT}`);
       });
     } else {
-      console.log('Failed to create database pool. Server not started.');
+      console.log('Failed to connect to the database. Server not started.');
       process.exit(1);
     }
   } catch (error) {
