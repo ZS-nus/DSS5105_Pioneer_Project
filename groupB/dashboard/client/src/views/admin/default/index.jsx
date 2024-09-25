@@ -91,16 +91,20 @@ export default function UserReports() {
             />
           </Card>
           <Card px='0px' mb='20px'>
-            <OverallRanking
-              tableData={tableDataTopCreators}
-              columnsData={tableColumnsTopCreators}
-            />
+          <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px'>
+            {/* <DailyTraffic />
+            <PieCard />
+            <DailyTraffic />
+            <PieCard /> `` */}
+        </SimpleGrid>
           </Card>
+
       </SimpleGrid>
 
 
-      <SimpleGrid columns={{ base: 1, md: 1, xl: 1 }} gap='20px' mb='20px'>
+      <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
           <EBarChart data={e_score_latest} />
+          <ELineChart />
       </SimpleGrid>
 
 

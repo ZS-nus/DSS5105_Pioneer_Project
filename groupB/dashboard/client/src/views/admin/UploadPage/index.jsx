@@ -17,7 +17,7 @@ export default function Overview() {
       <Grid
         templateColumns={{
           base: "1fr",
-          lg: "1.5fr 1.5fr 1fr",
+          lg: "1.5fr 1.5fr",
         }}
         templateRows={{
           base: "repeat(3, 1fr)",
@@ -29,9 +29,7 @@ export default function Overview() {
           pe='20px'
           pb={{ base: "100px", lg: "20px" }}
         />
-        <General
-          
-        />
+        
         <Storage
           
           used={75.3}
@@ -39,12 +37,12 @@ export default function Overview() {
         />
       </Grid>
       <br></br>
-      <br></br>
 
       <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
         <UploadedReports
             gridArea='1 / 1 / 2 / 2'
           />
+          <General />
           {/* <Upload /> */}
       </SimpleGrid>
 

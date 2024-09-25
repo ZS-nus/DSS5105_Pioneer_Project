@@ -128,7 +128,6 @@ export default function TopCreatorTable(props) {
         <Text color={textColor} fontSize="xl" fontWeight="600">
           ESG Ranking
         </Text>
-        <Button variant="action">See all</Button>
       </Flex>
       <Box>
         <Table variant="simple" color="gray.500" mt="12px">

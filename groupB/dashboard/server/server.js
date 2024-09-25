@@ -4,6 +4,7 @@ const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const mysql = require('mysql2/promise');
+const { Client } = require('ssh2');
 const serviceAccount = require('../pioneer_key.json');
 const { Storage } = require('@google-cloud/storage');
 const { S3Client, ListObjectsV2Command } = require('@aws-sdk/client-s3');
@@ -22,33 +23,115 @@ const dbConfig = {
   user: process.env.DB_USER,
   password: process.env.DB_PASSWORD,
   database: process.env.DB_NAME,
-  ssl: process.env.SSL_KEY_BASE64
-    ? {
-        rejectUnauthorized: false,
-        key: Buffer.from(process.env.SSL_KEY_BASE64, 'base64').toString('ascii')
-      }
-    : false,
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0
 };
 
+const sshConfig = {
+  host: process.env.SSH_HOST,
+  port: parseInt(process.env.SSH_PORT, 10),
+  username: process.env.SSH_USER,
+  privateKey: require('fs').readFileSync(process.env.SSL_KEY_PATH)
+};
+
 let pool;
 
-// Modify the createTunnel function
-async function createTunnel() {
+// New function for DB direct connection
+async function createDirectConnection() {
   try {
-    console.log('Creating database connection...');
+    console.log('Attempting direct database connection...');
     pool = mysql.createPool(dbConfig);
-    
-    // Test the connection
-    const connection = await pool.getConnection();
-    console.log('Successfully connected to the database through SSL.');
-    connection.release();
+    await pool.getConnection();
+    console.log('Successfully connected to the database directly.');
     return true;
   } catch (error) {
-    console.error('Error connecting to the database:', error);
+    console.error('Direct connection failed:', error);
     return false;
+  }
+}
+
+// New function for SSL connection
+async function createSSLConnection() {
+  try {
+    console.log('Attempting SSL database connection...');
+    const sslConfig = {
+      ...dbConfig,
+      ssl: {
+        rejectUnauthorized: false,
+        key: Buffer.from(process.env.SSL_KEY_BASE64, 'base64').toString('ascii')
+      }
+    };
+    pool = mysql.createPool(sslConfig);
+    await pool.getConnection();
+    console.log('Successfully connected to the database through SSL.');
+    return true;
+  } catch (error) {
+    console.error('SSL connection failed:', error);
+    return false;
+  }
+}
+
+// New function for SSH connection
+async function createSSHConnection() {
+  return new Promise((resolve, reject) => {
+    console.log('Attempting SSH tunnel connection...');
+    const sshClient = new Client();
+    sshClient.on('ready', () => {
+      sshClient.forwardOut(
+        '127.0.0.1',
+        0,
+        dbConfig.host,
+        dbConfig.port,
+        async (err, stream) => {
+          if (err) {
+            sshClient.end();
+            reject(err);
+          }
+          const tunnelConfig = {
+            ...dbConfig,
+            stream
+          };
+          try {
+            pool = mysql.createPool(tunnelConfig);
+            await pool.getConnection();
+            console.log('Successfully connected to the database through SSH tunnel.');
+            resolve(true);
+          } catch (error) {
+            sshClient.end();
+            reject(error);
+          }
+        }
+      );
+    }).connect(sshConfig);
+  });
+}
+
+
+// Updated createTunnel function
+async function createTunnel() {
+  try {
+    if (await createDirectConnection()) return true;
+    if (await createSSLConnection()) return true;
+    if (await createSSHConnection()) return true;
+    return false;
+  } catch (error) {
+    console.error('All connection methods failed:', error);
+    return false;
+  }
+}
+
+// Add a function to keep trying to reconnect to the database
+async function keepTryingToConnect() {
+  while (true) {
+    const success = await createTunnel();
+    if (success) {
+      console.log('Database connection established.');
+      break;
+    } else {
+      console.log('Retrying database connection in 5 seconds...');
+      await new Promise(resolve => setTimeout(resolve, 5000));
+    }
   }
 }
 
@@ -118,20 +201,12 @@ app.post('/api/logout', (req, res) => {
 });
 
 async function startServer() {
-  try {
-    const success = await testDatabaseConnection();
-    if (success) {
-      app.listen(PORT, () => {
-        console.log(`Server running on port ${PORT}`);
-      });
-    } else {
-      console.log('Failed to connect to the database. Server not started.');
-      process.exit(1);
-    }
-  } catch (error) {
-    console.error('Error starting server:', error);
-    process.exit(1);
-  }
+  app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+  });
+
+  // Start trying to connect to the database
+  keepTryingToConnect();
 }
 
 startServer();

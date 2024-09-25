@@ -33,14 +33,8 @@ export default function Overview() {
           name='ZhaoSheng'
           job='Project Admin'
         />
-        <General
-          gridArea={{ base: "2 / 1 / 3 / 2", lg: "1 / 2 / 2 / 3" }}
-          minH='365px'
-          pe='20px'
-        />
 
       </Grid>
-      <br></br>
       <br></br>
       <Grid
         mb='20px'
@@ -55,6 +49,11 @@ export default function Overview() {
           "2xl": "1fr",
         }}
         gap={{ base: "20px", xl: "20px" }}>
+        <General
+          gridArea='1 / 2 / 2 / 2'
+          minH='365px'
+          pe='20px'
+        />
         <Projects
           gridArea='1 / 2 / 2 / 2'
           banner={banner}
