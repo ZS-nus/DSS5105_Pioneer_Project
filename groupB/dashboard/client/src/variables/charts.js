@@ -19,6 +19,7 @@ export const createBarChartData = (data) => {
   };
 };
 
+
 export const barChartOptionsDailyTraffic = {
   chart: {
     toolbar: {
@@ -188,12 +189,12 @@ export const e_barChartOptionsDailyTraffic = {
         [
           {
             offset: 0,
-            color: "#10451D",
+            color: "#11998E",
             opacity: 1,
           },
           {
             offset: 100,
-            color: "#6EDE8A",
+            color: "#38EF7D",
             opacity: 1,
           },
         ],
@@ -442,3 +443,101 @@ export const lineChartOptionsTotalSpent = {
   },
   color: ["#7551FF", "#39B8FF"],
 };
+
+
+export const e_score_line = (data) => {
+  // Group data by company
+  const groupedData = data.reduce((acc, current) => {
+    const { CompanyName, ReportYear, env_score_weighted } = current;
+    if (!acc[CompanyName]) {
+      acc[CompanyName] = {};
+    }
+    acc[CompanyName][ReportYear] = env_score_weighted; // Assign the score to the corresponding year
+    return acc;
+  }, {});
+
+  // Prepare the final data structure for the chart
+  const chartData = Object.keys(groupedData).map(company => {
+    const years = Object.keys(groupedData[company]).sort(); // Get sorted years
+    return {
+      name: company,
+      data: years.map(year => groupedData[company][year] || 0), // Fill in scores for each year
+    };
+  });
+
+  return chartData;
+};
+
+export const E_score_line_option = {
+  chart: {
+    toolbar: {
+      show: false,
+    },
+    dropShadow: {
+      enabled: true,
+      top: 13,
+      left: 0,
+      blur: 10,
+      opacity: 0.1,
+      color: "#4318FF",
+    },
+  },
+  colors: ["#11998e", "#38ef7d"],
+  markers: {
+    size: 0,
+    colors: "white",
+    strokeColors: "#7551FF",
+    strokeWidth: 3,
+    strokeOpacity: 0.9,
+    strokeDashArray: 0,
+    fillOpacity: 1,
+    discrete: [],
+    shape: "circle",
+    radius: 2,
+    offsetX: 0,
+    offsetY: 0,
+    showNullDataPoints: true,
+  },
+  tooltip: {
+    theme: "dark",
+  },
+  dataLabels: {
+    enabled: true,
+  },
+  stroke: {
+    curve: "smooth",
+    type: "line",
+  },
+  xaxis: {
+    type: "numeric",
+    categories: [],
+    labels: {
+      style: {
+        colors: "#A3AED0",
+        fontSize: "12px",
+        fontWeight: "500",
+      },
+    },
+    axisBorder: {
+      show: false,
+    },
+    axisTicks: {
+      show: false,
+    },
+  },
+  yaxis: {
+    show: true,
+  },
+  legend: {
+    show: true,
+  },
+  grid: {
+    show: true,
+    column: {
+      color: ["#7551FF", "#39B8FF"],
+      opacity: 0.5,
+    },
+  },
+  color: ["#11998e", "#39B8FF"],
+};
+

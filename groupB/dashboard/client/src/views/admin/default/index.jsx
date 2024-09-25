@@ -31,6 +31,10 @@ import tableDataTopCreators from "views/admin/marketplace/variables/tableDataTop
 import { tableColumnsTopCreators } from "views/admin/marketplace/variables/tableColumnsTopCreators";
 import OverallRanking from "views/admin/default/components/Overall_ranking";
 import Card from "components/card/Card.js";
+import {
+  e_score_line,
+  lineChartOptionsTotalSpent,
+} from "variables/charts";
 
 export default function UserReports() {
 
@@ -75,6 +79,8 @@ export default function UserReports() {
     fetchData();
   }, []);
 
+// Get the company name from the first entry in e_score
+  const companyName = e_score.length > 0 ? e_score[0].CompanyName : "Unknown Company";
 
   // Chakra Color Mode
   const brandColor = useColorModeValue("brand.500", "white");
@@ -91,11 +97,9 @@ export default function UserReports() {
             />
           </Card>
           <Card px='0px' mb='20px'>
-          <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px'>
-            {/* <DailyTraffic />
-            <PieCard />
-            <DailyTraffic />
-            <PieCard /> `` */}
+          <SimpleGrid columns={{ base: 1, md: 1, xl: 1 }} gap='20px'>
+          {/* <EBarChart data={e_score_latest} />
+          <ELineChart data={e_score} companyName={companyName} />  */}
         </SimpleGrid>
           </Card>
 
@@ -104,13 +108,12 @@ export default function UserReports() {
 
       <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
           <EBarChart data={e_score_latest} />
-          <ELineChart />
+          <ELineChart data={e_score} companyName={companyName} /> 
       </SimpleGrid>
 
 
       <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
-        <ELineChart />
-        <ELineChart />
+
       </SimpleGrid>
 
 
