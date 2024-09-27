@@ -46,7 +46,7 @@ export default function UserReports() {
       try {
         const response = await fetchEScoreData(); // Call the API function
         const data = response.data; // Access the data property of the response
-        console.log("Fetched Data:", data); // Log the fetched data
+        // console.log("Fetched Data:", data); // Log the fetched data
 
         // Check if data is an array
         if (!Array.isArray(data)) {
@@ -108,7 +108,7 @@ export default function UserReports() {
 
       <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
           <EBarChart data={e_score_latest} />
-          <ELineChart data={e_score} companyName={companyName} /> 
+          <ELineChart data={e_score} company={companyName} /> 
       </SimpleGrid>
 
 

@@ -21,7 +21,7 @@ import {
   MdOutlineSettings,
 } from "react-icons/md";
 
-export default function LineChartMenu({ menuItems, onSelectCompany, ...rest }) { // Accept menuItems and onSelectCompany as props
+export default function LineChartMenu({ menuItems, onSelectCompany, selectedCompany, ...rest }) { // Accept menuItems and onSelectCompany as props
 
   const textColor = useColorModeValue("secondaryGray.500", "white");
   const textHover = useColorModeValue(

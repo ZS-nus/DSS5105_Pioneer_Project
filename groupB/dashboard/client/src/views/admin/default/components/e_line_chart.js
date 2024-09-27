@@ -1,45 +1,50 @@
-// Chakra imports
+import React, { useState, useEffect, useCallback, useMemo } from "react";
 import {
   Box,
   Flex,
   Text,
   useColorModeValue,
 } from "@chakra-ui/react";
-// Custom components
 import Card from "components/card/Card.js";
 import LineChart from "components/charts/LineChart";
-import React, { useState, useEffect } from "react"; // Import useState
 import LineChartMenu from 'views/admin/default/components/line_chart_menu';  
-import { e_score_line } from "variables/charts"; 
+import { e_score_line, E_score_line_option } from "variables/charts"; 
 
 export default function TotalSpent(props) {
-  const { data, ...rest } = props; // Destructure data from props
+  const { data, ...rest } = props;
 
-  // Chakra Color Mode
   const textColor = useColorModeValue("secondaryGray.900", "white");
-  const bgFocus = useColorModeValue(
-    { bg: "secondaryGray.300" },
-    { bg: "whiteAlpha.100" }
-  );
 
-  // Get the company names for the menu and ensure they are unique
-  const menuItems = data ? [...new Set(data.map(item => item.CompanyName))] : [];
+  const [chartData, setChartData] = useState([]);
+  const [selectedCompany, setSelectedCompany] = useState(null);
 
-  // Set up state for the selected company
-  const [selectedCompany, setSelectedCompany] = useState(menuItems[0]); // Default to the first company
-
-
-
-  // Update selectedCompany when menuItems change
   useEffect(() => {
-    if (menuItems.length > 0) {
-      setSelectedCompany(menuItems[0]);
+    if (data && data.length > 0) {
+      const processedData = e_score_line(data);
+      // console.log("Processed chart data:", processedData);
+      setChartData(processedData);
     }
-  }, [menuItems]);
+  }, [data]);
 
-  console.log("Selected Company: ", selectedCompany);
+  const menuItems = useMemo(() => 
+    data ? [...new Set(data.map(item => item.CompanyName))] : []
+  , [data]);
 
-  // Check if data is null or empty
+  const currentChartData = useMemo(() => {
+    if (selectedCompany) {
+      const selectedData = chartData.filter(entry => entry.name === selectedCompany);
+      console.log("Selected company data:", selectedData);
+      return selectedData;
+    } else {
+      // console.log("Setting default data:", chartData.length > 0 ? [chartData[0]] : []);
+      return chartData.length > 0 ? [chartData[0]] : [];
+    }
+  }, [chartData, selectedCompany]);
+
+  const handleCompanySelect = useCallback((company) => {
+    setSelectedCompany(prev => company === prev ? null : company);
+  }, []);
+
   if (!data || data.length === 0) {
     return (
       <Box>
@@ -48,25 +53,15 @@ export default function TotalSpent(props) {
     );
   }
 
-  // Prepare data for the line chart
-  const chartData = e_score_line(data);
-
-  // Filter e_line_chart_data based on the selected company
-  const e_line_chart_data = chartData
-    .filter(entry => entry.name === selectedCompany)
-    .slice(0, 1); // Ensure only one line is displayed
-
-  console.log("e_line_chart_data: ", e_line_chart_data);
-
-  // Extract unique years for x-axis categories
   const years = [...new Set(data.map(item => item.ReportYear))];
-
-  // Update chart options with the extracted years
   const updatedChartOptions = {
+    ...E_score_line_option,
     xaxis: {
-      categories: years, // Set the categories to the extracted years
+      categories: years,
     },
   };
+
+  // console.log("Rendering with currentChartData:", currentChartData);
 
   return (
     <Card
@@ -83,19 +78,25 @@ export default function TotalSpent(props) {
           fontWeight="700"
           lineHeight="100%"
         >
-          Company Environment Score Trend
+          Environmental Score Trend by Company
         </Text>
         <LineChartMenu 
           menuItems={menuItems} 
-          onSelectCompany={setSelectedCompany} // Pass the function to update the selected company
+          onSelectCompany={handleCompanySelect}
+          selectedCompany={selectedCompany}
         />
       </Flex>
       <Flex w='100%' flexDirection={{ base: "column", lg: "row" }}>
         <Box minH='260px' minW='100%' mt='auto'>
-          <LineChart
-            chartData={e_line_chart_data} // Use prepared chart data
-            chartOptions={updatedChartOptions}
-          />
+          {currentChartData.length > 0 ? (
+            <LineChart
+              key={selectedCompany || 'default'} // Add this line
+              chartData={currentChartData}
+              chartOptions={updatedChartOptions}
+            />
+          ) : (
+            <Text>No data available for the selected company.</Text>
+          )}
         </Box>
       </Flex>
     </Card>

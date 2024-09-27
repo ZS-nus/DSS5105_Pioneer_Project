@@ -4,17 +4,14 @@ const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const mysql = require('mysql2/promise');
-const { Client } = require('ssh2');
 const serviceAccount = require('../pioneer_key.json');
 const { Storage } = require('@google-cloud/storage');
 const { S3Client, ListObjectsV2Command } = require('@aws-sdk/client-s3');
-
 
 // Create an S3 client without specifying credentials
 const s3Client = new S3Client({
   region: 'ap-southeast-1' // Your AWS region
 });
-
 
 // Update the dbConfig object
 const dbConfig = {
@@ -28,33 +25,35 @@ const dbConfig = {
   queueLimit: 0
 };
 
-const sshConfig = {
-  host: process.env.SSH_HOST,
-  port: parseInt(process.env.SSH_PORT, 10),
-  username: process.env.SSH_USER,
-  privateKey: require('fs').readFileSync(process.env.SSL_KEY_PATH)
-};
-
 let pool;
 
-// New function for DB direct connection
+function logConnectionDetails() {
+  console.log('Database Config:', {
+    host: dbConfig.host,
+    port: dbConfig.port,
+    user: dbConfig.user,
+    database: dbConfig.database
+  });
+}
+
 async function createDirectConnection() {
   try {
     console.log('Attempting direct database connection...');
+    // logConnectionDetails();
     pool = mysql.createPool(dbConfig);
     await pool.getConnection();
     console.log('Successfully connected to the database directly.');
     return true;
   } catch (error) {
-    console.error('Direct connection failed:', error);
+    console.error('Direct connection failed:', error.message);
     return false;
   }
 }
 
-// New function for SSL connection
 async function createSSLConnection() {
   try {
     console.log('Attempting SSL database connection...');
+    // logConnectionDetails();
     const sslConfig = {
       ...dbConfig,
       ssl: {
@@ -62,58 +61,23 @@ async function createSSLConnection() {
         key: Buffer.from(process.env.SSL_KEY_BASE64, 'base64').toString('ascii')
       }
     };
+    if (process.env.SSL_KEY_BASE64) {
+      sslConfig.ssl.key = Buffer.from(process.env.SSL_KEY_BASE64, 'base64').toString('ascii');
+    }
     pool = mysql.createPool(sslConfig);
     await pool.getConnection();
     console.log('Successfully connected to the database through SSL.');
     return true;
   } catch (error) {
-    console.error('SSL connection failed:', error);
+    console.error('SSL connection failed:', error.message);
     return false;
   }
 }
 
-// New function for SSH connection
-async function createSSHConnection() {
-  return new Promise((resolve, reject) => {
-    console.log('Attempting SSH tunnel connection...');
-    const sshClient = new Client();
-    sshClient.on('ready', () => {
-      sshClient.forwardOut(
-        '127.0.0.1',
-        0,
-        dbConfig.host,
-        dbConfig.port,
-        async (err, stream) => {
-          if (err) {
-            sshClient.end();
-            reject(err);
-          }
-          const tunnelConfig = {
-            ...dbConfig,
-            stream
-          };
-          try {
-            pool = mysql.createPool(tunnelConfig);
-            await pool.getConnection();
-            console.log('Successfully connected to the database through SSH tunnel.');
-            resolve(true);
-          } catch (error) {
-            sshClient.end();
-            reject(error);
-          }
-        }
-      );
-    }).connect(sshConfig);
-  });
-}
-
-
-// Updated createTunnel function
 async function createTunnel() {
   try {
     if (await createDirectConnection()) return true;
     if (await createSSLConnection()) return true;
-    if (await createSSHConnection()) return true;
     return false;
   } catch (error) {
     console.error('All connection methods failed:', error);
@@ -121,48 +85,57 @@ async function createTunnel() {
   }
 }
 
-// Add a function to keep trying to reconnect to the database
-async function keepTryingToConnect() {
-  while (true) {
-    const success = await createTunnel();
-    if (success) {
-      console.log('Database connection established.');
-      break;
-    } else {
-      console.log('Retrying database connection in 5 seconds...');
-      await new Promise(resolve => setTimeout(resolve, 5000));
-    }
+async function reconnect() {
+  console.log('Attempting to reconnect...');
+  if (pool) {
+    await pool.end().catch(err => console.error('Error closing pool:', err.message));
   }
+  return createTunnel();
 }
 
-// Update the testDatabaseConnection function
-async function testDatabaseConnection() {
-  try {
-    const success = await createTunnel();
-    return success;
-  } catch (error) {
-    console.error('Error connecting to the database:', error);
-    return false;
-  }
-}
-
-// Add a function to handle database queries with retries
 async function executeQuery(query, params = []) {
   const maxRetries = 3;
   let retries = 0;
 
   while (retries < maxRetries) {
     try {
-      const [rows] = await pool.query(query, params);
+      if (!pool) {
+        await reconnect();
+      }
+      const [rows] = await pool.query({
+        sql: query,
+        timeout: 30000, // 30 seconds
+      }, params);
       return rows;
     } catch (error) {
-      console.error(`Error executing query (attempt ${retries + 1}):`, error);
+      console.error(`Error executing query (attempt ${retries + 1}):`, error.message);
       retries++;
       if (retries === maxRetries) {
         throw error;
       }
-      // Wait for 1 second before retrying
+      await reconnect();
       await new Promise(resolve => setTimeout(resolve, 1000));
+    }
+  }
+}
+
+async function keepTryingToConnect() {
+  while (true) {
+    const success = await createTunnel();
+    if (success) {
+      console.log('Database connection established.');
+      // Start keep-alive mechanism
+      setInterval(() => {
+        if (pool) {
+          pool.query('SELECT 1')
+            .then(() => console.log('Keep-alive query executed successfully'))
+            .catch(err => console.error('Keep-alive query failed:', err.message));
+        }
+      }, 60000); // Run every 60 seconds
+      break;
+    } else {
+      console.log('Retrying database connection in 5 seconds...');
+      await new Promise(resolve => setTimeout(resolve, 5000));
     }
   }
 }

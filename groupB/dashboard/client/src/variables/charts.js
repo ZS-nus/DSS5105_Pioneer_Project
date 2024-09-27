@@ -482,7 +482,7 @@ export const E_score_line_option = {
       color: "#4318FF",
     },
   },
-  colors: ["#11998e", "#38ef7d"],
+  colors: ["#11998e","#38ef7d","#1D976C", "#93F9B9" , "#56ab2f", "#4318FF"],
   markers: {
     size: 0,
     colors: "white",
@@ -530,6 +530,13 @@ export const E_score_line_option = {
   },
   legend: {
     show: true,
+    showForSingleSeries: true,
+    position: 'bottom',
+    horizontalAlign: 'center',
+    floating: false,
+    fontSize: '14px',
+    fontFamily: 'Helvetica, Arial',
+    fontWeight: 400,
   },
   grid: {
     show: true,
