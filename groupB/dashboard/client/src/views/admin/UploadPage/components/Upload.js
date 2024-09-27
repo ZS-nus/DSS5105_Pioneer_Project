@@ -6,15 +6,24 @@ import {
   Icon,
   Text,
   useColorModeValue,
+  Alert,
+  AlertIcon,
+  AlertTitle,
+  AlertDescription,
+  useToast
 } from "@chakra-ui/react";
 // Custom components
 import Card from "components/card/Card.js";
 import { MdUpload } from "react-icons/md";
 import Dropzone from "views/admin/UploadPage/components/Dropzone";
+import { reportUploadToFirebase } from "api.js";
 
 export default function Upload(props) {
   const { used, total, ...rest } = props;
   const [selectedFile, setSelectedFile] = useState(null);
+  const [showAlert, setShowAlert] = useState(false);
+  const [isUploading, setIsUploading] = useState(false);
+  const toast = useToast();
 
   // Chakra Color Mode
   const textColorPrimary = useColorModeValue("secondaryGray.900", "white");
@@ -25,12 +34,48 @@ export default function Upload(props) {
     if (files && files.length > 0) {
       const file = files[0];
       setSelectedFile(file);
+      setShowAlert(false);
       console.log("Selected File:", {
         name: file.name,
         type: file.type,
         size: file.size,
         lastModified: new Date(file.lastModified).toLocaleString(),
       });
+    }
+  };
+
+  const handleUpload = async () => {
+    if (!selectedFile) {
+      setShowAlert(true);
+    } else {
+      setIsUploading(true);
+      setShowAlert(false);
+      try {
+        const formData = new FormData();
+        formData.append('file', selectedFile);
+
+        const result = await reportUploadToFirebase(formData);
+        console.log("Upload response:", result);
+        toast({
+          title: "File uploaded successfully",
+          description: `File is available at: ${result.url}`,
+          status: "success",
+          duration: 5000,
+          isClosable: true,
+        });
+        setSelectedFile(null);
+      } catch (error) {
+        console.error("Upload error:", error);
+        toast({
+          title: "Upload failed",
+          description: "There was an error uploading your file.",
+          status: "error",
+          duration: 3000,
+          isClosable: true,
+        });
+      } finally {
+        setIsUploading(false);
+      }
     }
   };
 
@@ -65,6 +110,8 @@ export default function Upload(props) {
     </Box>
   );
 
+  
+
   return (
     <Card {...rest} mb='20px' align='center' p='20px'>
       <Flex h='100%' direction={{ base: "column", "2xl": "row" }}>
@@ -91,20 +138,29 @@ export default function Upload(props) {
             my={{ base: "auto", "2xl": "10px" }}
             mx='auto'
             textAlign='start'>
-            Stay on the pulse of distributed projects with an online whiteboard
-            to plan, coordinate and discuss
+            Our system utilizes advanced Artificial Intelligence technologies to extract and analyze ESG data from unstructured reports.
           </Text>
-          <Flex w='100%'>
+          <Flex w='100%' direction="column">
             <Button
               me='100%'
-              mb='50px'
+              mb='10px'
               w='140px'
               minW='140px'
               mt={{ base: "20px", "2xl": "auto" }}
               variant='brand'
-              fontWeight='500'>
+              fontWeight='500'
+              onClick={handleUpload}
+              isLoading={isUploading}
+              loadingText="Uploading">
               Upload now
             </Button>
+            {showAlert && (
+              <Alert status="error" mt={2}>
+                <AlertIcon />
+                <AlertTitle mr={2}>Error!</AlertTitle>
+                <AlertDescription>Please select a file before uploading.</AlertDescription>
+              </Alert>
+            )}
           </Flex>
         </Flex>
       </Flex>

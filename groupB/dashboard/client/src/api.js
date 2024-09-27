@@ -46,6 +46,24 @@ export const fetchGovernanceData = () => {
     return api.get('/s3/storage/files');
   };
 
+  export const reportUploadToFirebase = async (formData) => {
+    try {
+      const response = await api.post('/firebase/upload', formData, {
+        headers: {
+          'Content-Type': 'multipart/form-data'
+        }
+      });
+      return response.data;
+    } catch (error) {
+      console.error('Error in reportUploadToFirebase:', error);
+      throw error;
+    }
+  };
+
+  // export const reportUploadToS3 = () => {
+  //   return api.get('/s3/upload');
+  // };
+
 
 // Add other API calls as needed
 
