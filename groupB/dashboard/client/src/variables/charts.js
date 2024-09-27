@@ -7,6 +7,19 @@ export const barChartDataDailyTraffic = [
   },
 ];
 
+export const createBarChartData = (data) => {
+  if (!Array.isArray(data)) {
+    console.error("Expected data to be an array, but got:", data);
+    return { name: "Environmental Scores", data: [] }; // Return an empty array if not valid
+  }
+
+  return {
+    name: "Environmental Scores",
+    data: data.map(item => item.env_score_weighted || 0), // Default to 0 if property is missing
+  };
+};
+
+
 export const barChartOptionsDailyTraffic = {
   chart: {
     toolbar: {
@@ -27,7 +40,7 @@ export const barChartOptionsDailyTraffic = {
     theme: "dark",
   },
   xaxis: {
-    categories: ["00", "04", "08", "12", "14", "16", "18"],
+    categories: [],
     show: false,
     labels: {
       show: true,
@@ -94,6 +107,294 @@ export const barChartOptionsDailyTraffic = {
   },
   dataLabels: {
     enabled: false,
+  },
+  plotOptions: {
+    bar: {
+      borderRadius: 10,
+      columnWidth: "40px",
+    },
+  },
+};
+
+export const e_barChartOptionsDailyTraffic = {
+  chart: {
+    toolbar: {
+      show: false,
+    },
+  },
+  tooltip: {
+    style: {
+      fontSize: "12px",
+      fontFamily: undefined,
+    },
+    onDatasetHover: {
+      style: {
+        fontSize: "12px",
+        fontFamily: undefined,
+      },
+    },
+    theme: "dark",
+  },
+  xaxis: {
+    categories: [],
+    show: true,
+    labels: {
+      show: true,
+      style: {
+        colors: "#1B1B1B",
+        fontSize: "14px",
+        fontWeight: "500",
+      },
+    },
+    axisBorder: {
+      show: false,
+    },
+    axisTicks: {
+      show: false,
+    },
+  },
+  yaxis: {
+    show: false,
+    color: "black",
+    labels: {
+      show: true,
+      style: {
+        colors: "#CBD5E0",
+        fontSize: "14px",
+      },
+    },
+  },
+  grid: {
+    show: true,
+    strokeDashArray: 5,
+    yaxis: {
+      lines: {
+        show: true,
+      },
+    },
+    xaxis: {
+      lines: {
+        show: false,
+      },
+    },
+  },
+  fill: {
+    type: "gradient",
+    gradient: {
+      type: "vertical",
+      shadeIntensity: 1,
+      opacityFrom: 0.7,
+      opacityTo: 0.9,
+      colorStops: [
+        [
+          {
+            offset: 0,
+            color: "#11998E",
+            opacity: 1,
+          },
+          {
+            offset: 100,
+            color: "#38EF7D",
+            opacity: 1,
+          },
+        ],
+      ],
+    },
+  },
+  dataLabels: {
+    enabled: true,
+  },
+  plotOptions: {
+    bar: {
+      borderRadius: 10,
+      columnWidth: "40px",
+    },
+  },
+};
+
+export const s_barChartOptionsDailyTraffic = {
+  chart: {
+    toolbar: {
+      show: false,
+    },
+  },
+  tooltip: {
+    style: {
+      fontSize: "12px",
+      fontFamily: undefined,
+    },
+    onDatasetHover: {
+      style: {
+        fontSize: "12px",
+        fontFamily: undefined,
+      },
+    },
+    theme: "dark",
+  },
+  xaxis: {
+    categories: [],
+    show: true,
+    labels: {
+      show: true,
+      style: {
+        colors: "#1B1B1B",
+        fontSize: "14px",
+        fontWeight: "500",
+      },
+    },
+    axisBorder: {
+      show: false,
+    },
+    axisTicks: {
+      show: false,
+    },
+  },
+  yaxis: {
+    show: false,
+    color: "black",
+    labels: {
+      show: true,
+      style: {
+        colors: "#CBD5E0",
+        fontSize: "14px",
+      },
+    },
+  },
+  grid: {
+    show: true,
+    strokeDashArray: 5,
+    yaxis: {
+      lines: {
+        show: true,
+      },
+    },
+    xaxis: {
+      lines: {
+        show: false,
+      },
+    },
+  },
+  fill: {
+    type: "gradient",
+    gradient: {
+      type: "vertical",
+      shadeIntensity: 1,
+      opacityFrom: 0.7,
+      opacityTo: 0.9,
+      colorStops: [
+        [
+          {
+            offset: 0,
+            color: "#2F80ED",
+            opacity: 1,
+          },
+          {
+            offset: 100,
+            color: "#56CCF2",
+            opacity: 1,
+          },
+        ],
+      ],
+    },
+  },
+  dataLabels: {
+    enabled: true,
+  },
+  plotOptions: {
+    bar: {
+      borderRadius: 10,
+      columnWidth: "40px",
+    },
+  },
+};
+
+export const g_barChartOptionsDailyTraffic = {
+  chart: {
+    toolbar: {
+      show: false,
+    },
+  },
+  tooltip: {
+    style: {
+      fontSize: "12px",
+      fontFamily: undefined,
+    },
+    onDatasetHover: {
+      style: {
+        fontSize: "12px",
+        fontFamily: undefined,
+      },
+    },
+    theme: "dark",
+  },
+  xaxis: {
+    categories: [],
+    show: true,
+    labels: {
+      show: true,
+      style: {
+        colors: "#1B1B1B",
+        fontSize: "14px",
+        fontWeight: "500",
+      },
+    },
+    axisBorder: {
+      show: false,
+    },
+    axisTicks: {
+      show: false,
+    },
+  },
+  yaxis: {
+    show: false,
+    color: "black",
+    labels: {
+      show: true,
+      style: {
+        colors: "#CBD5E0",
+        fontSize: "14px",
+      },
+    },
+  },
+  grid: {
+    show: true,
+    strokeDashArray: 5,
+    yaxis: {
+      lines: {
+        show: true,
+      },
+    },
+    xaxis: {
+      lines: {
+        show: false,
+      },
+    },
+  },
+  fill: {
+    type: "gradient",
+    gradient: {
+      type: "vertical",
+      shadeIntensity: 1,
+      opacityFrom: 0.7,
+      opacityTo: 0.9,
+      colorStops: [
+        [
+          {
+            offset: 0,
+            color: "#F2994A",
+            opacity: 1,
+          },
+          {
+            offset: 100,
+            color: "#F2C94C",
+            opacity: 1,
+          },
+        ],
+      ],
+    },
+  },
+  dataLabels: {
+    enabled: true,
   },
   plotOptions: {
     bar: {
@@ -247,7 +548,50 @@ export const pieChartOptions = {
   },
 };
 
+export const ESG_metrics_pieChartOptions = {
+  labels: ["Environmental", "Social", "Governance","Penalty"],
+  colors: ["#38ef7d", "#6AD2FF", "#f7b733", "#fc4a1a"],
+  chart: {
+    width: "60px",
+  },
+  states: {
+    hover: {
+      filter: {
+        type: "none",
+      },
+    },
+  },
+  legend: {
+    show: true,
+  },
+  dataLabels: {
+    enabled: true,
+    fontSize: "20px",
+    fontWeight: "1000",
+    fontFamily: 'Helvetica, Arial',
+  },
+  hover: { mode: null },
+  plotOptions: {
+    donut: {
+      expandOnClick: false,
+      donut: {
+        labels: {
+          show: false,
+        },
+      },
+    },
+  },
+  fill: {
+    colors: ["#38ef7d", "#6AD2FF", "#f7b733", "#fc4a1a"],
+  },
+  tooltip: {
+    enabled: true,
+    theme: "dark",
+  },
+};
+
 export const pieChartData = [63, 25, 12];
+export const ESG_metrics_pieChartData = [30, 30, 20, 20];
 
 // Total Spent Default
 
@@ -334,3 +678,349 @@ export const lineChartOptionsTotalSpent = {
   },
   color: ["#7551FF", "#39B8FF"],
 };
+
+
+export const e_score_line = (data) => {
+  // Group data by company
+  const groupedData = data.reduce((acc, current) => {
+    const { CompanyName, ReportYear, env_score_weighted } = current;
+    if (!acc[CompanyName]) {
+      acc[CompanyName] = {};
+    }
+    acc[CompanyName][ReportYear] = env_score_weighted; // Assign the score to the corresponding year
+    return acc;
+  }, {});
+
+  // Prepare the final data structure for the chart
+  const chartData = Object.keys(groupedData).map(company => {
+    const years = Object.keys(groupedData[company]).sort(); // Get sorted years
+    return {
+      name: company,
+      data: years.map(year => groupedData[company][year] || 0), // Fill in scores for each year
+    };
+  });
+
+  return chartData;
+};
+
+export const E_score_line_option = {
+  chart: {
+    toolbar: {
+      show: false,
+    },
+    dropShadow: {
+      enabled: true,
+      top: 13,
+      left: 0,
+      blur: 10,
+      opacity: 0.1,
+      color: "#4318FF",
+    },
+  },
+  colors: ["#11998e","#38ef7d","#1D976C", "#93F9B9" , "#56ab2f", "#4318FF"],
+  markers: {
+    size: 0,
+    colors: "white",
+    strokeColors: "#7551FF",
+    strokeWidth: 3,
+    strokeOpacity: 0.9,
+    strokeDashArray: 0,
+    fillOpacity: 1,
+    discrete: [],
+    shape: "circle",
+    radius: 2,
+    offsetX: 0,
+    offsetY: 0,
+    showNullDataPoints: true,
+  },
+  tooltip: {
+    theme: "dark",
+  },
+  dataLabels: {
+    enabled: true,
+  },
+  stroke: {
+    curve: "smooth",
+    type: "line",
+  },
+  xaxis: {
+    type: "numeric",
+    categories: [],
+    labels: {
+      style: {
+        colors: "#A3AED0",
+        fontSize: "12px",
+        fontWeight: "500",
+      },
+    },
+    axisBorder: {
+      show: false,
+    },
+    axisTicks: {
+      show: false,
+    },
+  },
+  yaxis: {
+    show: true,
+  },
+  legend: {
+    show: true,
+    showForSingleSeries: true,
+    position: 'bottom',
+    horizontalAlign: 'center',
+    floating: false,
+    fontSize: '14px',
+    fontFamily: 'Helvetica, Arial',
+    fontWeight: 400,
+  },
+  grid: {
+    show: true,
+    column: {
+      color: ["#7551FF", "#39B8FF"],
+      opacity: 0.5,
+    },
+  },
+  color: ["#11998e", "#39B8FF"],
+};
+
+export const S_score_line_option = {
+  chart: {
+    toolbar: {
+      show: false,
+    },
+    dropShadow: {
+      enabled: true,
+      top: 13,
+      left: 0,
+      blur: 10,
+      opacity: 0.1,
+      color: "#4318FF",
+    },
+  },
+  colors: ["#2F80ED"],
+  markers: {
+    size: 0,
+    colors: "white",
+    strokeColors: "#7551FF",
+    strokeWidth: 3,
+    strokeOpacity: 0.9,
+    strokeDashArray: 0,
+    fillOpacity: 1,
+    discrete: [],
+    shape: "circle",
+    radius: 2,
+    offsetX: 0,
+    offsetY: 0,
+    showNullDataPoints: true,
+  },
+  tooltip: {
+    theme: "dark",
+  },
+  dataLabels: {
+    enabled: true,
+  },
+  stroke: {
+    curve: "smooth",
+    type: "line",
+  },
+  xaxis: {
+    type: "numeric",
+    categories: [],
+    labels: {
+      style: {
+        colors: "#A3AED0",
+        fontSize: "12px",
+        fontWeight: "500",
+      },
+    },
+    axisBorder: {
+      show: false,
+    },
+    axisTicks: {
+      show: false,
+    },
+  },
+  yaxis: {
+    show: true,
+  },
+  legend: {
+    show: true,
+    showForSingleSeries: true,
+    position: 'bottom',
+    horizontalAlign: 'center',
+    floating: false,
+    fontSize: '14px',
+    fontFamily: 'Helvetica, Arial',
+    fontWeight: 400,
+  },
+  grid: {
+    show: true,
+    column: {
+      color: ["#7551FF", "#39B8FF"],
+      opacity: 0.5,
+    },
+  },
+  color: ["#2F80ED", "#39B8FF"],
+};
+
+export const G_score_line_option = {
+  chart: {
+    toolbar: {
+      show: false,
+    },
+    dropShadow: {
+      enabled: true,
+      top: 13,
+      left: 0,
+      blur: 10,
+      opacity: 0.1,
+      color: "#4318FF",
+    },
+  },
+  colors: ["#F2994A","#38ef7d","#1D976C", "#93F9B9" , "#56ab2f", "#4318FF"],
+  markers: {
+    size: 0,
+    colors: "white",
+    strokeColors: "#7551FF",
+    strokeWidth: 3,
+    strokeOpacity: 0.9,
+    strokeDashArray: 0,
+    fillOpacity: 1,
+    discrete: [],
+    shape: "circle",
+    radius: 2,
+    offsetX: 0,
+    offsetY: 0,
+    showNullDataPoints: true,
+  },
+  tooltip: {
+    theme: "dark",
+  },
+  dataLabels: {
+    enabled: true,
+  },
+  stroke: {
+    curve: "smooth",
+    type: "line",
+  },
+  xaxis: {
+    type: "numeric",
+    categories: [],
+    labels: {
+      style: {
+        colors: "#A3AED0",
+        fontSize: "12px",
+        fontWeight: "500",
+      },
+    },
+    axisBorder: {
+      show: false,
+    },
+    axisTicks: {
+      show: false,
+    },
+  },
+  yaxis: {
+    show: true,
+  },
+  legend: {
+    show: true,
+    showForSingleSeries: true,
+    position: 'bottom',
+    horizontalAlign: 'center',
+    floating: false,
+    fontSize: '14px',
+    fontFamily: 'Helvetica, Arial',
+    fontWeight: 400,
+  },
+  grid: {
+    show: true,
+    column: {
+      color: ["#7551FF", "#39B8FF"],
+      opacity: 0.5,
+    },
+  },
+  color: ["#F2994A", "#39B8FF"],
+};
+
+
+export const ESG_score_line_option = {
+  chart: {
+    toolbar: {
+      show: false,
+    },
+    dropShadow: {
+      enabled: true,
+      top: 13,
+      left: 0,
+      blur: 10,
+      opacity: 0.1,
+      color: "#4318FF",
+    },
+  },
+  colors: ["#7551FF", "#39B8FF"],
+  markers: {
+    size: 0,
+    colors: "white",
+    strokeColors: "#7551FF",
+    strokeWidth: 3,
+    strokeOpacity: 0.9,
+    strokeDashArray: 0,
+    fillOpacity: 1,
+    discrete: [],
+    shape: "circle",
+    radius: 2,
+    offsetX: 0,
+    offsetY: 0,
+    showNullDataPoints: true,
+  },
+  tooltip: {
+    theme: "dark",
+  },
+  dataLabels: {
+    enabled: true,
+  },
+  stroke: {
+    curve: "smooth",
+    type: "line",
+  },
+  xaxis: {
+    type: "numeric",
+    categories: [],
+    labels: {
+      style: {
+        colors: "#A3AED0",
+        fontSize: "12px",
+        fontWeight: "500",
+      },
+    },
+    axisBorder: {
+      show: false,
+    },
+    axisTicks: {
+      show: false,
+    },
+  },
+  yaxis: {
+    show: true,
+  },
+  legend: {
+    show: true,
+    showForSingleSeries: true,
+    position: 'bottom',
+    horizontalAlign: 'center',
+    floating: false,
+    fontSize: '14px',
+    fontFamily: 'Helvetica, Arial',
+    fontWeight: 400,
+  },
+  grid: {
+    show: true,
+    column: {
+      color: ["#7551FF", "#39B8FF"],
+      opacity: 0.5,
+    },
+  },
+  color: ["#7551FF", "#39B8FF"],
+};
+

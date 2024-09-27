@@ -13,7 +13,7 @@ export function SidebarBrand() {
         color={textColor}
         my="32px"
       >
-        Pioneer Project
+        Pioneer ESG Project
       </Text>
       <HSeparator mb='20px' />
     </Flex>

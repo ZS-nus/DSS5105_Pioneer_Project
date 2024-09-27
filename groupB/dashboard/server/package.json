@@ -11,12 +11,16 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.654.0",
+    "aws-sdk": "^2.1691.0",
     "axios": "^1.7.7",
     "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "firebase": "^10.13.1",
     "firebase-admin": "^12.4.0",
-    "mysql2": "^3.11.2"
+    "mysql2": "^3.11.2",
+    "ssh2": "^1.16.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.4"

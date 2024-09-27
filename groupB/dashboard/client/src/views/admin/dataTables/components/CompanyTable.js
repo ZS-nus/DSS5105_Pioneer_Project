@@ -1,6 +1,6 @@
 'use client';
 import React, { useEffect } from 'react';
-import axios from 'axios';
+import { fetchCompanyData } from '../../../../api';
 import {
   Box,
   Flex,
@@ -36,7 +36,7 @@ export default function ComplexTable(props) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:5105/api/table/company');
+        const response = await fetchCompanyData();
         setData(response.data);
         setLoading(false);
       } catch (err) {
@@ -70,7 +70,7 @@ export default function ComplexTable(props) {
         </Flex>
       ),
     }),
-    columnHelper.accessor('CompanyID', {
+    columnHelper.accessor('Sector', {
       id: 'company_id',
       header: () => (
         <Text
@@ -79,7 +79,7 @@ export default function ComplexTable(props) {
           fontSize={{ sm: '10px', lg: '12px' }}
           color="gray.400"
         >
-          ID
+          INDUSTRY
         </Text>
       ),
       cell: (info) => (
@@ -90,7 +90,7 @@ export default function ComplexTable(props) {
         </Flex>
       ),
     }),
-    columnHelper.accessor('Sector', {
+    columnHelper.accessor('FoundedYear', {
       id: 'company_sector',
       header: () => (
         <Text
@@ -99,7 +99,7 @@ export default function ComplexTable(props) {
           fontSize={{ sm: '10px', lg: '12px' }}
           color="gray.400"
         >
-          SECTOR
+          Founded
         </Text>
       ),
       cell: (info) => (
