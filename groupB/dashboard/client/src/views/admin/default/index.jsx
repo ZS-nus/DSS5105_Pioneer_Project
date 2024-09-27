@@ -15,11 +15,16 @@ import MiniCalendar from "components/calendar/MiniCalendar";
 import CheckTable from "views/admin/default/components/CheckTable";
 import ComplexTable from "views/admin/default/components/ComplexTable";
 import DailyTraffic from "views/admin/default/components/DailyTraffic";
-import PieCard from "views/admin/default/components/PieCard";
+import ESG_metrics_pie from "views/admin/default/components/ESG_metrics_pie";
 import Tasks from "views/admin/default/components/Tasks";
 import ELineChart from "views/admin/default/components/e_line_chart";
+import SLineChart from "views/admin/default/components/s_line_chart";
+import GLineChart from "views/admin/default/components/g_line_chart";
+import ESGLineChart from "views/admin/default/components/esg_line_chart";
 import WeeklyRevenue from "views/admin/default/components/WeeklyRevenue";
 import EBarChart from "views/admin/default/components/e_bar_chart";
+import SBarChart from "views/admin/default/components/s_bar_chart";
+import GBarChart from "views/admin/default/components/g_bar_chart";
 import {
   columnsDataCheck,
   columnsDataComplex,
@@ -88,21 +93,26 @@ export default function UserReports() {
   return (
     <Box pt={{ base: "130px", md: "80px", xl: "80px" }}>
 
-
       <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
         <Card px='0px' mb='20px'>
-            <OverallRanking
-              tableData={tableDataTopCreators}
-              columnsData={tableColumnsTopCreators}
-            />
-          </Card>
-          <Card px='0px' mb='20px'>
-          <SimpleGrid columns={{ base: 1, md: 1, xl: 1 }} gap='20px'>
-          {/* <EBarChart data={e_score_latest} />
-          <ELineChart data={e_score} companyName={companyName} />  */}
-        </SimpleGrid>
-          </Card>
+          <OverallRanking
+            tableData={tableDataTopCreators}
+            columnsData={tableColumnsTopCreators}
+          />
+        </Card>
 
+        <Card px='0px' mb='20px'>
+          <Flex direction="column" h="100%"> {/* Add this Flex container */}
+            <Box pl='20px' pr='20px' flex="1"> {/* Modify this Box */}
+              <ESG_metrics_pie h="100%" /> {/* Add h="100%" to PieCard */}
+            </Box>
+          </Flex>
+        </Card>
+
+      </SimpleGrid>
+
+      <SimpleGrid columns={{ base: 1, md: 1, xl: 1 }} gap='20px' mb='20px'>
+      <ESGLineChart data={e_score} company={companyName} /> 
       </SimpleGrid>
 
 
@@ -111,6 +121,16 @@ export default function UserReports() {
           <ELineChart data={e_score} company={companyName} /> 
       </SimpleGrid>
 
+      <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
+          <SBarChart data={e_score_latest} />
+          <SLineChart data={e_score} company={companyName} /> 
+      </SimpleGrid>
+
+      <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
+          <GBarChart data={e_score_latest} />
+          <GLineChart data={e_score} company={companyName} /> 
+      </SimpleGrid>
+
 
       <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
 
@@ -118,14 +138,7 @@ export default function UserReports() {
 
 
 
-      <SimpleGrid columns={{ base: 1, md: 1, xl: 2 }} gap='20px' mb='20px'>
-        <CheckTable columnsData={columnsDataCheck} tableData={tableDataCheck} />
-        <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px'>
-          <DailyTraffic />
-          <PieCard />
-        </SimpleGrid>
-      </SimpleGrid>
-      <SimpleGrid columns={{ base: 1, md: 1, xl: 2 }} gap='20px' mb='20px'>
+      {/* <SimpleGrid columns={{ base: 1, md: 1, xl: 2 }} gap='20px' mb='20px'>
         <ComplexTable
           columnsData={columnsDataComplex}
           tableData={tableDataComplex}
@@ -134,7 +147,7 @@ export default function UserReports() {
           <Tasks />
           <MiniCalendar h='100%' minW='100%' selectRange={false} />
         </SimpleGrid>
-      </SimpleGrid>
+      </SimpleGrid> */}
     </Box>
   );
 }
