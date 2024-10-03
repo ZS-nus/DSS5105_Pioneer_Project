@@ -167,3 +167,54 @@ VALUES
         FOREIGN KEY (CompanyID) REFERENCES company_info(CompanyID)
     );
 
+-- Create the governance_data table
+CREATE TABLE IF NOT EXISTS governance (
+    CompanyID INT NOT NULL,
+    ReportYear INT NOT NULL,
+    BoardComposition VARCHAR(255),
+    EthicalBehaviour VARCHAR(255),
+    RiskManagement INT,
+    BoardIndependence DECIMAL(5, 2),
+    WomenOnBoard DECIMAL(5, 2),
+    ManagementDiversity VARCHAR(255),
+    CertificationList INT,
+    Certifications VARCHAR(1000),
+    PRIMARY KEY (CompanyID, ReportYear),
+    FOREIGN KEY (CompanyID) REFERENCES company_info(CompanyID)
+);
+
+INSERT INTO governance (CompanyID, ReportYear, BoardComposition, EthicalBehaviour, RiskManagement, FemaleDirectorsPercentage, IndependentDirectorsPercentage, ManagementDiversityPercentage, CertificationCount, Certifications)
+VALUES
+(7, 2023, NULL, NULL, 1, NULL, NULL, NULL, 0, NULL),
+(7, 2022, NULL, NULL, 1, NULL, NULL, NULL, 0, NULL),
+(7, 2021, NULL, NULL, 1, NULL, NULL, NULL, 0, NULL),
+(7, 2020, NULL, NULL, 1, NULL, NULL, NULL, 0, NULL),
+(7, 2019, NULL, NULL, 1, NULL, NULL, NULL, 0, NULL),
+(6, 2022, 1, 1, 1, 54.5, 18.2, 16.9, 3, 'ISO 14001, ISO 45001, ISO 50001, ISO/IEC 27701, ISO/IEC 27001'),
+(6, 2021, 1, 1, 1, NULL, NULL, 16.1, 0, NULL),
+(6, 2020, 1, 1, 1, NULL, NULL, 15.3, 0, NULL),
+(1, 2023, 1, 1, 1, 50.0, 50.0, NULL, 5, 'ISO 14001, lSO 14040, ISO 14044, lSO 14064, lSO 14067'),
+(1, 2022, 1, 1, 1, NULL, NULL, 32.3, 1, 'ISO 14001'),
+(1, 2021, 1, 1, 1, NULL, NULL, 31.4, 1, 'ISO 14001'),
+(1, 2020, 1, 1, 1, NULL, NULL, 31.0, 0, NULL),
+(1, 2019, 1, 1, 1, NULL, NULL, 30.0, 0, NULL),
+(2, 2023, 0, 0, 1, 75.0, 16.6, NULL, 3, 'ISO 14001, ISO 50001, ISO 9001, ISO 45001'),
+(2, 2022, 0, 0, 1, 75.0, 16.6, NULL, 3, 'ISO 14001, ISO 50001, ISO 9001, ISO 45001'),
+(2, 2021, 0, 0, 1, 75.0, 16.6, NULL, 3, 'ISO 14001, ISO 50001, ISO 9001, ISO 45001'),
+(2, 2020, 0, 0, 1, 75.0, 16.6, NULL, 3, 'ISO 14001, ISO 50001, ISO 9001, ISO 45001'),
+(2, 2019, 0, 0, 1, 75.0, 16.6, NULL, 3, 'ISO 14001, ISO 50001, ISO 9001, ISO 45001'),
+(3, 2023, 1, 1, 1, 33.3, 0.0, NULL, 3, 'ISO 14001, ISO 45001, ISO 50001'),
+(3, 2022, 1, 0, 1, 33.3, 0.0, NULL, 3, 'ISO 14001, ISO 45001, ISO 50001'),
+(3, 2021, 1, 0, 1, 33.3, 0.0, NULL, 3, 'ISO 14001, ISO 45001, ISO 50001'),
+(5, 2023, 1, 1, 0, NULL, 30.0, NULL, 3, 'ISO 14001, ISO 50001, ISO 14064'),
+(5, 2022, 0, 1, 0, NULL, NULL, 36.7, 0, NULL),
+(5, 2021, 0, 0, 0, NULL, NULL, 35.5, 0, NULL),
+(5, 2020, 0, 0, 0, NULL, NULL, 34.2, 0, NULL),
+(4, 2023, 1, 1, 0, 92.0, 38.0, 31.4, 0, NULL),
+(4, 2022, 1, 1, 0, NULL, NULL, 31.1, 0, NULL),
+(4, 2021, 1, 1, 0, NULL, NULL, 31.0, 0, NULL),
+(4, 2020, 1, 1, 0, NULL, NULL, NULL, 3, 'ISO 14001, ISO 50001, ISO 14064-3'),
+(4, 2019, 1, 1, 0, NULL, NULL, NULL, 0, NULL),
+(8, 2023, 1, 0, 0, NULL, 25.0, NULL, 0, NULL),
+(8, 2022, 1, 0, 0, NULL, NULL, NULL, 0, NULL),
+(8, 2021, 1, 0, 0, NULL, NULL, NULL, 3, 'ISO 14064-1:2018');
