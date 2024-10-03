@@ -1,0 +1,1963 @@
+# Preprocessed ESG Data for lenovo
+
+Lenovo Group Limited202324 Environmental , Social Governance ReportHKD COUNTER STOCK CODE 992 RMB COUNTER STOCK CODE 80992 Table content 1.0 Executive letter 2 A letter Chairman CEO 4 A letter Chief Legal Corporate Responsibility Officer 6 2.0 About report 8 About report 10 Organizational profile 11 Material topic 12 Aligning United Nations Sustainable Development Goals 14 3.0 Environmental 16 Environmental management system ( EMS ) 18 Climate change 19 Waste 25 Water 26 Environmentally conscious product 27 Packaging 37 Product end-of-life management ( PELM ) 39 Circular economy 40 Biodiversity 41 4.0 Social 42 Labor practice 44 Health safety 45 Diversity inclusion ( DI ) 51 Employment talent management practice 57 Global philanthropy community engagement 64 5.0 Governance 68 ESG governance 70 Business practice 73 Product quality management 79 Innovation 81 Governance highlight 83 6.0 Global supply chain 86 Supply chain ESG practice 88 Supplier diversity 101 7.0 Consolidated metric 102 FY 202324 consolidated metric 104 8.0 EMS performance , objective , target 116 FY 202324 EMS performance , objective , target 118 9.0 Long-term KPI progress 126 Long-term ESG key performance indicator ( KPI ) 128 10.0 Appendix 132 FY 202324 membership association 134 Scope report 135 Gender equity supplementary information 136 GRI content index 138 The Hong Kong Stock Exchanges ESG Reporting Guide content index143 1.0 Executive letter A letter Chairman CEO A letter Chief Legal Corporate Responsibility Officer4 6 4 Lenovo Group Limited 202324 Environmental , Social Governance ReportI pleased introduce FY 202324 Environmental , Social Governance ( ESG ) report .
+This 18th consecutive year published report , demonstrating commitment , persistence , ongoing progress area .
+Clearly , past year presented world numerous challenge , also brought u unprecedented opportunity artificial intelligence ( AI ) .
+It clear AI major priority influence business year come .
+We committed accelerating deployment AI business around world AI-enabled , AI-optimized , AI-ready device , infrastructure , solution , service .
+Even , recognize duty leverage technology improve life people around world minimizing impact planet .
+This recognition led Smarter AI All vision .
+In report , I would like share Lenovo continues drive ESG forward AI era .
+AI environmental sustainability Were proud on-track 2030 emission reduction goal , announcing commitment reach net-zero emission 2050 alignment Science Based Targets initiative Net-Zero Standard .
+Fueled commitment services-led transformation , continue meet customer wherever ESG journey sustainability service .
+In 2023 , Lenovo announced new reduced carbon transport service global logistics , well L. I. S. S. A. , AI-powered consultant help customer optimize IT solution support sustainability goal .
+Lenovos transformation device company solution provider fueling u global technology powerhouse .
+Our sustainability solution service offer customer ability extend use device , manage measure IT fleet carbon footprint , contribute circular economy , even equipment shipped sustainably .
+While enhance customer sustainability strategy Lenovo service , also proud recognized ClimateTM Champion EPEAT , premier global ecolabel electronics technology product .
+More 400 Lenovo product designated Climate , highlight thoughtful production climate mind .
+A letter Chairman CEO Executive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix 5 Lenovo Group Limited 202324 Environmental , Social Governance ReportInclusive AI We see tremendous opportunity AI lead inclusive future .
+Few example highlight better interaction Gabriel , gentleman Brazil communicates Libras ( Brazilian sign language ) .
+An AI solution helped communicate Gabriel also allowed introduce 2023 Tech World audience .
+This solution breakthrough 2.3 million people Brazil deaf hard hearing use Libras communicate , signal inclusion Lenovos technology power .
+As AI adopted various solution , offer best solution without inclusive data set .
+Lenovo proud support work Cercle InterL Women AI Charter accountable gender fair AI .
+Responsible ethical AILenovo shaping AI integration strong governance model Responsible AI governance framework cover ethical , legal , safety , privacy accountability concern AI .
+The framework executed committee focus following principle diversity inclusion , privacy security , accountability reliability , explainability , transparency , environmental social impact .
+In February 2024 , committed UNESCOs Recommendation Ethics Artificial Intelligence build ethical responsible AI .
+This standard commitment acknowledges intersection AI sustainable development goal .
+As member United Nations Global Compact , readily adopt collaborative governance framework protect potential role AI global development .
+Milestones journeyThe following recognition received Lenovo past year , including Lenovos Morgan Stanley Capital International ( MSCI ) ranking maintained AAA status , highest possible score corporationsleading ESG program .
+Th e Hang Seng Corporate Sustainability Index award ed Lenovo strongest score IT Industry Environmental Social Achievements AA score overall .
+H ong Kong Institute Certified Public Acco untants ( HKICPA ) Gold Award Most Sustainable Comp anies Organ izations sectio n Best Corporate Governance ESG Award , making 2023 eleventh year Lenovo recognized HKICPA corporate citizenship .
+Le novo ranked number eight Gart ners 2023 Global Top 25 Supply Chain ranking , time ranking number one Gartner Asia Pacific Supply Chain secon year running .
+As continue journey , important ever maintain thoughtful , measurable , credible approach ESG program .
+The world changed lot since first sustainability report FY 200809 , I proud continued commitment reporting progress .
+Despite constant change time uncertainty , lead persistence resilience , push toward stated goal , work toward sustainable future .
+Yuanqing Yang Chairman Chief Executive Officer Lenovo Group Limited 6 Lenovo Group Limited 202324 Environmental , Social Governance ReportA letter Chief Legal Corporate Responsibility Officer As Senior Vice President Chief Legal Corporate Responsibility Officer , pleasure share 18th annual Environmental , Social , Governance ( ESG ) Report FY 202324 .
+I write letter knowledge world critical juncture across element ESG .
+This past year measured hottest year Earth recorded history , economic uncertainty division remains many around world , artificial intelligence proven powerful tool must used thoughtfully .
+Its important ever take action credibly , collaboratively , full accountability .
+With value mind , Lenovo proud fortify participation member United Nations Global Compact joining Forward Faster initiative 2023 .
+Through initiative , Lenovo committed accelerating impact UN Sustainable Development Goals relate climate action water resilience .
+After announcing validation net-zero target Science Based Targets initiative January 2023 , joining Forward Faster initiative demonstrates commitment credible action collaboration others serious mitigating climate change conserving planet resource .
+While track meet near-term 2030 emission reduction goal first milestone journey net-zero 2050 know innovation perhaps critical strength journey .
+Our people core ability innovate important team composed diverse perspective ensure getting best idea wide range viewpoint .
+Workforce diversity support stronger solution problem , help u better meet need diverse , global customer base .
+To better understand diversity employee base , launched Self-ID Campaign 2023 .
+The Self-ID Campaign give employee opportunity voluntarily provide information gender identity , disability status , racial ethnic background .
+With alignment local leadership , rolled US , European Union , Executive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix 7 Lenovo Group Limited 202324 Environmental , Social Governance ReportDisability Inclusion DisabilityIN , maintained placement Human Rights Campaigns Corporate Equality Index LGBTQ inclusion , received highest score date Workplace Prides Global Benchmark Score .
+Our customer partner recognizing effort , Lenovo honored Canalys Sustainability Champion Award 2023 .
+We know accolade result strong governance persistently reinforce policy , decision , behavior , workplace culture create .
+As global technology company , continue navigate new challenge .
+However , know persistent commitment collaboration , credibility , accountability continue power u forward sustainability journey .
+Laura Quatela Senior Vice President , Chief Legal Corporate Responsibility Officer Lenovo Group Limitedthe United Kingdom .
+We look forward extending key market Asia Pacific region month come .
+This campaign aggregate workforce data provides critical ensuring safety well-being employee increasing awareness external dynamic helping support development stronger internal policy .
+It also provides insight employee resource group , work foster sense belonging workforce across seven diversity segment , many intersection , many interest group .
+Our Product Diversity Office also leverage data awareness internal stakeholder review new product solution ensure smarter technology truly .
+Lenovo industry leader inclusion woman workforce representation woman technical team .
+We remain focused executive representation goal FY 202526 , working reach 27 % female executive representation around world 35 % representation executive historically excluded background US .
+To bolster work , weve focused diverse talent pipeline .
+We continue see success Womens Leadership Development Program ( Director-level woman around world ) Mosaic Leadership Development Program ( Directors historically excluded background US ) .
+Recently Lenovo added Courageous Leadership Development Program better retain grow manager historically excluded background US yet Director level .
+In FY 202324 , proud receive highest-ever engagement score Annual Lenovo Listens employee survey .
+We see reflected employee energy global philanthropy effort .
+In 2023 , employee grew grassroots-driven Love Month Service seventh consecutive year , tracking hour volunteered ever .
+Employees Colombia , Brazil , US India gave back charitable partner Wine To Water help provide access clean water local community .
+Additionally , employee engaged Work Humankind initiative India , helping rural farmer Kanthaloor state revitalize cultivation ancient millet grain .
+As continue sustainability journey , proud recognition signal progress .
+In past year proud recognized one Fortune Magazines Most Admired Companies .
+We also named Best Place Work 8 Lenovo Group Limited 202324 Environmental , Social Governance Report 9 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix 2.0 About reportAbout report Organizational profile Material topic Aligning United Nations Sustainable Development Goals10 11 12 14 10 Lenovo Group Limited 202324 Environmental , Social Governance ReportExternal assurance Accredited third party provided verification service certain energy , greenhouse gas ( GHG ) emission , waste , water data report .
+Please see Environmental section report detail .
+Scope report For purpose report , unless context otherwise requires , term Lenovo Lenovo Group Group refers Lenovo Group Limited together subsidiary .
+The content report apply Company , together principal Lenovo-branded Motorola-branded subsidiary ( Covered Entities ) , except noted .
+Where certain topic also include principal subsidiary , noted .
+The scope Covered Entities material topic boundary within value chain detailed table included Appendix report .
+The table also includes scope coverage information extends subsidiary directly indirectly held Company identified FY 202324 Annual Report .
+All disclosure result Companys progress FY 202324 unless otherwise noted .
+The scope report determined using financial threshold reference contribution subsidiary operation total revenue Group .
+Basis calculation All financial data denoted US Dollars .
+The Company may instance face various challenge measuring performance .
+If contingency associated data provided , contingency noted documentation .
+Contact information For question information report , please contact Ms. Jeannie Kwong , ESG Reporting Manager 8001 Development Drive , Morrisville , NC 27560 Email environmentlenovo .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| com2.0 | About | report | About | report | This | 18th | annual | Environmental | , | Social | , | Governance | ( | ESG | ) | Report | Lenovo | Group | Limited1 | ( | HKD | counter | stock | code | 992 | RMB | counter | stock | code | 80992 | ) | ( | Company | ) | , | cover | Fiscal | Year | ( | FY | ) | 202324 | ( | April | 1 | , | 2023 | March | 31 | , | 2024 | ) | . |
+
+This report considered companion document Companys FY 202324 Annual Report .
+The annual ESG update found Managements discussion analysis Annual Report .
+Report content The content report guided ESG Reporting Guide set Appendix C2 Rules Governing Listing Rules Securities ( Listing Rules ) The Stock Exchange Hong Kong Limited ( Hong Kong Stock Exchange ) , Global Reporting Initiative ( GRI ) Standards , need Lenovos stakeholder .
+This report prepared reference GRI 2021 Standards accordance ESG Reporting Guide Hong Kong Stock Exchange .
+The GRI content index Hong Kong Stock Exchanges ESG Reporting Guide content index included Appendix report .
+The Company complied mandatory disclosure requirement comply explain provision , including following reporting principle , set ESG Reporting Guide Hong Kong Stock Exchange .
+The Company adheres following reporting principle preparing report Materiality The Company conduct regular materiality assessment stakeholder engagement identify report material ESG issue investor stakeholder .
+Quantitative The Company , appropriate , set target aim reduce impact evaluate validate effort measurable manner .
+Balance The Company aim present information transparent unbiased manner provide holistic view overall ESG performance .
+Consistency The Company aim use consistent methodology allow meaningful comparison ESG data time provide information significant change .
+1 Lenovo Group Limited ultimate holding company Lenovo Group .
+As holding company , design , develop , manufacture , distribute product service , control activity Companys subsidiary design , development , manufacture , distribution product service .
+11 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Organizational profile Lenovo global technology powerhouse employing approximately 69,500 people around world serving million customer every day 180 market .
+The Company incorporated listed Hong Kong SAR , China , headquarters Beijing , China , North Carolina , USA .
+Focused bold vision deliver smarter technology , Lenovo built success world largest PC company expanding key growth area fuel advancement New IT technology ( client , edge , cloud , network , intelligence ) including server , storage , mobile , software , solution , service .
+Lenovo acquired IBMs PC Division May 2005 .
+In January 2011 , Company announced joint venture NEC Corporation , resulted creation largest PC group Japan .
+Lenovo held majority stake Medion AG since July 2011 , October 2014 , Lenovo acquired Motorola Mobility IBMs X86 server .
+In November 2017 , Lenovo launched joint venture Fujitsu Limited .
+In 2022 , Company announced strategic partnership PCCW Limited form technology solution powerhouse , leveraging combined strength company .
+Lenovo flexible , resilient global supply chain ranked 8 Gartners Top 25 Global Supply Chains 2023 .
+To meet demand diverse , global customer base , Lenovo established company location , research center , manufacturing site around world .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 180 | MarketsGlobal | supply | chain | profile | 10M | Order | line | per | year2,000 | Suppliers1B | Global | customer | 120M | Shipments30 | Global | manufacturing | sites8 | Gartner | 2023 | Global | Supply | Chain | Top | 25 | ( | 1 | place | ) | 150M | Digital | transformation | investment | 12 | Lenovo | Group | Limited | 202324 | Environmental | , | Social | Governance | ReportMaterial | topic | Lenovo | recognizes | importance | understanding | variety | informed | perspective | develops | drive | ESG | program | . |
+
+Through ongoing engagement stakeholder , Company identifies ESG-related material topic process includes range input align significant environmental , social , governance impact substantively influence decision stakeholder .
+The source input include limited customer survey , benchmarking industry trend , ESG reporting framework , investor outreach , requirement Listing Rules , regulatory agency , non-governmental organization ( NGOs ) , various internal external stakeholder .
+The ESG-related material topic identified prioritized considering degree importance topic related Lenovos business continuity Lenovos stakeholder Lenovos impact economy , environment , people , including human right This prioritization exercise carried using stakeholder inclusiveness materiality principle .
+The information derived process help set Groups ESG goal , target , disclosure practice , ongoing engagement stakeholder .
+The material topic identified FY 202324 reporting year detailed chart .
+The Board Directors ESG Executive Oversight Committee ( ESG EOC ) Company reviewed approved materiality assessment process result , ensuring alignment Groups policy , business strategy , risk priority .
+Details regarding Companys ESG Governance role ESG EOC included Governance section report .
+Environmental Climate change Energy management Product end-of-life management Product energy eﬃciency carbon footprint Product material Product packaging Product repairability Supply chain management- environmental Transportation distribution Waste management Water managementGovernance Cyber security data privacy Ethics integrity Innovation Product quality safety Regulatory compliance Reporting disclosure Stakeholder engagementSocial Community engagement Ethical Artiﬁcial Intelligence ( AI ) 2 Human right Health safety Diversity inclusion Labor practice Philanthropy Stakeholder engagement The Group actively manages relationship customer , employee , supplier , investor , regulator , member community operates , stakeholder may impacted organization ESG performance whose action affect organization value .
+Direct indirect stakeholder engagement conducted regular business practice interaction relevant stakeholders.2 This topic initially identified social matter Companys materiality assessment importance AI grown , impact managed Companys governance practice .
+As result , topic discussed Governance section .
+13 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Stakeholder representativesCommunication method channelsCommunication topic InvestorsInvestor Relations Analysts shareholder ﬁnancial institution Hong Kong Exchanges Clearing LimitedInterim Annual Reports Annual General Meeting ( AGM ) General Meetings website webcastsQuarterly , interim , annual ﬁnancial result climate change Diversity Inclusion ( DI ) corporate governance ESG initiative , goal , target EmployeesHuman Resources Talent Acquisition Philanthropy Social Impact subject matter expertsInternal email survey intranet Employee Resource Groups social mediaTraining development DI corporate governance climate change health safety community engagement Customers Sales Customer SupportDirect interaction customer via meeting written response customer focus group response customer-requested survey website social mediaProduct energy carbon data corporate climate change metric product recycled content information supplier due diligence information Supply chain Suppliers Global Supply ChainSurveys audit Responsible Business Alliance ( RBA ) Global Supply Chain website newslettersEnvironmental performance human right labor practice distribution health safety DI climate change supplier training Communities NGOs philanthropic organization civic community partnership regulator legislatorsCommunity service event survey email service campaign website social mediaAccess technology STEM education employee engagement natural disaster Advocacy group Global , national , local alliance NGOsTechnical working group webinars newslettersSupply chain due diligence climate change water management product end-of-life management circular economy DI philanthropy Board DirectorsCompany Secretary Directors Lenovo Executive Committee ESG Executive Oversight CommitteeBoard meeting newsletter email AGMCorporate governance ESG oversight climate change topic ESG risk opportunity ethic compliance Regulators legislator Government agency patent board Government Aﬀairs LegalCompliance assessment tool regulatory tracking service external legal resource newsletter webinarsRegulatory requirement trend compliance requirement data security privacy requirement labor practice requirement Industry associationsNational local industry association certiﬁcation conformance group industry council standard development working groupsNewsletters meeting webinars emailsPolicy recommendation regulatory update standard development activity energy eﬃciency chemical restriction ecolabels These list depict representative example exhaustive .
+14 Lenovo Group Limited 202324 Environmental , Social Governance Report Aligning United Nations Sustainable Development Goals With operation supply chain extend around world , Company uniquely positioned support global collective impact business aligning practice sustainable inclusive future .
+Since 2009 , Company continued role signatory supporter United Nations Global Compact ( UNGC ) , globally recognized platform provides blueprint business want achieve sustainable future .
+As business participant UNGC , Company strives demonstrate continuous improvement aligns operation practice ten principle UNGC .
+The principle promote value system support fundamental responsibility area governance , human right , labor , environment , anti-corruption market Company operates .
+See information Companys UNGC Communication Progress ( CoP ) .
+The Companys ESG initiative include activity directly indirectly support United Nations Sustainable Development Goals ( SDGs ) .
+This information found throughout Environmental , Social , Governance section report .
+Environmental Climate change Energy management Product energy efficiency Product carbon footprint Product end-of-life management Product material Product packaging Product repairability Supply chain management environmental Transportation distribution Waste management Water management 15 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Social Diversity inclusion Ethical management AI Health safety Human right Labor practice Philanthropy community engagementGovernance Cyber security data privacy Ethics integrity Innovation Product quality safety Regulatory compliance 16 Lenovo Group Limited 202324 Environmental , Social Governance Report 17 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix 3.0 Environmental Environmental management system ( EMS ) Climate change Waste Water Environmentally conscious product Packaging Product end-of-life management ( PELM ) Circular economy Biodiversity18 19 25 26 27 37 39 40 41 18 Lenovo Group Limited 202324 Environmental , Social Governance Report3.0 Environmental Environmental management system ( EMS ) The Company manages environmental element operation global environmental management system ( EMS ) cover Companys worldwide product design , development , manufacturing operation ( including distribution , fulfillment , internal repair operation ) computer product device , data center product , mobile device , smart device , accessory , converged network equipment .
+The scope encompasses activity performed subsidiary andor affiliate company .
+All Companys site EMS scope ISO 140012015 certified .
+See view Companys Global ISO 140012015 certificate .
+The Company established , implemented , maintained Environmental Affairs Policy viewed .
+Within framework Companys EMS , annually conduct Significant Environmental Aspect ( SEA ) evaluation process identifies evaluates aspect operation actual potential significant impact environment using methodology includes input Companys Enterprise Risk Management ( ERM ) process .
+Metrics control established significant environmental aspect .
+Performance relative metric tracked reported .
+Performance target established select environmental aspect annually consideration including Environmental Affairs Policy , regulatory requirement , customer requirement , stakeholder input , environmental financial impact , management directive .
+During FY 202324 , Companys significant environmental aspect included Product material including use recycled plastic environmentally preferable material possible Product packaging Product energy consumption emission Product end-of-life management Site air emission , specifically greenhouse gas ( GHG ) emission Site energy consumption Supplier environmental performance Product transportation Waste management Water management Impact Lenovos net-zero commitmentObjective performance target established aspect listed .
+The Companys performance objective target available Section 8.0 .
+The Companys energy , GHG emission ( Scope 1 2 ) , waste , water data externally verified reasonable level assurance .
+The Companys GHG emission ( Scope 3 ) data externally verified limited level assurance .
+The FY 202324 Verification Statements GHG , Energy , Waste Water viewed .
+Lenovo ESG Navigator The Company developed tested innovative ESG data management system called Lenovo ESG Navigator help monitor key ESG metric deliver near-real-time insight .
+In FY 202324 , Company deployed Lenovo ESG Navigator two manufacturing site China Companys Lenovo South Smart Campus Tianjin Smart Campus facility used collect monitor environmental data , including energy , greenhouse gas emission , water , waste data .
+In addition , Lenovo ESG Navigator use Companys Beijing Headquarters deployed smart building solution within Companys Global Supply Chain collect monitor select ESG data related supplier product .
+As next step , plan continue coach user facility deployed Lenovo ESG Navigators effective use continue rollout platform additional manufacturing site beginning facility Monterrey , Mexico .
+The Company anticipates tool many benefit including driving progress toward Companys net-zero emission target environmental target , reducing manual workload related data collection reporting , improving data accuracy , providing near-real-time tracking analysis environmental KPIs , centralizing ESG data document , facilitating ESG knowledge sharing .
+At site Lenovo ESG Navigator deployed , environmental focal point using system provide data input Companys internal environmental database .
+19 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix The Companys Chief Legal Corporate Responsibility Officer provides executive leadership ESG position , including climate change program .
+In addition , ESG Executive Oversight Committee ( EOC ) , chaired Chief Legal Corporate Responsibility Officer , provides strategic direction facilitates coordination ESG effort across Company , including proposing recommendation effective management ESG program .
+The ESG EOC comprised senior management across business functional area chartered promote culture encourages strong ESG performance , including compliance leadership activity .
+Regular update ESG issue , including update topic discussed ESG EOC , also provided Board Committees Chief Legal Corporate Responsibility Officer .
+Concentrated discussion ESG issue , including climate change , assist Board making appropriate decision providing oversight based long-term risk opportunity impact stakeholder business .
+At least annually , Board briefed Companys ESG KPIs including Companys climate strategy progress towards climate change mitigation goal .
+Climate change The Company recognizes human activity contributing climate change concurs finding current climate science described latest assessment report Intergovernmental Panel Climate Change ( IPCC ) .
+The Company also recognizes left unchecked , current trend climate change present serious economic societal risk agrees specific action needed stabilize atmospheric GHG level hold global average temperature acceptable increase .
+The Company working internally externally help minimize mitigate climate risk .
+It committed reducing global carbon footprint business activity demonstrated commitment Implementing corporate Climate Energy Policy Executing long-term comprehensive Climate Change Strategy aligned validated SBTi net-zero target Setting corporate-wide objective target support Policy Strategy N2O CO 2CH 4 SF 6 NF 3 FCs HFCs Scope 3 Downstream Transportation distributio n Processing sold pr oducts Use sold pr oducts End-of-life tr eatment sold pr oducts Leased asset Franchises InvestmentsLeno vo GHG Emissions Scope 3 Upst ream Purchased good servic e Capital good Fuel energy related activity included Sc ope 1 2 Transportation distribution Waste gener ated oper ations Business tr avel Employee commuting Leased assetsN2O CO2CH 4 SF6 NF 3 FCs HFCs Scope 3Downstream 3 Transportation distribution Processing sold pr oducts Use sold pr oducts End-of-life tr eatment sold pr oducts Leased asset Franchises InvestmentsLeno vo GHG Emissions Scope 3 Upst ream 3 Purchased good service Capital good Fuel energy related activity included Scope 1 2 Transportation distribution Waste gener ated oper ations Business tr avel Employee commut ing Leased assetsScope 1 dir ect emission fr om operation ar e owned controlled Leno vo Scope 2 indir ect emission genus tion purchased acquir ed electricity , steam , heating cooling consumed Lenovo Notes Scope 3 category bold black tracked evaluated case described following section action taken drive emission reduction .
+Scope 3 category red relevant Company .
+20 Lenovo Group Limited 202324 Environmental , Social Governance ReportScience-based emission reduction target net-zero strategy The Company responded Science Based Targets initiative ( SBTi ) urgent call corporate climate action committing align 1.5C net-zero Business Ambition 1.5C campaign , official partner United Nations Framework Convention Climate Change ( UNFCCC ) Race Zero campaign .
+SBTi partnership UN Global Compact , CDP , World Resources Institute World Wide Fund Nature .
+The Company early adopter science-based emission reduction approach , receiving SBTi approval near-term 2030 emission reduction target 2020 .
+For near-term target , Companys Scope 1 2 emission reduction target consistent limiting warming 1.5C , ambitious goal Paris Agreement , Scope 3 emission reduction target meet ambitious criterion according SBTis methodology , mean line current best practice .
+On January 19 , 2023 , Company announced SBTi validated target reach net-zero greenhouse gas ( GHG ) emission 2050 .
+The Companys net-zero target achieve 90 percent reduction across Scope 1 , 2 , 3 emission .
+The Company first PC smartphone maker one first 139 company world establish net-zero target validated SBTi .
+The Companys long-term 2050 net-zero target coincides near-term , SBTi-validated 2030 emission reduction target .
+In September 2023 , Lenovo joined UN Global Compact Forward Faster initiative accelerate private sector action towards SDGs , specifically committing climate action water resilience target within initiative .
+By working SBTi aligning Net-Zero Standard , also world first framework corporate net-zero target setting , Company taking scientific , collaborative , accountable approach reducing emission .
+Aligning goal SBTi help hold company accountable emission reduction .
+Without aligning SBTi , difficult validate know net-zero target reached .
+Lenovos mature ISO 14001 Environmental Management System ( EMS ) give Company strong framework set annual target help u drive progress towards 2030 2050 SBTi goal .
+21 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix These target base year FY 201819 , near-term target year FY 202930 , net-zero target year FY 204950 .
+The following table detail Companys Science-Based Targets , road map achievement , progress target FY 202324 .
+FY 202930 TARGETSTATUS AS OF FY 202324 BASE YEAR FY 201819- 50 % - 35 % - 66.5 % - 25 % - 90 % ROAD MAPLENOVO EMISSIONS REDUCTION NEAR-TERM TARGETS Reduce Scope 3 GHG emission global logistics operation 25 % per tonne-km transported productReduce Scope 3 GHG emission ( supply chain ) procured good service 66.5 % per million US gross proﬁtReduce Scope 3 GHG emission ( value chain ) use sold product 35 % average comparable productsReduce absolute Scope 1 Scope 2 GHG emission ( related Lenovos operation ) 50 % Modal shift lower carbon mode transport Optimization transport planning Increase vehicle utilization Improvement vehicle fuel eﬃciency Above concept continue drive energy eﬃciency Lenovo site , product , expand supplier program commitment Inclusion climate change requirement Supplier Code Conduct Supplier climate data collected annually subset supplier Climate change KPIs included supplier ESG scorecard ( evaluation process ) Expand supplier program greater number supplier data capability SBTi level commitmentReduce product emission energy eﬃciency improvement , engaging customer use renewable energyHierarchical combination energy eﬃciency , on-site renewable energy generation , renewable energy commodity FY 204950 TARGETSTATUS AS OF FY 202324 BASE YEAR FY 201819ROAD MAPLENOVO EMISSIONS REDUCTION LONG-TERM TARGETS Reduce GHG emission 90 % - absolute reduction Scope 1 , 2 3 emission .
+Neutralize remaining 10 % emission carbon capture , reforestation , meansOn-Track On-Track 1 On-Track 1 On-Track 1 On-Track 1 1 The Company process improving input data Scope 3 category .
+The status reported best available estimate time publication .
+In FY 202425 ESG Report , overall supporting data target status reflect improved input data .
+22 Lenovo Group Limited 202324 Environmental , Social Governance ReportOther air emission The Companys baseline environmental engineering specification prohibits use ozone-depleting substance product manufacturing process except HVAC fire-suppression equipment permitted law managed accordance local regulation , intentional release prohibited .
+The Companys EMS requires release chemical substance reported environmental incident , including unintentional release .
+During FY 202324 , reported incident refrigerant release .
+The Companys operational process significant ( defined Companys SEA process ) direct air emission nitrogen oxide ( NOx ) , sulfur oxide ( SOx ) , particulate matter ( PM ) .
+In addition , Company wet chemical industrial process use volatile organic compound ( VOC ) thus point source VOC .
+Household cleaning product contain small quantity VOC used facility associated fugitive emission minimal quantified .
+Climate change risk opportunity management The significant risk opportunity associated climate change identified evaluated part two main process within Companys business management system .
+These include Group Risk Management Control ( GRMC ) process annual significant environmental aspect evaluation .
+These two process connected , meaning climate change risk identified global risk registration , considered environmental aspect analysis vice versa .
+1 .
+The Companys formal risk management process cover area Companys strategic , operational , financial , legal , regulatory compliance risk , among include risk natural catastrophe security people operational efficiency , supply chain disruption risk non-compliance ESG requirement regulation .
+Each major business unit function required identify risk assess impact Companys strategy execution , develop mitigation plan select identified risk .
+This process managed Companys Group Risk Management Control ( GRMC ) team.2 .
+Energy consumption , associated GHG emission , net-zero target identified significant environmental aspect impact Company .
+As , associated risk opportunity evaluated prioritized annually based significant aspect methodology accordance requirement Companys EMS .
+Per requirement , climate change evaluated relative actual potential influence environment business .
+This process managed Companys Global ESG team .
+The result evaluation considered ERM process described .
+The Companys climate risk assessment FY 202324 also included climate scenario analysis explore physical transition risk opportunity climate change impact business .
+The climate scenario analysis indicates climate risk may result negative impact Company , however , impact opportunity 1.5º C scenario positive much higher Company proactive exploring climate-related opportunity , including new product sustainability service offered customer .
+Therefore , Company committed reduce 90 % full scope emission keep global warming potential within 1.5º C continues broaden product offering sustainability service area .
+Its ESG materiality assessment identifies energy emission material topic prioritize focus environmental program .
+In support UN Sustainable Development Goal ( SDG ) 13 Climate Action , one Companys ESG pillar includes climate action goal .
+More detail Companys materiality assessment goal align SDGs available Section 2.0 .
+For information Companys identification assessment climate-related risk opportunity , metric , action address climate change , please read Companys response recent CDP Climate questionnaire .
+In 2023 , Company scored A Leadership Level CDPs Climate Change questionnaire reflects performance toward environmental stewardship climate change mitigation practice operation supply chain .
+23 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Energy Under EMS , energy-related target set annually .
+Since decreased energy use increased renewable energy use impact emission , energy-related target related Companys Scope 1 2 emission reduction target similar action taken achieve three type target .
+For Companys specific energy target performance see Section 8.0 .
+By FY 202526 , 90 % global operation electricity obtained renewable source .
+2 2 May accomplished installation onsite renewable energy generation , entry power purchase agreement ( PPA ) power provider andor purchase renewable energy credit .
+Energy consumption also occurs throughout Companys value chain .
+Energy used Companys supplier supply chain encouraged develop energy target , use renewable energy , report energy usage .
+Customers also use energy power product Company set target improve energy efficiency many product .
+For information , see Section 9.0 Companys energy-related KPIs .
+Renewable energy The Companys renewable energy installation help reduce Scope 2 emission facility .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | July | 2023 | , | Company | enabled | additional | 3 | MW | solar | electric | factory | Hefei | , | China | , | increasing | location | total | solar | generation | capacity | 10.1 | MW | . |
+
+Moreover , LSSC site Shenzhen , China , TJSC site Tianjin , China , added new 2.3 MW 4.02 MW solar installation , respectively , FY202324 .
+The Companys total solar generation capacity increased 48 % compared last fiscal year .
+In addition 25.12 MW solar electric currently operational , Company continues investigate additional opportunity solar installation China location including Brazil Mexico .
+The image solar panel installation Companys Shenzhen , China Tianjin , China location .
+In addition onsite solar generation capacity , Company proactively looking opportunity sourcing renewable electricity directly utility supplier .
+The TJSC campus Tianjin , China , signed purchase agreement local utility supplier provide 100 percent renewable electricity manufacturing distribution area starting January 2024 .
+The Green Electricity Certificates documenting renewable electricity provided semiannually based actual electricity consumption .
+Where use onsite renewable energy source technically economically feasible , Company chooses purchase Renewable Energy Credits ( REC ) , International Renewable Energy Credits ( I-REC ) , Guarantees Origin ( GO ) , Non-fossil certificate ( NFCs ) .
+In FY 202324 , Company purchased renewable commodity supported 100 percent renewable energy project consisting wind andor solar power various part world including Brazil , China , India , Japan , Europe , Mexico , US .
+During FY202324 , Company expanded renewable energy procurement first time Japan .
+24 Lenovo Group Limited 202324 Environmental , Social Governance ReportOperational energy efficiency Given one Companys significant environmental aspect emission associated energy consumption , goal continually improve energy efficiency operation .
+In FY 202324 , Companys initiative help reduce energy consumption included following method Energy Conservation Active Method Installation low-energy equipment ( including LED lighting , smart lighting system , air compressor , air conditioning , chiller ) Usage air compressor heat recovery reuse Harmonic control technology application power distribution network Usage High-efficiency power transformer Employed digitalization , including multiple-level smart energy metering device , Lenovo ESG Navigator , campus energy management platform , carbon 3D visualization Energy Conservation Passive Method Installation energy-efficient window low-emissivity window Adoption energy-saving environmentally conscious material new construction Centralized design power room Architectural design natural lighting ( including dome design , adding lighting window , split-level floor design ) Dock leveler heat isolation improvement Management System Certification Various manufacturing site , office location EMEA , Beijing headquarters location ISO 500012018 certified The new Tianjin manufacturing site building 1 8 , Beijing headquarters LEED Gold certified Energy Conservation Education Employee awareness training Energy conservation promotion ( email tip sign ) Environmental spotlight In November 2023 , Lenovos Tianjin Smart Campus ( TJSC ) completed put operation .
+TJSC implemented total 90 carbon reduction measure nine major field , including architectural design , construction process , campus management , manufacturing process , logistics , canteen , data center , digitalization , renewable energy .
+Lenovo deployed Lenovo ESG Navigator support TJSC .
+This integrated solution replaces traditional manual management ESG metric flexible , transparent , highly automated approach capture data across value chain .
+Logistics Logistics important part Lenovos global supply chain key component Companys plan meet net-zero 2050 .
+Lenovo decarbonizing logistics deploying innovative solution including demand management , low carbon transport , low carbon fuel , consolidation utilization , external partnership .
+In FY 202324 , priority Companys logistics included Demand management The Company reducing transportation activity using ultra-light pallet Intelligent Device Groups ( IDG ) business group product .
+The Company directing shipment Australia locating fulfillment center closer customer Malaysia .
+25 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Low carbon transport Using rail sea freight feasible lower carbon transportation compared road air freight .
+The Company progressed transition air freight road sea freight including using roll-onroll-off shipping replaced 50 percent emergent air delivery Asia Pacific , 96 percent total Infrastructure Solutions Groups ( ISG ) shipment transported road North America China .
+The Company increased usage rail freight China , Europe Latin America , thus reducing carbon emission air pollutant avoid using diesel truck .
+Low carbon fuel Air shipment contribute roughly 87 percent Lenovos logistics-related emission , Company aim cut emission transitioning sustainable aviation fuel ( SAF ) , made waste biomass used cooking oil ( UCO ) .
+SAF cause around 80 percent less CO2 emission per flight conventional aviation fuel .
+The Company expanded alternative fuel delivery Brazil , China , Chile , Malaysia , Mexico , Netherlands , Poland , Thailand , UK .
+Consolidation utilization The Company optimizes trailer loading business unit combine trailer possible .
+In FY 202324 , Company improved container utilization truck shipment Hong Kong 51 % 71 % well co-loading good business group product ocean freight .
+External partnership The Company active partner industry-wide coalition , sustainable logistics initiative , government organization NGOs , Global Logistics Emission Council ( GLEC ) , Smart Freight Centre China US Environmental Protection Agency ( EPA ) SmartWay program .
+Striving reduce emission , Company aim ensure stakeholder make difference .
+Lenovo updated logistics KPI methodology require logistics supplier share carbon emission data Company .
+The Company also work supplier set goal reduce emission .
+In addition , Company share logistics CO2 report customer improve transparency increase awareness .
+Waste The Companys day-to-day operation around globe generates non-hazardous waste minimal quantity hazardous waste .
+To ensure waste properly managed , attempt , minimize environmental impact , Companys waste , non-hazardous hazardous , separated collected site generation disposed third-party waste management organization accordance Site Environmental Programs Manual applicable legal requirement .
+26 Lenovo Group Limited 202324 Environmental , Social Governance ReportDuring FY 202324 reporting year , Company continued measure monitor non-hazardous hazardous waste generation volume disposal method internal environmental database .
+In system , environmental focal point site collect upload monthly waste data measured data feasible calculation based measured data .
+When measured data available , non-hazardous waste estimation used , usually based headcount site previous year monthly data similar site .
+The Companys waste data current reporting year presented Section 7.0 .
+Annual Verification Statements Companys total non-hazardous hazardous waste available Companys website .
+The Companys EMS requires site report environmental incident , including waste-related incident , internal environmental database .
+During FY 202324 reporting year , waste-related incident reported .
+In addition internal reporting , Companys manufacturing facility periodically undergo audit , cover aspect waste management .
+For information audit Companys facility , see Section 4.0 .
+The Company recognizes waste management important throughout value chain .
+The Company requires supplier meet Supplier Code Conduct Responsible Business Alliance ( RBA ) Code Conduct contractual stipulation , include waste-related provision .
+The Company us RBA audit verify compliance RBAs Code Conduct supplier spend .
+For information supplier activity , see Section 6.0 .
+The Company manages downstream impact Product-End-of-Life Management ( PELM ) program .
+More information Companys PELM activity found corresponding section .
+Non-hazardous waste The Companys non-hazardous waste includes typical office cafeteria waste well packaging manufacturing scrap manufacturing location .
+Under Companys EMS , global non-hazardous waste recycling target set annually .
+For FY 202324 reporting year , target direct 90 percent ( -5 percent ) Companys non-hazardous waste recovery operation .
+The result Companys environmental target available Section 8.0 .
+Hazardous waste The Companys operation generate minimal quantity hazardous waste .
+Hazardous waste waste designated hazardous applicable law regulation country , state , region , locality may include oil , coolant , organic solvent , battery , fluorescent light bulb , ballast .
+Hazardous waste required disposed accordance local environmental regulation approved supplier .
+Water The Company working internally externally minimize mitigate water risk .
+The Company Implemented maintains corporate Water Resiliency Policy Endorsed UN CEO Water Mandate Joined SBTN Corporate Engagement Program , pledging alignment Science Based Targets Networks ( SBTN ) goal vision contributing advice end-user insight development SBTN method tool SBTN Corporate Engagement Participant Joined UN Global Compact Forward Faster initiative accelerate private sector action towards SDGs , specifically committing water resilience target within initiative .
+27 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix While Company minimal wet process , appreciates importance adequate quantity sufficient quality water supply chain partner wet process , particularly semiconductor industry .
+The Company requires supplier adhere Supplier Code Conduct RBA Code Conduct contractual stipulation , include water-related provision .
+The Company us RBA audit verify compliance RBAs Code Conduct supplier spend .
+For information supplier activity , see Section 6.0 .
+Water risk within Companys operational footprint supply chain assessed annually using publicly available water risk tool ( World Resources Institutes Aqueduct WWFs Water Risk Filter Tool ) .
+For information Companys identification assessment water-related risk opportunity , metric , action , please read Companys response recent CDP Water Security questionnaire .
+For detail Companys global partnership Wine Water ( WW ) , non-profit organization committed supporting life dignity power clean water , see Section 4.0 .
+Environmentally conscious product Product material The Companys corporate-wide environmental standard specification require product designer consider environmentally conscious design practice facilitate encourage recycling minimization resource consumption .
+The Companys priority use environmentally preferable material whenever practical .
+In adhering precautionary approach , support restricting intentional addition material potentially concerning economically technically viable alternative exist .
+These restriction may also include implementing concentration limit incidental occurrence .
+During FY 202324 reporting year , Company continued measure monitor water use risk .
+In Companys direct operation , primary us water continue water access , sanitation , hygiene ( WASH ) service employee , contractor , visitor facility around globe well building cooling .
+Because Companys primary water use employee support , water use varies location location largest manufacturing facility site largest employee headcount , withdrawing discharging amount water .
+The Companys water data current reporting year presented Section 7.0 .
+Annual Verification Statements total water withdrawal discharge available Companys website .
+Approximately 99 percent Companys water supplied third party .
+To date , Company experienced issue sourcing water fit purpose .
+Approximately 99 percent Companys water discharged back third party treatment .
+The Companys EMS requires site characterize discharge entering agreement treatment facility .
+Exceptions may exist typical sanitary waste .
+It also requires site discharge constituent treatment facility treatment capability , update characterization site activity change , adhere , applicable , discharge limit local law , treatment facility , associated permit .
+The Companys EMS includes annual global water target .
+For FY 202324 reporting year , target maintain per person water withdrawal ( volume exceed 5 percent increase compared FY 202223 reporting year ) .
+The target achieved local target select site .
+The result Companys environmental target available Section 8.0 .
+The Company requires site report environmental incident , including water-related incident , internal environmental database .
+During FY 202324 , water-related incident .
+In addition internal reporting , Companys manufacturing facility undergo periodic audit cover aspect WASH water management .
+For information audit Companys facility , see Section 4.0 .
+28 Lenovo Group Limited 202324 Environmental , Social Governance ReportFor material economically technically viable alternative exist , Company collect data usage defined concentration limit .
+This data reported customer stakeholder .
+The Company continues actively search environmentally preferable material used substitute expects partner supplier demonstrate commitment environmentally sound practice .
+See Companys Materials Management webpage information .
+The Company restricts use environmentally sensitive material product .
+This includes prohibition ozone-depleting substance application restriction use persistent organic pollutant ( POPs ) Stockholm Convention elimination material covered European Union ( EU ) Restriction Hazardous Substances ( RoHS ) Registration , Evaluation , Authorization , Restriction Chemicals ( REACH ) , even beyond jurisdiction regulatory requirement exist .
+The Companys implementation strategy requirement consistent requirement specified EUs RoHS Directive REACH Regulation .
+The Company support phasing brominated flame retardant ( BFRs ) polyvinyl chloride ( PVC ) committed driving supply chain toward goal .
+The Company continues focus eliminating halogen top-selling product across many commodity possible made progress including following achievement Phasing completely use BFR chlorinated flame retardant ( CFR ) PVC mechanical plastic part ( external cover , housing , etc . )
+across product Most hard disk drive , optical disk drive , solid-state drive , LCD screen , memory , central processing unit ( CPUs ) , chipsets , communication card commodity offering meet International Electronics Manufacturing Initiative ( iNEMI ) definition3 low halogen All ThinkPad notebook including printed circuit board ( PCBs ) meet iNEMI definition3 low halogen except cable wire , AC adapter All commercial monitor meet iNEMI definition low halogen except PCB assembly cable .
+Furthermore , monitor fully meet iNEMI definition3 low halogen All smartphone product free BFR PVC Prohibiting intentional addition following pollutant part Polybrominated Biphenyls ( PBBs ) Polybrominated Diphenyl Ethers ( PBDEs ) Deca-Brominated Diphenyl Ethers 3 The Company support definition low halogen electronics defined iNEMI Position Statement Definition Low-Halogen Electronics ( BFRCFRPVC-Free ) .
+The Company plan use additional BFR PVC-free part material across Think Idea family product acceptable alternative material become available , working toward goal phase use material across newly introduced product .
+The Company continues work supplier pilot new BFR PVC free application .
+The Company recognizes phase-out material dependent upon availability suitable alternative meet technological , cost , quality , environmental , health , safety requirement .
+29 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix PLM System Leno vo- BB Owners , Engineers , EFPs .
+..
+Export Product BOMs PLM System External Environmenta l Complian ce Analysis SystemSupplier Load BOMs Environmen tal Complian ce Analy si SystemLink Leno vo Supplier part En vironmen tal Complian ce Analysis System Declare Co mpliance St ore Reports Environmen tal Variable ( ENV ) Sign Repo rts available design ated marketSupplier load part data publishe En vironmen tal Complian ce Analysis System Legend BB Owners- Bu ilding Block Ow ners BOM- Bi Materials EFP- En vironmen tal Focal Poin PLM- Pr oduct Lifecycle Manageme nt REACH Re gistra tion , Evaluation , Auth orization , Restriction Chemic al RoHS- Restriction Hazardous Substanc esREACH , RoHS .
+..
+The Companys business unit environmental engineer utilize environmental compliance analysis system perform Bill Materials ( BOM ) validation ensure every part number used building product required supplier information .
+Once full BOM compliance verification complete detailed compliance summary report generated show internal Company external legal requirement full product level .
+In addition regulated material , Company also identified expanded list material substance environmental interest .
+These substance may candidate restriction future .
+It hold supplier accountable reporting use material Supplier Material Declarations .
+A spreadsheet file containing Full Material Disclosure ( FMD ) information , submitted via environmental compliance analysis system , preferred format confirmation compliance restriction reporting substance question specified concentration level .
+30 Lenovo Group Limited 202324 Environmental , Social Governance ReportBig data set material substance As end FY 202324 , Companys Full Material Disclosures ( FMD ) system accumulated expansive data set full material disclosure information business unit .
+This information serf tool aid structural design optimization , analyzing material mechanical property , improving product reliability .
+The Company exempt supplier providing FMD , though allow consideration confidential information .
+Less five percent component supplier provide FMD , usually security intellectual property reason .
+The Company continue effort support FMD supplier provide requested ensure component compliance acceptable alternate format material disclosure , IEC 62474 declaration , test report , self-declaration .
+The Company informs customer environmental attribute product relates compliance applicable law regulation industry-standard IT Eco Declaration form .
+Declarations newly released product posted Companys ECO Declarations webpage .
+Consistent precautionary approach , Company continuously analyzes regulatory environment considers input customer , NGOs , stakeholder evaluation potential health environmental impact product .
+The Company weighs input determine restricted substance , well substance interest tracked reporting consideration future restriction .
+Recycled material The Company continues incorporate post-consumer recycled content ( PCC ) plastic , closed-loop post-consumer recycled content plastic ( CL PCC ) , ocean bound plastic ( OBP ) , recycled metal also introduced new material post-consumer recycled rare earth metal select product .
+These recycled material important Companys product development strategy transition circular economy .
+Using engineered plastic help save natural resource energy would gone manufacturing new plastic , also diverts material landfill .
+The Companys increased use CL PCC helping sustain demand recycled plastic material IT product .
+Environmental benefit achieved still creating product meet Companys high performance standard .
+The Company currently us PCC plastic laptop , desktop , workstation , monitor , accessory introducing closed-loop process product year .
+By FY 202526 , 100 % PC product contain post-consumer recycled content material .
+4 4 Excludes tablet accessory Using PCC IT product present significant challenge due unique structural , performance , cosmetic requirement associated application .
+To overcome continuing challenge using recycled content design manufacture smart connected device , especially notebook , tablet , smartphones , Companys engineer work closely supplier develop qualify new grade plastic resin previously unavailable IT industry .
+These material receive environmental performance qualification approval use product application .
+For CL PCC , Companys research development team work material supplier third-party certification authority build CL PCC supplier material process , including Approved Recycling Standard , Quality Assurance Operation Requirements , Recovery Ratio validate source waste control process using hierarchical waste product traceability scheme .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Since | early | 2005 | , | Companys | cumulative | total | use | recycled | plastic | product | reached | 140 | million | kilogram | ( | gross | ) | containing | PIC | , | PCC | , | andor | CL | PCC | , | net | PCC | 55 | million | kilogram | net | CL | PCC | nearly | 25 | million | kilogram | . |
+| In | 2023 | , | Companys | use | plastic | containing | recycled | content | approximately | 9.7 | million | kilogram | ( | gross | ) | net | CL | PCC | approximately | 6.6 | million | kilogram | . |
+
+31 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix The Companys ESG KPIs include recycled content , refer Section 9.0 .
+Results Companys progress recycled content usage target available Section 8.0 .
+In addition recycled plastic mentioned , FY 202324 , Company continues incorporate ocean bound plastic ( OBP ) recycled metal product .
+In effort reduce ocean pollution , Company researched sourced OBP use product .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | 2023 | , | Companys | use | plastic | containing | OBP | approximately | 14,000 | kilogram | ( | gross | ) | net | OBP | approximately | 700 | kilogram | . |
+
+This year , Company introduced OBP content speaker enclosure ThinkPad L13 Gen 5 ThinkPad L13 Yoga Gen 5 .
+OBP content also introduced fan housing , dummy smart card , dummy SIM cover ThinkPad L14 Gen 5 ThinkPad L16 Gen 1 .
+Recycled metal usage also support transition circular economy .
+Recycled metal usage help reduce mining consumption natural resource potential energy emission saving .
+In FY 202324 , Company expanded use recycled aluminum magnesium ThinkPad product all-in-one ( AIO ) product , including limited For Lenovo ThinkPad X1 2-In-1 Gen 9 minimum 75 % recycled aluminum A cover , minimum 75 % recycled aluminum minimum 90 % recycled magnesium C cover , minimum 55 % recycled aluminum D cover .
+For Yoga AIO 9 32IRH8 minimum 75 % recycled aluminum frame .
+The Company year also started use minimum 21 % recycled steel main frame of- ThinkVision P27pz-30 , and- ThinkVision P32pz-30 , minimum 50 % post-consumer recycled copper thermal module of- ThinkPad P14s Gen 5 , - P16s Gen 3 , - T14p Gen 2 , - L14 Gen 5 , and- L16 Gen 1 , post-consumer recycled rare earth element magnet speaker , ForcePad , hall sensor select ThinkPad product .
+Many product contain different kind recycled sustainable material .
+ThinkPad X1 Carbon Gen 12 contains 3.1 % pre-consumer recycled carbon fiber A cover , minimum 90 % recycled magnesium C cover , 55 % recycled aluminum D cover , 85 % post-consumer recycled plastic keycap , 90 % post-consumer recycled plastic battery enclosure , speaker enclosure , AC adapter enclosure .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 32 | Lenovo | Group | Limited | 202324 | Environmental | , | Social | Governance | ReportMilestones | Company | past | five | year | recycled | content | usage | includes | 2021 | Expanded | use | CL | PCR | 248 | product | Introduced | Ocean | Boun | Plastics | ﬁv | e | product | Introduced | recycled | aluminu | th | ree | product | magnes | ium | one | pr | oduc | t2022 | Expanded | use | CL | PCC | 298 | product | Qualified | 95 | % | CL | PCC | , | 97 | % | PCC | 98 | % | PCC | recycled | plastic | support | product | higher | post-consumer | recycled | content | Introduced | 100 | % | recycled | aluminum | tablet | product | 2020 | Expanded | use | CL | PCR | 103 | product | , | 66 | product | previous | year | Bega | n | using | CL | PCR | se | rver | applic | ation | th | e | ﬁrst | time | th | e | Compan | y | ThinkSystem | SR95 | 0 | 2019 | Expanded | use | CL | PCR | 66 | additional | product | 1st | Use | CL | PCR | Le | novo | notebook | applic | ation | ( | X1 | Carbon | 7th | Generation | ) | Desk | top | visual | model | 2 | 5 | % | CL | PCR | total | product | weight2023 | Expanded | use | CL | PCC | 315 | product | Qualified | 95 | % | CL | PCC | , | 85 | % | CL | PCC | 7 | % | bio-based | content | recycled | plastic | visua | l | product | Introduced | post-consumer | recycled | rare | earth | metal | product | Introduced | recycled | steel | copper | product | Product | energy | efficiency | Product | energy | efficiency | remains | core | focus | Company | . |
+
+To ensure adhering existing proposed global IT product energy efficiency policy regulation current future technology , Company collaborates original equipment manufacturer ( OEMs ) industry stakeholder workgroups .
+The result effort leveraged develop leading-edge product improved operating efficiency .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| The | Company | actively | manages | response | ongoing | energy-related | regulatory | activity | update | emerging | protocol | regulation | , | industry-related | standard | , | including | ENERGY | STAR | program | specification | US | Department | Energy | ( | DOE | ) | Appliance | Equipment | Standards | California | Appliance | Efficiency | Program | requirement | China | Energy | Label | ( | CEL | ) | China | Energy | Conservation | Program | ( | CECP | ) | Standards | EU | Ecodesign | ( | ErP | ) | requirementsIn | 2020 | , | ENERGY | STAR | implemented | new | Computer | Specification | version | 8.0 | covering | desktop | all-in-one | ( | AIO | ) | PC | product | . |
+
+This specification defines energy efficiency performance metric based top 25 percent PC product available market focus enhancement incentive relative full network connectivity , internal power supply ( IPS ) efficiency , Energy Efficient Ethernet ( EEE ) .
+To improve product energy efficiency desktop , workstation , server , Company certifies energy efficiency many internal power supply CLEAResult Plug Load Solutions 80 Plus program .
+This external certification establishes requirement internal power supply independent testing verification program rated efficiency criterion , Bronze , Silver , Gold , Platinum , Titanium .
+Certified system internal power supply ( desktop , workstation , server product ) certification significantly energy-efficient system equipped typical power supply .
+The Companys server also utilize 80 Titanium Power Supply Units ( PSUs ) , Central Processing Units ( CPUs ) P-state cooperative ( voltagefrequency ) control , CPU Voltage Regulator Device ( VRD ) auto-tuning transitioned newer VRD technology lower loss enhance maximize energy efficiency .
+33 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix By FY 202930 , achieve 30 % improvement energy efficiency Lenovo notebook 5 Motorola product .
+6By FY 202930 , achieve 50 % improvement energy efficiency Lenovo desktop 5 server .
+5 5 Energy efficiency improvement average comparable product relative FY 201819 6 Energy efficiency improvement average comparable product relative FY 202021 Through product development process , Company requires product meet energy efficiency performance requirement various market , including limited US , China , Japan , Europe .
+Many Companys notebook , desktop , server , monitor meet often exceed current ENERGY STAR requirement .
+In 2023 2024 , five three Company monitor , respectively , recognized ENERGY STAR Most Efficient .
+The ENERGY STAR Most Efficient list highlight product utilizing latest technological innovation deliver cutting edge efficiency represents best energy saving environmental protection .
+The Companys ENERGY STAR qualified model listed ENERGY STAR website .
+For information Companys energy-efficient product , see Product Energy Efficiency webpage .
+In support Companys commitment lower GHG emission , science-based target established reduce emission associated use sold product per comparable product ( notebook , desktop , server ) .
+Product development team actively investigating implementing technical enhancement support power efficiency improvement track annual performance prescribed target .
+Product energy management feature The Company offer innovative tool allow better control PC server power consumption , calculate energy saving , report management energy performance , IT equipment , device .
+PC tool Benefit Lenovo Settings ( Windows ) An application provides power management feature , Connected Standby user .
+Adaptive Thermal Management Adjusts system power fan speed based ambient level .
+Active Directory LANDesk Supports remote deployment power scheme global setting allow administrator ability control enforce ThinkPad energy saving company-wide .
+EasyResume Provides quick recovery computer lid close , balancing low power state suppressing CPU usage lid close .
+Intelligent Cooling Balances thermal performance adjust setting provide cooler surface comfort optimizing product energy .
+Energy Saving Power Supply Unit ( PSU ) The PSU turn internal fan system detects power load low save energy consumption .
+Smart Power ( Monitors ) A power energy management feature dynamically detects optimizes distribution power .
+Example If multiple device plugged monitor like smartphone , laptop , USB-powered peripheral monitor gauge much power need adjust according requirement .
+34 Lenovo Group Limited 202324 Environmental , Social Governance ReportDurability repairability Keeping product use longer period important aspect circular economy reducing climate impact .
+The Company design product maximize product lifecycle focusing durability ease repair customer skill level .
+To help keep product use , Company offer three-year standard warranty five year replacement part availability many top-selling commercial product .
+Three-year warranty offered base warranty many top-selling Think branded product , including monitor , notebook , desktop , others .
+Customers also purchase warranty upgrade extend base warranty one two year many product .
+Base warranty consumer product vary product type geography typically start one two year base warranty option customer purchase extended warranty many product .
+In addition warranty offering , Company make available service maintenance manual many product along part removal replacement video .
+Customers source spare part Company authorized partner .
+The Companys serviceability engineer focused minimizing interruption customer repair maintenance consider product eligibility onsite repair indicator ease repair .
+For detail , see Companys Warranty Maintenance Services webpage .
+The Companys ESG KPIs include repairability KPI , information see Section 9.0 .
+To support progress KPI Company continues increase number part Customer Replaceable Units ( CRU ) .
+The Company continuously designing innovative feature product help extend useful life .
+For example , battery technology extends notebook battery cycle life key technology , including Increased use lithium polymer cell Used notebook tablet embedded battery , cell typically provide longer life cycle lithium-ion cylindrical cell .
+Longer lifespan battery Many Companys embedded battery designed last two three time longer standard battery .
+Offering warranty upgrade five year many embedded battery .
+The longer lifespan made possible carefully selected cell charge algorithm .
+Product carbon footprint The Product Carbon Footprint ( PCF ) Global Warming Potential ( GWP-100 ) become key product attribute Company customer .
+Knowing PCF product allows customer better understand environmental impact product purchase .
+To provide Companys customer PCF value broadest set product , Company continues utilize Product Attribute Impact Algorithm ( PAIA ) platform calculate streamlined Life Cycle Assessments ( LCAs ) desktop , notebook , tablet , workstation computer well monitor , server , storage , network switch product .
+With suite simplified online tool , PAIA delivered methodology information communication technology ( ICT ) product footprint originated multi-stakeholder initiative ICT company shared insight best practice .
+The Companys participation PAIA helping drive sector-wide streamlined methodology key transforming ICT company sustainable business .
+Using PAIA tool calculate product footprint significantly reduced time cost calculating environmental footprint product .
+The quality accuracy calculation allow Company confidently communicate information customer stakeholder .
+The Company share result enterprise customer publishes publicly PCF information sheet .
+PCF sheet specific product found Companys ECO Declarations webpage .
+35 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix The Companys product life cycle assessment system based ICT industry eco-design requirement analyzes product full life cycle design process help bring product market less environmental impact .
+Its product LCA system utilizes ICT product footprint tool assesses core product design manufacturing plan using scientific quantitative configuration support improvement initiative .
+In addition product , Company working expand exercise include material technology , component .
+In 2023 , Company conducted 24 LCAs LCA based PCF notebook , desktop , display , server product , component .
+The notebook , desktop , display server product LCAs conducted ThinkPad T14 Gen 3 , Legion 9 16IRX9 , Yoga Pro 9 16IMH9 , Yoga 9 2-in-1 14IMH9 , Yoga Book 9 13IMU9 , ThinkBook 13x G4 IMH , ThinkCentre M950t , ThinkStation K-C2 , ThinkVision P27q-30 , ThinkVision E22-30 , ThinkVision E24-30 , ThinkVision E24q-30 , ThinkSystem SR650 V3 , ThinkPad T14 Gen3 notebook , P27q-30 display .
+While voluntary standard available guide practitioner compiling PCF , standard designed establish comparative value product .
+The degree flexibility written standard produce variation result product standard applied different practitioner .
+Compiling PCF using standard also lengthy resource-intensive process .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Other | commonly | used | standard | include | British | Standards | Institutes | PAS | 2050 | , | WRIWBCSDs | GHG | Protocol | Product | Lifecycle | Accounting | Reporting | Standard | , | ISO | 14040 | , | ISO | 14044 | Life | Cycle | Assessment | ( | LCA | ) | , | ISO | 14067 | Carbon | Footprint | Products | . |
+
+Environmental spotlight The Company continues promote use sustainable material beyond product .
+On March 31 , 2023 , Lenovo , Peoples Daily New Media Chishui City Guizhou Province jointly launched Future With Bamboo Sustainable Development Action Chishui City Guizhou , China .
+This initiative response Bamboo substitute Plastic Initiative joint campaign launched China International Bamboo Rattan Organization .
+36 Lenovo Group Limited 202324 Environmental , Social Governance ReportEcolabels around globe The Company pursues ecolabels many product .
+Selected product achieved one following ecolabels 37 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix In operation , Company us reusable bulk packaging transportation chassis manufacturing location .
+Leading way innovative packaging At Company , packaging isnt way get finished device manufacturing facility safely customer hand .
+It opportunity innovative packaging engineer designer consider innovation could help reduce environmental impact packaging logistics .
+Bamboo fiber The Company began using bamboo fiber 2012 packaging cushion .
+In 2022 , brand-new bamboo gift box introduced ThinkPad X1 Z series .
+In 2023 , bamboo fiber packaging expanded ThinkPad series ( except E series ) .
+It made 100 percent renewable bamboo fiber box weight effectively reduced 30 percent compared previous gift box .
+ThinkPad Z13 bamboo gift box All PC box contain least 70 percent old corrugated containers8 ( OCC ) recycled content .
+8 OCC contains PCC PIC contentsPackaging Packaging identified significant environmental aspect Companys EMS .
+Its packaging priority focus reducing packaging consumption waste Increasing use recycled renewable material packaging Increasing use bio-based material Reducing size product packaging Expanding use bulk reusable packaging solution In FY 202324 , Companys packaging objective minimize material consumption packaging driving use environmentally sustainable material .
+The Company intent reducing size packaging minimize material used maintaining adequate protection product .
+The Company support objective target transition packaging recycled material renewable material , especially plant-based bamboo sugar cane fiber .
+The use bamboo sugar cane fiber select product marked launch new era packaging offering Company , also enhancing customer experience .
+Bamboo fiber many favorable feature , including Sleek robust design Lightweight 100 percent renewable The Companys packaging program requires corrugated container packaging supplied minimum 70 percent post-consumer fiber content requires supplier use maximum available PCC adequate supply exist without compromising required packaging performance characteristic , printing box done via flexography water-based , non-toxic , RoHS-compliant ink .
+In addition , Companys packaging program requires use Forest Stewardship Council ( FSC ) certified fiber liner PC product virgin fiber used .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Since | 2008 | , | Company | eliminated7 | 4,809 | metric | ton | packaging | consumption | weight | . |
+
+In FY 202324 alone , Company reduced7 packaging consumption 672 metric ton .
+7 These number reflect packaging innovation resulted reduced packaging weight individual product .
+See Section 7.0 additional metric total packaging use year .
+38 Lenovo Group Limited 202324 Environmental , Social Governance ReportPlastic-free packaging The Company aim eliminate plastic material product packaging .
+By combining bamboo fiber technology , self-locking box , innovative technology , packaging team accomplished plastic-free primary packaging ThinkPad X1 Z series FY 202223 .
+In FY 202324 , plastic-free primary packaging expanded ThinkPad series ( except E series ) select smartphones .
+As result , Company eliminated 548 metric ton plastic packaging .
+ThinkPad Z13 plastic-free packagingOcean bound plastic Plastic pollution negatively affected ocean ecosystem marine animal reside .
+In 2019 , packaging team began researching possibility using ocean bound plastic ( OBP ) product packaging .
+Based repeated test result , packaging team determined mix 30 percent OBP 70 percent recycled plastic best performance .
+The Company launched first packaging cushion containing OBP ( 30 percent OBP 70 percent recycled plastic ) ThinkPad L14 packaging .
+In FY 202324 , Company expanded use OBP thermoformed cushion system bag select desktopAIO , consumer notebook , server product .
+The Company estimate new application use 165 metric ton ocean bound plastic per year .
+ThinkCentre Neo 30a Gen3 30 % OBP bag 39 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Results Companys progress packaging target available Section 8.0 .
+The Companys ESG KPIs include packaging KPIs , information see Section 9.0 .
+Product end-of-life management ( PELM ) The Companys Product End-of-Life Management ( PELM ) program important part effort support transition circular economy , support extending product lifecycle reuse recycling product part .
+The PELM program also support elimination end-of-life electronic product disposed landfill includes practice reuse , refurbishing , de-manufacturing , dismantling , reclamation , shredding , recycling , treatment , disposal product , part , peripheral taken service , reach end-of-life , scrapped .
+This program cover Company-branded non-branded product owned Company accepted customer others ( including customer return take back ) .
+The Company made available Electronics End Life Standard supplier detail Companys PELM supplier requirement industry-standard certification promotes .
+Product take-back program As global business , Company offer end-of-life recycling management program consumer business customer many major market .
+These product take-back program ( PTB ) tailored specific location business need include program recycling product well packaging battery many geography .
+Customers obtain information Companys recycling program Recycling webpage .
+For business enterprise customer , Company offer Asset Recovery Services ( ARS ) globally manage disposition IT asset data center infrastructure .
+Customers access information Companys global ARS program Asset Recovery Services webpage .
+Product part management The Company , circular economy program , strives maximize value potential reuse excess , returned , obsolete product part across business manufacturing operation , repair network , channel partner .
+Through reverse supply chain , product part kept circulation as-is refurbishing Company potentially avoid manufacture new product part .
+Management PELM supplier The Company maintains program help ensure recycling , disposal , disposition end-of-life product owned Company returned customer accomplished environmentally responsible legally compliant manner .
+This program includes Supplier completion Companys initial supplier audit evaluation form declaring processing capability control , management system quality , environmental , health safety , industry standard , legal compliance , downstream facility disclosure , evaluation criterion , The Companys environmental audit evaluation supplier facility process prior engagement documentation audit finding recommendation final report , Review audit evaluation documentation recommendation Geographic Environmental Focal Points final approval Global ESG management , Database Companys audited approved PELM supplier facility geography approved service use Company organization , site , program worldwide , The Companys supplier contract specific environmental term condition related expected environmental performance reporting , Suppliers scope include ARS supplier , legal voluntary product take-back provider , dismantlers , recyclers , refurbishers , disposal , related vendor .
+The Companys Electronics End Life Standard Suppliers set guideline recovered product part data wiped , refurbished , tested function , labeled refurbished , resold used originally intended without refurbishing use .
+The standard also requires supplier use Company-approved recyclers disposition non-working product part waste generated refurbishing process prohibits shipment hazardous waste non-Organization Economic Cooperation Development ( non-OECD ) country .
+40 Lenovo Group Limited 202324 Environmental , Social Governance ReportNew recycled material researched introduced product .
+By FY 202526 , Company plan include PCC plastic 100 percent notebook , desktop , workstation , monitor .
+Since last fiscal year , Company expanded type component contain recycled plastic well increased usage recycled aluminum , magnesium , ocean bound plastic .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Since | 2008 | , | Company | used | recycled | plastic | product | track | meet | target | using | 136 | million | kilogram | post-consumer | recycled | content | plastic | FY | 202526 | . |
+
+The Companys circular design decision extend packaging well .
+The Company increasing use recycled fiber , recycled plastic sustainable material packaging including bamboo , sugarcane , sustainably forested fiber .
+The Company goal FY 202526 , 90 percent plastic packaging made recycled plastic notebook , desktop workstation .
+The Company additional goal smartphone product packaging , 60 percent material recycled content single use plastic reduced 50 percent FY 202526 .
+The Company help advance circular economy optimizing use product part .
+Improving energy efficiency Companys notebook computer , desktop computer , server smartphones Companys goal .
+To extend life product , Company offer support service option well managed service repair .
+The Company goal FY 202526 , 84 percent repair done customer site , without send PC service center .
+The Company keeping repairable part use longer goal FY 202526 , least 76 percent repairable part repaired future use .
+The Company offer enterprise customer second life data center product Lenovo Value Recovery business .
+Recovery recycling trend As customer continue considerable interest Companys recycling program , continual improvement activity include searching opportunity maximize reuse recycling .
+Results Companys progress PELM target available Section 8.0 .
+The Companys ESG KPIs include recycling reuse KPIs , information see Section 9.0 .
+Circular economy With vision net-zero future , Company know transition circular economy critical .
+Collaboration credibility important Company net-zero journey advancing circular economy .
+To help scale circular economy solution IT industry , Company joined Circular Electronics Partnership collaborate technology industry , supplier , stakeholder .
+The Companys vision deliver smarter technology extends circular economy practice include Smarter Circular Design , Smarter Circular Use , Smarter Circular Return activity .
+Circular Econom yDesign Use Return During design phase , important decision made help improve circularity Company continuously evaluating design decision help reduce environmental impact .
+The use recycled sustainable material important aspect circular economy Company focus .
+41 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix While Company continues expand use CL PCC IT equipment , circular return IT product recycling system supply chain essential .
+The Company offer consumer commercial customer product return program keep product material circulation .
+Commercial customer need reliable secure solution manage technology end life .
+The Companys Asset Recovery Services maximizes value IT enterprise hardware .
+The Company also offer consumer recycling program major market .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Since | 2008 | , | Company | enabled | recycling | reuse | IT | equipment | track | meet | target | 362 | million | kilogram | IT | product | recycled | reused | FY | 202526 | . |
+
+The Companys ESG KPIs include support circular economy .
+See Section 9.0 information .
+Biodiversity While biodiversity identified material topic Companys materiality assessment FY 202324 reporting period , Company seen topic become increasing priority among stakeholder recent year .
+The Company recognizes biodiversity crisis business activity major driver climate change nature loss .
+The Company recognizes climate change contributing biodiversity crisis , urgent action needed beyond emission reduction halt nature loss .
+Considering , Company monitoring development science-based target nature assessing data resource need area .
+The Company conducted initial , internal review footprint direct operation ( manufacturing , RD , large office location ) Key Biodiversity Areas ( KBAs ) , anticipates largest biodiversity impact within upstream value chain additional traceability needed .
+42 Lenovo Group Limited 202324 Environmental , Social Governance Report 43 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix 4.0 Social Labor practice Health safety Diversity inclusion ( DI ) Employment talent management practice Global philanthropy community engagement44 45 51 57 64 44 Lenovo Group Limited 202324 Environmental , Social Governance Report4.0 Social Labor practice The Companys Human Rights Policy communicates organization respect human right extends right employee others directly indirectly employed supply chain .
+As signatory UNGC , Company upholds support protection internationally proclaimed human right .
+The Company permit take every action prevent use child labor , forced labor coercion , including physical punishment , operation .
+The Companys Human Rights Policy outline commits following practice Conduct business accordance United Nations Declaration Human Rights principle UNGC extend requirement supplier business Company .
+Perform due diligence across value chain identify risk avoid complicity human right violation .
+Provide access grievance mechanism , investigate allegation , escalate known case human right abuse senior leadership .
+Integrate training accountability respecting human right across business .
+Engage internal external stakeholder address common challenge advance human right practice continuous improvement .
+Operate legally ethically country business .
+All Companys corporate strategy , practice , guideline , supplier requirement must support commitment human right .
+In addition , signatory UNGC , Company upholds human right , labor , principle UNGC- including Principle 3 regarding freedom association .
+The Company upholds support fostering workplace culture characterized mutual respect , collaboration , open communication .
+We recognize effective social dialogue essential nurturing positive work environment promoting employee engagement .
+The Company aware case child labor forced labor facility .
+Concerns possible human right violation must reported Companys management also reported Companys various reporting channel , including , limited , Ethics Compliance Office , Human Resources , Internal Audit , Legal Department , LenovoLine ( Companys confidential reporting hotline ) .
+The Company take allegation concern seriously .
+The Companys Whistleblowing Investigations Policy outline process concern raised , reviewed investigated .
+The Companys oversight body , Investigation Oversight Committee ( IOC ) , provides oversight ensure concern raised appropriately investigated addressed .
+More information available Companys Human Rights Policy .
+The Company determined ensure working condition location supplier location safe , worker treated respect dignity , operation environmentally sound business operation conducted responsibly ethically .
+The Company aim raise awareness engaging Responsible Business Alliance ( RBA ) .
+As end FY 202324 , company-owned manufacturing site ( including new location less one year labor data ) undergone audit independent auditor using latest version RBA Standards , based International Labor Organization ( ILO ) Standards include review mechanism , control , process place prevent child labor forced labor facility audited .
+The auditor also review employee file conduct individual group interview .
+Labor practice also evaluated part scope two main business management system Enterprise Risk Management ( ERM ) ESG reporting materiality assessment .
+The detailed process may vary market based local law .
+45 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Health safety The Companys manufacturing business model combine joint-venture ( JV ) partnership , company-owned manufacturing , original design manufacturer ( ODM ) capacity .
+This hybrid model provides competitive advantage allows Company bring innovation market faster maintaining control product development , supply chain operation , ESG impact .
+This model also provides mean tailor global manufacturing operation product regional market .
+The Company adheres world-class standard workplace safety Occupational Health Safety ( OHS ) Management System .
+The Companys global manufacturing site ISO 90012015 ( Quality ) , ISO 140012015 ( Environmental ) , ISO 450012018 ( OHS ) certified accredited third-party auditor .
+As required internationally accepted standard , management objective target certified facility continually foster safe healthy work environment employee .
+The OHS Management System also evaluated scope Companys global risk registration process part Enterprise Risk Management ( ERM ) program .
+The ERM program designed enable effective efficient identification , management visibility critical enterprise risk , including health safety .
+Through process planning , education , control , performance evaluation , continuous improvement , health safety program assimilated throughout Companys global manufacturing footprint .
+The OHS management system involves hierarchy responsibility role specific duty reporting line ensure organization maintains safe working environment employee .
+Each manufacturing facility report number industrial injury , illness , lost day month Global OHS Team part KPIs .
+The Companys recordable injury rate day away work rate data available Section 7.0 Consolidated Metrics report .
+Leadership Worker ParticipationHazard Identiﬁcation Risk Assessment Objectives ManagementAwareness Communication Incident Investigation Corrective ActionPrevention Control Performance EvaluationEmergency Preparedness MANAGEMENT SYSTEM OHS-MS ISO 45001 RBA Code Conduct Work Safety Standardization ( China site ) INTENDED OUTCOMES Enhancement Performance Fulﬁllment Compliance Obligations Achievement ObjectivesACTION DOPLAN CHECKCompliance Management 46 Lenovo Group Limited 202324 Environmental , Social Governance ReportCompliance management The Company established process assigned responsibility identifying evaluating compliance national , provincial , local OHS legal requirement .
+Each manufacturing site Company must research establish inventory applicable OHS legal requirement , must updated regularly .
+Compliance requirement regularly evaluated mitigation action carried necessary .
+These applicable requirement considered Company establishes , implement , maintains , continually improves OHS management system .
+Applicable OHS legal requirement categorized accordance requirement impact actual operation function performed Company .
+These operation function broken different category , include limited Workplace Safety , Hazard Chemical Safety , Electrical Safety , Fire Safety , Process Safety Risk Assessment , Health Services , Emergency Response .
+Hazard identification risk assessment One characteristic OHS management system risk-based thinking .
+Hazard identification risk assessment always important input work-related injury , ill health prevention , operational control .
+The Company implemented comprehensive hazard risk identification program assesses activity project throughout operation .
+The program offer comprehensive procedure identifying health safety risk , assessing impact employee , recommending corrective action , tracking required response , communicating resolution challenge .
+This strategy one method employed safeguard health safety employee identifying precautionary measure prevent work-related injury .
+In FY 202324 , Company undertook various initiative , annual hazard identification risk assessment , monthly assessment externalinternal issue , routine inspection , specific risk assessment program like automation equipment safeguarding optimization project , safety acceptance evaluation , occupational health control effectiveness evaluation new plant , additional effort .
+Health safety awareness , communication The Company foster culture value health safety .
+Employee participation essential success health safety management .
+The Companys employee andor contractor health safety awareness program include , limited Orientation A presentation video cover topic health safety legal requirement , workplace hazard , emergency procedure , employee contractor health safety obligation .
+Topic-specific training Topics health safety awareness , emergency response , electrical safety , chemical handling , machine guarding , breast cancer awareness , mental health , stress emotion management , dental health , .
+On-the-job training New employee may also receive on-the-job training supervisor experienced worker .
+Promotion activity Activities including Safety Month , ESG Month , Health Week , Well-being Week , newsletter , safety talk .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 2023 | Breast | Cancer | Awareness | Day | Monterrey | , | Mexico | Plant | 47 | Lenovo | Group | Limited | 202324 | Environmental | , | Social | Governance | ReportExecutive | letter | About | report | Environmental | Social | Governance | Global | supply | chain | Consolidated | metric | EMS | performance | , | objective | target | Long-term | KPI | progress | Appendix | Prevention | control | The | Companys | health | safety | program | prioritizes | prevention | , | incorporating | health | safety-related | standard | earliest | stage | facility | development | non-routine | task | project | . |
+
+In FY 202324 , Companys Prevention Through Design ( PTD ) process updated align increased automation equipment production line .
+PTD offer roadmap safety precaution new equipment installation includes change management process location integrating new technology , engineering , service , material proactive measure prevent work-related injury .
+In addition , Companys Operational Planning Control procedure guide site operational health safety control approach .
+Operational control method , system , process , equipment safeguard human health safety .
+These special equipment protection containment isolation arrangement alarm automatic shutdown shutoff mechanism treatment process communication requirement warning sign instruction procedure training program , .
+Prevention precaution culture Change management Ope rational Controls Performance evaluation Management assesses performance manufacturing site ensure health safety objective met .
+These evaluation consist Conducting monthly assessment health safety KPI performance ensure site track , correct identified deviation , help meet target needed Organizing monthly global manufacturing ESG meeting share update manufacturing site performance , best practice , lesson learned Conducting quarterly Lenovo Manufacturing Engineering ( LME ) ESG Committee review meeting Conducting internal audit manufacturing site , including site self-assessments Organizing periodic management review manufacturing site .
+Incident investigation corrective action The Company strives maintain workplace accident injury-free .
+When work-related injury , illness , near-miss incident occurs , departmental manager OHS team immediately launch investigation incident identify root cause .
+Corrective action plan formulated , implementation tracked closure .
+Additionally , OHS team engages Lessons Learned process includes sharing information analyzing data manufacturing location , holding lesson learned meeting increase awareness prevent repeated incident .
+Emergency preparedness The Company recognizes importance developing implementing emergency plan protects people involved manufacturing process ensures employee familiar emergency response procedure .
+The Companys Emergency Response Team ( ERT ) collaborates facility design emergency plan specifies appropriate response unexpected event , minimizes related risk , ensures safety employee .
+This process supplemented providing skill include first aid cardiopulmonary resuscitation ( CPR ) training .
+To enhance preparedness , one Companys manufacturing site designed applied digital application enhance emergency response efficiency emergency management .
+48 Lenovo Group Limited 202324 Environmental , Social Governance ReportCertification audit The Company determined ensure working condition manufacturing location safe , worker treated respect dignity , operation environmentally sound , business operation conducted responsibly ethically .
+In support commitment , Company implemented program practice ensure manufacturing site comply RBA Code Conduct .
+Additionally , Company working achieve RBA Validated Audit Program ( VAP ) Factory Choice ( FoC ) recognition manufacturing site aim demonstrate social environmental leadership .
+The Company also conduct internal audit , ISO certification audit , customer requested audit .
+During RBA VAP audit , independent auditor assess site health safety practice addition ESG-related topic .
+As end FY 202324 , company-owned manufacturing site ( including new location less one year labor data ) undergone RBA VAP .
+Responsible Business Alliance certificate 49 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix In FY 202324 , Company set goal successfully conducting RBA VAP audit FoC recognition company-owned manufacturing site FY 202425 , barring force majeure .
+The RBA FoC designation intended recognize manufacturing site fully commit RBA Code Conduct demonstrate leadership impact transparency .
+To enter FoC program , factory must complete evidence-based application reviewed RBA staff ensure program criterion met .
+To recognized Factory Choice , following requirement must met A VAP minimum score 160 priority finding must closed At least one RBA-Certified Factory Lead A functioning worker forum provide feedback management result workplace change 50 Lenovo Group Limited 202324 Environmental , Social Governance ReportIn December 2023 , Companys Hefei , China plant awarded Health Enterprise local government .
+1 合肥市卫生健康委员会 合肥市经济和信息化局 合肥市生态环境局 合肥市总工会 中国共产主义青年团合肥市委员会 合肥市妇女联合会 合肥市爱国卫生运动委员会办公室文件 合卫职健2023 153号 关于授予合肥热电集团有限公司等 18家 单位为合肥市健康企业的通报 各县市区卫健委经信局生态环境局总工会团委 妇联爱卫办各开发区社发局经贸局生态环境分局工委 4 附件 2023年度合肥市健康企业名单 序号 企业名称 县区 1 安徽建工建筑工业有限公司 肥东县 2 安徽新希望白帝乳业有限公司 3 合肥天柱蜀山恒科混凝土有限公司 肥西县 4 中节能肥西环保能源有限公司 5 合肥宏立电子有限公司 长丰县 6 皖能合肥发电有限公司 庐阳区 7 安徽安凯汽车股份有限公司 包河区 8 华益药业科技安徽有限公司 9 方盛车桥合肥有限公司 10 合肥热电集团有限公司 蜀山区 11 合肥热电集团有限公司众诚分公司 12 中国石油天然气股份有限公司安徽合肥销售分公司 13 客来福家居股份有限公司 瑶海区 14 联宝合肥电子科技有限公司 经开区 15 合肥京东方瑞晟科技有限公司 新站区 16 合肥鑫晟光电科技有限公司 17 通威太阳能合肥有限公司 高新区 18 科威尔技术股份有限公司 抄送省卫健委省经信局省生态环境局省总工会团省委 省妇联 合肥市卫生健康委员会办公室 2023年12月22日印发 4 附件 2023年度合肥市健康企业名单 序号 企业名称 县区 1 安徽建工建筑工业有限公司 肥东县 2 安徽新希望白帝乳业有限公司 3 合肥天柱蜀山恒科混凝土有限公司 肥西县 4 中节能肥西环保能源有限公司 5 合肥宏立电子有限公司 长丰县 6 皖能合肥发电有限公司 庐阳区 7 安徽安凯汽车股份有限公司 包河区 8 华益药业科技安徽有限公司 9 方盛车桥合肥有限公司 10 合肥热电集团有限公司 蜀山区 11 合肥热电集团有限公司众诚分公司 12 中国石油天然气股份有限公司安徽合肥销售分公司 13 客来福家居股份有限公司 瑶海区 14 联宝合肥电子科技有限公司 经开区 15 合肥京东方瑞晟科技有限公司 新站区 16 合肥鑫晟光电科技有限公司 17 通威太阳能合肥有限公司 高新区 18 科威尔技术股份有限公司 抄送省卫健委省经信局省生态环境局省总工会团省委 省妇联 合肥市卫生健康委员会办公室 2023年12月22日印发Recognitions In March 2023 , Companys Sao Paulo , Brazil office achieved Fitwel Viral Response Certification .
+51 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Diversity inclusion ( DI ) A message Chief Diversity Officer Amidst dynamic landscape evolving world , Lenovos diverse , global workforce fortifies capacity innovation .
+Diversity merely facet organization ingrained DNA .
+As global technology powerhouse operating 180 market , 69,500 employee mirror diversity customer .
+While global diversity always differentiator thats core success , never take granted .
+Maintaining strength requires intention focus , especially challenging time .
+We persistently working towards executive representation goal FY 202526 , working reach 27 % female executive representation globally 35 % representation executive historically excluded group U. S. We coordinated business leader ensure ownership accountability goal , continue transparently report progress .
+The business benefit diversity hinge fostering culture inclusion .
+At Lenovo , collaborating within global environment integral daily operation .
+The ability bridge communication across diverse group hallmark skill possessed Lenovians , propelling teamwork trust ethos We Are Lenovo culture .
+Tangible evidence inclusive culture demonstrated highest-ever employee engagement score annual Lenovo Listens survey FY 202324 record number employee resource group ( ERGs ) supporting engaging employee recent Self-ID campaign .
+We proud DI effort recognition theyve received world-class index organization including Bloomberg , DisabilityIN , Human Rights Campaign , Workplace Pride .
+Diversity inclusion workforce also embed product design .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Since | launching | 2019 | , | Product | Diversity | Office | ( | PDO | ) | on-track | review | 75 | % | product | FY | 202526 | specialized | team | focus | diversity | , | research | , | accessibility | , | artificial | intelligence | ( | AI | ) | . |
+
+One example PDOs impact Lenovos ThinkPad keyboard .
+Crafted additional tactile marking , caters blind visually impaired , showcasing commitment accessibility .
+By testing product user different background , demonstrate equal commitment diversity .
+The PDO collaborates Lenovos Responsible AI Committee , product align seamlessly Lenovos Smarter AI All vision .
+As AI leader , champion democratization integrating inclusive practice product , policy , practice .
+Guided Lenovos vision provide smarter technology , diversity inclusion program continue work representation , inclusivity , innovation .
+With support Diversity Inclusion Board passion energy employee around world , continue pursuit smarter technology truly includes benefit everyone .
+Calvin J. Crosslin Vice President , Chief Diversity Officer President , Lenovo Foundation 52 Lenovo Group Limited 202324 Environmental , Social Governance ReportDiversity Inclusion Board Since 2018 , Companys Diversity Inclusion ( DI ) initiative overseen Diversity Inclusion Board .
+The DI Board comprised ten senior leader across Companys business unit geography , inclusive Companys Chief Diversity Officer , Calvin Crosslin .
+The DI Board serf counsel Companys diversity inclusion strategy help drive accountability across Company vision leading intelligent transformation celebrating strength diverse workforce building inclusive culture everyone thrive .
+Through quarterly meeting ongoing communication , DI Board adopted four-pillar strategy designed foster greater diversity inclusion , aim 1 ) Build inclusive leadership behavior 2 ) Foster diverse inclusive system 3 ) Ensure accountability 4 ) Tell Companys unique diversity inclusion story .
+DI culture Assembling diverse workforce achieves full potential inclusive culture fundamental Companys competitive success .
+A key element Companys workforce diversity program commitment equal employment opportunity prohibit discrimination , harassment , similar inappropriate behavior workplace .
+The Companys policy Code Conduct commit providing work environment free discrimination harassment based race , color , gender , religion , age , nationality , social ethnic origin , sexual orientation , gender identity expression , marital status , pregnancy , disability , veteran status .
+Company policy prohibits management making employment decision based characteristic .
+These business activity design administration Companys benefit plan must comply applicable law .
+For qualified employee disability , Company make reasonable accommodation needed effective job performance manner complies applicable law .
+Diversity inclusion building block Companys history among greatest strength .
+Its diverse team people location enables collaboration sharing across border encourages Company adopt best practice market serf .
+The Company bringing awareness inclusion leader employee variety way , including GlobalAnti-Harassment training ensure workplace free harassment .
+A diverse business model start top .
+The Companys leader throughout world hold deep commitment value fuel long-term growth .
+The Company belief global workforce reflect global customer serf , begin leadership represents various culture ethnicity business .
+Working towards next generation goal After meeting Companys 2020 executive representation target , Company established new goal advance executive representation woman globally US historically excluded talent FY 202526 .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| After | exceeding | 2020 | goal | executive | representation | woman | ( | 20 | percent | representation | target | , | 21 | percent | achieved | ) | , | Company | set | new | target | reach | 27 | percent | executive | representation | woman | FY | 202526 | . |
+| Additionally | , | exceeding | Companys | goal | US | executive | representation | historically | excluded | talent | 2020 | ( | 28 | percent | representation | target | , | 29 | percent | achieved | ) | , | Company | working | achieve | 35 | percent | executive | representation | historically | excluded | talent | FY | 202526 | . |
+
+The Companys ESG KPIs include Diversity Inclusion KPIs , referenced later section report .
+To achieve executive representation goal , Company recognizes must foster strong pipeline diverse talent .
+The Company invests several career development program ensure creating pipeline learning , sponsorship , mentorship program partnership employee resource group , business leader , Human Resource team .
+The longest-running program include Womens Leadership Development Program ( WLDP ) develop woman executive role , Mosaic Leadership Development Program ( MLDP ) aim develop talent historically excluded group executive role .
+Both program directly contribute Companys progress toward executive representation KPIs follow similar timeline leadership education training , 360 assessment , coaching .
+This year , MLDP program adopted hybrid format , WLDP program continued entirely virtual .
+The WLDP success helped development new program strategy attract , retain , develop diverse woman talent .
+Upon completion program , 41 percent program participant promoted program first seven cohort .
+53 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix DI recognition Creating diverse talent pipeline ATTRACT DEVELOP RETAIN The Companys Talent Acquisition ( TA ) team established goal ensure diverse slate executive candidate presented hiring manager .
+The team global goal ensure slate 33 percent woman , candidate historically excluded group US represent 15 percent candidate .
+Hiring manager trained equitable interview practice .
+The TA team also created partnership engaged executive sourcing consultant achieve goal .
+This year , Company strived interview least one woman open executive rolesWLDP MLDP remain Companys flagship leadership program developing global woman historically excluded talent US .
+The Company realizes must take targeted action strengthen pipeline diversity .
+This second year Courageous Leadership program US develop senior manager diverse group director level .
+Debuting year Advancing Women Leaders Academy designed develop woman senior manager director .
+The Company conduct annual pay equity review examine equity risk gender US employee historically excluded group .
+While review performed compliance , team voluntarily expanded global market 2022 .
+The Companys Organization Human Resource Planning process also codifies diversity talent review succession planning future workforce .
+54 Lenovo Group Limited 202324 Environmental , Social Governance ReportCommitting inclusion The Company taken step forward advocacy woman endorsing United Nations Womens Empowerment Principles ( WEPs ) .
+These principle offer guidance business promote gender equality womens empowerment workplace , marketplace , community .
+While Company work toward gender equity , understands reducing bias increasing gender equality effort require total commitment .
+The Company proud join fellow signatory UN Global Compact ( UNGC ) member initiative .
+As part commitment Companys UNGC membership , Company participated UNGCs Target Gender Equality ( TGE ) initiative , Sustainable Development Goal ( SDG ) Innovation Accelerator young professional , Climate Ambition Accelerator .
+The TGE initiative gender equality accelerator program participating company UNGC improve capability .
+Companies participating accelerator deepen implementation Womens Empowerment Principles strengthen contribution sustainable development goal .
+In May 2022 , Company also signed Declaration Amsterdam , confirming commitment fostering inclusive workplace LGBTQIA employee .
+Developed Workplace Pride 2011 , Declaration Amsterdam created make meaningful progress LGBTQIA people worldwide eliminate discrimination , harassment , discomfort employee may face workplace .
+In FY 202324 , Company received highest score annual Workplace Pride Global Benchmark , comprehensive assessment international employer LGBTIQ policy practice .
+Lenovo committed fostering inclusive workplace LGBTQIA employee continues recognized several key index , including Human Rights Campaign Foundations Corporate Equality Index .
+In FY 202324 , Company included Corporate Equality Index sixth year row , receiving score 90 100 .
+Among action implemented past year , Lenovo launched first-ever self-identification campaign allowing employee voluntarily self-identify gender identity , race ethnicity , self-disclose visible invisible disability human resource system .
+Starting US 25 country across EMEA , self-identification function help Lenovo better understand diversity workforce across different segment , including gender identity .
+The Company also launched guide benefit US , especially relate LGBTQIA population .
+These inclusive action demonstrate Companys commitment build smarter workplace LGBTQIA employee .
+Embedding inclusion workforce The Company proud support dynamic network employee resource group ( ERGs ) shared interest group ( SIGs ) around world foster sense inclusion belonging workforce .
+The group led employee volunteer sponsored executive ally personally identify community group support .
+A Better Lenovo Everyone ( ABLE ) NA , AP Allyship NA Black Leaders Achieving Success Technology ( BLAST ) NA DiversitasLenovo All Chapters EMEA Hispanics Lenovo Association ( HOLA ) NA Indigenous AustraliaNew Zealand Lenovo Employees Asian Descent ( LEAD ) NA LEIN ( Disability Inclusion ) Brazil Lenovo Interfaith Brazil Lenovo Inspiring Feminism Tech ( LIFT ) NA MOSAIC EthnicityRacial Diversity Inclusion EMEA New Expectant Mothers Outreach ( NEMO ) NA Menopause UK Ireland People Disabilities ( PwD ) EMEA , LA PreTech ESG Étnico-Racial Negros Brazil Professionals Respecting Identity Diversity Empowerment ( PRIDE ) NA , LA , EMEA Rising Employees Lenovo ( REAL ) Global Veterans Engaging Together ( VET ) US Women Lenovo Leadership ( WILL ) Women Lenovo ( WIL ) Global Women Innovation ( WIN ) LA Women Enhancing Logistics ( WEL ) Global AP Asia Pacific NA North America EMEA Europe , Middle East , Africa LA Latin America UK United Kingdom US United States 55 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Employees actively participating ERGs emerge leader Companys diversity inclusion effort .
+Their impactful contribution encompass diverse range program , professional development , mentoring , community outreach , recruiting .
+Notably , Companys ERGs play pivotal role supporting Product Diversity Office ( PDO ) valuable assistance product testing .
+As intersectionality within Companys workforce continues grow , collaboration among ERGs proven exceptionally effective .
+These group amplify others event foster culture allyship , creating dynamic inclusive environment within company .
+Lenovo Foundation provides annual grant ERGs , enabling collaborate non-profits supporting diversity segment like woman , people disability , immigrant .
+ERG leader consistently seek funding opportunity impactful external partnership .
+While ERGs foster inclusion understanding diverse community certain market , Companys DI team created strategy increase inclusive behavior amongst employee .
+CARE Model Inclusive Behaviors The training model defines encourages four behavior foster inclusion community communicating across difference , acting allyship , recognizing mitigating bias , ensuring psychological safety .
+Disability Advantage Initiative This strategic initiative aim cultivate culture disability inclusion fostering awareness , providing resource , encouraging innovation .
+The DI team employed International Labour Organization ( ILO ) Global Disability Self-Assessment across eight market identify area improvement .
+To drive initiative forward , global HR task force established take lead activity related training , outreach , communication .
+The overarching goal revolutionize Lenovos culture , making inclusive integrative accessibility benefit .
+Innovating inclusion Lenovos Product Diversity Office ( PDO ) The PDOs mission ensure development team design test product diversity inclusion mind .
+Launched 2019 , PDO vet 55 % Lenovos product .
+The Diversity Design review process begin development team submit information new technology .
+The PDO evaluates diversity risk make recommendation accordingly .
+High-risk product presented executive board , may recommend user testing diverse group .
+Products may also referred Accessibility Consultation Responsible AI Review .
+This approach help minimize bias Companys product .
+To innovate inclusion , PDO work community disabled user technology better meet need .
+One example Companys partnership Governor Morehead School Blind Raleigh , North Carolina .
+Community engagement inspired new feature , ThinkPad X1 Carbon Gen 12 keyboard , first ever laptop additional tactile marking increase accessibility blind visually impaired ( VI ) user , TTS Dongle ThinkVision P25i-30 , one first monitor add-on talk back blind VI user .
+56 Lenovo Group Limited 202324 Environmental , Social Governance ReportIn 2023 , employee China ran series DI listening session gain insight people disability ensure voice heard .
+Topics ranged artificial intelligence ( AI ) metaverse big data cutting-edge technology .
+Participants provided valuable feedback product designer , enabling embrace inclusivity accessibility .
+Especially important collaboration talented student designer hearing loss Beijing Union University .
+They crafted second Company ESG Social Value Public Welfare Calendar .
+Lenovo marked International Day Persons Disabilities December 3 , 2023 , series impactful event .
+These included global webinar art showcase Beijing , featuring individual disability .
+The celebration underscored Lenovos commitment fostering diversity , amplifying voice , creating inclusive accessible world .
+Since becoming member Valuable 500 2020 , Company continues partner disability right advocate ensure product solution inclusive accessible .
+The Valuable 500 global business collective 500 CEOs pledged work together drive systemic change .
+As Disability IN corporate partner dedicated promoting disability inclusion equality , Lenovo understands value harnessing disability strength .
+Lenovos achievement perfect score Disability Equality Index ( DEI ) underscore commitment principle , earning distinction among Best Places Work Disability Inclusion .
+Diversity innovation pledge The Company committed diversity inclusion undertakes many effort follow commitment .
+This commitment extends Companys intellectual property ( IP ) .
+In July 2021 , Company became Founding Signatory Increasing Diversity Innovation Pledge declared understand address issue underrepresented inventor patent application .
+This initiative launched United States Intellectual Property Alliance ( USIPA ) support inventor , regardless race , gender , ethnicity , nationality , religion , age , disability , sexual orientation , especially underrepresented .
+USIPA seek include diverse perspective best IP ecosystem .
+As part Increasing Diversity Innovation Pledge , Company committed year one goal identify secure internal data respect underrepresented inventor group use best effort implement initiative targeted increasing representation group Companys patent process .
+The Company met year one goal working towards meeting year three goal .
+Once initial framework meeting pledge commitment established , Company intends expand focus underrepresented inventor group .
+In addition Increasing Diversity Innovation Pledge , Company leading effort establish industry-wide standard collecting data diversity patent inventor , developing best practice improving participation patent inventorship underrepresented group , defining useful metric tracking participation .
+Additionally , Company working establish relationship national international patent office assist publicly support effort tracking increasing diversity patent inventorship .
+The Company also promotes greater diversity inventorship innovation regular participation conference , panel discussion , webinars .
+57 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Employment talent management practice The Company strives attract best talent , develop , retain , reward , engage employee employment talent management practice ensuring compliance relevant law regulation .
+Attract Recruitment The Companys recruitment practice , housed updated annually Companys Human Resources ( HR ) Knowledge Base , support vision deliver smarter technology .
+The Companys recruitment objective develop strategy support business need comply applicable hiring law regulation ( including Office Federal Contract Compliance Programs ( OFCCP ) , Equal Employment Opportunity Commission ( EEOC ) , Pay Transparency , General Data Protection Regulation ( GDPR ) , Privacy Laws ) attracting best talent around globe .
+The Companys Talent Acquisition ( TA ) organization manages end-to-end recruiting process .
+This includes collaborating Human Resources Business Partners ( HRBP ) manager understand hiring need , applying best practice ensure recruiting process fair consistent candidate .
+The Company focused finding hiring best talent around world support Companys growth success .
+Some key element recruiting strategy include 1 .
+Diversifying talent pool though good faith effort deployment Global Sourcing Hub focused recruitment diverse talent 2 .
+Leveraging technology Career Site , ATS , Talent Community Referral Internal Career Portal 3 .
+Sharing Lenovo Story employer value proposition internal external candidate 4 .
+Promoting employee referral via internal engagement monetary reward hired candidates5 .
+Annual recruiting across 180 market , live virtually university campus , source fill approximately one thousand early career intern role 6 .
+Screening assessment skill , including pre-recorded video interview , soft skill , technicalcoding skill assessment .
+The Company also working toward skills-based hiring prepare AI automation help diversify talent pool even 7 .
+Building strong relationship Companys external audience , vendor , internal customer keeping exceptional customer experience mind .
+The Company survey candidate manager experience tie team KPIs .
+Overall , Companys recruiting strategy revolves around finding hiring best innovative talent around world , leveraging technology , encouraging employee referral , focusing campus recruiting , utilizing dedicated sourcing team , skills-based hiring , building excellent relationship candidate ensure good fit Companys culture value .
+The Companys goal hire expanding research development team , continue grow solution service employee base , attract executive new skill , target 20 percent external hire filled campus early-career hire help attract develop future leader organization .
+The Companys recruitment process shepherd candidate journey touchpoints , including employer brand recognition , sourcing activity , job posting via Companys job site various external vendor job listing site , communication throughout application , interview , offer process .
+The Companys recruiter also source candidate using social medium , employee referral , creative method .
+As Global TA organization , recruitment practice team manages include End-to-end hiring intern , early-career , professional , executive position business unit globally Job board management across various platform Lenovos career website , LinkedIn , Glassdoor , Indeed various job portal Expansion University Programs build Companys future workforce 58 Lenovo Group Limited 202324 Environmental , Social Governance Report Attendance national convention conference build pipeline candidate diverse group Lenovo Employer Value Proposition Employer Branding designed attract retain talent Ongoing recruiter training metric increase diverse candidate slate supporting Companys DI objective Partnerships organization vendor support individual disability ( Disability IN , Valuable500 , LiNCI-IT ) .
+Internships vital source prospective candidate great way provide opportunity .
+In FY 202324 , Company hired 1,000 intern globally , providing meaningful learning experience , mentor program , innovation project , view Global Fortune 500 technology company .
+Since Covid-19 pandemic , Company adapted intern program hybrid model , including virtual on-site work opportunity accommodate business intern need .
+The Company partner university worldwide attract diverse early career talent .
+Intern program aim recruit technology enthusiast STEM student high school doctoral degree , helping attract qualified , diverse talent building pipeline potential hiring need .
+The Companys specially designed internship program help attract student traditionally underrepresented group .
+The Companys talent team partner Companys community relation team help support funding internship .
+The following Companys popular intern program Lenovo Accelerated Sales Intern Program Neurodiverse Interns ISG Global Supply Chain Intern Program Lenovo HBCU Intern Program SpringSummer Wake Tech Community College Intern program National Academy Foundation ( NAF ) High School Intern Program Brazil Afro-Latino 2-year InternMentor Motorola China Summer Intern ProgramThe Company dedicated grow develop workforce support long-term innovation transformation journey .
+It offer program include rotation across various business group , early career leadership development , technical ladder program , skill development , technical certification .
+The Companys goal infuse diverse talent innovative culture support digital transformation creates smarter technology .
+Diverse hiring , development , engagement vital human capital strategy .
+These program include , limited China Future Leaders ( Sales Marketing ) India Future Leaders ( Sales Marketing ) Lenovo Accelerated Sales Rotational Program-Global ( LASR ) The EMEA Academy Graduates Lenovo Sales ( EAGLeS ) ISG Global Supply Chain Rotational Program Cloud Software Development Program Global Finance Talent Program ( GFTP ) Global Future Leaders Plus ( GFL ) ( High Potential Internal Talent Development ) Technical Ladder Program ( managed RD Team ) GrowLenovo , Le Grow-Pro , Aspire Journeys Womens Leadership Development Program ( WLDP ) Mosaic Leadership Development Program ( MLDP ) - focused US Historically Excluded Talent Developing Self Excellent Performance ( DESP ) FeedForward ( Reverse mentoring ) Early Career Talent Experience 59 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Develop Performance management development As world continues change rapid pace , way Company work .
+Employees seeking career development focus opportunity frequent feedback grow learn .
+That Company implemented integrated performance management development process SucceedLenovo enable every employee grow succeed .
+At beginning fiscal year , every employee kick SucceedLenovo journey setting Key Performance Indicators ( KPI ) Individual Development Plan ( IDP ) , conversation align manager .
+Throughout year , employee empowered use development resource , actively seek feedback others , receive continuous coaching manager .
+During mid-year , year-end , two formal check point manager assess employee performance conduct formal conversation progress , challenge , opportunity , next step .
+The Company continue driving focus development , frequent conversation feedback , differentiated reward recognition SucceedLenovo , enabling employee achieve growth success together Company .
+Training development Lenovo recognizes many skill people today change next five year .
+The Company committed upskilling employee ensure ready future .
+To meet requirement changing demand , including AI digital transformation , Company plan include AI simulation leadership development well personalize learning company-wide .
+With significant percentage market capitalization public company based intangible asset , skilled employee exceptional leader , elevated importance learning development .
+The Companys 70-20-10 approach employee development recognizes employee learn three distinct type experience on-the-job training assignment ( 70 % ) , developmental coaching , reverse coaching mentoring relationship ( 20 % ) , coursework formal training ( 10 % ) .
+Experiences Job learning .
+The Company design 70 percent career development happen job .
+This could stretch assignment , delegated opportunity , gig , rotation , .
+Colleague Relationships mentor , guide , coach manager .
+The Company design 20 percent employee development achieved sharing success failure others seeking guidance advice .
+Education formal training classroom online teach key principle , process , framework , skill .
+The Company design 10 percent learning opportunity formal education .
+Often training role skill-specific .
+10 % Education Colleague relationship On job experience To support learning , Companys employee complete annual Individual Development Plan ( IDP ) Key Performance Indicator ( KPIs ) .
+This process defines performance target individual development goal , also allows build development plan based current performance goal well career interest , strength , growth opportunity .
+The Companys manager encouraged give regular feedback KPIs IDPs throughout year , addition formal mid end-of-year session .
+Managers encouraged provide regular feedback guidance ensure employee accomplish plan .
+Lenovo Gigs platform allows employee match current skill short-term project opportunity build cross-team collaboration , improve skill , showcase talent .
+Gigs allowed Company connect talent on-the-job opportunity agile way .
+60 Lenovo Group Limited 202324 Environmental , Social Governance ReportRotational program another way Company leverage on-the-job experience relationship building develop talent .
+There several formal rotational program including Global Future Leaders ( GFL ) , Global Supply Chain ( GSC ) rotational program , Lenovo Accelerated Sales Rotation ( LASR ) .
+Details vary program , basic premise exposing cohort talent multiple role , task , leader specific timeframe accelerate employee development .
+FeedForward reverse-coaching program led early-in-career generation Companys workforce .
+It allows Companys early career talent connect communicate idea senior executive .
+This program foster relationship-building needed drive engagement lead future innovative solution .
+The Company recognizes leader require development full progression leadership level responsibility .
+Lenovo comprehensive leadership management development blueprint provide support manager leadership progression offering specific learning experience .
+For Companys leader start leadership career , offer Ready Manage ( RTM ) For Those Who Manage ( FTWM ) program .
+For Companys mid-level experienced manager , offer Executive Presence Workshop ( EPW ) , Director Leadership Enhancement Program ( DLEP ) , Coaching Impact ( CWI ) , Impactful Leadership Complex Environments ( ILCE ) , Change Management Leaders ( CMFL ) , Experienced Manager Essentials ( EME ) .
+For Executive Director , Vice President role , Company offer Striving Excellence Executive Director ( SEED ) Excelling Leadership Transformation Era ( ELITE ) .
+Womens Mosaic Leadership Development Programs ( WLDPMLDP ) , Courageous Personal Leadership Development Program ( CPLDP ) available leader historically excluded group key point employee career .
+These course delivered globally in-person virtually carefully designed around Companys leadership priority skill support Companys mission , vision , culture .
+The Company also place high priority executive leader development , bringing senior leader together year share best practice , learn external expert , drive strategic alignment across enterprise Global Leadership Team ( GLT ) meeting .
+In tight talent market , Company made early career hiring development priority .
+The Early Career Talent Experience Program ( known Fresh Graduates Program China ) created help early career talent adjust working large corporation extended onboarding process .
+This program mandatory new graduate US China participate .
+The Company 12-month guided program kick live person training launched start program .
+In China , Fresh Graduates Orientation held 1.5 day offline training four city one online session others .
+More 500 new graduate participated training comprehensive understanding Company .
+Over 100 US participant also engaged full-day orientation , Lenovo employee various part country gathering connect hear business leader across organization .
+This program includes monthly tailored training one-year working anniversary event assist early career talent assimilate Lenovo feel included control career .
+The Companys We Are Lenovo culture value embedded throughout program alignment achieved annual project quarterly culture focus .
+The Companys new-hire training includes combination required instructor-led online course employee Code Conduct , Information Security , Privacy Basics , Global Anti-harassment , Whistleblowing training .
+During New Employee Orientation ( NEO ) , new hire introduced Lenovo Way series culture company history training help understand Companys operation value .
+The Company complies strict regulatory statutory requirement globally ensures employee annually completing required training includes limited Lenovos Code Conduct , Anti-Harassment , Security Essentials , Privacy Basics , Anti-Bribery Whistleblowing .
+Instructor-led professional development course forum made available throughout year employee , addition rich online learning resource provided demand via Companys global learning management system GrowLenovo .
+61 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix With 78,000 technical professional training asset available , GrowLenovo enables employee consume training enhance knowledge skill .
+Training asset include e-books , audio book , video course , assessment , certification preparation course , virtual instructor led training .
+The externally developed content aim provide professional technical skill , internally developed content includes specialized content sale , product , process training .
+GrowLenovo continues strategic resource employee upskilling engagement .
+The Company continuing incorporate use AI training program enhance learning experience , including creating personalized learning plan based skill employee need .
+FY 202324 employee training metric available Section 7.0 Consolidated Metrics report .
+Promotion Among various mechanism , Company promotes employee demonstrate value growth development .
+At Company , promotion defined increase job responsibility complexity result movement higher salary range .
+It implemented based need business line manager assessment employee readiness .
+Promotions based role first individual readiness .
+When considering role band increase , business evaluate number aspect including role grown scope , skill knowledge required , complexity , nature impact .
+If determined role ready business consider individual readiness based number factor including past performance , time band , career aspiration , advocacy Lenovo culture .
+The Company strives support employee growing developing career following internal policy ensuring compliance applicable law regulation .
+Retain reward Compensation benefit The Company committed designing implementing competitive compensation benefit program aimed attracting , motivating , retaining talent .
+These program incorporate balanced mix base pay , short-term long-term incentive plan , benefit program .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| The | Companys | approach | rooted | compliance | relevant | law | regulation | , | including | US | Equal | Pay | Act | 1963 | , | Civil | Rights | Act | 1964 | , | Age | Discrimination | Employment | Act | 1967 | , | Title | I | Americans | Disabilities | Act | 1990 | , | Fair | Labor | Standards | Act | legal | requirement | every | state | Company | employee | . |
+
+In addition legal compliance , Company proactively monitor market trend industry practice , swiftly adapting compensation benefit strategy remain highly competitive .
+To ensure competitiveness , Company heavily invests industry-leading market survey global team actively monitor trend change .
+The Companys overarching compensation benefit philosophy center paying performance overall well-being , belief outstanding individual contribution drive exceptional business outcome .
+All regular employees- including non-sales staff- eligible incentive , commission various benefit program .
+Regular non-sales employee set Key Performance Indicators ( KPIs ) beginning fiscal year , manager regularly reviewing updating objective needed .
+No less per year , employee receive documented performance feedback , performance rating , individual performance modifier ( IPM ) support Companys pay-for-performance culture .
+Non-sales employee aligned one Companys many performance unit which- along performance rating individual performance modifiers- impact incentive payout .
+Sales employee operate periodic quota affecting commission payment , quota adjusted market condition dictate .
+The Companys performance management system allows ongoing feedback , empowering employee provide input throughout year .
+62 Lenovo Group Limited 202324 Environmental , Social Governance ReportThe Company prioritizes supportive global working environment , offering flexibility employee balance personal professional life .
+To attract retain top talent competitive technology sector , Company provides diverse benefit aligning strategic guideline competitive positioning local market , alignment business cultural strategy , emphasis wellness , family support financial wellbeing .
+The Companys Total Rewards approach encompasses five key element compensation , benefit , work-life balance , performance recognition , development career opportunity .
+This holistic approach vital attracting , motivating , retaining Companys valuable resource people .
+Globally , Company offer flexible benefit tailored multiple market , providing employee choice suit need various life stage .
+Options vary geography , including opportunity enhance insurance coverage access lifestyle benefit discounted rate .
+In US , Company provides voluntary wellness program , administered compliance federal rule , fostering employee health disease prevention .
+Lenovos steadfast commitment pay equity transparency The Company unwavering commitment pay equity fundamental principle guiding compensation practice .
+The Companys approach fostering fair inclusive workplace grounded compliance legal framework .
+The Company prioritizes transparent merit-based pay structure , ensuring employee compensated fairly equitably contribution based job , regardless gender , race , age , disability , protected characteristic .
+The Companys commitment extends beyond legal requirement , actively monitor assesses compensation program identify rectify potential disparity .
+To promote transparency , Company regularly conduct comprehensive pay equity analysis evaluate gender diversity-based pay gap .
+Where discrepancy identified , Company take prompt action rectify , ensuring compensation practice align commitment fairness equality .
+The Companys dedication pay equity integral broader global mission creating inclusive diverse workplace employee feel valued rewarded individual contribution .
+Engage Employee engagement Lenovo Listens The Lenovo Listens survey strengthens engagement retention ensuring employee voice heard acted upon .
+In 2023 , record 97 % Companys employee across globe participated Lenovo Listens survey .
+Overall employee engagement remains strong 90 % favorable .
+The item related engagement employee ( 1 ) feel treated respect , ( 2 ) see clear link work objective , ( 3 ) confidence future Lenovo , ( 4 ) opportunity learning development , ( 5 ) get work done maintain well-being .
+The top scoring dimension continue Diversity Inclusion , Ethics Trust , Manager Effectiveness , Future Vision .
+Additionally , ESG-related item rank among highest scoring item .
+These include Companys ethical conduct business dealing ( 97 % favorable ) , environmental responsibility ( 96 % favorable ) , genuine interest well-being community company business ( 94 % favorable ) , equal fair treatment employee ( 94 % favorable ) , treated respect ( 94 % favorable ) .
+Engagement report delivered 3,800 manager , along executive report leader large business unit .
+This underscore Companys commitment engagement conversation level taking action strengthen employee experience .
+63 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Lenovos We Are Lenovo culture The Company strives cultivate We Are Lenovo culture engages employee .
+The Companys culture heart every choice make employee customer .
+It way employee work together one team , drive success Company customer .
+The Companys culture enables employee deliver vision Smarter Technology All , product , service , solution , software individual , community , business , entire population need achieve goal .
+When employee come work , step environment built respect people .
+The Company exceedingly proud truly global citizen .
+Its diverse team people facilitate greater collaboration across border , employee exposed best practice every business sector .
+Championing promise We say .
+We .
+We wow customer , We Are Lenovo culture underpinned culture value Serving Our Customers , Innovation , Entrepreneurship , Teamwork Integrity Trust .
+From concept practice , We Are Lenovo culture value behavior incorporated many people corporate initiative , goal setting incentive model , even deeply criterion impacting organization talent growth .
+The Company established culture engagement initiative help employee embrace culture value day-to-day work believe behavior critical achieving Companys service-led transformation .
+We Are Lenovo culture strives core connects employee , making individual entire organization better .
+The Company belief great idea come anywhere , appreciates unique perspective talent employee bring .
+As way showcase employee live culture value , Company collect , publishes , promotes outstanding story culture story platform medium .
+Stories also available multiple format video different channel , enabling employee around world learn inspired accessible engaging manner .
+To align collaborate shared goal , Company provides platform called The Big Bang Forum think tank Lenovo , Companys leader showcase innovation strategic plan product , service solution , high-tech , business model , .
+The Company also offer The Innovation Series , platform thought leader employee share innovative idea initiative opportunity brainstorming learning available training innovation tool .
+The Company committed cultivating inclusive engaging environment built respect employee , empowering greater collaboration innovation worldwide .
+By championing We Are Lenovo culture value support across stakeholder , Company aim success business , customer , employee .
+64 Lenovo Group Limited 202324 Environmental , Social Governance Report Share Companys Smarter Technology All vision community around world employee volunteerism aligned mission vision .
+In FY 202324 , Company invested approximately USD2.5M employee engagement initiative like Love Month Service , global matching gift benefit , volunteer incentive ( sometimes known dollar doer ) .
+Reference Consolidated Metrics section see volunteer hour matching gift expenditure FY 202324 .
+Use Companys technology philanthropic resource strategically respond natural humanitarian disaster .
+In FY 202324 , Company invested approximately USD1.7M response natural humanitarian disaster .
+Impact measurement The Lenovo global philanthropy team assesses review program partnership measure increase charitable impact .
+The team set goal directly impact 15 million people transform one million life 2025 ( base year FY 202122 ) .
+To measure progress toward goal , team standardized measure impact transformation across charitable investment .
+Impact Direct impact ( 15 million life 2025 ) Beneficiaries measured person-to-person contact measured volunteer event , training , product loan program , product donation provided without individual ownership 11 ratio ( i. e. , computer lab school ) .
+Indirect impact ( measured ) Secondary beneficiary volunteer event , training , product loan program , product donation provided without individual ownership 11 user ratio ( i. e. , family benefiting student increased tech literacy , parent needing secure childcare child STEM program ) .
+Global philanthropy community engagement Investing community Lenovos social investment focused empowering underrepresented population access technology STEM education .
+The Company goal committing minimum 0.5 percent pretax income global social investment program initiative .
+The Companys social investment executed charitable corporate contribution charitable entity Lenovo Foundation , U. S. 501 ( c ) ( 3 ) , Lenovo Foundation Beijing ( non-profit registered China ) .
+The global philanthropy team established global giving guideline compliance process localized alignment across diverse market Company business .
+Lenovo philanthropy governance Corresponding launch Lenovo Foundation 2018 , Companys global philanthropic initiative governed global philanthropy board executive .
+The board work represent global community Lenovo philanthropy serf advocating philanthropic initiative local region .
+The board governs advises operation Lenovo global philanthropy team six board meeting year ongoing grantmaking oversight .
+Social investment focus area In alignment UN Sustainable Development Goals , Lenovo global philanthropy key focus area contribution reduced inequality , quality education , poverty reduction .
+The Company invests key focus area strategic investment , employee volunteerism , humanitarian response .
+Partner charitable organization , educational institution , civic group empower under-represented population access technology STEM education .
+In FY 202324 Company invested approximately USD 16.7M strategic partnership charitable , mission aligned organization around world .
+65 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Transformation Transformative impact ( 1 million life 2025 ) Beneficiaries received training education , advancement , credential provide transformative opportunity quality living access .
+Lenovo philanthropy conduct annual impact survey charitable partner collect partner-reported data analyzed team standard .
+With standardization set , team track meet goal FY 202526 .
+Global program Community partnership The Company developed strategic community partner Companys business geography .
+The community partner selected alignment Lenovo Foundations mission empower underrepresented population access STEM education technology .
+The Company also disaster relief partner established key geography .
+In addition partner focused Companys philanthropic mission disaster response business geography level , Company selected global partner whose reach extends beyond need one business geography .
+Love global month service Since 2017 , Companys employee around world organized annual service event .
+With leadership organization global philanthropy team support local business leader , employee office around world invited design volunteer event aligned Foundations mission empower underrepresented population access technology STEM education .
+Projects organized local NGOs align Companys philanthropic mission meeting need diverse community Companys employee live work .
+The program impact measured key metric number employee engaged , beneficiary , hour volunteered , office participating .
+The Companys Love Global Month Service grown least one metric every year since began .
+TransforME Grant Round In FY 202324 , Companys philanthropic team continued strategic initiative fund nonprofit organization focused providing digital skill training adult .
+Grantees selected based various factor including ability remove barrier success adult engage program .
+To date , grant round invested 2.5M fund 20 organization around world .
+In FY 202324 , team focused opportunity renew funding existing TransforME grantee , rather conduct open grant round .
+Employee resource group grant round To strengthen Companys social impact employee engagement , Companys philanthropy program empowered leader employee resource group facilitating partnership community organization aligned diversity segment .
+In third year , program funded new renewed partnership empowered diverse community shared Companys smarter technology vision around world .
+66 Lenovo Group Limited 202324 Environmental , Social Governance ReportHumanitarian response Lenovo philanthropy organized measured response natural humanitarian disaster throughout FY 202324 .
+The Company leverage fund technology respond disaster engages employee matching gift opportunity appropriate .
+Among largest response , Company responded Flooding Auckland New Zealand nearly 15,000 long-term recovery fund January 2023 flooding .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Flooding | Brazil | April | 2023 | , | supporting | Instituto | Verdescola | USD | 40,000 | . |
+| Hurricane | Peru | May | 2023 | , | working | UNICEF | Peru | provide | USD | 15,000 | response | . |
+| Flooding | Italy | May | 2023 | , | supporting | effort | Italian | Red | Cross | USD | 20,000 | . |
+| Flooding | Northern | India | July | 2023 | , | providing | USD | 2,000 | response | funding | . |
+| Flooding | Chile | July | 2023 | , | providing | USD | 10,000 | support | effort | Techo | . |
+| Wildfires | island | Hawaii | August | 2023 | , | providing | 10,000 | recovery | relief | effort | . |
+
+Flooding Beijing , Tianjin , Hebei China August 2023 RMB10MUSD 1.4M fund effort rescue rebuild .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Earthquakes | Morocco | September | 2023 | , | providing | USD | 20,000 | support | Wine | To | Waters | effort | provide | access | clean | water | disaster | . |
+
+Earthquakes Jishishan , Gansu Province China December 2023 , providing RMB1MUSD 140K recovery , response , material winter month .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Earthquakes | Noto | , | Japan | January | 2024 | , | 12,000 | response | effort | Japan | Heart | . |
+
+In addition matrix-driven response , Company provides ongoing strategic support American Red Cross ensure disaster preparedness .
+Love platform employee giving benefit Launched 2021 , Love platform Companys employee engagement tool , available full-time employee Companys Asia Pacific , EuropeMiddle EastAfrica , Latin America , North America business geography .
+The tool encourages employee give time resource , supported volunteer matching gift benefit Company .
+Volunteer benefit The Companys employee encouraged volunteer eight hour per quarter cause charity choice .
+Employees claim five dollar ( local currency equivalent ) per volunteer hour Love platform , donated cause platform meet Companys giving guideline .
+Matching gift benefit Employees donate cause Love platform meet Companys Charitable Giving Guidelines receive 100 percent match Company .
+The Lenovo philanthropy team host annual giving campaign encourage donation employee favorite cause , strategic community partner , response humanitarian crisis ( see Humanitarian Response ) .
+67 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Beyond Water Community impact sustainable water access The Companys commitment sustainability , community , employee engagement showcased ongoing partnership Wine To Water , non-profit organization provides access clean drinking water hygiene education community around world .
+The partnership began small initiative within Love Month Service , gradually recognized opportunity combine environmental social impact goal engaging employee purpose providing access clean water .
+In Spring 2023 , group Lenovo employee embarked service project Nepal , Amazon , Dominican Republic .
+Employees worked alongside community member build infrastructure create access clean water , also sharing WASH hygiene principle .
+Volunteers experienced feeling gratitude empowerment service trip , captured Beyond Water documentary created funding Lenovo .
+Lenovo philanthropy continue Wine To Water partnership support strategic infrastructure-building initiative , donation Lenovo technology , disaster response initiative .
+Lenovo employee celebrate day trench digging build water infrastructure community Amazon region .
+Philanthropy China The Curiosity Project bringing cutting-edge AI student rural China In pioneering move coordinated Work Humankind program , Company unveiled AI-enhanced science technology ( sci-tech ) museum within one Chinas rural elementary school , Heshi Town Central Primary School Xiushui County .
+The initiative Together Lenovo Foundation Beijing , Company proudly present Curiosity Project .
+This effort employ AI advanced technology craft state-of-the-art sci-tech museum within remote rural school .
+Fueled innovative technology AI AR , museum boast six immersive section dedicated diverse subject like Art , History Sports .
+Its museum bridge , connecting textbook learning infinite realm imagination , paving way future discovery .
+This initiative underscore Company ongoing commitment ESG , bridging digital divide urban rural community accelerating rural transformation .
+Beyond wall Free open school , museum stand benefit 120,000 student directly .
+Collaborations industry body , guest speaker , Lenovos volunteer provide blended educational experience , online offline .
+This project offer primer tech remote student also stand Companys enduring testament technological potential , welcoming explore future .
+Lenovo also brought AI PC prototype sci-tech museum , enabling student first experience AI PCs capability .
+The museum continue feature technological advancement future , serving beacon innovation inviting medium , customer , partner , general public experience engage demonstration educational discussion .
+68 Lenovo Group Limited 202324 Environmental , Social Governance Report 69 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix 5.0 Governance ESG governance Business practice Product quality management Innovation Governance highlights70 73 79 81 83 70 Lenovo Group Limited 202324 Environmental , Social Governance ReportESG governance A statement oversight management Environmental , Social Governance The oversight Environmental , Social , Governance ( ESG ) program , approach strategy Company towards management ESG matter set statement issued Board Directors ( Board ) management Company .
+Details set ESG governance structure Board oversight The Board highest level oversight ESG program reporting manages responsibility .
+The Boards oversight Companys ESG program process includes support evaluation Companys management response key ESG-related risk opportunity , context strategy , decision major transaction , risk management policy , long-term value-creation across business operation .
+Board member regularly briefed discussion critical ESG risk area , opportunity key ESG practice Board meeting , tasked approving ESG Report .
+ESG-related topic included agenda item Board Board Committee meeting throughout financial year , ESG standing agenda item least twice annually .
+Regular newsletter update ESG issue , including update topic discussed ESG Executive Oversight Committee ( EOC ) ESG development Company , also provided Board Committees Chief Legal Corporate Responsibility Officer ( delegate ) .
+ESG oversight supported Nomination Governance Committee , oversees corporate policy practice regarding governance compliance legal regulatory requirement .
+The Audit Committee complementary role effective management risk safeguarding Companys resource , oversight Internal Audit Enterprise Risk Management ( ERM ) system , support overall ESG risk management practice .
+The Audit Committee also annual review adequacy resource , staff qualification experience , training program , budget Groups ESG performance reporting .
+The Chief Legal Corporate Responsibility Officer provides executive leadership Companys ESG position ensures regular report made Lenovo Executive Committee ( LEC ) , Board Committees .
+The LEC consists senior management delegated authority established Chief Executive Officer manage operational performance , including strategic decision .
+In addition , ESG EOC , chaired Chief Legal Corporate Responsibility Officer , provides strategic direction , facilitates coordination ESG effort across Company , including proposing recommendation effective management ESG program .
+The ESG EOC comprised senior management across business functional area chartered promote culture encourages strong ESG performance , including compliance leadership activities.5.0 Governance 71 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix The ESG EOC responsible Monitoring emerging ESG trend , impact , opportunity Representing voice customer ESG strategy decision Recommending ESG initiative , investment , disclosure management Board Ensuring Groups ESG strategy appropriately address risk obligation Evaluating ESG program investment effectiveness Supporting ESG disclosure messaging initiative Acting executive champion Companys ESG culture value .
+The Board aware importance continuous improvement collective performance leadership Company , including addressing climate-related risk opportunity oversight ESG matter .
+Through formal process led Nomination Governance Committee , director conduct Board evaluation via online platform , aim evaluate advance performance effectiveness Board committee , including oversight ESG matter .
+This evaluation conducted every two year agreed Board member .
+As part Boards continuous professional development program , Directors time time receive training ESG matter including anti-corruption , climate , water , ESG risk opportunity , relevant topic form presentation ESG professional .
+Directors also updated continuing basis Company Secretary ESG news release Hong Kong Stock Exchange professional organization .
+This facilitates Board member understanding Companys ESG practice , support continuous development ESG competency within Boards skill matrix , increase awareness ESG impact Companys operation .
+Concentrated discussion ESG issue , including climate change , assist Board making appropriate decision providing oversight based long-term risk opportunity impact Companys stakeholder business .
+At least annually , Board briefed Companys ESG Key Performance Indicators ( KPIs ) , including climate strategy progress towards climate change mitigation goal .
+ESG management approach In addition responsibility listed , Board , management process , delegate authority ESG EOC following ESG oversight activity Overseeing assessment Companys environmental social impact , including Companys annual materiality assessment process Ensuring alignment Companys ESG program regulatory requirement investor expectation Understanding risk ESG issue Companys operating model ensuring action taken address risk appropriate well-followed Ensuring ESG consideration part business decision-making process .
+As part Companys ESG program , materiality assessment conducted annually internal external stakeholder identify ESG-related risk opportunity impact business stakeholder .
+The result reviewed approved ESG EOC included ESG Report reviewed approved Board .
+This assessment guide objective Companys ESG program , including goal target , informing business strategy , targeting communication , disclosure ESG Report .
+The Company recognizes risk management responsibility everyone within organization , risk best managed business function take responsibility accountable .
+Rather separate standalone process , risk management therefore incorporated part Companys annual strategic planning process across major function .
+The Companys official ERM process detail various business risk include environmental , social , governance risk category .
+Annually , Company requires business unit identify risk , assess impact executing strategy , develop risk mitigation plan .
+The result assessment ensure effective risk management internal control system place .
+72 Lenovo Group Limited 202324 Environmental , Social Governance ReportThe Board acknowledges corporate ESG landscape evolving , effective governance ESG matter fundamental company ESG accountability .
+As Company regularly evaluates ESG risk opportunity faced industry potential impact Companys business continuity plan , Board strives strengthen oversight ESG program practice help build resilient future .
+Ethics integrity Ethics integrity serve foundation Lenovo business practice .
+Results 2023 Lenovo Listens survey highlight one Companys greatest strength ethical business practice .
+Specifically , 97 % Companys workforce believe Lenovo ethical business dealing .
+The Company recognizes success hinge steadfast commitment value .
+This commitment reinforced among workforce Companys core value , emphasize significance Teamwork Integrity Trust , one Companys four fundamental cultural tenet .
+The Companys Ethics Compliance Office ( ECO ) established foster culture committed implementing value .
+The ECO work partnership stakeholder across globe promote legal ethical operation .
+The ECO actively raise awareness importance ethical compliant business practice Company serve critical role providing employee information , resource , training need make informed ethical decision .
+The ECO also oversees Companys Code Conduct ( Code ) , establishes clear expectation employee compliance policy related lawful ethical business conduct .
+The Code reflects Companys culture trust integrity , hold employee accountable behavior , help employee determine seek advice .
+The Code , policy , related awareness training material provided electronically periodic communication .
+Specifically , Companys new hire required take Code training .
+In order successfully complete training , employee required provide attestation adherence Code Lenovo policy .
+Furthermore , FY 202324 , 99.9 % direct labor employee completed mandatory Code training .
+ESG-related information periodically audited using internal control framework part broader corporate risk assessment incorporates audit process provide independent objective assurance Companys ESG disclosure , statement , metric accurate aligned Companys risk management approach .
+The Company following long-standing integrated approach internal control consistent Committee Sponsoring Organizations Treadway Commission ( COSO ) internal control framework .
+This internal control framework overseen Audit Committee .
+The Companys ESG disclosure , statement , metric managed dedicated team focused monitoring effectiveness ESG initiative reporting organization progress goal target .
+Review progress relevance business The ESG EOC conduct regular meeting assess progress Companys ESG initiative , including climate change net-zero target , relevance stakeholder expectation Companys long-term business strategy , direction investment ESG program .
+The Company set target address Companys material impact variety related process , including Companys ISO 140012015 ( environmental ) , ISO 500012018 ( energy management ) , ISO 450012018 ( occupational health safety ) , ISO 90012015 ( quality ) management system .
+In addition , relevant team department within Company including Strategy , Human Resources , others may set KPIs related impact may integrated corporate ESG KPIs appropriate .
+The Companys corporate ESG KPIs developed approval ESG EOC supported LEC Board .
+The ESG practice related goal target , KPIs progress periodically reviewed Board aligned credible industry science-based standard , ESG reporting framework .
+The Companys progress disclosed ESG Report reviewed approved Board .
+ESG performance metric climate-related consideration factored certain executive officer remuneration policy KPIs tied variable compensation may result non-monetary incentive recognition including employee award .
+73 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix The Company also provides Code training new employee , includes anti-bribery corruption topic .
+The Board Directors Senior Leadership Team provided facilitator-led training session anti-bribery corruption .
+Additionally , FY 202324 , Company released educational video commemoration International Anti-Corruption Day , urging employee participate global fight corruption .
+The video garnered viewership approximately 30,000 employee .
+Bribery corruption risk also evaluated part Companys Enterprise Risk Management Program risk assessment ensure Companys internal control effectively address mitigate bribery corruption risk enterprise .
+As Company hold employee highest ethical standard requires compliance applicable anti-bribery corruption law regulation , extends obligation business partner .
+The Companys business partner expected adhere standard integrity Company demand .
+All business partner subject Companys Global Anti-Bribery Corruption Policy , includes requirement conduct anti-bribery corruption due diligence business partner identified presenting elevated bribery corruption risk organization .
+The Company actively monitor business partner address potential area concern inquiry regarding bribery corruption .
+In FY 202324 , Company received verdict legal case related corruption , transferred authority result Companys internal investigation alleged misconduct .
+Two former employee sentenced accepting kickback RMB1 million RMB2.7 million , respectively , exchange providing improper benefit various sale channel partner .
+In addition required forfeit money received kickback , individual sentenced authority .
+One individual involved received two-year prison sentence , three-year probation , RMB100,000 fine .
+Another received three-year prison sentence RMB200,000 fine .
+The Company terminated employment individual implemented additional internal control measure prevent similar incident .
+The impact case Companys business minor .
+The ECO supported following committee Board Committees The Audit Committee annually briefed ECO matter including adequacy resource ESG reporting The Nomination Governance Committee oversees corporate policy practice governance compliance legal regulatory requirement Other Committees The Executive Ethics Committee provides executive-level oversight guidance ECO The Investigation Oversight Committee work closely ECO oversee Groups internal investigation process speak initiative The Regional Ethics Compliance Committee provides ECO global support , perspective , insight Business practice The Companys Code mandate compliance applicable law market conduct business .
+Its policy strongly support ethical responsible business practice , include area anti-bribery corruption , data privacy , anti-competitive practice fair competition , intellectual property .
+Anti-bribery corruption The Company zero tolerance bribery corruption .
+The Company complies anti-bribery corruption law every jurisdiction conduct business .
+The Companys Global Anti-Bribery Corruption Policy along Companys Global Gift , Entertainment , Corporate Hospitality , Travel Policy reinforce provision Code provide additional guidance regarding compliance global anti-bribery corruption rule law .
+The policy stress Company directly indirectly solicit , offer , promise , authorize , provide , accept anything value person , including government official , influence action , inaction , secure improper advantage defined applicable law .
+To help employee understand requirement , training anti-bribery corruption provided .
+99.9 % Companys computer-based employees1 , including senior management executive , completed anti-bribery corruption mandatory eLearning course assigned FY 202324 .
+In addition , 48 facilitator-led session focused anti-bribery corruption basic case study provided 17,000 China-based employee Company .
+1 The Companys computer-based employee employee access GrowLenovo eLearning system Company-provided asset .
+74 Lenovo Group Limited 202324 Environmental , Social Governance ReportPrivacy data protection The Company maintains Global Privacy Data Protection Program , lead organization commitment responsibly using protecting customer , consumer , employee , partner identifiable information .
+The Lenovo Global Privacy Data Protection Program develops maintains policy , process , training , mechanism resource ensure Company complies global privacy related data protection law regulation .
+These policy Companys commitment area communicated employee via Lenovo Privacy Basics course new employee required take within 30 day employment Company , recurring basis thereafter .
+It individual collective responsibility Companys employee contractor act accordance requirement Companys privacy security policy standard report privacy security incident vulnerability timely manner .
+The Lenovo Global Privacy Data Protection Program , Chief Security Office , Chief Infrastructure Security Office , Companys product security team maintain incident reporting mechanism work together investigate , mitigate , prevent privacy security incident could impact Company , customer , user , employee .
+Individuals may learn Companys product website privacy practice visiting httpswww .
+lenovo .
+comusenprivacy .
+The Lenovo Privacy Data Protection Program may reached privacylenovo .
+com ( privacymotorola .
+com ) .
+The Company recognizes great importance privacy individual everywhere customer , website visitor , product user , employee everyone .
+The responsible use protection personal information Companys care core company value .
+To ensure adherence privacy policy , principle , process , Company maintains global Privacy Data Protection Program led Legal Department .
+The Privacy Data Protection Program report progress regularly Companys Chief Legal Corporate Responsibility Officer Chief Security Officer .
+In addition , Privacy Data Protection Program coordinate cross-functional Privacy Working Group ( PWG ) comprised key partner drawn Infrastructure Security , Product Security , Product Development , Marketing , E-Commerce , Service Repair , Human Resources , group .
+The PWG meet several time per year discusses Anti-competitive practice fair competition The Company competes business ethically lawfully .
+The Code Policy anti-competitive practice fair competition set fundamental principle serve guideline employee complying competition law every jurisdiction Company operates .
+In particular , policy strictly prohibit employee engaging anti-competitive practice , including entering agreement discussion would result price-fixing , limitation availability good service market , agreement boycott customer supplier .
+The Company continues communicate requirement global antitrust anti-competition law regulation workforce periodic basis .
+In FY 202324 , 10 dedicated training session delivered globally employee including executive level management .
+Intellectual property Intellectual property valuable asset Company .
+The Company expects employee protect intellectual property respect intellectual property right company individual .
+Intellectual property right include patent , copyright , trademark , confidential information , related contract right .
+The Company secures intellectual property using applicable form legal protection .
+Therefore , Companys employee must sign abide agreement Company regarding confidential information intellectual property .
+The Company also expects employee contribute Companys innovation leadership .
+To end , Companys employee submit invention idea Companys patent review board prompt review protection support Intellectual Property Law Department .
+The Company respect intellectual property right company individual , including proprietary material , confidential information , software , patent , trademark , trade secret .
+Employees work Companys counsel Legal Department appropriate ensure necessary right license obtained utilizing non-Lenovo proprietary material .
+75 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Ethical management responsible Artificial Intelligence The Company embrace Artificial Intelligence ( AI ) across product line , client edge cloud network .
+Throughout computing ecosystem , breakthrough Large Language Models AI generated content mark major leap AI development capability serve catalyst accelerator boost adoption AI .
+Over next three year , Company making large investment people resource AI focus providing AI device , AI-ready AI-optimized computing infrastructure , embedded AI capability intelligent solution accelerate productivity provide new , revolutionary experience Companys customer .
+In FY 202324 , Company announced vision Smarter AI All focused unleashing power AI drive intelligent transformation every aspect people life every industry providing technology , solution , service empower industry , enterprise , individual around world .
+With ability empower influence positive change , arises profound duty develop , deploy , use AI responsibly .
+The Company reinforces commitment responsible AI upholding following principle guideline 1 .
+The Company use AI way harm people put right risk .
+The Company prohibits AI system deploy subliminal manipulative technique , exploit person vulnerability , classify people based social behavior , socio-economic status , sensitive personal information , .
+AI system pose risk person health , safety , civil right carefully evaluated implemented additional risk mitigation .
+2 .
+The Company ensure AI fair , transparent , explainable , efficient .
+The Company encourages responsible stewardship trustworthy AI system pursuit beneficial outcome individual whose data processed AI system user , society , environment .
+Companys privacy policy , process , legal development , industry development , .
+Key element Companys approach ensuring meaningful privacy data protection include Monitoring global privacy data protection legal development regulatory trend , improving Companys privacy practice process Harmonizing global privacy data protection requirement organization-wide set Lenovo Guiding Privacy Principles drive Company handle personal information certain type data , including developing updating privacy policy procedure Providing contractual support ensure risk associated supplier partner agreement include appropriate privacy security term including assistance Lenovo Legal Center Excellence ( COE ) effort update contract template , improve privacy security-focused contract addendum Providing early input product service development team incorporating privacy checkpoint formal product development plan , including privacy impact assessment , conducting pre-launch privacy compliance review product , software , service , website , marketing program , internal system , supplier relationship Responding request individual review , correct , amend andor delete personal information Coordinating Companys response law enforcement government request applicable personal user information Developing delivering privacy data protection-focused training program working closely Chief Security Office ( CSO ) , Corporate Infrastructure Security Office ( CISO ) , product security team timely identify respond privacy data protection incident Maintaining internal Privacy Program portal resource employee provide guidance , document , contract template , compliance checklist , additional privacy data protection resource Company Requiring computer-based employee globally complete Companys Privacy Basics Security Essentials course .
+100 % computer-based employee completed Security Essentials Privacy Basics training FY 202324 .
+76 Lenovo Group Limited 202324 Environmental , Social Governance Report Responsible AI pillar serve basis evaluating AI system throughout Company , including diversity inclusion , accountability , reliability , explainability , transparency , environmental , social impact .
+3 .
+The Company ensure proper human oversight throughout lifecycle AI system .
+The Company firmly belief indispensable role human oversight development use AI .
+It recognizes AI system , powerful transformative , remain tool used support human endeavor must guided human judgment ethical consideration .
+The Company establishes mechanism human intervention ensure proper oversight , validity AI outcome , detection potential bias , human intervention necessary detect rectify bias , error , unintended consequence .
+By ensuring proper human oversight , Company strives instill trust , accountability , fairness AI system , empowering u make informed decision benefit customer , user , employee , society whole .
+4 .
+The Company protect people privacy stage AI Lifecyle .
+AI system collect retain data individual legitimate purpose , minimum extent needed fulfill purpose .
+AI system designed help user comply privacy requirement , including providing subject reasonable ability review , correct , amend , delete personal data processed AI system .
+5 .
+The Companys AI developed used robust security protection .
+Technical robustness safety require AI system preemptively address risk including , limited , unpredictability AI performance cybersecurity .
+The Company establish standard used review , development , operation AI system ensure safe reliable.6 .
+The Company ensure AI respect protects others confidential information intellectual property .
+Intellectual property concern arise phase AI development use , including data selection acquisition , model training development , operation output .
+The Company permission use data us train operate AI system ensure AI system given inappropriate information prompt including ( 1 ) third-party information Companys control authorized use , ( 2 ) Companys confidential restricted information , AI system approved use , ( 3 ) personal information Company employee , customer , others explicitly consented use , ( 4 ) prompt direction would tend create problematic , biased , infringing result .
+7 .
+The Companys AI developed used strict compliance applicable law regulation .
+The Company dedicated highest standard legal compliance worldwide operation complies applicable law regulation jurisdiction conduct business .
+As result enactment Chinas regulation concerning AI , Company established comprehensive compliance committee consisting various internal stakeholder ensure Company following regulatory compliance requirement industry-leading best practice .
+Globally , Company continues monitor AI regulatory environment unwavering commitment developing , deploying , utilizing AI accordance regulatory standard industry-leading best practice .
+77 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix LenovoLine Lenovos Confidential Ethics Compliance Reporting Line 24hours aday , 7days week Ask aquestion orraise aconcern conduct may violate ourCode , seems unethical , illegal orsuspicious .
+Make confidential report You may remain anonymous allowed bylaw .
+Foralistofphone number bylocation ortoreport online httpslenovo .
+whispli .
+comspeakup Email Ethics Compliance atethicslenovo .
+com , orvisit Lenovo MyHub formore information .
+PRESERVE OUR CULTURE OFINTEGRITY Employees encouraged use LenovoLine , Lenovos confidential ethic compliance reporting line , raise concern question .
+The LenovoLine also accessible scanning QR code .
+The Company take allegation concern seriously .
+The Company maintains Whistleblowing Investigations Policy outlining process concern raised , reviewed investigated .
+The Company also oversight body , Investigation Oversight Committee ( IOC ) , ensure concern raised appropriately investigated addressed .
+The Company actively issue training periodic communication provide employee information Companys internal investigation process encourage speak without fear retaliation .
+The Company prohibits retaliation report made good faith .
+99.9 % computer-based employee , including senior management executive , completed Companys Whistleblowing Investigations Policy mandatory eLearning course assigned FY 202324 .
+Additional communication include detailed information LenovoLine , quarterly notification IOC summary notable investigation identifying detail , computer screen lock messaging , poster , .
+In addition principle , Company solidifying dedication responsible AI expanding external presence partnership esteemed organization dedicated promoting responsible AI practice .
+Lenovo one eight technology company sign United Nations Educational , Scientific Cultural Organization ( UNESCO ) Recommendation Ethics Artificial Intelligence , since 2021 , Company signatory Cercle InterL Women AI Charter accountable gender-fair AI system .
+Lenovo recognizes realization vision Smarter AI All hinge upon steadfast adherence principle guarantee responsible , ethical , safe development , deployment , utilization AI .
+The principle outlined underpin Companys vision , also form cornerstone Companys mission provide Smarter Technology All .
+Reporting Ethical Concerns The Company committed fostering speak culture , employee , contractor , business partner empowered speak anything appears unethical , illegal , suspicious .
+The Company established clear process various reporting channel raise question report concern .
+Employees encouraged raise concern manager , Human Resources , ECO , Internal Audit , Legal Department potential issue including , limited , known suspected Fraud Company Bribery corruption Unethical business conduct Violation legal regulatory requirement Substantial specific danger health safety Violation Companys corporate policy guideline , particularly Code Conduct The Company also provides formal , confidential way report concern , ask question , request guidance person , email , LenovoLine , confidential reporting system accessible 24 hour day , seven day week secure website , mobile app telephone .
+Where allowed law , employee may report concern business practice anonymously .
+78 Lenovo Group Limited 202324 Environmental , Social Governance ReportResults 2023 Lenovo Listens survey found 93 % employee feel comfortable raising concern compliance ethic management .
+In FY 202324 , Company transitioned new whistleblowing hotline provider enhance experience reporter raising concern .
+New feature reporting platform include ability raise concern via mobile app ( iOS Android ) , instant translation reporter local language communicating investigator , ability easily communicate Companys investigator chat box feature , allows anonymous reporter communicate without compromising anonymity .
+With enhancement Companys continuous communication campaign , Company seen increase number concern raised year year .
+44 % reporter disclosed learned LenovoLine Companys internal communication campaign .
+To evaluate impact , Company monitor number case received .
+In FY 202324 , Company received 361 case involving ethic compliance concern compared 251 case FY 2022232 .
+57 % reporter identified 70 % case closed addressed accordingly .
+Total number case FY 202324 Number case FY 202324 361 Open case ( pending case ) Closed case ( includes unsubstantiated substantiated matter ) 30 % 70 % 2 This figure represents number case received handled Investigations Oversight Committee .
+Percentage known vs. anonymous case reported FY 202324 43 % 57 % Anonymous Known Complaints The Company dedicated reviewing responding customer feedback , including product service-related complaint .
+It robust process managing customer complaint .
+Practices include review approval process product service-related complaint checkpoint ensure adherence process .
+Complaint channel Customers raise dissatisfaction complaint diverse range channel includes , limited phone call , chat , email , social medium ( Facebook , Instagram , X , LinkedIn ) , internal escalation tool shared Lenovo Employee , Lenovo Support Page .
+Complaint process Complaints collected various internal system centralized Microsoft Dynamics Customer Relationship Management ( CRM ) .
+The dedicated Customer Care team manage case end-to-end engage customer find resolution complaint .
+The Customer Care team Investigate background complaint understand customer experience better thus far Identify potential solution customer communicate customer gain agreement solution Implement agreed-upon solution .
+79 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Based solution criterion , Customer Care Case Manager may Explain Companys warranty policy Repair product working per machine specification Replace product repair resolve problem Refund customer .
+Once case escalated Customer Care team , global average time resolution agreement customer usually 48 hour .
+To maintain consistent process continuously identify improvement policy , end case management , Customer Care team launch survey customer looking understand Likelihood recommend Company future Overall satisfaction service provided Gauge easy business Lenovo Group Resolution satisfaction Resolution time Enterprise feedback management The Customer Care team executes closed-loop process customer internal stakeholder improve Companys process policy .
+The process includes use generative AI tool manual validation compile categorize reason escalation customer feedback sharing finding recommendation service delivery team .
+The opportunity identified action continuous improvement shared company executive quarterly basis .
+The Customer Care team also evaluates survey response area improve managing critical dissatisfied customer .
+Those area include , limited Timeliness response Friendliness Knowledge Companys process policy Overall satisfaction Satisfaction resolution This closed-loop process defined geography internal stakeholder may vary market Company operates .
+Product quality management The Company delivers superior quality product committed ensuring product safe throughout life cycle .
+Product Life Cycle Assessment ( LCA ) principle incorporated ensure every stage product life taken consideration , including development , manufacturing , transportation , installation , use , service , recycling .
+This approach ensures continual delivery design improvement current future product .
+The Companys Quality Policy form foundation Quality Management System ( QMS ) business process support practice around customer , legal regulatory responsibility , meet requirement ISO 90012015 standard .
+The Companys new-hire training includes introduction QMS , employee expected support continual improvement integral part quality management system .
+To maintain highest level product quality , Company employ active , closed-loop process whereby feedback mechanism provide quick resolution customer issue .
+The Company conduct root cause analysis product issue collaborates appropriate team , including manufacturing , product development , testing team ensure issue arise current future product .
+80 Lenovo Group Limited 202324 Environmental , Social Governance Reportrecommendations , collaborates engineering lesson learned feedback loop refines process eliminate recurring problem .
+As result , product repair action rate among lowest industry .
+The Company provides high-quality product safe operate throughout lifecycle .
+Its QMS framework designed support commitment .
+Its product meet , many case exceed applicable legal requirement well voluntary safety ergonomics practice subscribes wherever product marketed sold .
+The Companys product safety priority described .
+In rare instance , Company may recall product due safety health reason .
+Under circumstance , Company strictly follows corporate guideline engages appropriate government regulatory agency provide customer remedy recalled product .
+Every product recall unique situation , evaluated managed Company using common framework .
+First , data collection analysis performed , followed creation Issue Management Team .
+Next , applicable government agency engaged , followed public notification action .
+Finally , recall remedy managed , tracked , reported back government agency .
+The Companys active closed-loop process incorporates various feedback mechanism enable opportunity enhancing product quality reliability .
+When product issue discovered , Company performs root cause analysis feed result back manufacturing , development , test organization ensuring similar issue arise current future product .
+These feedback mechanism provide quick resolution customer issue .
+Because Companys product fail less often longer lifespan , fewer resource required upkeep end-of-life management .
+The Companys comprehensive product development process includes prototype development , product testing , focus group represent diverse need global customer .
+For example , Company proactively elicits input design product feature customer partner .
+Prototypes extensively evaluated , final product undergo rigorous testing ensure meet stringent standard specific application use cleared shipment .
+The Companys business unit executive responsible establishing objective measuring result drive continual improvement quality customer satisfaction .
+The Companys Technical Evaluation Center provides information Cross-organizational quality assurance Service Support Metrics Repair Actions Call Volume Resolution Eﬀectiveness Resolution Cycle Time Overall Satisfaction Product Quality Failure Rates Product Life Cycle Management Time Market , Time Volume First Pass Yield Out Box Metrics Repair Actions On-time DeliveryOverall Quality KPIs Customer Satisfaction Manufacturing Performance Warranty Repair Performance Critical Situations Standards ComplianceBusiness Management System 1 .
+Quality Rollcalls 2 .
+Weekly Quality Reviews 3 .
+Monthly Business Unit Reviews 4 .
+GeoService Interlocks 5 .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Senior | Leadership | Team | Reviews | Global | Supply | Chain | Metric | sBusiness | Units | Metrics | Quality | Policy | ISO | 9001 | Warranty | Repair | Performance | Critical | Situation | Management | Customer | SentimentProduct | Quality | Metrics | 81 | Lenovo | Group | Limited | 202324 | Environmental | , | Social | Governance | ReportExecutive | letter | About | report | Environmental | Social | Governance | Global | supply | chain | Consolidated | metric | EMS | performance | , | objective | target | Long-term | KPI | progress | Appendix | Product | packaging | innovation | focus | carbon | impact | The | latest | generation | Lenovo | Neptune | liquid | cooling | technology | delivered | broader | range | ThinkSystem | server | prior | generation | , | making | sustainability | benefit | available | Companys | customer | . |
+
+Lenovo Neptune liquid cooling technology help optimize product performance capturing 98 percent system heat reducing power consumption 40 percent .
+In addition product innovation server , Company take holistic look customer experience sustainability goal improving packaging design across product offering .
+The Infrastructure Solutions Group us rack integration method shipping server pre-installed rack , saving 105 pound cardboard per rack .
+The Company design select PC packaging made sustainable material like bamboo sugar cane .
+In November 2023 , Company issued product recall Lenovo USB-C Laptop Power Bank .
+The recall issued 46 country lot 9,281 unit , 12.2 % unit produced .
+Additional information related recall recall previous year viewed www .
+lenovo .
+comrecalls .
+In FY 202324 , Company experience material incident non-compliance ( assessed using Companys ERM framework ) resulting fine regulation andor voluntary code concerning product service information labeling .
+The Company applies compulsory environmental regulatory label , mark , statement product market product marketed sold .
+The Company also utilizes internal standard process ensure correct , country-specific region information applied prior product sold .
+Employees engaged advertising activity , like Companys employee , governed Companys Code Conduct .
+Lenovo Produc Safety Prioritie sSelect supplier demonstrate similar commitment safety Investigate product safety incident take prompt remedial action protect customer employee Foster employee involvement provide appropriate resource develop implement successful product safety initiativesComply applicable legal requirement voluntary safety ergonomics practice Lenovo subscribes Continually improve product safety process Provide customer labeling , instruction , information safely use Lenovo product Report safety initiative incident senior executive Innovation Innovating manufacturing sustainability In FY 202324 , Company finalized put use ESG management system called Lenovo ESG Navigator help monitor key ESG metric manufacturing .
+The innovative system offer near real-time insight greenhouse gas emission energy use , replacing traditional manual management ESG metric flexible , transparent , highly automated approach capture data across value chain single point control , enabling data-informed decision area impacting sustainability performance .
+Innovating help customer meet sustainability goal The Company focused providing product service help contribute customer sustainability goal smarter future .
+Through focused initiative product , packaging , service level , Company innovating improve sustainability feature product empower customer option consider sustainability service .
+82 Lenovo Group Limited 202324 Environmental , Social Governance ReportEmpowering customer sustainable choice The Company provides IT life cycle solution Asset Recovery Services , CO2 offsetting capability , Reduced Carbon Transport option , certified refurbished equipment .
+All Companys product offered as-a-service , delivery model help optimize IT asset sustainability .
+TruScale Everything-as-a-Service Circular Economy designing waste value chain .
+TruScale Service offering optimize process leaving stage product cycle hand qualified professional customer focus productivity priority .
+TruScale insert predictability lifecycle management , enabling company plan help maximize reuse recovery technology .
+Asset Recovery Service This service help mitigate environmental data security risk associated end-of-life asset disposal aiming maximize value potential asset , main goal reutilize , recover , end , recycle resource .
+Reduced Carbon Transport This new solution empowers Companys customer transportation alternative IT purchase generate lower carbon emission , allow purchase Sustainable Aviation Fuel credit .
+Innovative solution circular economy The Companys vision deliver Smarter Technology All extends practice include Smarter Circular Design , Smarter Circular Use , Smarter Circular Return activity .
+In circular economy , product made , used , returned , instead discarded consigned waste .
+In model , value extracted resource use .
+Then , end service life , resource recovered , refurbished , redeployed .
+This drive greater resource productivity , aim make business competitive , help create new opportunity growth .
+The demand circular economy given rise service usage model seen across many industry user pay need need , return asset resource finished .
+The Company provides innovative solution customer business need help reduce volume end-of-life electronic product may otherwise , discarded consigned waste .
+These solution include Services help keep product operating longer Services help make infrastructure management easier Solutions manage customer product end life help maximize value reuse opportunity .
+The Companys introduction TruScale Device Service ( TruScale DaaS ) PC industry helped enable organization maximize value throughout product lifecycle minimize raw material use waste generation .
+TruScale DaaS usage model consumer pay use device choice need option pausing returning device use .
+Along device , Company offer variety service aim protect support asset lifecycle .
+When device reach end service life , Company collect device , wipe clean customer data , strive recycle re-purpose device .
+This mean device either refurbished reintroduced new working environment , device part used repair device warranty .
+Customers pay use , avoiding heavy capital outlay ownership model , well escaping burden cost disposal .
+These service addressing industry transformation as-a-service providing lifecycle value Companys customer .
+To help scale circular economy solution IT industry , Company established target enable recycling reuse 800 million pound end-of-life product FY 2025263 .
+For information see Section 9.0 .
+3 Cumulative total since 2005 .
+83 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Thriving together Collective learning , collaboration , partnership action FY 202324 Lenovo 360 Circle number Since September 2023 , 343 member joined .
+The community count 363 member representing 2,181 local partner 43 country 379 sustainability expert part Lenovo 360 Circle community coming member , third party advisor well Company , representing year-to-year increase 102 % .
+The community forum participation increased 179 % since broader opening community ( 50 % panelist coming member ) .
+280 hour collaboration focus group , sustainability workshop , regular interlock .
+5.5 hour training resource developed support channel seller sustainability expert representing 14 course 65 module ( 50 % industry agnostic content ) .
+The overall engagement Lead partner community common goals4 keep improving year year Percentages Lead partner engaged5 reached common goal FY 202324 ( percentage change compared prior year ) Goal-categoryRenewable EnergyAlignment SBTiCircular economy PhilanthropyWormen Leadership Engaged 65 % ( 5 % ) 65 % ( 0 % ) 91 % ( 1 % ) 57 ( 2 % ) 78 % ( 3 % ) Reached 33 % ( 13 % ) 33 % ( 2 % ) na654 % ( 18 % ) 67 % ( -6 % ) 4 To become Lead member , company must set least three five common goal relevant five topic .
+5 Engaged defined company set goal .
+6 na circularity goal partner defined individually thus incomparable company .
+Governance highlight Stakeholder engagement Lenovo 360 Circle- Unveiling origin mission As part Companys stakeholder engagement effort , Lenovo 360 Circle established increase collaboration enhance relationship channel partner .
+The Companys robust network channel partner help deliver smarter technology million customer around world .
+When come device , infrastructure , service solution , Company provides channel partner resource needed succeed highly competitive market .
+In 2021 , Company expanded partner support include sustainability resource partner community called Lenovo 360 Circle .
+Built input channel partner , Lenovo 360 Circle established community partner come together collective learning opportunity collaboration addressing key issue sustainability .
+The community based self-service portal follows similar structure engagement process established UN Global Compact private public sector .
+Partners apply membership Lenovo 360 Circle company sustainability lead , application , identify stand sustainability effort one three stage Connect partner , starting need help getting strategy running , Learn partner , structure place ready expand strategy , Lead partner , considered advanced strategy may already track record goal success sustainability effort .
+Once partner stage identified , partner connected set resource tailored specific need assessment tool tailored curriculum , access subject-matter expert community event webinars .
+The Company envisions Lenovo 360 Circle strategic advantage , also expediting shift sustainable business practice model .
+As community , Lenovo 360 Circle address sustainability new business driver , unlocking new business opportunity aligning common ESG goal .
+84 Lenovo Group Limited 202324 Environmental , Social Governance ReportFY 202324 key partnership third party key participation As active participant UN Global Compact , Lenovo 360 Circle also consistently promoting initiative solution amongst member community supporting SDG 17 partnership goal .
+Championing sustainability across value chain Lenovo 360 Circle recognized Champion status 2023 Canalys Global Sustainable Ecosystems Leadership Matrix outstanding achievement sustainability-focused partner program robust sustainability strategy organizational level .
+Lenovo 360 Circle also awarded Best Value Chain Initiative Year CRNs inaugural Sustainability Tech summit .
+This award recognizes company , partnership company , taking step reduce emission across entire supply chain , reduce waste resource usage , provide tangible result impact making environment .
+FY 202324 key project linked Lenovo 360 Circle Priorities Scope 3 inventory management The Mode Transportation ( MOT ) dashboard providing detailed emission data transported good channel partner .
+It allows move away spend-based assumption accurate calculation , consolidating Scope 3 emission transportation based real logistics data , depending MOT ( including air , sea , truck ) detailed route manufacturing location destination .
+The MOT dashboard developed Companys Global Supply Chain , integrating partner feedback .
+Products sustainability attribute Facilitating access product sustainability attribute ensuring transparency reliability key focus Lenovo 360 Circle .
+For reason , Spring 2023 community joined Product ESG Data Transparency project led Global Technology Distribution Council ( GTDC ) CONTEXT .
+This project built consultation IT vendor , IT distributor , IT resellers create ESG data platform , primarily focusing environmental attribute first step .
+Packaging The Lenovo 360 Circle supported Lenovos EMEA Education team design launch initiative called Turning Waste Educational Wonder , encourages student educator sustainably repurpose Companys packaging .
+This initiative comprised dedicated webpage , instruction booklet multiple language STEM competition student promote skill design , engineering , problem-solving .
+Overall , 160 submission 4,000 student 23 country nine winner .
+Learning Development Leveraging dedicated focus group answering requirement coming founding partner , Company developed Lenovo 360 Sustainability Learning Paths .
+The training , primarily targeted sale sustainability leader , offer four learning path , comprised course interactive , bite-sized module , provide essential sustainability knowledge skill .
+Learners embark journey sustainability fundamental , understanding Companys ESG approach , skill embed sustainability within business practice .
+Upon completion , individual receive credential partner receive Lenovo 360 Accreditation progression level Lenovo 360 Circle membership status , applicable .
+85 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Stakeholder engagement Corporate Compliance Summit The Company continues focus engaging various stakeholder may impacted ESG effort whose action affect Companys value .
+On January 15 , 2024 , Company held Corporate Compliance Summit Beijing , inviting guest government , industry , university , research field discus corporate compliance issue , jointly exploring new trend , challenge opportunity , promoting internal compliance management , enhancing risk prevention awareness , promoting high-quality development enterprise create healthy market environment together .
+Testimonials participant Connection honored participate charter member Lenovo 360 Circle initiative .
+Participating community tremendous learning experience served tipping point Connection invest creation policy develop executive sponsored initiative focused Sustainability Corporate Responsibility .
+Brian Hicks , Senior Vice President Product Management Operations Connection Tackling complex social environmental challenge team sport .
+The Lenovo 360 Circle systemic approach visionary ambitious , yet complex journey learn .
+Arnaud Mourot , VP Global Corporate Alliances Changemaker Companies Ashoka Embracing tomorrow Mapping year ahead Lenovo 360 Circle As Company embarks journey forward , Lenovo 360 Circle commits Actively seek new member share vision value , Prioritize cultivate strategic partnership amplify mission magnify impact , Quantifying impact enhancing methodology tool .
+86 Lenovo Group Limited 202324 Environmental , Social Governance Report 87 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix 6.0 Global supply chainSupply chain ESG practice Supplier diversity88 101 88 Lenovo Group Limited 202324 Environmental , Social Governance Report6.0 Global supply chain Supply chain ESG practice As global business offering variety product service 180 market around world , Company manages diverse dynamic supply chain .
+The Companys supply base comprised following category internal manufacturing center , production procurement , original design manufacturer ( ODM ) , general procurement .
+Production procurement includes supplier provide material component become part Companys product .
+ODMs include manufacturing partner manufacture product behalf Company .
+General procurement includes supplier provide material product support Companys operation become part product .
+The Companys supply base comprised multiple tier lower tier supplier provide material part higher tier eventually Tier 1 supplier , supplier Company direct contractual relationship .
+The disclosure Section 6.0 apply Companys production procurement supplier base unless noted otherwise .
+The majority Companys spend production procurement supplier often ESG impact risk .
+Production procurement supplier may pose social risk due reliance significant labor force , often drawing extensive pool lower-skilled worker may vulnerable exploitation .
+Production procurement supplier typically contribute environmental impact , encompassing factor energy , water , material required production .
+The distribution supplier restricted production procurement supplier , given notable ESG risk profile .
+Distribution supplier The Company recognizes many benefit utilizing local supplier , including reduced logistics cost , potential decrease GHG emission , opportunity support local economy , preservation community relationship .
+The Company considers local supplier operate country significant location operation .
+In FY 202324 , significant location operation included manufacturing location China , US , Mexico , Brazil , Hungary , Japan , India .
+The Company estimate 80 percent production supply spend China local supplier .
+In manufacturing country region , Company estimate 20 percent spend local supplier .
+The chart1 show geographic distribution Companys 533 production procurement supplier end 2023 .
+The Company identified production procurement supplier critical supplier identified supplier included chart 2 39 123 237 122RegionEurope North America10 India Asia PaciﬁcChinese mainlandLatin America 1 The allocation chart based registered legal entity headquarters supplier .
+No significant change data calculation methodology compared previous year .
+ESG supply chain The Company committed sound ESG management across end-to-end supply chain process .
+It ESG-specific system place , supported contractual requirement help ensure supplier meet exceed applicable labor , environmental , health safety , ethic standard .
+The practice disclosed Section 6.0 align Companys ESG-related internal corporate policy including Companys environmental commitment codified Environmental Affairs Policy , Climate Energy Policy , Water Resiliency Policy , Companys human right commitment codified Human Rights Policy explained Anti-Slavery Human Trafficking Statement .
+Commitments apply supply chain extended supplier Supplier Code Conduct .
+The Company considers supply chain vital part operation view effective supply chain management important contributor success .
+Given , Company implemented robust set control program manage overall procurement process .
+89 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Additionally , Company recognizes ESG risk impact exist among supplier may differ ESG impact risk associated Companys operation .
+The Company implemented various practice identify environmental social risk along supply chain continue monitor effort surveying new supplier , performing ongoing supplier audit assessment , integrating several ESG-specific control practice Master Procurement Process .
+The Companys risk identification , practice , implementation monitoring detailed throughout section .
+Master procurement process The Companys Master Procurement Process designed oversee purchase commitment production material good service support worldwide operation .
+With mission deliver best pricing , quality , supply , technology , service sustainable manner , model provides controlled procurement approach applied across organization commodity , including following element production procurement general procurement Delegation authority The Companys Code Conduct includes requirement formal delegation support accountability responsible procurement practice .
+The Authority Make Lenovo Commitments section outline requirement delegation defined authority commitment contract term condition .
+Most importantly , explicitly emphasizes making business commitment outside process permitted .
+Supplier selection Implementing controlled approach awarding Companys business supplier critical meet procurement objective establish trusted base supplier .
+Therefore , even perception favoritism bias unacceptable .
+To ensure business award conducted ethically fairly , Company defined approved sourcing method ensure following Suppliers fair opportunity compete Companys business Buyers conduct ethical evaluation carefully understood fact supplier price , term , condition The capable supplier selected based best overall acquisition value Business award reviewed approved proper delegation authority New supplier validation New supplier assessed numerous capability including operational aspect , financial stability , product information security , ESG performance .
+This assessment facilitated supplier onboarding tool .
+More specifically , new production procurement supplier assessed sustainability policy , code conduct , ISO certification , ESG standard , environmental impact aspect , control prevent forced labor , public reporting .
+Of particular concern supplier may listed restricted denied party identified government andor international agency .
+The Companys policy formal practice circumstance shall Companys personnel purchase , sell , ship product contrary applicable export law individual firm appearing relevant government list party denied export import privilege .
+During FY 202324 , 169 production procurement supplier assessed using process .
+Contract management Supplier relationship best managed clear stipulation responsibility , deliverable , relevant term condition .
+The Companys supplier contract incorporate legal operational agreement address various type engagement .
+Additionally , supplier must comply Companys Supplier Code Conduct , required comply latest version Responsible Business Alliances ( RBA ) Code Conduct well .
+90 Lenovo Group Limited 202324 Environmental , Social Governance ReportEducation moduleTraining sessionscourses ESG Overall ESG Overall live session Master Supplier ESG Scorecard SPE Penalty Credits online course Master Supplier ESG Scorecard Indicators Introduction online course ESG Focus RBA Compliance live session Protection Against Forced Labor online course EcoVadis Program live session Source Right live session Responsible Sourcing Raw Materials live session Environmental Impact live session Supplier Code Conduct live session Performance monitoring assessment Support RBA program Validated Audit Process ( VAP ) audit As member Responsible Business Alliance , Company requires supplier adhere RBA Code Conduct .
+The Company us RBA VAP key mechanism risk identification sustainable performance assessment .
+There multiple code element requirement Supplier Code Conduct relating environmental , labor , human right matter .
+Instead asking supplier sign separate Supplier Code Conduct contract one one , compliance comprehensive Supplier Code Conduct executed via Companys standard purchase agreement standard purchase order .
+To ensure target agreement include clause Supplier Code Conduct , continuous monitoring place , including accessibility check related link .
+The Companys Supplier Code Conduct RBA Code Conduct strictly prohibit bribery corruption .
+The RBA audit protocol also includes consideration anti-bribery anti-corruption .
+Supplier performance evaluation Supplier performance evaluation provide timely feedback supplier improve performance , move business volume best supplier , reduce eliminate business poor performing supplier .
+Performance management includes key criterion cost , quality , supply , technology , service ESG deemed appropriate .
+In addition , Company implemented practice used promote environmentally preferable product service selecting supplier including validating new supplier evaluating supplier based ESG consideration .
+Ongoing monitoring supplier management effort include audit supplier relevant ESG performance third party ESG rating .
+The master procurement process continues reinforce ESG criterion supplier selection .
+Internal training To ensure delegated authority informed ESG best practice , Company conduct comprehensive communication education activity throughout year global supply chain team .
+In FY 202324 , Company enhanced global supply chain ESG education program holding additional live training session multiple ESG area help procurement team build knowledge skill .
+Offered Chinese English , overall attendance training session reached 2,009 .
+In addition , Company provides compulsory ESG course required 100 percent completion rate production procurement team .
+Procurement team also surveyed understanding ESG improvement monitored annually .
+91 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix The Corrective Action Plan ( CAP ) key process continuous improvement , allowing company verify supplier taken concrete step remedy issue .
+In event supplier non-conformance ESG requirement , including identified RBA audit , several action may take place , include Immediate discontinuation business serious violation Tracking remediation corrective action implementation whenever possible Penalization supplier quarterly supplier report card score sustainability multiplier Senior procurement management engagement supplier Executive Company management engagement supplier The table provides overview Companys supplier annual RBA audit performance .
+Regardless self-assessment risk level , Company expects production procurement supplier conduct on-site audit .
+In FY 202324 , approximately 95 percent supplier spend conducted RBA VAP audit equivalent independent , third-party audit ( non-VAP audit ) RBA-approved auditor .
+RBA audit ( including VAP non-VAP audit ) conducted least every two year assess social environmental responsibility performance , involving systematic examination policy , procedure , documentation , element supplier risk management program .
+During audit , RBA certified auditor stay two five day supplier premise review employee contract ( direct external agency ) , employee age requirement , timesheets , pay slip , environmental control , document .
+The auditor also conduct individual group interview random selection employee agency contractor regarding right facility , including freedom association collective bargaining among topic .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Historical | average | scores2 | Suppliers | Labor | scoreHealth | safety | scoreEnvironmental | score | Ethics | scoreManagement | score | Total | scoreAverage | priority | findings3Average | major | findings3 | 2020 | 157 | 173 | 189 | 199 | 190 | 155 | 0.3 | 5.4 | 2021 | 159 | 182 | 193 | 198 | 195 | 164 | 0.1 | 4.7 | 2022 | 160 | 182 | 190 | 199 | 196 | 164 | 0.2 | 4.4 | 2023 | 165 | 182 | 197 | 200 | 195 | 169 | 0.1 | 4.3 | ODM | Partners | 2020 | 166 | 188 | 196 | 200 | 197 | 172 | 0.2 | 3.3 | 2021 | 167 | 182 | 195 | 195 | 195 | 170 | 0.0 | 4.0 | 2022 | 165 | 191 | 187 | 198 | 194 | 172 | 0.0 | 3.8 | 2023 | 171 | 193 | 196 | 199 | 194 | 178 | 0.0 | 3.2 | 2 | Scores | based | calendar | year | . |
+
+3 The average number finding calculated based total number finding total number report per calendar year .
+92 Lenovo Group Limited 202324 Environmental , Social Governance ReportResponding RBA audit labor-related result In FY 202324 , violation reported related forced labor child labor Companys supplier completed RBA VAP audit , 56 supplier major labor finding identified audit .
+The common supplier audit finding related industry-wide problem excessive working hour insufficient time employee .
+To address , Company requires outsourced manufacturer report employee working hour time performance monthly via online tool take action resolve issue identified .
+Agreements improvement reached supplier , result , relationship terminated due aforementioned labor finding .
+The Company follows applicable policy complies relevant law regulation relating working hour rest period .
+Support RBA VAP Factory Choice ( FoC ) Recognition program The Company periodically review raise expectation supplier ESG performance .
+The Company started effort require production procurement supplier commit achieving RBA VAP Recognition Factory Choice ( FoC ) designation demonstrate leadership ESG since FY 202021 .
+This requires significantly higher VAP audit score Priority finding closed , site personnel formally trained RBA VAP process , proof functional grievance system .
+See Select supplier ESG performance indicator result percentage supplier spend achieved RBA VAP FoC recognition .
+It Companys goal 25 % supplier spending achieve FoC recognition FY 202627 .
+EcoVadis In FY 202324 , Company continued expand scope ESG assessment key Tier 1 supplier strategic Tier N general procurement supplier EcoVadis platform .
+The EcoVadis platform aim provide ESG rating large base supplier , including production procurement , general procurement , strategic Tier N key supplier .
+The Company implemented EcoVadis IQ tool screen supplier overall ESG risk , based inherent sustainability risk procurement information .
+In FY 202324 , 2,000 production general procurement supplier processed EcoVadis IQ tool , 120 supplier supplier invited conduct EcoVadis ESG assessment .
+The Company increased supplier evaluation effort compared previous reporting period involving general procurement supplier assessment addition production procurement supplier .
+The Company continues ensure strategically important supplier participate EcoVadis program achieve least 45 100 point comparable audit result .
+Suppliers scoring less 45 must implement CAP CAP item expected closed within 90 day .
+After implementation CAP FY 202324 , average EcoVadis score supplier 45 increased 4.7 point .
+The Company also hold semi-annual webinars supplier engaged Companys EcoVadis program facilitate better understanding assessment process improvement area prioritize .
+The 360 Watch feature EcoVadis platform another monitoring measure taken minimize risk child forced labor , environmental , social governance risk .
+Negative medium coverage area related supplier highlighted Companys management , requiring supplier respond within one week develop CAP .
+The 360 Watch , addition indicator , enables Company monitor score supplier various ESG focus area , helping continually improve supply base .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 93 | Lenovo | Group | Limited | 202324 | Environmental | , | Social | Governance | ReportExecutive | letter | About | report | Environmental | Social | Governance | Global | supply | chain | Consolidated | metric | EMS | performance | , | objective | target | Long-term | KPI | progress | Appendix | 2023 | Responsible | sourcing | survey | result | percentage | compliant | SORs | mineral | Type | SORTotal | number | SORsCompliant | SORsPercentage | compliant | SORs | Tantalum | 36 | 36 | 100 | % | Tin | 70 | 70 | 100 | % | Tungsten | 33 | 33 | 100 | % | Gold | 108 | 108 | 100 | % | Total | 247 | 247 | 100 | % | The | Company | also | strives | mitigate | risk | smelter | outreach | . |
+
+By working closely global stakeholder organization RMI China Smelter Engagement Team ( SET ) , Company actively encouraging SORs participate RMAP .
+For information , please visit Companys Responsible Sourcing webpage .
+4 Compliant SORs include conformant active smelter refiner defined RMI .
+Visit RMIs website detailed definition .
+Joint audit Companys PC Smart Devices ( PCSD ) Quality Team To drive opportunity improvement , Global Supply Chain Team collaborates Companys PCSD Quality Team conduct on-site audit supplier facility .
+The PCSD Quality Team lead audit using questionnaire checklist based developed GSC ESG Team accordance RBA Code requirement , focusing labor , health , safety .
+In FY 202324 , 69 PCSD Quality Engineers trained RBA requirement Companys GSC ESG Team .
+In FY 202324 , 85 supplier audited .
+This collaboration PCSD Quality Team enables Company support additional method monitor supplier compliance RBA .
+Responsible sourcing material The Company expects supply chain procure raw material responsibly particularly avoid source directly indirectly fund conflict .
+This may include conflict mineral tin , tantalum , tungsten gold ( 3TG ) , cobalt Democratic Republic Congo ( DRC ) surrounding country .
+As member RBA Responsible Minerals Initiative ( RMI ) , Company committed ensuring mineral used manufacture product contribute human right abuse environmental degradation , requires production procurement ODM supplier .
+The Company operating Responsible Sourcing Raw Materials ( RSRM ) program decade , aligning Organization Economic Cooperation Development ( OECD ) Due Diligence Guidelines Responsible Sourcing Materials Conflict-Affected High-Risk Areas .
+The Company complies intention section 1502 Dodd-Frank Wall Street Reform Consumer Protection Act track , monitor report annually conflict mineral supply chain .
+Each year , Company conduct RSRM Survey order identify smelter refiner ( SORs ) process mineral contained product supplied Company .
+Due diligence 3TG cobalt sourcing conducted using RMI program Conflict Minerals Reporting Template ( CMRT ) Extended Minerals Reporting Template ( EMRT ) .
+During 2023 survey cycle , Company continued proactively encourage upstream entity report extended mineral beyond 3TG cobalt .
+By comparing SOR list facility conform RMIs Responsible Minerals Assurance Process ( RMAP ) equivalent , Company identifies potential risk conduct supplier outreach remove non-compliant smelter .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| The | annual | survey | process | 2023 | covered | 95 | percent | overall | procurement | spend | Company | survey | received | 100 | percent | response | rate | . |
+
+Among result , 100 percent surveyed supplier conflict-free supply chain , 77 percent formal RMI member .
+Among 247 3TG SORs operation , 100 percent compliant4 .
+Select supplier ESG performance indicator result detail .
+94 Lenovo Group Limited 202324 Environmental , Social Governance ReportCompanys supplier quarter , requesting report latest sustainability initiative .
+Upon receiving completed questionnaire , platform automatically calculates score based preset scoring criterion , reflecting supplier ESG performance quarterly .
+This innovative approach streamlines process monitoring evaluating Companys supplier commitment ESG standard also promotes continuous improvement providing timely feedback .
+ESG applied overall penaltycredit multiplier across approximately 200 supplier performance evaluation report card issued quarter .
+Supplier ESG performance evaluation ( ESG scorecard ) The following Companys practice supplier ESG performance evaluation ESG performance Companys 90 % supplier procurement spend quantified assessed 30 key indicator across RBA , environmental impact , responsible sourcing raw material , sustainability reporting , EcoVadis ESG factor .
+Leveraging advanced ESG digital platform , Company increased visibility ESG performance across 98 % production procurement .
+This platform designed automatically send ESG questionnaire Select supplier ESG performance indicator result ( procurement spend ) RBA compliance FY 202122 FY 202223 FY 202324 VAP audit 92 % 93 % 94 % RBA VAP recognition 87 % 83 % 90 % Factory Choice recognition 6 % 17 % 22 % Responsible sourcing raw mineral FY 202122 FY 202223 FY 202324 Conformant active 3TG smelter refiner 96 % 100 % 100 % Suppliers public conflict mineral policy 94 % 96 % 96 % Suppliers public conflict mineral report 77 % 76 % 84 % Environmental impact FY 202122 FY 202223 FY 202324 Suppliers public GHG reduction goal 92 % 93 % 95 % Suppliers third-party verification GHG emission data 94 % 89 % 91 % Suppliers withcommitted setting Science Based Target 28 % 45 % 42 % Suppliers public water reduction goal 92 % 84 % 85 % Suppliers public waste reduction goal 83 % 76 % 77 % 95 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Climate change The Company collect climate change related information Scope 1 , Scope 2 , Scope 3 emission , emission reduction goal , renewable energy usage target , implementation ISO 500012018 Energy Management System .
+The Company used emission data reported supplier inform Science Based Target ( SBT ) Scope 3 emission purchased good service category .
+The Companys target category reduce Scope 3 emission purchased good service 66.5 percent per million US gross profit FY 202930 , FY 201819 baseline .
+Based FY 202324 data , Company track reducing GHG emission purchased good service .
+To achieve supply chain emission reduction target , FY 202223 , Company kicked Supplier Emission Reduction program key supplier push action around climate change supply chain .
+The program aim work supplier along climate action journey .
+For supplier started journey , expected participate CDP disclosure report emission data .
+For supplier mature , Company work supplier set emission reduction target , procure renewable energy , implement energy efficiency improvement project .
+Also , Company encourages supplier engage supply chain share experience knowledge industry .
+In FY 202324 , company identified key strategic supplier procurement category , conducted greenhouse gas management maturity assessment , review progress supplier quarterly basis align vision action joint climate journey .
+The Companys recent supplier engagement effort climate change covered top 98 percent procurement spend .
+This effort identified 76 percent 94 percent supplier spend public renewable energy goal , tracking reporting renewable energy generation purchase , respectively .
+The Company also engaging incentivizing supplier also commit Science Based Targets initiative ( SBTi ) .
+During reporting period , 42 percent supplier spend committed set set SBTs .
+It Companys goal achieve 95 percent supplier procurement spend implement SBTs .
+See Select supplier ESG performance indicator result additional percentage supplier spend related energy GHG emission information .
+Recognizing supplier Five supplier received ESG award 2023 Supplier Conference .
+This second year Company awarded supplier based ESG performance .
+The five supplier BOE , Celxpert , Darfon , LGES , Simplo .
+Winners supportive Companys procurement ESG Initiatives leading ESG performance .
+Environmental The Company manages supplier environmental performance requirement Supplier Code Conduct , RBA audit , CDP Supply Chain Program , program support material environmental topic specifically climate change , water , waste .
+The environmental impact management pertains production procurement ODM supplier .
+The Companys corporate-wide environmental standard specification require product designer consider environmentally conscious design practice facilitate encourage recycling minimization resource consumption .
+The Companys priority supplier use environmentally preferable material whenever applicable .
+Compliance standard specification monitored part Product Compliance Review Board Process .
+Environmental impact disclosure supply chain The Company strives promote transparency accountability encouraging supplier disclose environmental impact .
+Annually , Company request key supplier formally report environmental data related climate change , water , waste .
+The Company request supplier report via CDP reporting methodology RBA survey .
+The Company started introduce CDP supply chain program supply chain carbon management since FY 202223 , help Tier 1 supplier assess climate change performance .
+96 Lenovo Group Limited 202324 Environmental , Social Governance ReportWaste The waste-related information collected supplier includes data annual hazardous nonhazardous waste volume .
+Waste prevention preferable option waste management hierarchy , Company encourages supplier set public waste reduction target .
+See Select supplier ESG performance indicator result percentage supplier spend quantified waste reduction goal .
+Social Forced labor The Company committed eradicating forced labor form including slavery human trafficking every stage business operation .
+It hold firm position zero tolerance forced labor documented instance met immediate action , including discontinuing business relationship supplier overlook practice .
+To better detect mitigate forced labor risk , Company adopts implement preventive measure .
+In FY 202324 , action include Started engage labor agent contractor submit RBA indirect SAQ5 Implemented third-party ESG risk assessment tool ( EcoVadis ) screen supplier throughout supply chain Provided online course buyer forced labor potential red flag related forced labor Provided webinar supplier topic Labor Compliance Management Invested third-party supply chain risk management platform ( Everstream Analytics ) Conducted verification RBA audit participated regular RBA Responsible Labor Initiative VAP workgroup engagement 5 RBA indirect SAQ service provider directly involved manufacturing end product .
+In FY 202324 , violation reported related forced labor Companys supplier completed RBA VAP audit .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | 2023 | , | Company | signed | 2023-2024 | CDP | Science-Based | Targets | ( | SBT | ) | Campaign | . |
+
+The CDP SBT Campaign offer CDP Capital Markets signatory CDP Supply Chain member , Company member , opportunity play key role accelerating adoption science-based climate target private sector , collaboratively engaging company matter .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| For | 2023 | campaign | , | CDP | sent | letter | behalf | Capital | Markets | signatory | Supply | Chain | member | , | pre-selected | sample | 2,100 | high-impact | company | , | asking | commit | set | 1.5º | C-aligned | Science-Based | Targets | . |
+
+In 2023 , Company co-signed Zero Carbon Supply Chain Initiative launched IPE help accelerate pace supply chain decarbonization meeting global climate target .
+Water The Company survey key supplier water-related data including performance indicator annual water withdrawal , water discharge , water recycle reuse volume .
+For recent supplier data collection period , Companys coverage engagement 98 percent procurement spend .
+Since one straightforward indicator impact ( especially water-stressed area ) water withdrawal , Company encouraging supplier set water reduction target since 2014 .
+See Select supplier ESG performance indicator result percentage supplier spend quantified water reduction goal .
+97 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Capability building Many Companys supplier large national international supplier .
+They manage corporate ESG program engaging directly Companys program .
+In addition training program , Company offer provides following supplier The Company enhanced ESG digital platform supplier training module .
+This module offer comprehensive suite ESG training course , ranging detailed explanation ESG project requirement session latest development best practice ESG related issue .
+The Company provides semi-annual communication topic including RBA , Environmental Impact , Responsible Sourcing Raw Materials , Forced Labor , key ISO certification , ESG Reporting , Supplier Code Conduct expectation .
+The Company created education material supplier learn ESG requirement providing education session 900 supplier attendee 2023 Lenovo Standards Certification Supplier Conference .
+In FY 202324 , Company GSC ESG team successfully held 2023 Lenovo Supplier ESG Day online event .
+The event introduced Companys supply chain ESG Programs new initiative , also shared best practice supply chain carbon reduction climate action , attendance 671 .
+In FY 202324 , 3 webinars supplier held ( including one CDP , one EcoVadis ) , covering topic including Company Supplier ESG Requirements Suppliers , CDP Disclosure Training , EcoVadis CSR Rating , EcoVadis Post Assessment , Responsible Sourcing Raw Materials .
+Total attendee number 633 .
+In FY 202324 , Companys online learning module supplier went live .
+By end FY 202324 , Company released 17 online ESG course supplier learn , 787 supplier representative learn course training platform .
+Child labor The Company support universal human right including identified United Nations Declaration Human Rights International Labor Organization ( ILO ) Declaration Fundamental Principles Rights Work .
+The Company commits extending right employee others directly indirectly employed supply chain .
+Child labor used stage business operation .
+The term child refers person age 15 , age completing compulsory education , minimum age employment country , whichever highest .
+To support human right noted , Company implemented multiple guideline action including , limited Human Rights Policy Employee Code Conduct Supplier Code Conduct Source Right 7.0 Due diligence audit across supply chain identify risk child labor violation Mandatory education certification live session education labor topic buyer Webinar supplier topic Labor Compliance Management In FY 202324 , violation reported related child labor Companys supplier completed RBA VAP audit .
+Living wage Through RBA audit corrective action process , Company drive supplier adhere applicable wage benefit law regulation .
+The Company recognizes issue living wage Companys supplier growing topic concern .
+Policies , program , baseline tool used drive improvement area .
+The Company stage preliminary discussion participating RBA Living Wage work group exploring development implementation guideline support worker throughout supply chain .
+98 Lenovo Group Limited 202324 Environmental , Social Governance ReportSupply chain resilience In FY 202122 , Company established GSC Risk Council support risk management throughout supply chain .
+The GSC Risk Councils mission increase Companys growth implementing risk control industry-proven process enable supply chain quickly adapt demand new technology reduce risk associated transition .
+Agility resilience critical component successful GSC strategy withstand short lifecycle information communication technology product changing consumer demand .
+The GSC Risk Councils main objective include oversight Risk identification Risk assessment Risk control Risk review follow-up Scenario planning The GSC Risk Council established monthly collaborative platform engage business unit function , leverage insight identify synergy Company address risk management decision .
+The convergence business function leader provides opportunity evaluate impact function develop consolidated business continuity plan clear action .
+Effective risk management strategy critical part driving business performance .
+The Company also recognizes opportunity created transforms risk opportunity support long-term growth .
+The GSC Risk Council recently directed scenario planning exercise included identifying potential risk following category Strategy Financial Catastrophic event Human capital Legal regulatory compliance Operations Sociopolitical After analyzing category , strategy team selected top five risk fiscal year .
+With consideration organization risk appetite business-driven data collected , team selected top five potential risk conducted comprehensive scenario planning risk .
+For scenario , team incorporated stakeholder feedback , identified contributing factor , analyzed short-term long-term impact .
+The information derived planning exercise enabled GSC Risk Council understand type risk may impact Company condition may affect performance , thus contributing development greater strategy resilience flexibility throughout supply chain .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 99 | Lenovo | Group | Limited | 202324 | Environmental | , | Social | Governance | ReportExecutive | letter | About | report | Environmental | Social | Governance | Global | supply | chain | Consolidated | metric | EMS | performance | , | objective | target | Long-term | KPI | progress | Appendix | Supply | chain | recognition | Lenovo | Global | Supply | Chain | Ranked | 8 | Gartner | Supply | Chain | Top | 25 | 2023 | The | Company | named | Gartner | Global | Supply | Chain | Top | 25 | listing | 2023 | . |
+
+This highest ever ranking Company , rising one place 2022 rank 8 .
+This annual ranking world leading technology , retail , manufacturing , food beverage , pharmaceutical brand identifies celebrates company leading way supply chain management considered gold standard supply chain excellence .
+The Companys increasing effort address supply chain environmental impact recognized different organization .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 2022 | first | year | Company | participated | CDP | supply | chain | project | , | Companys | supplier | response | rate | CDP | 96 | percent | , | ranking | among | top | 5 | percent | world | . |
+| In | 2023 | , | Companys | CDP | supplier | response | rate | 97 | percent | , | ranking | among | top | 5 | percent | world | , | compared | global | average | 63 | percent | . |
+
+The high response rate reflects high level supplier engagement Company topic supply chain decarbonization .
+In FY 202324 , Company recognized IPE Green Supply Chain Corporate Information Transparency Index ( CITI ) Corporate Climate Action Transparency Index ( CATI ) ranked among Top 10 IT industry .
+Since 2021 , Company using IPEs Blue EcoChain tool track environmental performance supplier .
+100 Lenovo Group Limited 202324 Environmental , Social Governance ReportESG initiative general procurement The Company extended ESG effort beyond production procurement supplier general procurement supplier .
+General procurement , process acquiring good service directly related production product service , play vital role supporting Companys ESG goal .
+General procurement supplier help Company reduce environmental impact , promote fair labor practice diversity , enhance reputation stakeholder relation .
+In FY 202324 , Company made significant progress expanding ESG effort throughout indirect supply chain .
+With goal advance Companys overall ESG performance across operation , ESG identified one key priority area general procurement .
+ESG significant priority Companys broader Supplier Relationship model .
+The Company view ESG critical aspect engages supplier base .
+In FY 202324 , Company established first dedicated staff resource manage ESG activity relates general procurement supplier .
+The division developed 3-year ESG strategic action plan .
+FY 202324 first year plan , aimed build base program concentrate assessing communicating supplier .
+Assessment Conducted preliminary risk assessment 1,151 general procurement supplier , placing 592 priority supplier 10 wave assessment .
+This resulted invitation inclusion 80 supplier EcoVadis platform .
+Captured data pertains supplier ESG effort supplier onboarding .
+The Company implemented new supplier validation process presented ESG question Companys indirect supplier base .
+CDP In 2023 , Company achieved CDP score A Supplier Engagement Rating Climate Change also listed Supplier Engagement Rating Leader Board .
+Recognitions ESG Digitalization The Company dedicated leveraging digital technology elevate capability ESG management supply chain .
+The Global Supply Chain ESG Digital Platform aim integrate end-to-end supply chain data create transparency organization product-level environmental social impact , form closed-loop ESG KPI management , monitor risk , enable seamless collaboration upstream downstream partner .
+In FY 202324 , Companys effort ESG digitalization recognized organization including International Data Corporation ( IDC ) , China Federation Logistics Purchasing , Chinas Alliance Industrial Internet .
+101 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix The Company strives enhance ESG performance deliver value stakeholder , including general procurement supplier .
+By collaborating supplier , Company aim realize ESG aspiration leading way responsibility sustainability sector beyond fostering long-term , environmentally socially responsible relationship supplier .
+Supplier diversity The Companys Supplier Diversity Program committed seeking developing diverse business contributing economic success community serf .
+It recognizes supplier diversity creates win-win influencing inclusion diverse business within supply base impact brand reputation management improves revenue performance sale .
+In FY 202324 , Company spent 616.8M among nearly 1,500 small andor diverse supplier US .
+This accounted 22 percent total expenditure US .
+This includes spending 193M woman-owned business 203M ethnically diverse business .
+The Company proud progress made past couple year .
+However , resting past result striving provide greater level support small diverse business .
+The Company continues partner several NGOs National Minority Supplier Development Council ( NMSDC ) , DisabilityIN , Womens Business Enterprise Networking Council ( WBENC ) .
+The Company also increased support minority business Evolve Small initiative .
+Through ongoing initiative , Company helped small business recover impact COVID-19 providing 1.2M financial aid , technology , marketing , mentorship support 1,900 company across US Canada throughout year .
+As result combined effort , National Minority Supplier Development Council recognized Lenovo electing North America Chief Marketing Officer Gerald Youngblood Board Directors .
+As Company move forward , success lie within workforce diversity also inclusion diverse supplier provide competitive advantage , increased innovation , revenue support brand reputation .
+For information , please visit Companys Supplier Diversity webpage .
+Created special recognition program , Supplier Certification Initiative ( SCI ) , voluntary program reward certifies supplier demonstrate ESG commitment cooperation , strategic alignment Companys supply chain priority .
+Suppliers participate SCI required complete self-assessment questionnaire provide supporting documentation receive certification badge .
+This recognition allows general procurement supplier differentiate competitor provides supplier access exclusive benefit .
+The Company evaluated general procurement supplier combination EcoVadis rating data captured supplier validation SCI .
+The holistic approach assesses ESG performance general procurement supplier , taking account quantitative qualitative data .
+The EcoVadis rating provides objective standardized measure supplier ESG practice , data captured supplier validation , SCI provides additional insight supplier ESG policy , initiative , reporting .
+The Company us information identify area improvement , recognize best performer , drive continuous ESG improvement across indirect supply chain .
+Communication The Company increased communication engagement general procurement supplier internal stakeholder ESG matter .
+The Company coordinated training procurement staff identified 27 champion act ESG ambassador within respective category region .
+The Company also shared communication 480 key supplier outlining Companys ESG ambition supplier expectation .
+Two educational webinars called Sustainable Supply Chain Responsible Sourcing Sustainable Supply Chain Supplier Diversity also developed .
+These training used educate business partner resellers regarding Companys effort engage supplier ESG topic commit similar effort .
+Both webinars continue used educate additional internal external audience .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 102 | Lenovo | Group | Limited | 202324 | Environmental | , | Social | Governance | Report | 7.0 | Consolidated | metric | FY | 202324 | consolidated | metric | 104 | 103 | Lenovo | Group | Limited | 202324 | Environmental | , | Social | Governance | ReportExecutive | letter | About | report | Environmental | Social | Governance | Global | supply | chain | Consolidated | metric | EMS | performance | , | objective | target | Long-term | KPI | progress | Appendix | 104 | Lenovo | Group | Limited | 202324 | Environmental | , | Social | Governance | ReportFY | 202324 | Consolidated | metric | Revenue | Revenue | Fiscal | Year | ( | FY | ) | 201920 | 202021 | 202122 | 202223 | 202324 | Total | ( | million | USD | ) | 50,716 | 60,742 | 71,618 | 61,947 | 56,864 | By | geography | ( | % | ) | Americas132 | % | 31 | % | 32 | % | 34 | % | 34 | % | Asia | Pacific | ( | excluding | China | ) | 22 | % | 19 | % | 16 | % | 17 | % | 18 | % | China | 21 | % | 24 | % | 26 | % | 24 | % | 22 | % | EMEA225 | % | 26 | % | 26 | % | 25 | % | 26 | % | 1 | Americas | North | America | , | Latin | America | 2 | EMEA | Europe | , | Middle | East | , | Africa | Employee | representation | Employee | representation | FY | 201920 | 202021 | 202122 | 202223 | 202324 | Total | number | employee | 63,000 | 71,500 | 75,000 | 77,000 | 69,5001 | By | region2,3 | Americas | 18 | % | 14 | % | 14 | % | 14 | % | 15 | % | Asia | Pacific | ( | excluding | China | ) | 12 | % | 10 | % | 11 | % | 15 | % | 15 | % | China | 62 | % | 69 | % | 67 | % | 62 | % | 60 | % | EMEA | 8 | % | 7 | % | 8 | % | 9 | % | 10 | % | Employees | gender2,4 | Male | 64 | % | 64 | % | 63 | % | 63 | % | 63 | % | Female | 36 | % | 36 | % | 37 | % | 37 | % | 37 | % | Employees | technical | role | gender2,4 | Male | 72 | % | 72 | % | 71 | % | 71 | % | 71 | % | Female | 28 | % | 28 | % | 29 | % | 29 | % | 29 | % | Executives | gender2,4 | Male | 82 | % | 79 | % | 80 | % | 79 | % | 78 | % | Female | 18 | % | 21 | % | 20 | % | 21 | % | 22 | % | Employees | employment | type3 | Regular | employee | na | 73 | % | 80 | % | 89 | % | 93 | % | Long-term | plant | contractor | na | 27 | % | 20 | % | 11 | % | 7 | % | By | age | group2,4 | Under | 30 | year | age | na | 15 | % | 15 | % | 15 | % | 14 | % | 30-50 | year | age | na | 73 | % | 73 | % | 72 | % | 72 | % | Over | 50 | year | age | na | 12 | % | 12 | % | 13 | % | 14 | % | 1 | On | March | 31 | , | 2024 | , | Group | headcount | approximately | 69,500 | worldwide | . |
+
+2 Includes Lenovo regular employee .
+Data excludes Consultants vendor working contract agency third-party performing service consulting site brief time hence excluded scope .
+Contractors usually perform non-critical , non-core job employment decision , including pay benefit , made third-party employer hence excluded scope .
+Supplemental student intern hired short window time hence excluded scope .
+3 Employment type geographical data aligned FY 202324 Financial Annual Report .
+Americas represent North America Latin America .
+EMEA represents Europe , Middle East , Africa .
+4 Gender age category include undeclared category representing less 1 % population.7.0 Consolidated metric 105 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Employee representation US1 FY 201920 202021 202122 202223 202324 US employee raceethnic background ( % ) Asian 17 % 17 % 17 % 17 % 17 % Black African American 8 % 8 % 9 % 9 % 9 % Hispanic Latinx 6 % 6 % 6 % 7 % 7 % White 66 % 66 % 65 % 63 % 63 % Remaining under-represented groups22 % 2 % 2 % 3 % 3 % No data 1 % 1 % 1 % 1 % 1 % US executive raceethnic background ( % ) Asian 18 % 18 % 18 % 20 % 21 % Black African American 3 % 2 % 2 % 2 % 2 % Hispanic Latinx 6 % 7 % 8 % 7 % 5 % White 72 % 72 % 72 % 70 % 68 % Remaining under-represented groups21 % 1 % 1 % 1 % 1 % No data 0 % 0 % 0 % 1 % 2 % US employee technical role raceethnic background ( % ) Asian 27 % 26 % 26 % 27 % 26 % Black African American 6 % 7 % 8 % 8 % 8 % Hispanic Latinx 5 % 5 % 5 % 5 % 6 % White 60 % 60 % 58 % 56 % 55 % Remaining under-represented groups22 % 2 % 2 % 2 % 2 % No data 1 % 1 % 2 % 2 % 2 % 1 Employee representation data includes Lenovo regular employee .
+Data excludes Consultants vendor working contract agency third-party performing service consulting site brief time hence excluded scope .
+Contractors usually perform non-critical , non-core job employment decision , including pay benefit , made third-party employer hence excluded scope .
+Supplemental student intern hired short window time hence excluded scope .
+Totals may differ exact sum individual number due rounding .
+2 Remaining under-represented group Alaskan Native , Hawaiian , Pacific Islander , Two More Races .
+106 Lenovo Group Limited 202324 Environmental , Social Governance ReportEmployee turnover Employee turnover1,2 FY 201920 202021 202122 202223 202324 Total turnover rate employee 8 % 8 % 11 % 7 % 5 % By region3 Americas na 6 % 12 % 8 % 5 % Asia Pacific ( excluding China ) na 7 % 11 % 10 % 8 % China na 10 % 12 % 6 % 4 % EMEA na 4 % 7 % 7 % 5 % By gender4 Male na 8 % 11 % 7 % 5 % Female na 8 % 11 % 7 % 6 % By age group4 Under 30 year age na 16 % 21 % 11 % 9 % 30-50 year age na 7 % 10 % 7 % 4 % Over 50 year age na 3 % 5 % 5 % 4 % 1 Turnover rate data cover voluntary departure Lenovo regular employee full FY 202324 .
+Involuntary turnover planned exit Lenovo regular employee alignment Company strategy decision .
+Hence , strategic standard practice , excluded reporting .
+2 Employee turnover data includes Lenovo regular employee .
+Data excludes Consultants vendor working contract agency third-party performing service consulting site brief time hence excluded scope .
+Contractors usually perform non-critical , non-core job employment decision , including pay benefit , made third-party employer hence excluded scope .
+Supplemental student intern hired short window time hence excluded scope .
+3 Geographical data aligned FY 202324 Financial Annual Report .
+Americas represent North America Latin America .
+EMEA represents Europe , Middle East , Africa .
+4 Gender age category include undeclared category representing less 1 % population .
+Employee training Percentage employee trained1,2 FY 201920 202021 202122 202223 202324 Percentage total employee took part training3na na 73 % 80 % 98 % By gender4 Male na na 41 % 37 % 36 % Female na na 58 % 62 % 62 % By employee category Individual contributor contractor na na 75 % 78 % 79 % Middle management na na 23 % 21 % 20 % Senior management executive na na 2 % 1 % 1 % 1 Compared prior year , presentation figure changed enhance transparency ensure compliance calculation methodology remains .
+2 na select metric previous year ( ) due system change enhance Companys training initiative impacting data availability past year ( ) .
+3 Calculated number employee took part training via Companys learning platform GrowLenovo divided total number employee access end fiscal year .
+Training taken employee outside GrowLenovo excluded due data availability .
+4 Gender category includes undeclared category representing less 3 % population .
+107 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Average number training hour per employee1,2 FY 201920 202021 202122 202223 202324 Average number training hour per employee3na na 5 6 9 By gender4 Male na na 7 8 9 Female na na 8 8 10 By employee category Individual contributor contractor na na 7 7 9 Middle management na na 9 8 11 Senior management executive na na 7 5 9 1 Compared prior year , presentation figure changed enhance transparency ensure compliance calculation methodology remains .
+2 na select metric previous year ( ) due system change enhance Companys training initiative impacting data availability past year ( ) .
+3 Calculated total number training hour via Companys learning platform GrowLenovo divided total number employee access end fiscal year .
+Training taken employee outside GrowLenovo excluded due data availability .
+4 Gender category includes undeclared category representing less 3 % population .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Occupational | health | safety | ( | OHS | ) | Occupational | health | safety | ( | OHS | ) | FY | 201920 | 202021 | 202122 | 202223 | 202324 | Recordable | rate | 0.03 | 0.04 | 0.07 | 0.08 | 0.04 | Number | employee | fatality | 0 | 0 | 0 | 0 | 0 | Number | contractor | fatality | 0 | 0 | 0 | 1 | 0 | Fatal | work | injury | rate10 | 0 | 0 | 0.002 | 0 | Lost | day | 82 | 143 | 384 | 324 | 174 | Lost-time | rate | 0.03 | 0.03 | 0.05 | 0.05 | 0.03 | Number | ISO | 45001 | 2018 | registered | facility | 11 | 11 | 11 | 15 | 12 | Manufacturing | employee | health | safety | training | Average | number | hour | training | per | manufacturing | employee35 | 52 | 35 | 45 | 49 | 1 | Calculated | number | fatality | result | work-related | injurynumber | hour | worked | multiplied | 200,000 | 108 | Lenovo | Group | Limited | 202324 | Environmental | , | Social | Governance | ReportPhilanthropy | community | engagement | Corporate | cash | product | donations1 | FY | 201920 | 202021 | 202122 | 202223 | 202324 | Lenovo | Foundation | Donor | Advised | Funds | 482,887 | 545,552 | 872,068 | 1,993,187 | 743,751 | China25,440,440 | 2,778,093 | 9,801,972 | 11,606,068 | 6,472,999 | North | America | 4,788,665 | 4,520,545 | 4,996,881 | 5,719,667 | 5,459,863 | Latin | America32,507,863 | 2,134,833 | 1,200,680 | 3,371,355 | 1,350,623 | EMEA | 407,535 | 988,612 | 915,180 | 2,320,280 | 921,009 | Asia | Pacific | ( | excluding | China | ) | 4855,386 | 863,638 | 841,510 | 1,516,954 | 998,341 | 1 | The | Companys | response | natural | disaster | tracked | business | geography | level | . |
+
+2 Figures reflect tracking Lenovo Foundation Beijing .
+3 Figures reflect tracking Brazilian tax incentive program .
+4 Figures include Companys commitment India Companies Act .
+Employee volunteering giving FY 201920 202021 202122 202223 202324 Employee volunteering hour ( effort sponsored Lenovo ) North America 9,838 4,161 5,873 13,093 18,537 Rest world 17,046 15,335 77,564 34,961 68,342 Estimated value1 employee volunteer hour 1,156,022 838,307 3,587,791 2,066,322 3,735,797 Employee giving2 Lenovo match global employee donation 1,344,085 1,541,679 2,239,305 1,813,404 1,951,105 1 Calculated based entry level hourly wage 43 per hour .
+2 Represents corporate match Company employee around world ( employee personal contribution ) .
+Contribution impact community FY 201920 202021 202122 202223 202324 Total contribution communities114,482,776 11,831,274 20,867,596 28,340,914 17,897,690 Estimated value2 community impact philanthropy volunteerism16,982,883 14,211,260 24,455,388 30,407,236 21,633,488 1 Represents sum cash contribution , product donation , Companys match employee contribution .
+2 Represents sum estimated value employee volunteerism .
+Love Annual Service Project FY 201920 202021 202122 202223 202324 Participating location 54 52 79 73 66 Number project 86 132 117 126 135 Number employee volunteer 2,855 3,120 3,653 3,747 4,940 Number hour spent direct , hands-on service 13,355 19,267 13,538 16,180 25,236 Number individual directly impacted project 55,942 38,478 42,075 67,520 47,871 109 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Environmental data GHG Emissions Greenhouse Gas ( GHG ) emission ( metric ton CO2 equivalent MT CO2e ) 1 FY 201920 202021 202122 202223 202324 Total GHG emission scope Scope 1 7,766 7,269 6,069 6,303 4,969 Scope 2 ( location-based ) 162,597 177,678 191,778 202,440 196,859 Scope 2 ( market-based ) 23,852 21,519 21,160 19,540 17,997 Scope 1 Scope 2 ( location-based ) 170,363 184,947 197,847 208,742 201,828 Scope 3 22,122,637 23,966,561 17,422,913 18,741,480 15,100,063 Scope 3 upstream category 8,179,637 8,112,061 8,971,913 10,133,480 7,844,595 Scope 3 downstream category 13,943,000 15,854,500 8,451,000 8,608,000 7,255,468 Scope 3 emission category Business Travel 46,900 11,900 20,255 38,846 41,630 Product Transportation2616,416 815,262 737,979 538,156 360,152 Emissions Waste32,110 1,770 1,810 1,808 2,135 Employee Commuting 24,900 39,800 41,043 45,568 56,585 Purchased Goods Services4,57,032,426 6,495,779 7,798,826 8,662,378 6,507,693 Fuel- Energy-Related Activities ( included Scope 1 2 ) 610,385 11,050 12,000 12,924 12,700 Use Sold Products713,669,000 15,551,000 8,270,000 8,451,000 7,131,203 End Life Treatment Sold Products7274,000 303,500 181,000 157,000 124,265 Capital Goods8446,500 736,500 360,000 833,800 863,700 1 Totals may differ exact sum individual figure due rounding .
+2 Product transportation emission include finished good transport , factory customer .
+The calculation based Global Logistics Emission Council ( GLEC ) methodology provided Companys third-party service provider EcoTransIT , EcotransIT tool aligns WTW ( Well-to-wheel ) GHG emission .
+Includes warehouse emission starting FY 202223 .
+3 Emissions waste include nonhazardous waste , hazardous waste wastewater manufacturing , RD location large office .
+No product waste included .
+4 Updated emission factor used calculation Scope 3 Category 1 ( Purchased Goods Services ) emission amount FY 202324 improve accuracy .
+The emission amount previous year remain unchanged given insignificance impact ( less 0.55 % ) reported amount .
+5 Purchased good service include supplier covering 100 % direct global supplier spend .
+Due data availability , emission estimated based procurement spending FY 202223 .
+The US Environmentally-Extended Input-Output ( USEEIO ) supply chain emission factor database US Environmental Protection Agency ( US EPA ) used emission factor different type purchased commodity .
+6 Fuel energy-related activity ( included Scope 1 2 ) include transmission distribution ( TD ) loss Companys worldwide purchased electricity natural gas .
+A World Bank database Energy Star Performance Rating document used determining TD loss rate .
+7 The Company used current Product Attribute Impact Algorithm ( PAIA ) notebook , desktop , monitor , tablet , all-in-one , thin client server tool calculating emission typical notebook , desktop , monitor , tablet , all-in-one , thin client server .
+The calculated result show emission distribution different part also use , packaging , transportation , end-of-life treatment category .
+The emission associated use end-of-life treatment sold product estimated narrow baseline typical notebook , desktop , monitor , tablet , all-in-one , thin client server multiplied soldshipped product volume .
+8 Emissions capital good based purchased capital good given year .
+The 2012 Guidelines Defra GHG Conversion Factors Company Reporting , Annex 13 used emission factor different type capital good adjusted inflation rate exchange rate .
+110 Lenovo Group Limited 202324 Environmental , Social Governance ReportGHG emission FY 201920 202021 202122 202223 202324 GHG emission intensity ( metric ton per US million revenue ) Scope 1 2 ( location-based ) 3.36 3.04 2.76 3.37 3.55 Scope 1 emission market ( MT CO2e ) Brazil 340 202 57 31 23 Chinese Mainland 3,190 3,826 3,719 2,401 1,978 Taiwan , China 0 0 316 Germany 652 731 831 720 650 Hungary 379 132 151 India 84 104 58 44 33 Japan 191 216 226 202 194 Mexico 625 97 80 340 151 United States 2,484 1,931 525 896 697 Rest World1200 162 195 158 776 Scope 2 emission ( location-based ) market ( MT CO2e ) Brazil 1,566 1,321 1,361 1,087 1,525 Chinese Mainland 124,336 147,375 159,278 165,443 159,974 Taiwan , China 2,091 2,231 2,962 4,811 5,537 Germany 1,612 1,249 1,036 961 813 Hungary 1,219 2,080 1,840 India 2,914 2,690 2,954 2,817 3,138 Japan 5,754 5,133 4,794 4,552 4,374 Mexico 5,029 5,543 6,272 8,282 8,044 United States 15,220 8,939 8,489 9,640 8,690 Rest World14,075 3,197 3,412 2,768 2,924 Scope 3 emission Product transportation transportation mode ( MT CO2e ) 2 Air 496,367 744,009 657,882 477,172 312,443 Rail inland waterway 8,232 14,702 5,623 332 261 Roadways 105,999 45,071 67,091 51,426 30,887 Sea 5,817 11,480 7,383 8,516 16,561 1 Brazil , Germany , Hungary , India , Japan , Mexico , United States , Chinese mainland , Taiwan , China represent manufacturing RD site market .
+Rest World represents site managed Companys Real Estate organization ( non-manufacturing ) across world ( small large except one region listed ) .
+2 This metric includes warehouse emission starting FY 202324 .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 111 | Lenovo | Group | Limited | 202324 | Environmental | , | Social | Governance | ReportExecutive | letter | About | report | Environmental | Social | Governance | Global | supply | chain | Consolidated | metric | EMS | performance | , | objective | target | Long-term | KPI | progress | Appendix | Environmental | data | Energy | Energy | FY | 201920 | 202021 | 202122 | 202223 | 202324 | Energy | consumption | ( | MWh | ) | 1 | Total | energy | consumption | 327,798 | 346,683 | 366,885 | 392,825 | 377,338 | Direct | ( | Fuel | combustion | ) | 35,152 | 33,157 | 24,546 | 29,165 | 22,760 | By | Source | ( | Fuel | detail | ) | Stationary | combustion | Gasdiesel | oil | 1,789 | 2,698 | 1,405 | 1,978 | 1,765 | Natural | gas | 32,049 | 29,533 | 21,599 | 20,310 | 17,454 | Liquefied | petroleum | gas | 452 | 404 | 389 | 341 | 272 | Mobile | combustion | On | road | diesel | fuel | 223 | 174 | 442 | 530 | 452 | Gasolinepetrol | 309 | 277 | 415 | 326 | 270 | Liquefied | petroleum | gas | 72 | 66 | 31 | 25 | 14 | Compressed | natural | gas | Jet | Kerosene | 258 | 6 | 264 | 5,654 | 2,533 | Indirect | ( | Purchased | energy | ) | 2292,645.18 | 313,526.43 | 342,340 | 363,660 | 354,578 | Electricity | 272,150 | 292,751 | 323,663 | 349,118 | 337,276 | Steam | 18,348 | 19,470 | 17,281 | 13,964 | 16,724 | Cooling | 2,148 | 1,306 | 1,395 | 578 | 578 | Energy | consumption | ( | gigajoules | ) | 1 | Total | energy | consumption | 1,180,071 | 1,248,059 | 1,320,787 | 1,414,169 | 1,358,417 | Direct | ( | Fuel | combustion | ) | 126,548 | 119,364 | 88,364 | 104,994 | 81,936 | By | Source | ( | Fuel | detail | ) | Stationary | combustion | Gasdiesel | oil | 6,442 | 9,712 | 5,058 | 7,122 | 6,354 | Natural | gas | 115,375 | 106,317 | 77,757 | 73,118 | 62,835 | Liquefied | petroleum | gas | 1,628 | 1,454 | 1,401 | 1,227 | 977 | Mobile | combustion | On | road | diesel | fuel | 801 | 626 | 1,593 | 1,909 | 1,626 | Gasolinepetrol | 1,112 | 996 | 1,492 | 1,174 | 973 | Liquefied | petroleum | gas | 260 | 236 | 112 | 91 | 51 | Compressed | natural | gas | Jet | Kerosene | 930 | 21 | 952 | 20,353 | 9,120 | Indirect | ( | Purchased | energy | ) | 21,053,522 | 1,128,696 | 1,232,422 | 1,309,174 | 1,276,481 | Electricity | 979,740 | 1,053,903 | 1,165,186 | 1,256,824 | 1,214,193 | Steam | 66,051 | 70,092 | 62,213 | 50,269 | 60,207 | Cooling | 7,731 | 4,701 | 5,023 | 2,081 | 2,081 | 1 | Totals | may | differ | exact | sum | individual | figure | due | rounding | . |
+
+2 Approximately less 1 % purchased energy ( electricity ) estimated based energy use Companys similar facility metered usage .
+112 Lenovo Group Limited 202324 Environmental , Social Governance ReportEnergy FY 201920 202021 202122 202223 202324 Renewable energy Solar Energy ( MWh ) 4,226 9,065 9,360 13,333 16,956 Generation Capacity ( MW ) 116 16 17 17 25 Renewable Electricity Rate ( % ) 83 88 91 90 92 Energy intensity ( MWh per US million revenue ) Direct energy ( Fuel combustion ) 0.69 0.55 0.34 0.47 0.40 Indirect energy ( Purchased energy ) 5.77 5.36 4.78 5.87 6.24 1 Renewable energy generation capacity includes electric solar panel installed buildingsplants Hefei , Wuhan , Shenzhen , Tianjin , China Morrisville Whitsett , NC , USA Budapest , Hungary .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Calendar | Year | ( | CY | ) | 2019 | 2020 | 2021 | 2022 | 20231 | ENERGY | STAR | certified | product | availability | ( | percentage | product | ) | Notebook | Platforms | 93 | % | 98 | % | 92 | % | 90 | % | 91 | % | Desktop | Platforms297 | % | 97 | % | 98 | % | 83 | % | 82 | % | Workstation | Platforms | 90 | % | 98 | % | 100 | % | 100 | % | 100 | % | Server | Platforms394 | % | 90 | % | 94 | % | 92 | % | 82 | % | Monitors494 | % | 90 | % | 80 | % | 69 | % | 50 | % | 1 | In | CY | 2023 | 100 | % | Companys | Commercial | Notebooks | ( | ThinkPad | ) | Desktops | ( | ThinkCentre | ) | , | 97 | % | Commercial | Monitors | ( | ThinkVision | ) | ENERGY | STAR | certified | . |
+
+2 The downward trend year attributed expanded line gaming system desktop system Company deciding obtain certification product based low demand certification cost factor .
+3 The CY 2023 decrease percent server platform attributed Company deciding obtain certification server system based low demand certification cost factor .
+4 The CY 2021 decrease percent monitor associated expanded line low cost , entry-level consumer display .
+The CY 2023 decrease attributed expanded line gaming display also Company deciding obtain certification product based low demand certification cost factor .
+113 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Environmental data Waste Waste1 FY 201920 202021 202122 202223 202324 Waste category ( metric ton ) Non-hazardous waste243,023 51,648 49,403 50,420 47,780 Hazardous waste374 37 125 679 672 Total na 51,685 49,528 51,099 48,452 Total diverted disposal na 46,198 43,705 44,644 42,362 Total directed disposal na 5,487 5,823 6,455 6,090 Waste diverted disposal recovery operation ( metric ton ) 4 Total non-hazardous waste diverted recovery na 46,195 43,656 44,056 42,002 ResaleReuse na 28,099 24,599 23,072 21,937 Recycling5na 18,096 19,056 20,984 20,065 Total hazardous waste diverted recovery6na 3 49 588 360 Waste directed disposal disposal operation ( metric ton ) 7 Total non-hazardous waste na 5,453 5,747 6,364 5,778 Incineration na 27 776 2,337 2,827 Incineration energy recovery na 3,093 3,262 3,075 1,674 Landfilling na 2,334 1,709 952 1,277 Total hazardous waste na 34 76 91 312 Incineration na 28 73 75 289 Landfilling na 0.09 0 0.6 0.02 Treatment na 6 3 16 23 1 The Companys day-to-day operation around globe generate nonhazardous waste minimal quantity hazardous waste .
+Waste intensity figure type waste appropriate metric Companys operation due incomparability among wide variety product produced variety size function facility .
+Waste data includes site waste manufacturing , process operation , research development site , large office .
+Waste product reported separately .
+2 E-waste generated Companys site also included PELM data .
+3 Batteries collected Companys site also included PELM data .
+4 The Company operate onsite recovery operation waste separated onsite collected third-parties recovery offsite .
+5 Recycling includes composting nonhazardous , organic waste .
+6 All hazardous waste diverted recovery diverted recycling .
+7 The Company operate onsite disposal operation waste separated onsite collected third-parties disposal offsite .
+114 Lenovo Group Limited 202324 Environmental , Social Governance ReportEnvironmental data Water Water FY 201920 202021 202122 202223 202324 Water withdrawal ( megaliters ) All areas1,21,307 1,428 1,567 1,499 1,420 By source ( % total ) Groundwater na 1 % 1 % 1 % 1 % Third party na 99 % 99 % 99 % 99 % Areas water stress3322 343 377 330 731 By source ( % total ) Groundwater na 1 % 1 % 2 % 1 % Third parties4na 99 % 99 % 98 % 99 % Surface water na 72 % 73 % 77 % 90 % Groundwater na 8 % 9 % 10 % 3 % Water discharge ( megaliters ) All areas11,183 1,294 1,469 1,481 1,400 By destination ( % total ) Groundwater na 1 % 1 % 1 % 1 % Third party na 99 % 99 % 99 % 99 % Areas water stress3298 326 371 323 720 Wastewater exceedance 0 0 1 0 0 Water consumption ( megaliters ) All areas1124 134 98 18 20 Areas water stress324 17 5 7 11 Water intensity metric ( cubic meter per person ) 5 Withdrawal intensity na 20 21 19 20 Discharge intensity na 18 20 19 20 Consumption intensity na 2 1 0.2 0.3 1 For FY 202324 , All Areas includes Companys manufacturing , research development , large office site .
+In earlier FYs , research development large office location excluded Company worked increase data coverage .
+Small office retail location always excluded water reporting requirement , small office voluntarily report included .
+2 All water withdrawal estimated freshwater withdrawal .
+Due Companys reliance third-parties vast majority water withdrawal , possible determine exact parameter source , reasonable assume majority source low Total Dissolved Solids ( TDS ) based local knowledge communication third-parties .
+3 Areas water stress area high extremely high baseline water stress according World Resources Institutes Aqueduct Water Risk Atlas .
+Values reported area water stress subset value reported area .
+In FY 202324 , increase withdrawal area water stress primarily due Aqueduct Water Risk Atlass updated classification water stress area , resulting inclusion area previously classified non-water stress area Company operation .
+4 Third-party withdrawal source collected Companys environmentally significant site ( Companys manufacturing RD location ) .
+In FY 202324 , location comprised approximately 93 % Companys third-party withdrawal water stressed area .
+The remaining 7 % primarily office location often require less water operate part larger office complex may directly billed third-party responsible withdrawal .
+5 Water intensity metric based Companys total global headcount includes headcount excluded small office location mentioned Note 1 .
+115 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Environmental data Packaging Packaging1 FY 201920 202021 202122 202223 202324 Total packaging material used finished product ( metric ton ) na 115,041 119,621 99,978 80,154 Average packaging weight per unit product category ( gram ) Notebook na 528 528 528 559 Desktop na 1,900 1,900 1,900 1,739 Server na 4,614 4,614 4,614 4,614 Workstation na 1,700 1,700 1,700 2,198 Monitor na 1,920 1,920 1,920 1,815 Smartphone na 100 100 110 113 Tablet na 373 373 373 444 Accessory na 300 300 300 300 1 Estimated using average packaging weight per unit total shipping volume following category product notebook , desktop , server , workstation , monitor , smartphones , tablet , accessory .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Environmental | data | Product | End-of-Life | management | Product | End-of-Life | Management | ( | PELM | ) | Disposition | ( | metric | ton | ) | 1 | Calendar | Year | ( | CY | ) | 2019 | 2020 | 2021 | 2022 | 2023 | Reused | 1,557 | 1,695 | 1,875 | 1,901 | See | note | 2 | . |
+
+Recycled 24,856 28,076 30,143 30,679 Waste Energy ( WTE ) 987 793 523 896 Incinerate 1,126 1,978 728 243 Landfill 159 340 894 387 Total 28,685 32,882 34,163 34,106 1 The Companys Product End-of-Life Management ( PELM ) Product Take Back ( PTB ) includes material customer company-owned return , manufacturing RD scrap , employee equipment real estate site .
+These metric represent data received PELM supplier time publication report .
+2 At time publication report , data various regulatory programsschemes available .
+The Company publish CY 2023 PELM PTB data corporate ESG webpage www .
+lenovo .
+comrecycling becomes available .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Environmental | data | Product | take | back | Product | Take | Back | ( | PTB | ) | Disposition | ( | metric | ton | ) | 1 | CY | 2019 | 2020 | 2021 | 2022 | 2023 | Reused | 1,023 | 1,536 | 1,556 | 1,669 | See | note | 2 | . |
+
+Recycled 24,112 27,249 29,295 29,863 Waste Energy ( WTE ) 987 782 519 892 Incinerate 1,041 1,904 728 239 Landfill 143 324 885 385 Total 27,306 31,795 32,983 33,048 1 The Companys Product End-of-Life Management ( PELM ) Product Take Back ( PTB ) includes material customer company-owned return , manufacturing RD scrap , employee equipment real estate site .
+These metric represent data received PELM supplier time publication report .
+2 At time publication report , data various regulatory programsschemes available .
+The Company publish CY 2023 PELM PTB data corporate ESG webpage www .
+lenovo .
+comrecycling becomes available .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Environmental | data | Use | recycled | plastic | Use | recycled | plastic | product | ( | kilogram | ) | 1 | CY | 2019 | 2020 | 2021 | 2022 | 2023 | Plastics | Containing | Recycled | Content | ( | PCRC | ) | 7,721,398 | 5,946,839 | 7,787,871 | 6,973,663 | 9,671,002 | Net | Post-Consumer | Recycled | Content | ( | PCC | ) | 5,840,788 | 4,352,788 | 5,760,388 | 5,243,723 | 7,983,623 | 1 | These | metric | represent | data | received | recycled | plastic | supplier | time | publication | . |
+
+116 Lenovo Group Limited 202324 Environmental , Social Governance Report 117 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix 8.0 EMS performance , objective , target FY 202324 EMS performance , objective , targets118 118 Lenovo Group Limited 202324 Environmental , Social Governance ReportFY 202324 EMS performance , objective , target Objectives MetricKPI Target ( ) Status Notes Product aspect Product energy consumption emission Drive reduction product energy use .
+Energy efficiencyNew product must show improved energy efficiency relative previous generation product .
+Notebooks Improve energy efficiency average comparable notebook 30 % March 31 , 2030 , relative FY 201819 .
+Excludes gaming notebook .
+Desktops Improve energy efficiency average comparable desktop 50 % March 31 , 2030 , relative FY 201819 .
+Servers Improve energy efficiency average comparable server 50 % March 31 , 2030 , relative FY 201819 .
+Mobile Business Group ( MBG ) product Improve energy efficiency average comparable MBG product 30 % March 31 , 2030 , relative FY 202021 .
+Long term target trackWhere new product belong sub-category part Companys sub-targets , default general energy efficiency improvement relative previous generation product .
+Exemption target may requested clearly demonstrated achieving target place product large price disadvantage competition technically feasible.8.0 EMS performance , objective , target 119 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Objectives MetricKPI Target ( ) Status Notes Drive product emission reduction use sold product .
+GHG emissionsReduce Scope 3 GHG emission ( value chain ) use sold product 35 % average comparable product FY 202930 FY 201819 base year .
+Long term target track Quantify lifecycle CO2e emission associated use Lenovo product .
+Product Carbon Footprint ( PCF ) ( kg CO2e ) Ensure product carbon footprint published new Lenovo product .
+Target metCalculated product Product Attribute Impact Algorithm ( PAIA ) tool exists .
+If requested , Company provides tailored PCF evaluation based specific product configuration .
+Quantify lifecycle CO2e emission environmental footprint associated use Lenovo product .
+PCF ( kg CO2e ) environmental footprintsOptimize Lenovo Life-Cycle Assessment ( LCA ) platform , study , phase-in LCA solution March 31 , 2024 .
+Target met Perform LCA least ten Lenovo selected product materialstechnologies March 31 , 2024 .
+Target met 120 Lenovo Group Limited 202324 Environmental , Social Governance ReportObjectives MetricKPI Target ( ) Status Notes Product aspect Product material Products contain recycled material .
+Recycled material includes Post-industrial recycled content ( PIC ) , Post-consumer recycled content ( PCC ) post-consumer recycled ( PCR ) material , Closed-loop post-consumer recycled content plastic ( CL-PCC ) PCR , Ocean bound plastic ( OBP ) , Recycled metal .
+% product containing PCC average % PCC product weightBy FY 202526 , 100 % PC product contain post-consumer recycled content material .
+Long term target trackExcludes tablet accessory .
+PCC plastic weightBy FY 202526 , use 300 million pound post-consumer recycled content plastic product .
+Long term target trackCumulative total since 2005 .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| % | product | containing | higher | PCC | number | product | containing | higher | PCCFrom | April | 1 | , | 2023 | , | least | one | product | need | meet | higher | PCC | level | new | product | DesktopsWorkstation | 35 | % | , | All | In | One | 40 | % | , | Notebooks | 10 | % | , | Tablet | 5 | % | , | Visual | 50 | % | , | Servers | 10 | % | . |
+
+Target met Explore innovative application program lower environmental impactExplore innovative application program lower environmental impact ( e. g. , recycled material LCAPCF , post-consumer recycled metal , high % PCC material , recycled rare earth element ) .
+Target met 121 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Objectives MetricKPI Target ( ) Status Notes Sustain technological advance maintain portfolio relative low halogen product .
+Monitor respond market requirement area .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Definitions | BFR | Brominated | flame | retardant | PCB | Printed | circuit | board | PVC | Polyvinyl | chloride | PPM | part | per | millionLow | halogen | partsFor | product | requiring | IEEE | 1680.1 | NSFANSI | 426 | registration | , | ensure | plastic | part | product | exceeding | 25 | g | shall | contain | greater | 1,000 | ppm | chlorine | greater | 1,000 | ppm | bromine | homogeneous | level | per | requirement | exception | allowed | IEEE | 1680.1 | NSFANSI | 426 | standard | . |
+
+Target met For product requiring TCO Certified generation 9 certification , power PCB laminate internal external power supply unit must contain intentionally added ( additive reactive ) flame retardant plasticizer halogenated substance .
+Target metExempted part , electronic component , PCB laminate kind cable insulation .
+The concentration bromine chlorine shall less 0.1 % .
+By FY 202526 , 100 % smartphone product accessory free PVC BFR .
+Long term target trackControlled 1,000 ppm .
+Objectives MetricKPI Target ( ) Status Notes Product aspect Packaging Minimize packaging material consumption driving use environmentally sustainable material .
+Weight volume reductionAchieve 5 % reduction weight volume least 1 product .
+Target met Plastic eliminationEliminate 100,000 km single use plastic packaging tape FY 202526 ( starting 2018 ) .
+Long term target track Achieve plastic-free packaging Motorola EdgeRazr family .
+Target Met 122 Lenovo Group Limited 202324 Environmental , Social Governance ReportObjectives MetricKPI Target ( ) Status Notes Increase sustainable material packaging .
+% Recycled content sustainable materialPromote Forest Stewardship Council ( FSC ) certification among supplier corrugated part .
+Target metFor Infrastructure Solutions Group ( ISG ) business group .
+Introduce recycled plastic bag ( made 30 % ocean bound recycle ) .
+Target metFor ISG business group product .
+Identify five new Lenovo product implement use 100 % renewable bio-based packaging .
+Target met By FY 202526 , 60 % smartphone packaging made recycled material .
+Long term target trackExcludes Lenovo smartphone packaging .
+Includes RAZR smartphone packaging starting FY 202324 .
+By FY 202526 , 90 % PC product plastic packaging made recycled material .
+Long term target trackMeasured weight excludes tablet , accessory , monitor .
+By FY 202526 , smartphone packaging use 50 % less single-use plastic reduce sizevolume 10 % .
+Long term target trackRelative FY 202021 .
+Excludes Lenovo smartphone packaging .
+Includes RAZR smartphone packaging starting FY 202324 .
+Objectives MetricKPI Target ( ) Status Notes Location aspect Site air emission Absolute reduction CO2e emission Lenovo operation worldwide .
+Metric ton CO2eReduce absolute Scope 1 2 GHG emission 50 % FY 202930 FY 201819 base year .
+Long term target trackThis goal may accomplished energy efficiency , installation onsite renewable generation , entry power purchase agreement ( PPA ) power provider , andor purchase renewable energy .
+Scope 2 emission market-based .
+123 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Objectives MetricKPI Target ( ) Status Notes Location aspect Site energy consumption Maximize energy efficiency minimize CO2e emission associated development , manufacturing delivery Lenovo product .
+% total electricity renewable energy sourcesBy FY 202526 , 90 % global operation electricity obtained renewable source .
+Long term target trackThis goal may accomplished installation onsite renewable energy generation , entry power purchase agreement ( PPA ) power provider andor purchase renewable energy credit .
+Energy consumption kWh per production volumeAchieve year-over-year improved energy intensity index manufacturing site globally , relative previous FY .
+Target metEnergy intensity index energy consumption kWh per production volume .
+Electricity consumption kWh per personAchieve year-over-year improved electricity intensity RD office site globally , relative previous FY .
+Target metElectricity intensity electricity consumption kWh per person .
+Renewable energy on-site installationExplore on-site installation renewable energy source Lenovo facility .
+Long term target track Objectives MetricKPI Target ( ) Status Notes Location aspect Waste management Minimize environmental impact associated solid waste generated Lenovo operation product .
+% non-hazardous solid waste recycledMaintain global non-hazardous waste recycling rate 90 % ( -5 % ) .
+Target metPercent non-hazardous solid waste disposed reuse , recycling , composting .
+Does include incineration energy recovery .
+Objectives MetricKPI Target ( ) Status Notes Location aspect Water management Minimize environmental impact associated water withdrawal water discharge Lenovo operation product .
+Water withdrawalMaintain rate water withdrawal per person site globally , relative previous FY ( 5 % increase ) .
+Target metIncludes manufacturing , RD , large office site able report water withdrawal .
+124 Lenovo Group Limited 202324 Environmental , Social Governance ReportObjectives MetricKPI Target ( ) Status Notes Supply chain aspect Product end-of-life management Minimize environmental impact Lenovo product end life .
+Recycle , repair , reuse Lenovo product partsBy FY 202526 , enabled recycling reuse 800 million pound ( 362,874 MT ) end-of-life product ( cumulative total since 2005 ) .
+Long term target track By FY 202526 , 84 % repair done customer site , without send PC service center .
+Long term target trackExcludes Android tablet visuals .
+By FY 202526 , 76 % repairable PC part returned service center repaired future use .
+Long term target trackMeasured value .
+Objectives MetricKPI Target ( ) Status Notes Supply chain aspect Supplier environmental performance Monitor mitigate environmental impact Lenovo supply chain , drive improve supplier environmental management level .
+Product supplier GHG emission reduction removalBy FY 202526 , remove one million ton greenhouse gas emission supply chain ( relative FY 201819 measured emission ) .
+Long term target trackA corrective plan implemented enhance progress .
+Emissions ( Scope 3 ) purchased good service per million US gross profitReduce Scope 3 GHG emission ( supply chain ) purchased good service 66.5 % per million US gross profit FY 202930 FY 201819 base year .
+Long term target track Product supplier renewable energy usageEngage fifteen product supplier source 13 energy renewable source Lenovo-related business .
+Target met CDP Climate Change Water Security Questionnaire response rateAchieve Lenovo product supplier response rate CDP questionnaire following level based procurement spend Climate Change 95 % .
+Target met Suppliers SBT participationAchieve 48 % Lenovo product supplier based procurement spend commithave science-based emission reduction target .
+Target met 125 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Objectives MetricKPI Target ( ) Status Notes Supply chain aspect Transportation Drive collaborative environmental effort Lenovos global logistics .
+Demand managementEnable route optimization initiative geographical segment AP EMEA IDG business group .
+Target met Geographical segment AG Americas Geography AP Asia Pacific EMEA Europe , Middle East , Africa CN China Business Groups IDG Intelligent Devices Group ISG Infrastructure Solutions GroupModes transportEnable mode transport shipment ISG IDG business group geographical segment AG , CN , EMEA .
+Target met Fleet asset utilization efficiencyImprove fleet utilization rate ISG IDG business group geographical segment AP , EMEA , AG .
+Target met Usage low emission fuelExplore low-emission energy opportunity IDG business group geographical segment AP , CN , EMEA .
+Target met Scope 3 GHG emission upstream transportation distributionReduce Scope 3 GHG emission upstream transportation distribution 25 % per tonne-km transported product FY 202930 FY 201819 base year .
+Long term target track While Lenovo seek establish consistent reporting objective target , reassess adjust periodically part EMS continuous improvement process aim drive dynamic growth year year compliance evolving customer , standard , external requirement .
+We encouraged success progress recognize done .
+As look ahead , aim drive environmental improvement FY 202425 EMS target .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 126 | Lenovo | Group | Limited | 202324 | Environmental | , | Social | Governance | Report | 127 | Lenovo | Group | Limited | 202324 | Environmental | , | Social | Governance | ReportExecutive | letter | About | report | Environmental | Social | Governance | Global | supply | chain | Consolidated | metric | EMS | performance | , | objective | target | Long-term | KPI | progress | Appendix | Long-term | ESG | key | performance | indicator | ( | KPI | ) | 1289.0 | Long-term | KPI | progress | 128 | Lenovo | Group | Limited | 202324 | Environmental | , | Social | Governance | ReportLong-term | ESG | key | performance | indicator | ( | KPI | ) | The | Company | advancing | ESG | program | long-term | KPIs | developed | FY | 202122 | support | United | Nations | Global | Compact | ( | UNGC | ) | Sustainable | Development | Goals | ( | SDGs | ) | . |
+
+The Company measure report progress year .
+Environmental KPI type Commitment KPIProgress FY 202324UNGC SDG Climate change mitigationLenovo set aggressive , science-based greenhouse gas emission reduction goals.1By FY 202526 , 90 % global operation electricity obtained renewable sources.2Long term target track By FY 202526 , remove one million ton greenhouse gas emission supply chain.3Long term target track By FY 202930 , achieve 50 % improvement energy efficiency Lenovo desktops4 servers.4Long term target track By FY 202930 , achieve 30 % improvement energy efficiency Lenovo notebooks4 Motorola products.5Long term target track Circular economyLenovo transitioning circular economy innovation supply chain , product design service .
+By FY 202526 , 84 % repair done customer site , without send PC service center.6Long term target track By FY 202526 , 76 % repairable PC part returned service center repaired future use.7Long term target track By FY 202526 , enabled recycling reuse 800 million pound end-of-life products.8Long term target track9.0 Long-term KPI progress 129 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix KPI type Commitment KPIProgress FY 202324UNGC SDG Sustainable materialsLenovo focused integrating sustainable material minimizing waste innovative product packaging design .
+By FY 202526 , 100 % PC product contain post-consumer recycled content materials.9Long term target track By FY 202526 , use 300 million pound post-consumer recycled content plastic products.10Long term target track By FY 202526 , 100 % smartphone product accessory free PVC BFR.11Long term target track By FY 202526 , 90 % PC product plastic packaging made recycled materials.12Long term target track By FY 202526 , Smartphone packaging use 50 % less single-use plastic reduce sizevolume 10 % 60 % smartphone packaging made recycled materials.13Long term target track Social KPI type Commitment KPIProgress FY 202324UNGC SDG Diversity InclusionLenovo belief smarter technology mean everyone .
+If truly want innovate society , must design diversity world mind .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| By | FY | 202526 | , | grow | global | representation | woman | executive | role | 27 | % | ( | 21 | % | 2020 | ) | .14Long | term | target | track | By | FY | 202526 | , | grow | representation | executive | US | historically | underrepresented | ethnic | racial | group | 35 | % | ( | 29 | % | 2020 | ) | .14Long | term | target | track | By | FY | 202526 | , | 75 | % | Lenovos | product | vetted | inclusive | design | expert | ensure | work | everyone | , | regardless | physical | attribute | ability | . |
+
+Long term target track 130 Lenovo Group Limited 202324 Environmental , Social Governance ReportKPI type Commitment KPIProgress FY 202324UNGC SDG PhilanthropyLenovo philanthropy provides smarter technology empowering underrepresented community access technology STEM education .
+By FY 202526 , Lenovo philanthropy impact 15 million life transform one million life philanthropic program partnership .
+Long term target track By FY 202526 , Lenovo philanthropy engage one four employee charitable program ( volunteerism matching gift ) .
+Long term target track Governance KPI type Commitment KPIProgress FY 202324UNGC SDG Corporate governanceLenovo focused building long-term , sustainable business reflects vision smarter technology .
+Lenovo focused integrating ESG priority day-to day operation .
+We continue hold regular ESG Executive Oversight Committee meeting include interest business ESG strategy discussion , assess progress ESG initiative , evaluate continued relevancy program Lenovos long term business strategy .
+Long term target track We continue propose recommendation senior leadership regarding effective management ESG risk program .
+Long term target track We continue provide regular update ESG topic Board Directors .
+Long term target track EthicsLenovo foster culture strives attain highest standard ethical business conduct compliance law regulation wherever operates .
+We continue advance global ethic compliance program program training enhancement .
+Long term target track Through FY 202526 beyond , obtain recognition leadership area .
+Long term target track 131 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix KPI type Commitment KPIProgress FY 202324UNGC SDG PrivacyLenovo commits continuously improve privacy program .
+Through FY 202526 beyond , improve customer experience making easier customer request personal information improving speed Lenovo respond request .
+Long term target track Through FY 202526 beyond , improve management accountability privacy impact assessment pre-launch privacy compliance review .
+Long term target track Through FY 202526 beyond , enhance existing training material continue deliver privacy-focused training program Lenovo employee .
+Long term target track 1 Our goal support emission reduction target , approved Science Based Targets initiative ( SBTi ) .
+2 May accomplished installation onsite renewable energy generation , entry power purchase agreement ( PPA ) power provider andor purchase renewable energy credit .
+3 Relative FY 201819 measured emission .
+4 Energy efficiency improvement average comparable product relative FY 201819 .
+Excludes gaming notebook .
+5 Energy efficiency improvement average comparable product relative FY 202021 .
+6 Excludes Android tablet visuals .
+7 Measured value .
+8 Cumulative total since 2005 .
+9 Excludes tablet accessory .
+10 Cumulative total since 2005 .
+11 Controlled 1,000 ppm .
+12 Measured weight excludes tablet , accessory , monitor .
+13 Relative FY 202021 .
+Excludes Lenovo smartphone packaging .
+Includes RAZR smartphone packaging starting FY 202324 .
+14 Includes Lenovo regular employee .
+Excludes contractor , third-party contracted consultant vendor , intern .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 132 | Lenovo | Group | Limited | 202324 | Environmental | , | Social | Governance | Report | 133 | Lenovo | Group | Limited | 202324 | Environmental | , | Social | Governance | ReportExecutive | letter | About | report | Environmental | Social | Governance | Global | supply | chain | Consolidated | metric | EMS | performance | , | objective | target | Long-term | KPI | progress | Appendix | FY | 202324 | membership | association | Scope | report | Gender | equity | supplementary | information | GRI | content | index | The | Hong | Kong | Stock | Exchanges | ESG | Reporting | Guide | content | index134 | 135 | 136 | 138 | 14310.0 | Appendix | 134 | Lenovo | Group | Limited | 202324 | Environmental | , | Social | Governance | ReportAssociations | Bluetooth | Special | Interest | Group | ( | SIG | ) | Consumer | Technology | Association | ( | CTA | ) | DIGITAL | EUROPE | Electronic | Product | Stewardship | Canada | ( | EPSC | ) | Information | Technology | Industry | Council | ( | ITI | ) | Mobile | Wireless | Forum | ( | MWF | ) | The | Rechargeable | Battery | Association | ( | PRBA | ) | Radio | Equipment | Directive | Compliance | Association | ( | REDCA | ) | Responsible | Business | Alliance | ( | RBA | ) | Programs | , | workgroups | , | global | initiative | CDP | Climate | Change | Water | Security | CHWMEG | Circular | Electronics | Partnership | ECMA | 370 | The | Eco | Declaration | Standard | EcoVadis | Global | Logistics | Emissions | Council | ( | GLEC | ) | Global | Recycling | Programs | , | Call2Recycle | ( | specific | program | vary | jurisdiction | product | ) | Global | Reporting | Initiative | ( | GRI | ) | Hong | Kong | Stock | Exchange | ESG | Reporting | Guide | International | Special | Committee | Radio | Interference | ( | CISPR | ) | Responsible | Factory | Initiative | Responsible | Labor | Initiative | Responsible | Minerals | Initiative | Responsible | Recycling | ( | R2 | ) | Science | Based | Targets | Networks | Corporate | Engagement | Program | Telecommunications | Certification | Body | Council | ( | TCB | Council | ) | United | Nations | CEO | Water | Mandate | United | Nations | Global | Compact | ( | UNGC | ) | United | Nations | Global | Compacts | Forward | Faster | Initiative | U. | S. | EPAs | Green | Power | Partnership | U. | S. | EPAs | SmartWay | International | standard | IECEEPSC | IECTC | 108 | IECTC | 111 | IECTC | 124 | IEEE | 1680.1 | Standard | Environmental | Social | Responsibility | Assessment | Computers | Displays | ( | part | EPEAT | program | ) | IEEE | SA | ISO | 90012015 | Quality | Management | System | ISO | 140012015 | Environmental | Management | System | ISO | 270012013 | Information | Security | Management | System | ISO | 450012018 | Occupational | Health | Safety | Management | ISO | 500012018 | Energy | Management | System | ISOIEC | JTC | 1SC | 39 | ISOTC | 176 | Leadership | Energy | Environmental | Design | ( | LEED | ) | NSFANSI | 426 | Environmental | Leadership | Corporate | Social | Responsibility | Assessment | Servers | ( | part | EPEAT | program | ) | Product | Attribute | Impact | Algorithm | ( | PAIA | ) | Project | TCO | Certified | The | Company | recognizes | importance | environmental | leadership | country | level | involved | additional | national | association | , | program | , | workgroups | , | initiative | relevant | . |
+
+Of particular note , Company participated numerous environmental initiative China , including Alliance High Quality Green Development Information Communication Technology Industry China Electronic Energy Saving Technology Association China Energy Conservation Program ( CECP ) China Environmental Labeling Product ( CELP ) China Medium Low Temperature Solder Association China MIIT EPR ( extended producer responsibility ) Recycling Pilot Project China National Resources Recycling Association China RoHS Standard Working Group China WEEE Working Group Energy Saving Work Association Chinese Institute Electronics Green Manufacturing Association China Institute Public Environmental Affairs PC China Energy Label ( CEL ) SAC TC297 SAC TC207 Smart Freight Shippers Alliance10.0 Appendix FY 202324 membership association 135 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Scope report The content report apply Lenovo Group Limited ( HKD counter stock code 992 RMB counter stock code 80992 ) ( Company ) , together principal Lenovo-branded Motorola-branded subsidiary .
+Where certain topic also include principal subsidiary , explained .
+The scope Companys material topic boundary within value chain detailed table .
+Product developmentSupply chain ManufacturingSales marketingDistribution UseEnd life ESG report scope coverage Explanation scope change FY 202223 Environment EmissionsClimate changeLenovo , Motorola Mobility , LCFC , Medion , NEC PC , FCCLNo change EnergyLenovo , Motorola Mobility , LCFC , Medion , NEC PC , FCCLNo change Product packaging materialsLenovo , Motorola Mobility , LCFC No change WasteRecyclingLenovo , Motorola Mobility , LCFC , Medion , NEC PC , FCCLNo change WaterLenovo , Motorola Mobility , LCFC , Medion , NEC PC , FCCLNo change Social CommunityPhilanthropy Lenovo , Motorola MobilityBoundaries philanthropic disclosure expanded include distribution use end life aspect within Companys value chain due product donation .
+DI Lenovo , Motorola Mobility No change Human rightsLenovo Motorola Mobility fully incorporated Companys corporate program area .
+No change SafetyLenovo , Motorola Mobility , LCFC NEC PCNo change Training development Lenovo , Motorola Mobility No change Employee representationLenovo , Motorola Mobility , NEC PC metric .
+Number employee , Percentage employee region , Percentage employee workforce representation metric also include Sunny IT , FCCL , Medion , LCFC , Net App LPSFCNT Lenovo Leasing added year .
+Governance Economic performanceSee FY 202324 Annual Reports Notes financial statement No change EthicsIntegrityLenovo Motorola Mobility fully incorporated Companys corporate program area .
+No change Data privacySecurity Lenovo , Motorola Mobility No change Product quality Lenovo , Motorola Mobility , LCFC No change RegulatoryCompliance Lenovo , Motorola Mobility , LCFC No change Innovation Lenovo , Motorola Mobility No change 136 Lenovo Group Limited 202324 Environmental , Social Governance ReportGender equity supplementary information Talent pipeline Women % total Fiscal Year ( FY ) 202122 202223 202324 Notes Management1 role 29 30 30 1 Total management defined people manager Company .
+2 Senior management defined Senior Managers Directors people manager .
+3 Middle management defined Senior Professionals Managers people manager .
+Senior management2 role 27 28 28 Middle management3 role 40 41 40 Non-managerial position 38 38 38 Promotions 42 41 42 Hires 36 34 35 Inclusive culture Inclusive culture FY 202122 202223 202324 Notes Number weeks1 fully paid primary parental leave offered20 23 241 Weighted average .
+2 Parental leave retention rate defined percentage woman employee remained employed 12 month return parental leave , woman used parental leave previous fiscal year .
+3 Backup family care service subsidy Company represent offering childcare center , subsidized service , reimbursement allow employee work securing back-up care resource cost discounted price .
+The figure represent percentage employee access offering .
+Number weeks1 fully paid secondary parental leave offered5 4 4 Parental leave retention rate ( % ) 2 83 87 88 Back-up family care service subsidy Company ( % ) 378 78 79 Pay equity Pay equity FY 202122 202223 202324 Notes Adjusted mean1 gender pay gap2 ( % , USD ) 2.2 % ( 1,618 ) 2.6 % ( 1,935 ) 2.3 % ( 1,731 ) 1 Global mean ( average ) raw gender pay gap measure difference total compensation woman men , without adjusting factor job function , level , education , performance , location .
+The Company discloses adjusted mean gender pay gap provides accurate reflection commitment pay equity due Companys global presence complex business operation .
+2 82 % , 87 % , 88 % global workforce population represented data FY 202122 , FY 202223 , FY 202324 , respectively , include Companys regular full-time employee Band 5 Vice President level across 15 country largest headcount .
+To enhance transparency regarding gender equity within Companys workforce , report discloses information first time .
+Includes Lenovo regular employee .
+Excludes contractor , third-party contracted consultant vendor , intern .
+137 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Time bound action close pay gap While Company currently share public quantitative , time bound action plan closing gender pay gap , measure place proactively mitigate identified disparity .
+The Companys approach designed strike balance achieving pay equity ensuring competitiveness within industry .
+Some strategy initiative Company employ address gender pay gap include Regular pay equity audit The Company conduct regular pay equity audit identify rectify pay disparity based gender ethnicity .
+Equal pay policy The Company established clear policy promote equal pay equal work , regardless gender ethnicity .
+Training awareness program The Company offer training program raise awareness gender pay disparity .
+Hiring manager provided training minimize bias interviewing candidate making job offer .
+Employee resource group The Company support employee resource group focus gender ethnic diversity inclusion , providing platform discussion action .
+Continuous improvement The Company remains committed ongoing assessment improvement practice ensure addressing gender ethnic pay gap effectively .
+Executive compensation DI The Company acknowledges work done integrate DI performance standard business performance measure relate executive compensation .
+The Company intends take deliberate step expand DI Key Performance Indicators ( KPIs ) Leadership Executive Committee ( LEC ) coming year .
+The Company firmly committed principle DI transactional initiative , ongoing journey requires constant evaluation , adaptation , growth .
+In alignment belief , Company plan broaden deepen DI KPIs set LEC .
+These expanded KPIs designed drive accountability , transparency , excellence Companys effort foster diversity , equity , inclusion throughout leadership rank .
+This effort contribute Lenovos ongoing success also reinforce Companys dedication creating inclusive equitable workplace .
+The Company invite ongoing dialogue diversity equity data maintain transparency expanded KPIs impact LECs performance evaluation .
+The Company look forward sharing progress achievement continues expand enrich DI initiative betterment stakeholder .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 138 | Lenovo | Group | Limited | 202324 | Environmental | , | Social | Governance | ReportGRI | content | index | Statement | useThe | Company | reported | information | cited | GRI | content | index | period | April | 1 | , | 2023 | March | 31 | , | 2024 | reference | GRI | Standards | . |
+| GRI | 1 | used | GRI | 1 | Foundation | 2021 | GRI | Standard | Disclosure | Page | number | ( | ) | Other | reference | material | ( | ) | GRI | 2 | General | Disclosures | 2021Organizational | profile | 2-1 | Organizational | detail | 11 | 2-2 | Entities | included | organization | sustainability | reporting10 | , | 135 | 2-3 | Reporting | period | , | frequency | contact | point10 | 2-4 | Restatements | information109 | 2-5 | External | assurance | 10 | 2-6 | Activities | , | value | chain | business | relationships11 | , | 135 | 2-7 | Employees | 104-105 | 2-22 | Statement | sustainable | development | strategy4-7 | 2-27 | Compliance | law | regulations73 | 2-28 | Membership | associations134 | 2-29 | Approach | stakeholder | engagement12-13 | GRI | 3 | Material | Topics | 20213-1 | Process | determine | material | topics12-13 | 3-2 | List | material | topic | 12-13 | Economic | topic | Economic | Performance | GRI | 3 | Material | Topics | 20213-3 | Management | material | topic70-73 | GRI | 201 | Economic | Performance | 2016201-2 | Financial | implication | risk | opportunity | due | climate | change22FY | 202324 | Annual | Reports | Managements | discussion | analysis | Procurement | Practices | GRI | 3 | Material | Topics | 20213-3 | Management | material | topic88-98 | GRI | 204 | Procurement | Practices | 2016204-1 | Proportion | spending | local | suppliers88 | 139 | Lenovo | Group | Limited | 202324 | Environmental | , | Social | Governance | ReportExecutive | letter | About | report | Environmental | Social | Governance | Global | supply | chain | Consolidated | metric | EMS | performance | , | objective | target | Long-term | KPI | progress | Appendix | GRI | Standard | Disclosure | Page | number | ( | ) | Other | reference | material | ( | ) | Anti-corruption | GRI | 3 | Material | Topics | 20213-3 | Management | material | topic73 | , | 77-79 | GRI | 205 | Anti-corruption | 2016205-2 | Communication | training | anti-corruption | policy | procedures73 | , | 77-79 | Anti-competitive | Behavior | GRI | 3 | Material | Topics | 20213-3 | Management | material | topic73 | , | 77-79 | GRI | 206 | Anti-competitive | Behavior | 2016206-1 | Legal | action | anti-competitive | behavior | , | anti-trust | , | monopoly | practices74 | , | 77-79 | Environmental | topic | Materials | GRI | 3 | Material | Topics | 20213-3 | Management | material | topic18 | , | 27-31 | , | 37-39 | GRI | 301 | Materials | 2016301-1 | Materials | used | weight | volume115 | 301-2 | Recycled | input | material | used27-31 | , | 37-39 | , | 115 | Energy | GRI | 3 | Material | Topics | 20213-3 | Management | material | topic18 | , | 23-24 | GRI | 302 | Energy | 2016302-1 | Energy | consumption | within | organization111-112 | 302-3 | Energy | intensity | 112 | 302-4 | Reduction | energy | consumption23-24 | 302-5 | Reductions | energy | requirement | product | services32-34 | Water | Effluents | GRI | 3 | Material | Topics | 20213-3 | Management | material | topic18 | , | 26-27 | GRI | 303 | Water | Effluents | 2018303-1 | Interactions | water | shared | resource26-27 | 303-3 | Water | withdrawal | 114 | 303-4 | Water | discharge | 114 | 303-5 | Water | consumption | 114 | Emissions | GRI | 3 | Material | Topics | 20213-3 | Management | material | topic18-22 | 140 | Lenovo | Group | Limited | 202324 | Environmental | , | Social | Governance | ReportGRI | Standard | Disclosure | Page | number | ( | ) | Other | reference | material | ( | ) | GRI | 305 | Emissions | 2016305-1 | Direct | ( | Scope | 1 | ) | GHG | emissions109 | 305-2 | Energy | indirect | ( | Scope | 2 | ) | GHG | emissions109 | 305-3 | Other | indirect | ( | Scope | 3 | ) | GHG | emissions109 | 305-4 | GHG | emission | intensity110 | 305-5 | Reduction | GHG | emissions21 | , | 109-110 | 305-6 | Emissions | ozone-depleting | substance | ( | ODS | ) | 22 | Waste | GRI | 3 | Material | Topics | 20213-3 | Management | material | topic18 | , | 25-26 | , | 39-40 | GRI | 306 | Waste | 2020306-1 | Waste | generation | significant | waste-related | impacts25-26 | , | 39-40 | 306-2 | Management | significant | waste-related | impacts25-26 | , | 39-40 | 306-3 | Waste | generated | 113 | 306-4 | Waste | diverted | disposal113 | 306-5 | Waste | directed | disposal113 | Supplier | Environmental | Assessment | GRI | 3 | Material | Topics | 20213-3 | Management | material | topic88-96 | , | 100-101 | GRI | 308 | Supplier | Environmental | Assessment | 2016308-1 | New | supplier | screened | using | environmental | criteria88-89 | , | 100-101 | 308-2 | Negative | environmental | impact | supply | chain | action | taken88-98 | , | 100-101 | 141 | Lenovo | Group | Limited | 202324 | Environmental | , | Social | Governance | ReportExecutive | letter | About | report | Environmental | Social | Governance | Global | supply | chain | Consolidated | metric | EMS | performance | , | objective | target | Long-term | KPI | progress | Appendix | GRI | Standard | Disclosure | Page | number | ( | ) | Other | reference | material | ( | ) | Social | topic | Employment | GRI | 3 | Material | Topics | 20213-3 | Management | material | topic44 | , | 57-63 | GRI | 401 | Employment | 2016401-1 | New | employee | hire | employee | turnover106 | Occupational | Health | Safety | GRI | 3 | Material | Topics | 20213-3 | Management | material | topic45-50 | GRI | 403 | Occupational | Health | Safety | 2018403-1 | Occupational | health | safety | management | system45-49 | 403-2 | Hazard | identification | , | risk | assessment | , | incident | investigation45-49 | 403-4 | Worker | participation | , | consultation | , | communication | occupational | health | safety45-47 | 403-5 | Worker | training | occupational | health | safety45-47 | , | 107 | 403-6 | Promotion | worker | health45-47 | 403-9 | Work-related | injury | 107 | 403-10 | Work-related | ill | health107 | Training | Education | GRI | 3 | Material | Topics | 20213-3 | Management | material | topic59-61 | GRI | 404 | Training | Education | 2016404-1 | Average | hour | training | per | year | per | employee107 | 404-2 | Programs | upgrading | employee | skill | transition | assistance | programs59-61 | Diversity | Equal | Opportunity | GRI | 3 | Material | Topics | 20213-3 | Management | material | topic51-56 | GRI | 405 | Diversity | Equal | Opportunity | 2016405-1 | Diversity | governance | body | employees104-105 | 142 | Lenovo | Group | Limited | 202324 | Environmental | , | Social | Governance | ReportGRI | Standard | Disclosure | Page | number | ( | ) | Other | reference | material | ( | ) | Forced | Compulsory | Labor | GRI | 3 | Material | Topics | 20213-3 | Management | material | topic88-94 | , | 96-97 | Supplier | Code | Conduct | RBA | Code | Conduct | Human | Rights | Policy | GRI | 409 | Forced | Compulsory | Labor | 2016409-1 | Operations | supplier | significant | risk | incident | forced | compulsory | labor88-94 | , | 96-97Supplier | Code | Conduct | RBA | Code | Conduct | Human | Rights | Policy | Local | Communities | GRI | 3 | Material | Topics | 20213-3 | Management | material | topic64-67 | , | 108 | GRI | 413 | Local | Communities | 2016413-1 | Operations | local | community | engagement | , | impact | assessment | , | development | programs64-67 | , | 108 | Supplier | Social | Assessment | GRI | 3 | Material | Topics | 20213-3 | Management | material | topic88-94 | , | 96-98 | , | 100-101 | GRI | 414 | Supplier | Social | Assessment | 2016414-2 | Negative | social | impact | supply | chain | action | taken88-94 | , | 96-98 | , | 100-101 | Customer | Privacy | GRI | 3 | Material | Topics | 20213-3 | Management | material | topic74-75 | GRI | 418 | Customer | Privacy | 2016418-1 | Substantiated | complaint | concerning | breach | customer | privacy | loss | customer | data74-75 | 143 | Lenovo | Group | Limited | 202324 | Environmental | , | Social | Governance | ReportExecutive | letter | About | report | Environmental | Social | Governance | Global | supply | chain | Consolidated | metric | EMS | performance | , | objective | target | Long-term | KPI | progress | Appendix | The | Hong | Kong | Stock | Exchanges | ESG | Reporting | Guide | content | index | Comply | explain | ProvisionsPage | number | ( | ) | Other | reference | material | ( | ) | Subject | Area | A | . |
+
+Environmental Aspect A1 Emissions General Disclosure Information ( ) policy ( b ) compliance relevant law regulation significant impact issuer relating air greenhouse gas emission , discharge water land , generation hazardous nonhazardous waste .
+Note Air emission include NOx , SOx , pollutant regulated national law regulation .
+Greenhouse gas include carbon dioxide , methane , nitrous oxide , hydrofluorocarbon , perfluorocarbon sulphur hexafluoride .
+Hazardous waste defined national regulations.18-27 The Company aware significant non-compliance incident related air greenhouse gas emission , discharge water land , generation hazardous nonhazardous waste .
+KPI A1.1The type emission respective emission data.109-110 KPI A1.2Direct ( Scope 1 ) energy indirect ( Scope 2 ) greenhouse gas emission ( tonne ) , appropriate , intensity ( e. g. per unit production volume , per facility ) .109-110 Scope 1 emission 109-110 Scope 2 emission 109-110 KPI A1.3Total hazardous waste produced ( tonne ) , appropriate , intensity ( e. g. per unit production volume , per facility ) .113 KPI A1.4Total nonhazardous waste produced ( tonne ) , appropriate , intensity ( e. g. per unit production volume , per facility ) .113 KPI A1.5Description emission target ( ) set step taken achieve them.20-21 , 119 , 122 , 124-125 , 128 KPI A1.6Description hazardous nonhazardous waste handled , description reduction target ( ) set step taken achieve them.25-26 , 120-124 , 128-129 144 Lenovo Group Limited 202324 Environmental , Social Governance ReportComply explain ProvisionsPage number ( ) Other reference material ( ) Aspect A2 Use Resources General Disclosure Policies efficient use resource , including energy , water raw material .
+Note Resources may used production , storage , transportation , building , electronic equipment , etc.18-41 KPI A2.1Direct andor indirect energy consumption type ( e. g. electricity , gas oil ) total ( kWh 000s ) intensity ( e. g. per unit production volume , per facility ) .111-112 KPI A2.2Water consumption total intensity ( e. g. per unit production volume , per facility ) .26-27 , 114 KPI A2.3Description energy use efficiency target ( ) set step taken achieve them.23-24 , 32-33 , 118 , 123 , 128 KPI A2.4Description whether issue sourcing water fit purpose , water efficiency target ( ) set step taken achieve them.26-27 , 123 KPI A2.5Total packaging material used finished product ( tonne ) , applicable , reference per unit produced.115 Aspect A3 The Environment Natural Resources General Disclosure Policies minimising issuer significant impact environment natural resources.18-41 KPI A3.1Description significant impact activity environment natural resource action taken manage them.18-41 , 118-125 , 128-131 Aspect A4 Climate Change General Disclosure Policies identification mitigation significant climate-related issue impacted , may impact , issuer.18-25 KPI A4.1Description significant climate-related issue impacted , may impact , issuer , action taken manage them.18-25 , 118-125 , 128-131 145 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Comply explain ProvisionsPage number ( ) Other reference material ( ) Subject Area B .
+Social Employment Labour Practices Aspect B1 Employment General Disclosure Information ( ) policy ( b ) compliance relevant law regulation significant impact issuer relating compensation dismissal , recruitment promotion , working hour , rest period , equal opportunity , diversity , anti-discrimination , benefit welfare.44 , 51-63 The Company aware significant non-compliance incident related compensation dismissal , recruitment promotion , working hour , rest period , equal opportunity , diversity , anti-discrimination , benefit welfare .
+KPI B1.1Total workforce gender , employment type ( example , full- part-time ) , age group geographical region.104 KPI B1.2Employee turnover rate gender , age group geographical region.106 Aspect B2 Health Safety General Disclosure Information ( ) policy ( b ) compliance relevant law regulation significant impact issuer relating providing safe working environment protecting employee occupational hazards.45-49 The Company aware significant non-compliance incident related providing safe working environment protecting employee occupational hazard .
+KPI B2.1Number rate work-related fatality occurred past three year including reporting year.107 KPI B2.2Lost day due work injury.107 KPI B2.3Description occupational health safety measure adopted , implemented monitored.45-49 146 Lenovo Group Limited 202324 Environmental , Social Governance ReportComply explain ProvisionsPage number ( ) Other reference material ( ) Aspect B3 Development Training General Disclosure Policies improving employee knowledge skill discharging duty work .
+Description training activity .
+Note Training refers vocational training .
+It may include internal external course paid employer.59-61 KPI B3.1The percentage employee trained gender employee category ( e. g. senior management , middle management ) .106 KPI B3.2The average training hour completed per employee gender employee category.107 Aspect B4 Labour Standards General Disclosure Information ( ) policy ( b ) compliance relevant law regulation significant impact issuer relating preventing child forced labour.44 , 96-97 KPI B4.1Description measure review employment practice avoid child forced labour.44 , 96-97 KPI B4.2Description step taken eliminate practice discovered.44 , 96-97 Operating Practices Aspect B5 Supply Chain Management General Disclosure Policies managing environmental social risk supply chain.88-98 , 100-101 KPI B5.1Number supplier geographical region.88 KPI B5.2Description practice relating engaging supplier , number supplier practice implemented , implemented monitored.88-98 , 100-101 KPI B5.3Description practice used identify environmental social risk along supply chain , implemented monitored.88-98 , 100-101 KPI B5.4Description practice used promote environmentally preferable product service selecting supplier , implemented monitored.88-98 , 100-101 147 Lenovo Group Limited 202324 Environmental , Social Governance ReportExecutive letter About report Environmental Social Governance Global supply chain Consolidated metric EMS performance , objective target Long-term KPI progress Appendix Comply explain ProvisionsPage number ( ) Other reference material ( ) Aspect B6 Product Responsibility General Disclosure Information ( ) policy ( b ) compliance relevant law regulation significant impact issuer relating health safety , advertising , labelling privacy matter relating product service provided method redress.79-81 The Company aware significant non-compliance incident related health safety , advertising , labelling privacy matter relating product service provided method redress .
+KPI B6.1Percentage total product sold shipped subject recall safety health reasons.81 KPI B6.2Number product service related complaint received dealt with.78-79 Due confidential business constraint , Company disclose quantitative result product service-related complaint .
+KPI B6.3Description practice relating observing protecting intellectual property rights.74 KPI B6.4Description quality assurance process recall procedures.79-81 KPI B6.5Description consumer data protection privacy policy , implemented monitored.74-75 Aspect B7 Anti-corruption General Disclosure Information ( ) policy ( b ) compliance relevant law regulation significant impact issuer relating bribery , extortion , fraud money laundering.73-74 KPI B7.1Number concluded legal case regarding corrupt practice brought issuer employee reporting period outcome cases.73 KPI B7.2Description preventive measure whistle-blowing procedure , implemented monitored.77-78 KPI B7.3Description anti-corruption training provided director staff.73 148 Lenovo Group Limited 202324 Environmental , Social Governance ReportComply explain ProvisionsPage number ( ) Other reference material ( ) Community Aspect B8 Community Investment General Disclosure Policies community engagement understand need community issuer operates ensure activity take consideration community interests.64-66 KPI B8.1Focus area contribution ( e. g. education , environmental concern , labour need , health , culture , sport ) .64-66 , 108 KPI B8.2Resources contributed ( e. g. money time ) focus area.64-66 , 108 www .
+lenovo .
+com

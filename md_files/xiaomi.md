@@ -1,0 +1,2068 @@
+# Preprocessed ESG Data for xiaomi
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 1 | About | Report | About | Xiaomi | Board | Statement | Stakeholder | Engagement | Materiality | Assessment | Technology | Created | Better | Lives | Xiaomis | Zero | Carbon | Philosophy | Shared | Success | Partners | Governance | Compliance | Key | Performance | Charimans | Address | 2 | About | Report | About | Xiaomi | Board | Statement | Stakeholder | Engagement | Materiality | Assessment | Technology | Created | Better | Lives | Xiaomis | Zero | Carbon | Philosophy | Shared | Success | Partners | Governance | Compliance | Key | Performance | Charimans | Address | Content | Charimans | Address | About | Report | About | Xiaomi | Board | StatementBoard | Statement | Materiality | Assessment | Key | Performance01 | 02 | 03 | 0405 | 06 | 83 | Exploration | Accessibility | Technology | Product | Service | Quality | Data | Security | Privacy | Protection | Privacy | ProtectionTalent | Nurturing | Sustainable | Supply | Chain | Social | Welfare | Community | Engagement | Climate | Mitigation | Adaptation | Waste | Management | Circular | Economy | Natural | Resources | BiodiversityCorporate | Governance | Business | Ethics12 | 22 | 27 | 3053 | 61 | 70 | 34 | 42 | 4977 | 80Technology | Created | Better | Lives | Shared | Success | Partners | Xiaomis | Zero | Carbon | Philosophy | Governance | Compliance | 01 | About | Report | About | Xiaomi | Board | Statement | Stakeholder | Engagement | Materiality | Assessment | Technology | Created | Better | Lives | Xiaomis | Zero | Carbon | Philosophy | Shared | Success | Partners | Governance | Compliance | Key | Performance | Charimans | Address | Charimans | Address | In | August | 2023 | , | announced | upgrade | technology | strategy | , | selecting | technology | area | offer | long-term | value | human | civilization | committing | sustained | long-term | investment | . |
+
+As global technology company , Xiaomis success longer confined short-term economic gain founded harmonious coexistence environmental , social , governance ( ESG ) factor .
+The ESG practice become crucial driving force strategic upgrade , steering u towards sustainable responsible development path .
+In era globalization booming information technology , environmental responsibility become indispensable corporate operation .
+We solemnly pledge 2040 , existing operation achieve carbon neutrality use 100 % renewable energy .
+This commitment reflects firm determination demonstrates Xiaomis proactive stance responsible technology company addressing global climate change challenge .
+To achieve Paris Agreements goal limiting global warming 1.5C , Xiaomi steadfastly adheres technology-driven core philosophy .
+We prioritize achieving carbon neutrality enhancing energy efficiency , employing clean technology , promoting smart manufacturing innovation .
+Simultaneously , actively lead green low-carbon transformation entire value chain , committed providing partner greener , innovative , sustainable product service build brighter , low- carbon future collectively .
+Regarding social responsibility , uphold fundamental principle helping needy , talent empowerment , technological innovation .
+We actively practice founding mission give back society ensure benefit technological progress reach everyone .
+We well aware Xiaomis success intertwined societal support .
+Therefore , committed continually contributing society realizing Xiaomis social value .
+From governance level , deeply integrated ESG management business operation management system , treating core strategic element driving company continuous development .
+We committed becoming leader cutting-edge global technology , recognizing critical role natural resource product service .
+We strengthen mutually beneficial relationship partner adhere principle compliant operation ensure company robust growth .
+We deeply implement Xiaomis sustainability philosophy aspire contribute global sustainable development .
+Herein , I extend heartfelt gratitude every partner user unwavering support trust .
+We shall collectively look forward Xiaomis exciting innovation breakthrough auspex technological prowess .
+Together , Let u forge prosperous , splendid , harmonious future clean inclusive technology , exceptional product service experience , optimized corporate operation .
+01Founder , Chairman CEO Jun Lei 02 Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance About Report About Report This sixth environmental , social , governance ( ESG ) report published Xiaomi Corporation ( Xiaomi , Group , weus ) , aim present , objective impartial basis , ESG strategy , management , implementation progress Xiaomi subsidiary included Annual Report 2023 .
+The Report prepared accordance Appendix C2 Environmental , Social Governance Reporting Guide Listing Rules Stock Exchange Hong Kong Limited ( HKEx ) , reference Global Reporting Initiative ( GRI ) sustainability reporting Standards ( 2021 ) , Hardware Sustainability Accounting Standard Sustainability Accounting Standards Board ( SASB ) , Recommendations Task Force Climate- related Financial Disclosures ( TCFD ) , United Nations Sustainable Development Goals ( UNSDGs ) .
+In preparation Report , adhered reporting principle Materiality , Quantitative , Balance , Consistency , taking account Accuracy , Balance , Clarity , Comparability , Completeness , Timeliness , Verifiability , Sustainability Context define reporting boundary ensuring proper presentation reported information .
+The Group entrusted BSI Management Systems Certification ( Beijing ) Co. , Ltd. perform reasonable assurance selected ESG KPIs accordance international assurance standard , AA1000 Assurance Standard V3 , GRI sustainability reporting Standards ( 2021 ) .
+For detailed assurance procedure assurance report conclusion , please refer attachment Independent Assurance Statement .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| This | Report | cover | period | January | 1 | , | 2023 | , | December | 31 | , | 2023 | ( | year | reporting | period | ) | present | information | wider | time | frame | spanning | 2023 | enhance | data | comparability | continuity | . |
+
+The information case within Report primarily cited Groups statistical report , official document , financial statement 2023 .
+Unless otherwise specified , currency amount mentioned report measured RMB .
+The Group undertakes false record misleading statement Report , take responsibility authenticity , accuracy , completeness information Report .
+It recommended read Report conjunction section titled Corporate Governance Report contained Annual Report , well Sustainability page ( httpswww .
+mi .
+comglobalabout sustainability ) Groups official website , Xiaomi Corporations TCFD Report 2023 .
+This Report published Chinese English April 2024 .
+In event discrepancy Chinese English version , Chinese version shall prevail .
+If suggestion comment report , please contact Xiaomi following mean E-mail mi-esgxiaomi .
+com 03 About Report Charimans Address Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance About Xiaomi About Xiaomi Xiaomi consumer electronics smart manufacturing company smartphones smart hardware connected IoT platform core , smartphone shipment among global top 3 .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | December | 2023 | , | global | monthly | active | user | ( | MAU | ) | Xiaomi1 | reached | 641 | million | , | representing | year-on-year | increase | 10.2 | % | . |
+
+Xiaomi also established world leading consumer AIoT2 platform , 740.0 million smart device connected ( excluding smartphones , laptop , tablet ) December 31 , 2023 .
+In 2023 , continued make significant progress smartphone premiumization strategy .
+The Xiaomi 14 Series , flagship smartphone launched October 2023 , garnered widespread acclaim leading-edge technology , exquisite design , exceptional imaging , excellent user experience .
+1 Note Including smartphones tablet .
+2 AIoT Artificial Intelligence Things .
+In August 2023 , introduced new goal 20202030 , invest foundational core technology become global leader evolving realm cutting-edge technology .
+In October 2023 , upgraded corporate strategy Human Car Home unveiled new operating system , Xiaomi HyperOS .
+In December 2023 , held Xiaomi EV Technology Launch event , unveiling Xiaomi EVs five core self-developed technology E-Motor , Battery , Xiaomi HyperCasting Technology , Smart Cabin , Autonomous Driving .
+We also officially debuted Xiaomi SU7 Series .
+In pursuit strategic goal , always adhere commitment enriching improving user life experience .
+We constantly promoting technological innovation , aiming build platform excellence international arena smart technology , lead new trend industry development , present richer colorful smart life experience user around world .
+04 About Report Charimans Address About Xiaomi Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Board StatementBoard Statement Xiaomi implemented effective strategy balance environmental social impact business goal promote sustainable development Group .
+The Board Directors Xiaomi ( Board ) firmly belief continuous advancement ESG management framework crucial sustainable development Group .
+Xiaomi continue accelerate business growth reducing ESG risk increasing ESG opportunity , contribute sustainable society business .
+Therefore , member Group committed continuously exploring improving ESG system driving Xiaomi towards sustainable future .
+To end , Board appointed Corporate Governance Committee ( CGC ) oversee ESG issue Xiaomi , assistance Groups Sustainability Committee ( SC ) .
+In addition , Group integrated key ESG risk comprehensive risk management system .
+Senior management business director engaged assessing key ESG risk related business .
+By identifying assessing probability , impact , trend key ESG risk , Xiaomi Corporation developed corresponding risk response measure .
+The Board review key ESG- related risk regular basis advises risk management approach .
+Xiaomi Corporation continues develop improve Groups ESG strategy system based existing ESG strategy .
+On bi-annual basis , Board collect analyzes data required assessing ESG risk , synchronously discusses review relevant strategy measure .
+In manner , evaluates comprehensive impact various ESG strategy Groups overall finance scenario analysis performance strategy , ensuring alignment Groups development strategy .
+During reporting period , Board actively participated assessment ESG risk opportunity identified important matter .
+It focused supply chain risk , product service quality risk , among others .
+The Audit Committee assisted Board senior management overseeing Groups risk management practice , well design , implementation , management internal control system .
+Details found Corporate Governance Report section Groups Annual Report , reviewed approved Board .
+The Board prioritizes gender diversity Board membership equality inclusion undertaking .
+It continues promote diverse perspective corporate governance , higher gender awareness , gender equality within organization .
+In January 2024 , Board reviewed , scrutinized , approved appointment female director .
+For detail , please refer Corporate Governance Report Annual Report .
+In 2023 , Board looked ESG issue substantially impacted business closely concerned Xiaomis stakeholder , including ESG strategy progress sub-issues .
+The assessment process result detailed Stakeholder Engagement Materiality Assessment section Report .
+This year , Board reviewed Greenhouse Gas ( GHG ) emission reduction target Xiaomi Corporation .
+For detail , please refer GHG Emission Reduction Target Carbon Footprint section Report .
+The Board also reviewed evaluated Xiaomis operational environmental target delivery progress latest adjustment target provided recommendation change accordingly .
+Details found Environmental Target Setting Review section Report .
+This Report reviewed approved Board March 19 , 2024 .
+04 05 About Report Charimans Address About Xiaomi Board Statement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Stakeholder EngagementStakeholder Engagement At Xiaomi , actively listen respond expectation stakeholder , uphold transparent disclosure , release update throughout year Sustainability page ( httpswww .
+mi .
+comglobalaboutsustainability ) .
+We established effective communication mechanism diverse communication channel stakeholder material issue ensure opinion recommendation integrated decision-making process .
+We endeavor strengthen positive relationship stakeholder strive mutual benefit win-win outcome sustainability issue .
+Key Stakeholder Issues Most Concerned Main Communication Channels UsersProduct service quality Data security privacy protection Sci-tech innovation Data inclusionSales channel , official website application , product information disclosure , user service channel , feedback communication channel , product launch event , social medium , Xiaomi Fan activity Shareholders InvestorsRisk management Corporate governance Sci-tech innovation Corporate strategy business return Sustainability indicatorsAnnual general meeting , annual report interim report , earnings announcement , investor meeting event , official website , press releasesannouncements , survey , questionnaire EmployeesEmployee right communication Employee development talent nurturing Employee wellbeing Corporate culture Inclusion diversity Work environmentWork communication meeting , employee feedback email box , internal office software , labor union , employee service channel , organizational ability survey , training , internal announcement , whistleblowing channel SuppliersLabor right Business ethic Compliance stewardship Supply chain continuity Environmental social issuesExecutive dialogue , supplier conference , business technical collaboration , supplier audit , empowerment training , survey , dialogue reporting mechanismsKey Stakeholder Issues Most Concerned Main Communication Channels OperatorsProduct quality Technological innovation Information security privacy protection Sustainability indicator esponsible purchasingExecutive dialogue , synergy collaboration , sustainability seminar , survey questionnaire response , third-party audit RegulatorsEconomic impact Legal regulatory compliance Business ethic Occupational health safety Fair competitionRegular inquiry , policy consultation , executive meeting , reporting procedure , on-site inspection , opinion contribution , meeting communication government agency International organization non-governmental organization ( NGOs ) associationsClimate change environmental impact Human right stewardship Information disclosure Community engagement Circular economy Natural resource biodiversitySocial medium , industry conference , forum working group , seminar , project- based collaboration , survey questionnaire response MediaInformation disclosure Business strategy Data security privacy protection Sustainability strategyThe official website , social medium , press conference , press release announcement , medium interview CommunityEnvironmental impact Local employment economic Growth Community welfare engagement Natural resource biological diversityCommunity activity , press conference , job fair , charity work , social medium 06 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Technology Created Better Lives Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Materiality Assessment Materiality Assessment Defining Objectives Scope We conduct annual review analysis material issue .
+Our major stakeholder materiality assessment include investor , Board Directors , senior management , partner , employee , key representative internal external role organization .
+To ensure Xiaomi adaptable rapid change issue , emerging issue , sustainability demand longer term , established ongoing review analysis process .
+It serf integral component materiality assessment analysis mechanism ensure continued relevance responsiveness .
+Throughout review analysis issue , adhered double materiality principle .
+It dictate sustainability issue pose significant impact society environment , also Xiaomis strategic goal , value driver , competitive position , long-term value creation shareholder , considered material issue potential ESG attribute .
+Our materiality review analysis aim identify consider key sustainability risk opportunity achieve following objective Organizational scope boundary 061 .
+Identifying key sustainability risk opportunity related Xiaomis business operation , cash flow , legal regulatory responsibility , access capital 2 .
+Optimizing sustainability strategy aligning business target 3 .
+Providing sustainability information Xiaomis broader business strategy , focus sustainable growth 4 .
+Determining core issue included risk management , sustainability , annual operation 5 .
+Engaging internal external stakeholder collect diverse opinion 6 .
+Predicting sustainability issue may impact Xiaomis development trajectory 7 .
+Setting target enhance Xiaomis business performance effort sustainable development .
+Our materiality review analysis keep global perspective well eye operation specific region .
+The review analysis cover various business unit , including smartphones , Internet Things ( IoT ) lifestyle product , Internet service , across Group .
+We take account key issue throughout value chain , including operation , upstream ( sustainable supply chain ) , downstream ( waste management circular economy ) .
+07 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Technology Created Better Lives Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Materiality Assessment In initial stage materiality assessment , ESG team , risk management team , senior management collaborated conduct comprehensive review information source create broad list potential material issue .
+During process , considered 3 The Paris Agreement httpsunfccc .
+intsitesdefaultfilesresourceparisagreement_publication .
+pdf 4 Guiding Principles Business Human Rights httpswww .
+ohchr .
+orgsitesdefaultfilesDocumentsPublicationsGuidingPrinciplesBusinessHR_EN .
+pdf 5 G20OECD Principles Corporate Governance httpsdoi .
+org10.1787ed750b30-enWe given comprehensive evaluation risk opportunity within Xiaomis context arising material issue relevant external trend .
+This includes assessing risk increased green transition cost associated issue waste management circular economy , identifying opportunity potential cost saving efficiency enhancement issue product service quality , recognizing potential new revenue generated green product sustainable practice issue climate mitigation adaptation .
+Moreover , value engagement external stakeholder .
+We effectively defined explained issue communication solicit valuable feedback .
+This process entail identifying stakeholder significant impact Xiaomi , special focus exert influence u , investor , user , supply chain partner , medium .
+Identifying Potential Issues Risks opportunity level business operation Group Industry practice comparison industry benchmark Internal data reflecting business operation sustainability impact year International standard , convention demand major regulator , including Paris Agreemen3 , Guiding Principles Business Human Rights4 , G20OECD Principles Corporate Governance5 Influential evaluation index corporate ESG performance , Dow Jones Sustainability World Index , ESG disclosure framework scoring methodology , Carbon Disclosure Project ( CDP ) More extensive ESG trend challenge around globe Media report Xiaomis business area .
+08 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Technology Created Better Lives Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Materiality AssessmentWe strongly believe utilizing business strategy address ESG issue fundamental approach achieving sustainable development .
+To gain deeper insight issue , engaged extensive communication internal external stakeholder .
+During process , utilized various method , questionnaire survey ( 2,046 valid response collected survey ) , on-site visit , essential meeting , telephone consultation , online platform communication .
+These effort allowed u refine list material issue ensure balanced comprehensive representation Xiaomis sustainability issue contemporary perspective .
+In mid-stage materiality assessment , placed particular emphasis internal relationship potential overlap material topic , alignment Xiaomis business growth target , potential interaction .
+By gaining insight complex relationship , accurately identified potential systemic risk opportunity .
+Additionally , took holistic view examine issue interacts factor , thus affecting Xiaomis business operation well-being stakeholder .
+This process includes Demonstrating relationship issue relevant business role , designing implementing quantitative review analysis mechanism Identifying stakeholder associated issue assessing significance impact , focus impact Xiaomis value creation Assessing strategic importance issue implementing strategy , responding current future risk , identifying market opportunity , fostering business development .
+Assessing quantifying utmost actual potential sustainability impact issue , well relevance Groups major risk .
+In way , determined material issue prioritiesCollating , Determining , Prioritizing Issues Material Issue Governance Key Business Areas Demonstrated Product service quality Smartphones , IoT lifestyle product , Internet service Exploration accessibility technology Smartphones , IoT lifestyle product , Internet service , innovative business Sustainable supply chain Smartphones , IoT lifestyle product , innovative business Climate mitigation adaptation Smartphones Data security privacy protection Smartphones , IoT lifestyle product , internet service Talent development Management infrastructure Corporate governance Management infrastructure Business ethic Management infrastructure Waste management circular economy Smartphones IoT lifestyle product Natural resource biodiversity Management infrastructure Social welfare community engagement Smartphones , IoT lifestyle product , innovative business 09 We also determined following three key issue analyzed strategy measure We believe symbiotic relationship ESG consideration business growth .
+Xiaomi excels solving problem business efficiency .
+We integrated material issue identified Groups risk management strategy ensure applicability consistency analysis result .
+Material Issue Commitment Importance Xiaomis Long-Term Value Strategy Product service qualityAs always , oriented quality strive industry first quality reputation .
+We treat user wholeheartedly , place user center , make friend .
+We provide user direct effective solution warm service .
+We emphasize quality every aspect , including RD , manufacturing , marketing , sale , delivery service .
+Product service quality key achieving long-term value enhancing industry competitiveness .
+Superior quality improve user experience reduce resource waste environmental impact caused product damage .
+We continue deepen quality reform , adhere principle quality first , pursue industry benchmark , place user core .
+In way , ensure every product meet high standard Xiaomi brand drive Companys long-term development brand reputation enhancement global market .
+Sustainable supply chainWherever supplier operate , seek cooperate responsibly win-win outcome .
+We actively support business sustainability objective global supplier throughout business technology partnership .
+We focus social environmental impact supply chain respect community ecosystem operate .
+We ensure agree supplier protecting environment , safeguarding employee right , promoting employee health well- , improving production quality , complying business ethic .
+We also collaborate address social environmental issue arising use raw material .
+The ultimate efficiency pursued Xiaomi separated outstanding performance global supply chain partner .
+Sustainable supply chain management effectively reduce Xiaomis operating risk enhance stability adaptability supply chain .
+We reached consensus supply chain partner focus key area protecting environment , guarding employee right , promoting employee health benefit , improving production quality , observing business ethic .
+We also collaborate address social environmental issue arising use raw material .
+We continuously adjust optimize supply chain business strategy practice urge supplier improve governance risk management .
+We collaborate supplier supervising , assisting , communicating promote implementation effective management Programs supplier .
+In way , ensure Xiaomis sustainable supply chain commitment met product service delivered Xiaomi user line Groups ESG strategy .
+Exploration accessibility technologyAt Xiaomi , spare effort practicing mission relentlessly build amazing product honest price let everyone world enjoy better life innovative technology .
+In 2023 , released new technology strategy .
+We put effort underlying technology , adhere long- term investment , deeply integrate software hardware , seek empowerment Artificial Intelligence ( AI ) ( Software X Hardware ) AI .
+To achieve long-term value Xiaomi , necessary promote innovation business line .
+To end , continue investment research development ( RD ) pursue breakthrough self-developed technological innovation provide customer experience honest price .
+We dedicated technology field long-term value human civilisation insist long-lasting continuous investment .
+We encourage innovation pursuit technological excellence articulating Engineer Culture , advocate teamwork professional growth engineer .
+Xiaomis technology RD presence entered 12 technology area 99 segment , including self-developed operating system , self-developed basic chip , 5G mobile communication technology .
+09About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Technology Created Better Lives Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Materiality Assessment 10 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Technology Created Better Lives Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Materiality Assessment During reporting period , Groups Board Directors senior management team looked back materiality review analysis process fully discussed result .
+Subsequently , gave reply provided recommendation sustainable development action based broader business strategy .
+Additionally , took account feedback key stakeholder industry expert regarding result materiality review analysis .
+We implemented ongoing communication mechanism ensure continual strength materiality review analysis process .
+Participation Management Crucial Feedback 11 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Technology Created Better Lives Technology Created Better Lives Exploration Accessibility Technology Product Service Quality Data Security Privacy Protection Privacy Protection01 12 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Technology Created Better LivesExploration Accessibility Technology At Xiaomi , regard innovative technological core product service crucial aspect sustainable business operation .
+The development Xiaomis technology system began integrated technological innovation , progressed autonomous technological innovation , delved disruptive technological innovation attain mastery dominance key technological domain .
+We continually push boundary technology , seeking optimal solution technology interaction .
+We established overall technical architecture wide coverage , great span , depth around six level Perception , Communication , AI , System , Computation , Output .
+With support improved technological framework , committed integrating multiple technological capability , increasing RD investment , providing user convenient , affordable , widely applicable product technology .
+Xiaomis technology RD endeavor span across 12 technology area , including 5G mobile communication technology , big data , cloud computing , AI .
+Furthermore , leveraging smart manufacturing , effort expanded robotics , unmanned factory , smart electric vehicle ( EVs ) , totally 99 segment .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| By | end | 2023 | , | established | 10 | RD | center | employed | RD | team | 17,800 | , | accounting | 53 | % | total | workforce | . |
+| Meanwhile | , | RD | expense | reached | RMB19.1 | billion | 2023 | , | 19.2 | % | compared | previous | year | . |
+
+We plan invest RMB100 billion RD next five year ( 20222026 ) .
+established 10 RD centersRD team 17,800accounting 53 % total workforceour RD expense reached RMB19.1 billion 2023up 19.2 % compared previous yearSimultaneously , committed collaborating partner broaden technology education opportunity wider audience promote digital inclusion , addition technological equality extensive technological RD well application effort .
+Over past decade , continuously delivered leading technology product growing user base , driven deep underlying technological innovation optimal efficiency throughout entire chain .
+Through Xiaomi Ecosystem product portfolio , also made unique contribution global digital inclusion technological equality development , establishing world leading consumer AIoT platform .
+To end , upgraded Xiaomis technology strategy , focusing technology field long-term value human civilization insisting long-lasting continuous investment .
+12 13 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Technology Created Better LivesExploration Technology Product Innovation Xiaomi HyperOS In era everything interconnected , IoT device involve huge number complex operating system branch .
+The presence various system protocol often pose challenge connectivity ecosystem .
+In response challenge , 2023 , consolidated underlying operating system four system Xiaomi MIUI , Vela , Mina , CarOS unified solution known Xiaomi HyperOS , human-centered operating system Human Car Home smart ecosystem .
+The system committed achieving following goalsXiaomi HyperOS , reconstructed underlying structure , maximizes efficient utilization device hardware capability Xiaomis diverse product range .
+With underlying support 200 processor platform 20 common file system , Xiaomi HyperOS caters hundred device category thousand commodity , significantly enhancing single-end performance device .
+Through precise hardware resource scheduling , Xiaomi HyperOS optimizes device performance efficiency .
+On lightweight device limited arithmetic power , Xiaomi HyperOS delivers user smoother operating experience superior energy performance advanced performance scheduling .
+Xiaomi HyperOS facilitates seamless connection real-time interconnection device , eliminating barrier various hardware harmonizing connected device .
+Xiaomi independently developed Xiaomi HyperConnect , cross-end interconnection framework operates atop core system .
+Xiaomi HyperConnect enables real-time networking collaboration among ecological device also support swift cross-device communication .
+Additionally , offer feature network discovery , data transmission , message distribution , thereby providing user unprecedented Internet experience .
+Xiaomi HyperOS deeply integrates large language model ( LLM ) technology creates eight major subsystem including AI subsystem .
+These subsystem establish intelligent operating environment , core AI subsystem bolster individual device AI capability make entire ecosystem smarter .
+This advancement enables device proactively comprehend user need respond accordingly .
+Leveraging LLM technology , system understand user habit across device offer personalized automation suggestion .
+Xiaomi HyperOS committed principle openness strives foster open smart ecosystem .
+We open cross-end interconnection framework capability Xiaomi HyperConnect application developer smart hardware manufacturer .
+At present , 9,000 smart hardware device manufacturer across 200 category access system .
+Xiaomis self-developed Xiaomi Vela also open-sourced IoT developers6 support global developer community .
+For information , please refer Xiaomi HyperOS Technical White Paper7 .
+6 Xiaomis IoT developer platform httpsiot .
+mi .
+comvelalanguageen 7 Xiaomi HyperOS Technical White Paper httpscdn-file .
+hyperos .
+mi .
+comhyperos-file 小米澎湃 OS技术白皮书 V1.0 .
+pdfXiaomi HyperOSOptimal performance individual devicesefficient connectivityMore convenient An open ecosystem Strong privacy security acrossAI empowerment -- becoming intelligent brain entire ecosystem provides proactive service user device system 14 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Technology Created Better LivesEverything Interconnected In strategic practice Human Car Home smart ecosystem , established world largest consumer- grade AIoT platform , leading global smart living innovative model continual enhancement interconnectivity .
+Since development Xiaomi ecosystem 2013 , team dedicated decade effort harnessing algorithm smartphones AIoT device .
+Our achievement include bionic quadruped robot MiLM-6B , self- developed 6B large language model ( LLM ) , ranked first among LLMs parameter scale reputable Chinese review list C-EVAL CMMLU .
+Xiaomis smart hardware entering countless home penetrating various life scenario .
+With introduction smart home product dozen category , Xiaomi Smart Speaker , robot vacuum , smart TVs , touched upon every aspect user life .
+Xiaomi become world largest consumer IoT platform , 740 million device ( excluding smartphones , tablet , laptop ) connected AIoT platform , year-on-year increase 25.5 % .
+The number user possessing five device ( excluding smartphones , tablet , laptop ) connected Xiaomis AIoT platform reached 14.5 million , year-on-year increase 25.3 % .
+Moreover , Xiaomi AIoT platform smart hardware ecosystem comprehensive category coverage .
+It encompasses 200 major category smart home appliance cater 95 % life scenario , continuously spreading intelligence .
+The interconnection smart home product delivered utmost convenience unparalleled smart living experience user around world .
+While leading industry AIoT technology , committed fostering technological innovation advancement within ecological chain partner .
+In November 2023 , hosted IoT Ecosystem Partner Conference , unveiled Open-source Sharing Program IoT ecosystem partner .
+Through initiative open-sourcing Vela introduction Xiaomi HyperOS Connect technology brand , strive empower smart ecosystem partner , practitioner home industry , individual developer integrate seamlessly Xiaomi AIoT ecosystem join hand build world largest Human Car Home smart ecosystem .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 1414 | 15 | Xiaomi | EV | In | December | 2023 | , | unveiled | groundbreaking | progress | five | key | technology | smart | EVs | E-Motor | , | Battery | , | Xiaomi | HyperCasting | Technology | , | Xiaomi | Pilot | Autonomous | Driving | , | Smart | Cabin | . |
+
+We reimagining technology stack defines automotive industry , starting underlying core technology , ensure Xiaomi EV lead aspect transportation industry evolution sustainable future .
+Collaborating globally leading team , developed Xiaomis HyperEngine series , V6 , featured Xiaomis first full-size high-performance eco-technology sedan , Xiaomi SU7 Series .
+The Xiaomi HyperEngine V6 delivers maximum power output 220 kW maximum torque 400 Nm , Xiaomi HyperEngine V6s achieves maximum power 275 kW maximum torque 500 Nm .
+The two HyperEngines boast speed 21,000 rpm , positioning forefront world .
+We developed new super 800-V silicon carbide high-voltage platform , maximum voltage 871 V. With whole-link no-dead- angle thermal safety protection , adopted world stringent thermal failure safety standard At temperature 55C , fully charged battery prevent heat dispersion , even absence operational water cooling system , thereby optimizing energy efficiency .
+For quality assurance , established battery pack factory guarantee performance quality battery source .
+Xiaomis self-developed 9100t Xiaomi HyperCasting Technology Cluster represents significant advancement production efficiency energy conservation compared traditional automobile manufacturing , thus maximizing material efficiency .
+Collaborating national key laboratory material , developed Xiaomi Titans Metal , Xiaomi Hyper Die- Casting alloy material , using self-developed Multi-Material Performance Simulation System ten thousand simulation experiment .
+This alloy ensures robust structural component vehicle guarantee stable performance body .
+These achievement demonstrate Xiaomis unwavering commitment environmental protection , efficiency , safety automobile manufacturing .
+Leveraging Xiaomi HyperCasting Technology , Xiaomi EV prompt new era sustainable development environmental pioneer industry .
+In Xiaomi Pilot Autonomous Driving , developed three key perception technology smart driving , Adaptive BEV Technology , Road-Mapping Foundational Model , Super-Res Occupancy Network Technology .
+Our Adaptive BEV Technology first kind industry , facilitates precise parking scenario wider urban scenario .
+Our Road-Mapping Foundational Model learns complex road condition driver driving habit draw rational driving trajectory .
+Our Super-Res Occupancy Network Technology identify extensive range irregular-shaped obstacle .
+Based Xiaomi HyperOS , Smart Cabin built unified visual interaction system created comprehensive shared ecosystem spanning software hardware , provides user convenient driving experience .
+The Smart Cabin mark Xiaomis Human Car Home smart ecosystem officially closed loop .
+15About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Technology Created Better Lives 16 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Technology Created Better LivesSmart Manufacturing The rise smart manufacturing digital technology driving greater efficiency resource utilization , reducing waste reduction , facilitating ecological restoration .
+As industry spearhead , Xiaomi committed delivering innovative solution manufacturing industry , enabling fully digitalized management system across entire value chain .
+By implementing precise product operation management , reduce cost also increase productivity , highlighting crucial role digital efficiency bolstering business competitiveness .
+Xiaomi actively participates intelligent transformation manufacturing industry practice , investment , collaboration .
+In year , Phase II Xiaomi Smart Factory completed delivered whole .
+By 2024 , upon completion installation commissioning production line , company capacity ten million smartphones annually .
+Our Smart Factory , equipped automated production line , achieved fully automated lights-out production across various process including production management , mechanical processing , packaging , storage , transportation .
+Our smart production line system technology highly self-developed .
+As December 31 , 2023 , Xiaomi obtained 520 patent field smart manufacturing worldwide .
+Xiaomi Smart Factory also serf experimental field new process , new material , new technological pre-research , smart equipment RD , automated production .
+We exporting smart manufacturing solution empower partner manufacturing sector .
+Several supply chain partner already adopted full set Xiaomis smart production process operation system facilitate transition towards highly efficient , low-energy , intelligent manufacturing hub .
+We remain committed leveraging unique experience smart manufacturing drive positive change .
+While enhancing upstream manufacturing sector , collaborate numerous downstream eco-chain company support Chinas transition upgrade towards smart manufacturing Internet efficiency .
+From Smart Factory Smart Manufacturing Xiaomi obtained 520 patent field smart manufacturing worldwideXiaomi Smart Factory implement innovative module platform approach , effectively tackling industry intractable challenge highlighting immense potential fully automated production line .
+The Smart Factory specifically designed match need different material manufacturing process , allowing flexible production quick assembly line alteration user end .
+The solution offer tremendous flexibility allows quick adaptation constantly changing market requirement .
+This creates standardized manufacturing platform could adopted accommodate diverse production need dynamic market demand .
+By combining module different way , 180 type process equipment installed assembly line led reduction line-alteration cost expedition delivery cycle .
+The equipment module reuse rate increased 50 % 80 % .
+In agile production model , first-pass yield rate raised 5 % compared conventional process , production efficiency boost approximately 60 % , significantly reducing unit equipment processing capacity energy consumption .
+Case 17 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Technology Created Better LivesDigital efficiency gradually become key differentiating factor enhacing competitiveness Group country .
+At Xiaomi , developed range advanced digital tool , including AIoT platform , retail management platform , smart manufacturing supply chain management platform .
+These technology enable u create data loop across supply chain manufacturing distribution product user cycle .
+Utilizing big data AI algorithm build central control platform , apply intelligence coordination , prediction , operation multiple scenario , enhancing overall efficiency industry .
+We establish data-based factory integrating data across equipment industrial control data acquisition monitoring operational management enterprise .
+This approach enables automated production , enhances production efficiency , reduces material energy consumption product processing .
+In production stageDigital Smart Operations Extreme efficiency empowering climate action Digitalization data analysis We leverage advanced data analytics optimize resource allocation , reduce energy consumption , minimize waste generation .
+In future , strengthen data-based resource efficiency model , including climate-related indicator analysis , guide sustainable decision- making operation .
+Smart inventory management Leveraging AI big data analysis smart inventory management ensures efficient stock level meet consumer demand minimizing excess inventory emission related storage waste generation .
+Guiding consumer toward making sustainable choice By providing transparent digital flow data product , offer information environmental footprint incentive consumer foster sustainable consumption choice behavior create enjoyable customer experience .
+Product lifecycle management Through end-to-end digitalization , take cradle- to-cradle approach managing product lifecycle , reducing generation waste minimizing demand new virgin resource .
+Value chain climate adaptation By utilizing AI-based stock allocation model , meet consumer demand enable big-data- based product selection , smart stock allocation , one-click sourcing .
+We also predict mitigate impact climate-induced disruption supply chain .
+By optimizing logistics operation improving inventory turnover shipping efficiency , reduce carbon emission help supplier adopt climate-resilient initiative .
+Xiaomi value close collaboration ecosystem partner , including part supplier , manufacturer , logistics company , .
+Together , develop digitalized management system facilitate information sharing synchronized operation , optimizing efficiency entire value chain .
+In supply chain Xiaomis new retail model revolutionized industry fully digitizing every aspect entire process underlying element , encompassing people , good , store , reward , promotion , training .
+We implemented traffic model , user management model establish end-to-end digitalized closed loop , empowering data-driven decision-making business growth .
+Our new retail model employ unified set pricing , model , system capable addressing diverse level , industry trend , market demand , successfully integrating digital infrastructure sustainable development innovation solution ( Ecomagination ) .
+In retail end 18 About Report Charimans Address About Xiaomi Board Statement Stakeholder EngagementIndustry-University Cooperation Xiaomis Accessibility Technology At Xiaomi , long committed fostering deep integration industry , academia , research , cooperated university college nurture young student professional strength , innovation ability , problem-analysis problem-solving capability .
+Through establishment Xiaomi Workshop partnership many university college across China , focus seven key cooperation area ( including Xiaomi Lecture , technology competition , joint innovation training , university-level forum master doctoral student , collaborative industrial research ) .
+These initiative aim empower student employment , incubate innovation entrepreneurship project well transformation industrial research outcome , advance new engineering discipline based integration industry education .
+We developed series bionic robot consumer developer .
+By end 2023 , Xiaomis bionic robot series granted 140 valid patent worldwide .
+More 270 application review , among Humanoid Drummer bionic robot showcased leading industry journal IEEE Spectrum .
+Throughout year , Xiaomi Robotics Team collaborated university college organize numerous robotics competition engage joint research intelligent control intelligent perception quadrupedal robot .
+Additionally , active voicing international conference World Robot Conference 2023 bolster industry development .
+In midst burgeoning digital era , remain steadfast mission let everyone world enjoy better life innovative technology bridging digital divide making information accessible .
+Driven guiding principle , dedicated building equal inclusive digital ecosystem .
+Over year , unwavering commitment maintaining hardware net profit margin 5 % , thus reducing price threshold technological product making technology accessible .
+With business footprint spanning 100 country region around world , strive dismantle economic geographic disparity , ensuring benefit technological advancement reach every corner globe .
+At Xiaomi , embrace value inclusivity , diversity , equality .
+We endeavor make product equal , inclusive , friendly , accessible possible , enabling everyone benefit support Xiaomis technology enjoy better life .
+For decade , prioritized inclusive technology .
+With continued effort accessibility feature adaptation , focus expanded product accessibility human- centered support system people disability .
+Furthermore , recognizing information barrier faced people disability , committed creating barrier-free digital world group providing easy-to-use smart terminal accessible information service .
+At Xiaomi , uphold concept inclusive technology always committed promoting mission inclusive technology technological development application .
+Our goal enable people disability benefit technology also offer technology experience tool cater need user facing difficulty life due social exclusion , situational disabilities8 .
+We prioritize development Human- centered Accessibility Support System , aim gain insight inconvenience caused various disability life diverse perspective , constantly deepen understanding need people disability situational context .
+Leveraging AI technology , Xiaomi HyperOS offer comprehensive service people disability three aspect vision , hearing , body auxiliary feature accessibility haptic feedback , Xiaomi Ambient Sound Recognition , AI Dialing Assistant , provide richer experience user personalized need .
+The Human-centered Accessibility Support System integrated Xiaomi HyperOS , providing user all-around barrier-free interaction experience .
+With rich ecological connection voice control AI Assistant , also serf conduit breaking barrier promote social integration .
+RoboticsVision Accessibility Technology Inclusive Technology 8 Situational disability The term refers disability arise specific situation environment affect people ability interact technology .
+18Materiality Assessment Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Technology Created Better Lives 19 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Technology Created Better LivesCaseHearing Inclusion Vision Inclusion Accessibility Application Smart Homes Continued Innovation Inclusive TechnologyBody Inclusion At Xiaomi , dedicated solving communication challenge hearing impairment scenario .
+Relying speech-to-text technology , Xiaomi Sound Recognition Function ( real-time subtitle ) AI Dailing Assistant solve communication inconvenience daily face-to-face communication scenario traveling shopping , well call scenario , thus significantly improving user communication experience .
+Moreover , Ambient Sound Recognition function effectively supplement user hearing impairment perceiving ambient sound information .
+This technology recognizes 14 key ambient sound , including fire alarm , baby cry , kettle boiling sound , providing critical safety warning information user hearing impairment .
+We extended feature smart home device ( example , Xiaomi Smart Family Screen ) , allows user monitor sound concern user home send real- time notification .
+This provides additional security user hearing impairment home .
+At Xiaomi , put effort enhancing independent private information processing technology visual impairment scenario , catering user operational need .
+Our OCR9 image- text-reading technology solution empower user visual impairment access text information paper document product packaging simplicity precision .
+We also streamlined interaction text-reading technology , implementing automatic reading segmented reading simplify text detection process .
+These enhancement improve efficiency accuracy user screening processing information visual impairment scenario .
+To better cater need user visual impairment , provided accessibility function Read Aloud Selection , Screen Zoom , Text Contrast .
+We introduced new Xiaomi HyperMind technology Xiaomi HyperOS , revolutionizing smart home Active Intelligence innovation significantly enhancing convenience life people complex disability need .
+Transcending limitation traditional command-based smart home , HyperMind leverage perceptual capability encompassing environment , vision , hearing , behavior upon user permission learn user habit preference , based make autonomous decision using AI proactively delivers service appropriate scenario .
+For user limited perception , memory , judgment , decision- making ability , HyperMind serf active assistant even user realizes need user fails complete operation due physical limitation .
+This proactive assistance alleviates user difficulty adapting operation smart home enhances autonomy life .
+Leveraging Xiaomis multifaceted diversified leading technology , hosted fourth Hackathon Technology Competition Group year .
+With deep understanding societal need , Xiaomis engineer contributed Xiaomi wisdom tackling accessibility challenge .
+They introduced AI Identification Glasses feature multi-modal recognition developed ambient sound detection technology gesture interaction intelligent control technology , practically satisfying need user disability .
+Xiaomis engineer remain committed innovating applying accessibility technology benefit million people disability technological advancement .
+At Xiaomi , harness capability technology company assist people physical impairment overcoming life barrier lead convenience fun life .
+We launched first Android phone voice control support , empowering user physical impairment control mobile phone converting hand operation movement voice command .
+This innovation make easier navigate daily life .
+We also provided accessible Touch Hold Delay feature .
+It ensures extended tap mistakenly recognized long press , alleviating difficulty operating mobile phone situation involving physical impairment .
+Xiaomis product design cover wide range usage scenario people hearing impairment .
+For user unable use voice interaction function , gesture control feature Mijia DreamE Light allows customized control smart home device simple gesture , providing efficient easy-to-use alternative .
+Users hearing impairment easily control smart home device , free voice command cumbersome smartphone operation .
+9 OCR Optical Character Recognition .
+It refers technology printed character optically convert character paper document black-and-white dot-matrix image convert character image text using recognition software .
+20 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Technology Created Better Lives Technology Ethics Digital Inclusion Technology Ethics At Xiaomi , place significant emphasis gender , religious , cultural inclusion application AI technology .
+This approach guide u designing product service prioritize need user .
+Under guidance supervision AI Ethics Committee , dedicated upholding ethical guideline adhering regulatory requirement promote digital equality application AI technology .
+We established implemented Xiaomi AI Ethical Principles , address AI law , privacy , security , transparency , accountability , apply Xiaomis product development application .
+Through comprehensive systematic training , raised awareness digital inclusion every employee .
+In field AI , established standard Xiaomi Corporation product accessing LLM algorithm .
+These standard designed govern development application process foster healthy , ethical , secure development Xiaomis product accessing LLM algorithm prevent security , privacy , compliance risk development application process .
+The standard aligned Cybersecurity Law Peoples Republic China , Data Security Law Peoples Republic China , Personal Information Protection Law Peoples Republic China , Law Peoples Republic China Scientific Technological Progress .
+WeImplement compliance process algorithm compliance assessment pre-launch security testing Formulated comprehensive security compliance requirement covering LLM source , algorithm development process , training data10 , model application deployment , well specific requirement safeguard user right interest respect handling transparency user personal information Remove biased hate data raw data cleaning phase Collect data different source scenario increase diversity data source avoid possible data bias discrimination Utilize annotated data train specialized security model assess whether generated content exhibit bias discrimination , continuously iterate LLMs mean reinforcement learning Evaluate model performance using multiple metric across various dimension , prioritizing accuracy utility generated content also security fairness .
+10 Training data All data directly used input model training , including input data training process pre-training , supervised fine-tuning , reinforcement learning .
+21 Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key PerformanceElderly Friendly Retrofits Protection Minors At Xiaomi , actively bridging digital gap elderly cross , facilitating integration digital era enabling reap benefit digital advancement .
+Tailoring solution specific need , introduced numerous elderly-friendly retrofit across mobile phone , smart TVs , smart home device .
+For user going facing difficulty use mobile phone , feature Family Guardian offer invaluable support .
+Moreover , simplified operation path software system , making smoother simpler use smart device .
+Through feature High Volume Mode , Triple-Click Zoom , Read Aloud Selection , elderly-friendly design delivers new experience elderly user comfortably navigate smart device .
+At Xiaomi , always put protection healthy development minor first place .
+As per Law Peoples Republic China Protection Minors , Cybersecurity Law Peoples Republic China , Personal Information Protection Law Peoples Republic China , pertinent law , developed Xiaomi Account Rules Protection Childrens Personal Information , outline collecting , using , transferring , disclosing personal information minor , mandated u inform obtain consent guardian .
+These rule also delineate information collected usage smartphones , smart TVs , audio device .
+Case In Chinese mainland , Xiaomi TVs Kids Channel adheres mission creating childrens platform fun companionship learning play ensure every child enjoys wonderful childhood focus four value aspect safety , growth , fun , companionship .
+With refined service design technological innovation , ensures safe healthy development minor digital world .
+Our Pure Mode rated age-graded design customize content recommendation ensure accurately locate appropriate content meet childrens cognitive comprehension ability .
+In year , launched Museum Cinema popular science channel , enlightenment course , interactive thinking exercise , digital illustrated book , quality resource .
+For detail , please refer Support Education section Report .
+In Chinese mainland year , upgraded content Xiaomi Kids Channel guidance industry first Blue Paper Film TV Viewing Guides Minors jointly developed university .
+The upgrade , covered five major hardware product , namely , smartphones , smart TVs , tablet PCs , stereo , childrens watch , enhanced guardian guidance supervision minor digital behavior .
+We also launched anti-addiction function , film viewing time control , eye protection mode , child lock , posture reminder , protect childrens physical mental health all-around way .
+11 Xiaomi Account Rules Protection Childrens Personal Information httpsstatic .
+account .
+xiaomi .
+comhtmlchildPrivacyen_ US .
+htmlAbout Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better LivesTechnology Created Better Lives 22 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Technology Created Better Lives Product Service Quality Product QualityProduct Quality Management We advocate Big Quality Concept User- centric , Integrating Product Quality , User Experience Service Quality , Full Participation Closed-loop Management Across Lifecycle , always implement management concept Quality Is Lifeline Xiaomi .
+We established comprehensive quality management system quality management target , relentless pursuit deliver ultimate product quality service experience user .
+The Quality Committee Xiaomi Corporation ( Quality Committee ) coordinate quality management whole Group formulates Groups quality policy , objective , quality management mechanism requirement .
+Building upon foundation , business line continuously improves quality management method measure , adhering ISO 9001 quality management system standard .
+Throughout year , business unit smartphones , tablet , laptop , home appliance , smart TVs , IoT product either obtained maintained ISO 9001 management system certification .
+At Xiaomi , always insist providing amazing product honest price .
+We continuously strive maximize product quality user experience refining quality management system , improving management process , performing procedure-based , standardized , IT-based quality management .
+In 2023 , reinitiated quality reform , upgrading focus raising bar striving industry benchmark .
+As part effort , issued Quality Organization Construction Guidelines Xiaomi Corporation guided business unit set Business Quality Committee .
+In way , established robust quality management organization business unit ensured standardized procedure-based quality undertaking .
+We established quality management system distinct Xiaomi characteristic light Xiaomis business model .
+This year , introduced updated program document , Group Quality Manual 2.0 , adding strategic element quality planning medium- long- term objective .
+Aligned Groups development strategy Human x Car x Home smart ecosystem , devised three-year quality plan specific target .
+Our objective include enhancing comprehensively improving maturity business quality management , establishing industry-leading business high-quality delivery system high user experience assurance system , listening understanding user need , improving quality expertise across business chain , continuing foster quality culture put quality first among employee .
+We adopted optimized IPD12 process system establish Mi-IPD , closed-loop system aimed enhancing whole-link hardware quality experience .
+The system designed expedite product cycle , conceptualization market launch , cross-departmental collaboration refined project management .
+Throughout process , remain committed continuous improvement product quality user experience .
+We deeply integrate key department marketing , development , supply , manufacturing , service , finance , procurement , creating flexible efficient cross-functional project team .
+In term quality management , cross-departmental team conduct predictive analysis fault feedback ratio ( FFRs ) , effectively identifying preventing potential homogeneous problem .
+This approach enables issue resolved launch , thereby reducing product risk improving customer satisfaction .
+By leveraging EWP ( Early Warning Program ) alongside medium- long-term closed-loop analysis , monitor every aspect product design production quality continuous improvement , fortifying quality management system .
+Xiaomis quality responsibility division review mechanism ensures individual accountability problem resolution development targeted quality improvement strategy .
+This accountability-to-individual management approach improves efficiency accuracy problem- solving effort .
+In addition , seamless coordination RD service ensures direct transfer customer feedback quality assurance team , allowing precise product quality enhancement align market user need .
+With measure , created all-around quality management closed loop early warning problem-solving , responsibility tracing continuous improvement .
+This robust closed-loop system enables swift response market user feedback , reduces likelihood quality accident , enhances internal management efficiency effectiveness , thus propeling u towards higher quality management objective .
+During year , received 32 external award quality , including CAQ Quality Technical Award China Association Quality three Business Improvement Case Awards China Quality Club .
+During reporting period , Xiaomis product experience product quality accident due health safety issue , Group experience product recall event domestic international market .
+12 IPD Integrated Product Development .
+The IPD management system encompasses complete process product planning , development , lifecycle management customer requirement product retirement .
+23 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Technology Created Better LivesProduct Quality Improvement Initiatives In 2023 , completed 249 product quality improvement project , including Global Continuous Quality Improvement Project Redmi Products , Mobile Phone Manufacturing Yield Improvement Project , Notebook Quality Improvement Enhancement Project , Critical Quality Improvement Project Cabin Voice , Tumble Washer Noise Improvement Project .
+These project cover smartphones , tablet , laptop , major appliance , smart TVs , IoT product .
+We implemented smartphone hardware quality system integrates four dimension design , simulation , testing , after-sales closed loop .
+This structured approach enabled science-based sound quality index system .
+During year , We achieved positive feedback rate 99 % e-commerce platform , net promoter score ( user experience survey based product quality ) increased 20 % three consecutive generation .
+Through comprehensive enhancement camera structure reliability simulation process , developed science-based leading reliability analysis method analysis capability , effectively pre-empting reliability risk .
+We completed construction simulation system key area touch control smartphone display device structure .
+These system integrated project development process continuous iteration upgrading .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| As | end | 2023 | , | Xiaomis | smartphone | simulation | system | undergone | 2,000 | simulation | iteration | intercepted | 450 | risk | . |
+
+We established abnormality management mechanism product line address challenge product line problem management .
+We performed closed-loop management design , testing , production , material , process .
+Furthermore , proposed special study various technology address different hardware issue fully implemented .
+We focus developing optimizing quality index system .
+By establishing information technology intelligent standard , continuously optimized RD quality .
+As result effort , overall FFR smartphone product decreased 36 % compared previous year .
+Quality Awareness Enhancement We prioritize development employee quality awareness .
+This year , launched online offline quality training course covering Groups quality system , product safety compliance requirement , quality management system , quality management tool .
+These course aim instill Xiaomis core value quality within workforce improve quality awareness professional capability .
+In 2023 , conducted general specialized quality course test quality staff core position holder , along core specialized course international business personnel .
+During reporting period , introduced Group Quality Manual 2.0 organized Quality Quiz Everyone .
+A total nearly 28,000 people completed passed quality assessment .
+The continued growth Xiaomi hinge professional quality management team .
+Therefore , accelerated cultivation quality management professional certification quality manager China Association Quality ( CAQ ) , Six Sigma Black Belt Green Belt , Performance Excellence Self-Assessors .
+For smartphone product 13 90 % The battery cell present capacity retention rate 90 % 1,000 heavy-duty long cycle standard laboratory environment .
+The data derived Xiaomi Lab , actual operation may vary slightly depending test environment , condition , factor .
+14 Heavy-duty scenario It refers higher discharge current generated high energy consumption feature smartphone use .
+To extend battery life , optimized degradation core system material implementing multi-scenario battery health maintenance strategy .
+We developed battery cycle aging estimation strategy .
+Through integration Xiaomis self-developed Starfish algorithm big data model , effectively enhanced battery quality smartphone endurance .
+We introduced Xiaomi Starfish algorithm .
+The Redmi K70E smartphone achieves 90 % 13 battery capacity retention heavy-duty scenarios14 .
+We undertaken several project aimed optimizing pain point improving hardware software quality .
+These project target Bluetooth rate , battery life , app experience , charging discharging , switching .
+As result , FFR watch series decreased average 57 % year .
+In 2023 , We launched battery quality improvement project .
+In 2023 , For wearable product 24 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Technology Created Better LivesService Quality At Xiaomi , committed providing user-centered service .
+We take multiple measure continuously expand service offering always prioritize swift effective resolution user issue .
+To enhance service quality bolster department service quality management , instituted special performance indicator service department .
+Adhering SMART ( Specific , Measurable , Achievable , Relevant , Time-Bound ) criterion , fortified service quality management across multiple dimension .
+In process determining handling quality incident , integrate service quality management business quality improvement .
+We summarize lesson quality accident promote experience service quality improvement , thereby comprehensively enhancing quality awareness employee service provider .
+In term process system , established optimized Issue-To-Resolution ( ITR ) process system15 streamline response user feedback enhance problem resolution efficiency .
+This system facilitates closed-loop quality management identifying problem resolving , thereby delivering Xiaomis quality service customer significantly improving user experience .
+For user inquiry complaint , adopt approach immediate response mobilize resource department ensure efficient response accurate , prompt , reasonable resolution user issue .
+We review customer complaint every week analyze across multiple channel dimension , take improvement measure , monitor effectiveness .
+To facilitate user communication , established multiple channel , including online tool store , actively address customer concern .
+Leveraging ITR process system , address user issue continuously improve user experience .
+In term IT , implemented targeted measure elevate customer service experience technological innovation .
+Recognizing growing demand consultation warranty , meticulously developed online service system process display inquiry .
+Our goal provide user straightforward easy-to-use platform , easily access required product information , solution , warranty status .
+In 2023 , displayed detail refund charge corresponding explanation customer official website , ensuring transparency customer service information .
+This resulted 33 % reduction customer complaint refund information relevant issue .
+In store , made face-to-face interaction user user symposium exchange well visit productRD engineer gather address user concern refining service offering .
+Throughout year , organized 18 user forum , gathered 307 piece user feedback , solved 230 practical problem , gained insight real need user .
+We also focus catering personalized user need invite user engage Xiaomis business department explore future design possibility .
+We always adhere spirit making friend user enhance overall service awareness employee improve service quality Group .
+By integrating ITR process Xiaomis service process personnel training , ensure service team swiftly respond user need .
+We proactively track quickly address user need , optimize user experience , actively explore service solution , achieve consistent intensive service coverage .
+Moreover , provide tailored product technical guidance regular training continuously enhance professionalism service Xiaomis service team .
+We go beyond promoting quality employee service high standard .
+We established implemented system reward penalty incentivize partner term service quality attitude .
+We offer reward outstanding partner deliver top-notch service .
+Conversely , partner fail maintain service quality , impose graded penalty based severity impact incident , aiming reduce complaint stemming partner .
+15 The ITR process system The construction method management process Issue-To-Resolution customer service system .
+Specifically , refers customer-centered service process problem identification problem resolution , thus creating closed loop service end- to-end manner .
+25 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Technology Created Better LivesAt Xiaomi , maintained commitment enhancing user in-store experience achieved significant progress sale service integrated operation .
+Throughout year , witnessed 36.6 % increase number sale service integrated store Chinese mainland full-service capability sale , return exchange maintenance , recycling .
+We continually refined management store operational quality , establishing clear standard store operation ensure healthy robust growth sale service integrated operation .
+We calibrated store target , formulated subsidy policy new store , instituted mechanism monitoring store operation evaluating outstanding store , issued Sales Service Operations Manual .
+These measure facilitated efficient conversion sale service , driving overall enhancement sale service capability frontline store team .
+In market outside Chinese mainland , introduced warranty policy differentiation , VIP customer service , trade-in targeted subsidy Xiaomis flagship model .
+Retail Services We continuously strengthened service capability offline store , expanded service network coverage , enhanced accessibility user service .
+Throughout year , created refined management system store service indicator established closed-loop management mechanism service quality monitoring improvement .
+In addition , improving trainer management store training mechanism , deeply integrated training content frontline business operation .
+Moreover , introduced store risk control management system developed Xiaomi Service Store Compliance Code Conduct , laying robust foundation operational compliance capacity enhancement store .
+These effort ensure Xiaomi store continually refine elevate service standard delivering exceptional service .
+By end reporting period , Chinese mainland , Sales Service Integrated Operations In-Store Send-In Repair Service At Xiaomis offline store service point , user access exchange , overhaul , repair service .
+We continuously expand service coverage offering .
+Throughout year , introduced new service insurance business access , out-of-warranty exchange IoT product , repair service motherboards screen smartphones laptop device Chinese mainland , broadening service scope .
+Additionally , bolstered repair service capability establishing service point .
+Over reporting period , established 3,778 store offering in-store repair service 124 store offering send-in repair service Chinese mainland .
+We consistently meet user need enhanced service network , strengthened repair service capability , expanded range business .
+We also launched new one-on-one flash delivery service Chinese mainland market , realizing instant delivery repair city .
+Consumers user enjoy smooth worry-free shopping after-sales service experience Store Flash Delivery delivery repair feature Xiaomi Store .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| We | total | 1,793 | offline | retail | storesThe | user | service | satisfaction | survey | showed | improvement | 4.5 | % | compared | 2022 | There | 5,108 | engineer | holding | Xiaomis | professional | technical | qualification | certificate | stationed | offline | storesThe | offline | store | service | network | covered | 91.86 | % | city | Chinese | mainland | We | hosted | 2,789 | engineer | training | session | providing | total | 10,123 | hour | trainingcovering | 316 | prefecture-level | city | increase | 1.45 | % | compared | 2022Warranty | policy | differentiation | service | encompass | international | warrantya | 2-year | warranty | complimentary | replacement | broken | screen | VIP | service | include | one-time | access | airport | VIP | loungesexclusive | customer | service | , | exemption | out-of- | warranty | labor | fee | , | special | subsidy | trade-in | In | market | also | offer | fixed-price | discount | trade-in | 26 | About | Report | Charimans | Address | About | Xiaomi | Board | Statement | Stakeholder | Engagement | Materiality | Assessment | Xiaomis | Zero | Carbon | Philosophy | Shared | Success | Partners | Governance | Compliance | Key | Performance | Technology | Created | Better | LivesOn-site | ( | Door-to-Door | ) | Services | Delivery | ServicesWe | expanded | coverage | area | on-site | service | accelerating | construction | on-site | ( | door-to-door | ) | service | point | . |
+
+As end reporting period , Chinese mainland , To achieve optimal distribution spare part warehousing reduce turnaround time logistics transport duration , established 25 spare part storage center across Chinese mainland .
+This setup facilitates short- distance rapid spare part storage network .
+We also established device warehousing distribution network covering whole Chinese mainland optimize warehousing distribution network .
+During year , achieved next-day delivery 80 % order Chinese mainland .
+In 2023 , launched pilot program integrated model air-conditioner delivery installation Chinese mainland .
+In model , delivery installation process simplified , rapid delivery provided meet user demand immediate installation upon delivery .
+The delivery installation time reduced total 50 hour .
+We received 100 % service satisfaction pilot customer .
+This model covered 106 city nationwide , total 282 outlet , greatly enhancing user experience .
+The one-time solution delivery installation achieves efficient synchronization logistics after-sales service well real-time accurate mutual transmission time information , shortens logistics installation time .
+Based integration capability delivery installation , Xiaomis integrated model dismantling , delivery , installation innovatively blend after-sales service provide user one-stop service dismantling old installing new .
+The successful trial integrated service model delivery installation significantly improved service efficiency promoted Xiaomis continuous innovation product service user experience .
+Trial Integrated Model Air-Conditioner Delivery Installation We built total 7,725 on-site service point .
+These on-site ( door-to-door ) service point staffed 32,058 engineer holding Xiaomi professional technical qualification These engineer consistently deliver quality fast service on-site product .
+Our on-site service capability home appliance extended 2,000 district county-level jurisdiction .
+26 27 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Technology Created Better Lives Quality Management Automobile Business Line Data Security Privacy Protection Product safety fundamental pillar Total Quality Management ( TQM ) system Xiaomis automobile business line .
+Our aim guarantee product safe dependable also superior quality full compliance legal regulatory standard .
+The system cover entire product lifecycle , stringent testing procedure place every stage RD production .
+To achieve goal , Xiaomis automobile business line established TQM system consolidates procedure , management practice , quality standard , specification , operating guideline pertaining quality safety Groups automobile related business .
+By focusing product feature problem management , Xiaomis automotive business line built quality management system .
+This system meet basic requirement access mass production system also address demand new product project term product feature validation .
+It also ensures project fully safeguarded process standard specification .
+In addition , Xiaomis automobile business line devised implemented development , trial operation , operation , rapid iteration digital management platform , model , process , aimed boosting efficiency efficacy quality management .
+As end reporting period , Xiaomi EVs preventive quality system fully completed , passed trial operation validation , officially entered operational phase .
+Protecting user data privacy always one Xiaomis core value .
+We consistently uphold international regulation standard practice data security privacy protection .
+We develop update Xiaomis privacy policy based core principle contained global privacy framework ( published OECD APEC ) privacy law ( Personal Information Protection Law Peoples Republic China , EU General Data Protection Regulation ( GDPR ) , General Personal Data Protection Act Brazil ) , ISO standard , regional industry guideline ( guideline European Data Protection Board ( EDPB ) ) .
+Furthermore , actively studying international trend provide user privacy protection system line development modern technology .
+In past year , took step enhance information openness transparency .
+We published updated MIUI 14 Security White Paper , MIUI 14 Privacy White Paper , Xiaomi IoT Privacy White Paper , Xiaomi IoT Security White Paper , Xiaomi Transparency Report 2022 .
+Our annual Xiaomi Transparency Report offer detail data access request received law enforcement government agency worldwide , along response request .
+For information Xiaomis data security privacy management , practice , report , policy , please refer Xiaomi Trust Centre httpstrust .
+mi .
+com Xiaomi Security Centre httpstrust .
+mi .
+commisrc Xiaomi Privacy httpsprivacy .
+miui .
+comenXiaomis solid underlying core RD technology provides quality guarantee high range high safety Xiaomi SU7 Series .
+Battery safety range performance Xiaomi SU7 Series incorporates Inverted Cell Technology , surpasses traditional solution heat dissipation thermal insulation .
+It passed world stringent battery safety testing .
+Additionally , feature 14 layer robust physical protection Xiaomis interconnected vehicle safety warning system , ensuring comprehensive battery safety .
+Active passive safety Xiaomi SU7 Series boast armor-cage-styled steel-aluminum hybrid body effectively absorbs disperses impact force , thereby enhance collision safety .
+It fully complies five-star safety standard China EU .
+Equipped 16 active safety configuration , prevents accident critical time .
+Moreover , provide stringent privacy security protection ensure user personal information data security .
+Case 27 28 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Technology Created Better Lives Data Security Privacy Protection Governance StructureData Security At Xiaomi , believe protecting user data privacy paramount fostering secure quality user experience building trust user .
+We continuously iterate data security privacy protection management system establish reasonable effective management procedure standard .
+The Group established Information Security Privacy Committee ( Security Privacy Committee ) , focus developing implementing rule , managing security risk associated personal privacy , advancing privacy technology capability , enhancing risk response ability .
+This year , completed change term reorganization Security Privacy Committee .
+Each business department operates Security Privacy Working Group , contributing mature data security system Group effectively empowers secure development smartphones business line .
+Xiaomis Board place great importance data security privacy protection .
+The Security Privacy Committee report Board periodically Groups progress area assist Board assessing risk data security privacy protection , countermeasure , efficacy .
+Based assessment , Board offer management recommendation .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | 2023 | , | 100 | % | site | technology | operation | received | certification | ISO | 2700116 | information | security | management | system | ( | ISMS | ) | . |
+
+This year , Xiaomi receive validated complaint data security privacy protection .
+Data security privacy protection core Xiaomis continuous pursuit .
+We steadfast safeguarding user personal data daily life establishment leading security architecture adoption powerful security technology .
+Leveraging Xiaomi HyperOSs global security technology unified security capability IoT platform , established set technical requirement management mechanism covering smartphones , IoT device , Internet service .
+These measure utilize Transport Layer Security ( TLS ) encryption algorithm protect user data security .
+We effectively communicate objective requirement data security privacy protection supply chain partner .
+We rigorously examine manage data security privacy protection capability supply chain partner develop emergency response measure data security incident .
+By , minimize potential risk uphold user data security privacy right .
+We also protect security user personal information data software system security update security vulnerability fix .
+Our smartphones IoT product receive regular security update , continuously disseminate security recommendation notification inform user newly identified security vulnerability , potential impact remediation option , thereby helping user cope ever-changing security risk .
+We actively receive security vulnerability Xiaomi product submitted user security researcher Xiaomi Security Centre .
+By receiving validating vulnerability , determining extent impact , determining vulnerability fix solution , promptly following , enhance security Xiaomi product service .
+Xiaomis Data Security Technology Security Strategy Human x Car x Home Smart Ecosystem At Xiaomi , place paramount emphasis addressing user concern regarding data security privacy protection .
+We incorporated development Xiaomi HyperOS .
+Xiaomi HyperOS reconstructed security privacy architecture establish underlying foundation self-developed TEE17 security subsystem reduce potential risk improve overall security system .
+Xiaomi TEE isolated security operating system running isolated hardware , purpose-built handle sensitive information securely cater security requirement different device application scenario .
+Xiaomi HyperOS leverage different TEE solution construct trusted security base tailored different hardware environment .
+Building upon security base , bolster capability device trustworthiness , universal key management , cross-end authentication framework layer , providing trusted connection , trusted transmission , trusted peer-to-peer state cross- end scenario .
+This technology provides security function many system application face recognition , privacy password , lock screen password , support core device smartphones IoT device .
+Xiaomis self-developed TEE awarded first EAL518 certificate China China Cybersecurity Review Technology Certification Centre ( CCRC ) , highest security certification TEE system .
+Xiaomi HyperOS hardware-based security root trust establishes reliable chain trust secure boot process securely transferred operating system .
+The security subsystem Xiaomi HyperOS design interconnection security module provides unified security device .
+This security subsystem amalgamates hardware software security technology deploys different security technology hardware , kernel , framework , application layer .
+Through comprehensive approach , provides end-to-end complete link protection device , thus safeguarding user data security privacy .
+At time , Xiaomi HyperOS performs end-to-end encryption data transmission device TEE-based interconnection security module allows device verify , thus securing entire network .
+16 ISO 27001 ISO 27001 international standard information security management designed help organization manage protect information asset secure .
+17 TEE Trusted Execution Environment 18 EAL Evaluation Assurance Level .
+It numerical level describes degree product evaluated Common Criteria Information Technology Security Assessment .
+From EAL1 EAL7 , higher numerical level , higher level security system implementation .
+29 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Technology Created Better LivesIoT Platform Uniform Security Capability The Xiaomi IoT platform , unified IoT device platform built Xiaomi , support access management various device smart wearable smart hardware .
+Aligned Xiaomis Cyber Security Baseline Consumer Internet Things Device , Xiaomi IoT platform incorporates range basic security capability .
+The platform greatly enhances security device system hardware capability device communication module security chip , well software capability Xiaomi Vela system19 .
+In addition , developed protocol standard MIoT Spec protocol20 , device two-way authentication protocol .
+On service side , platform boast IoT Communication Centre , Digital Certificate Management Centre , Authentication Privilege Centre , Data Storage Centre , Firmware Management Centre , Message Distribution Invocation Centre .
+These component facilitate interaction function device service side ensuring security device service side .
+Supply Chain Data Security Audit Management Data Security Incident Emergency Response We uphold stringent standard managing supplier partner ensure data security privacy protection .
+For supplier engaged user personal information , conduct rigorous inspection data security capability early stage supplier admission .
+We also require supplier adopt unified review criterion user information ensure compliance Xiaomis data security privacy protection principle .
+During supplier admission phase , supplier must follow Xiaomis data security privacy protection review process declaration evaluation .
+Should supplier fail pas , require supplier make improvement meet standard entering cooperation Xiaomi .
+We conduct regular audit supplier data security privacy protection practice throughout cooperation .
+If issue arise , suspend cooperation supplier corrective action taken .
+For input output third-party data , established standardized data privacy declaration process whole Group .
+This process entail supplier partner compiling white paper productservice-related privacy , submitting security privacy test , completing data protection addendum ( DPAs ) security questionnaire , submitting privacy declaration online .
+From security questionnaire , monitor information security certificate ( example , ISO 27001 ) held supplier partner , serve important reference cooperation .
+At Xiaomi , established rigorous data security incident management emergency response system process ensure swift coordinated response data security threat , minimize potential damage , safeguard user data security privacy right .
+Upon detecting abnormal data access potential data encryption error , immediately initiate assessment procedure evaluate impact incident user personal right interest .
+Our dedicated team coordinate manages emergency response data security incident , determines severity incident , coordinate emergency protection measure .
+Through diversified investigative measure , remain highly vigilant data leakage , misuse , abuse , security incident .
+During year , Xiaomi experience data security leakage incident .
+We emphasize importance tracking managing data security incident .
+Our issue tracking management system record detail data security incident way handled .
+Furthermore , established incident handling group facilitate traceability information flow efficiency collaboration .
+Following data security incident , set dedicated team conduct in-depth analysis summary incident optimize future security management strategy .
+19 Xiaomi Vela Xiaomis IoT embedded software platform based open source real-time operating system NuttX .
+It provides unified software service various IoT hardware platform , support rich component easy-to-use framework , bridge fragmented IoT application scenario .
+20 MIoT Spec , MIoT Specification , functional description IoT device specification .
+It IoT protocol developed Mijia platform , contains function definition , interaction model , message format , coding , applies device connected Mijia platform .
+29 30 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Technology Created Better LivesPrivacy Protection Privacy always among Xiaomis core value .
+Guided privacy principle , integrate concept privacy design product development process continuously explore innovative technology protect privacy .
+To achieve , established comprehensive information security privacy protection governance framework , comprised guiding principle , organizational structure , security privacy certification , privacy policy , mechanism continuous improvement .
+We also process back personal information leveraging secure globally managed infrastructure , transfer user data encrypted communication channel , store trusted cloud service provider .
+For smart device user , offered comprehensive privacy protection feature MIUI year , effectively safeguarding privacy security personal information .
+Users control application running mobile phone .
+The privacy security Xiaomi product effectively enhanced many privacy protection feature introduced MIUI 14 , including app permission setting , key-protected private space , finding locking lost device , secure photo sharing , incognito mode Xiaomi Browser .
+For information , please refer Xiaomi MIUI 14 Privacy White Paper21 .
+In 2023 , made technical upgrade MIUI 14 system .
+A privacy white paper based Xiaomi HyperOS expected released 2024 .
+For IoT device user , provide privacy practice safeguard specific product application .
+Our IoT product include Xiaomi Watch , Xiaomi Smart Door Lock , robot vacuum , Mijia Electric Scooter , Xiaomi Router .
+For information , please refer Xiaomi IoT Privacy White Paper22 .
+At Xiaomi , prioritize communication user strive create product service earn trust .
+To address user privacy concern , complaint , relevant issue effectively , established Xiaomi Privacy Support Platform ( httpsprivacy .
+mi .
+comsupportlocaleen ) , providing online channel reach privacy team .
+We strictly adhere Xiaomis privacy policy term collecting , using , storing , disposing user personal information minimize data collection retention much possible .
+All product service feature prominent privacy policy portal user easy access time Xiaomi process data .
+We also expressly inform user purpose use data processing obtain consent .
+We never upload user data without user permission .
+At Xiaomi , empower user control access apps via simple easy-to-use shortcut , thereby ensuring user personal data security .
+Users possess right allow , deny , alter apps access system .
+They also view autostarts , permission call , chain start , sensitive behavior record app .
+Should unauthorized behavior app detected , user immediately revoke relevant authorization request obtain , correct , delete data collected via Privacy Support feature .
+At Xiaomi , committed establishing standardized sustainable procedure privacy impact assessment ensure product service always comply law regulation regarding personal information protection .
+All product designed developed align pertinent provision current privacy data security law regulation .
+We established internal systematic mechanism privacy compliance review every stage .
+From product design development , testing , launching , specialized team conduct data protection impact assessment security test .
+At Xiaomi , actively foster internal culture privacy established privacy management system comprised organization , policy , procedure .
+We appointed Chief Privacy Officer formed Information Security Privacy Committee covering business team better coordinate advance privacy protection effort throughout Group .
+Additionally , collaborate user , privacy expert , third-party certification agency continuously improve privacy practice Xiaomi .
+At Xiaomi , implement rigorous measure safeguard user personal information prevent data leakage risk .
+When transmitting data , employ secure transfer via HTTPS , hashing obfuscation sensitive information , protection transmission link ensure maximum security .
+In local storage file , adopt file-level encryption key separation .
+In cloud storage , implement security classification blend multiple encryption method effectively safeguard user privacy .
+Privacy Protection Standards Open Transparent Data Processing User-controllable Personal Information Strict Compliance Laws RegulationsEffective Information Security Privacy Management System Comprehensive Security GuardsAt Xiaomi , always prioritized user privacy security , integrating privacy protection principle product design .
+We strictly follow honor following five principle commitment 21 Xiaomi MIUI 14 Privacy White Paper httpstrust .
+mi .
+comdocsmiui-privacy-white-paper- global 22 Xiaomi IoT Privacy White Paper httpstrust .
+mi .
+comdocsiot-privacy-white-paper-global 31 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Technology Created Better Lives Privacy Protection Technology Data Security Privacy Protection Culture At Xiaomi , uphold strict protection user privacy .
+Our commitment lie advancing synergistic development technological innovation user privacy protection respecting user privacy cultivate greater trust among user .
+We prioritize cultivating culture data security privacy protection .
+Throughout 2023 , organized various security awareness enhancement activity aiming raise employee awareness data security privacy protection Groups security defense .
+These activity included Security Privacy Awareness Month , phishing drill , training course , online assessment .
+Our data security privacy protection training activity reached employee position across Group , including Board , senior management , employee , supplier , contractor , partner , personnel dedicated security privacy .
+We tailored training program suit different position introduced assessment incentive mechanism .
+We recognize importance creating culture data security privacy protection .
+Therefore , incorporated course data security privacy protection employee orientation training .
+We also enhance effectiveness training regular security awareness quiz awareness promotion newsletter .
+During year , In addition , provided specialized data security privacy protection training supplier partner , covering nearly 1,000 supplier partner .
+Organized data security privacy protection awareness quiz .
+More 98 % Groups employee attended training course data security privacy protection passed examination Hosted Security Privacy Awareness Month 6th IoT Security Summit andDelivered number special training course various business department production research department company ecosystem Organized least four phishing drill test effect employee data security awareness training combat exercise .
+We introduced differential privacy technology23 .
+It ensures accurate statistical result without collecting precise data , thereby minimizing access user personal information .
+We also employ Edge Computing technology locally process sensitive data ( example , biometrics ) device , eliminating need transfer data cloud server thus reducing risk data leakage .
+With self-developed MACE Mobile AI Computing Engine Open Source Deep Learning Inference Framework , complete complex data analysis computation task multiple device , tracking activity sleep monitoring Mi Health .
+We also expanding local processing user personal data scenario .
+We firmly uphold user right know control privacy .
+Our pioneering Privacy Flare feature become network access standard Ministry Industry Information Technology .
+In era everything interconnected , Xiaomi HyperOS upgraded permission management capability ecological level .
+It offer feature interconnection permission management , sensitive interconnection reminder , sensitive interconnection record .
+This evolution ensures permission acquisition interconnected scenario entirely transparent user offer high level control .
+23 Differential privacy technology This technology add statistical noise user data leaf device , converting raw data obfuscated data effectively avoiding direct identification personal information .
+32 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Technology Created Better LivesSecurity Privacy Certifications Data Security Privacy Protection Automobile Business Line Xiaomis information security privacy protection capability recognized industry leading certification testing agency .
+We passed several privacy protection certification product line , including smartphones , Xiaomi HyperOS , IoT device , Internet application service , sale service system , infrastructure .
+During year , Xiaomis Trusted Execution Environment Operating System Intelligent Terminals ( MiTEE OS ) received IT product information security certification EAL5 .
+We also maintained validity following third-party audit certifications24Xiaomis automobile business line established robust data security privacy protection system , policy , process , integrated fine data management scenario-based privacy protection feature product side .
+The data security privacy protection strategy Xiaomis automobile business line span entire lifecycle data , including collection , transmission , storage , use , sharing , disclosure , deletion .
+It allows Xiaomis new energy vehicle ( NEV ) product develop targeted protection measure stage safeguard user data .
+Moreover , manage data categorizing , grading , labeling enhance identification protection sensitive information .
+Additionally , offer user various scenario-based privacy protection feature .
+In different scenario , Xiaomi SU7 Series switch perform smart privacy protection data isolation needed protect user interest .
+For example , Worry-Free After-Sales feature provides user smooth experience privacy protection after-sales maintenance scenario .
+In addition , Electric Scooter 4 Pro obtained UL IoT Security Gold Certification25 , Robot Vacuum- Mop 2 Overseas Version obtained TÜV Rheinland Product Network Security Privacy Protection Standard Certification .
+Xiaomi Smart Camera Tripod Head Version , Mijia mobile app , Xiaomi Mesh System AX3000 router certified IoT Kitemark .
+24 For Xiaomis privacy certification , please refer Xiaomi Trust Centre ( httpstrust .
+mi .
+comcompliance ) .
+25 UL Solutions independent global security science company .
+It created evaluation system measure security IoT product .
+It rate product one five security level , ranging lowest ( Bronze ) highest ( Diamond ) .
+ISOIEC 27001Information security management system certification ISOIEC 27018Certification management system personal information cloud ISOIEC 27701Personal information management system certification SOC 2 Type II Certification Specialized security audit TÜV Rheinland Enhanced Privacy Protection Testing MIUI 33 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Shared Success Partners Governance Compliance Key Performance Xiaomis Zero Carbon Philosophy Xiaomis Zero Carbon Philosophy Climate Mitigation Adaptation Waste Management Circular Economy Natural Resources Biodiversity02 34 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Shared Success Partners Governance Compliance Key Performance Xiaomis Zero Carbon Philosophy Prompt ActionPracticability Steady ProgressClimate Mitigation Adaptation Tackling Climate Change At Xiaomi , prioritize enhancing energy efficiency , embracing clean energy , innovating smart manufacturing , among initiative , attain carbon neutrality target within operation .
+Moreover , committed spearheading low-carbon transition upgrading entire value chain .
+While concentrating improving product efficacy ensuring product affordability , strive reduce environmental footprint product service .
+Our ultimate aim make affordable clean technology accessible , thus contributing creation better low-carbon future collaboration stakeholder .
+Climate Strategy In October 2023 , Xiaomi unveiled brand new strategy Human x Car x Home smart ecosystem , featuring Xiaomi HyperOS human-centered operating system core designed connect personal device , car , smart home product single , integrated system framework .
+This breakthrough lay foundation establishing universal connected system , enabling interconnection billion device future .
+This present opportunity u explore clean technology application across various device , scenario , value chain , thereby advancing greener lifestyle fostering low-carbon society positive climate impact .
+At Xiaomi , adhere principle prompt action , practicability , steady progress , continuous improvement actively respond climate change .
+In 2023 , reviewed industry practice climate publication engaged internal stakeholder assess climate-related risk opportunity within Groups business existing facility .
+Starting reducing carbon emission within operation , also provide low-carbon training supplier , support carbon data target management tool , initiate decarbonization project promote low-carbon transformation throughout product value chain .
+We collaborate upstream downstream partner cultivate green ecosystem .
+For information Xiaomis strategy address climate change risk management , please refer Xiaomi Corporations TCFD Report 202327 .
+We believe responsibility leverage product technology support 1.5C goal set forth Paris Agreement enable people worldwide experience enhanced quality life innovative technology .
+As global leader innovative technology , excel offering solution technological innovation efficient model advance development adoption clean technology .
+We collaborate stakeholder foster brighter future .
+We infuse climate awareness throughout entire process delivering coolest product customer .
+Moreover , systematically explore way integrate low-carbon feature Xiaomis strategy brand , continuously developing optimizing environmentally friendly technology product .
+In propelling world transition towards zero carbon , made encouraging progress .
+The 28th Conference Parties United Nations Framework Convention Climate Change ( COP28 ) took place Dubai , UAE , November 30 December 12 , 2023 .
+At significant global climate summit , Xiaomi released White Paper Climate Action26 , sharing action commitment addressing global climate change .
+The paper detail Xiaomis Zero-Carbon Philosophy elaborates Groups approach transitioning zero carbon .
+It highlight Xiaomis capacity utilize AI-empowered AIoT develop green product establish sustainable supply chain , thereby aiding industry society achieving global climate objective .
+27 TCFD Task Force Climate-related Financial Disclosures .
+For information Xiaomis response climate change , please refer SustainabilityClimate Change page Groups official website ( httpswww .
+mi .
+comglobalaboutsustainabilityclimate ) .26 Xiaomi Corporation White Paper Climate Action httpscdn .
+cnbj1 .
+fds .
+api .
+mi-img .
+comstaticsfilesvhcclimate % 20action % 20reportwhitepaperonclimateactionXiaomicorp .
+pdf 34 35 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Shared Success Partners Governance Compliance Key Performance Xiaomis Zero Carbon PhilosophyXiaomis Zero Carbon Philosophy GHG Emission Reduction Targets Carbon Footprint GHG Emission Reduction Targets Through implementation practice , gained clearer understanding progress reducing GHG emission influenced various factor , including scale business , energy mix , supplier selection , evolution verification standard model .
+These factor may directly contribute fluctuation GHG emission .
+Nevertheless , steadfast commitment remains employ improved cleaner technology way design , make , deliver product service user .
+We continue monitor relationship business scale GHG emission metric , ensuring transparency disclosing reporting emission reduction progress .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| To | support | global | aspiration | reaching | net | zero | 2050 | , | dedicated | committed | reducing | Scope | 1 | Scope | 2 | GHG | emission | . |
+
+To support progress towards Xiaomis goal attaining achieve carbon neutrality 2040 , updated GHG reduction target accordingly year .
+28 GHG emission Refers Companys GHG emission ( absolute value ) calculated accordance standard Greenhouse Gas Protocol Corporate Accounting Reporting Standard , ISO 14064-12018Specification Guidance Organization Level Quantification Reporting Greenhouse Gas Emissions Removals .
+29 Main operating segment Smartphone , IoT Lifestyle product , Internet Services , others ( scope operating segment stated 2023 Annual Report ) .
+30 Base year 2021 .
+31 Existing business segment Smartphone , IoT Lifestyle product , Internet Services , others , business scope Xiaomi Corporations latest earnings announcement .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| By | later | 2030 | , | reduce | GHG | emissions28 | main | operating | segments29 | 30 | % | base | year30 | level | By | 2035 | , | use | 100 | % | renewable | electricity | operation | By | 2040 | , | achieve | carbon | neutrality | operation | existing | business | segments31 | , | use | 100 | % | clean | heat | operation | , | use | 100 | % | renewable | energy | Prioritize | use | low-carbon | technology | self-built | renewable | energy | power | generation | facility | reduce | GHG | emission | increase | share | renewable | energy | electricity | consumption | long-term | green | power | purchase | agreement | reduce | GHG | emission | throughout | target | period | Encourage | key | supplier | establish | renewable | energy | usage | GHG | emission | reduction | target | comparable | ambitious | Xiaomi | deliver | continuous | reduction | Scope | 3 | emission | . |
+
+35About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Shared Success Partners Governance Compliance Key Performance Xiaomis Zero Carbon Philosophy 36 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Shared Success Partners Governance Compliance Key Performance Xiaomis Zero Carbon Philosophy With 2040 climate goal mind insight future trend manufacturing sector , envision gradual progression towards carbon- neutral value chain encompassing raw material , packaging , production , usage .
+Our focus directed towards following key area Raw material We foster deep collaboration upstream supplier establish supply chain critical material , metal plastic , sourced entirely low-carbon renewable source .
+Concurrently , accelerate research deployment next- generation lowcarbon material ensure environmentally friendly , sustainable , responsible procurement practice raw material .
+Production We committed continually enhancing production efficiency striving fully transition green electricity production .
+We provide guidance support key supplier journey towards achieving net-zero emission , also minimizing carbon footprint efficient energy management adoption green energy alternative .
+Product use We leverage technological innovation enhance energy efficiency smartphones electronic product , improving performance reducing energy consumption .
+Our aim ensure 100 % electronic device sold compatible green energy source , thereby offering end-users option convenience utilize clean energy .
+GHG Emissions Measurement The journey achieving long-term GHG emission32 reduction target begin accurate data collection , assessment , tracking Scope 1 , 2 , 3 GHG emission .
+Currently , Xiaomis energy supply across entire value chain predominantly relies grid .
+Given regional variation energy mix power generation globally , Xiaomis GHG data standard accounting model adhere international protocol , including Greenhouse Gas Protocol Corporate Accounting Reporting Standard , ISO 14064-12018 Specification Guidance Organization Level Quantification Reporting Greenhouse Gas Emissions Removals , well relevant national , local , industry standard .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| The | GHG | emission | operation | past | four | year | listed | Scope | ( | Mt33 | CO2e | ) | 2023 | 2022 | 2021 | 2020 | Direct | GHG | emission | ( | Scope | 1 | ) | 3412,252.52 | 7,122.60 | 9,096.95 | 8,402.12 | Indirect | GHG | emission | ( | Scope | 2 | ) | 35104,470.04 | 78,620.01 | 73,723.21 | 58,079.17 | Other | indirect | GHG | emission | value | chain | ( | Scope | 3 | ) | 36 | To | disclosed | September | 2024 | 10,075,225.54 | 12,368,223.29- | 32 | Xiaomis | GHG | emission | mainly | include | carbon | dioxide | ( | CO2 | ) | , | methane | ( | CH4 | ) | , | nitrous | oxide | ( | N2O | ) | , | hydrofluorocarbon | ( | HFCs | ) | . |
+
+The total GHG emission reported term carbon dioxide equivalent .
+We calculated GHG emission facility operation owned Xiaomi , well upstream downstream Xiaomis value chain .
+33 Mt Metric tonne , applies .
+34 Direct GHG emission ( Scope 1 ) GHG emission directly generated use natural gas gasoline operation fugitive emission refrigeration , fire suppression equipment , fugitive emission GHG wastewater treatment process .
+35 Indirect GHG emission ( Scope 2 ) GHG emission generated consumed electricity consumed heat operation .
+36 Other indirect GHG emission ( Scope 3 ) value chain All Xiaomis product sold directly customer without downstream processing activity .
+We take operational control approach consolidate GHG emission data , therefore , GHG emission value chain include purchased good service , capital good , fuel , energy-related activity ( included Scope Scope 2 ) , upstream transportation distribution , waste generated operation , business travel , employee commuting , upstream leased asset , downstream transportation distribution , processing sold product , use sold product , end-of-life treatment sold product , downstream leased asset franchise .
+Packaging We transition towards utilizing recyclable biodegradable packaging material eliminating excessive packaging optimize weight minimize environmental impact .
+37 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Shared Success Partners Governance Compliance Key Performance Xiaomis Zero Carbon PhilosophyWe established carbon neutrality MARC37 management model lifecycle product .
+This model encompasses aspect management system , carbon footprint accounting , offset emission reduction , on-going external communication , enabling u manage carbon footprint product contribute green practice product .
+Carbon Neutrality MARC Model Whole Life Cycle In 2023 , launched project assess carbon footprint throughout lifecycle product completed product lifecycle carbon footprint assessments38 five representative product ( including two model smartphone product , one model wearable product , two model air- conditioner product ) .
+Collaborating independent organization specialized carbon accounting certification , devised smartphone-focused carbon footprint assessment framework methodology , drawing Code Good Practice Product Greenhouse Gas Emissions Reduction Claims PAS 20502011 The Standard Specification assessment life cycle greenhouse gas emission good service .
+Moving forward , extend approach assess manage product carbon footprint across wider range product , including additional smartphone model , air-conditioners , smart TVs , Xiaomi ecosystem product .
+Management Communication Accounting Reduction Establishing business lifesycle carbon neutrelity management system capabilitiesAccounting carbon footprint business , producls , supply chain according standardsContinous whole-process collaborative innovation emission reduction , finally offsettingOngoing communication lauditing , certifiation , disclosure , creditingTake Xiaomis smartphone product example .
+The lifecycle carbon footprints39 product follows Product40 Products Carbon Footprint ( KGCO2e ) Xiaomi 13 Pro ( 12GB256GB ) 62.81 Xiaomi 13 Pro ( 12GB512GB ) 65.68 Redmi Note 12 Pro 5G ( 6GB128GB ) 42.82 Redmi Note 12 Pro 5G ( 8GB128GB ) 45.93 Redmi Note 12 Pro 5G ( 8GB256GB ) 50.94 37 MARC Management , Accounting , Reduction , Communication .
+38 For information carbon footprint product , please refer Sustainability page Groups official website ( httpswww .
+mi .
+comglobalaboutsustainability ) .
+39 Note It includes carbon emission raw material , production , storage , transportation , usage , end-of-life disposal .
+40 The product carbon footprint data based measurement product version sold Europe .
+37Product Carbon Footprints 38 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Shared Success Partners Governance Compliance Key Performance Xiaomis Zero Carbon PhilosophySupplier GHG Emission Reduction Program To incentivize supplier adopt climate action align surpass Xiaomis GHG reduction target , introduced special Supplier Carbon Reduction Program .
+In program , require supplier partner set science-based GHG emission reduction target .
+Additionally , set forth specific criterion pertaining increased utilization renewable energy , disclosure GHG emission data , .
+In 2023 , worked closely 251 direct purchasing supplier core product ( including component supplier manufacturing supplier ) .
+We provided support validation GHG emission data climate target setting .
+Among supplier , responsible 79.89 % total emission direct purchasing supplier core product set carbon reduction target .
+Those responsible 81.49 % total emission direct purchasing core product used new energy power .
+Those responsible 71.99 % total emission directly purchasing supplier core product underwent third-party validation GHG data .
+Exploration Cutting-Edge Clean Technologies Battery Technology Research Fast Charging High-Energy-Density Soft-Pack Lithium-ion Battery Its Key MaterialsComposite Materials Research Green Composite Materials High Specific Strength High Specific Modulus Purification Technologies Research New Technologies Long-lasting Purification Indoor Air PollutantsWe remain steadfast support cutting-edge technology exploration project .
+In 2023 , allocated nearly RMB60 million grant cutting-edge technology project , specifically focused clean technology .
+This project focus research high-energy-density , fast-charging , long-cycle-life , high-safety lithium-ion battery key material applicable smart terminal .
+By designing battery structure characterized high ion transport , project team improves energy efficiency generate positive environmental benefit .
+In addition , project team researched high-voltage high-compaction cathode material , high-gram-capacity low- expansion anode material stable long cycle , fast- charging electrolyte material high ionic conductivity stable high voltage .
+They aimed extend battery life reduce generation battery waste .
+The project team also developed highly safe battery studying electrochemical safety failure mechanism battery .
+It effectively reduces number safety accident use battery , enhances public trust new energy technology , facilitates promotion new technology transforming energy structure .
+The project oriented consumer electronic product , targeting problem preparing reinforcing fiber green composite material , property matrix-fiber interface , bending modulus enhancement composite material .
+The project team researched preparation modification method reinforcing fiber green composite material high specific strength high specific modulus , modification enhancement mechanism matrix-fiber interface .
+In project , research evaluation method damage mechanism high specific strength high specific modulus green performance promotes saving resource positive environmental impact reduces dependence traditional material .
+The harm air pollution people one major environmental health risk globally .
+Outdoor air pollution significant impact indoor air quality .
+Therefore , project team committed researching long-lasting purification technology indoor air particulate matter ( PM ) , bioaerosols , common gaseous pollutant help improve indoor air quality .
+At time , project team developed new material technology high- efficiency , low-resistance , safe air purification , effectively improve energy efficiency reduce total amount indoor air pollutant .
+Looking ahead , response demand higher efficiency clean energy autonomy microgrids , delve deeper area regional synergistic distributed source-load self-adaptive grid connection key technology energy management microgrids .
+We worked closely 251 direct purchasing supplier core productsThose responsible 79.89 % total emission direct purchasing supplier core product set carbon reduction target 39 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Shared Success Partners Governance Compliance Key Performance Xiaomis Zero Carbon Philosophy Green Logistics Establishing green efficient logistics system paramount ensuring seamless connection flow product across value chain also pivotal lever reducing operational energy consumption product lifecycle footprint .
+We employ digital new retail system , intelligent logistics system , better management tool ( optimizing product warehousing planning transport route reducing number product delivery turnaround ) .
+By , aim shorten logistical distance manufacturing consumer .
+While maintaining logistics delivery quality , achieved high transport efficiency effectively reduced logistics carbon footprint .
+Throughout year , accomplished following result Optimal allocation warehousing resource .
+By leveraging big data analytics , optimized warehousing resource allocation enhance storage capacity per unit area logistics warehouse .
+The per square meter efficiency warehousing Chinese mainland increased 55.84 % compared previous year .
+We also reduced intermediate link warehousing transport lower energy consumption process .
+Changes transport mode .
+We adopted transport mode change measure transport smart TV product .
+For example , increased loading volume vehicle , resulting significant increase 20 % loading rate entire vehicle compared previous year .
+This effectively shortened transport time transit , enhanced on-time rate arrival warehouse , reduced transport energy consumption .
+Promotion new energy vehicle ( NEVs ) .
+We incentivized carrier utilize many NEVs possible undertake Xiaomi business deliver efficient , economical , low-carbon logistics service .
+For international logistics operation , collaborated service partner use LNG41 vehicle substitute diesel vehicle , achieved millage 99,592 km .
+Adjustments transport mode .
+In overseas market , meeting requirement safe efficient delivery , shifted transport mode product high-emitting air transport lower-emitting rail sea transport .
+A total 7.23 million product involved , reducing carbon emission 3,976 tonne ( Mt ) CO2 .
+Use low-carbon transport .
+In European market , continued increase utilization low- carbon transport method maintain efficient high-quality delivery reducing GHG emission .
+In term delivery mode , converted FTL Part-Load cargo Belgian Spanish warehouse European country .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| By | end | 2023 | , | 1,882 | tonne | ( | Mt | ) | good | shipped | via | Part-Load | mode | , | maintaining | efficient | high-quality | delivery | reducing | GHG | emission | . |
+
+Environmentally friendly use logistics package .
+By recycling packaging plant shipment transit box logistics box device shipment manufacturer , annually saved 30 tonne ( Mt ) paper 4.6 tonne ( Mt ) plastic bag .
+In Chinese mainland market , proportion reused box total number logistics box increased 36 % , resulting conservation 4 million box .
+41 LNG Liquefied Natural Gas .
+40 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Shared Success Partners Governance Compliance Key Performance Xiaomis Zero Carbon Philosophy Green Offices Operational Energy ManagementEnergy Management In addition integrating low-carbon energy-saving practice design , production , sale , logistics product , also embedded Xiaomis Zero Carbon Philosophy workplace .
+Building energy consumption key priority Xiaomi .
+We explore evaluate opportunity energy conservation within existing building office campus .
+Moreover , incorporate energy efficiency principle early stage designing new building .
+Our green construction approach factor local condition building function .
+We benchmark leading international green building certification scheme elevate overall environmental performance building guide energy efficiency program .
+The Beijing Xiaomi Science Technology Campus , centerpiece among Xiaomis office campus , attained Leadership Energy Environmental Design ( LEED ) Platinum Certificate , well 2-star Certificate China Green Building Design Label ( CGBL ) .
+In July 2023 , capitalized proprietary data , technology , platform establish Group-wide internal employee carbon account system .
+This system record , quantifies , visualizes carbon emission reduction data voluntarily disclosed employee work personal life .
+The system carbon emission reduction incentive mechanism encourage employee practice green low-carbon concept green travel behavior , thus contributing net-zero target leading green lifestyle .
+As end reporting period , platform received 47,150 contribution .
+At Xiaomi , prioritize environmental protection reduction energy consumption operational energy management .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| We | publicly | committed | utilizing | 100 | % | renewable | electricity | operation | 2035 | , | achieving | carbon | neutrality | , | alongside | 100 | % | renewable | energy | usage | operation | 2040 | . |
+
+We increasing procurement renewable electricity fulfill Xiaomis daily operational power need .
+Furthermore , collaborate supplier facilitate low-carbon transition traditional fossil energy clean energy long-term incremental purchase utilization renewable power .
+By introducing intelligent management system office space , deeply engaged low-carbon practice .
+This system accurately capture environmental attribute temperature , humidity , light intensity .
+Leveraging data , algorithm autonomously adjust command .
+For instance , temperature humidity sensor regulate air conditioning system autonomously provide cooling heating required , whilst brightness sensor automatically control lighting based natural light intensity , maximizing utilization natural light reducing electricity consumption .
+Additionally , system prevents energy wastage idling device .
+Human sensor security purpose smart sunshade system collaborate efficiently , activating human activity detected .
+Through advanced method management , Xiaomis office space elevated whole new level comfort realizing substantial energy consumption carbon emission saving .
+As end reporting period , platform received 47,150 contribution 40About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Shared Success Partners Governance Compliance Key Performance Xiaomis Zero Carbon Philosophy 41 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Shared Success Partners Governance Compliance Key Performance Xiaomis Zero Carbon PhilosophyProduct Efficiency Enhancement New Energy Power Energy Storage Investment ExpansionThrough precise identification user scenario , continuously optimize algorithm , particularly focusing communication module , display screen , intelligent end smartphones AIoT device enhance seamless connectivity across various scenario .
+Additionally , graded implementation power-saving strategy enhances product efficiency improves user experience .
+With Extreme Endurance Technology , Xiaomis smart terminal maximize energy saving activating multiple power-saving strategy ( identification control number apps high power-consuming apps well dark mode interface design ) power critically low .
+Furthermore , employ Power Saving Mode Technology .
+In application scenario smart power-saving strategy , device automatically implement power-saving strategy different power stage , ensuring user experience energy efficiency simultaneously .
+We building upon current line low-power solar PV panel mini energy storage device utilized household , continually expanding product range offering cater need customer , home , office , setting .
+Additionally , developing smart hardware DC technology group intelligent control capability .
+The ultimate goal establish comprehensive ecosystem energy generation , consumption , storage , control residential , office , travel scenario .
+This coined Light , Storage , Direct , Agile active response terminal .
+We demonstrated strong commitment investing supporting business across energy storage industry , including new energy battery manufacturer , battery material producer , portable energy storage solution provider , company specializing battery thermal management technology , well emerging player EV charging equipment sector .
+Through partnership clean technology , fostered development green , intelligent , innovative product scenario .
+In NEV industry alone , invested RMB8 billion 70 high-quality company 2023 , whose operating income added RMB110 billion .
+Through joint innovation investment , partner continuously speeding growth business committed sustainability development .
+Xiaomis portable renewable energy product , Mijia Solar Panel , incorporates innovative Metal Wrap Through ( MWT ) technology 100-W MAX fast power output .
+It designed used Mijia Outdoor Power Supply 1000 Pro , combined use make outdoor power supply storage possible .
+These product efficient performance portable design made ideal choice use outdoor travel , camping , emergency .
+In term energy saving telecommunication technology , employ 5G energy- saving technology , self-adaptive broadband technology , adjusts bandwidth dynamically based data volume reduce energy consumption self- adaptive power optimization technology , adjusts transmit power mobile phone adaptively save energy 5G4G intelligent switching technology .
+Through technology mean , reduce energy consumption mobile phone 5G signal transmission improve energy efficiency .
+In term energy saving screen display , remain forefront terminal screen technology .
+By incorporating advanced screen material optimize energy use , boost screen brightness efficiency reduce carbon footprint associated smartphone screen utilization .
+For example , Xiaomis latest Xiaomi 14 Xiaomi 14 Pro smartphones feature energy-saving screen equipped high- efficiency screen power supply chip .
+These chip improved efficiency screen power supply approximately 7 % .
+In addition , application new OLED luminescent material led increase luminescence efficiency 16 % ( compared luminescent material stacked structure 2020 ) .
+In term smart terminal , undertaken systematic research chip design , battery material , charging algorithm pioneered intelligent fast- charging system integrates high charging rate , high energy density , efficient low-heat feature .
+We introduced world first 3-in-1 fast-charging infrastructure , includes wired fast charging , wireless fast charging , reverse wireless charging , complemented chip design method .
+Through effort , introduced 42 41 charge pump fast charging chip 98.6 % 96.8 % efficiency .
+These advancement resulted chip loss reduced 70 % , positioning Xiaomi among global frontrunners charging technology .
+This technology implemented 100 million smart device .
+Compared traditional fast-charging technology , save around 52 million kW electricity consumption annual basis .
+Xiaomis Renewable Energy Charging Product Combo 42 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Shared Success Partners Governance Compliance Key Performance Xiaomis Zero Carbon Philosophy Waste Management Circular Economy Electronic Waste Circular Economy At Xiaomi , responsible management product end-of-life integral transition towards circular economy effort minimize electronic waste .
+This endeavor involves intervention innovation across value chain , product design enhancing product longevity , reuse , recycling , dismantling .
+We comply applicable law regulation electronic waste market operate .
+Furthermore , proactively understand adapt local electronic waste recycling system .
+We continue introduce comprehensive electronic waste management channel method fulfill Xiaomis responsibility commitment product end-of- life management .
+In alignment Basel Convention , pledge export electronic waste non-OECD country .
+Additionally , actively collaborate user , supplier , partner establish closed loop resource circulation .
+On global scale , implemented product take-back program .
+The adoption efficient sorting method facilitates categorized recycling , fostering shift linear model take-make-waste circular regeneration approach .
+Our recycling service available facility partnered local recyclers service provider , make recycling electronic product convenient ensures electronic solid waste properly treated .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| We | strictly | assess | certification | qualification | partner | electronic | waste | business | per | applicable | local | law | , | including | Quality | Management | System | ( | ISO | 9001 | ) | , | Environmental | Management | System | ( | ISO | 14001 | ) | , | Information | Security | Management | System | ( | ISOIEC | 27001 | ) | , | Certifications | Zero | Landfill | Responsible | Recycling | ( | R2 | ) | 43 | international | electronic | waste | . |
+
+Throughout collaboration , establish specific agreement partner concerning labor right , safe healthy work environment , prohibition illegal waste export , ensuring partner handle waste recycling , refurbishment , disposal reasonable legal manner .
+In addition , launched internal purchase program sample device employee established standardized management system standard internal sample device purchase , fully promoting resource recycling reducing electronic waste generation .
+During year , recycled approximately 12,260 tonne ( MT ) 44 electronic waste , including smartphones , laptop , IoT product , globally .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Over | next | five | year | ( | 2022-2026 | ) | , | target | recycle | 38,000 | tonne | ( | Mt | ) | electronic | waste | . |
+
+As end reporting period , achieved 44 % waste recycling target set 2022 .
+In market outside Chinese mainland , collaborate third-party electronic waste recyclers ensure proper disposal electronic waste delivery door-to-door collection partner .
+This service span 11 country region ( including Hong Kong , China Thailand Malaysia UK ) , covering smartphones , smart TVs , watch , electric scooter , ecological chain product .
+Recycling Reuse 43 .
+R2 Responsible Recycling .
+44 During year , significant increase weight electronic waste recycled Xiaomi mainly attributable Xiaomis continued expansion product recycling trade-in service significant growth sale major appliance product .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| During | year | , | recycled | approximately | 12,260 | tonne | ( | MT | ) | electronic | waste | , | including | smartphones | , | laptop | , | IoT | product | , | globallyOver | next | five | year | ( | 2022-2026 | ) | , | target | recycle | 38,000 | tonne | ( | Mt | ) | electronic | wasteAs | end | reporting | period | , | achieved | 44 | % | waste | recycling | target | set | 2022 | 43 | About | Report | Charimans | Address | About | Xiaomi | Board | Statement | Stakeholder | Engagement | Materiality | Assessment | Technology | Created | Better | Lives | Shared | Success | Partners | Governance | Compliance | Key | Performance | Xiaomis | Zero | Carbon | PhilosophyTrade-In | Used | Device | RefurbishmentOur | Trade-In | program | relies | facility | third-party | recyclers | promote | recollection | recycling | used | device | Chinese | mainland | , | UK | , | Germany | , | Italy | , | France | , | Spain | , | Netherlands | , | Poland | . |
+
+The program encompasses wide array smartphone brand IoT device .
+In 2023 , expanded category recyclable product coverage recycling service Chinese mainland .
+Employing recycling method trade-in coupons45 online offline combination ( store recycling , door-to-door recycling , mail-in recycling ) , aim incentivize user recycle product new one .
+Outside Chinese mainland , conducted 22 trade-in subsidy event across UK , Germany , France , Italy , special World Earth Day event offering trade- subsidy flagship model France .
+At time , invest resource supporting development layout recycling economy industry .
+Our recycling business partner include two Xiaomi ecological chain enterprise , plan continue expand cooperation network .
+We committed advancing circular economy continuously carrying used device refurbishment program .
+During year , refurbishment factory Europe alone refurbished 126,567 smartphones , smart TVs , smartwatches , electric scooter , air purifier , robot vacuum , among device .
+Among refurbished device , 111,698 smartphones , 3,603 smartwatches , 1,243 smart TVs , 1,798 electric scooter , 3,489 robot vacuum , 4,736 ecosystem device .
+In 2023 , opened refurbishment factory ecological chain product Hong Kong , China , primarily refurbishment dehumidifiers , air purifier , robot vacuum .
+In 2023 , upgraded trade-in service UK , Germany , Italy , France , Spain , Netherlands , Poland .
+We carried in-depth development Xiaomis official website market , correlating trade-in order recycling order combining operation page ordering new device .
+This move provides user complete convenient trade-in experience subsidy Program .
+Trade-In Service Fully Upgraded European Markets 45 Trade-in coupon Xiaomi user participate Trade-In Program returning used product u exchange coupon .
+We assess residual value product , conduct quality inspection , issue trade-in coupon user Mi account upon successful completion transaction .
+44 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Shared Success Partners Governance Compliance Key Performance Xiaomis Zero Carbon PhilosophyWhen selecting material product , consider material durability .
+We used new material titanium alloy Dragon Scale Fiber46 different model smartphones .
+We created ultra-strong skeletal architecture consisting high-strength composite aluminum skeleton , raised reinforced design corner middle frame , thickened motherboard multiple metal reinforcement , Corning Gorilla Glass Victus47 .
+We introduced keel pivot aerospace-grade super steel , three-stage connection , 14 removable hinge .
+These enhancement significantly improve device drop resistance , durability , endurance .
+In latest flagship smartphones , introduced Xiaomis Dragon Crystal Glass , renowned extreme durability property screen material .
+This material us professional powder formula screen panel .
+Through heat treatment 800C , undergoes nucleation long crystal growth form microscopic crystal interlocking structure evenly dispersed glass .
+This design allows Xiaomi Dragon Crystal Glass gain strength far beyond ordinary glass , boasting 10 time drop resistance 1.25 time scratch resistance , maintaining high transmittance rate .
+In durability test high temperature humidity , dust water resistance , drop , also set experimental standard surpass international norm , aiming reduce risk product breakage various scenario .
+In 2023 , Redmi K70E smartphone debuted Starfish Algorithm , enables repairable function phone battery .
+It maintains 90 % battery capacity heavy-duty condition 1,000 cycle , meeting rigorous cycling capacity requirement .
+The Redmi Note 13 Pro smartphone also feature long-life cycle hardware software design , guaranteeing long-use standard 1,000 cycle .
+In addition , extended lifespan smartphone product prolonging battery life reducing charging frequency .
+The Xiaomi 14 Xiaomi 14 Pro smartphone product seen notable improvement endurance ( DOU48 ) 7-8 % compared predecessor .
+At Xiaomi , committed providing user convenient repair service expanding product lifespan comprehensive warranty service plan .
+We offer repair part material reasonable price enhance maintainability product .
+In addition , uphold promise product repair ensure availability spare part product longer sold .
+Additionally , set clear requirement maintenance service partner regarding spare part storage duration outlet maintenance capacity better address user repair need .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| To | effectively | extend | service | life | product | reduce | electronic | waste | , | provided | board- | level | repairs49 | Chinese | mainland | 2023 | product | previously | required | part | replacement | , | acumulative | total | 192,000 | order | completed | . |
+
+Warranty extension program launched key component home appliance .
+The warranty period compressor motor component air conditioner , refrigerator , washing machine extended ten year , warranty period motor , primary component vacuuming series product , extended one year three year .
+These program effectively reduced frequency product replacement user .
+We enhanced maintenance service capability smart TVs , prioritizing local repair part replacement .
+Expanding Product Lifespan Product Durability Warranty Services 46 Dragon Scale Fiber This material advantage high toughness , high strength , impact resistance , puncture resistance .
+A hair-thin ceramic fiber stretch 1.15 kg without breaking .
+Its impact strength 36 time higher glass .
+47 Corning Gorilla Glass Victus Corning Gorilla Glass Victus first mobile phone glass released Corning Gorilla present significant improvement drop scratch resistance .
+According Cornings official experimental data , glass remains intact dropped height 2 meter onto hard rough surface .
+48 DOU Days Use .
+49 Board-level repairment It refers locating faulty component equipment simple repair operation ( replacement debugging ) repairing .
+boasting 10 time drop resistanceits battery capacity heavy- duty condition 1,000 cyclesThe Xiaomi 14 Xiaomi 14 Pro smartphone product seen notable improvement endurance ( DOU ) 7-8 % compared predecessor 1.25 time scratch resistanc 45 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Shared Success Partners Governance Compliance Key Performance Xiaomis Zero Carbon PhilosophyAt Xiaomi , actively promote utilization renewable resource product design RD aim replace traditional material bio-based recycled alternative .
+We assess environmental impact component throughout lifecycle product design phase , prioritize simple construction design single-material packaging , enhance renewable performance product .
+Through effort , aim reduce eliminate waste pollution promote circular economy .
+Moreover , collaborate partner actively explore application renewable material , bio-based raw material , high- performance new green material , thereby increasing proportion green material product .
+This approach enhances enhance low-carbon satisfaction user .
+Throughout year , adopted following initiative core product development .
+Adoption low-carbon leather material solution first time .
+The back case Xiaomi 13T smartphone made biobased material based apple pomace , 24 % polyurethane material derived biobased raw material .
+Additionally , base fabric 100 % made recycled RPET50 fabric ensures zero organic solvent used production .
+Optimization battery material .
+With newly introduced hybrid ternary battery technology , nickel-cobalt-manganese ternary material added original lithium cobalt cobaltate cathode material battery smartphone product , reducing cobalt consumption 13 % .
+This move diminishes reliance rare metal also curtails utilization key mineral resource .
+Reuse marine debris .
+Recycled plastic material derived discarded fishing net ocean used component Xiaomi 14 Xiaomi 14 Pro smartphones .
+These part contain 50 % recycled material .
+Promotion green packaging .
+We significantly increased proportion molded pulp product used packaging liner smartphone product 3050 % market .
+Extensive use recycled metal .
+We increased utilization recycled metal raw material smartphone component , including recycled aluminum , gold , copper .
+For example , model Redmi series feature die-cast center panel front case crafted recycled aluminum material , 100 % metal scrap production recycled production .
+Promotion lightweight packaging .
+By reducing grammage raw material packaging content instruction manual product starter guide , reduced paper use 33.3 % , saving approximately 1,170 tonne ( Mt ) paper .
+Product Design Recycling 50 RPET Recycled PET recycled polyethylene terephthalate .
+It environmentally friendly material made primarily recycled PET plastic bottle using physical chemical technique extraction .
+46 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Shared Success Partners Governance Compliance Key Performance Xiaomis Zero Carbon Philosophy We also continue seek green innovative packaging solution ecosystem product , aiming conserve resource packaging .
+In 2023 , Xiaomis ecosystem product adhered design RD philosophy centered eliminating excessive packaging , striving simplicity compactness , pursuing green packaging .
+Through optimization packaging structure , material , printing , manufacturing process , revamped packaging RD process , packaging design standard , reliability testing standard , appearance inspection standard .
+These initiative guarantee quality product packaging achieving substantial reduction packaging material consumption .
+This year witnessed De-plasticizing biodegradability .
+In IoT product packaging , transitioned replace traditional BOPP51 full-wrap film tracing paper full-wrap film .
+This change maintains product aesthetic reliability also achieves 100 % de- plasticized biodegradable packaging .
+Additionally , substituting two-sided paper coated water-based oil two- sided coated film , accomplished 100 % all-paper biodegradable packaging solution .
+Innovative application material .
+Xiaomis noise-canceling Bluetooth earphone , Necklace , adopts all-molded- pulp one-piece packaging structure outer box inner liner .
+Its raw material consists 70 % bamboo pulp 30 % sugarcane pulp , successfully realizing 100 % biodegradable packaging material .
+Optimization structure .
+For packaging robot vacuum category , replaced original plastic structure paper tray structure , realizing 100 % biodegradable packaging material .
+Meanwhile , switched cushioning material small product ( Xiaomi AI Speaker Second Generation Mijia Smart Air Fryer PRO 4L ) recycled material .
+Lightweight optimization .
+We conducted in-depth optimization packaging material , structure , process , completed lightweight packaging RD design total 20 product various category , including robot vacuum , router , speaker , kitchen bathroom appliance , personal care product , smart door lock .
+51 BOPP Biaxially Oriented Polypropylene .
+46 47 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Shared Success Partners Governance Compliance Key Performance Xiaomis Zero Carbon PhilosophySpecific chemical substance may pose negative impact human health ecological environment .
+At Xiaomi , prioritize safety user environment rigorously controlling use chemical substance .
+We strictly adhere global law , regulation , standard governing restricted use chemical substance , including Directive Restriction Use Certain Hazardous Substances Electrical Electronic Equipment ( RoHS ) , Registration , Evaluation , Authorization Restriction Chemicals ( REACH ) , Directive Packaging Packaging Waste ( 9462EC ) , EU Persistent Organic Pollutants ( POPs ) Regulation .
+In 2023 , Xiaomis RoHS certification REACH certification covered smartphone product IoT device .
+We updated Product Environmental Hazardous Substance Management Guidelines based globally applicable regulation standard restricted substance ( RoHS , REACH , PoPs ) light Xiaomis practice .
+We impose stringent restriction use restricted substance Restricted Substance Management production manufacturing product accordance domestic international standard .
+Additionally , continuously strive reduce phase potentially restricted substance may contained product , Polyvinyl Chloride ( PVC ) , Brominated Flame Retardants ( BFRs ) , beryllium , antimony , cobalt .
+This effort reflects commitment diminishing negative impact product environment .
+During year , provided training management restricted substance supplier enhance performance regard .
+We classified different material according environmental risk required supplier conduct regular environmental test accordance environmental classification .
+We worked closely supply chain partner set detailed management requirement restricted substance process product design manufacturing required product component supplier accept provision submit product environmental report third-party test report material ( including limited Product Environmental Hazardous Substances Compliance Statement third-party precision analysis report hazardous substance ) , ensure information provide restricted substance reliable .
+Moreover , dedicated reducing negative impact environment across stage development , production , use .
+During year , switched mineral ink soy ink printing package content product user guide packaging Xiaomi 14 series smartphone product removed mineral oil-saturated hydrocarbon ( MOSH ) mineral oil-aromatic hydrocarbon ( MOAH ) substance packaging .
+We strictly implement process pre-inspection tracking management restricted substance , established pre-inspection tracking management system part raw material .
+In 2023 , disclosed 47the Substances Very High Concern ( SVHC ) contained product per provision REACH .
+For detail , please refer Sustainability page Groups official website ( httpswww .
+mi .
+comglobalaboutsustainability ) .
+We actively participate development review industry standard .
+In 2023 , participated replacement review industry standard governing electrical electronic product , Marking Control Pollution Caused Electronic Information Products ( SJT 11364 ) .
+We joined Working Group Pollution Control Standards Electrical Electronic Products organized major regulator .
+These endeavor signify commitment setting domestic standard restricted substance .
+48 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Shared Success Partners Governance Compliance Key Performance Xiaomis Zero Carbon PhilosophyOperational Waste Management Non-hazardous Waste Hazardous WasteAt Xiaomi , put operational waste strict classified collection management mechanism commission qualified third-party organization recycle , dispose , reuse .
+We developed Waste Management System Xiaomi Science Technology Campus regulate classification , collection , disposal procedure solid waste .
+We also assigned responsibility domestic waste recycling ensure operational waste campus handled safe orderly manner .
+Embracing regulator policy waste classification , continuously promoted waste classification environmental protection awareness .
+Through three- step education implementation method , instruction , understanding , implementation , ensure orderly efficient implementation waste classification .
+Our effort included posting 300 sign poster waste classification Xiaomi Science Technology Campus , hosting regular training waste classification , receiving four inspection waste classification relevant regulator throughout year .
+Non-hazardous waste generated operation includes domestic waste office food waste canteen .
+We insist using food waste compression equipment installed canteen added new dishwasher dehydrate break residue .
+We use biotechnology convert compressed food waste animal feed organic fertilizer meet national standard .
+On average , tonne ( Mt ) food waste yield approximately 0.3 tonne ( Mt ) organic fertilizer .
+In year , processed 3,200 tonne ( Mt ) food waste .
+We keenly recognize potential risk improper use handling chemical may bring customer , employee , community , environment .
+Therefore , dedicated continuously improving chemical management system , ensuring strict compliance pertinent law regulation , handling chemical substance involved product , activity , service hazardous waste generated highly responsible way .
+We established sound hazardous waste management system process .
+We also avoid generation waste optimizing production auxiliary process improving efficiency material utilization .
+Hazardous waste generated disposed properly strict accordance pertinent process regulation .
+In 2023 , hazardous waste operation included toner cartridge required printing equipment well liquid solid waste RD manufacturing automobile business line .
+All waste disposed environmentally sound manner .
+We adhere principle minimization , recycling , safe disposal waste committed reducing production use hazardous substance .
+In production manufacturing , adopt advanced environmentally friendly coating process , zirconized film treatment dry painting , effectively reduce emission volatile organic compound ( VOCs ) .
+Moreover , strictly screen raw auxiliary material prioritize coating product low VOCs content reduce generation hazardous waste source .
+We implement sludge drying waste solvent concentration project .
+Through measure , reduce generation hazardous waste mitigate negative environmental impact .
+Hazardous waste treatment automobile business line 49 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Shared Success Partners Governance Compliance Key Performance Xiaomis Zero Carbon PhilosophyNatural Resources Biodiversity Water Stewardship Alliance Water Stewardship ( AWS ) At Xiaomi , attach great importance key role natural resource play product service , perform responsible management resource used production manufacturing process .
+We continuously optimize product structure , reduce use material , develop apply recycled energy- efficient material .
+We minimize use fresh water strive eliminate waste resource operation operation value chain .
+We maintain energy water conservation waste reduction measure improve resource efficiency reduce pollutant emission .
+At time , continuously optimize operating environment improve management system accordance law regulation location operate .
+Water essential resource flow various aspect sustainable development , thriving society natural environment depend vitally well-functioning water system .
+Xiaomis water stewardship progressed steadily continuous improvement .
+During reporting period , State increased effort environmental protection legislation implemented several law regulation water protection stewardship .
+At Xiaomi , taken proactive measure align practice new law regulation meet regulatory requirement .
+We moved advance water protection sustainable water stewardship demand .
+Through data collection analysis , developed implemented various commitment plan aimed sustainable water stewardship evaluated progress implementation .
+We achieved sustainable balance water excellent water quality , safeguarded key water , ensured access safe drinking water employee .
+This year , Xiaomi obtained Gold certification Alliance Water Stewardship ( AWS ) 52 first time Xiaomi Science Technology Campus world first commercial office building apply AWS certification .
+Our achievement set precedent global business company overcoming obstacle innovating achieve best score .
+Xiaomi Science Technology Campus designed , built , operated , managed accordance green building standard .
+Its approach water efficiency build upon principle using less water maximizing circular use water resource , guiding operating campus Xiaomi water stewardship .
+In addition , Xiaomi Science Technology Campus office campus world apply AWS certification protecting water resource Chinas Haihe River Basin , effectively protecting water resource northern China .
+52 Alliance Water Stewardship ( AWS ) It water stewardship certification body established UN Global Compact ( UNGC ) , Carbon Disclosure Project ( CDP ) , international organization .
+The AWS certification rate water use site Platinum , Gold , Core ( highest lowest ) based assessment 100 indicator , including stable water stewardship , water pollutant stewardship , water sanitation , domestic impact biodiversity , governance .
+For information Xiaomis response climate change , please refer SustainabilityWater Resources page Groups official website ( httpswww .
+mi .
+comglobalaboutsustainabilitywater ) .
+50 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Shared Success Partners Governance Compliance Key Performance Xiaomis Zero Carbon PhilosophyWater Stewardship Procedures Water Stewardship PracticesWe continuously promoted concept sustainable water stewardship AWS standard extended experience operating campus Xiaomi .
+We established comprehensive water stewardship system assess water-related risk challenge .
+The campus director assumes highest accountability sustainable water stewardship .
+The Corporate Social Responsibility ( CSR ) Centre , serving planning management arm , implement sustainable water stewardship program report directly top manager .
+The Administration Department coordinate manages tap water , reclaimed water , cooling water , wastewater rainwater , well planning implementation improvement program campus .
+We set target action plan total water consumption water efficiency .
+We apply advanced water conservation technology strengthen management measure continuously improve water efficiency , review result every year .
+Furthermore , actively promote utilization recycled reclaimed water continuously increase rate recycled water usage recycling rate reclaimed water campus .
+In addition , dedicated protecting water environment local watershed , supporting water security planning watershed , improving communication information disclosure external stakeholder .
+For information Xiaomi Corporations water stewardship , please refer Sustainability page Groups official website ( httpswww .
+mi .
+comglobalaboutsustainability ) .
+We committed advancing water stewardship practice ensure water security protect aquatic ecosystem watershed operate .
+Our goal harness technology catalyst improving access affordable water resource .
+All wastewater produced operation treated strict compliance local regulation requirement ensure water safety .
+Throughout year , implemented combination water conservation measure manage water consumption within commercial premise , including enhancing management air-conditioning water quality , utilizing high-pressure water cannon clean grease trap , replacing traditional watering sprinkler irrigation .
+At time , taken adequate preventive measure address potential incident related wastewater , ensuring efficacy safety water stewardship .
+We rigorously monitor quality quantity water supplied .
+We conduct real-time monitoring regular compositional analysis wastewater generated ensure clean water prevening water pollution .
+Biodiversity Commitments We committed Ensuring business activity compliant applicable local biodiversity law regulation market operate Ensuring site selection construction activity avoid invade cause negative impact habitat endangered protected specie listed International Union Conservation Nature ( IUCN ) Red List , natural cultural heritage site listed World Heritage List United Nations Educational , Scientific Cultural Organization ( UNESCO ) Encouraging supplier conduct biodiversity risk assessment associated operating site , take necessary measure ( avoidance , reduction , restoration , offsetting ) event production operating boundary vicinity key biodiversity ecosystem habitat threatened protected specie , order minimize negative impact enhance ecological well-being Collaborating partner explore possible way alleviate biodiversity degradation .
+51 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Shared Success Partners Governance Compliance Key Performance Xiaomis Zero Carbon PhilosophyCaseBiodiversity Practices At Xiaomi , prioritize conservation biodiversity , water , natural ecosystem .
+We launched charity program focus ecological conservation , covering various area wildlife protection , stray animal rescue , environmental protection .
+This year , Xiaomi Fundraising Platform Charities continued effort Protecting Habitat Migratory Birds project protecting promoting migratory bird habitat .
+It also drew attention Three Rivers Water Conservation Species Preservation , project aim preserve intact ecosystem Three River Sources ( Sanjiangyuan ) ecosystem , thus contributing conserving source Yangtze River .
+While continuing make positive impact community , vigilant impact local biodiversity ecological environment .
+In 2023 , conducted study ecological status flora fauna Qiyue Farm charity project site .
+This study included assessment local soil , water quality , ecological factor , well evaluation distribution local vegetation animal .
+Using sample survey method , examined specie diversity ground cover plant different ecological environment area .
+The result revealed presence 22 specie wild animal , including badger wild boar 40 specie wild bird , including little egret medium egret 10 specie wild amphibian reptile , including Zhenhai brown frog , evaluated area .
+These result demonstrate public welfare project contributed conservation local wildlife diversity also boosted local economy .
+We extended biodiversity responsibility even greater world .
+This year , Xiaomi India partnered United Way India , NGO , launch urban afforestation project National Capital region .
+With partnership , aimed promote diversity flora fauna soil water conservation groundwater level monitoring .
+The project also aim address urgent need increased green cover planting 12,000 sapling 40 different local variety .
+The project follows Miyawaki initiative53 cultivate urban forest .
+Soil moisture improved , rainwater conservation measure implemented improve soil moisture , thus reducing pollution , increasing biodiversity , mitigating urban heat island effect .
+Moreover , urban forest contributes carbon reduction sequestration mitigates impact climate change , thus contributing sustainable world future generation .
+At Xiaomi , committed making significant positive impact society actively practicing biodiversity conservation .
+Through Xiaomi Fundraising Platform Charities , raise awareness environmental protection biodiversity conservation among user online offline .
+Online , promote concept environmental protection user smartphones , smart TVs , multi-terminal device .
+Offline , organize wide range environment-themed public welfare volunteer activity , including tree planting , coastal cleaning-ups , wetland ecological conservation , dissemination ecological knowledge .
+These activity serve advocate environmental protection biodiversity conservation among user .
+At Xiaomi , persevere marine litter plastic pollution control .
+In Aug 2023 , Xiaomi India launched three-year program prevention ocean bound waste management Karnataka .
+The initiative aim enhance waste management .
+In Karnataka , clear litter beach river install protective netsselect location source segregation , system streamlining , beach cleanup drive , installation trash barrier river prevent plastic waste reaching ocean maintain stability marine ecosystem , community awareness , infrastructure support , behavioral change towards waste dumping .
+The target three-year control program remove approximately 2,300 kg dry waste landfill water body every day conserve marine biodiversity creating cleaner beach ecosystem .
+53 The Miyawaki Initiative The Miyawaki initiative , proposed Japanese botanist Akira Miyawaki , effective , smart , sustainable way create native dense forest .
+This renowned method effective ensures plant grow 10 time faster plantation 30 time denser traditional forest planting method .
+52 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Governance Compliance Key Performance Shared Success Partners Shared Success Partners Talent Nurturing Sustainable Supply Chain Social Welfare Community Engagement03 53 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Governance Compliance Key Performance Shared Success Partners CaseTalent Nurturing Employee Rights Diversity Labor StandardsTalent play pivotal role Xiaomis quest high-quality technological innovation continued leadership fiercely competitive industry landscape .
+By developing competitive recruitment , hiring , benefit , incentive policy globally , committed providing safe comfortable work environment fostering inclusive , open , diverse , equal workplace attracts diversified talented people .
+We designed training system tailored development type employee , aimed nurturing , motivating , retaining professional aligned need corporate development .
+In 2023 , effort yielded many remarkable result .
+We included Worlds Best Employers 2023 list Forbes , acknowledged Forbes China Chinas Best Employer Innovative Practices Year , ranked among top 3 among Chinas Most Attractive Employers Universum .
+Our value fairness , impartiality , openness enshrined Employee Handbook policy applicable across global operation well approach managing recruitment , employment , employee dismissal .
+We uphold adhere guiding principle established International Labor Organization ( ILO ) , Organization Economic Cooperation Development ( OECD ) , local workplace regulation .
+In Employee Handbook , strictly prohibit child labor forced labor anywhere , alongside harassment , abuse , violence , form discrimination workplace including language , behavior , decision-making recruitment process .
+We also provide relevant training help employee better understand issue .
+In 2023 , reported incident related child forced labor , employment gender discrimination , violent behavior workplace .
+Anyone found violation conduct subject disciplinary action accordance internal policy regulatory requirement .
+We operate accordance principle United Nations Universal Declaration Human Rights United Nations Global Compact ( UNGC ) require supplier business u .
+In 2023 , established Labor Coexistence Committee Colombia .
+As supervisory body , one Companys key strategy protect employee .
+The committee committed improving work environment , preventing workplace bullying harassment , protecting employee risk could endanger health work .
+The establishment Labor Coexistence Committee Colombia highlight Xiaomis value inclusion talent .
+53About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Governance Compliance Key Performance Shared Success Partners 54 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Governance Compliance Key Performance Shared Success PartnersRecruitment Employment Diversity Inclusion We assembled dedicated Talent Strategy Team work Human Resources Business Partners ( HRBP ) across business division attract talent fill core technical strategic role Group .
+Craving talent , established various recruitment channel , including university-enterprise cooperation talent cultivation project , Future Star Program , postdoctoral workstation , internship recruitment , experienced hire , campus recruitment , internal referral employee .
+Our goal bring together best people sector improve efficiency job-to- talent matching .
+We forbid child labor forced labor stage operation sufficiently protect right interest employee .
+Should receive report child labor forced labor , immediately initiate internal investigation probe alleged violation .
+Based investigation result , take different measure eliminate impact violation ( substantiated ) , including limited terminating illegal contract providing remedy support affected .
+Committed addressing employment challenge faced university graduate , build employment platform fresh graduate various mean .
+In 2023 , introduced promotion campaign utilizing metaverse virtual reality .
+This campaign offered detail Xiaomi Corporations campus environment corporate culture .
+The metaverse promotion campaign received nearly 27,000 view 5,000 interaction student , significantly bolstering Xiaomis employer image brand recognition .
+In addition , invited Xiaomis top management general manager participate campus promotion .
+We hosted 100 exciting promotion presentation 87 university college 34 city , attracting 16,000 student amplifying Xiaomis presence university college .
+During year , made significant enhancement recruitment employment procedure .
+As part effort , invited signed fresh graduate visit Xiaomis campus welcomed 260 fresh graduate Beijing , Shanghai , Wuhan , Nanjing .
+This program proved instrumental fostering positive perception Xiaomi Corporation recruitment process among candidate .
+We also set internal recommendation mechanism standardized re-employment process .
+To continually stimulate organizational vitality provide opportunity career development , implemented Moving Stars flowing water54 program .
+It encourages employee proactively seek internal job application transfer opportunity .
+As result , numerous employee transitioned new role mechanism , bolster Groups talent retention .
+At Xiaomi , remain committed building diverse equitable workplace , drive innovation open inclusive environment .
+Guided principle embracing different voice perspective , offer range tool resource create diversified work culture diverse , inclusive , culturally vibrant workplace .
+We committed providing safeguarding inclusive equal opportunity employee development promotion without regard national origin , ethnic group , age , gender , religion , cultural background .
+We support aspiration employee endeavor promote diverse , equal , inclusive , open workplace .
+We set Womens Rights Committee mechanism prevention sexual harassment workplace , dedicated supporting protecting right well-being female employee work home .
+Every year , organize commendation activity female employee foster equitable mindset , prevent unconscious bias may undermine culture equality inclusivity .
+In addition regular baby care room office , hosted many recreational activity female employee , delivered lecture womens health , organized HPV55 vaccination year .
+Commitment 54 Flowing water It program internal job application transfer initiated employee .
+Employees meet condition flowing water apply program suitable position within company , two-way choice employee him- receiving department .
+55 HPV Human Papilloma Virus .
+We value skill set , wisdom , resource local worker bring Xiaomi .
+By actively recruiting developing local worker , promote local employment .
+As end reporting period , 2,090 employee overseas workforce , 1,885 recruited locally .
+We respect employee different faith cultural background provide equal inclusive career development opportunity .
+In canteen , give full consideration dietary habit different ethnic group region offer diversified food choice accommodate employee different cultural background .
+Throughout year , expanded dining option employee provide nutritionally balanced richly varied dish maintaining emphasis dietary health .
+Moreover , customize office space reflect culture characteristic people operate offer gift meal align local custom .
+Inclusion Practices 55 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Governance Compliance Key Performance Shared Success PartnersCreating Safe Work EnvironmentEmployee Well-being At Xiaomi , hold steadfast belief people valuable asset Environment , Health , Safety ( EHS ) core foundational grow thrive business .
+We adhere EHS regulation region operate committed cultivating strong EHS management culture ensure safe healthy workplace .
+We established comprehensive EHS management system .
+Guided EHS Safety Management Committee , comprises top management , continually enforce , promote , supervise , enhance EHS policy management measure across Group .
+In 2023 , focus within Xiaomis EHS management system rule personnel management .
+Regarding , added safety norm , system document , contingency plan , corresponding implementation document , developed EHS management manual related document external contractor adapt new business scenario .
+Concerning personnel management , performed closed- loop management safety risk identifying rectifying risk source workplace prevent accident eliminate major hazard .
+Rectification safety duty 100 % concluded year .
+During year , completed ISO 4500156 ISO 14001 system certification , covering relevant product Group .
+Our EHS management system Program document .
+Throughout 2023 , achieved zero major EHS accident , zero major loss , zero major incident fire , zero environmental pollution social reputation event , zero incident occupational disease occupational health hazard .
+This year , organized EHS training program .
+Among internal EHS auditor , 20 passed training obtained professional qualification certified third-party organization .
+By end 2023 , total 42 certified internal EHS auditor , improved internal EHS management quality capability .
+We conduct quarterly internal audit identify potential EHS risk .
+We assess likelihood severity risk reference LEC method57 .
+The result guide design implementation risk control measure apply Xiaomis production business operation area .
+Through regular inspection , monitoring , assessment , ensure EHS risk effectively controlled .
+In 2023 , conducted quarterly audit , special EHS safety inspection , 343 daily inspection .
+We carried immediate rectification hidden problem found , 100 % rectification completed schedule .
+EHS Management SystemEHS Risk Management 57 LEC L Likelihood , likelihood accident E Exposure , frequency people exposed hazardous environment C Consequence , possible consequence accident occur .
+During year , continued invest personal protective equipment , host emergency rescue drill , enhance management hazardous area enhance physical mental wellness employee .
+We set clinic deploy medical personnel provide medical consultation physiotherapy handle safety emergency necessary .
+Throughout year , medical team received 8,259 consultation , provided 5,497 physiotherapy treatment , organized eight workplace emergency rescue , supported three major event Group .
+We installed warning sign area potential health safety hazard ( e. g. laboratory ) , set access restriction area .
+We placed professional Automatic External Defibrillators ( AEDs ) common area facility , office lobby , employee service center , main conference room .
+We also organized AED emergency response training employee .
+We added factory clinic provide daily consultation emergency protection service factory employee .
+Health Safety Measures 56 ISO 45001 ISO 45001 international standard occupational health safety management , aim protect health disease workplace injury provide safe healthy workplace .
+56 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Governance Compliance Key Performance Shared Success PartnersAt Xiaomi Corporation , established comprehensive emergency management system effectively manage respond kind emergency , including natural disaster , accidental disaster , public health incident , social security incident .
+Throughout year , introduced 75 new on-site disposal plan diligently implemented , enhancing emergency management system effectively reducing loss caused emergency economy , society , environment .
+Additionally , formulated comprehensive emergency response plan included training curriculum new employee , achieving 100 % coverage .
+At Xiaomi , prioritize health employee implementing people-centric approach emphasize prevention treatment occupational disease .
+Throughout year , established occupational health management system .
+We ensure employee protected occupational disease harmful factor on-site risk assessment , development preventive control measures58 , health monitoring , supervision , inspection .
+At time , hosted occupational health training educational activity enhance employee awareness occupational disease prevention self-protection .
+100 % operator licensed work .
+We committed providing comprehensive EHS training activity ensure employee well informed risk best practice associated work .
+In 2023 , provided employee different ranks59 EHS training various topic , including operational safety , fire safety , traffic safety , anti-fraud , rule law , first aid , electricity safety .
+Over 200 training session conducted throughout year , covering employee All employee Including employee away work long period , employee 60 .
+To raise employee attention EHS management strengthen Xiaomi Corporations emergency management system , provide emergency management system training whole Group .
+We use robot push information employee invite professional instructor deliver lecture provide employee practical emergency skill course .
+Our The EHS safety knowledge competition enthusiastically received Xiaomi employee , 2,100 obtaining full score .
+Emergency Measures Occupational Disease Prevention TreatmentEHS Training Activities 58 Preventive control measure Including improving process , using protective equipment , providing personal protective equipment .
+59 Ranks Including annual EHS training entire Group , EHS training new employee , three-level training ( factory , workshop ( department ) , shift level ) , Safety Committee training principal safety manager .
+60 All employee Including employee away work long period , employee resuming work work-related injury , intern , trainee , external visitor .
+Case We actively cooperate emergency response authority host activity fire traffic safety .
+In November 2023 , conducted fire evacuation drill , film video watching , hands-on operation fire extinguisher , fire ladder experience , prize quiz .
+These activity enhanced employee ability respond fire .
+In addition , National Traffic Safety Day campaign , strengthened awareness traffic safety among Xiaomi employee traffic safety quiz promotion board .
+57 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Governance Compliance Key Performance Shared Success Partners CaseAt Xiaomi , committed fair equitable compensation .
+We assess salary level globally every year ensure fair compensation .
+The senior leadership analysis compensation term fairness-related metric every year make necessary salary adjustment based market competitiveness fairness annual review .
+At Xiaomi , care physical mental health employee offer comprehensive health benefit package , includes commercial insurance scheme , annual health check , health consultation .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | 2023 | , | provided | additional | insurance | employee | family | member | varying | need | , | covering | 49,654 | employee | child | . |
+
+Our commercial insurance scheme includes Providing supplementary medical insurance accident insurance coverage full-time employee Chinese mainland Providing accident insurance coverage group employee ( intern , outsourced employee , part-time employee ) Chinese mainland Providing supplementary medical insurance child full-time employee Chinese mainland Providing commercial insurance overseas full-time employee based local situation .
+Compensation Schemes Employee BenefitsEmployee Compensation Benefits At Xiaomi , prioritize providing competitive remuneration benefit employee .
+We hold principle Total Compensation Performance-Oriented develop comprehensive compensation system incentive mechanism , clearly outlined Xiaomis Employee Handbook .
+This transparent practice enables employee clearly understand remuneration structured .
+We continue provide annual health check employee , covering full-time employee Chinese mainland .
+In 2023 , provided benefit support employee addition existing health check item .
+We designed targeted health check .
+For example , added glycated haemoglobin , thyroid function test ( TSH , FT3 , FT4 thyroid function , three item electrolyte test ) , bone density test health check .
+At time , encourage employee undergo regular health check every year , pay attention abnormal indicator , raise health awareness .
+We also provide discounted health check family member employee encourage employee care health family member .
+Moreover , organized several event aimed caring improving health employee , including Hello , Health traditional Chinese medicine consultation , acupuncture massage , distribution healthy fruit , oral health seminar .
+We also care employee mental health .
+Our Employee Assistance Program ( EAP ) continues provide support enhance employee mental wellness .
+During year , developed online mental care platform system , received 27,938 access 2,162 people .
+We provided psychological counseling session , attracted 623 employee attend , conducted 12-session online training course mental wellness two offline lecture .
+We also hosted three mental wellness event total attendee 1,300 .
+To assist employee better fulfilling responsibility parent family caregiver , provide pregnant employee prenatal check-up leave , maternity leave , abortion leave , breastfeeding leave , employee parental leave .
+During year , total 2,860 employee availed parental leave , return-to- work rate 100 % following leave period .
+To provide better return career development dispatched employee , increased percentage subsidy dispatched employee year .
+Employees given priority promotion upon completion assignment .
+In addition , reimburse dispatched employee health check vaccination purchase special overseas travel insurance ensure personal property safety .
+We also care need dispatched employee family care reunion providing employee traveling leave reimbursing air ticket visit family .
+58 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Governance Compliance Key Performance Shared Success Partners We value long-term motivation talented workforce actively promote employee Share Award Scheme .
+In scheme , employee granted share award recognition contribution , based assessment Groups performance management mechanism .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | 2023 | , | Board | awarded | total | 389.4 | million | share | 8,361 | selected | participant | . |
+
+We also attach importance incentivizing innovation intellectual property .
+In addition regular patent application authorization incentive Group , instituted patent award Group level reward inventor , Xiaomi designer , patent engineer made substantial contribution patent .
+Employee Incentives Employee Communication Performance Evaluation ManagementTalent Development At Xiaomi , committed supporting employee expressing demand exercising right various channel ensure voice heard respected .
+To achieve , established diverse communication mechanism , including labor union , HR partner , Xiaomis whistleblowing complaint channel , goal fostering open equitable work environment .
+Additionally , encourage employee actively engage Groups development decision-making process , fostering collaboration build harmonious , respectful , inclusive work environment .
+We actively organize various activity , organizational capacity survey collective bargaining labor union , promote effective communication employee management .
+We committed safeguarding employee discrimination , retaliation , harassment , unfavorable treatment express claim exercise right .
+This commitment applies level company operation decision-making .
+When addressing employee claim issue , take account labor practice cultural difference different region , striving find optimal solution problem honest constructive dialogue .
+We believe , better understand need employee promote healthy corporate culture enhancing employee sense belonging satisfaction .
+At Xiaomi , developed sound performance management mechanism ensure fair employee evaluation drive employee motivation .
+In daily operation , employee use OKR ( Objectives Key Results ) mechanism .
+On annual , quarterly , weekly basis , align team individual idea future improvement project current task performance .
+The OKR mechanism enhances Xiaomi employee understanding progress organization , team , partner also enables evaluate contribution , ensuring effort directed towards top priority .
+Additionally , allows employee track achievement , set ambitious goal time , fuel intrinsic motivation .
+In addition OKR mechanism , ask employee conduct multi- dimensional performance evaluation every six month year , self- evaluation , 360-degree evaluation , evaluation dotted-line superior , evaluation supervisor , evaluation departmental calibration .
+By evaluating employee performance personal growth evaluation period , aim foster employee career development ensure team management whole .
+Meanwhile , employee make appeal seek justification regarding evaluation result pay package .
+The whole appeal process personal information applicant strictly protected confidentiality policy system .
+At Xiaomi , ensure equal , transparent , unhindered promotion opportunity employee .
+We offer fair regular promotion opportunity employee meet criterion .
+Additionally , make exceptional contribution , provide unique incentive promotion path .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | 2023 | , | Board | awarded | total | selected | participant | millionshares | 8,361 | 389.4 | 59 | About | Report | Charimans | Address | About | Xiaomi | Board | Statement | Stakeholder | Engagement | Materiality | Assessment | Technology | Created | Better | Lives | Xiaomis | Zero | Carbon | Philosophy | Governance | Compliance | Key | Performance | Shared | Success | Partners | Training | Ability | Development | Guided | talent | development | philosophy | nurture | Xiaomi | talent | comprehensively | improve | institutional | capability | efficiently | , | dedicated | providing | comprehensive | , | systematic | , | efficient | training | employee | . |
+
+These training session cover various topic including general education , corporate culture , cutting-edge technology , management skill , among others .
+By equipping employee necessary knowledge , expertise , leadership skill tackle everyday challenge work excel role , drive achievement Xiaomis strategic goal .
+We continuously improve employee training curriculum .
+During year , completed transformation self-developed course , launching total 77 course average employee satisfaction 9.6410 .
+We introduced knowledge deposition project key position , launching total 41 course four category ( data , product , sale , localized operation management ) , achieving average course satisfaction rating 9.710 .
+Meanwhile , made progress piloting , implementing , promoting digital training platform .
+Throughout year , developed 6,000 course 2,000 livestreaming class launched two certification center program ( Induction Technology Certification New Retail After-sales Engineers Chinese mainland Xiaomi Smart IoT Technology ) .
+These resource accessed 37,000 employee , facilitating integration various functional role subject area .
+We place strong emphasis helping new employee integrate company ramp professional skill rapidly training .
+Our commitment deliver training new employee intern , updated iterated Starry Program61 fresh graduate , Integration Program62 experienced hire , Xiaomi Internship Program63 intern .
+These program designed help new employee better understand company culture policy , nurture strong sense team belonging .
+During year , completed approximately 180,000 hour new employee training added nine new course offering .
+61 Starry Program The Starry Program Xiaomi Corporations induction training program fresh graduate .
+Its core objective help fresh graduate quickly complete transition student Xiaomi employee , identify corporate culture , master necessary workplace job skill , integrate working life , become qualified new employee .
+62 Integration Program The Integration Program induction training program new employee experienced hire .
+Its core objective help trainee familiarise Companys history , rule , regulation , identify cultural value , enhance sense belonging team , quickly integrate Xiaomi .
+63 Xiaomi Internship Program The Xiaomi Internship Program induction program Xiaomi intern .
+Its core objective help trainee familiarize Companys value , comply rule regulation , master basic office skill , enhance sense belonging Company , increase willingness stay become full-time employee .
+During year , completed approximately hour course offeringsof new employee training added 180,000 9 60 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Governance Compliance Key Performance Shared Success PartnersCase As technology company , outstanding technical talent valuable asset .
+Therefore , place significant emphasis nurturing cultivating leadership skill among technical expert .
+To end , continuously develop course mid- high-level manager organize internal external knowledge-sharing event broaden technical perspective .
+This year , continued Xiaomis Spark Program Ignite Program .
+The Spark Program designed primary-level leader .
+It aim equip new manager small-scale team core management skill , reinforcing leadership fundamental , facilitate role transition individual contributor manager .
+The Ignite Program designed middle manager .
+It focus three dimension strategy , operation , management , aim enhance comprehensive capability leadership learning practice project .
+At Xiaomi , prioritize talent development , support employee obtaining state-level technical professional certification , help enhance professional capability professional image .
+During year , 600 employee obtained professional technical certificate issued certified Ministry Human Resources Social Security China .
+We extend training course full-time employee newly onboarded contractor , covering corporate culture , corporate policy , business ethic .
+We established online learning group offer instant assistance contractor outsourced partner whenever necessary .
+Engineer Culture At Xiaomi , commitment technology unwavering , Engineer Culture deeply ingrained DNA .
+We relentless forging Engineer Culture celebrates innovation optimal efficiency .
+Focusing encouraging innovation , promoting exchange , cultivating talent , process management , host multi- dimensional , diversified , multi-level technical cultural exchange event .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| This | year | , | held | Xiaomi | Technology | Carnival | 2023 | , | Xiaomi | Hackathon | 2023 | , | Xiaomi | Million | Dollar | Technology | Award | 2023 | , | Automobile | Simulator | Challenge | , | Data | Mining | Competition | . |
+
+These event aim stimulate diversified technological collision .
+At Xiaomi , advocate culture openness inclusivity technology .
+To end , established Tech Circle , Group-wide interactive platform technical culture , far brought together 46,000 participant .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | 2023 | , | 2,356 | engineer | contributed | nearly | 5,600 | technical | article | platform | , | reaching | cumulative | readership | 1.26 | million | year | . |
+
+In addition , launched Cheese Pie program , providing stage Xiaomis internal business expert share knowledge various field .
+In Master Class , invite influential expert bring professional cutting-edge knowledge sharing , helping Xiaomi employee expand professional horizon extend knowledge boundary .
+In 2023 , continued theme Boundless Creativity , Endless Life held fourth Xiaomi Hackathon , providing platform Xiaomi employee practice creative idea exchange thought .
+This year competition upgraded aspect schedule system .
+For first time , supported metaverse live-streaming online roadshows , providing opportunity participating team showcase idea .
+A total 311 people 76 team registered year Xiaomi Hackathon , covering various department region , demonstrating spirit cross- regional cross-departmental collaboration .
+The competition witnessed one first prize , two second prize , three third prize , six honorable mention , four special prize Starry Program .
+The prize-winning project covered wide range field , inclusive technology , child education , cutting-edge industry exploration .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| As | result | , | 24 | patent | application | submitted | 2023. | registered | year | Xiaomi | HackathonA | total | application | submitted | 2023 | team | people | patent | 76 | 311 | 24 | 61 | About | Report | Charimans | Address | About | Xiaomi | Board | Statement | Stakeholder | Engagement | Materiality | Assessment | Technology | Created | Better | Lives | Xiaomis | Zero | Carbon | Philosophy | Governance | Compliance | Key | Performance | Shared | Success | PartnersSustainable | Supply | Chain | ESG | System | Supply | Chain | Supply | Chain | Management | SystemIn | 2023 | , | recognized | heightened | complexity | global | supply | chain | . |
+
+Confronted various challenge spanning diverse law , regulation , labor practice market , remained steadfast promoting exemplary practice ESG governance throughout Xiaomis global supply chain network within manufacturing industry .
+Through year dedicated effort , bolstered ability address hidden risk supply chain demonstrated strong governance capability operational efficiency face escalating challenge .
+We established Purchasing Committee oversee supply chain governance .
+The committee comprised senior management , representative purchasing department , member SC , representative legal internal control compliance department , directly oversee supply chain ESG issue .
+In addition , developed Supplier Social Responsibility Code Conduct , aligned Xiaomis ESG governance principle .
+It mandate supplier comply law , ethical business practice , human right management requirement .
+We embedded Xiaomis ESG governance principle supplier selection process , evaluating potential supplier based governance practice , compliance history , ESG risk management capability .
+We regularly assess supplier compliance governance standard audit , assessment , performance review ensure fulfillment responsibility continuous improvement practice .
+We collaborate supplier enhance transparency purchasing practice foster competitive fair value chain ecosystem .
+The Xiaomi ESG Practice ReviewEvaluation Report contains detailed supply chain ESG governance information , governance practice , risk control status , compliance , corrective action taken issue .
+It designed showcase supply chain ESG governance performance64 prevent potential conflict purchasing practice ESG guideline .
+We work supplier improve ESG governance .
+We provide open access training key topic , governance tool , resource , support enhance ESG governance risk management capability .
+On climate issue , published supplier guide created free resource show supplier process setting target .
+We also provide coaching guide target-setting mitigation action .
+In addition , participate industry initiative partnership aimed raising supply chain governance standard .
+In contract supplier , include specific ESG governance clause outlining expectation , compliance requirement , potential consequence non-compliance .
+When selecting supplier awarding contract , give preference strong ESG performance .
+We also developed well-defined mechanism non-compliance governance standard , including measure corrective action , fine , even termination contract .
+We ensure anti-corruption policy clearly communicated supplier mechanism place corruption reporting investigation .
+We also promote ethical business behavior throughout supply chain provide training resource promote integrity ethical decision-making .
+Through initiative , Xiaomi dedicated promoting ESG governance practice characterized mutual trust , transparency , responsibility across supply chain .
+These effort help mitigate risk also effectively strengthen relationship supplier , foster trust stakeholder , enhance reputation responsible sustainable business practice .
+At Xiaomi , understand pivotal role supply chain governance responsible purchasing part , material , chemical , service , essential component .
+To end , started clear governance structure enhance collaboration supply chain partner mitigate risk anticipating future supply chain shortage redesigns might occur .
+Key element supply chain ESG governance encompassClear Governance Structure Guidelines 1 .
+4 .
+5 .
+6.2 .
+3 .
+Embedding supplier selection assessment Transparency reporting review mechanismObjective synergy capacity building Enhancing contract agreement performance Promoting ethical practice anti-corruption measure 64 Such informationreports accessed requesting SP CSA platform ( corporate representative ) Capital IQ Pro platform ( non-corporate representative ) , Ecovadis platform , CDP platform .
+62 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Governance Compliance Key Performance Shared Success PartnersDigital Supply Chain Management System Management Rationale StrategySupply Chain Risk Management We leverage Xiaomis digital strength apply big data AI technology continuously enhance supply chain traceability , efficiency , transparency mitigate ESG risk .
+In 2023 , updated digital supply chain management system , expanding system functionality scope .
+Particularly , bolstered module sustainable supplier management built existing function order coordination management , quota management , supplier registration withdrawal management , purchase category management , demand feedback .
+The Supplier Corporate Social Responsibility ( CSR ) Management System feature GHG verification , wastewater waste disposal survey , raw material traceability management , labor management , .
+Each feature accompanied key performance indicator accurately monitor environmental social impact flow path raw material manufactured good real time .
+By digital mean , enhanced efficiency risk management social responsibility labor right , achieved digital lifecycle management supply chain , effectively controlled systemic risk supply chain .
+As end reporting period , applied management system unified management production supplier , key component , raw material supplier , covering product line .
+Climate-related extreme weather event natural disaster may continue increase disrupt chain reaction global supply chain operation .
+Based technology experience natural disaster early warning To C application side , established supply chain natural disaster early warning system enhance supply chain climate resilience .
+The system directly notifies supplier disaster severity improves capacity respond natural disaster across four aspect disaster control , early prediction , rapid feedback , multi- dimensional control .
+Furthermore , offer early warning disaster impact assessment function safeguard sustainability supplier production supply .
+We implement comprehensive risk management framework detect , evaluate , manage ESG risk associated supply chain , specific emphasis supplier employment practice , environmental sustainability , regulatory compliance .
+Concurrently , committed seeking harnessing ESG opportunity create added value win-win solution .
+Anchored risk management strategy business continuity system , dedicated fostering ethical , sustainable , fair supply chain collaboration risk control , audit , trade secret protection .
+To improve visibility penetration supply chain , leverage Xiaomis advantageous mature digital governance .
+We enhanced risk management capability node enterprise supply chain , improved adaptable utilization supply chain data accuracy risk prediction , established early warning system emergency response mechanism .
+In way , better manage environmental impact supply chain impact society .
+To ensure supplier fully understand pay attention ESG risk , set explicit social responsibility terms65 contract supplier , requiring fulfill corresponding social environmental due diligence obligation follow refer ISO 2230166 , ISO 14001 , ISO 45001 , ISO 27001 , ISO 2800067 SA800068 establish Business Continuity Management ( BCM ) system .
+When identifying potential risk among Tier-1 supplier , take preventive corrective measure initiate related activity needed .
+For Tier-2 3 supplier , take similar measure appropriate .
+These practice systematically integrated business process .
+In comprehensive approach identifying , assessing , managing ESG risk associated supplier , employ various method tool , public opinion monitoring , on-site audit , assessment questionnaire , risk assessment program .
+These tool offer u holistic understanding potential issue supply chain , enabling u take appropriate measure address .
+65 Xiaomi Supplier Social Responsibility Code Conduct httpswww .
+mi .
+comglobalaboutsustainabilitydocshow 66 ISO 22301 ISO 22301 international standard Business Continuity Management Systems .
+It provides framework organization enhance resilience various unforeseen disruption , including extreme weather , fire , flood , natural disaster , theft , IT failure , employee illness , terrorist attack .
+67 ISO 28000 ISO 28000 international standard supply chain security management designed help organization take robust approach better address current future risk .
+68 SA8000 SA8000 , Social Accountability 8000 , world first international standard ethic .
+It designed provide standard based international labor right norm labor law country standard adopted , protect assist produce provide service control influence enterprise , including enterprise employed supplier subcontractor .
+63 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Governance Compliance Key Performance Shared Success Partners Compliance Management Supplier Assessment Performance We committed creating safe , reliable , resilient , competitive healthy industrial chain alongside supply chain partner .
+Throughout year , intensified requirement supplier compliance ecosystem , compliance system , open purchasing .
+To ensure science-based fair management approach , refined updated Xiaomi Supplier Social Responsibility Code Conduct across labor management human right protection , EHS health safety , environmental standard , business ethic .
+The revision based code conduct Responsible Business Alliance ( RBA ) Joint Audit Cooperation ( JAC ) Supply Chain Sustainability Guidelines aligned OECD Guidelines Multinational Enterprises , UN Guiding Principles Business Human Rights , UN Universal Declaration Human Rights .
+We require Tier-1 supplier establish ESG management system regularly measure performance , set target , share review result .
+We encourage Tier-1 2 supplier cascade expectation requirement lower-tier supplier , fostering top-down ESG risk management system .
+We reward support exceptional supplier , motivating innovate enhance ESG risk management .
+In 2023 , presented Most Valuable Partner Sustainability Award seven supplier partner exemplary performance ESG governance .
+We require new supplier sign acknowledgment guideline qualify partnership , shall conform internationally recognized labor right protection standard practice , well workplace safety standard code conduct .
+Any violation guideline course partnership necessitate supplier rectification situation termination partnership .
+We collaborate closely supplier identify manage ESG risk , considering different role , location , tier within supply chain .
+In addition supplier self-assessment , audit Xiaomi-approved third party , Xiaomi-led audit , developed standardized toolkit tailored various supply chain partner .
+It assigns score adverse event based likelihood potential severity , allowing u accurately quantify impact .
+It also offer graded management aid identifying ESG risk throughout purchase process implementing corresponding mitigation measure .
+At end reporting period , conducted specialized review key suppliers69 reviewed 805 manufacturing supplier .
+Among issue identified review , 92.5 % resolved .
+As end reporting period , 42 supplier cooperation Xiaomi suspendedterminated Xiaomis regular supply chain audit due various factor include environmental issue , fire prevention , labor management , business ethic , etc .
+69 Key supplier Suppliers identified prominent ESG risk andor strong business relevance Xiaomi .
+63About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Governance Compliance Key Performance Shared Success Partners 64 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Governance Compliance Key Performance Shared Success PartnersDuring supplier nomination phase , make explicit provision responsibility party , deliverable , related term condition .
+Xiaomis purchaser specialist conduct on-site evaluation supplier .
+The following dimension also taken account criterion We also conduct compliance audit supplier independently certified third party .
+The audit cover compliance , business partnership , social responsibility , involves in-depth communication employee management .
+Items immediate correction rectified spot initial review confirmed end audit .
+Upon completion audit , third party provide report assist monitoring rectification issue .
+ESG compliance long become one top criterion Xiaomi selecting evaluating new supplier .
+This entail assessing sustainability policy , code conduct , ISO certification , ESG standard performance new supplier .
+If red-line issues70 identified due diligence , concerned supplier admitted supplier pool issue rectified .
+This year , completed 987 supplier admission evaluation , 35 failed assessment rejected .
+Primary reason failure include prominent social responsibility issue , integrity incident , environmental fire safety issue , serious compliance risk .
+Operational quality The indicator include operational capacity , production management capacity , production cost , quality management capacity , operational efficiency , financial capacity , technical capacity Environmental responsibility The indicator include environmental impact raw material purchase , process flow , manufacturing , transport Social responsibility compliance The indicator include labor right , occupational health safety management , business ethic .
+Evaluation Mechanism New Supplier Onboarding Third-Party Audit MechanismThe Supplier Transparency Reporting Mechanism follows standardized auditing process step access requirement analysis , supplier registration , information review introduction instruction , training Xiaomi Supplier Social Responsibility Code Conduct .
+It aim ensure supplier meet business standard .
+Ecosystem company shall collect submit basic supplier information audit report formal assessment .
+We conduct initial screening supplier accordance Basic Admission Requirements Xiaomi Ecosystem Suppliers auditing criterion Supplier Audit Information Sheet .
+Only meet established threshold enter next stage Xiaomis audit .
+Xiaomi Ecosystem Transparency Reporting Mechanism 70 Red-line issue include limited product quality , labor management , environmental security , business ethic , major risk incident .
+64 65 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Governance Compliance Key Performance Shared Success PartnersWe developed supplier self-assessment tool based Xiaomi Supplier Social Responsibility Code Conduct .
+It cover various dimension , including basic qualification , employee management , social responsibility management , well environmental risk business ethic .
+The tool distributed Tier-1 supplier , required provide necessary information supporting document initial document review facilitate annual self-assessment .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Additionally | , | encourage | supplier | obtain | international | standard | certification | ISO | 9001 | , | ISO | 14001 | , | ISO | 45001 | , | include | self-assessment | enhance | sustainability | capability | . |
+
+Based result supplier assessment evaluation , assess potential risk supply chain , determine risk level , optimize supply chain risk management strategy accordingly ensure comprehensive understanding supply chain risk situation .
+For supplier fail audit , take following measure .
+We continuously strengthen audit contractor supplier EHS management .
+To reinforce contractor awareness safety compliance , established construction safety management procedure stakeholder ensure safety contractor activity .
+We implement strict safety material review contractor worker entering site , allowed work passing review .
+We enforce stringent process management contractor , promptly notifying potential safety hazard mandating corrective action .
+We strictly manage high-risk activity temporary fire work-at-height , carry safety audit contractor .
+Throughout year , 100 % contractor passed safety audit , maintaining safe work environment .
+We also implement mandatory supervisory measure manufacturer well material contractor supplier across operating location .
+We maintain clear scope , rigorous audit , continuous monitoring rectification .
+EHS audit supplier conducted combination self- inspection sampling .
+Any supplier fails meet standard face termination cooperation .
+We actively listen supplier opinion suggestion , aiming enhance supplier management system efficiency .
+To expand complaint channel supply chain , established open reporting window Xiaomi Corporation Integrity Compliance Platform .
+Additionally , provide protective measure supplier employee , aiming create welcoming inclusive work environment .
+For industry external complaint , specify contact information Supplier Code Conduct .
+We also require stakeholder sign contract ensure compliance transparency .
+We require supplier remedy rectify within limited period , closely follow progress improvement .
+If supplier fails complete rectification within time limit serious violation , suspend terminate partnership according situation .
+Senior management purchase department Group communicate directly supplier .
+Assessment Correction Process EHS Assessment Reporting Channels ProceduresThroughout year , 100 % contractor passed safety audit 100 % 65 66 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Governance Compliance Key Performance Shared Success PartnersResponsible MiningResponsible Purchasing At Xiaomi , committed purchasing raw material responsibly particular , avoiding funding , whether direct indirect , conflict-affected area .
+We made continuous effort trace source tantalum , tin , tungsten , gold ( 3TG ) used hardware product .
+Additionally , acknowledge risk human right abuse cobalt supply chain .
+Our commitment remains steadfast ensuring raw material associated Xiaomis hardware product directly indirectly finance armed group Democratic Republic Congo ( DRC ) neighboring country .
+Establish develop Conflict Minerals policy , due diligence procedure safeguard measure , define role responsibility internal personnel .
+Require supplier conduct due diligence smelter refiner , disclose information smelter refiner accordance Xiaomi Conflict Minerals management template Responsible Minerals Initiative ( RMI ) Conflict Minerals Reporting Template ( CMRTEMRT ) annual basis .
+Request smelter refiner undertake relevant certification necessary .
+Analyze verify due diligence result reported supplier ensure mineral sourced conflict-affected area .
+Disclose list smelter refiner passed due diligence verification .
+Disclose smelter refiner list annual basis .
+Engage supplier continuously improve response rate enhance data credibility smelter .
+Establish communication channel stakeholder Conflicted Minerals management .
+Provide training Conflict Minerals Policy due diligence procedure employee supplier .
+Assess identify risk hotspot supply chain , develop risk response control procedure .
+We adhere OECD Due Diligence Guidance Responsible Supply Chains Minerals Conflict-Affected High-Risk Areas , RBA Responsible Minerals Initiative ( RMI ) responsible sourcing mineral , pledge source conflict mineral directly indirectly finance local armed group .
+To uphold commitment , developed Xiaomi Corporation Conflict Minerals Policy , established due diligence procedure conflict mineral , elevated requirement supplier , set process identifying preventing associated risk .
+Every year , track , monitor , report status conflict mineral supply chain .
+Our due diligence procedure conflict mineral consists following step .
+Due Diligence Procedure 67 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Xiaomis Zero Carbon Philosophy Governance Compliance Key Performance Shared Success Partners We actively work supplier require perform responsible mineral management .
+Specific requirement follows .
+Upon effort managing conflict mineral , initiated extensive supply chain traceability program trace source tin , tantalum , tungsten , gold ( 3TG ) , cobalt , mica product .
+This initiative aim guarantee none come conflict-affected zone .
+We identified following risk based due diligence Our strategy address risk involves aligning supplier supply chain code conduct , urging adhere standard , considering suspension termination cooperation compliance met .
+Whether supplier located Democratic Republic Congo neighboring country Whether supplier purchase ore controlled country Whether information provided supplier supply chain sufficiently accurate Whether basic contact supplier ( example , email , phone call , Internet research , site visit ) sufficiently evidence conflict fuelled Whether conflict mineral actually contained product , given global nature supply chain .
+Code Conduct Responsible Mineral Management Suppliers Conflict Minerals Risk Identification Endorse initiative , process , standard , achievement Responsible Business Alliance ( RBA ) .
+Support work achievement RBA Responsible Minerals Initiative ( RMI ) .
+Follow RBA Conflict Minerals Reporting TemplateExtended Minerals Reporting Template ( CMRTEMRT ) Responsible Minerals Assurance Process develop Xiaomis Conflict Minerals management procedure template .
+Oblige support Xiaomi direct indirect communication smelter refiner involved Conflict Minerals .
+Refer RBA Code Conduct conduct Conflict Minerals due diligence , engage RBA-endorsed third-party audit agency conduct independent audit .
+Report audit result corrective action ensure conformance .
+Require upstream supplier manage mineral responsibly reference RBA Code Conduct .
+Establish policy ensure direct indirect contribution financing crime human right violation .
+67About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives 68 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Governance Compliance Key Performance Shared Success PartnersThis year , identified total 420 upstream smelter refiner across 55 country region .
+The RMIs Responsible Minerals Assurance Process ( RMAP ) certification follows .
+For yet obtained RMAP certification , Xiaomi mandate undergo third-party due diligence line RMAP requirement , switch certified smelter refiner .
+Moving forward , establish robust disclosure mechanism smeltersrefiners , continue enhance supply chain capability governance , compliance , transparency ensure responsible management conflict mineral .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Xiaomi | smeltersrefiners | RMAP | certification | 2023 | MineralsProportion | RMAP-certified | smelter | refinersNumber | smelter | refiner | Tin | 100.00 | % | 82 | Tantalum | 100.00 | % | 36 | Tungsten | 100.00 | % | 50 | Gold | 100.00 | % | 179 | Cobalt | 97.10 | % | 69 | Mica | 100.00 | % | 4Supplier | Empowerment | Supplier | Empowerment | During | year | , | carried | ESG | capacity | building | key | Tier-1 | supplier | . |
+
+We communicated , empowered , collaborated project sustainability topic , including management climate change issue , emission pollution potential , circular economy practice , employee development , labor right initiative , anti-corruption , anti-bribery , conflict interest anti-competitive behavior , supply chain management .
+Notably , made key progress avoiding pollution , minimizing emission , improving resource efficiency across lifecycle product .
+One partner manufacturer always concerned employee right labor management practice .
+It empowers employee development growth aspect , creates safe , healthy , harmonious work environment employee , guard people- centric value chain ecosystem Xiaomi .
+In 2023 , partner , undertook production project Xiaomis smartphone model , Actively fostered diverse inclusive corporate culture , established fair mutually respectful work environment , formulated Measures Labour Protection Women Employees Procedures Protection Female Workers ( Pregnant Women ) , hosted regular training prohibition discrimination workplace Formulated Management Procedures Prohibition Forced Labor Management System Protection Underage Child Labor , continuously regulated process reviewing recruitment employee procedure remedying employment child labor , ensure compliance employment Attentively listened voice need employee labor union employee conference , keeping channel communication exchange group employee open unimpeded Formulated several internal EHS system Safety Operating Procedures Safety Management System Special Operations , strengthened personnel training safety risk awareness , standardized safety management safety operation behavior , effectively preventing eliminating safety accident enabling process control safety management .
+Moreover , partner established reasonable position development channel , created wealth training resource , set sound career development system , maintained robust workforce .
+Case 69 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Governance Compliance Key Performance Shared Success PartnersAnother partner manufacturer actively embrace Xiaomis ESG governance principle demonstrates shared commitment net-zero goal implementing various green energy project energy efficiency measure .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | 2023 | , | partner | , | undertook | production | project | Xiaomis | smartphones | tablet | , | Achieved | green | power | target | 1,770,000 | kWh | per | year | installing | 1,642-kW | photovoltaic | project | Constructed | 5,400-RT | ice | storage | air-conditioning | system | help | shift | ( | staggered | ) | peak | load | grid | 2.07 | million | kWh | per | year | Achieved | annual | electricity | saving | 850,000 | kWh | 1,070,000 | kWh | , | respectively | , | using | high- | efficiency | air-conditioning | unit | air | compressor | Employed | energy-efficient | air-conditioning | pump | frequency-controlled | intelligent | control | system | , | waste | heat | recovery | equipment | , | acoustic | imaging | technology | detecting | pipeline | leak | . |
+
+These measure achieved total annual average energy saving 1.98 million kWh , reducing emission 1,263.04 tonne ( Mt ) CO2e71 .
+Case 71 1,263.04 tonne ( Mt ) CO2e .
+The project located Guangdong Province .
+The energy saving benefit data calculated based actual operation technical value theory .
+The electricity emission factor cited Guidelines Guangdong Province Carbon Dioxide Emissions Reporting Enterprises ( Entities ) ( Revised 2024 ) .
+Supply Chain Finance Xiaomis Supply Chain Finance serf manufacturing economy , offering industry suitable solution , higher efficiency , adequate resource compared traditional financial institution .
+Leveraging digital technology solution driving force , aim lead enhancement digital service capacity supply chain finance , benefiting strong position manufacturing economy .
+Our focus remains promoting digital upgrading industry chain partner , accurately meeting financial need supply chain enterprise , providing diversified cash flow protection tool safe , rapid , sustainable business development .
+As end reporting period , Xiaomis Supply Chain Finance facilitated RMB300 billion fund 16,000 company real economy .
+70 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Governance Compliance Key Performance Shared Success PartnersSocial Welfare Community EngagementSupport Education For public welfare , always adhere idea better world brought technology mission empowering public welfare development technology promoting technological innovation public welfare .
+By engaging proactive dialogue user , community , government , research institution , discern diverse need society .
+We incorporate concept technological development endeavor support education technology promotion persistently innovate public welfare practice model .
+Additionally , enthusiastically engage social welfare initiative volunteering , disaster relief , aiding underprivileged .
+Through tangible effort , give back society enhance social well-being .
+As innovative enterprise based technology , aspire foster cultivate talent social science technology leveraging deep accumulation area technology , smart manufacturing , AI .
+We nurtured advanced technology talent Xiaomi Scholarship program , Xiaomi Young Scholars program , Xiaomi Sports Scholarship program initiated Xiaomi Foundation .
+The Xiaomi Scholarship program provides financial assistance undergraduate postgraduate student distinguished university college support construction development higher education institution China .
+With endowment fund RMB500 million , program poised support 70,200 undergraduate postgraduate student 100 university college nationwide .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| By | end | 2023 | , | Xiaomi | Scholarship | program | extended | 60 | university | college | , | plan | expand | 30 | year | , | benefiting | total | 7,780 | university | college | student | benefited | . |
+
+The Xiaomi Young Scholars program designed support young teacher researcher achieved outstanding result field computer science , electronics , electronics , basic science exhibited great innovation potential .
+It provide stable support university personnel training , teaching staff development , scientific research achievement .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| By | end | 2023 | , | program | covered | 30 | university | , | additional | 10 | institution | included | year | , | supporting | 520 | young | scholar | . |
+
+The Xiaomi Sports Scholarship program aim help outstanding financially disadvantaged middle school athlete focus sport training improve sport skill .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| By | end | 2023 | , | program | supported | total | 2,365 | student-athletes | sport | school | . |
+
+Talent Development Xiaomis Funding Programs Xiaomi Award ScholarshipXiaomi Young ScholarXiaomi Sports Scholarship 71 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Governance Compliance Key Performance Shared Success Partners In 2023 , strengthened integrated support education sci-tech innovation , focusing area innovation entrepreneurship cultivation sci-tech innovation capacity among student .
+We launched project Industry-Education Integration Community Next-Generation Intelligent Hardware Technology Industry , introducing Xiaomi AIoT Box central tool .
+Our collaboration included 150 university college , aiming promote new paradigm industry-university-research integration innovation scientific research talent .
+The Xiaomi AIoT Box new embedded intelligent development tool developed Xiaomi .
+It facilitates construction customized intelligent hardware system modular design .
+It interconnected Mijia app , allows simulation IoT hardware device prototype construction .
+The Xiaomi AIoT Box carry Xiaomis best practice hardware- software integration .
+Moreover , merging theoretical instruction hardware development , special tool showcasing Xiaomis hardware-software integration feature .
+We tailored course content enhance practical learning experience project .
+During year , We offered specialized course smart IoT development smart IoT testing technology relevant program university college .
+The program operated collaboration total 35 university college , 72 hour training course designed .
+A total 252,000 hour training provided 3,500 student .
+We developed practical training skill course vocational college three orientation AI , intelligent IoT , electronics technology .
+The program operated collaboration total 145 vocational college , 216 hour training course designed .
+A total 1,879,200 hour training provided 8,700 student .
+We launched youth popular science education course primary secondary school , smart IoT lab , smart IoT practice platform , smart home application scenario .
+These course aim contribute overall quality system primary secondary school .
+The program operated collaboration total three primary secondary school , 10 hour training course designed .
+A total 1,000 hour training provided 100 student .
+Innovative Education Xiaomi AIoT Box A total 1,000 hour training 1,000 hour 72 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Governance Compliance Key Performance Shared Success Partners We built massive library high-quality resource provides 700 general education course enlightenment , 540 interactive thinking training program , 3,187 digital illustrated book , 4,000 English program .
+In way , created immersive language learning mind-training environment designed stimulate childrens interest learning strengthen language proficiency mental agility .
+We introduced Reading A-Z ( RAZ ) graded reading collection illustrated book , total 846 volume .
+This series , based international authoritative grading system , cover 13 English reading level zero junior high school level , fully meeting English reading need child teenager .
+We launched Museum Cinema popular science channel , feature captivating popular science film played 70 museum science center nationwide , National Maritime Museum China China Science Technology Museum .
+Virtual visit museum science center may accessible person stimulate childrens interest science desire explore .
+We curated selection 2,000 course tailored learning need child primary school high school .
+These course , synchronized school curriculum , encompass diverse range knowledge point , thinking development , reading writing , natural spelling , aiming provide comprehensive multi-dimensional learning platform child .
+In 2023 , launched Xiaomi Childrens Park , channel tailored childrens physical mental development Chinese mainland .
+It offer wealth high-quality growth content regularly updated , significantly enhancing parenting experience focus science-based approach .
+Xiaomi Kids Channel upholds mission learning play happy companionship .
+With rich content ecosystem refined operation , provides strong support meet need childrens viewing entertainment growth education .
+During year , Child Development Xiaomi Kids Channel 72About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Governance Compliance Key Performance Shared Success Partners 73 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Governance Compliance Key Performance Shared Success PartnersAs frequency extreme weather event rise due global warming , developed natural disaster early warning system .
+This system access real-time data stream National Early Warning Information Dissemination Center monitor wide range natural disaster heavy rain , typhoon , blizzard real time .
+This ensures user promptly access latest information natural disaster Xiaomis Natural Disaster Early Warning System take appropriate precaution .
+Our Natural Disaster Early Warning System ensures direct communication severity natural disaster risk assessment associated user , employee business position , partner graded visualization different level disaster .
+It also provides disaster response recommendation .
+The Xiaomi smartphone Xiaomi TV , first mobile phone TV operating system integrate earthquake early warning function , collaborate Chengdu Institute Care-Life establish disaster prevention mitigation information channel thousand household .
+Xiaomis earthquake early warning support user administrative region Chinese mainland Indonesia subscribe earthquake early warning message , ensuring user turn earthquake early warning function Xiaomi smartphones Xiaomi TVs .
+The availability function Xiaomi smartphones Xiaomi TVs demonstrates commitment contributing primary-level emergency response capability safeguarding people life .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| By | end | 2023 | , | successfully | pushed | nearly | 92 | million | warning | earthquake | magnitude | 4 | worldwide | . |
+
+To improve efficiency efficacy disaster relief , Xiaomi Foundation released Emergency Relief Project Manual .
+This manual offer standardized systematic guidance process tool disaster relief post-disaster reconstruction .
+It also ensures ability actively monitor , rapidly respond , effectively track disaster situation reconstruction progress .
+In face disaster , immediately respond emergency mobilize resource sector donation Xiaomi Foundation .
+This year , conducted two emergency relief operation .
+In August 2023 , flood struck Beijing-Tianjin-Hebei region , Xiaomi Foundation immediately donated RMB25 million .
+The fund primarily allocated ensuring safety victim , procuring emergency relief material , supporting post-disaster reconstruction education facility school affected natural disaster facilitate resumption normal education activity .
+In December 2023 , face earthquake Jishishan County Gansu Province , Xiaomi Foundation provided assistance donated RMB5 million .
+These fund utilized purchasing emergency relief material post-disaster reconstruction disaster .
+Additionally , raised fund public provide urgently needed daily necessity affected family .
+Natural Disaster Early Warning System Earthquake Early WarningEmergency Disaster ReliefDisaster Relief Early Warning 8 12 74 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Governance Compliance Key Performance Shared Success PartnersAt Xiaomi , actively respond strategy rural revitalization leverage technological strength support construction beautiful village .
+In 2023 , collaborated Image Specialized Committee Popular Culture Society China conduct research launch Visual Nanping project .
+This project aimed explore unique rural culture Nanping promote upgrading , developing tourism special industry based agricultural product , supporting young people returning home start business rural revitalization .
+Collaborating local resident create visual enhancement Program Nanping , drew professional different field rural area design cultural activity .
+We insisted blending intersecting innovative design local culture , capturing disseminating story Nanping culture visual design .
+Xiaomis public welfare designer outlined VI application plan Nanping encompassing design concept , logo , font , color , tailored characteristic scenery brand image .
+Through effort , contributed Xiaomis ingenuity preservation rural culture development new rural area .
+At Xiaomi , committed promoting volunteering charity exploring new model social responsibility employee Xiaomi Fans .
+This year , organized 15 employee volunteer activity around theme Agricultural Assistance , Elderly Assistance , Education Assistance .
+These activity involved total 161 member Xiaomi Youth Volunteer Team , collectively contributed 2,460 hour service time .
+At Xiaomi , actively engaged agricultural assistance benefit committed promoting sustainable development green agriculture .
+Our Visual Nanping rural revitalization volunteering project focus driving economic social advancement Nanping Village , Anhui Province .
+By exploring new path village governance , Xiaomis youth volunteering team promoted complementary strength resource sharing .
+In September 2023 , established Xiaomi Agricultural Assistance Foodie Club , launched nine agricultural product , effectively addressing problem unsold fruit faced villager Nanping .
+We remain steadfast building people-centric elderly-friendly support system seek solution address need elderly user enable benefit convenience brought digital age .
+Throughout year , Xiaomi Youth Volunteer Team launched Bringing Warmth Community elderly assistance event help elderly .
+Volunteers provided guidance elderly resident community basic operation smartphones , especially safe utilization payment feature , enhance confidence elderly digital payment .
+We launched many elderly assistance event made visit research elderly-friendly configuration AI Assistants .
+Rural Revitalization Volunteering We also active elderly assistance .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| During | Christmas | 2023 | , | Xiaomi | Germany | , | cooperation | external | agency | , | built | senior | activity | center | elderly | Duesseldorf | donated | EUR | 17,000 | . |
+
+By supporting work senior activity center , facilitated exciting outing activity senior .
+Case Elderly Assistance Agricultural Assistance 75 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Governance Compliance Key Performance Shared Success PartnersAt Xiaomi , remain dedicated notion technology-enabled education assistance .
+We continually deepen school- enterprise cooperation , striving extend expand education assistance , goal inspire young people leverage intellect creativity better future .
+Xiaomis Youth Volunteer Team launched Enlightenment Education Practice Program Technology Careers raise primary secondary school student awareness technology career .
+The program includes field study , visit , lecture industry expert .
+It popularized science technology education broadened student horizon career enlightenment .
+In 2023 , continued launch Xiaomi Fan volunteer activity , encouraging Xiaomi Fans active involvement philanthropic endeavor .
+This year , hosted 38 Xiaomi Fan volunteer activity total 190 volunteer hour , 400 Xiaomi Fan volunteer participated .
+During Xiaomi Fan Charity Month , led Xiaomi Fans participate online offline volunteer activity feel support public welfare .
+Xiaomi Fan volunteer interacted closely people mental disability , contributing social environment inclusive employment group .
+In addition , organized six disaster prevention mitigation training activity , Xiaomi Fan volunteer learned disaster self-rescue mutual-rescue skill guidance training carried earthquake escape drill .
+Through activity , aimed instill professional concept emergency response .
+Education Assistance In July 2023 , donated nearly RMB200,000 sale Eco-friendly Recycled Cotton Fashion Sweater Design event Raising Little Ears public welfare project initiated Audiology Development Foundation China .
+The fund used help child hearing impairment difficulty across country .
+In Sweater Design event , Xiaomi Fans child hearing impairment invited create painting work .
+During Xiaomi Fan Festival , Xiaomi Net hosted public welfare painting event Xiaomi Fans child autism .
+Proceeds sale charity-edition sport water bottle created donated One Foundations Ocean Paradise Project .
+CaseAt Xiaomi , actively contribute philanthropy promote ideal humanitarianism social welfare charitable donation .
+This year , Xiaomi Buy42 project achieved remarkable result donation donating 2,000 piece supply total value RMB860,000 , underscoring Xiaomis positive role creating social value promoting sustainable development .
+Charitable Donations total value RMBby donating piece 860,000 2,000 75 76 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Shared Success Partners Key Performance Governance Compliance Governance Compliance Corporate Governance Business Ethics04 77 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Shared Success Partners Key Performance Governance ComplianceCorporate Governance ESG Governance Strategy StructureESG Vision ESG integral part corporate development strategy seamlessly woven business operation management .
+Committed technology field long-term value human civilization , prioritize sustained investment .
+We relentlessly build amazing product honest price employ innovative sustainable technology green , inclusive , affordable fulfill commitment letting everyone world enjoy better life innovative technology .
+ESG Governance Strategy Structure We always believe good governance serf cornerstone sustained corporate growth .
+Continuously enhancing ESG management system conducive fostering healthy sustainable development Xiaomi .
+We employ efficient risk management control mechanism identify major ESG risk develop risk mitigation measure facilitate sustainable development operation business .
+The Board receives regular update Companys ESG progress oversees implementation ESG measure .
+The Groups SC , led President top management consisting ESG management personnel , charge identifying ESG-related risk setting sustainability strategy , target , action plan , responsible evaluating implementation progress .
+The SC report evaluates Groups ESG performance progress CGC bi- annual basis , proposes interim target action plan next phase implementation .
+At implementation level , ESG Working Group coordinate internal external resource guide landing strategy action business unit enables performance monitoring .
+The ESG Working Group also organizes quarterly meeting share discus sustainability topic potential impact business .
+With comprehensive governance implementation mechanism , improved performance environmental protection , social responsibility , corporate governance , enhanced effectiveness ESG practice , laying solid foundation Groups sustained development .
+78 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Shared Success Partners Key Performance Governance ComplianceESG Governance Performance Corporate Governance Board IndependenceAt Xiaomi , uphold principle promoting effective internal control measure , increasing transparency work Board Directors , enhancing accountability Board shareholder fulfilling commitment maintaining promoting stringent corporate governance standard .
+The Board continue enhance corporate governance practice line Xiaomis business conduct growth review practice time time ensure comply statutory professional standard align latest mandate .
+For information Xiaomis corporate governance principle , norm , performance , please refer Corporate Governance Report section annual report .
+At Xiaomi Corporation , observe principle Board independence .
+Board member related .
+Throughout Reporting Period , Board met requirement Listing Rules regarding appointment least three independent non-executive director ( representing least one-third Board ) , least one possessing appropriate professional qualification accounting related financial management expertise .
+To provide transparency investor community , independent non-executive Directors Company clearly identified corporate communication containing name Directors .
+We received written annual confirmation independent non-executive Directors respect independence .
+For detailed information list , biography , role , responsibility Xiaomi Corporations Board member , please refer Report Board Directors section annual report Board Members page Xiaomi Corporations website ( httpsir .
+mi .
+comcorporate-informationboard-of-directors ) .
+In year , advanced ESG deployment practice aspect made remarkable progress .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Our | key | recognition | follows | Inclusion | SP | Globals | Sustainability | Yearbook | ( | China | MSCI | ESG | rating | lifted | BBGold | Medal | EcoVadis | Sustainability | Rating | , | ranking | top | 3 | % | global | industry | Chinas | Best | Employer | Year | Forbes | Sustainability | Performance | Award | 2023 | British | Standards | Institution | ( | BSI | ) | ESG | Company | Watch | Year | Bloomberg | GreenESG | Best | Practice | Chinas | Listed | Companies | Wind | Inclusion | Chinas | Most | Admired | Companies | 2023 | FortuneBest | ESG | Technology | Hardware | sector | Institutional | InvestorNomination | top | 10 | project | Sustainable | Green | Innovation | category | Paulson | InstituteUpgraded | B | Climate | Change | Questionnaire | C | Water | Security | Questionnaire | Carbon | Disclosure | Project | ( | CDP | ) | Industry | Mover | SP | Globals | Sustainability | Yearbook | ( | China | ) | Downgraded | Low | Risk | Morningstars | Sustainalytics | risk | rating | 78About | Report | Charimans | Address | About | Xiaomi | Board | Statement | Stakeholder | Engagement | Materiality | Assessment | Technology | Created | Better | Lives | Xiaomis | Zero | Carbon | Philosophy | 79 | About | Report | Charimans | Address | About | Xiaomi | Board | Statement | Stakeholder | Engagement | Materiality | Assessment | Technology | Created | Better | LivesBoard | Diversity | Directors | Remuneration | Policy | At | Xiaomi | Corporation | , | recognize | benefit | diversity | Board | membership | ( | including | gender | diversity | ) | importance | Board | diversity | maintaining | Groups | competitive | advantage | attracting | , | retaining | , | motivating | employee | . |
+
+Therefore , adopted board diversity policy ( Board Diversity Policy ) .
+Pursuant Board Diversity Policy , reviewing assessing Board composition , Nomination Committee consider number aspect , including limited gender , age , cultural educational background , professional qualification , skill , knowledge , industry regional experience .
+The Nomination Committee also discus periodically agree measurable objective achieving diversity ( including gender diversity ) Board recommend Board adoption .
+During reporting period , Board male .
+On January 8 , 2024 , Prof. Tong Wai Cheung Timothy resigned independent non-executive Director Ms. Cai Jinqing appointed independent non- executive Director , enhancing gender diversity Xiaomis Board membership .
+To ensure gender diversity Board long run , Nomination Committee periodically review Board Diversity Xiaomi Corporations executive remuneration closely linked ESG performance .
+ESG performance focus non-financial target , set alignment Xiaomis sustainability strategy encompass environmental innovation performance , attractiveness employer , EHS management outcome .
+This remuneration structure encourages management focus long-term strategic goal sustainable development achieve long- term value growth Xiaomi Corporation .
+The purpose Directors Remuneration Policy ensure Company attract retain Directors meet business need Company .
+The Remuneration Committee make recommendation Directors remuneration policy structure , establish formal transparent procedure evaluate performance Directors , review make recommendation incentive plan term Directors service contract , make recommendation Directors remuneration package .
+In making recommendation remuneration package Directors , Remuneration Committee shall regard corporate policy goal resolved Board time time factor level remuneration paid comparable company , time committed Directors responsibility , employment condition elsewhere Group level remuneration necessary attract retain director successful management CompanyPolicy monitor continued effectiveness .
+We also continue take opportunity increase proportion female board member workforce time suitable candidate identified .
+During reporting period , Board reviewed considered implementation Board Diversity Policy track .
+The implementation Board Diversity Policy evidenced fact Directors diverse age group experience different industry sector .
+The Directors balanced mix knowledge skill , including knowledge experience area computer science , engineering , business administration , human resource , finance , corporate governance .
+We also committed ensuring recruitment selection practice level appropriately structured diverse range candidate considered .
+The Nomination Committee shall report finding make recommendation Board complement Companys corporate strategy ensure Board maintains balanced diverse profile .
+79Xiaomis Zero Carbon Philosophy Shared Success Partners Key Performance Governance Compliance 80 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Shared Success Partners Key Performance Governance ComplianceBusiness Ethics Business Ethics Management System Anti-corruption Anti-bribery Xiaomi committed conducting business ethically strict adherence applicable law regulation .
+We enhanced ethic management based Xiaomi Group Ethics Committee .
+The Groups top management listens report progress major project , plan oversees Groups effort business ethic , provides employee training regard .
+This committee also highest body investigation accountability misconduct violation employee , report Board Groups anti-corruption anti-bribery management .
+We also Safety Investigation Department dedicated Groups supervision undertaking , including ethical enhancement , system optimization , awareness raising , conflict interest assessment , accountability misconduct violation , complaint whistleblowing management .
+The General Manager Groups Safety Investigation Department regularly report Board Directors .
+For Xiaomis business ethic , please refer Sustainability page Groups official website ( httpswww .
+mi .
+comglobalaboutsustainability ) .
+At Xiaomi , uphold principle openness , fairness , transparency , integrity , maintaining zero-tolerance policy bribery corruption .
+Our objective achieve full coverage restricted area anti- corruption management .
+In regard , also closely follow top prohibition strictly forbid offering accepting bribery , severely punish embezzlement , forbid personnel corruption , avoid conflict interest .
+In year , standardized internal management system sound accountability system , Ethics Committee , Human Resources Department , legal team collaborated update safety anti-corruption term Employee Handbook .
+They also supervise implementation Employee Handbook , Employee Code Conduct , Code Integrity Xiaomi Corporation Group .
+Our Employee Handbook outline principle requirement guide employee lawful ethical business practice .
+Upon joining Group , employee required sign acknowledgment letter , express commitment compliance rule regulation Employee Handbook .
+During year , employee purchasing position Group signed Conflict Interest Declaration Commitment .
+In 2023 , passed review ISO 37001 Anti- Bribery Management Systems , improved anti-corruption management framework , prevented reduced risk bribery corruption , promoted Xiaomis business ethic culture .
+During year , received 2nd Integrity Compliance Innovation Award Private Enterprises , Best Innovation Project 2nd Integrity Compliance Innovation Award Private Enterprises , recognition .
+Best Innovation Project 2nd IntegrityAt Xiaomi , prioritize anti-corruption training relevant role , including employee , supplier , contractor , partner .
+For key position within Group ( including supply chain purchasing chain ) , reserve manager position General Manager , high-ranking position , host special training .
+In 2023 , hosted 64 training session ethic safety , conflict interest , integrity self-discipline , one anti-corruption training session management Board Directors .
+The training achieved 100 % coverage management employee , 50,000 participant total .
+Among session , one anti-corruption session management Board Directors .
+For middle senior management international business , hosted two anti-corruption training session light local law , regulation , policy requirement foreign country region operate .
+They provided systematic introduction local regulatory requirement countermeasure , strengthened manager compliance awareness .
+We also hosted 17 integrity self-discipline training session local employee foreign country region operate , including India , Thailand , Malaysia , Nepal , Poland , Spain , Portugal .
+The training enhanced overseas employee performance integrity self-discipline .
+We also regard business ethic integral part selection supplier , contractor , partner .
+We require partner sign integrity agreement time signing business contract .
+Best Innovation Project 2nd Integrity Compliance Innovation Award Private Enterprises 81 Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Shared Success Partners Key Performance Governance Compliance At Xiaomi , require every employee conduct business ethically full compliance applicable law regulation .
+This year , Xiaomi involved corruption-related litigation case .
+We opened separate whistleblowing channel external internal source established dedicated whistleblowing mechanism ensure report misconduct handled secure , unimpeded , reliable , effective manner .
+For external whistleblower , encounter suspect misconduct Xiaomi employee , bribery , offeringreceiving gift entertainment illegally , misappropriation benefit , false reimbursement , financial malpractice , report Xiaomi official channel .
+Within Group , built independent Open Xiaomi portal showcase management system , key policy , social responsibility , whistleblowing channel open workplace .
+Employees stakeholder market different country region Xiaomi operates raise concern following public channelsAt Xiaomi , uphold risk-based approach .
+We strictly comply Anti- money Laundering Law Peoples Republic China , requirement set Guidelines Self-assessment Risks Money Laundering Terrorist Financing Corporate Financial Institutions issued Peoples Bank China , applicable law regulation region operate , fulfill obligation preventing money laundering across boarder countering terrorist financing .
+We also dedicate effort identifying customer large suspicious transaction , reporting suspicious transaction , relevant training promotion .
+All level Group actively fulfill anti-money laundering duty per Groups Basic Management System Anti-Money Laundering .
+The risk management money laundering terrorist financing included deliberation To better protect reward whistleblower , formulated Whistleblower Protection Reward Policy Xiaomi Corporation .
+This policy aim support Xiaomis employee , supplier , contractor , partner actively participate building supervisory system characterized openness , fairness , transparency , integrity .
+A whistleblower may receive RMB1 million cash reward proven misconduct .
+Anti-money Laundering Board Directors .
+Under coordinated management Board Directors guidance Countering Terrorist Financing Leadership Group , made steady progress money laundering risk management .
+Through digitized monitoring system , monitor assess suspicious transaction , user , financing activity perform anti-money laundering countering terrorist financing undertaking customer identification , transaction data analysis , data confidentiality management .
+We perform internal anti-money laundering audit combining system audit human review , significantly enhanced efficiency accuracy audit .
+Throughout year , conducted special anti-money laundering audit , indicated Xiaomi involved money-laundering activity .
+In 2023 , hosted several anti-money laundering training publicity session .
+Internally , hosted eight training session senior management employee , total duration 15 hour .
+The training focused regulatory trend , major concern , interpretation key document area anti-money laundering , enhanced employee anti-money laundering awareness .
+Furthermore , actively fulfilled responsibility educating public organized anti-money laundering anti-organized crime law campaign general public .
+We produced original short promotion video preventing telecom Internet fraud .
+These video conveyed anti-fraud message general public .
+Case 81Email tousuxiaomi .
+com Global integrity whistleblowing website http www .
+mi .
+comglobalserviceintegrityprocessAbout Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement 82 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Shared Success Partners Key Performance Governance Compliance Protection Intellectual Property ( IP ) Compliance Advertising Anti-monopoly Anti-unfair Competition At Xiaomi , committed innovation-driven development .
+We place equal emphasis innovation quality , bring technological innovation general public IP practice .
+In turn , IP practice empower ensure innovation .
+In year , based Intellectual Property White Paper , advanced Groups IP protection practice .
+Prioritizing construction IP policy system , established robust IP protection system , safeguarding fruit intellectual endeavor open friendly way respecting others .
+Our IP management framework encompasses patent , trademark , open-source , data , privacy .
+Managed legal team , business unit actively put management practice , reinforcing Xiaomis line defense IP .
+As end reporting period , obtained 37,000 patent globally .
+At end year , unveiled Xiaomi EVs first model SU7 , marking successful launch Xiaomi EVs five self-developed core At Xiaomi , abide Advertising Law Peoples Republic China , Measures Administration Internet Advertising , applicable law regulation location operate .
+We also comply Measures Quality System Review Management Xiaomi Corporation internal management system Group .
+Relevant department Xiaomi collaborate manage compliance product service advertisement concerning content , quality , qualification advertising partner .
+We strictly conform requirement advertising platform prepare advertisement content , corresponding material legal qualification , audit verification platform go live reach audience .
+Additionally , established complaint mechanism investigate feedback improve advertisement management .
+During year , system operated effectively , major legal proceeding penalty Xiaomi relation compliance advertising relevant public opinion event .
+At Xiaomi , put high emphasis anti-monopoly anti-unfair competition compliance recognize advocate value fair competition .
+In compliance external law regulation Anti-monopoly Law Peoples Republic China Guidelines Competition Compliance Undertakings , established anti- monopoly anti-unfair competition compliance system Group level .
+The Groups legal team coordinate domestic abroad anti-monopoly compliance actively implement internal policy , Anti-monopoly Compliance Code Conduct Xiaomi Corporation .
+For overseas business , formulated Xiaomi Group International Antitrust Compliance Work Guideline , promoted Xiaomis compliance culture fair competition overseas strengthened ability prevent anti-monopoly legal risk abroad .
+Throughout 2023 , legal proceeding Xiaomi relation monopoly unfair competition behavior .
+Employees anti-monopoly anti-unfair competition awareness essential compliance risk management .
+Thus , incorporated requirement anti-monopoly anti-unfair competition Code Conduct Xiaomi Corporation .
+In 2023 , hosted nine anti-unfair competition training session Chinese mainland 950 participant .
+Over 1,000 employee participated 31 anti-monopoly compliance training session hosted China international business .
+These session provided explanation domestic international anti- monopoly law , risk scenario case , compliance requirement guidance .
+They raised awareness anti- monopoly anti-unfair competition legal risk prevention among employee .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| As | end | reporting | period | , | obtained | patent | globallyAs | end | December | 2023 | , | Xiaomi | EVs | technological | innovation | motor | electronic | control | system | well | battery | granted | 37,000 | 60 | 65technologies | ( | E-Motor | , | Battery | , | Xiaomi | HyperCasting | Technology | , | Xiaomi | Pilot | Autonomous | Driving | , | Smart | Cabin | ) | . |
+| As | end | December | 2023 | , | Xiaomi | EVs | technological | innovation | motor | electronic | control | system | well | battery | granted | 60 | 65 | patent | , | respectively | . |
+
+We value mutual benefit win-win outcome industry actively participate industry exchange judicial practice .
+Leveraging Xiaomis extensive practice experience global IP area , offer best practice case industry recommendation development amendment law IP-related industry policy major jurisdiction around world , thus driving enhancement global IP system .
+In year , honored 24th China Patent Excellence Award , underscoring Xiaomis prominent contribution technological innovation economic social development .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 82 | 83 | About | Report | Charimans | Address | About | Xiaomi | Board | Statement | Stakeholder | Engagement | Materiality | Assessment | Technology | Created | Better | Lives | Xiaomis | Zero | Carbon | Philosophy | Shared | Success | Partners | Governance | Compliance | Key | PerformanceKey | ESG | Performance | Indicators72 | Key | Environmental | Indicators73 | Based | Xiaomis | current | operation | , | Xiaomis | key | environmental | indicator | 2023 | listed | Use | amount | Unit | 2023 | 2022 | 2021 | 2020 | Total | Comprehensive | Energy | Consumption74MWh | 211,171.84 | 144,741.38 | 144,626.56 | 118,397.58 | Direct | Energy | Consumption | MWh | 19,418.57 | 5,190.84 | 8,691.42 | 5,586.69 | Indirect | Energy | Consumption | MWh | 191,753.27 | 139,550.54 | 135,935.14 | 112,810.89 | Indirect | Energy | Consumption | Renewable | Energy | MWh | 372.00 | -- | - | Total | GHG | Emissions | ( | Scope | 1 | Scope | 2 | ) | 75tonne | ( | Mt | ) | CO2e | 116,722.56 | 85,742.61 | 82,820.16 | 66,481.29 | Direct | GHG | Emissions | Scope | 1 | tonne | ( | Mt | ) | CO2e | 12,252.52 | 7,122.60 | 9,096.95 | 8,402.12 | CO2 | tonne | ( | Mt | ) | CO2e | 3,921.26 | 1,045.96 | 1,755.13 | 1,117.96 | CH4 | tonne | ( | Mt | ) | CO2e | 1,900.75 | 1,862.90 | 2,222.34 | 2,179.62 | N2O | tonne | ( | Mt | ) | CO2e | 1.97 | 0.55 | 0.86 | 0.00 | HFCs | tonne | ( | Mt | ) | CO2e | 6,428.54 | 4,213.19 | 5,118.62 | 5,104.54 | Indirect | GHG | Emissions | Scope | 2 | tonne | ( | Mt | ) | CO2e | 104,470.04 | 78,620.01 | 73,723.21 | 58,079.17 | 72 | The | key | ESG | performance | indicator | listed | include | , | limited | , | scope | consolidated | corporate | statement | , | data | actual | operation | controlling | business | facility | case | . |
+
+Numbers percentage figure section subject rounding .
+Any discrepancy total sum amount listed due rounding .
+73 The data presented chapter assured independent third-party verification organization .
+The assurance certificate available Sustainability page Xiaomis Website httpswww .
+mi .
+comglobalaboutsustainability .
+74 The total amount energy consumption calculated based consumption purchased electricity , purchased heat , natural gas , gasoline , diesel , using conversion factor specified national standard General Rules Calculation Comprehensive Energy Consumption ( GBT 2589-2020 ) Peoples Republic China .
+Direct energy consumption includes consumption natural gas , gasoline , diesel Companys operation , indirect energy consumption includes purchased electricity purchased heat Companys operation .
+This year , increase total energy consumption mainly due launch Xiaomis automobile business line , including direct indirect energy consumption automotive factory 14,638.78 MWh 37,068.28 MWh , respectively .
+75 The Groups calculation GHG emission based Greenhouse Gas Protocol Corporate Accounting Reporting Standard , ISO 14064-12018Specification Guidance Organization Level Quantification Reporting Greenhouse Gas Emissions Removals , well applicable national , local , industry standard .
+This year , increase carbon emission mainly due launch Xiaomis automobile business line , including Scope 1 Scope 2 emission automotive factory 4,244.79 tCO2e 18,451.93 tCO2e , respectively .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 84 | About | Report | Charimans | Address | About | Xiaomi | Board | Statement | Stakeholder | Engagement | Materiality | Assessment | Technology | Created | Better | Lives | Xiaomis | Zero | Carbon | Philosophy | Shared | Success | Partners | Governance | Compliance | Key | PerformanceUnit | 2023 | 2022 | 2021 | 2020 | Scope | 3 | GHG | Emissionstonne | ( | Mt | ) | CO2eThe | data | expected | disclosed | September | 202410,075,225.54 | 12,368,223.29- | Total | Water | Consumption | Water | Withdrawal76tonne | ( | Mt | ) | 683,906.94 | 510,156.05 | 463,663.00 | 303,132.92 | Fresh | Water | Consumption | tonne | ( | Mt | ) | 523,100.75 | 391,953.85 | 329,572.00 | 187,339.02 | Reclaimed | Water | Consumption | tonne | ( | Mt | ) | 164,353.00 | 118,202.20 | 134,091.00 | 115,793.90 | Water | Discharge | tonne | ( | Mt | ) | 562,194.62 | -- | - | Non-hazardous | Waste | tonne | ( | Mt | ) | 7,174.83 | 7,052.28 | 6,328.88 | 4,661.07 | Hazardous | Waste77tonne | ( | Mt | ) | 95.78 | 1.43 | 2.50 | 0.37 | Total | Packaging | Materials | Used | Finished | Products | tonne | ( | Mt | ) | 4,254.86 | 5,065.08 | -- | Air | Pollutant | Emissions78 | NOx | Emissions | tonne | ( | Mt | ) | 0.33 | -- | - | VOCs | Emissions | tonne | ( | Mt | ) | 0.21 | -- | - | 76 | Water | resource | used | Xiaomi | include | running | water | reclaimed | water | municipal | water | supply | system | , | provided | third-party | utility | company | . |
+
+Xiaomi encountered event water shortage .
+This year , expanded scope water resource-related data include new self-operated campus leased office area .
+77 The increase total amount hazardous waste year mainly due launch Xiaomis automobile business line .
+78 From year , consolidate indicator disclosure air pollutant emission new indicator added comprehensively present environmental performance data .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 85 | About | Report | Charimans | Address | About | Xiaomi | Board | Statement | Stakeholder | Engagement | Materiality | Assessment | Technology | Created | Better | Lives | Xiaomis | Zero | Carbon | Philosophy | Shared | Success | Partners | Governance | Compliance | Key | PerformanceUse | Intensity | Unit | 2023 | 2022 | 2021 | 2020 | Energy | consumption | per | unit | revenue | MWhRMB | million | 0.78 | 0.52 | 0.44 | 0.48 | Per | caput | energy | consumption | MWhperson | 6.28 | 4.45 | 4.33 | 5.36 | GHG | emission | per | unit | revenue | tonne | ( | Mt | ) | CO2eRMB | million | 0.43 | 0.31 | 0.25 | 0.27 | Per | caput | GHG | emission | tonne | ( | Mt | ) | CO2eperson | 3.47 | 2.63 | 2.48 | 3.01 | Per | caput | tap | water | consumption | tonne | ( | Mt | ) | person | 15.56 | 12.04 | 9.86 | 8.49 | Per | caput | non-hazardous | waste | tonne | ( | Mt | ) | person | 0.21 | 0.22 | 0.19 | 0.21 | Per | caput | hazardous | waste | Kgperson | 2.85 | 0.04 | 0.07 | 0.02 | Product | packaging | material | consumption | per | unit | revenue | tonne | ( | Mt | ) | RMB | million | 0.02 | 0.02 | -- | 86 | About | Report | Charimans | Address | About | Xiaomi | Board | Statement | Stakeholder | Engagement | Materiality | Assessment | Technology | Created | Better | Lives | Xiaomis | Zero | Carbon | Philosophy | Shared | Success | Partners | Governance | Compliance | Key | PerformanceEnvironmental | Target | Review | We | set | environmental | target | . |
+
+Every year , review environmental target previous period improve formulate comprehensive set environmental target cover value chain .
+The Board Directors reviewed review result 2023 environmental target reviewed approved 2024 environmental target .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Topic | 2023 | Targets | Target | completion | status | year | 2024 | Targets | EnergyBy | 2026 | , | reduce | energy | consumption | per | 10,000 | RMB | revenue | ISO | 50001-certified | facility | least | 2.5 | % | compared | 2021 | baseline | . |
+
+Energy conservation consumption reduction measure progressed towards 2026 target .
+For detail , please refer Energy Management section .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| By | 2026 | , | reduce | energy | consumption | per | 10,000 | RMB | revenue | ISO | 50001-certified | facility | least | 2.5 | % | compared | 2021 | baseline | . |
+| Greenhouse | gasBy | later | 2030 | , | reduce | GHG | emissions79 | main | operating | segments80 | least | 30 | % | base | year81 | level | By | later | 2040 | , | reduce | emission | fromthe | main | business | 2 | % | emission | base | year | create | condition | net | zero | emission | Prioritize | use | low-carbon | technology | , | long-term | green | power | purchase | agreement | , | on-site | renewable | energy | generation | reduce | GHG | emission | throughout | target | period | Encourage | key | supplier | establish | renewable | energy | usage | GHG | emission | reduction | target | comparable | ambitious | Xiaomi | deliver | continuous | reduction | Scope | 3 | emission | . |
+
+GHG emission reduction progressed towards 2030 2040 target .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| For | detail | , | please | refer | Tackling | Climate | Change | section | 2023 | Xiaomi | Corporation | TCFD | report.82By | later | 2030 | , | reduce | GHG | emission | main | operating | segment | least | 30 | % | base | year | level | By | 2035 | , | use | 100 | % | renewable | electricity | operation | By | 2040 | , | achieve | carbon | neutrality | operation | existing | business | segments83 | , | use | 100 | % | clean | heat | operation | , | use | 100 | % | renewable | energy | Prioritize | use | low-carbon | technology | self-built | renewable | energy | power | generation | facility | reduce | GHG | emission | increase | share | renewable | energy | electricity | consumption | long-term | green | power | purchase | agreement | reduce | GHG | emission | throughout | target | period | Encourage | key | supplier | establish | renewable | energy | usage | GHG | emission | reduction | target | comparable | ambitious | Xiaomi | deliver | continuous | reduction | Scope | 3 | emission | . |
+
+WaterAt campus , achieve least 30 % use reclaimed water minimum 50,000 m3 water saving 2023 .
+This year , use reclaimed water Xiaomis campus reached 36.85 % The annual water saving target accomplished .
+At campus , achieve least 30 % use reclaimed water minimum 50,000 m3 water saving 2024 .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| WasteOver | next | five | year | ( | 2022 | 2026 | ) | , | committed | achieving | accumulative | recycling | volume | 38,000 | tonne | ( | Mt | ) | e-waste | , | using | 5,000 | tonne | ( | Mt | ) | recycled | material | product | . |
+
+By end reporting period , accomplished 44 % waste recycling target .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Over | next | five | year | ( | 2022 | 2026 | ) | , | committed | achieving | accumulative | recycling | volume | 38,000 | tonne | ( | Mt | ) | e-waste | , | using | 5,000 | tonne | ( | Mt | ) | recycled | material | product | . |
+
+79 GHG emission Refers Companys GHG emission ( absolute value ) calculated accordance standard Greenhouse Gas Protocol Corporate Accounting Reporting Standard , ISO 14064-12018Specification Guidance Organization Level Quantification Reporting Greenhouse Gas Emissions Removals .
+80 Main operating segment Smartphone , IoT Lifestyle product , Internet Services , others ( scope operating segment stated 2023 Annual Report ) .
+81 Base year 2021 .
+822023 Xiaomi Corporation TCFD report For information Xiaomis response climate change , please refer Sustainability Climate Change page Groups official website ( httpswww .
+mi .
+comglobalaboutsustainabilityclimate ) .
+83 Existing business segment Smartphone , IoT Lifestyle product , Internet Services , others , business scope Xiaomi Corporations latest earnings announcement .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 87 | About | Report | Charimans | Address | About | Xiaomi | Board | Statement | Stakeholder | Engagement | Materiality | Assessment | Technology | Created | Better | Lives | Xiaomis | Zero | Carbon | Philosophy | Shared | Success | Partners | Governance | Compliance | Key | PerformanceKey | Social | Indicators | Employees | Unit | 2023 | 2022 | 2021 | 2020 | Total | Workforce | 84Person | 35,116 | 35,997 | 33,415 | 24,810 | By | Employment | Type | Full-time | Employees | Person | 33,627 | 32,543 | 33,427 | 22,074 | Other | Types | Employees | Person | 1,489 | 3,434 | 1,988 | 2,736 | New | Employees | Number | New | Employees | Person | 7,257 | 9,643 | 17,089- | Male | % | 73.65 | 69.35 | 66.70- | Female | % | 26.35 | 30.65 | 33.30- | By | Age | Group | Under | 30 | % | 35.76 | 39.40 | 43.69 | 47.32 | 3050 | % | 63.51 | 59.74 | 55.51 | 52.14 | Above | 50 | % | 0.73 | 0.86 | 0.80 | 0.53 | By | Professional | Category | Technical | % | 44.79 | 49.05 | 43.65 | 47.49 | Non-technical | % | 55.21 | 50.95 | 56.35 | 52.51Unit | 2023 | 2022 | 2021 | 2020 | By | Cohort | Level | Senior | % | 1.05 | 0.99 | 0.92 | 1.13 | Male | % | 83.24 | 82.61 | -- | Female | % | 16.76 | 17.39 | -- | Mid-Level | % | 46.98 | 40.63 | 36.45 | 33.46 | Male | % | 74.05 | 73.91 | -- | Female | % | 25.95 | 26.09 | -- | Junior | % | 51.97 | 58.38 | 62.64 | 65.41 | Male | % | 64.63 | 62.76 | -- | Female | % | 35.37 | 37.24 | -- | By | Geographic | Region | China | % | 94.18 | 92.39 | 93.08 | 93.26 | Other | Asian | Countries | Regions | % | 4.05 | 5.54 | 5.03 | 5.45 | European | Countries | Regions | % | 1.59 | 1.91 | 1.83 | 1.26 | North | American | Countries | Regions | % | 0.14 | 0.16 | 0.05 | 0.03 | South | American | Countries | Regions | % | 0.04 | 0.00 | 0.00 | 0.00 | Oceania | Countries | Regions | % | 0.00 | 0.00 | 0.00 | 0.00 | 84 | Total | employee | workforce | includes | full-time | employee | Xiaomi | Group | , | well | part-time | employee | intern | direct | employment | relationship | Xiaomi | . |
+| 88 | About | Report | Charimans | Address | About | Xiaomi | Board | Statement | Stakeholder | Engagement | Materiality | Assessment | Technology | Created | Better | Lives | Xiaomis | Zero | Carbon | Philosophy | Shared | Success | Partners | Governance | Compliance | Key | PerformanceEmployee | Turnover | Unit | 2023 | 2022 | 2021 | 2020 | Employee | Turnover85 | % | 11.98 | 13.96 | 12.82 | 12.36 | By | Gender | Male | % | 11.20 | 13.32 | 12.07 | 11.97 | Female | % | 13.71 | 15.27 | 14.30 | 13.11 | By | Age | Group | Under | 30 | % | 16.10 | 17.09 | 15.11 | 13.33 | 3050 | % | 9.57 | 12.05 | 11.06 | 11.21 | Above | 50 | % | 19.91 | 3.21 | 9.40 | 39.83 | By | Geographic | Region | Chinese | mainland | % | 10.44 | 12.98 | 12.81 | 12.27 | Regions | beyond | Chinese | mainland | % | 19.428625.80 | 12.92 | 13.51Work | Injuries | YearNo | . |
+| Work-Related | Fatality | PersonWork-Related | Fatality | Rate | % | 87Working | Days | Lost | Due | Work-Related | Injury | Days88 | 2023 | 0 | 0.00 | % | 1,190 | 2022 | 0 | 0.00 | % | 816 | 2021 | 0 | 0.00 | % | 500 | 2020 | 1 | 0.0045 | % | 469 | 85 | Turnover | rate | number | full-time | employee | left | Company | reporting | period | total | number | full-time | employee | year-end | 100 | % | . |
+
+86 The statistical scope year turnover employee region beyond Chinese mainland include India .
+87 Work-related fatality rate total number work-related fatality total number employee 100 % .
+88 The data derived work-related injury fatality recorded Xiaomis human resource team verified local authority .
+In China , work-related injury fatality shall reported human resource team recognized Bureau Human Resources Social Security .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 89 | About | Report | Charimans | Address | About | Xiaomi | Board | Statement | Stakeholder | Engagement | Materiality | Assessment | Technology | Created | Better | Lives | Xiaomis | Zero | Carbon | Philosophy | Shared | Success | Partners | Governance | Compliance | Key | PerformanceTraining | Development | Unit | 2023 | 2022 | 2021 | Training | Rate | Overall | Training | Rate | % | 98.13 | 97.67 | 97.42 | By | Gender | Male | % | 98.20 | 97.05 | 97.29 | Female | % | 98.00 | 98.96 | 97.68 | By | Cohort | Level | Senior | % | 98.10 | 91.01 | 87.84 | Mid-Level | % | 98.25 | 95.91 | 96.82 | Junior | % | 98.00 | 99.01 | 97.91 | Average | Number | Training | Hours | Overall | Average | Number | Training | HoursHour | 30.17 | 35.57 | 25.76 | By | Gender | Male | Hour | 30.68 | 36.95 | 25.94 | Female | Hour | 29.10 | 32.72 | 25.39 | By | Cohort | Level | Senior | Hour | 22.99 | 19.30 | 15.31 | Mid-Level | Hour | 35.27 | 25.91 | 18.85 | Junior | Hour | 30.48 | 42.57 | 29.94 | 89 | The | Morning | Star | Program | available | 2023 | . |
+| General | Training | Courses | New | Employees | Unit | 2023 | 2022 | 2021 | Starry | Program | Number | Participants | Person | 1,125 | 3,839 | 3,571 | Courses | Course | 446 | 438 | 305 | Total | Course | Hours | Hour | 58,251 | 236,671 | 359,802 | Integration | Program89 | Number | Participants | Person | 7,350 | 4,243- | Courses | Course | 13 | 12- | Total | Course | Hours | Hour | 98,830 | 39,712- | Xiaomi | Internship | Number | Participants | Person | 1,302 | 2,000 | 339 | Courses | Course | 9 | 9 | 8 | Total | Course | Hours | Hour | 15,624 | 26,000 | 3,729 | 90 | About | Report | Charimans | Address | About | Xiaomi | Board | Statement | Stakeholder | Engagement | Materiality | Assessment | Technology | Created | Better | Lives | Xiaomis | Zero | Carbon | Philosophy | Shared | Success | Partners | Governance | Compliance | Key | PerformanceTalent | Development | Program | Management | Name | project2023 | Course | Participant | Pool | ( | Individuals | ) | 2022 | Course | Participant | Pool | ( | Individuals | ) | 2021 | Course | Participant | Pool | ( | Individuals | ) | Spark | Program | 1,186 | 1,250 | 1,070 | Ignite | Program90395 | 105 | 84 | Percentage | Products | Recalled | due | Safety | Health | Reasons | Number | Complaints | Products | ServicesYear | 2023 | 2022 | 2021 | Percentage | sold | shipped | product | recalled | due | safety | health | reasons0.00 | % | 0.00 | % | 0.00 | % | Year | Number | Complaints | Identified | Responsibility | GlobeResolution | Rate | Complaints | Identified | ResponsibilityResolution | Rate | Complaints | Identified | Responsibility | within | 72 | Hours | 2023 | 71,682 | 99.95 | % | 89.93 | % | 2022 | 76,874 | 99.92 | % | 89.48 | % | 2021 | 88,336 | 99.94 | % | 89.04 | % | 90 | The | original | Torch | Program | merged | Ignite | Program | . |
+| Certification | Coverage | Scope | 2023 | ( | Scope | ) | ISO | 37001 | Xiaomi | Group | ISO | 27001 | Xiaomi | Group | ISO | 14001 | RD | , | manufacturing | outsourcing | management | , | sale | smartphones | , | tablet | , | smartwatches | , | earphone | , | smart | TVs | , | speaker | . |
+
+RD , manufacturing outsourcing management , sale smart home product smart bracelet .
+RD smart home product ( router , robot vacuum , smart speaker , power accessory ) .
+Manufacturing outsourcing management , sale notebook .
+ISO 45001 RD , manufacturing outsourcing management , sale smartphones , tablet , smartwatches , earphone , smart TVs , speaker .
+RD , manufacturing outsourcing management , sale smart home product smart bracelet .
+RD smart home product ( router , robot vacuum , smart speaker , power accessory ) .
+Manufacturing outsourcing management , sale notebook .
+ISO 50001 Energy management activity involved RD , software development , manufacturing outsourcing management , warehousing smartphones IoT lifestyle product .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Classification | The | Supply | Chain | By | Region | Suppliers | Related | Manufacturing | Smartphones | IoT | Lifestyle | Products2023 | 2022 | Region | Chinese | mainland | 981 | 989 | Regions | beyond | Chinese | mainland | 131 | 36 | 91 | About | Report | Charimans | Address | About | Xiaomi | Board | Statement | Stakeholder | Engagement | Materiality | Assessment | Technology | Created | Better | Lives | Xiaomis | Zero | Carbon | Philosophy | Shared | Success | Partners | Governance | Compliance | Key | PerformanceH1 | H2 | HKEx | GRI | SASB | Description | Index | About | Reportpara | 14 | Reporting | Principles | A | description | , | explanation | , | application | following | Reporting | Principles | preparation | ESG | report | Materiality | The | ESG | report | disclose | ( | ) | process | identify | criterion | selection | material | ESG | factor | ( | ii | ) | stakeholder | engagement | conducted | , | description | significant | stakeholder | identified | , | process | result | issuer | stakeholder | engagement | . |
+
+Quantitative Information standard , methodology , assumption calculation tool used , source conversion factor used , reporting emissionsenergy consumption ( applicable ) disclosed .
+Consistency The issuer disclose ESG report change method KPIs used , relevant factor affecting meaningful comparison .
+para 15 Reporting BoundaryA narrative explaining reporting boundary ESG report describing process used identify entity operation included ESG report .
+If change scope , issuer explain difference reason change .
+2-2 Entities included organization sustainability reporting 2-3 Reporting period , frequency contact point 2-5 External assurance About Xiaomi 2-1 External assurance Board Statementpara 13 Governance StructureA statement board containing following element ( ) disclosure board oversight ESG issue ( ii ) board ESG management approach strategy , including process used evaluate , prioritise manage material ESG-related issue ( including risk issuer business ) ( iii ) board review progress made ESG-related goal target explanation relate issuer business .
+2-22 External assurance 2-23 Policy commitment 2-24 Embedding policy commitment Stakeholder EngagementB8Policies community engagement understand need community issuer operates ensure activity take consideration community interest .
+2-6 Activities , value chain business relationship 2-7 Employees 2-8 Workers employee 92 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key PerformanceH1 H2 HKEx GRI SASB Description Index 2-26 Mechanisms seeking advice raising concern 2-29 Approach stakeholder engagement Materiality Assessment2-16 Communication critical concern 2-29 Approach stakeholder engagement 3-1 Process determine material topic 3-2 List material topic 3-3 Management material topic Technology Created Better LivesExploration Accessibility TechnologyB3Policies improving employee knowledge skill discharging duty work .
+Description training activity .
+203-2 Indirect economic impact 302-5 Reductions energy requirement product service Product Service QualityB3Policies improving employee knowledge skill discharging duty work .
+Description training activity .
+B6Information ( ) policy ( b ) compliance relevant law regulation significant impact issuer relating health safety , advertising , labelling privacy matter relating product service provided method redress .
+B6.2 Number product service related complaint received dealt .
+B6.4 Description quality assurance process recall procedure .
+B8Policies community engagement understand need community issuer operates ensure activity take consideration community interest .
+B8.2 Resources contributed ( e. g. money time ) focus area .
+2-27 Compliance law regulation 416-1 Assessment health safety impact product service category 416-2Incidents non-compliance concerning health safety impact product servicesThis year , Xiaomi experienced incident non- compliance concerning health safety impact product service .
+417-1 Requirements product service information labeling 93 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key PerformanceH1 H2 HKEx GRI SASB Description Index 417-2 Incidents non-compliance concerning product service information labelingThis year , Xiaomi experienced incident non- compliance concerning product service information labeling .
+Data Security Privacy ProtectionB3Policies improving employee knowledge skill discharging duty work .
+Description training activity .
+B6Information ( ) policy ( b ) compliance relevant law regulation significant impact issuer relating health safety , advertising , labelling privacy matter relating product service provided method redress .
+B6.5Description consumer data protection privacy policy , implemented monitored .
+2-27 Compliance law regulation 418-1Substantiated complaint concerning breach customer privacy loss customer dataThis year , Xiaomi experienced substantiated complaint concerning breach customer privacy loss customer data .
+TC-HW- 230a.1Description approach identifying addressing data security risk product Xiaomis Zero Carbon PhilosophyClimate Mitigation AdaptationA1Information ( ) policy ( b ) compliance relevant law regulation significant impact issuer relating air greenhouse gas emission , discharge water land , generation hazardous non-hazardous waste .
+We strictly comply Environmental Protection Law Peoples Republic China , Energy Conservation Law Peoples Republic China , Law Peoples Republic China Prevention Control Environment Pollution Caused Solid Wastes , Water Pollution Prevention Control Law Peoples Republic China , law regulation location operate .
+We adopt measure energy conservation , water conservation , reduction waste discharge improve resource efficiency reduce discharge pollutant .
+We continuously improve environment management system Environmental Protection Management Procedures light Groups operation legal regulatory requirement operation .
+For pertinent policy information , please refer chapter headed Xiaomis Zero Carbon Philosophy .
+94 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key PerformanceH1 H2 HKEx GRI SASB Description Index A1.5 Description emission target ( ) set step taken achieve .
+A2.3 Description energy use efficiency target ( ) set step taken achieve .
+A3Policies minimising issuer significant impact environment natural resource .
+A3.1Description significant impact activity environment natural resource action taken manage .
+A4Policies identification mitigation significant climate-related issue impacted , may impact , issuer .
+A4.1Description significant climate-related issue impacted , may impact , issuer , action taken manage .
+For information Xiaomis response climate change , please refer Sustainability- Climate Change page Groups official website ( httpswww .
+mi .
+com csrclimate ) TCFD report year .
+B3Policies improving employee knowledge skill discharging duty work .
+Description training activity .
+B5.4Description practice used promote environmentally preferable product service selecting supplier , implemented monitored .
+2-22 Statement sustainable development strategy 2-23 Policy commitment 2-24 Embedding policy commitment 201-2 Financial implication risk opportunity due climate change 302-4 Reduction energy consumption 302-5 Reductions energy requirement product service 303-1 Interactions water shared resource 303-2 Management water discharge-related impact 305-5 Reduction GHG emission Waste Management Circular EconomyA1.6Description hazardous non-hazardous waste handled , description reduction target ( ) set step taken achieve .
+A3Policies minimising issuer significant impact environment natural resource .
+A3.1Description significant impact activity environment natural resource action taken manage .
+B3Policies improving employee knowledge skill discharging duty work .
+Description training activity .
+95 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key PerformanceH1 H2 HKEx GRI SASB Description Index B5.4Description practice used promote environmentally preferable product service selecting supplier , implemented monitored .
+B6Information ( ) policy ( b ) compliance relevant law regulation significant impact issuer relating health safety , advertising , labelling privacy matter relating product service provided method redress .
+B6.4 Description quality assurance process recall procedure .
+2-23 Policy commitment 2-24 Embedding policy commitment 301-1 Materials used weight volume 301-2 Recycled input material used 301-3 Reclaimed product packaging material 305-5 Reduction GHG emission 306-1 Waste generation significant waste-related impact 306-2 Management significant waste-related impact 306-3 Waste generated 306-4 Waste diverted disposal 306-5 Waste directed disposal TC-HW- 410a.4Weight end-of-life product e-waste recovered , percentage recycled TC-HW- 440a.1Description management risk associated use critical material Natural Resources BiodiversityA2 Policies efficient use resource , including energy , water raw material .
+A2.4Description whether issue sourcing water fit purpose , water efficiency target ( ) set step taken achieve .
+A3Policies minimising issuer significant impact environment natural resource .
+A3.1Description significant impact activity environment natural resource action taken manage .
+304-1Operational site owned , leased , managed , adjacent , protected area area high biodiversity value outside protected area 96 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key PerformanceH1 H2 HKEx GRI SASB Description Index Shared Success PartnersTalent Nurturing B1Information ( ) policy ( b ) compliance relevant law regulation significant impact issuer relating compensation dismissal , recruitment promotion , working hour , rest period , equal opportunity , diversity , anti-discrimination , benefit welfare .
+We strictly comply Labor Law Peoples Republic China , Labor Contract Law Peoples Republic China , Social Insurance Law Peoples Republic China , Law Peoples Republic China Prevention Control Occupational Diseases , Regulation Work-Related Injury Insurance , Employment Ordinance ( Hong Kong ) , Workers Statute ( Spain ) , domestic foreign law regulation basic right obligation employee health safety .
+For pertinent policy information , please refer chapter headed Shared Success Partners .
+B2Information ( ) policy ( b ) compliance relevant law regulation significant impact issuer relating providing safe working environment protecting employee occupational hazard .
+We strictly comply Work Safety Law Peoples Republic China , Law Peoples Republic China Prevention Control Occupational Diseases , Regulation Work-Related Injury Insurance , applicable law regulation location operate employee health safety .
+For pertinent policy information , please refer chapter headed Shared Success Partners .
+B2.3Description occupational health safety measure adopted , implemented monitored .
+B3Policies improving employee knowledge skill discharging duty work .
+Description training activity .
+B4Information ( ) policy ( b ) compliance relevant law regulation significant impact issuer relating preventing child forced labour .
+We strictly comply Labor Law Peoples Republic China , Labor Contract Law Peoples Republic China , Social Insurance Law Peoples Republic China , Law Peoples Republic China Prevention Control Occupational Diseases , Regulation Work-Related Injury Insurance , Employment Ordinance ( Hong Kong ) , Workers Statute ( Spain ) , domestic foreign law regulation basic right obligation employee health safety .
+For pertinent policy information , please refer chapter headed Shared Success Partners .
+97 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key PerformanceH1 H2 HKEx GRI SASB Description Index B4.1Description measure review employment practice avoid child forced labour .
+B4.2 Description step taken eliminate practice discovered .
+2-7 Employees 2-8 Workers employee 2-26 Mechanisms seeking advice raising concern 201-3 Defined benefit plan obligation retirement plan 401-1 New employee hire employee turnover 401-2Benefits provided full-time employee provided temporary part- time employee 401-3 Parental leave 403-1 Occupational health safety management system 403-2 Hazard identification , risk assessment , incident investigation 403-3 Occupational health service 403-4 Worker participation , consultation , communication occupational health safety 403-5 Worker training occupational health safety 403-6 Promotion worker health 403-7Prevention mitigation occupational health safety impact directly linked business relationship 403-8 Workers covered occupational health safety management system 403-9 Work-related injury 403-10 Work-related ill health 404-2 Programs upgrading employee skill transition assistance program 404-3 Percentage employee receiving regular performance career development review 406-1 Incidents discrimination corrective action taken 409-1 Operations supplier significant risk incident forced compulsory labor Sustainable Supply ChaiB3Policies improving employee knowledge skill discharging duty work .
+Description training activity .
+B5 Policies managing environmental social risk supply chain .
+B5.2Description practice relating engaging supplier , number supplier practice implemented , implemented monitored .
+B5.3Description practice used identify environmental social risk along supply chain , implemented monitored .
+98 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key PerformanceH1 H2 HKEx GRI SASB Description Index B5.4Description practice used promote environmentally preferable product service selecting supplier , implemented monitored .
+A3Policies minimising issuer significant impact environment natural resource .
+A3.1Description significant impact activity environment natural resource action taken manage .
+2-6 Activities , value chain business relationship 308-1 New supplier screened using environmental criterion 308-2 Negative environmental impact supply chain action taken 407-1Operations supplier right freedom association collective bargaining may risk 408-1 Operations supplier significant risk incident child labor 409-1 Operations supplier significant risk incident forced compulsory labor 414-1 New supplier screened using social criterion 414-2 Negative social impact supply chain action taken TC-HW- 430a.1Percentage Tier 1 supplier facility audited RBA Validated Audit Process ( VAP ) equivalent , ( ) facility ( b ) high-risk facility TC-HW- 430a.2Tier 1 supplier ( 1 ) non-conformance rate RBA Validated Audit Process ( VAP ) equivalent , ( 2 ) associated corrective action rate ( ) priority non-conformances ( b ) non-conformances Social Welfare Community EngagementB3Policies improving employee knowledge skill discharging duty work .
+Description training activity .
+B8Policies community engagement understand need community issuer operates ensure activity take consideration community interest .
+B8.1Focus area contribution ( e. g. education , environmental concern , labour need , health , culture , sport ) .
+B8.2 Resources contributed ( e. g. money time ) focus area .
+203-1 Infrastructure investment service supported 203-2 Significant indirect economic impact 413-1Operations local community engagement , impact assessment , development program 99 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key PerformanceH1 H2 HKEx GRI SASB Description Index Governance ComplianceCorporate Governance2-9 Governance structure composition 2-14 Role highest governance body sustainability reporting 2-16 Communication critical concern 2-25 Processes remediate negative impact 2-26 Mechanisms seeking advice raising concern Business Ethics B3Policies improving employee knowledge skill discharging duty work .
+Description training activity .
+B6Information ( ) policy ( b ) compliance relevant law regulation significant impact issuer relating health safety , advertising , labelling privacy matter relating product service provided method redress .
+B6.3 Description practice relating observing protecting intellectual property right .
+B7Information ( ) policy ( b ) compliance relevant law regulation significant impact issuer relating bribery , extortion , fraud money laundering .
+Xiaomi Corporation strictly complies Criminal Law Peoples Republic China , Anti-Money Laundering Law Peoples Republic China , applicable law , regulation , practice location operates .
+For pertinent policy inforamtion , please refer chapter headed Governance Compliance .
+B7.1Number concluded legal case regarding corrupt practice brought issuer employee reporting period outcome case .
+B7.2Description preventive measure whistle-blowing procedure , implemented monitored .
+B7.3 Description anti-corruption training provided director staff .
+2-15 Conflicts interest 2-27 Compliance law regulation 2-28 Membership association 205-1 Operations assessed risk related corruption 205-2 Communication training anti-corruption policy procedure 205-3 Confirmed incident corruption action taken 206-1 Legal action anti-competitive behavior , anti-trust , monopoly practice 100 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key PerformanceH1 H2 HKEx GRI SASB Description Index 417-3 Incidents non-compliance concerning marketing communication Key Performance IndicatorsKey Environmental IndicatorsA1.1 The type emission respective emission data .
+For information emission , please refer Sustainability- Climate Change page Groups official website ( httpswww .
+mi .
+comcsrclimate ) .
+A1.2Direct ( Scope 1 ) energy indirect ( Scope 2 ) greenhouse gas emission ( tonne ) , appropriate , intensity ( e. g. per unit production volume , per facility ) .
+A1.3Total hazardous waste produced ( tonne ) , appropriate , intensity ( e. g. per unit production volume , per facility ) .
+A1.4Total non-hazardous waste produced ( tonne ) , appropriate , intensity ( e. g. per unit production volume , per facility ) .
+A1.5 Description emission target ( ) set step taken achieve .
+A2.1Direct andor indirect energy consumption type ( e. g. electricity , gas oil ) total ( kWh 000s ) intensity ( e. g. per unit production volume , per facility ) .
+A2.2 Water consumption total intensity ( e. g. per unit production volume , per facility ) .
+A2.3 Description energy use efficiency target ( ) set step taken achieve .
+A2.4Description whether issue sourcing water fit purpose , water efficiency target ( ) set step taken achieve .
+A2.5Total packaging material used finished product ( tonne ) , applicable , reference per unit produced .
+302-1 Energy consumption within organization 302-2 Energy consumption outside organization 302-3 Energy intensity 303-3 Water withdrawal 303-4 Water discharge 303-5 Water consumption 305-1 Direct ( Scope 1 ) GHG emission 305-2 Energy indirect ( Scope 2 ) GHG emission 305-3 Other indirect ( Scope 3 ) GHG emission 305-4 Other indirect ( Scope 3 ) GHG emission 305-5 Reduction GHG emission 305-7 Nitrogen oxide ( NOx ) , sulfur oxide ( SOx ) , significant air emission Key Social Indicators B1.1Total workforce gender , employment type ( example , full- part- time ) , age group geographical region .
+B1.2 Employee turnover rate gender , age group geographical region .
+101 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key PerformanceH1 H2 HKEx GRI SASB Description Index B2.1Number rate work-related fatality occurred past three year including reporting year .
+B2.2 Lost day due work injury .
+B3.1The percentage employee trained gender employee category ( e. g. senior management , middle management ) .
+B3.2 The average training hour completed per employee gender employee category .
+B5.1 Number supplier geographical region .
+B6.1Percentage total product sold shipped subject recall safety health reason .
+B6.2 Number product service related complaint received dealt .
+2-4 Restatements information 401-1 New employee hire employee turnover 404-1 Average hour training per year per employee 405-1 Diversity governance body employee 403-9 Work-related injury 403-10 Work-related ill health TC-HW- 330a.1Percentage gender racialethnic group representation ( 1 ) management ( 2 ) technical staff ( 3 ) employee Other relevant indicators2-10 Nomination selection highest governance body 2-11 Chair highest governance body 2-12 Chair highest governance body 2-13 Delegation responsibility managing impact 2-15 Conflicts interest 2-17 Collective knowledge highest governance body 2-18 Evaluation performance highest governance body 2-19 Remuneration policy 2-20 Process determine remuneration 2-21 Annual total compensation ratio 201-1 Direct economic value generated distributed 201-4 Financial assistance received government 207-1 Approach tax 102 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key PerformanceH1 H2 HKEx GRI SASB Description Index 207-2 Tax governance , control risk management 207-3 Stakeholder engagement management concern related tax 207-4 Country-by-country reporting 304-2 Significant impact activity , product , service biodiversityWe commit ensuring site selection construction activity avoid invade cause negative impact habitat endangered protected specie listed International Union Conservation Nature ( IUCN ) Red List , natural cultural heritage site listed World Heritage List United Nations Educational , Scientific Cultural Organisation ( UNESCO ) .
+Our core business operation concentrated urban area .
+During year , direct indirect negative impact biodiversity identified result Xiaomis activity , product , service .
+402-1 Minimum notice period regarding operational change 103 About Report Charimans Address About Xiaomi Board Statement Stakeholder Engagement Materiality Assessment Technology Created Better Lives Xiaomis Zero Carbon Philosophy Shared Success Partners Governance Compliance Key Performance Statement No SRA-806342 Methodolog Our work designed gather evidence base conclusion .
+We undertook following activity A top level review issue raised external party could relevant Xiaomi Corporation policy provide check appropriateness statement made Repo rt .
+Discussion senior executive Xiaomi Corporation approach stakeholder engagement .
+We direct contact external stakeholder .
+Interview staff involved sustainability management , report preparation provision report informati .
+Review key organizational developme nt .
+Review supporting evidence claim made Rep ort , An assessment Xiaomi Corporation reporting management process concerning reporting principle Inclusivity , Materiality , Responsiveness Impact described AA1000 Account ability Principles ( 2018 ) Standard ( AA1000AP ( 2018 ) ) .
+Conclusion A review AA1000AS v3 principle Inclusivity , Materiality , Responsiveness Impact Hong Kong Stock Exchange ( HKEX ) Appendix C2 Environmental , Social Governance Reporting Guide set As result verification , w e determined social responsibility sustainability related indicator report disclosed accordance AA1000 Accountability Principles ( 2018 ) Hong Kong Stock Exchange ( HKEX ) Appendix C2 Environmental , Social Gover nance Reporting Guide .
+In professional opinion , Report cover Xiaomi Corporation Environmental , Social Governance responsibility .
+Areas enhancement Report communicated Xiaomi Corporation issue opinion statement .
+Assurance Level The Type 2 High Level Assurance provided review defined scope methodology described tatement .
+Responsibilit y It responsibility Xiaomi Corporation senior management ensure information presented Report accurate .
+Our responsibility provide independent assurance opinion statement stakeholder giving professional opinion based scope methodology desc ribed .
+Ability Indepe ndence The assurance team composed Lead Assurer Assurer , experienced industrial sector , trained range environmental , social governance standard including GRI Series Standards , AA1000 Assurance Standard V3 , Hong Kong Stock Exchange ( HKEX ) Appendix C2 Environmental , Social Governance Reporting Guide , ISO14064 , ISO14001 , ISO50001 , ISO45001 , ISO 9001 , etc .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Issue | Date | 202 | 4-04-09 | Effective | Date | 2024-04-09 | Page | 2 | 2 | The | British | Standards | Institution | independent | above-named | client | financial | interest | above-named | client | . |
+
+This Opinion Statement prepared above-named client purpose verifying statement relating ESG particularly described scope .
+It prepared purpose .
+The British Standards institution , providing Opinion Statement , accept assume resp onsibility ( legal otherwise ) accept liability connection purpose may used person Opinion Statement may read .
+This Opinion Statement prepared basis review The British Standards Institution information presented above-named client .
+The review extend beyond inf ormation solely based .
+In performing review , The British Standards Institution assumed informatio n complete accurate .
+Any query may arise virtue Opinion Statement matter relating shoul addressed name client .
+INDEPENDENT ASSURANCE OPINION STATEMENT Statement No SRA-806342 Xiaomi Corporation 2023 Environmental , S ocial , Governance ( ESG ) Report The British Standards Institution independent Xiaomi Corporation , subsidiary ( hereafter referred Xiaomi Corporation collectively statement ) , financial interest operation Xiaomi Corporation assessment assurance Xiaomi Corporation 2023 Environmental , Social , Governance ( ESG ) Report ( Report ) .
+This independent assurance opinion statement prepared basis review British Standards Institution Xiaomi Corporations 2023 Environmental , Social , Governance ( ESG ) Report presented Xiaomi Corporation .
+The review extend beyond information solely based .
+In p erforming review , British Standards Institution assumed information complete adequate .
+Scop e The scope engagement agreed upon Xiaomi Corporation includes following 1 The assurance scope consistent description Xiaomi Corporation 2023 Environmental , Social , Governance ( ESG ) Report .
+The Report prepared accordance Hong Kong Stock Exchange ( HKEX ) Appendix C2 Environmental , Social Governance Reporting Guide refer Global Reporting Initiative ( GRI ) 2021 standard .
+2 Type 2 High Level Assurance accordance AA1000 Assurance Standard v3 ( AA1000AS v3 ) evaluates nature extent Xiaomi Corporation adherence four reporting principle Inclusivity , Materiality , Responsiveness Impact .
+Therefore reliabi lity specified sustainability performance informationdata disclosed Report evaluated .
+Opinion Statemen We conclude Report provides fair view Xiaomi Corporation sustainability plan performance reporting year .
+The 2023 Environmental , Social , Governance ( ESG ) Report subject assurance free material misstatement based upon evaluation within limitation scope assurance , information data provided Xiaomi Corporation sample taken .
+In opinion data information state Report correctly presented without omission , material respect , Inclusivity , Materiality , Responsiveness Impact based AA1000 criterion correctly addressed .
+We believe Environmental , Social Governance general disclosure key performance indicator fairly represented Report , Xiaomi Corporation effort pursue sustainable development recognized stakeholder .
+Our work carried team sustainability report assurors accordance AA1000AS v3 .
+We planned performed part work obtain necessary information explanation .
+We considered Xiaomi Corporation provided sufficient evidence Xiaomi Corporation self-declaration compliance Hong Kong Stock Exchange ( HKEX ) Appendix C2 Environmental , Social Governance Reporting Guide fairly stated .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| For | behalf | BSI | Michael | Lam- | Managing | Director | Assurance | , | APAC | Issue | Date | 202 | 4-04-09 | Effective | Date | 2024-04-09 | Page | 1 | 2 | The | British | Standards | Institution | independent | above-named | client | financial | interest | above-named | client | . |
+
+This Opinion Statement prepared above-named client purpose verifying statement relati ng ESG particularly described scope .
+It prepared purpose .
+The British Standards institution , providing Opinion Statement , accept assume resp onsibility ( legal otherwise ) accept liability connection purpose may used person Opinion Statement may read .
+This Opinion Statement prepared basis review The British Standards Institution information presented above-named client .
+The review extend beyond information solely based .
+In performing review , The British Standards Institution assumed informatio n complete accurate .
+Any query may arise virtue Opinion Statement matter relating addressed name client .

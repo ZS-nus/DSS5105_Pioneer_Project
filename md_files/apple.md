@@ -1,4542 +1,2441 @@
-Environmental
-Progress
-Report
-Covering fiscal year 2023
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 2
-Contents
-Introduction Environmental Engagement and Appendix
-Initiatives Advocacy
-3 Reflections from Lisa Jackson 85 A: Corporate facilities energy supplement
-4 Report highlights Apple 2030 67 Approach 94 B: Apple’s life cycle assessment methodology
-5 Goals and progress 11 Journey to Apple 2030 68 Listening to a range of voices 96 C: Assurance and review statements
-12 Approach 69 Achieving change together 107 D: Environment, Health and Safety Policy
-15 Design and materials 73 Supporting communities 109 E: ISO 14001 certification
-24 Electricity worldwide 111 Report notes
-32 Direct emissions 112 End notes
-35 Carbon removal Data
-Resources 77 Greenhouse gas emissions
-39 Approach 78 High quality carbon certificates
-40 Product longevity 79 Carbon footprint by product
-45 Material recovery 81 Energy
-48 Water 82 Resources
-52 Zero waste 83 Normalizing factors
-Smarter Chemistry
-58 Approach
-59 Mapping
-61 Assessment
-63 Innovation
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 3
-Reflections
-Apple’s commitment to climate action has That’s why we’re partnering directly with communities and local We’re also finding new and better ways to get Apple products into
-never been more clear. organizations to support environmental solutions where they’re people’s hands. It’s not just trains, planes, and automobiles —
-needed most. In 2023, that meant expanding our Power for Impact increasingly, we’re shipping Apple products on the open seas,
-program to bring clean energy to underserved communities in because ocean freight can reduce emissions by as much as
-Thanks to the hard work of teams across our company, we’ve Nepal and Colombia, and supporting programs that increase 95 percent compared to air transport. And we continue to restore
-reduced our emissions by over 55 percent since 2015. We’ve access to safe water and sanitation in India. our planet’s ecosystems — like the Atlantic Forest, which stretches
-crossed key milestones on our environmental journey. And we’re from Brazil to Paraguay — that play a key role in removing carbon
-rising to the generational challenge of climate change by working We’re also building our products with more recycled and renewable from the atmosphere.
-with companies and communities that span the globe. material than ever — work that helps to drive down our carbon
-footprint. Our customers play an important role in this effort. What does all this work add up to? Progress. And that progress is
-Apple 2030 is our commitment to be carbon neutral for our entire When you participate in the Apple Trade-In program, you’re helping sorely needed, because the impacts of climate change are all around
-footprint by the end of the decade. We’ll get there by innovating to bring us closer to the day our products will be made without us. Its frontlines are not in boardrooms or government buildings —
-at every stage of the product lifecycle — from how they’re made, taking anything from the Earth. they’re in communities. And we owe it to our global community
-to what they’re made from. to rise to the challenge of climate change with all the innovation,
-The proof is in our products. Last year, more than 20 percent of empathy, and commitment we can muster.
-That starts with bringing new clean energy online across our supply the materials we shipped in Apple products came from recycled
-chain. Today, more than 320 suppliers have committed to using sources. MacBook Air is our first product made with more than Lisa Jackson
-renewable electricity for Apple production. With over 16 gigawatts 50 percent recycled material, and we’re making important strides VP, Environment, Policy and Social Initiatives
-already online, they’re avoiding more than 18 million metric tons across all of our products. The iPhone 15 lineup, Apple Watch
-of greenhouse gas emissions. Series 9, and Apple Watch Ultra 2 use 100 percent recycled cobalt in
-their batteries. More than 99 percent of the tungsten in our products
-Our teams and suppliers are a part of so many communities, comes from recycled sources. And we’re driving innovation
-so Apple’s work to protect the planet takes us around the world. around the world to improve the way our industry recycles
-and recovers materials.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 4
-Report highlights
-Reduced our overall Introduced our most Advocated for Increased our use of
-emissions by more significant product emissions reporting transparency recycled materials
-than 55 percent reductions to-date
-As part of our commitment to We’re making steady progress on our
-greenhouse gas emissions disclosures, journey toward using only recycled and
-We reduced our overall greenhouse gas Innovations in design and clean energy drove
-we endorsed the landmark California renewable materials in our products.
-emissions across scopes 1, 2, and 3 by dramatic reductions in greenhouse gas emissions
-Climate Corporate Data Accountability In 2023, 22 percent of the materials
-more than 55 percent compared with our for the fall Apple Watch lineup — the most significant
-Act (CA SB 253) to improve transparency we shipped in Apple products came
-2015 baseline year — not including offsets.1 from our business-as-usual scenario.2 This included
-and drive progress in the fight against from recycled sources.4 This includes,
-In that same time period, revenue grew 100 percent clean energy for manufacturing and
-climate change. 99 percent of tungsten, 71 percent of
-by 64 percent. We estimate that we’ve product use, 30 percent recycled and renewable
-aluminum, 52 percent of cobalt, 25 percent
-avoided 31 million metric tons of emissions material by weight, and 50 percent shipping without Read more on page 71.
-of gold, and 24 percent of lithium
-through reduction efforts like transitioning our the use of air transportation.3
-in our products.5
-supply chain to renewable electricity
-Read more on page 9.
-and sourcing recycled content. Read more on page 17.
-Read more on page 14.
-MacBook Air is the More than 320 suppliers Launched Grid Forecast
-first Apple product committed to renewable
-In the contiguous United States, we
-made with 50 percent electricity introduced Grid Forecast, a new tool
-in the Home app on Apple devices.
-recycled content
-As of March 2024, more than 320 suppliers This tool shows customers when cleaner
-This includes 100 percent recycled have committed to sourcing renewable electricity is available from the grid,
-aluminum in the enclosure, 100 percent electricity for Apple production, representing empowering them with information
-recycled rare earth elements in all 95 percent of our direct supplier spend. to help reduce greenhouse gas emissions.
-magnets and, in another first for Apple, We’ve accelerated progress with a mandate Read more on page 30.
-100 percent recycled copper in the main
-in our Supplier Code of Conduct for all direct
-logic board.
-suppliers to transition to renewable energy
-Read more on page 16. in the manufacturing of Apple products.
-Read more on page 27.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 5
-Goals and progress
-Emissions Materials Resources
-Goals Progress Highlights Goals Progress Highlight Goals Progress Highlight
-Become carbon neutral for Achieved We achieved carbon neutrality Use only recycled and Ongoing In 2023, 22 percent of the Replenish all our corporate Ongoing We’ve partnered on freshwater
-our corporate operations. in 2020 by expanding energy renewable materials in our material we shipped in our freshwater withdrawals replenishment projects resulting
-efficiency initiatives, sourcing products and packaging, and products came from recycled in high-stress locations in 31.2 million gallons of
-100 percent renewable enhance material recovery. or renewable sources, and by 2030.14 volumetric water benefits.
-electricity for Apple facilities, we also added titanium to our
-and investing in high-quality priority materials list in 2023.9
-Certify all Apple-owned data Ongoing We’ve certified five data
-carbon credits to offset the
-centers to the Alliance for centers since 2021, and 20
-remaining hard-to-decarbonize
-Transition to 100 percent Ongoing In 2023, 56 percent of the Water Stewardship (AWS) suppliers since 2017 to the
-corporate emissions. recycled cobalt, tin, gold, cobalt shipped in Apple- Standard by 2025.15 AWS Standard.
-and rare earth elements designed batteries came
-Achieve carbon neutrality for Ongoing Since 2015, we’ve reduced in select components and from recycled sources.11 Through our program,
-Expand and grow supplier New
-our entire carbon footprint emissions by over 55 percent applications by 2025.10 we’ve supported an average
-participation in the Supplier
-by 2030 — reducing related across our value chain. 42 percent reuse rate
-Clean Water Program,
-emissions by 75 percent across our 242 participating
-Remove plastics from our Ongoing Our product packaging prioritizing high water
-compared with 2015.6 packaging by 2025.12 shipped in 2023 contains only stress locations and driving supplier facilities.
-3 percent plastic — down from participants to an average
-Transition our entire Ongoing As of March 2024, more than 21 percent in 2015.13 50 percent water reuse rate
-value chain, including 320 suppliers have committed by 2030.16
-manufacturing and product to use 100 renewable energy
-use, to 100 percent clean for their Apple production. Our corporate facilities waste
-Eliminate waste sent to Ongoing
-electricity by 2030.7 These suppliers account diversion rate increased to
-landfill from our corporate
-for 95 percent of Apple’s 74 percent, driven by progress
-facilities and our suppliers.
-direct spend for materials, at our data centers.
-manufacturing, and assembly
-of our products worldwide.8 Throughout 2023, 100 percent
-of established final
-assembly sites maintained
-zero-waste-to-landfill operations.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 6
-Overview
-Apple 2030
-Journey to Apple 2030
-Approach
-Design and materials
-Electricity
-Direct emissions
-Carbon removal
-Resources
-Approach
-Product longevity
-Material recovery
-Water
-Zero waste
-Smarter Chemistry
-Approach
-Mapping
-Assessment
-Innovation
-Environmental
-Focus on the future
-More than 38 percent
-of manufacturing electricity
-for iPhone 15 Pro and
-Initiatives iPhone 15 Pro Max is
-sourced from our supplier
-clean energy projects.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 7
-Apple 2030
-Resources
-Smarter Chemistry
-Environmental Initiatives
-Apple 2030 Resources Smarter Chemistry
-Apple 2030 is our commitment to be carbon We aim to make durable, long-lasting products Through chemistry innovation and material
-neutral for our entire carbon footprint. Our and enhance material recovery. And we’re selection, we design our products to be safer
-journey to 2030 is focused on first reducing committed to stewarding water resources for anyone who assembles, uses, or recycles
-our scope 1, 2, and 3 greenhouse gas emissions and eliminating waste sent to landfills. them — and to be better for the environment.
-by 75 percent compared with 2015, and
-investing in high-quality carbon removal Product longevity Mapping
-Material recovery Assessment
-solutions for the remaining emissions.
-Water Innovation
-Design and materials Zero waste
-Electricity17
-Direct emissions
-Carbon removal
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 8
-Apple 2030
-Journey to Apple 2030
-Approach
-Design and materials
-Electricity
-Direct emissions
-Carbon removal
-Resources
-The time for change
-Smarter Chemistry
-The significant emissions
-reductions associated
-with the Apple Watch
-lineup mark a milestone
-toward our 2030 goal.
-Apple 2030
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 9
-Apple 2030
-Resources
-Smarter Chemistry
-Our journey to 2030 centers on reducing our scope 1, 2, and 3
-An ambitious goal for 2030:
-emissions first — upstream and downstream — by 75 percent
-before balancing remaining emissions with high-quality
-We committed to be carbon carbon removals.
-We’ve already reduced emissions by more than emissions that can’t be further reduced, we
-55 percent since 2015, even as revenue grew by primarily look for high-quality, nature-based credits.
-neutral for our entire
-64 percent during that same eight-year period. We invest in carbon sequestration and removal
-projects to help us achieve carbon neutrality.
-We’re focused on decarbonizing the three largest
-carbon footprint by the
-sources of emissions — materials, electricity, and Decarbonizing our supply chain is essential to
-transportation — across our value chain. We’re achieving Apple 2030. We’ve focused on innovative
-prioritizing efforts to drastically reduce these approaches to significantly expand renewable
-end of the decade. emissions with initiatives focused on achieving energy across our supply chain and manufacture
-the broadest impact before applying offsets. For our products with recycled and renewable materials.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 10
-Apple 2030
-Resources
-Smarter Chemistry
-Decarbonizing our value chain We’re also working to address emissions from impacts, even when those materials come with Transportation on carbon sequestration, like planting forests and
-product use through investments in renewable notable challenges to building circular supply chains. In 2023, transporting our products to customers restoring mangroves, and have additional benefits
-Electricity
-energy so that every watt of electricity associated To read more about our efforts to create circular accounted for 9 percent of our gross carbon that improve climate adaptation and resilience.
-Electricity for manufacturing and charging devices
-with our customers’ product use is matched by supply chains, see the Prioritizing our efforts section. footprint. To address the emissions from
-represents the largest source of Apple’s emissions
-clean electricity. We’re prioritizing product efficiency We intentionally design products to minimize the use transportation, we’re shifting more product volume Transparency and integrity are critical to the
-across all product lines. Achieving carbon neutrality
-to reduce the electricity use of our products. of primary (non-recycled) materials and maximize to shipping modes that are less carbon intensive carbon projects that we fund. The credits from
-for our entire carbon footprint requires a transition
-recycled content as feasible. And year over year, than air transport, such as ocean or rail. Shipping the these investments must be additional, permanent,
-to 100 percent clean energy and significant energy
-We’ve also introduced Grid Forecast, a tool in the we innovate and improve manufacturing processes same Apple product by ocean generates 95 percent measurable, and quantified — with systems in place
-reductions throughout our supplier facilities.
-Home app that informs U.S.-based users when their to use materials more efficiently and decrease fewer emissions than shipping it by air, based on our to avoid double-counting — and must avoid leakage.
-power grid has cleaner energy available for use. And manufacturing scrap. carbon footprint methodology. We’re investigating To read more about our work in carbon removals,
-We launched the Supplier Clean Energy Program in
-with iOS 16, we launched the Clean Energy Charging a transition to low-carbon sustainable aviation fuels see Carbon removal and read our white paper,
-2015 to advance renewable energy throughout our
-feature in the United States, which looks at the In 2023, manufacturing our products accounted (SAF) to reduce the carbon footprint of air shipment. Apple’s Carbon Removal Strategy.
-manufacturing supply chain. As of March 2024, more
-sources of the electricity during expected charge for 59 percent of our gross carbon footprint. This We’re also addressing transportation-related
-than 320 global suppliers — representing 95 percent
-times and optimizes for when the grid is using includes emissions from fuel combustion; heating, emissions through product and packaging design
-of Apple’s direct manufacturing spend — have joined
-cleaner energy sources like solar or wind. ventilation, and air conditioning (HVAC); refrigeration; that drives reduced packaging mass and volume,
-the program. These suppliers have committed to
-use of fluorinated gases; and other physical or creating boxes that use space more efficiently.
-using 100 percent renewable electricity for all their
-Materials chemical processes (excluding transportation).
-Apple production by the end of this decade. The
-We’ve advanced toward our 2030 goal by using These emissions sources vary widely and require Carbon removals
-success of this initiative has led to the next phase
-recycled and renewable materials, which often have use of diverse technologies and solutions to abate. Prioritizing emissions reductions across our entire
-of our efforts toward achieving a carbon neutral
-a lower carbon footprint than primary materials. value chain is critical to limiting climate change
-supply chain by 2030.
-And we announced that, by 2025, we plan to use Our approach is to identify process emissions across to 1.5°C. Still, not all emissions can be avoided or
-100 percent recycled cobalt in all Apple-designed our supply chain, like the use of fluorinated gases reduced with existing solutions. And some existing
-To rapidly scale and accelerate the progress
-batteries, 100 percent recycled tin soldering, in display and semiconductor manufacturing, and solutions will require greater industry and government
-of the Supplier Clean Energy Program, Apple
-100 percent recycled gold plating in all Apple- launch targeted programs to address these emissions efforts to scale before broader commercial adoption
-updated the Supplier Code of Conduct to require
-designed rigid and flexible printed circuit boards, in partnership with our suppliers, governments, and becomes feasible. As we focus on eliminating the
-all direct suppliers to transition to renewable
-and 100 percent recycled rare earth elements industry stakeholders. We continue to launch supplier majority of emissions across the value chain, we’re
-energy in the manufacturing of Apple products.
-in all magnets across new products.18 programs targeting emissions from manufacturing also addressing emissions we can’t reduce by looking
-The codification of this requirement is the next
-operations and facilities used to produce Apple for high-quality carbon credits from nature-based
-step in our decarbonization journey and a sign
-We’ve pioneered the use of many recycled materials products, like the Supplier Energy Efficiency Program projects. The nature-based projects we select focus
-of our commitment to integrate supply chain
-in our products through world-class product launched in 2015 to help our suppliers optimize their
-decarbonization into our core business decision-
-engineering, extensive design qualifications, and energy use.
-making. We hope that our approach can serve
-supply chain engagement. Our focus is on materials
-as a model that other companies can follow.
-that will yield significant environmental and social
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 11
-Apple 2030
-Resources
-Smarter Chemistry
-Journey to Apple 2030
-Where 2023 Where
-we’ve been activities we’re going
-Launched Codified Apple 2030
-Restore Fund 100% renewable To be carbon
-to advance 12.8M 70%+ energy neutral for
-nature-based devices and reduction mandate added
-our entire
-carbon removal accessories sent in average to our Supplier Goal
-projects to new users product energy Code of Conduct Transition footprint
-for reuse from use since 2008 applicable to all to 100% fiber-based by 2030
-programs like direct suppliers for packaging by 202520
-Apple Trade In the manufacture of
-and AppleCare Apple products
-2015 2018 2020 2021 2022 2023 2025 2030
-Goal
-Use
-100% recycled cobalt in all
-Apple-designed batteries21
-Launched
-100% recycled tin soldering
-Supplier Clean 320+
-Energy and Energy Achieved Achieved 22% 20% suppliers are and 100% recycled gold
-Efficiency Programs 100% renewable Carbon of the material reduction in committed to plating in all Apple-designed
-established to partner electricity neutrality shipped in emissions from using 100% rigid and flexible printed
-with global suppliers generated or for our corporate products came transporting renewable energy circuit boards22
-to reduce the energy sourced for operations and from recycled products for all Apple- 100% recycled rare earth
-used to manufacture our corporate announced or renewable compared related production elements in all magnets
-Apple products operations 2030 targets sources19 to 2022 by 2030 across all products23
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 12
-Apple 2030
-Resources
-Smarter Chemistry
-Approach
-Apple 2030
-We have an ambitious commitment We’re also committed to working toward reaching APPLE 2030 ROADMAP
-and a science-based plan to reach a 90 percent reduction in emissions from our 2015
-Addressing Apple’s carbon footprint
-baseline by 2050. Attaining deep decarbonization
-our Apple 2030 goal. We’re focused
-will require a collective, worldwide effort. Entire through four pillars
-on achieving reductions wherever
-industries and economies must decarbonize. And
-possible, using approaches that while reaching a 90 percent reduction in emissions is
-offer clear evidence for a way outside Apple’s or any one company’s control, we’re
-committed to taking actions that support this goal.
-forward while seeking to catalyze Design and materials Electricity Direct emissions Carbon removal
-industry-wide change.
-We’ve made significant progress by cutting emissions
-Designing products and Increasing energy efficiency at Reducing direct greenhouse In parallel with our emissions
-across our value chain by more than 55 percent since
-This begins with working to achieve carbon manufacturing processes to be our facilities and in our supply gas emissions in our facilities reduction efforts, scaling up
-2015. This started with our transition to sourcing
-neutrality across our entire carbon footprint by 2030, less carbon intensive through chain, and transitioning the and our supply chain through investments in carbon removal
-100 percent renewable electricity at our offices, retail
-setting ambitious targets to reduce our emissions thoughtful material selection, electricity in our entire product process innovation, emissions projects, including nature-based
-stores, and data centers, which we achieved in 2018.
-by 75 percent. We prioritize carbon reductions, increased material efficiency, value chain — including abatement, and shifting away solutions that protect and
-And in 2020, we achieved carbon neutrality for our
-but for emissions that can’t be mitigated using greater product energy manufacturing and our from fossil fuels restore ecosystems around
-corporate emissions.25
-existing solutions we invest in high-quality carbon efficiency, the use of recycled customers’ product use — to the world
-removal projects. and renewable materials in our 100 percent clean electricity
-products and packaging, and by 2030
-Our goal to be carbon neutral extends to our enhanced material recovery
-entire carbon footprint and is consistent with the
-Intergovernmental Panel on Climate Change’s (IPCC)
-recommendation for global carbon neutrality.24
->75 percent <25 percent of
-emissions reduction footprint
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 13
-Apple 2030
-Resources
-Smarter Chemistry
-Environmental progress can and should be good Clear principles guide this work. Our emissions APPLE’S PROGRESS TOWARD CARBON NEUTRALITY
-for business. We underpin our climate strategy with reduction targets are aligned with what current
-strong business principles and innovation while climate science shows is necessary to help limit
-Historical emissions Projected emissions To see our progress
-harnessing the power of markets to replicate our warming to 1.5° C. We calculate our footprint across (illustrative only) toward our 2030 goal,
-Avoided emissions
-solutions at scale — aiming to create the impact our value chain to include both direct and product- Gross emissions P rojected gross emissions see our Journey to Apple
-necessary to meet global reduction targets. We’re related emissions — from sourcing materials through Emissions offset Projected emissions offset 2030 timeline.
-also working to accelerate the global transition end of life. We use the results of our detailed carbon E missions range from
-In our latest Annual Green
-toward decarbonization while exploring the next accounting to adjust our Apple 2030 roadmap, which modeling uncertainty*
-Bond Impact Report (PDF),
-generation of solutions and advocating for stronger lays out our plan to become carbon neutral. And
-we share progress on the
-policies. These efforts include fostering new we’re committed to disclosing our carbon footprint
-projects funded in 2023.
-and strengthened collaborations in public and as well as our climate strategy and progress. This
-Read our latest
-private partnerships and investing in technological means sharing both challenges and successes. Our
-advancements. We’ve issued $4.7 billion in annual Environmental Progress Report, as well as 40 response to the CDP
-Climate Change 2023
-green bonds to model how businesses can drive our response to the global disclosure nonprofit CDP,
-questionnaire (PDF).
-investments to reduce global emissions. provide details on our progress. Goal
-75% reduction
-Transparency and disclosure are essential not only for
-in gross
-sharing our climate strategy and progress but also for
-sending clear signals and inviting others to work with 20 emissions
-us. And progress needs to include low-income and from 2015
-historically marginalized communities that too often
-bear the brunt of climate change. We’re pursuing
-ways to directly support these communities in our
-climate programs. To learn more about our work, read
-0 Goal
-our feature on our Power for Impact program and our
-feature on our Impact Accelerator program. To be carbon
-neutral for our
-Million metric tons entire footprint
-CO2e per fiscal year 2015 2019 2023 2030
-* Error bars: We’re continuously
-refining our methodology to
-Gross emissions 38.4 25.1 16.1 improve our carbon footprint
-estimate. But there’s inherent
-Carbon offsets/removal –– – 0.5 uncertainty in modeling
-product-related greenhouse
-Net emissions 38.4 25.1 15.6 gas emissions, as illustrated by
-the error bars in this graphic.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 14
-Apple 2030
-Resources
-Smarter Chemistry
-Apple’s comprehensive carbon footprint
-In 2023, we estimate that our TOTAL EMISSIONS Avoided emissions
-Gross emissions
-environmental programs avoided
-15.6 Million Metric Tons Net Greenhouse Gas Emissions* Emissions offset
-31 million metric tons of emissions across
-all scopes. Initiatives that we’ve been Product footprint Corporate footprint
-* Net greenhouse gas emissions
-growing for years continue to yield clear represents our total gross
-footprint minus carbon offsets.
-Supplier energy efficiency:
-results, including sourcing 100 percent Percentages shown for each
-1.7 million metric tons avoided emissions category represent
-renewable energy for our facilities, the share of Apple’s gross
-Low-carbon materials**: footprint. Totals add up to
-transitioning suppliers to renewable more than 100 percent due
-5.8 million metric tons avoided to rounding.
-energy, and using low-carbon materials ** Low-carbon materials
-Supplier clean energy: represents emissions savings
-in products.26 While our revenue has grown from transitioning to recycled
-18.5 million metric tons avoided
-materials in our products and
-by more than 64 percent since 2015, our using low-carbon aluminum, as
-Direct emissions abatement: described on page 33.
-gross emissions have decreased by more
-2.7 million metric tons avoided † Clean energy represents
-than 55 percent. savings from clean energy
-Corporate Use of procured by Apple or its
-suppliers.
-energy renewable
-‡ Business operations includes
-efficiency: electricity:
-business travel, commute, work
-0.08 million 2.0 million from home, upstream impacts
-Product use clean energy†: metric tons metric tons from scope 1 fuels, and third-
-party cloud services.
-0.05 million metric tons avoided avoided avoided
-Low-carbon logistics:
-0.2 million metric tons avoided
-Emissions
-Offsets
-59% 29% 9% <1% <1% <1% 3%
-Product Product use Product transport End-of-life Direct emissions Electricity Business
-manufacturing (Scope 3) (Scope 3) product processes (Scope 1) (Scope 2) operations‡
-(Scope 3) (Scope 3) (Scope 3)
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 15
-Apple 2030
-Resources
-Smarter Chemistry
-Design and materials
-We’re designing our products Approach 2023 progress
-to be less carbon intensive by
-Innovation drives our efforts around circularity Working to positively influence the markets Design and materials addresses
-prioritizing the use of recycled — from the materials we source and the product where we work, advocating for policy that emissions from: 22%
-content and low-carbon materials design choices we make to the recycling and enables circular supply chains, impacting
-recycled or renewable
-recovery innovations we pursue. We prioritize communities worldwide, and inspiring others
-and focusing on the energy
-the materials and components that account to follow suit — these are the opportunities that Product manufacturing Of the materials contained in
-efficiency of our software and
-for significant portions of our greenhouse gas drive us through the challenging work of creating products that were shipped to stores
-(Scope 3)
-hardware. We’re working toward emissions. This means that the choices we make circular supply chains. and customers, 22 percent came
-a future where every Apple product by product can scale toward reducing from recycled or renewable sources.
-our overall footprint. These priorities inform Prioritizing less carbon-intensive materials
-product will be created from and
-our work to design for material efficiency and and components
-Product use
-contribute to circular supply 95%
-increase our use of recycled Focusing on those that account for significant
-(Scope 3)
-chains. The design and material and renewable materials. portions of our greenhouse gas emissions
-recycled titanium
-choices we make across our
-We aim to create products that use circular Designing products for material efficiency We introduced titanium to our priority
-products will support reducing
-supply chains to one day end reliance on mined Incorporating carbon emission profiles of the Product transport materials list, and in our fall models
-our carbon footprint. resources while meeting our rigorous standards materials that go into our products (Scope 3) of Apple Watch Ultra 2, when paired
-with Alpine Loop or Trail loop, we used
-for quality, durability, performance, and
-95 percent recycled titanium in the case.
-environmental and social protections. We strive Increasing the use of recycled and
-for efficiency in sourcing and utilizing materials, renewable materials
-relying on recycled and renewable materials Ensuring their use across our products
-58%
-for our products and packaging, and reducing
-scrap. And we also maintain strict standards for Driving product energy efficiency less energy
-responsibly sourcing materials from primary, Reducing energy use across our products
-iMac uses 58 percent less energy
-recycled, and renewable sources. Another part
-than the ENERGY STAR requirement.*
-of what makes our goals possible is the recycling
-innovations we’re developing to enhance
-material recovery. We hope our actions inspire * Energy consumption and energy efficiency values are based
-on the ENERGY STAR Program Requirements for Computers,
-others to support building circular supply chains. including the max energy allowance for iMac. For more
-information, visit www.energystar.gov. ENERGY STAR and
-the ENERGY STAR mark are registered trademarks owned
-by the U.S. Environmental Protection Agency. For more
-information on the power consumption of iMac, read the
-Product Environmental Report.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 16
-Apple 2030
-Resources
-Smarter Chemistry
-Using recycled materials We’re addressing carbon impact by how we source TRANSITIONING TO RECYCLED CONTENT 68%
-to lower our product recycled aluminum, too. Our first priority is to recover
-Mac Studio now uses 100 percent
-any of our own scrap at high quality. Then, we look Switching to recycled and
-carbon footprint
-to other postindustrial and postconsumer sources recycled aluminum in its enclosure low-carbon aluminum has
-We’re reducing the carbon footprint of our products for high-quality recycled aluminum because recycled decreased our greenhouse
-through the materials we select. Our strategy is to aluminum manufacturing emits less carbon than gas emissions associated
-with aluminum by
-transition to materials that are manufactured using newly mined materials. These emissions reduction
-68 percent since 2015.
-low-carbon energy and recycled content. We’ve efforts have reduced our aluminum-related emissions
-prioritized the materials and components that make by 68 percent since 2015 and now represent
-up a large part of our product carbon footprint to less than 9 percent of our product manufacturing
-move us closer to our goal of carbon neutrality. footprint, compared with 27 percent in 2015.
-And to accelerate collective efforts, we signed
-on as a founding member of First Movers Coalition’s In 2023, we expanded our use of certified recycled
-near-zero emissions primary aluminum commitment cobalt, steel, gold, and aluminum — materials that
-for 2030 (see more on page 70). typically have significant carbon footprints. We
-introduced 100 percent certified recycled cobalt for
-Our use of aluminum exemplifies Apple’s the first time in the battery of Apple Watch
-comprehensive approach: We’re transitioning to and iPhone.27 And we increased the content of
-recycled content, and where we haven’t yet, we’re certified recycled gold across all product lines —
-moving to low-carbon suppliers and exploring from 4 percent in 2022 to approximately 25 percent
-technological innovations to decarbonize — like in 2023. This includes everything from the gold
-ELYSIS aluminum, which was smelted without plating on multiple printed circuit boards to new
-generating greenhouse gas emissions (see page 33). applications such as the USB-C connector
-We’ve continued to introduce 100 percent recycled on iPhone 15.
-aluminum in the enclosures of Apple products: Mac
-Studio now uses 100 percent recycled aluminum
-in its enclosure — joining Apple Watch Series 9,
-Apple Watch SE, iPad, MacBook Air, Mac mini,
-the Siri Remote, and MacBook Pro. In addition, the
-new iMac contains 100 percent recycled aluminum
-in the stand. And with iPhone 15, we’ve increased
-recycled content by using 75 percent recycled
-aluminum in the enclosure.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 17
-Apple 2030
-Resources
-Smarter Chemistry
-Prioritizing our efforts Our efforts focus on 15 materials that we’ve us to scale our use of materials that are better for Key challenges to developing
-prioritized based on a broad range of environmental, the environment and safer for use in our products. circular supply chains
-We’re making progress toward our goal of sourcing
-social, and supply chain impacts. (These are outlined Recycled material is certified by third parties to a
-only recycled or renewable materials in our products:
-in detail in our Material Impact Profiles white paper.32) recycled content standard that conforms with ISO
-In 2023, 22 percent of the materials contained in
-Some of the materials prioritized through this process 14021. Total recycled content numbers also include
-products that were shipped to stores and customers
-include lower-mass but higher-impact materials like supplier reported recycled content checked by
-came from recycled or renewable sources.28
-gold. Our priority materials include aluminum, cobalt, Apple but not third-party certified. Technical properties Traceability
-copper, glass, gold, lithium, paper, plastics, rare earth The properties of a certain recycled or renewable Information about the source of materials
-And we’re on track to meet our key material goals. elements, steel, tantalum, tin, titanium, tungsten, and Our teams are overcoming obstacles to creating materials may differ from the primary material. — whether mined, recycled, or renewable
-By 2025, we plan to: zinc, and they account for 87 percent of the total closed loop supply chains, including material This needs to be accounted for during product — might not be readily available.
-product mass shipped to our customers in 2023. performance and traceability. This is possible design and manufacturing. For example, select
-• Use 100 percent recycled cobalt in all through our work with a diverse group of recycled plastics differ in properties from other
-Apple-designed batteries.29 Maintaining our standards for recycled and renewable partners. For example, we were able to design plastics. The composition of other recycled materials
-• Use 100 percent recycled tin soldering and materials is essential to our journey to create a an alloy containing 100 percent recycled aluminum can also be impacted by some level of contamination
-100 percent recycled gold plating in all Apple- circular supply chain. Our Recycled and Renewable that meets our rigorous design performance during the recycling process. Scale
-Materials for a single component can come
-designed rigid and flexible printed circuit boards.30 Material Specification sets requirements based on standards. And we’ve improved our ability
-from hundreds of different suppliers, requiring
-international standards for recycled content and to track key materials within our supply chain.
-• Use 100 percent recycled rare earth elements exponentially more effort as we scale the use
-responsible resource management. By requiring
-in all magnets across all products.31 of high-quality recycled or renewable materials
-certification to these standards, we’re able to confirm Barriers to our progress remain — including
-Availability and access across components and products.
-that a material has been recycled or comes from challenges within our control and those outside
-The supply of recycled and renewable materials
-a renewable source — one that can continually our direct influence. Addressing these requires
-can be constrained by the limited availability
-produce without depleting the earth’s natural a collective response. Through collaboration within
-of recoverable material or production of renewable
-resources. We approach materials from new sources the material space, we can achieve impact felt
-content. When supply exists in some locations
-with the same rigor, evaluating each one for the beyond our business. The supply chains we’re Regulatory barriers
-around the world, new suppliers need to be
-safety of the materials’ chemistry. This process allows helping create serve more than just our product Transboundary movement regulations — created
-incorporated into supply chains for the material
-needs — they help promote the availability to establish critically important community
-to be accessed.
-of competitively priced, quality recycled and and environmental protections — can have the
-renewable materials across geographies. unintended consequence of inhibiting material
-recovery and movement to recyclers or refiners
-for use in new products. To learn about our support
-of policies that enable circular supply chains while
-improving social and environmental protections,
-read the Policy advocacy feature.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 18
-Apple 2030
-Resources
-Smarter Chemistry
-PROGRESS ACROSS OUR 15 PRIORITY MATERIALS
-Material and key challenges Progress Material and key challenges Progress
-Aluminum • In 2023, 71 percent of the aluminum in products we shipped to customers came from recycled sources — up from 67 percent Plastics • We’re transitioning from fossil fuel–based plastics to renewable or recycled alternatives. In 2023, we included renewable plastic
-Regulatory barriers in 2022.33 Technical properties in the Apple Watch Series 9 speaker — a first for Apple — and we use 25 percent recycled plastic in multiple components.
-Technical properties • Because recycled aluminum can have 1/40 the carbon footprint of aluminum from primary sources, this supports our pursuit Availability and access • For Mac Pro, over 20 components are made with 35 percent or more recycled plastic.
-Scale of low-carbon design.34 Learn more about ELYSIS aluminum, which was smelted without generating greenhouse gas emissions Scale
-(see page 33).
-Rare earth elements • More than 75 percent of the total rare earth elements that Apple shipped in products in 2023 came from certified recycled sources.
-Cobalt Regulatory barriers • Compared with earlier products, our latest devices contain greater percentages of recycled rare earth elements: 100 percent in
-R Ave ag iu lala bt io litr yy ab na drr aie cr cs
-e ss
-• I rn e c2 y0 c2 le3 d, 5 s2 o up re cr ec se on nt o af mth ae s c so bb aa lalt n s ch eip bp ae sd is i ,n in o cu lur dp ir no gd pu oct ss t -— in dm uo sr te ri ath l sa cn r ad po u ab nl de pth oe s ta -m coo nu sn ut msh ei rp sp ce rd a pin f r2 o0 m2 2 e n— d -c oa fm -lie fe f r bo am tt ec re iert sif .ied A Sv ca ai ll eability and access i rP eh co ycn le
-e
-d15 r, a3 r7
-e
-9 e9
-a
-p rte hr c ee len mt i en
-n
-o tsu r
-in
-A ap lp
-l
-mle
-a
-W gna etc tsh alin ce rou sp s, aa ln
-l
-d
-p
-r9 o8
-d
-up ce tr sc be yn t
-2
-i 0n 2o 5u .r
-3
-8MacBook lineup. We’re committed to using 100 percent
-• In 2023, we used 100 percent recycled cobalt in the magnets within the magnetic power module of the 15-inch MacBook Air with
-Scale
-M2 chip.
-Steel • We work with our supply chain partners to recover high-purity steel from our manufacturing scrap and our products at end of life.
-• In 2023, Apple committed to using 100 percent recycled cobalt in all Apple-designed batteries by 2025.35 Regulatory barriers • In 2023, we continued the use of 90 percent recycled steel in the battery tray of the 15-inch MacBook Air with M2 and expanded
-Technical properties the use of this material in the 13-inch MacBook Air with M3 in the battery tray, keyboard feature plate, and trackpad beam plate.
-Copper • In 2023, we introduced 100 percent recycled copper in the fin stack of the heat sink for 16-inch MacBook Pro, which helps regulate Scale
-Technical properties thermal performance. For iPhone, we introduced 100 percent recycled copper foil in the MagSafe inductive charger, and we’re
-Supply chains exploring how to use recycled copper in other thermal applications. Tantalum • We’re actively investigating recovery approaches from end-of-life electronics to develop further use of recycled material
-Scale • In 2023, we introduced 100 percent recycled copper wire in the Taptic Engine in our iPhone 15 lineup, Apple Watch Series 9, and Regulatory barriers for capacitors.
-Availability and access
-Apple Watch Ultra 2.
-Supply chains
-• Copper is a key material in printed circuit boards. Since first introducing 100 percent recycled copper foil in iPad (10th generation) in
-October 2022, we’ve used 100 percent recycled copper foil in the main logic boards in the iPhone 15 lineup, Apple Watch Series 9, Tin • In 2023, we used 40 percent recycled tin on average across all product lines — up from 38 percent in 2022.
-Apple Watch Ultra 2, and in October 2023, 16-inch MacBook Pro. Scale • In previous years, we expanded the use of recycled tin to many flexible printed circuit boards across many products. As we continue
-to scale use across even more components, we seek to engage an exponentially increasing number of suppliers in this effort.
-Glass • The display panel and trackpad glass of MacBook Air with M3 contains 15 percent recycled glass.
-• We’ve also committed to using 100 percent recycled tin soldering in all Apple-designed rigid and flexible printed circuit boards
-Technical properties
-by 2025.39
-Availability and access
-Scale
-Titanium • In 2023, Apple Watch Ultra 2, when paired with Alpine Loop or Trail loop, contained 95 percent recycled titanium in the enclosure.
-Gold • In 2023, our use of recycled gold increased to about 25 percent across all product lines — up from 4 percent in 2022. Availability and access
-Regulatory barriers • We also expanded our use of 100 percent certified recycled gold to the plating of multiple printed circuit boards and the USB-C Scale
-Traceability connector in iPhone 15 — a first for Apple.
-Scale Tungsten • More than 99 percent of the tungsten used in 2023 came from recycled sources, up from 95 percent in 2022.
-• We’re committed to using 100 percent recycled gold plating in all Apple-designed rigid and flexible printed circuit boards by Regulatory barriers • In 2023, all released iPhone 15 models featured 99 percent recycled tungsten across the entire device, and all released Apple Watch
-2025.36 All gold in Apple products is responsibly sourced, whether it’s primary or recycled. For more information, see our Conflict
-models featured 100 percent recycled tungsten across the entire device.40
-Minerals Report.
-• Our disassembly robots, Daisy and Dave, and our recycling machine, Taz, helped recover and recycle the tungsten from the
-Taptic Engine.
-Lithium • In 2023, 24 percent of the lithium, allocated using mass balance, shipped in our batteries came from certified recycled sources,
-Regulatory barriers including post-industrial scrap and post-consumer scrap from end-of-life batteries — a first for Apple.
-Availability and access Zinc • Mac Studio contains 100 percent recycled copper and zinc in the brass prongs of the power cord plug and AC inlet.
-Scale Technical properties
-Supply chains
-Paper • For information about our progress with paper, see our feature on packaging.
-Increasing recycled content in
-our products
-We’re progressing toward our goal of relying solely
-on responsibly sourced recycled or renewable
-materials for our products and packaging. The source
-2017 2019 2021 2023†
-of the materials we rely on matters to us — we value
-materials that don’t deplete the earth’s resources.
-Titanium
-In 2023 we accomplished the following first-time
-Cobalt
-material achievements:
-Copper
-• In Apple Watch Ultra 2, when paired with Alpine
-Loop or Trail loop, we used 95 percent recycled
-Zinc
-titanium in the enclosure.
-• Across our iPhone 15 lineup, we used 100 percent Steel
-recycled gold in the USB-C connector and in the
-Gold
-wire of all cameras.
-• Across our iPhone 15 lineup, we used 100 percent Tungsten*
-recycled copper wire in the Taptic Engine and
-100 percent recycled copper foil in the main logic Rare earth elements
-board and MagSafe inductive charger.
-Aluminum
-• In the iPhone 15 lineup, Apple Watch Series 9, and
-Apple Watch Ultra 2, we used 100 percent recycled Tin
-cobalt in the battery.41
-Plastic
-These and other innovations helped us increase
-our use of recycled and renewable content to
-22 percent of all the material shipped in products
-in 2023.42
-Apple
-Watch
-Desktop Laptop iPad iPhone Apple
-Watch
-Desktop Laptop iPad iPhone Apple
-Watch
-Desktop Laptop iPad iPhone Apple
-Watch
-Desktop Laptop iPhone
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 19
-Apple 2030
-Resources
-Smarter Chemistry
-RECYCLED MATERIALS
-Our transition to certified recycled materials by product line
-All products launched in the
-calendar year include certified
-recycled content.
-Some products launched in the
-calendar year include certified
-recycled content.
-No products launched in the
-calendar year include certified
-recycled content.
-† In calendar year 2023, we did not
-launch new models of iPad.
-/ Recycled content is not
-applicable.*
-* Material is considered “not
-applicable” if it’s found only
-in trace amounts dispersed
-across modules.
-Products launched
-by calendar year
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 20
-Apple 2030
-Resources
-Smarter Chemistry
-Responsible sourcing of materials Industry collaboration Improving material and We’re also exploring opportunities for improved
-We require our suppliers to source our materials As we focus on responsible sourcing and the use of manufacturing efficiency efficiency across our product manufacturing
-responsibly,for both primary and recycled materials. recycled content, we continue to drive progress in our processes. In 2023, we continued to invest in
-Apple is committed to
-Our Standards for Responsible Sourcing of Materials broader industry through multiple initiatives. These Making our manufacturing processes more efficient research and development projects aimed at
-setting strict standards
-are based on leading international guidance, include our role on the steering committee of the creates less waste and helps us make the most of creating less waste in processing materials, reducing for responsible sourcing
-including the United Nations Guiding Principles on Responsible Minerals Initiative (RMI). This coalition the materials that we source. We’re also designing machining time and associated energy use, more of the materials used
-Business and Human Rights and the Organisation for is one of the most commonly used resources for our products and packaging so that they require less efficiently transforming material into near-net shapes, in our products.
-Economic Co-operation and Development (OECD) companies working to address mineral sourcing material in the first place, helping reduce emissions and maximizing the recovery and reprocessing For more information,
-Due Diligence Guidance for Responsible Supply issues in their supply chains. We are a supporter from transporting and processing materials. of manufacturing scrap. Once these improved read our People and
-Chains of Minerals from Conflict-Affected and High- of the First Movers Coalition for Aluminum, whose processes are successfully developed, we plan to Environment in Our Supply
-Risk Areas. In 2023, 100 percent of the identified focus is to aggregate demand signals for low-carbon For example, in 2023, we redesigned all packaging work with our suppliers as they deploy them at scale Chain 2024 Annual
-tin, tantalum, tungsten, gold (3TG), cobalt, and technologies and materials. for Apple Watch Series 9 and Apple Watch SE models at their facilities. Progress Report and our
-lithium smelters and refiners in Apple’s supply chain to introduce a new compact design that allows for Conflict Minerals Report.
-completed assessments to verify compliance with Using recycled and renewable materials helps 25 percent or more devices per shipment. And as
-our standards. lower our carbon footprint, moving us closer to we progress toward our 2030 carbon neutrality goal,
-our climate goals. To fulfill the transition to these we’re investigating new materials and new ways to
-We work with third-party audit programs at an materials, we’re working with policymakers to support manufacture efficiently.
-industry-wide level to identify environmental international standards that enable the use of these
-and social, and governance risks at the smelter, materials globally. We’ve prioritized improving the carbon footprint of
-refiner, and mining levels. We map other materials the integrated circuits that we use in our products
-in our products — such as mica, copper, graphite, as they’re carbon intensive. We’ve also continued
-and nickel — and, before production, evaluate our work with the sustainable semiconductor
-suppliers of new materials for compliance with our technologies and systems research program of
-requirements. We also map, conduct additional due imec, a world-leading research and innovation hub
-diligence, and facilitate third-party audits on other in nanoelectronics and digital technologies. We have
-materials used in our products, such as graphite, two goals in this collaboration: to improve the carbon
-nickel, and copper. As we build supply chains for footprint models associated with leading nodes
-recycled materials, we partner with the smelters of integrated circuit production, and to use these
-and refiners that are able to meet and maintain models to identify carbon reduction opportunities
-our standards. for the entire integrated circuits industry.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 21
-Apple 2030
-Resources
-Smarter Chemistry
-Driving product We’ve cut overall product energy use across all PRODUCT ENERGY EFFICIENCY
-energy efficiency major product lines by more than 70 percent since
-We’ve cut overall product energy use across all major
-2008.44 And Apple products are consistently rated by
-Product energy use accounts for 29 percent ENERGY STAR, which sets specifications that reflect product lines by more than 70 percent since 200847
-of our gross carbon footprint — and for this reason, the 25 percent most energy-efficient devices on the
-we work to reduce our products’ energy usage. market. In 2023, all eligible Apple products continued
-We approach this challenge in the earliest phases to receive an ENERGY STAR rating for superior energy
-of design, taking a holistic view of each product — efficiency.45 And in 2023, all eligible Apple products
-from how efficiently the software operates to the met requirements for EPEAT registration, another
-power requirements of individual components. environmental rating system for electronic products
-that considers energy efficiency and a number of
-With each generation of products, we strive other environmental topics.46
-to improve energy efficiency. For example,
-the transition to Apple silicon on Mac devices
-continues to drive these improvements, including:
-• Our pro chips released in 2023 enabled more
-Mac devices to run with improved energy
-efficiency. Mac mini with M2 made progress
-in reducing energy use in 2023.
-• And Apple TV 4K is designed to minimize
-its impact on the environment, using nearly
-30 percent less power than the previous
-generation while achieving more powerful
-performance.43
-Mac mini iPhone 15 Apple TV 4K
-• The efficiency gains of the A15 Bionic chip
-Uses 72 percent less Uses 47 percent less Designed to use nearly
-eliminate the need for an internal fan, resulting
-energy than the ENERGY energy than the U.S. 30 percent less power than
-in a more compact design and contributing
-STAR requirement48 Department of Energy’s the previous generation
-to a 25 percent reduction in carbon footprint
-requirements for battery while achieving more
-over the previous generation.
-charger systems49 powerful performance50
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 22
-Apple 2030
-Resources
-Smarter Chemistry
-FEATURE
-Reducing plastic and waste through packaging innovation
-We’re closing in on our goal to We’ve also continued our work to address the PACKAGING FIBER AND PLASTIC FOOTPRINT* (METRIC TONS) * In 2022, we expanded our packaging goal
-boundary to better reflect our impact, resulting
-remove plastics from our packaging remaining plastic in the smaller parts of our in an increase of about 36 percent of our total
-Our goal is to transition to 100 percent fiber-based
-packaging, like labels and lamination, with the packaging mass, relative to fiscal year 2021.
-by transitioning to 100 percent packaging innovations focused on printing directly packaging by 2025** W boe x ein sc (lu ind ce lu r de it na gil pb la ag ss ti, c a cll o f nin ti es nh te id n g lao bo ed lss and
-fiber-based packaging by 2025.51 on boxes and using overprint varnish. This year, in-box documentation), packaging sent to our
-customers as part of Apple Trade In, AppleCare
-we’ve expanded our efforts to include MacBook Pro, packaging for whole units and service modules
-2015
-(with the exception of plastics needed to
-Along our journey, we’ve addressed many packaging MacBook Air, Mac Studio, Mac Pro, and Mac mini. protect items from electrostatic discharge), and
-secondary packaging of Apple products and
-components that typically rely on plastic, including
-accessories sold by Apple. Our goal boundary
-large product trays, screen films, wraps, and foam In 2022, we introduced these innovations for iPhone, does not include the inks, coatings, or adhesives
-cushioning. We’ve replaced each with fiber-based iMac, iPad, and Apple Watch. That same year, we u ps ae cd ka in g io nu gr f p ooac tpk ra ing tin , wg. e I n a la sd od cit ai lo cn u lt ao t eo u thr e fiber
-alternatives and implemented innovative alternatives also introduced digital printing directly on the back used at our corporate facilities. In fiscal year
-2023, this number was 1100 metric tons.
-to the small uses of plastics across our packaging of boxes for iPhone 14 and iPhone 14 Pro to eliminate 48% Recycled fiber
-— like labels and lamination. At the same time, the need for labels.53 We did this by developing 31% Responsibly sourced virgin fiber† ** B pay c 2 k0 a2 g5 in, gw be y p tl ra an n t so it ir oe nm ino gv e to p 1la 0s 0ti c p efr ro cm en o t ur
-we’re taking steps to ensure that our packaging is a custom high-resolution printer that can print 21% Plastic 18% fiber-based packaging. Our goal to remove
-plastic from packaging includes retail bags, all
-recyclable and that the fiber we source comes from on demand at manufacturing facilities where our finished goods boxes (including plastic content
-recycled sources or responsibly managed forests. products are packaged. And in 2023, we broadened less plastic since 2015* i sn e l na tb te ol s o uan r d cu in s- tob mox e rd so ac su m pae rn t t oa ft i Aon p) p, lp e a Tc rk aa dg ei ng
-our approach to include all newly released iPhone, 2023 In, AppleCare packaging for whole units and
-service modules (with the exception of plastics
-In 2023, we accomplished the following: iPad, Apple Watch, and MacBook models. needed to protect items from electrostatic
-discharge), and secondary packaging of Apple
-products and accessories sold by Apple. Our
-• Released multiple product lineups with over goal does not include the inks, coatings, or
-adhesives used in our packaging. We plan
-95 percent fiber-based packaging, including to remove plastic from the packaging of
-iPhone 15, Mac, iPad Pro, Watch, and Beats.52 refurbished Apple products to 100-percent fiber
-0% 50% 100% based by 2027, once old product packaging
-designs are phased out. We will continue selling
-• Released our first 100 percent fiber-based existing inventory of AppleCare packaging
-packaging in our fall Apple Watch lineup. 62% Recycled fiber for whole units and service modules that
-contain plastics for vintage and products at
-35% Responsibly sourced virgin fiber† end of life until it is consumed. This change
-• Shipped Apple Vision Pro with 100 percent 3% Plastic will enable us to avoid waste generated by
-fiber-based packaging in 2024. re-packaging goods in new 100 percent fiber-
-based packaging.
-† Responsible sourcing of fiber is defined in
-Apple’s Responsible Fiber Specification (PDF).
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 23
-Apple 2030
-Resources
-Smarter Chemistry
-Apple’s packaging design guidelines factor in As we continue to reduce plastic in our packaging, 100%
-packaging recyclability, requiring the use of fiber- we make sure that our wood, bamboo, and bagasse
-based materials that can break down to pulp as fibers are certified by standards such as FSC, PEFC, Our fall Apple Watch lineup
-part of mixed-paper recycling streams, alongside and Bonsucro. And since 2017, all the wood fiber packaging is 100 percent
-materials like cereal boxes.54 We test our packaging used in our packaging comes from either certified fiber based, a milestone
-toward our commitment
-to standards developed by independent industry and recycled sources or responsibly managed forests.
-to remove plastic from
-research organizations — including Western Michigan Through partnerships with The Conservation Fund
-packaging by 2025.
-University, the U.S. Forest Service’s Forest Products and World Wildlife Fund, we’ve protected, and
-Laboratory, and the Confederation of European Paper improved forest management practices on, more
-Industries — and we continue to monitor evolving than one million acres of working forests in the U.S.
-international packaging standards. and China. In 2023, these forests generated enough
-responsibly sourced fiber to balance all the virgin
-fiber in our packaging while contributing to the
-global supply of responsibly sourced fiber.55
-Our fall Apple Watch lineup packaging is 100 percent fiber-based, a milestone toward our commitment to have plastic-free packaging by 2025.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 24
-Apple 2030
-Resources
-Smarter Chemistry
-Electricity
-Our energy efficiency efforts Approach 2023 progress
-extend across our work, from initial
-We continue to focus on energy efficiency Transitioning our supply chain Energy efficiency and
-design through manufacturing in our operations and bringing new renewable to renewable energy renewable electricity 36M
-and beyond. Achieving efficiency electricity projects online worldwide. In the Making progress toward transitioning our addresses emissions from:
-kWh
-long term, we believe that these projects entire manufacturing supply chain, as well
-across our footprint is essential
-provide more cost-effective energy. as supporting suppliers in adopting renewable In 2021, Apple deployed a proprietary
-to meeting our 2030 carbon
-energy technologies and helping drive server design focused on energy and
-neutrality goal. We’ve achieved Managing energy use and environmental action in our suppliers’ regions Indirect emissions computing efficiency that added an
-100 percent clean electricity efficiency potential (Scope 2) additional 36 million kilowatt-hours.
-Designing, operating, and maintaining our Focusing on product use
-across our operations, and we’re
-facilities to reduce our operational impact, Increasing our products’ energy efficiency
-working toward the same for our 1.7M
-and auditing across our operations and supply to drive down emissions from product use,
-Product manufacturing
-manufacturing supply chain and chain to drive efficiency by conserving and and taking steps to address the emissions
-(Scope 3) MTCO2e
-use of Apple products. By using reducing energy use that remain
-More than 100 supplier facilities
-clean electricity in place of fossil
-Using 100 percent renewable electricity Seeking renewable sources participated in our energy efficiency
-fuels, we’re contributing to cleaner program, achieving more than
-for our corporate operations with positive impact
-Product use 2 billion kilowatt-hours of electricity
-air and lowering greenhouse Continuing to generate and source the Prioritizing energy supply options
-(Scope 3) savings and over 2,200,000 MMBtu
-gas emissions. electricity for our data centers, retail stores, that achieve positive environmental
-in additional energy savings, which
-and offices, as we have since January 2018 and social benefits
-together avoided nearly 1.7 million
-metric tons of CO2e.
-100%
-clean energy
-Codified our 100 percent clean energy
-mandate in the Supplier Code of
-Conduct, requiring all direct suppliers
-to transition to renewable energy for
-the manufacturing of Apple products.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 25
-Apple 2030
-Resources
-Smarter Chemistry
-Operating Apple Data centers: Data centers are traditionally Retail stores: We continue to prioritize energy
-facilities efficiently energy intensive, requiring significant resources efficiency and develop comprehensive energy
-to cool heat-generating servers and IT equipment. models for stores so that we can ensure our design is
-Our data centers, retail stores, and offices all source That’s why we’re continuously monitoring and aligned with our energy efficiency targets. We’ve also
-100 percent renewable electricity, and we remain improving the controls for our cooling systems. This decarbonized even further by phasing out natural gas
-focused on implementing energy reduction measures retrospective view often enables us to increase the so that we’re not reliant on fossil fuels.
-across our facilities. We assess natural gas and cooling capacity of our existing facilities, thereby
-electricity usage at each of these site types — as well maximizing the number of servers within our data Measurement and accountability: Measurement
-as research and development facilities — auditing center footprint. is critical to maintaining building energy performance.
-how we perform and using best practices for energy We have a well-developed system of energy tracking
-management to reduce our loads. And we design In 2023, we continued to see energy savings at data and benchmarking, which includes data from
-our new buildings around occupants’ and lab users’ centers. A proprietary server design we deployed utility meters that continuously monitor 15-minute
-specific needs, enabling us to use our facilities in 2021 that focused on energy and computing electricity and daily natural gas energy consumption.
-efficiently and productively. efficiency resulted in an additional 36 million This method helps us identify opportunities for
-kilowatt-hours per year in energy savings. performance improvement. This early knowledge
-Existing buildings: We have significant opportunities enables us to restore building system efficiencies
-to save energy in retrocommissioning buildings New facilities: When designing new facilities, and actively manage our energy footprint.
-that Apple already occupies or operates, including or renovating existing facilities, we evaluate each
-energy-intensive facilities like data centers. major system to ensure we’re managing our energy In 2023, our energy efficiency program
-We audit the performance of buildings around footprint. We select LED fixtures and install sensors avoided 41 million kilowatt-hours of electricity, which
-the world, then deploy energy efficiency measures. and photocells to reduce light levels based on includes savings from the efficient servers, and
-Retrocommissioning focuses on building controls occupancy and the level of natural daylight. We 100,500 therms of natural gas through adjustments
-to optimize energy use and operational efficiency. install high efficiency heating and cooling systems made to 6.7 million square feet of new and existing
-We’re prioritizing reducing natural gas usage and and transformers to reduce energy consumption from buildings.56 Together, these recent initiatives will
-replacing natural gas equipment with electrical. our plug loads. We take special attention to ensure avoid an additional 27,000 metric tons of CO2e
-We’re focused on reviewing and benchmarking we’re designing safe, productive spaces, while still per year. Combined with ongoing energy savings
-our most natural gas–intensive buildings to look prioritizing energy savings. We also prioritize efficient from past years, and accounting for effective
-for reduction and fuel switching opportunities. compressed dry air systems and variable air volume useful lifetime of legacy savings, we saved over
-fume hoods for our R&D spaces. 75,000 metric tons of CO2e in 2023.57
-Apple’s Reno data center, opened in 2012, takes advantage of the mild climate by cooling its servers with outside air whenever possible.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 26
-Apple 2030
-Resources
-Smarter Chemistry
-Improving energy efficiency We launched the Asia Green Fund in 2019 to help Creating new projects To address gaps in our renewable energy needs 1.7M
-in our supply chain provide technical expertise and finance capital- Apple-created renewable sources account for beyond what’s provided by Apple-created projects,
-intensive energy efficiency projects. As green about 91 percent of the renewable electricity that we directly purchase renewable electricity through We estimate that
-The manufacturing of Apple products accounts financing mechanisms remain integral to the Supplier our facilities use — currently around 1.6 gigawatts. available utility green energy programs — about suppliers in our Supplier
-for 59 percent of our gross carbon footprint. To Energy Efficiency Program, we’re exploring new 5 percent of our total corporate load in 2023. Energy Efficiency
-address this impact, we collaborate closely with our approaches that connect suppliers to external New renewable electricity projects require Colocation and distribution facility vendors supply Program avoided nearly
-suppliers to prioritize energy reductions. Together, funding for energy efficiency projects while scaling investment. Apple projects include the following about 3 percent of our total load of renewable energy. 1.7 million annualized
-we work to use clean energy as efficiently as possible the program and accelerating reductions. funding approaches: And in certain situations, we purchase renewable metric tons of supply
-at every point in our supply chain, supporting the energy certificates (RECs).58 These RECs, which chain greenhouse gas
-emissions in 2023.
-creation of more efficient factories all over the world. In 2023, more than 100 supplier facilities participated • Direct ownership account for about 2 percent of our total load, share
-The Supplier Energy Efficiency Program, launched in our energy efficiency program, achieving more (~8 percent of Apple-created projects) the same power grid as the Apple facility they
-in 2015, helps our suppliers optimize their energy than 2 billion kilowatt-hours of electricity savings and We build our own projects — including solar, support, where available. These purchases are
-use. Implementing energy efficiencies reduces the more than 2,200,000 MMBtu in additional energy biogas fuel cells, and low-impact hydro projects subject to the same standards as our Apple-created 91%
-energy intensity of manufacturing, which translates savings. Together, we estimate that this avoided — to provide renewable electricity, where feasible. renewable energy projects. Appendix A
-Apple-created renewable
-to reduced greenhouse gas emissions. nearly 1.7 million metric tons of CO2e, representing
-• Equity investment
-provides additional details on Apple’s renewable
-sources account for
-a 25 percent increase since 2022. energy solutions. about 91 percent of the
-We provide technical and planning support to (~4 percent of Apple-created projects)
-renewable electricity that
-suppliers as they build more energy-efficient We invest capital in new solar PV or wind projects
-Supporting social impact our facilities use.
-systems. We support our suppliers by helping them Clean electricity in some markets, matching the renewable energy Our Power for Impact program, which launched in
-recognize optimization opportunities and identify generated with our energy use. 2019, continues to help provide local communities
-solutions through energy assessments. To assist Maintaining 100 percent renewable electricity with needed energy resources. With funding from
-with implementation, we connect suppliers to for Apple facilities • Long-term renewable energy contracts Apple, local communities and organizations benefit
-extensive education and training opportunities — Our retail stores, data centers, R&D facilities, and (~88 percent of Apple-created projects) from access to cost-effective renewable energy.
-including technical assistance resources — and offices around the world currently source 100 percent Through long-term power purchase agreements, Apple is currently supporting more than 20 renewable
-help them access external funding for energy renewable electricity. We’ve focused our efforts to virtual power purchase agreements, and other electricity projects around the world, including in the
-efficiency projects. source renewables around several key pillars: forms of long-term commitments, we help Philippines, Thailand, and South Africa. Read more
-support new, local, and primarily solar PV
-about Power for Impact on page 31.
-Our suppliers have successfully implemented • Creating new renewable energy projects and wind projects in line with our renewable
-a range of energy efficiency projects, from • Undertaking projects that deliver clear benefits energy–sourcing standards.
-installing light sensors and implementing free to local communities
-cooling systems to making boiler and HVAC
-system energy improvements. • Supporting renewable energy innovations
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 27
-Apple 2030
-Resources
-Smarter Chemistry
-Transitioning our suppliers PROCUREMENT MECHANISMS TECHNOLOGIES
-to renewable electricity
-Supplier renewable energy procurement Supplier renewable energy technologies
-The electricity that our manufacturing suppliers use mechanisms
-We work with our suppliers to select projects with the greatest potential
-represents the largest single source of greenhouse
-gas emissions throughout our manufacturing supply Our suppliers are implementing clean energy solutions using a variety of contracting for impact and with a clear carbon, ecological, and social benefit.
-chain. That’s why our efforts to facilitate our entire mechanisms. In 2023, suppliers relied mostly on renewable energy certificates (RECs) “Other technology” includes clean energy sources such as some forms
-supply chain’s transition to 100 percent renewable to meet their CEP commitments, largely due to the expansion of China’s Green Energy of biomass, geothermal, and small-scale, low-impact hydro.59
-electricity are essential to reaching our 2030 carbon Certificate (GEC) and the recognition of GECs as a primary instrument for tracking
-neutrality goal. renewable energy consumption. Apple views the strategic use of well-designed REC
-programs as an important interim solution to longer-term procurement options like power
-Our Supplier Clean Energy Program (CEP) helps purchase agreements (PPAs), which are becoming increasingly available across the
-enable suppliers’ transition to renewable electricity by globe, and is working closely with its supply chain on their longer-term transitions.
-advocating for policy changes, providing information
-and access to renewable energy procurement
-1% 37%
-options, and creating engagement opportunities
-with renewable energy experts. By engaging in this Onsite renewable electricity Solar
-program, our suppliers can implement best practices
-in advocating for and procuring renewable energy
-across their corporate operations, including those
-25%
-associated with Apple production. The program also
-equips them to share lessons learned with other Renewable power purchases
-partners throughout their value chains, extending
-benefits beyond the scope of Apple.
-19%
-8%
-Other technology
-Direct investments
-66% 44%
-Renewable energy certificates Wind
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 28
-Apple 2030
-Resources
-Smarter Chemistry
-As of March 2024, more than 320 suppliers have on less impactful interim solutions, like one-time How we support our suppliers SUPPLY CHAIN CLEAN ENERGY PROGRESS
-committed to use renewable electricity for their Apple purchases of energy attribute certificates from
-Galvanizing internal champions Renewable electricity operational
-production. These suppliers make up 95 percent of existing renewable energy projects. These options
-We’ve been able to quickly scale the Supplier Clean
-Apple’s direct spend for materials, manufacturing, represent an annual cost for buyers and often and committed in gigawatts (GW)
-Energy Program by involving teams across Apple
-and assembly of our products worldwide. And this offer little opportunity for cost savings or a return
-in supplier engagement, including supplier-facing
-represents more than 21 gigawatts of clean energy on investment. To overcome these challenges,
-Apple employees. We empower these employees
-commitments, of which 16.5 are already operational. suppliers are using new purchasing methods,
-with the tools to help speed a supplier’s transition FY16
-To rapidly scale the Supplier Clean Energy Program creating renewable energy businesses, and even
-to 100 percent renewable electricity. Data and
-and accelerate progress to Apple 2030, we’ve since participating in some of the world’s largest and most
-transparency drive this process. We track the
-formalized the Clean Energy Program in the Apple innovative renewable energy deals. Suppliers are also
-electricity use and renewable procurement of all FY17
-Supplier Code of Conduct, requiring our entire direct adapting to changing renewable energy markets by
-our direct suppliers, including those who are just
-manufacturing supply chain to use 100 percent finding new solutions, including first-of-their-kind
-beginning to learn about renewable electricity
-renewable electricity for all Apple production procurement structures in geographies that are
-and those well on their way to using 100 percent FY18
-before 2030. introducing more corporate procurement options.
-renewable electricity. We help our suppliers measure
-progress and gain access to solutions. We’ve also
-In 2023, the 16.5 gigawatts of renewable energy In China, this includes the Green Power Trading
-continued to develop internal trainings and an FY19
-procured by suppliers and online in Apple’s supply program, which allows cross-provincial agreements
-engagement process for Apple employees and
-chain generated 25.5 million megawatt-hours of that provide suppliers with more options. South
-suppliers. By connecting our suppliers with resources
-clean energy, avoiding 18.5 million metric tons Korea has expanded its options for green power,
-and providing transparency on supplier progress, FY20
-of greenhouse gas emissions — a 6.5 percent including power purchase agreements and the ability
-our teams are scaling impact across our supply chain.
-increase over 2022. to purchase renewable energy certificates. Japan
-has also introduced new renewable energy options, FY21
-How suppliers are responding including virtual and physical power purchase
-Despite growing momentum and advocacy for agreements and price-competitive nonfossil
-renewables, transitioning to 100 percent renewable certificates that have the potential to scale access FY22
-electricity presents challenges: technical and to renewable energy across the market. While
-regulatory barriers, the need for capital investment, we’ve seen progress in key markets, we continue to
-and a lack of access to high-quality and cost- advocate for policies that enable renewable energy FY23
-effective solutions. Long-standing energy policies to compete fairly with fossil fuels and subsidized
-and infrastructure that incentivize the use of fossil power rates, opening more avenues for our suppliers
-Gigawatts 4 8 12 16 20 24
-fuels like coal can make it difficult to bring new to transition to sourcing 100 percent renewable
-renewable energy online in certain regions. In electricity (see page 71).
-Operational
-some cases, our suppliers are prompted to rely
-Committed
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 29
-Apple 2030
-Resources
-Smarter Chemistry
-Supporting supplier capacity Energy Buyers Institute (CEBI) and other corporations • Direct Investments: To cover emissions from efforts in beneficial electrification and the build-out 1 GW
-We share the knowledge we’ve gained through our to launch the inaugural Clean Energy Procurement suppliers we don’t contract with directly, we invest of necessary transmission infrastructure, all while
-own transition to 100 percent renewable energy with Academy — a shared training curriculum and in additional renewable electricity projects. To date, considering cost-effectiveness. Public investments As of March 2024, the
-our suppliers, supplementing their efforts to identify delivery process — which will equip companies with we’ve directly invested in nearly 500 megawatts in decarbonization should be properly supported China Clean Energy Fund
-and pursue opportunities to decarbonize as their the technical readiness to advance clean energy of solar and wind projects in China and Japan to by funds generated from establishing a price on has invested in more than
-businesses evolve. For this reason, we invest heavily procurement, address scope 3 emissions, and address our upstream electricity emissions. carbon pollution. 1 gigawatt of renewable
-electricity projects, with
-in providing education and training across our supply decarbonize global supply chains.
-nearly 100 percent of
-chain through platforms such as our Clean Energy Advocating for policy change Collaborating with groups like the Asia Clean
-those investments online.
-Academy, which includes advanced and customized Additionally, we support the creation and growth Effective government policies and rules can remove Energy Coalition (ACEC), Clean Energy Demand
-trainings and workshops with leading experts. of renewable energy industry associations that our significant barriers to low-carbon solutions and Initiative (CEDI), and RE100 — which bring together
-suppliers can join to learn about local opportunities, enable solutions to rapidly scale. Suppliers need the world’s most influential businesses through
-In 2023, nearly 300 supplier facilities in China such as the Japan Climate Leaders Partnership and clean energy investments that make financial sense commitments to use renewable electricity — we’ve
-mainland and Taiwan participated in our Clean Energy Clean Energy Buyers Association. to effectively transition to renewable energy. But identified country-level policy barriers to procuring
-Academies, which were attended by renewable carbon-intensive energy sources, like coal and gas, renewable electricity. By engaging in these initiatives
-energy developers and other industry guest Expanding access to renewable electricity often have a price advantage because of subsidies and others, such as local working groups, we use
-speakers. The academies offer updates on available To support our suppliers’ transition to renewable and the ignored costs of externalities, such as local and international expertise and capacity to
-energy procurement options in suppliers’ markets, electricity, we help them find high-quality solutions greenhouse gas emissions. collate the challenges faced by member companies
-help suppliers prepare to participate in upcoming so they can decide how best to address their and advocate for critical policy shifts that support
-renewable energy pilots, and provide implementation specific needs. Across the regions where our suppliers operate, we grid decarbonization. In Japan, for example, Apple
-guidance from local experts. This program engage with policymakers to support renewable collaborated with other renewable energy users
-supplements our Clean Energy Portal, available to all • The China Clean Energy Fund: This fund energy that’s cost-effective, accessible to and called for enhancing the Non-Fossil certificate
-supplier facilities, which provides training materials, enables Apple and our suppliers to invest in companies, and sourced from high-quality projects (NFC) scheme to enable transparency in tracking.
-resources, and country-specific information to renewable energy. As of March 2024, the fund with a material impact on local markets. In China, Apple and suppliers have participated in
-guide suppliers in their transition to 100 percent has invested in more than 1 gigawatt of renewable meetings and events to share their experiences with
-renewable electricity. electricity projects. For example, we’re encouraging governments not to renewable energy procurement, and discussed ways
-subsidize or expand carbon-intensive infrastructure. to improve policies and increase the availability of
-• Power purchase agreements (PPAs): Apple will
-Also in 2023, we announced plans to support the We also encourage them to keep pace with the cost-effective solutions.
-continue to support the global development of
-creation of a first-of-its-kind public training platform speed of technological innovation, consider the life
-high-quality programs for generating and trading
-that will be available to businesses across many cycle emissions of energy solutions, and support
-renewable energy certificates. We also connect
-different industries, giving companies of all sizes — new energy solutions that effectively reduce global
-suppliers with opportunities to buy renewable
-in Apple’s supply chain and beyond — access to the emissions. Additionally, Apple supports government
-energy directly from project developers and utilities
-resources and advocacy networks we’ve cultivated
-as those models emerge around the globe.
-for nearly a decade. We’ve partnered with the Clean
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 30
-Apple 2030
-Resources
-Smarter Chemistry
-Product use flexibility for a portion of the emissions so that devices throughout the day. In the contiguous United
-we can target grids with higher carbon intensity. States, Grid Forecast is available for Apple Watch,
-The electricity that our customers use to charge and
-This approach allows us to balance focusing on and it can be added as a widget or a watch face
-power their Apple devices represents 29 percent of
-areas where our customers use our products and complication. As additional data becomes available
-Apple’s gross carbon footprint. Increasing the energy
-maximizing the social and environmental benefits through ongoing industry collaboration, Apple will
-efficiency of our products is the most direct action
-of additional renewable energy. For example, while continue refining Grid Forecast to maximize impact.
-we can take to drive down emissions from product
-California is a large market for Apple, we might build To learn more about Grid Forecast, visit our Grid
-use, and we’re taking steps to address the emissions
-new renewable energy projects in other locations Forecast support page.
-that remain.
-with lower clean energy percentages on their grids,
-where the same renewable energy capacity can have Clean Energy Charging, which became available in
-As we address emissions tied to the electricity that
-a more significant impact. the U.S. in fall 2022 with iOS 16, enables customers
-our products use globally, our guiding principles
-to help decrease the carbon footprint of iPhone.
-focus on three areas: exploring innovative solutions
-We’re developing large-scale solar and wind projects The feature looks at electricity sources to select
-to minimize greenhouse gas emissions from product
-around the world as part of this work. Radian the charge times when the grid is using cleaner
-use, including energy efficiency (see page 25);
-Solar, and plans for additional projects in the US, energy sources, optimizing charging and reducing
-building renewable electricity projects aimed at
-Europe and India are underway. In Europe, we plan greenhouse gas emissions. Learn more about Clean
-maximizing carbon reductions and social impact; and
-to engage in projects that range between 30 and Energy Charging here.
-engaging with our customers to educate and provide
-300 megawatts, with an initial request for proposals
-opportunities to support decarbonizing the grid. We
-issued in 2022. Beyond the work that we do on our products, we
-also account for the portion of the grid that is already
-collaborate with others to continue advancing
-clean, where residual grid mix data is available.
-Engaging with our customers climate-smart decision-making for customers
-We’re building features to make it easier for across their household energy usage, as well as for
-Clean energy projects
-customers to decide when to draw cleaner electricity our employees and partners. As an example, Apple
-As we expand our strategy to include product
-from the grid. In 2023, we launched Grid Forecast, a has joined the CoolClimate Network, a research
-use, we’re considering a number of factors when
-new tool in the Home app on iPhone, iPad, Mac, and partnership of the University of California, Berkeley,
-selecting projects. We are working to match the
-Apple Watch that shows when cleaner electricity that motivates and empowers individuals and
-expected electricity consumption of our products
-is available from the grid. Apple uses data that organizations to make low-carbon choices.
-with 100 percent clean electricity, starting with our
-combines grid, emissions, and weather information
-fall Apple Watch lineup. Although we’ll source the
-into one easy-to-follow signal. This can help people
-majority of our clean electricity from the region
-make more informed decisions about when to run
-in which it’s used, we’re maintaining geographic
-large appliances and charge electric vehicles or
-Apple is investing in renewable energy worldwide — including this large-scale solar project in Brown County,
-Texas — to help address the electricity customers use to charge their Apple devices.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 31
-Apple 2030
-Resources
-Smarter Chemistry
-FEATURE
-Increasing access to clean energy around the world
-Power for Impact is driven by Democratic Republic of the Congo: Apple Philippines: Apple helped fund a new rooftop solar Zambia: Apple will help fund a microgrid and battery
-the idea that access to renewable provides access to renewable energy for the installation at an educational institution in Bataan. storage system to provide power for hundreds of
-Malaika School, which empowers Congolese This helps reduce electricity cost for the institution households that are currently without electricity.
-energy creates opportunities within
-girls and their communities through education, and free up funds for scholarships to high- The project will reduce reliance and costs associated
-communities while benefiting
-agriculture, water projects, health outreach, achieving, under-resourced students. with imported diesel and gasoline for generators,
-our climate. sports, and vocational training. To support Malaika and it will increase the amount of power available
-students and teachers, this solar initiative builds South Africa: Apple’s first PFI project in South to community organizations and businesses.
-on other Apple collaborations, including virtual Africa helped bring electricity to over 3,500
-Apple launched the initiative in 2019 to provide
-Today at Apple sessions on coding with Swift, households that previously lacked access to local
-underresourced communities with renewable
-photography, filmmaking, and design, as well as street lighting. In addition, Apple will help fund two
-electricity while supporting economic growth
-other events with Apple Retail teams and Diversity more projects in South Africa at schools for children
-and social impact.
-Network Associations. with disabilities. Along with five other operational
-projects across South Africa, these installations will
-The program funds renewable energy projects
-Israel: Apple supports the Nitzana Educational reduce electricity costs, and the savings help fund
-that are mutually beneficial — local communities
-Eco-Village — a community for underserved operating costs and expand programs to support
-and organizations get access to cost-effective
-youth — with a 260 kilowatt solar system to help underserved groups.
-energy, and Apple retains the environmental
-lower electricity costs. The savings help enhance
-attributes of each project. We currently support
-educational experiences for youth from various Thailand: Apple helped establish a solar energy
-20 renewable projects in countries around the
-backgrounds. Apple also supported the expansion system to replace polluting diesel fuel for a remote
-world, including:
-with another 64 kilowatt solar system installed in fishing village that relies on refrigerators to maintain
-February 2023. the quality of its fish products. We increased local
-Colombia: Apple helped bring a rooftop solar
-renewable energy production and battery storage
-power system online at the Hospital Infantil Santa
-Nepal: Apple funded a solar and battery storage to improve reliable access to electricity.
-Ana. The money saved on energy bills allows
-system at a nonprofit hospital that serves children
-the hospital to purchase more equipment and
-throughout Nepal. This system will offer limited Vietnam: Apple’s work to support a program
-medications. In addition, Apple helps to fund a
-backup power during grid outages. in Vietnam will provide solar electricity for 20
-rooftop solar installation at Ciudad Don Bosco,
-schools around the country, with aspirations
-a nonprofit that provides educational and social
-Nigeria: Apple helped fund a remote minigrid project to help showcase renewables and sustainable
-services for under-resourced youth. We recently
-that provides energy access to community members development. At five schools, solar energy
-expanded our support by providing funding for
-and replaces fossil fuels for some businesses. In systems have been installed and are operational.
-phase II of the project.
-addition, Apple also funds a solar power system
-to provide power to public healthcare centers in
-the state of Ondo, with excess energy serving
-Power for Impact is expanding access to clean, affordable power in different parts of the world. Apple will continue to focus on
-households in the surrounding region. uplifting communities as it pursues its environmental goals.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 32
-Apple 2030
-Resources
-Smarter Chemistry
-Direct emissions
-Some materials that are integral Approach 2023 progress
-to our products result in significant
-We’re committed to reducing direct greenhouse Direct emissions abatement
-emissions. The same is true for emissions in our facilities and across our addresses emissions from: 2.7M
-certain manufacturing processes supply chain. We engage multiple approaches
-MTCO2e
-to achieve this, from looking to technical
-and the transportation of our
-advancements that can help address emissions Our display suppliers’ abatement
-products. We seek technological to changing how we make and transport Direct emissions efforts reduced more than 2.7 million
-solutions and supplier engagement our products. (Scope 1) annualized metric tons of CO2e.*
-to abate emissions from
-Seeking technological solutions
-these sources.
-Pursuing low carbon technologies to address 100+
-Product manufacturing
-carbon-intensive processes
-(Scope 3) attendees
-Addressing fluorinated greenhouse Apple hosted an inaugural virtual
-gas emissions training focused on reporting and
-Partnering closely with key manufacturers Product transport abating scope 1 emissions, with
-as they work to prevent these gases from (Scope 3) more than 100 attendees.
-being released into the atmosphere
-20%
-Shifting transport modes
-Business travel
-for product shipment (Scope 3) less emissions
-Moving to shipping modes that are less
-carbon intensive than air transport — such In 2023, we reduced emissions from
-transporting products by 20 percent
-as by ocean — whenever possible
-Employee commute compared with 2022.
-Reducing employee commute emissions (Scope 3)
-Exploring ways to reduce our carbon footprint
-from employees commuting to work
-* Based on data reported to Apple by its
-suppliers. Data has not been independently
-assured by Apple or a third-party. The low-carbon aluminum breakthrough builds on the significant
-progress Apple has made in reducing the carbon impact of aluminum
-and other metals found in its products.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 33
-Apple 2030
-Resources
-Smarter Chemistry
-Rethinking how aluminum Addressing fluorinated
-2.7M
-is made greenhouse gas emissions
-In 2023, our display
-As part of Apple’s commitment to reduce our One of the largest contributors of direct emissions suppliers’ efforts
-products’ environmental impact through innovation, in our supply chain is the use of fluorinated resulted in avoided
-we partnered with aluminum companies and the greenhouse gases (F-GHGs). F-GHGs are emissions of more than
-governments of Canada and Quebec to invest in notably used in the electronics manufacturing of 2.7 million metric tons
-ELYSIS. This joint venture to commercialize patented semiconductors and flat-panel displays, and their CO2e, annualized.
-technology that eliminates direct greenhouse gas global warming potentials (GWPs) are thousands
-emissions from the traditional smelting process. of times more than those of CO2. While the use of
-Since our collaboration began in 2018, we’ve helped F-GHGs in certain manufacturing processes today
-accelerate the development of this technology by is difficult to avoid, emissions can be reduced by
-facilitating the joint partnership and providing initial switching to alternative low GWP gases, optimizing
-funding and ongoing technical support. production processes to use and emit fewer
-F-GHGs, and installing gas abatement tools. We’re
-In 2022, Apple shipped iPhone SE devices that used collaborating closely with our supply chain partners
-ELYSIS aluminum, building on our 2019 purchase as they work to prevent these gases from being
-from the first-ever commercial batch of aluminum released into the atmosphere.
-resulting from the joint venture. The commercial-
-purity aluminum in these products is the first to be Since the launch of our engagement efforts in 2019,
-manufactured without creating any direct greenhouse we have been working with our largest manufacturers
-gas emissions during the smelting process. ELYSIS of displays and semiconductors to achieve a high
-has continued to make progress within its Industrial standard of F-GHG abatement. In 2023, our display
-Research and Development Center in Quebec to suppliers’ efforts resulted in avoided emissions of
-produce commercial-purity primary aluminum at more than 2.7 million metric tons CO2e, annualized.60
-industrial scale. Further, through engagement in sector-specific
-industry coalitions, we’re working to accelerate
-climate action across the whole semiconductor
-value chain.
-The innovative direct carbon-free smelting process of ELYSIS has the potential to reduce the climate impact
-of the production process of aluminum — one of the world’s most widely used metals.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 34
-Apple 2030
-Resources
-Smarter Chemistry
-Supporting supplier capacity Transporting products our packaging to be more compact — all packaging Improving employee travel 25%
-for Apple Watch Series 9 and Apple Watch SE and commute
-As we tackle direct emissions across our supply In 2023, we reduced emissions from transporting
-models introduced a new smaller shape that allows All packaging for Apple
-chain, we’re building out new educational materials products by 20 percent compared with the previous for 25 percent or more devices per shipment. We’re focused on finding new ways to reduce the Watch Series 9 and
-and resources support to help our suppliers year. We also more than doubled product tonnage carbon footprint from our employees commuting Apple Watch SE models
-decarbonize their direct emissions. In 2023, transported by ocean. On average, ocean shipping We’re collaborating with our suppliers to explore to work. For example, we’re helping our employees introduced a new smaller
-we hosted our first virtual training series focused emissions are approximately 95 percent lower than technical innovations for transport, including transition from single-occupancy vehicles to mass shape that allows for at
-on reporting and abating scope 1 emissions, with air transport emissions.61 We aim to continue to alternative fuels and electric vehicles. For example, transit, coach services, and campus bicycles. To least 25 percent more
-over 100 supplier attendees. increase the use of ocean shipping for our products. in 2022, we supported the development of an incentivize the use of electric vehicles, we provide devices per shipment.
-For example, for select Apple Watch models, analysis with Carbon Direct, a carbon management more than 3,330 EV charging stations and more
-We continue to launch supplier programs targeted including watches and bands, we’ll ship at least firm, that identified pathways for developing than 1,730 ports across our U.S. campuses. For
-at addressing direct emissions from energy 50 percent of the combined weight using non-air sustainable aviation fuel (SAF). And in 2023, we the commute-related emissions that remain,
-and processes that produce Apple products. modes — like ocean shipping — over the lifetime socialized our learnings with our partners, including we’re applying high-quality offsets carbon credits.
-The manufacturing of Apple products accounts of the product, cutting total transportation emissions
-suppliers and industry groups. Read the summary
-for 59 percent of our gross carbon footprint. nearly in half.62 And in 2023, we shifted select models
-of our findings in the “Promising production pathways
-This includes emissions from fuel combustion; of MacBook Pro and MacBook Air to use ocean
-and opportunities to scale” section of the Sustainable
-heating, ventilation, and air conditioning (HVAC); shipping from our manufacturers, creating more
-Aviation Fuel Primer report. We also trialed the limited
-refrigeration; fluorinated gases; and other physical opportunities for a lower-carbon mode of shipping
-use of SAF on two flights that shipped select iPad
-or chemical processes (excluding transportation). for our product launch.
-models in 2023.
-These sources vary widely and require use of
-diverse technologies and solutions to abate. Through forward-thinking logistics, we’re
-In 2023, we continued to partner with carriers that
-Apple’s approach is to identify process carbon consolidating our products in the shipments from
-offer low-carbon deliveries using electric vehicles
-emission hot spots across our supply chain — our factories to facilitate more ocean shipping at
-(EVs), such as e-bikes and cars, reducing our
-like the use of fluorinated gases in display and sea ports in our Asia Pacific markets. And since
-impact in customer communities. By prioritizing
-semiconductor manufacturing — and launch 2022, these efforts have helped us increase ocean
-vendors that offer low-carbon options, we’re
-targeted programs to address these carbon shipments by more than 10 percent in this region —
-signaling the value of these options and incentivizing
-hotspots in partnership with our suppliers, diverting shipments from air transport. We’ve also
-further decarbonization.
-governments, and industry stakeholders. reduced unnecessary space aboard aircrafts and
-trucks by using smaller, custom pallets, creating more
-efficient shipments. Additionally, we’re redesigning
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 35
-Apple 2030
-Resources
-Smarter Chemistry
-Carbon removal
-Science shows that limiting the Approach 2023 Progress
-planet’s warming to 1.5° C will
-Apple is unequivocal in our priority: Emissions
-require both deeply decarbonizing reductions take precedence over carbon removal. $280M
-industrial emissions over the We’re striving to reduce direct greenhouse gas Exploring and addressing carbon Investing in nature-based carbon
-In March 2024, Apple welcomed
-emissions in our facilities, and we’re supporting removal solutions removal projects
-next 30 years and significantly key manufacturing partners as
-emissions reductions in our supply chain through Recognizing that achieving global climate Engaging with projects that offer important
-ramping up carbon removal to new investors in the Restore
-process innovation, direct emissions abatement, targets will require pursuing all carbon removal ecological and social benefits while providing
-Fund, committing additional
-address the surplus carbon dioxide and transitioning to clean energy. But even with strategies and considering options consistent economic development opportunities for local
-funds — Taiwan Semiconductor
-(CO2) already in the atmosphere. these comprehensive measures, some emissions with the Intergovernmental Panel on Climate communities. Seeking to align carbon market Manufacturing Company (TSMC)
-To catalyze efforts to reach a 1.5° C in our value chain can’t yet be avoided. Change’s (IPCC) position that all pathways impact with investment capital by addressing will invest up to $50 million
-limiting warming to 1.5° C require carbon three main barriers facing nature-based and Murata will invest up to
-pathway, Apple is scaling up carbon We aim to reduce emissions by 75 percent removal for unavoidable emissions.63 Then, solutions: scale, quality, and capacity in order $30 million — in the same fund
-removal solutions, beginning with compared with our 2015 footprint by 2030. evaluating each option against five key criteria: to grow nature-based carbon removals that will be managed by Climate
-those that are available today, To achieve carbon neutrality across our value stage of development, scalability, durability, well beyond the current scale of voluntary Asset Management, a joint venture
-chain, we’ll voluntarily balance the remaining carbon methodology, and co-benefits. carbon markets. between HSBC Asset Management
-while exploring the solutions
-and Pollination. These new
-unavoidable emissions with high-quality carbon
-of the future. investments build on Apple’s
-removal credits. We’re pursuing opportunities
-previous commitment of up to
-for carbon removal through the following efforts:
-$200 million for the Restore Fund’s
-Addressing unavoidable emissions
-second phase, bringing the total to
-Working toward our goal to scale up high-
-$280 million in committed capital.
-quality nature-based projects while putting
-robust standards in place to ensure the integrity
-of carbon removals. And building capacity for
-partners that support nature-based carbon
-removal implementation to help enable these
-efforts to grow beyond Apple’s demand.
-Read more about our work in
-the Apple’s Carbon Removal
-Strategy white paper.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 36
-Apple 2030
-Resources
-Smarter Chemistry
-The need for carbon removal technologies, such as direct air capture (DAC) Our review of different available technologies helped
-and ocean alkalinization. Apple looked at how us determine that nature-based solutions — including
-Any successful strategy for addressing climate
-these approaches could help balance our residual afforestation, reforestation, and revegetation (ARR)
-change includes the development of carbon removal
-emissions as we focus on the global urgency to align and soil carbon sequestration — currently offer the
-technologies — pursued urgently and in parallel with
-with a 1.5° C pathway to scale up carbon removal. most comprehensive carbon removal approach.
-efforts to decarbonize energy production and protect
-and restore Earth’s ecosystems. As part of our efforts
-Five key criteria drive our exploration:
-to achieve carbon neutrality across our value chain,
-Restore Fund
-Apple prioritizes emissions reductions. We then
-• Stage of development: A solution’s stage of
-balance the remaining unavoidable emissions with We launched the Restore Fund in 2019 in partnership
-development is important both to meet our Apple
-high-quality carbon removal credits. To ensure that with Conservation International and Goldman Sachs.
-2030 target and to reach scale within the time
-removals are high integrity, we follow guidance set Since its creation, the fund has invested in three
-frame needed to stay within a 1.5° C trajectory.
-out by international standards and apply our own initiatives that are projected to remove over a million
-rigorous standards and criteria. • Scalability: We consider scalability because the metric tons of carbon starting in 2025. This fund
-climate crisis is a collective responsibility, and the is unique because it aims to change carbon removal
-impact of Apple’s solutions should scale beyond from a cost to a potentially profitable investment.
-Nature-based carbon removal our own environmental footprint. By creating a fund that generates both a financial
-return as well as real and measurable carbon impact,
-Science indicates that nature-based solutions • Durability: Removals must be permanent, or if
-we strive to drive broader change — encouraging
-are the most scalable and economically viable there’s a risk of reversal, measures must be in place
-capital investment in carbon removal around the
-opportunities to mitigate climate change in the short to address those risks and compensate for any
-globe. We developed the Restore Fund as a pilot,
-term. In addition to their climate benefits, nature- reversals for a defined period of time.
-and we’re now seeking to expand and improve it
-based solutions offer multiple co-benefits, including
-• Carbon methodology: The impacts achieved so that others can build on our work and scale the
-enhanced employment and local livelihoods,
-need to be accounted for through using a rigorous market for nature-based removals.
-improved biodiversity, soil carbon and nutrient
-carbon accounting methodology that aligns
-cycling, and increased timber supply that can reduce
-with quality and consistency of our own carbon The first phase of the fund focused on blending
-the pressure on primary forests.
-accounting systems, including evaluating any responsible forestry practices with carbon removal
-uncertainty in the underlying science. and sought to maximize environmental impact,
-The IPCC lays out a range of options to remove
-including carbon, hydrology, and habitat restoration.
-carbon from the atmosphere using a combination • Co-benefits: We evaluated the co-benefits
-of photosynthesis and chemistry. These approaches across different carbon removal technologies.
-include existing climate solutions, such as Most carbon removal approaches have the potential
-afforestation and reforestation, and relatively new to generate additional benefits for biodiversity
-and communities but can also pose risks.
-As we focus on eliminating the majority of emissions across the value chain, we’re also addressing emissions we can’t reduce by
-looking for high-quality carbon credits from nature-based projects.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 37
-Apple 2030
-Resources
-Smarter Chemistry
-Based on our learnings with these projects and the Climate Asset Management, a joint venture of HSBC partners have used innovative tools including LiDAR High-quality avoided
-growing global need for more nature-based solutions, Asset Management and Pollination. Murata — an on iPhone, satellite data, bio-acoustic monitoring, emissions projects
-Apple announced an expansion of the Restore electronic components supplier for Apple based in and machine learning to evaluate the well-being of
-as an interim solution Read more about our
-Fund in 2023. The commitment aims to develop an Japan — will invest up to $30 million in the same the land and project progress.
-work in the Apple’s
-investment vehicle to scale nature-based solutions fund. These new investments build on Apple’s We plan to reach our goal of becoming carbon
-Carbon Removal Strategy
-using a different kind of financial innovation. This previous commitment of up to $200 million for the Integrity and a rigorous approach are central to neutral across our entire value chain by 2030, using
-white paper.
-unique blended-fund structure is intended to achieve Restore Fund’s second phase, bringing the total to how we designed the Restore Fund with our partners. a wide range of solutions at our disposal, prioritizing
-financial and climate benefits for investors while $280 million in committed capital. The projects aim to become certified to international significant emissions reductions, followed by long-
-advancing a new model for carbon removal that standards developed by organizations such as term carbon removal initiatives like the Restore Fund.
-addresses a broader spectrum of global potential TSMC and Murata are among the more than Verra; Gold Standard; the Climate, Community
-for nature-based solutions. 320 suppliers in Apple’s Supplier Clean Energy & Biodiversity Alliance (CCBA); and the Forest We’ve been carbon neutral for our corporate
-Program. The fund TSMC and Murata are investing Stewardship Council (FSC). Using these international emissions since April 2020. We started by
-The expanded fund targets two types of investments: in alongside Apple will pool sustainably managed standards helps confirm that the carbon stored in reducing our corporate emissions through the
-regenerative agriculture and other ecosystem assets, agriculture projects with ecosystem conservation forests is measured and reported to high standards use of 100 percent renewable electricity and energy
-and a pipeline of landscape restoration projects that and restoration projects to generate both carbon and that projects have the most up-to-date efficiency efforts at our facilities. But emissions
-aim to remove carbon from the atmosphere. and financial benefits. safeguards in place. The projects we choose also remain difficult to avoid in some activities —
-seek to have a positive impact on the livelihoods including the natural gas used in some of our
-In October 2022, Apple announced three new To improve the accuracy of monitoring and of local communities by bringing economic buildings and emissions from business air travel
-projects through the Restore Fund and we’ve reporting, and verifying the projects’ carbon removal opportunities to often underserved rural economies. and employee commute.
-invested with three high-quality forestry managers impact, Apple is deploying innovative remote And we’ll continue to focus on projects that protect
-in Brazil and Paraguay. Our most recent project, sensing technologies using Space Intelligence’s lands with high conservation values. For the emissions we can’t avoid, we use high-quality
-announced in March 2024, supports the restoration CarbonMapper and HabitatMapper and Upstream offsets as an interim solution. We’re intentional
-of South America’s Atlantic Forest. Tech’s Lens. Using high-resolution satellite imagery about identifying avoided deforestation and removal
-from Maxar and other providers, this initiative enables projects that are of a high standard and that achieve
-Also in March 2024, Apple welcomed key us to view detailed habitat and forest carbon maps for meaningful impact. We often originate our own
-manufacturing partners Taiwan Semiconductor our Restore Fund projects. Through our engagement projects working with a reputable partner, like
-Manufacturing Company (TSMC) and Murata with the MIT Climate & Sustainability Consortium, Conservation International, or we carefully select
-Manufacturing as new investors in the Restore Apple is jointly funding research with PepsiCo and projects from third-party-certified registries. For
-Fund. Global semiconductor foundry TSMC will Cargill to improve the measurement of soil carbon more details about our purchases of high-quality
-invest up to $50 million in a fund managed by in nature-based carbon removal projects. Apple and carbon credits, see Data.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 38
-Apple 2030
-Resources
-Approach
-Product longevity
-Material recovery
-Water
-Zero waste
-Smarter Chemistry
-A strong case
-for recycled materials
-All MacBook Air models
-contain 100 percent
-recycled aluminum in the
-enclosure. Our custom
-aerospace-grade aluminum
-alloy is lightweight, durable,
-and scratch resistant.
-Resources
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 39
-Apple 2030
-Resources
-Smarter Chemistry
-Approach
-Resources
-We’re committed to sourcing, Building durable, long-lasting products is central to Areas of impact
-using, and recycling the materials our approach, making the best use of the resources
-required to create them. We aim to one day make our
-that we rely on in a way that
-products solely from responsibly sourced recycled
-meets our high standards
-and renewable materials — while maintaining our Product longevity
-for labor, human rights, and same rigorous standards of quality and durability. Designing durable hardware, using software updates
-environmental stewardship. Innovations and new approaches to recycling will to extend functionality, providing convenient access
-make this possible. We’re able to recover and use the to safe and high-quality repair services, and directing
-Our commitment to responsibly use resources materials that we rely on in our products in even greater devices and parts for refurbishments and reuse.
-extends across our corporate operations and supply quantity, helping us begin to realize the full potential of
-chain. This means sourcing responsibly, minimizing each resource.
-our freshwater use, and eliminating waste across Water is one of our most critical resources. Because
-Apple-owned and supplier sites. We work to reduce it’s also a community resource, we prioritize our Material recovery
-the overall resource footprint supporting our products stewardship efforts: working toward the most efficient Improving how we collect end-of-life products and
-by collaborating with suppliers, NGOs, recyclers, use of freshwater, using alternatives where possible, developing recycling innovations so that we and others
-community stakeholders, and innovation leaders. We and managing our discharge responsibly. We also can use old devices as raw material sources for the future.
-know that we can’t do this work alone — it requires look beyond our facilities to the water basins where
-broader engagement through collaborations we operate. We’re working to improve the quality
-enabling the stewardship of shared resources. of the water that our communities rely on through
-Water
-collaborations with local partners — including Reducing water impacts in the manufacturing of our
-companies, NGOs, and government agencies. products, the use of our services, and our facility
-We also conserve resources by working to eliminate operations. At the same time transitioning to alternative
-waste. We work to reuse and recycle across our solutions, improving the quality of water that we
-operations and throughout our supply chain. We discharge, and protecting shared water resources.
-aim to eliminate waste where we and our suppliers
-operate. These efforts include reducing the overall
-amount of waste that we generate, innovating reuse
-Zero waste
-approaches, and creating new recycling opportunities
-Minimizing overall waste generated and eliminating
-with local businesses.
-waste sent to landfill from our manufacturing supply
-chain as well as our corporate offices, data centers,
-and retail stores.
-We continued our initiative focusing on enhancing and supporting our electrochemical metal-finishing processes,
-like anodizing, which has the potential to save hundreds of millions of gallons of water annually when applied at scale.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 40
-Apple 2030
-Resources
-Smarter Chemistry
-Product longevity
-In our design approach, Approach 2023 progress
-we combine hardware built to
-We’re committed to building long-lasting To achieve product longevity,
-endure the rigors of everyday devices, and part of achieving that is designing we prioritize the following actions: 70%
-use, tailored software updates durable hardware. To minimize products’ need
-less emissions
-for repair, we refine features that improve
-that unlock new features and
-durability, like water resistance and Ceramic Back glass repair on all
-functionality, and access to repair
-Shield, which protects the iPhone display. Durability Software updates iPhone 15 models has 70 percent
-services when needed. This also And we provide regular software support, so Designing our devices with consideration to Providing free software updates to enhance less greenhouse gas emissions
-helps keep products in use for customers can update their devices to the most the potentially rugged use by our customers our customers’ experience by allowing them per repair compared with
-recent operating systems and unlock the latest while aiming to minimize maintenance and to access the latest features available to their iPhone 14 Pro.*
-as long as possible so that new
-features and functionality for as long as possible. repair interruptions. And utilizing a rigorous device for as long as possible — including
-customers can experience
-reliability testing process that simulates important security and privacy updates.
-40
-Apple products and services We’ve also expanded access to safe, reliable, real-world use to maximize the lifespan
-with secondhand devices. and secure repair services to meet our of our products. products
-customers’ needs. When products require repair,
-Refurbishment and reuse
-customers can more easily find repair options Self Service Repair now supports
-Collecting devices for refurbishing and
-that work for them. 40 Apple products in 33 countries
-reuse through several programs, including and 24 languages since our
-Repair access
-Apple Trade In, the iPhone Upgrade expansion in December 2023.
-Offering access to safe, reliable, and secure
-Program, AppleCare service, and our
-repairs by expanding the number of Apple
-corporate Hardware Reuse Program
-Authorized Service Providers (AASPs) and
-to extend product life. 12.8M
-Independent Repair Providers (IRPs), as well
-as Self Service Repair (SSR) for customers devices
-who want to complete their own repairs.
-We’ve sent nearly 12.8 million
-devices and accessories to new
-users for reuse from programs
-like Apple Trade In and AppleCare.
-* Based on our life cycle assessment (LCA).
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 41
-Apple 2030
-Resources
-Smarter Chemistry
-Durability During product development, we test numerous DESIGNING PRODUCTS FOR DURABILITY
-units of a product, relying on the results to inform
-Durable products hold their value longer. iPhone, iPhone 7, which was introduced in 2016, still
-each successive round of design. In 2023 Apple
-for example, holds its value longer compared to
-launched Apple Watch Ultra 2, with a design had monetary value for Apple Trade In in the
-other smartphones.64 As of April 2024, iPhone 7,
-developed for a high level of durability to support United States as of April 2024.
-which was introduced in 2016, still had monetary
-the needs of our most adventurous and explorative
-value for Apple Trade In in the United States.65
-customers. Apple Watch Ultra 2 was designed for
-demanding conditions that required a series of
-We design our devices with the rigors of daily use
-new environmental and impact tests to maintain
-in mind. Engineers in our Reliability Testing Lab
-the device’s high level of reliability. Tests that
-assess our designs against our strict durability
-our engineering team developed supported
-standards that measure the performance of
-compliance with MIL-STD-810H — a standard
-materials, components, and fully assembled
-used for military equipment that’s also popular
-products. They use testing methods that mimic
-among rugged device manufacturers.66 This also
-realistic conditions in which our customers use
-included low-pressure testing to simulate a range
-their products, assessing many aspects of each
-of environmental conditions, such as high altitude,
-device. To understand how our customers push
-extreme temperatures, temperature shock, chemical
-their products, in-depth user studies are constantly
-exposure, freezing and thawing, shock, vibration,
-being performed. The results are then used to
-submersion, and other assessments to emulate
-further define durability standards of our products.
-operations in rugged settings. Our engineers
-performed these tests in addition to other trusted
-reliability procedures developed through iteration
-across several generations of the Apple Watch
-product line.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 42
-Apple 2030
-Resources
-Smarter Chemistry
-IPHONE LONGEVITY JOURNEY
-Increased durability and repairability enhance iPhone longevity
-2007 2010 2016 2018 2021 2023
-70%
-Back glass repair on
-all iPhone 15 models
-has 70 percent less
-greenhouse gas emissions
-per repair compared with
-iPhone 14 Pro.†
-* iPhone 7, iPhone X, iPhone
-13 and iPhone 15 models
-iPhone (1st generation) iPhone 4 iPhone 7 iPhone X iPhone 13 iPhone 15
-are splash, water, and dust
-resistant and were tested under
-SIM tray SIM tray SIM tray SIM tray SIM tray SIM tray controlled laboratory conditions.
-iPhone 7 and iPhone X have
-Battery Battery Battery Battery Battery a rating of IP67 under IEC
-standard 60529 (maximum
-Haptics Haptics Haptics Haptics Haptics
-depth of 1 meter up to 30
-Rear camera Rear camera R ear camera Rear camera Rear camera minutes). iPhone 15 has a rating
-of IP68 under IEC standard
-Main logic board Main logic board Main logic board Main logic board 60529 (maximum depth of
-6 meters up to 30 minutes).
-Display Display Display Display Splash, water, and dust
-resistance are not permanent
-Splash, water, and B ottom speaker Bottom speaker Bottom speaker
-conditions and resistance might
-dust resistant: IP67* Enclosure Top speaker Top speaker decrease as a result of normal
-wear. Do not attempt to charge
-Sapphire crystal Splash, water, and Enclosure Enclosure a wet iPhone; refer to the user
-lens cover dust resistant: IP67* TrueDepth camera TrueDepth camera guide for cleaning and drying
-instructions. Liquid damage not
-Sapphire crystal Splash, water, and Back glass** covered under warranty.
-lens cover dust resistant: IP68* Main microphone‡ ** Back glass repair is available for
-Surgical-grade Sapphire crystal Splash, water, and all iPhone 15 models.
-stainless steel lens cover dust resistant: IP68* ‡ Main microphone repair only
-S urgical-grade Sapphire crystal a iPv ha oil na eb l 1e 5 f o Pr l uiP sh .one 15 and
-R epairable at retail stores, Apple stainless steel lens cover
-Authorized Service Providers, Ceramic Shield Aerospace-grade aluminum † B asa ss ee sd s o mn e o nu t r ( Lli Cfe A c ).ycle
-and central repair locations
-Ceramic Shield
-F eatures to enhance durability
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 43
-Apple 2030
-Resources
-Smarter Chemistry
-Repair access Launched in April 2022, Self Service Repair gives GLOBAL REPAIR LOCATIONS
-10,000+
-individuals access to repair manuals and genuine
-We design our products to be durable and with Expanding access to repair worldwide
-Apple parts and tools through the Apple Self Service
-minimal need for repair. But if a repair is needed, Independent Repair Providers
-Repair Store. In February 2024, Apple Diagnostics to support product longevity and Apple Authorized
-customers should have easy access to convenient,
-for Self Service Repair was made available in Service Providers
-quality repair services to get their device back up
-Europe, following its introduction to the U.S. in 2023.
-and running as quickly as possible.
-Apple Diagnostics troubleshooting sessions give
-33
-customers the same ability as Apple Authorized
-We’ve expanded our repair footprint over the
-Service Providers and Independent Repair Providers
-past three years — nearly doubling the number countries, 24 languages,
-to test devices for optimal part functionality and
-of professional service locations that have access and 40 Apple products
-performance, as well as to identify which parts
-to genuine Apple parts, tools, and training. Repair now supported by Self
-may need repair.
-options include Apple Store locations, Apple Service Repair
-Authorized Service Providers, participating
-Self Service Repair is available in the U.S. and
-Independent Repair Providers, mail-in repair
-is now available for Apple users in 24 European 35+
-centers, onsite service, and Self Service Repair.
-countries — including Croatia, Denmark, Greece,
-This also includes a global network of more than
-Netherlands, Portugal, and Switzerland. With our types of device
-10,000 Independent Repair Providers and Apple
-expansion announced in December 2023, Self repairs offered by Self
-Authorized Service Providers.
-Service Repair now supports 40 Apple products Service Repair
-in 33 countries and 24 languages.
-Since 2019, our Independent Repair Provider
-program has enabled repair businesses of all sizes
-to access genuine Apple parts, tools, diagnostics,
-and training. This program expanded from the U.S.,
-Europe, and Canada to more than 200 countries and
-territories worldwide. We also continue to expand
-coverage by offering repair service at our customers’
-homes and offices in select cities across the United
-States. We train and certify service personnel to
-repair Apple products. This helps them correctly
-diagnose issues, leading to successful service and
-repair and preventing damage to devices so that
-Apple Authorized Service Providers, retail stores,
-they work as they should. and Independent Repair Providers
-Self Service Repair
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 44
-Apple 2030
-Resources
-Smarter Chemistry
-Designing products with • We’ve expanded the availability of repair parts to iOS 17, our most recent release, extends support We collect devices for refurbishment and reuse 12.8M
-repairability in mind support older products for up to seven years in back to iPhone XS (2018). iPadOS 17 compatibility through several programs, including Apple Trade In,
-countries around the world. For example, a program goes back to the sixth-generation iPad (2018), and the iPhone Upgrade Program, AppleCare service, We’ve sent nearly
-We continue to make progress in designing more for Mac laptops makes battery repair available for macOS 14 Sonoma supports MacBook models from and our corporate Hardware Reuse Program. In 2023, 12.8 million devices and
-durable products and offering customers more repair up to 10 years after a product was last distributed, 2018 and later. The updates in each operating system we sent nearly 12.8 million devices and accessories accessories to new owners
-options. At the same time, we’re working to make subject to parts availability. make the latest capabilities — from Messages and to new owners for reuse. The Apple Trade In program, for reuse in 2023.
-repairs more accessible and affordable through the Lock Screen to Continuity features — available available in 27 countries, provides customers with
-the following efforts: For more information, refer to the Apple Support page to a broad user base. These updates also provide product end-of-life options — they can access
-about the availability of service parts and repairs. more customers with access to the newest security the value of their current device if they upgrade
-• iPhone 15 Pro and iPhone 15 Pro Max have a new and privacy features. to a newer model, or they can trade in their device
-internal structural frame that makes it easier to for free.
-repair and significantly reduces repair costs. Software updates High adoption rates are a clear signal customers find
-For example, the cost of back glass repair for value in software updates. By February 2024, more Our customers drive the success of our trade-in
-iPhone 15 Pro is reduced by more than 60 percent Free software updates also support our product than 75 percent of all iPhone devices introduced in programs and those of third parties and each product
-compared to iPhone 14 Pro.67 The aluminum longevity goals. We provide these to enhance our the last four years had updated to iOS 17, and iPadOS that’s refurbished and reused contributes to reducing
-housing and back glass are no longer one customers’ experience by allowing them to access 17 was being used on more than 60 percent of iPad our overall environmental footprint.
-enclosure, so repairs to the back glass don’t the latest features available to their device for as devices introduced in the last four years.
-require replacing the housing. long as possible. This includes important security Some device parts can also be reused. We continue
-and privacy updates. As we continually improve
-• The 13-inch MacBook Air with Retina display the operating systems that power our products, to expand the number of parts that can be recovered
-(2018) and later models allow for battery we also make sure that each software release runs Refurbishment and reuse or refurbished to our high quality and performance
-replacement with a stretch-release adhesive, seamlessly on all supported devices. Customers can Refurbishing and reusing products helps lower the standards so they can be reused as replacements.
-improving repairability. benefit from the latest software updates whether impact that each device has on the environment — This enables us to reduce the need to create spare
-parts as we repair devices. We also remain focused
-• iPad mini (6th generation) and iPad Air (5th they’re using a brand-new device or one that’s including carbon intensity per year of life. We extend on opportunities to reuse accessories sent for
-generation) support same-unit battery several generations older. the life of our products by building them to serve recycling. For example, we send collected power
-replacement in select locations. more than one owner — enabling customers to cables and adapters that still function to our final
-exchange devices for an upgrade.
-assembly sites, where they power products used
-on production lines.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 45
-Apple 2030
-Resources
-Smarter Chemistry
-Material recovery
-Even after a product reaches the Approach 2023 progress
-end of its life, the materials within
-We aim to design our products for optimal
-it can serve the next generation material recovery, innovate recycling 40K
-of products. Each time that we technology, and work with others to help
-MT of scrap
-build circular supply chains.
-effectively recover materials from
-Directed nearly 40,000 metric tons
-end-of-life products, we enable
-of electronic scrap to recycling
-circular supply chains. This helps facilities globally with the help of
-Recycler partnerships and innovation customer and employee programs
-reduce the need to mine new
-Positioning recycling strategy as a key part
-materials and can save the energy
-of our efforts to create circular supply chains
-expended in extracting and refining and working to make it easier for customers 17
-materials, driving down emissions to recycle our products.
-categories
-and conserving resources.
-Deployed autonomous mobile
-robots (AMRs) to transport materials
-Disassembly and recovery advancement across our operations, as well as an
-Continuing to develop better, more efficient automated product sorter that uses
-means of disassembling products that maximize machine learning to identify and sort
-material recovery while minimizing waste. our products into 17 categories
-29
-Fostering next generations of recycling models
-Committing to a long-term approach to
-recycling innovation, relying on and continually Expanded the capabilities of Daisy,
-our disassembly robot, enabling it
-improving current approaches while nurturing
-to quickly and skillfully take apart
-new and emerging technologies. And
-29 iPhone models — including
-supporting initiatives that set out to redefine
-various models between iPhone
-disassembly and material recovery for Apple
-5 and iPhone 14 Pro Max — into
-products — and throughout our industry.
-discrete components
-In 2023, we expanded the capabilities of Daisy, which can now disassemble 29 iPhone models into discrete components.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 46
-Apple 2030
-Resources
-Smarter Chemistry
-Optimizing recycling through In 2023, we conducted 91 recycler assessments. Through the Apple Education Hub, part of our
-partnerships and innovation We’ve increasingly sought out specialty providers Supplier Employee Development Fund, we’ve also
-capable of handling specific material streams to supported our U.S. recyclers in their efforts to
-Our recycling strategy is a key part of our efforts enhance the quantity and quality of materials. This improve recycling capacity, quality, and efficiency
-to create circular supply chains. We provide or global footprint of recyclers also helps us build a with a lean manufacturing educational program.
-participate in product take-back and recycling more resilient recycling supply chain and innovate Embracing lean methodologies and management
-collection programs in 99 percent of the countries with more suppliers around the world. systems can bolster employee engagement, mitigate
-where we sell products. Our customers can trade safety issues, and improve recycling economics.
-in devices for reuse or recycling at retail locations Education and training can help us improve Read more about these programs in our People
-and through recycling programs offered by local recovery rates for our products. We’ve invested and Environment in Our Supply Chain 2024 Annual
-operators around the world. They also have the deeply in this because it provides recyclers with the Progress Report.
-option to do so online through programs like information they need to improve efficiency, quality,
-Apple Trade In. and capacity. We work with recyclers to continue We’re also continuing our partnership with Atea —
-devising new recycling solutions that can be shared a leading provider of IT infrastructure solutions in the
-In 2023, we directed nearly 40,000 metric tons through training and ongoing support. We help these Nordic and Baltic regions — to collect end-of-life
-of electronic scrap globally to recycling facilities partners develop the ability to disassemble our iPhone devices for recycling with our Daisy robot
-with the help of customer and employee programs. products and recover as much material as possible in the Netherlands. We encourage our customers
-while minimizing waste. around the world to return end-of-life devices to
-We work with best-in-class recyclers to maximize Apple so that materials can be reintroduced to the
-the potential of the recycling materials stream and We continue to expand our Apple Recycler Guides circular economy. To learn more about our recycling
-drive our efforts to close the loop on key materials. to provide up-to-date recycling guidance across programs, visit the Apple Reuse and Recycling
-We define best-in-class recyclers as those capable of our products. Our engineering teams develop these Program web page.
-recovering materials at high rates and doing so with guides to help professional recyclers optimize
-better environmental and safety performance. We recovery and complete the processes using the tools
-verify recyclers’ compliance with our Supplier Code and procedures available to them. The guides provide
-of Conduct and Supplier Responsibility Standards valuable insight into the recycling process, including
-through third-party assessments. In addition, we recommendations for directing disassembled parts
-look for our recyclers to maintain regional leading to downstream facilities for resource recovery.
-certifications, such as WEEELABEX, e-Stewards®, We’re increasing the market availability of high-
-or R2. We assess our recyclers regularly for quality recycled content by improving material
-compliance with standards, regulations, and best recovery rates.
-practices in the areas of labor and human rights;
-security; and environment, health, and safety (EHS).
-We work with best-in-class recyclers to drive our efforts to close the loop on key materials used in our products.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 47
-Apple 2030
-Resources
-Smarter Chemistry
-Developing new approaches We’re also working to improve the material handling materials through X-ray imaging combined with RGB
-to disassembly and recovery efforts of demanufacturing. Last year, we began imaging. And we’re optimizing our robots’ abilities
-deploying overhead projector–based augmented to handle objects and adjust to contact, enabling
-Innovation plays a key role in realizing the potential of reality systems to recyclers, which project them to “feel” by using high-frequency force
-recycling Apple products. We continue to develop instructions for demanufacturing processes onto feedback and machine learning. Through this work,
-better, more efficient means of disassembling the work surface. These systems are designed to we’re driving toward developing truly intelligent
-products that maximize material recovery while further improve safety, productivity, and efficiency. disassembly technology. Learn more about Apple’s
-minimizing waste. Our Material Recovery Lab (MRL), research with Carnegie Mellon University in our
-an R2-certified facility in Austin, Texas, focuses on white paper.
-assessing the recyclability of our products, helping Designing for the next
-inform design decisions that support disassembly
-generation of recycling
-and recovery. The MRL’s work has led the way in Advanced disassembly
-automated approaches to material recovery with We’re committed to a long-term approach to
-our robots Daisy, Dave, and Taz. recycling innovation, relying on and continually Daisy: In 2023, we expanded the capabilities of
-improving current approaches while nurturing Daisy, which can now disassemble 29 iPhone
-We’re also developing new technologies at our new and emerging technologies. And we continue models into discrete components. Daisy can
-R2-certified asset recovery center in Santa Clara to support initiatives that set out to redefine disassemble up to 1.2 million phones each year,
-Valley, California, that uses automation and disassembly and material recovery. helping us recover more valuable materials for
-machine learning to facilitate recycling processes recycling. From just one metric ton of iPhone main
-that typically require manual sorting, which can We’re investing in recycling innovations that can logic boards, flexes, and camera modules recovered
-be time intensive and error prone. In 2023, we have industry-wide impacts. For several years, by Daisy, our recycling partner can recover the same
-deployed autonomous mobile robots (AMRs) to we’ve worked with Carnegie Mellon University’s amount of gold and copper as can be obtained from
-transport materials across our operations, as well Biorobotics Lab in the School of Computer Science’s more than 2,000 metric tons of mined rock.68 The
-as an automated product sorter that uses machine Robotics Institute to identify and disassemble U.S. Patent and Trademark Office issued Apple As of 2024, Taz is operating at our recycling partner in China.
-learning to identify and sort our products into 17 e-scrap. This project has the potential to enable five patents related to Daisy, and we’re willing to
-categories. These technologies improve material recyclers to recover the materials at a higher quality. license these to researchers and other electronics Dave: A robot that enables the recovery of rare earth Taz: Helps recycle modules by separating magnets
-handling and sorting efficiency, which has a direct The software we develop will be open source and manufacturers who are developing their own magnets as well as tungsten and steel by specializing containing rare earth elements from audio modules.
-impact on the material capacity of our operations. available to others in the industry who are working disassembly processes in hopes that they will follow in the disassembly of the Taptic Engine. As of 2023 While rare earth elements are typically lost in
-This work aims to create low-cost solutions that to maximize the recovery of recyclable materials. suit and work to increase the share of recycled Dave is operating at our recycling partner in China. conventional shredders, Taz is designed to access
-our suppliers can deploy to recover more materials, We’ve also collaborated with the lab to improve materials in the supply chain.69 these valuable materials, improving our overall
-freeing up their employees for more complex tasks the accuracy of disassembly and the recovery of recovery rate. As of 2024, Taz and Daisy are
-that can’t be easily automated. operating at our recycling partner in China.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 48
-Apple 2030
-Resources
-Smarter Chemistry
-Water
-We aim to advance water security Strategy 2023 progress
-and protect communities in the
-Water is a local resource, so our strategy is We use these insights to inform our water We focus our work
-places where we and our suppliers context based and respectful of local conditions program priorities. And we work directly with on five strategic pillars: 31.2M
-operate through actions that where we and our suppliers operate. We collect our suppliers to ensure that they have robust
-gallons
-and analyze data and site-level feedback to policies, are managing their wastewater
-improve freshwater availability,
-make sure we understand our water impacts. systems efficiently, and are reducing their We’ve collaborated with partners
-quality, and equity. Low-water design
-We use tools like the World Resources Institute overall consumption by reusing wastewater. on freshwater replenishment
-Minimizing water impacts in the design
-(WRI) Aqueduct Water Risk Atlas to gain insights We partner with over 240 supplier facilities projects resulting in 31.2 million
-of products, services, and sites
-on local watershed health, such as baseline to guide them toward world-class water gallons of volumetric
-water stress. conservation and management. water benefits.
-We’ve developed a water footprint to understand We know that we can’t address water Site efficiency and conservation
-20
-how we use water across our value chain — stewardship challenges alone. Making Improving the performance of existing
-in our own operations, our services, and our a meaningful impact on water requires sites and processes
-suppliers
-manufacturing supply chain. Through our water collective action. To do that, we must go
-footprint efforts, we’ve identified that 70 percent beyond our own operations to collaborate We’ve certified 20 suppliers
-of our corporate water use occurs in areas with communities and work in basins on and five data centers to the
-Site-level water stewardship AWS Standard.
-with high or extreme basin stress, and that the stewardship, replenishment, and WASH
-Demonstrating responsibility beyond our
-majority of our water-related impact is in the (water access, sanitation, and health) projects
-facilities through watershed-level management
-manufacturing supply chain.70 throughout our value chain.
-42%
-reuse rate
-Replenishment and nature-based solutions
-Through our Supplier Clean Water
-Improving water availability, quality, and
-Program, we’ve supported an
-access through regenerative approaches
-average 42 percent reuse rate
-across our 242 participating
-supplier facilities.
-Leadership and advocacy
-Advancing water management through
-policy, advocacy, and technology innovation
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 49
-Apple 2030
-Resources
-Smarter Chemistry
-Low-water design will save up to 60 million gallons of freshwater Site efficiency WATER USE AT CORPORATE FACILITIES
-use annually.72 Using wastewater for cooling will and conservation
-We approach low-water design by first focusing on We track our corporate water use for
-also allow us to achieve 28 million kilowatt-hour in
-site selection, conducting a water risk evaluation energy savings annually at the location. In total, our Next, we identify steps to use less freshwater our data centers, retail stores, distribution
-to determine whether a potential site is in a water- low-water design efforts avoided 150 million gallons in our existing operations, prioritizing regions centers, and corporate offices
-stressed area. The results inform our site selection of freshwater use in 2023.73 where our efforts can immediately reduce stress
-and help mitigate the impact of our expected water on local watersheds.
-use. We then design solutions to manage the quality
-In our supply chain, a majority of water is used
-of the wastewater that we return to the watershed. during manufacturing. For example, in 2023 we In 2023, our facilities used about 1.6 billion gallons 3%
-continued an initiative that focuses on eradicating of water in our direct operations, a 5 percent increase Other alternative sources
-In our corporate operations, we discharge the potential hazards associated with liquid discharge from 2022 — driven mostly by increases in our We capture rainwater and recover
-majority of our wastewater to the sanitary sewer. throughout our manufacturing supply chain. The corporate campus portfolio. However, through our condensate as alternative water
-Up to 54 percent of the water that we use at our purpose of the initiative is to enhance and support site efficiency and conservation efforts, we saved sources for onsite use.
-corporate locations is discharged back into the local our electrochemical metal-finishing processes, 79 million gallons of freshwater in 2023.74 Last
-water system rather than consumed.71 We monitor like anodizing. This effort incorporates cutting- year, alternative water sources accounted for
-the water quality from sites where we have an edge technologies, including optimal water about 12 percent of our total corporate water 9%
-industrial wastewater discharge so that each location management, modular filtration and recovery units, usage — primarily from municipal recycled water Recycled water
-meets or exceeds local discharge requirements. acid recovery systems, and evaporators. Pilot lines sources. Additional efficiency and conservation 1,610 We source recycled water as a key
-have demonstrated success during the enclosures accomplishments include: alternative to freshwater and use it
-At our Capstone campus in Austin, Texas, we aim to
-anodizing process with recovery and reuse rates Mgal primarily for irrigation, cooling systems,
-achieve net-zero water use by relying on an onsite reaching 75 to 80 percent for water and more than • We used rainwater capture systems to source and toilet flushing. Our recycled water
-wastewater reuse system, as well as condensate 95 percent for acid. This process improvement has 9 million gallons of water at Apple locations in comes mostly from municipal treatment
-recovery and stormwater capture, limiting potable the potential to save hundreds of millions of gallons Texas, North Carolina, Ireland, Taiwan, and Japan. plants, with less than 5 percent coming
-water use to potable purposes only. This effort
-of water annually when applied at scale. • In 2023, we captured 2.6 million gallons of from onsite treatment.
-condensate from our condensate recovery systems
-in Santa Clara Valley and Austin.
-88%
-• At Apple Park, we completed a new blending tank
-Freshwater
-project that will enable us to replace up to 18 million
-We define freshwater as drinking-water
-gallons of potable water with recycled water
-quality, the majority of which comes
-per year.
-from municipal sources, with less than
-5 percent sourced from groundwater.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 50
-Apple 2030
-Resources
-Smarter Chemistry
-At our data centers, server upgrades in 2023 resulted Since the program’s launch in 2013, the average Through AWS, we’ve certified five of the seven CERTIFIED DATA CENTERS
-in 12 million gallons of water saved. We’ve also reuse rate of the 246 participating suppliers has data centers that we own and operate in Prineville,
-Number of Apple-owned data centers
-piloted a resin water treatment system that reduced increased to 42 percent, saving our suppliers Oregon; Reno, Nevada; Maiden, North Carolina;
-makeup water use by 30 percent and discharge by 12.7 billion gallons of freshwater in 2023 and a total Mesa, Arizona; and Viborg, Denmark. We’re on track certified by Alliance for Water Stewardship
-up to 60 percent.75 Based on this success, we’re of over 76 billion gallons of water savings.76 These to certify the remaining two Apple-owned-and-
-implementing this technology at our data centers savings come from a range of initiatives, such as the operated data centers by 2025.77
-in Prineville, Oregon, and Mesa, Arizona. reuse of reclaimed water, upgrades to water-efficient
-equipment, and countercurrent rinse methods. Since 2018, 20 of our supplier sites have been
-We also continued to pilot a plant-based water certified to the AWS Standard, 16 of which achieved
-2021 2023 2024
-treatment using sustainably harvested sphagnum a Platinum rating — the highest score within the
-Prineville, OR Reno, NV Viborg, DK
-moss at several data centers, helping eliminate Site-level water stewardship AWS framework. In May 2023, we partnered with
-Mesa, AZ
-the need for biocides and corrosion inhibitors. AWS and the Suzhou Industrial Park Administration
-We engage with the communities around our Maiden, NC
-This system, which uses compostable, natural Committee to conduct a training session for Suzhou
-facilities for the protection of local watersheds.
-sphagnum moss to improve water quality, can further Industrial Park (SIP) tenants. This training promoted
-Since 2018, we’ve partnered with the Alliance for
-support water savings. We implemented this at our water stewardship and helped establish a more
-Water Stewardship (AWS) to advance the AWS
-Reno, Nevada, and Maiden, North Carolina, data comprehensive water management system for their
-Standard, the first global framework to measure
-centers and have begun a permanent installation factories, including Apple suppliers.
-responsible water stewardship across social, cultural,
-in Mesa, Arizona.
-environmental, and economic criteria. In 2020, we
-joined the AWS board of trustees to highlight water
-Our supply chain accounts for 99 percent of our
-stewardship opportunities to our suppliers and
-total water footprint, based on our detailed water
-promote collective action on shared water challenges
-inventory. We require our suppliers to maintain the
-impacting the sector. Goal
-high standards for water discharge outlined in the
-Apple Supplier Code of Conduct. Through our Clean We aim to
-Water Program, we help suppliers minimize process certify all our
-water impacts and adopt best practices in water
-owned and
-management and wastewater treatment.
-operated
-data centers
-by 2025
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 51
-Apple 2030
-Resources
-Smarter Chemistry
-Replenishment and Drinking Water Supply in India: Provided drinking Floodplain Restoration in Northern California: Our 2023 outreach efforts included: • Catawba-Wateree Water Management Group:
-nature-based solutions water in partnership with the Uptime Catalyst Facility Collaborated with River Partners, a leader in large- Joined the Advisory Board to partner locally on
-in India. This total exceeded our corporate freshwater scale, multi-benefit river restoration, on a project • Volumetric Water Benefit Accounting sustainable water management in high-water
-Replenishment and nature-based solutions are withdrawals for the year. Uptime operates an that helps restore native vegetation and wetlands methodology: Engaged in the development withdrawal basins in which we operate. This
-essential tools for addressing water availability, innovative, performance-based program that enables on 750 acres of farmland at the confluence of the of the next phase of this methodology with the organization oversees water management in the
-quality, and access. Our goal is to replenish Safe Water Network and their community partners Sacramento River, Feather River, and Butte Creek. World Resources Institute (WRI) to further Catawba-Wateree Basin, home to our Maiden,
-100 percent of our corporate freshwater withdrawals to maintain and distribute clean, affordable water The work also supports the migration and rearing technical standards in the sector. North Carolina data center.
-in high-stress locations by 2030.78 This work began in Telangana and Maharashtra through more than of all four runs of Chinook salmon in the Sacramento
-in 2022 with projects in Southern California and India, 300 kiosks. River Basin. Our first project in Northern California • University of Oxford and Uptime: Contributed • Water Champion Field Trip: Hosted 28 brand
-and grew in 2023 with contracted projects in two addresses the critical need to increase floodplain to the briefing paper “Reducing uncertainty in leaders, suppliers, and local partners to tour
-key locations — Northern California, home to our This program provided approximately 23 million habitat, connectivity, and function for both the corporate water impact: The role of Results- nature-based solutions and wetlands restoration
-corporate headquarters, and the Colorado River gallons of drinking water in 2023. environment and communities in California’s Based Contracting for drinking water supply,” projects aimed at reducing water pollution to raise
-Basin, home to our Mesa data center. resource-rich Central Valley. This project will restore which explains the efficiency and effectiveness awareness of water issues and water stewardship.
-of these contracts in delivering corporate
-Forest Restoration in Arizona: Started an initiative the river ecosystem and improve the safety and • Frank Water: Continued our partnership with the
-Our 2023 projects included: with Salt River Project to restore approximately reliability of the state’s flood control system. funding to augment drinking water supply India-based organization that works alongside
-in developing regions.79
-30,000 acres of degraded and at-risk forest in a local partners to support access to safe water,
-Invasive Species Removal in Southern California: source watershed for the Phoenix metro area, which Our support is expected to result in nearly 5 billion • Ceres Global annual conference: Addressed sanitation, and hygiene. In 2023, the grant
-Funded the removal of the invasive Arundo donax includes our Mesa data center. Our agreement gallons of volumetric water benefits over 20 years. the investor community to highlight the business supported the expansion of the organization’s
-cane species in the San Fernando Valley area will increase the pace and scale of efforts by the case for focusing on water impacts. programming from focusing on Bangalore to also
-of the Los Angeles River watershed. This plant U.S. Forest Service and the Arizona Department of include Chennai. This involved implementing
-monopolizes resources, displacing wildlife and Forestry and Fire Management to strategically thin Advocacy efforts and • UN 2023 Water Conference: Presented the Decision Support System and stakeholder
-stressing local watersheds. This removal effort by forests in Northern Arizona at high risk for severe local partnerships on the importance of expanding the adoption engagement mapping tools, designed with our
-the Council for Watershed Health (CWH) addresses wildfire, which can severely degrade water supplies. of water stewardship approaches. support, in a new critical region of India.
-water availability in the watershed, which feeds the Our work in water afforded us another opportunity: • AWS Global Water Stewardship Forum:
-greater Los Angeles area. In 2023, the project provided estimated water to lead with others and push for change across Participated to share our expanded strategic
-benefits of 8.2 million gallons. Apple’s support of industries. We collaborate with groups, including initiatives in our corporate sites and indirect
-This project will save an estimated 21 million the project is expected to result in 1.8 billion gallons AWS and the Responsible Business Alliance (RBA), supplier efforts.
-gallons of water annually. of volumetric water benefits over the next 20 years. and we speak at conferences and engage with
-audiences driving impact within their communities
-and industries
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 52
-Apple 2030
-Resources
-Smarter Chemistry
-Zero waste
-We’re committed to eliminating Approach 2023 progress
-waste sent to landfill — and the
-environmental costs that come with 74%
-Measuring our progress
-it. At our offices, retail locations,
-Understanding the amount of waste that diversion rate
-data centers, and construction we divert at the source and our ability to
-In 2023 we achieved a waste
-sites, we’re implementing systems protect the communities where we and
-diversion rate of 74% for
-our suppliers operate.
-and adopting approaches to avoid the waste generated in our
-corporate operations.
-sending waste to landfill, and
-we ask the manufacturers in our
-Prioritizing waste-free operations
-supply chain to do the same. Our 3M
-Reducing waste at our own facilities and
-focus is on innovative approaches
-those of our manufacturing suppliers. metric tons
-to eliminating waste generated
-As a result of Apple’s Zero
-during manufacturing and engaging
-Waste Program, 3 million metric
-with local specialty recyclers and tons of waste were redirected
-Driving waste diversion and elimination
-from landfill by supplier facilities.
-composters to redirect materials
-Using zero-waste approaches at our
-from landfills. offices, retail locations, and data centers.
-185+
-facilities
-Partnering for waste reduction
-Promoting and supporting programs and More than 185 Apple supplier
-practices for our manufacturing suppliers. facilities across 11 countries and
-And working with specialty recyclers regions are zero-waste assured
-and composters to redirect materials by UL Solutions.
-from landfills.
-In 2023, our Viborg, Denmark, facility became the third to receive TRUE Platinum certification, which requires
-more than 90 percent of waste from a facility to be recycled, composted, or redirected for reuse.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 53
-Apple 2030
-Resources
-Smarter Chemistry
-Reducing waste at our Promoting material reuse, Reusable Air Filters: In 2023, we fully switched to Driving solutions internally through 25tn
-corporate facilities composting, and waste diversion across reusable air filters to reduce waste sources — like communication, reporting, and education
-our corporate and retail locations packaging materials and commonly used equipment. Our employees play a critical role in reporting on We partnered with
-We’re reducing the amount of waste generated We prioritize finding opportunities to recycle Previously, no off-the-shelf reusable air filters were waste and facilitating waste audits at our locations. an industry-leading
-in our corporate operations and directing more construction and demolition waste and recently available for our application. In 2019, we partnered We support these efforts with training, education, automotive filtration and
-to recycling programs. In 2023, recycling and accomplished the following: with an industry-leading automotive filtration and and access to resources. In 2022, we standardized technology company to
-composting efforts allowed us to achieve a waste technology company to design a sustainable solution waste reporting requirements and implemented design a sustainable air
-diversion rate of 74 percent — up from 71 percent in • In 2023, our recycling and source separation that met very specific design criteria for our design a centralized dashboard system across all our data filtration solution that helps
-avoid landfilling 25 tons of
-2022. We also limited landfill waste from our global from corporate office and data center construction centers. And to date more than 58,000 reusable centers and corporate offices. Our retail auditing
-dirty filters per year.
-operations to about 17,400 metric tons.80 and demolition efforts resulted in a waste high-performance air filters — which are also program examined five locations in North America,
-diversion rate of 88 percent — approximately available for other companies to use — have been documenting the material characteristics of our
-We’ve continued our efforts to make progress on 23,600 metric tons. placed in Apple-managed facilities worldwide. By waste. This data is allowing for better assessment
-waste diversion since achieving our first zero-waste replacing disposable air filters with reusable ones, of our waste practices and opportunities to improve
-certification, UL Solution’s Zero Waste to Landfill • New initiatives at our San Diego and Culver City we avoid landfilling 25 tons of dirty filters each year. our approaches. We also provide site-specific zero-
-Validation, in 2015 for our campus in Cork, Ireland. campuses, alongside more than 30 participating Further, the reusable air filters are more energy waste training for all Apple data centers. All new
-In 2023, our Taiwan Technology Center became the locations, achieved an average diversion rate of efficient, leading to 35 percent savings in data center employees are required to complete
-second Apple facility to receive the UL Solutions 91 percent. fan energy use. the site-specific zero-waste training and receive
-Zero Waste to Landfill Validation.81 Our corporate • We also developed several specialty recycling manager approval of completion.
-offices in Sacramento, California, as well as our initiatives to return materials back to their original Managing hazardous waste:We remain committed
-data center in Viborg, Denmark, received TRUE supplier. The program salvaged more than to safely and responsibly managing hazardous waste.
-certification in 2023, joining our data centers in 100 metric tons of material, yielding over To make sure that wastes are treated, recycled, or
-Mesa, Arizona, and Prineville, Oregon.82 These 50 metric tons of both ceiling tile and sheetrock, incinerated according to safety and environmental
-facilities achieved TRUE Platinum, the highest over 40 metric tons of carpet tile, and over standards in the U.S., Apple performs audits of
-certification level. TRUE recognizes facilities that 6 metric tons of glass to reuse the materials in treatment, storage, and disposal facilities (TSDFs),
-divert more than 90 percent of waste for recycling, new products. with seven performed in 2023. We continually
-compost, or reuse. reevaluate the facilities that dispose of and manage
-hazardous and regulated wastes, working to
-assess disposal methods, availability, economics,
-and sustainability.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 54
-Apple 2030
-Resources
-Smarter Chemistry
-Taking a zero-waste As part of the Supplier Code of Conduct requirement, have participated in Zero Waste Program since
-approach with our suppliers we also require more than 1,000 supplier production its inception — including those who provide core
-facilities to report waste inventory to Apple annually. technology components, displays, PCB and flex,
-We’re committed to zero waste. Apple employees, Facilities have received trainings and templates packaging and enclosures. They’ve diverted more
-suppliers, recyclers, and waste solution providers to record and correctly classify waste data and than 352,000 metric tons of waste from landfills.
-are central to achieving this goal. Since we launched document the visible diversion rate. To verify the
-the Zero Waste Program for our manufacturing waste data quality, we partnered with third-party Pushing toward zero-waste innovation
-partners in 2015, we’ve continued to make auditors to conduct sample evaluations, which We use novel recycling strategies and approaches
-considerable progress. And we’ve expanded this focused on waste classifications, waste data to divert greater quantities of waste from landfill in
-program to include more than 350 supplier facilities recordkeeping and reporting, and reasonable waste our supplier facilities at greater rates. We also pursue
-across 13 countries and regions. treatment methods. material solutions to impact the waste streams
-coming into these facilities to simplify and maximize
-We require our suppliers to take part in our Zero We provide all facilities participating in the program the recyclable content that our suppliers work with.
-Waste Program as part of our Supplier Code of with resources and guidance on how to reduce waste
-Conduct. Suppliers must implement a systematic and reuse, recycle, or compost waste. Suppliers at Plastics comprise one of the major waste streams
-approach for identifying all waste sources and these locations can also access tools to improve in our supply chain. For this reason, we’ve focused
-characterizing each stream in the waste inventory, waste management and, in some cases, onsite our efforts on reducing the amount of plastic waste
-developing a program or solution to quantify and support. The program is making an impact: In 2023, generated during manufacturing. In 2018, we
-monitor their waste-to-landfill diversion rate, setting suppliers redirected more than 497,000 metric tons partnered with a key material vendor to develop
-waste minimization goals, and maintaining progress of waste from landfills, bringing the total to components that have helped our suppliers reduce
-toward achieving zero waste to landfill. Our Zero 3 million metric tons since the program’s inception waste. These include recyclable protective films
-Waste Program provides training and tools to help — equivalent to eliminating 3.7 million square meters (RPFs) that safeguard products during manufacturing
-suppliers track their waste, set waste minimization of landfill space. Throughout 2023, 100 percent and reusable trays used to securely deliver modules
-goals, and create improvement plans for achieving of established final assembly sites maintained through assembly sites.
-zero waste in their operations. zero-waste-to-landfill operations.83
-We’re also working to reduce more complex waste
-In 2023, the Supplier Zero Waste Implementation And we’re working on the next challenge in streams, including processing chemical waste
-Plan became part of our assessment requirement, achieving zero waste, which is a level deeper into found further upstream in our supply chain. One
-following a year of training and piloting. Now all our the subassembly module suppliers who assemble typical process waste is coolant, a chemical material
-key manufacturing suppliers must implement the the individual components of Apple products. The used to cool the surface of machinery involved in
-Zero Waste Program, which includes evaluating their waste stream at this level is often more complex than manufacturing components like enclosures. To avoid
-performance against the program’s criteria. at final assembly sites, but we’re making progress. sending coolant waste to landfill or an incinerator,
-As of 2023, more than 300 module suppliers we launched a series of coolant reduction initiatives
-In 2023, we fully switched to reusable air filters to reduce waste sources — like packaging materials and commonly used equipment.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 55
-Apple 2030
-Resources
-Smarter Chemistry
-in our enclosure supply chain. We focused on The Waste to Resource database we designed diversion through methods other than waste-to- Starting in 2022, Apple organized a series of
-reducing coolant usage by implementing minimum provides access to available technologies and local energy. Through this standard, our supplier facilities webinars with suppliers, policymakers, and industrial
-quantity lubricant (MQL) technology, an ultraviolet or recyclers that we’ve recommended by the suppliers can certify against clear benchmarks for waste leaders to share their experiences in the Zero
-ozone approach to recycling coolant, and end-of-life we work with. The database includes information on diversion, including Platinum, Gold, and Silver levels Waste Program with participating suppliers and
-recycling. These initiatives have reduced more than more than 1,500 resources across more than 250 of verification. We’ve spent the last seven years those who plan to join. These sessions provide an
-20,000 metric tons of coolant-containing waste in cities in China, Thailand, India, and Vietnam — a expanding this program throughout our supply chain, opportunity to discuss lessons learned implementing
-the past year. number that grows as we and our suppliers share with suppliers in China, India, and Vietnam becoming the Zero Waste Program, best practices around the
-valuable resources through the database. As more UL validated. Since we switched from individual site compliance requirements of waste management, and
-Engaging with suppliers to reduce waste of our suppliers achieve their zero-waste goals, we’re verification to system-level verification, suppliers emerging recycling and reduction technologies.
-We work closely with our suppliers to realize our able to learn and share more information. We plan to participating in the assurance program can easily
-zero-waste goals. This work faces a range of make this resource public for the benefit of the entire apply their verification statements from UL. We’re focused on expanding the impact of the Zero
-challenges, including a lack of access to recycling electronics industry. Waste Program in our supply chain and beyond. In
-technologies, the absence of local infrastructure, Supplier capability development 2023, we launched a zero-waste education initiative
-and the lower value of recyclable material that One example of a resource benefiting the industry To address the challenge of waste classification for in India. Supported by our Supplier Employee
-impacts the economics of recycling. is a tool developed by Apple and UL Solutions, our suppliers across different countries and regions, Development Fund, we’ve been able to design
-partner that validates zero-waste efforts. The tool we’ve created the Apple Recommended Waste a series of zero-waste-related trainings specific
-In 2023, we focused on reducing a significant portion provides the first-ever supply chain zero-waste Category List that provides standardized guidance to India for supplier leadership, employees, and
-of plastics in manufacturing and transportation of management system assurance program, enabling on how to classify different types of waste. This has members of local communities.
-our products. With packaging, we’ve already made third-party zero-waste verification at a systems level been implemented widely and used by suppliers
-significant progress in transitioning to fiber-based rather than at a site level. The assurance procedure in the Zero Waste Program. Suppliers have also We’ve offered several learning programs in India that
-materials. We’re now working to extend that success has allowed us to accelerate the verification process received access to training and coaching on waste cover sustainability basics, the roadmap for achieving
-to the packaging module components used by our significantly and establishes a new model that classification to support their efforts in separating zero waste, and best practices in waste management.
-suppliers during transportation and at assembly companies across industries can employ to verify waste while promoting waste reduction, reuse, These include supplier classroom sessions in
-sites. Our suppliers have developed fiber alternatives zero-waste programs at scale. This streamlined and recycling. Bangalore and Chennai focused on leadership
-to replace plastic films, foams, and bags. The initial approach has brought even more suppliers into capabilities and training to help scale the Zero Waste
-pilot, launched in 2022, focused on reducing waste our program, with more than 185 facilities assured The data we’ve aggregated summarizes the top Program, as well as community e-learning resources
-associated with iPad; the program now includes in 2023 by UL Solutions — 35 more than the 10 waste streams — including plastics, papers, to introduce sustainable living, domestic composting,
-iPhone, Mac, Apple Watch, and AirPods. Since this previous year.84 and metals — and their corresponding diversion and basic waste management beyond the workplace
-effort began, our suppliers have saved 3,600 metric solutions. This provides a valuable perspective on the that can benefit everyone.
-tons in plastic used while manufacturing and We also provide support for our suppliers in verifying waste footprint across our supply chain; it also shows
-transporting our products. their zero-waste efforts. Since launch, the foundation us where we can expend our efforts on material
-of our Zero Waste Program has followed the UL 2799 utilization to reduce the amount of waste sent to
-Zero Waste to Landfill Environmental Claim Validation incineration or landfill.
-Procedure (ECVP), which requires at least 90 percent
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 56
-Apple 2030
-Resources
-Smarter Chemistry
-FEATURE
-Green buildings
-Whether we’re constructing a Our global footprint requires that we adapt to the gray water recycling reduced water consumption 108
-data center or corporate office or needs of different locations and climates while by more than 84 percent. The site also diverted
-pursuing our overall objectives. In 2023, two 95 percent of the construction waste from landfill As of 2023, 108 Apple
-restoring a historic site to house a
-Apple sites in Israel and Spain earned LEED Gold while using sustainably harvested wood for the buildings worldwide
-retail store, we have an opportunity certification and one location achieved Platinum ceiling, furniture, and fixtures. The success of are LEED or BREEAM
-to advance our vision of the world certification — our first in Southern California these efforts resulted from a strong partnership certified for environmental
-performance.
-we’d like to live in — one that’s to do so. A building on our Culver City campus with our local landlord partner who shared our
-demonstrated reductions of more than 45 percent values and priorities, ensuring that our collective
-inclusive and accessible, reflects
-reduction in indoor water use and more than environmental objectives were achieved.
-the value we place on creativity
-15 percent in energy use. For construction and
-and innovation, and furthers our demolition waste, the site diverted more than Our new Apple Battersea retail location in the
-environmental goals. 75 percent of materials. The location was also historic Battersea Power Station in London
-recognized for its ease of commuting, including its is trending to achieve a BREEAM Very Good rating.
-proximity to seven public transit lines, the availability The build-out of the store and offices resulted
-Our environmental approach to design and of bike racks and showers for employees who cycle in a 99 percent rate of diversion for construction
-construction adheres to industry-recognized best to work. waste. The retail store project uses our newest
-practices for green buildings that promote renewable and most sustainable design language and
-energy, water conservation, energy efficiency, and We bring a similar environmental approach to materials, which heavily focuses on low-carbon
-responsible material sourcing. As of 2023, 108 of our our retail store development. In Mumbai, India, design elements including a biopolymer terrazzo
-corporate offices, data centers, retail stores across we opened Apple BKC — our first retail location floor, sustainably harvested wood, reduced steel
-the world, totaling more than 18 million square feet in the nation — which earned LEED Platinum tonnage, and an acoustic baffle ceiling.
-of green building space, are Leadership in Energy certification. The store’s energy-efficient design,
-and Environmental Design (LEED) or Building use of natural light, and onsite photovoltaic panels Each Apple building needs to coexist with its
-Research Establishment Environmental Assessment helped achieve energy savings of more than environment while meeting our standards for
-Method (BREEAM) certified. 40 percent, and its low-flow fixtures and onsite human-centric design. We work hard to strike this
-balance and harness the creativity and innovation
-that these challenges demand.
-Our environmental approach is mindful of energy and resource use. Apple BKC earned LEED
-Platinum certification.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 57
-Apple 2030
-Resources
-Smarter Chemistry
-Approach
-Mapping
-Displaying smarter thinking
-Assessment
-Innovation iPhone 15 models use
-arsenic-free glass and
-are also free from mercury,
-brominated flame
-retardants, and PVC.
-Smarter
-Chemistry
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 58
-Apple 2030
-Resources
-Smarter Chemistry
-Approach
-Smarter Chemistry
-We identify and use the chemicals We prioritize elimination and substitution, and Strategic pillars
-and materials that best serve our when no alternative is available to eliminate or
-substitute potential exposure, we rely on engineering
-priorities of safety, performance,
-and administrative controls to safeguard against Mapping
-and the environment. This approach
-hazard exposure. Engaging our supply chain partners to
-is the foundation of smarter comprehensively identify the processes and
-Our program involves establishing safety requirements
-chemistry — and it underpins our chemicals in the materials used to make our
-that often exceed local industry standards and
-products. This allows us to drive change that goes
-efforts across our supply chain. supporting our suppliers. We’ve created standards
-beyond what’s required for regulatory compliance.
-and programs to support these efforts, including
-Smarter chemistry is our approach to proactively the rigorous requirements defined in our Regulated
-promoting the use of safer materials and chemicals. Substances Specification (RSS) and the deep supply
-We identify chemicals that balance our priorities — chain engagement through our Full Material Disclosure Assessment
-including safety and performance — minimizing our (FMD) and Chemical Safety Disclosure (CSD) Assessing the potential human health and
-environmental impact. The program supports the steps programs. environmental risks of material chemistries to
-we’re taking toward a circular supply chain by reducing evaluate compliance with our requirements and
-Maintaining comprehensive information on the
-the recirculation of potentially harmful substances, inform product design.
-chemicals and materials we use is essential. It helps us
-and it contributes to a healthier workplace for our
-better protect the people who design, make, use, and
-manufacturers and suppliers.
-recycle our devices. This information also informs our
-We focus on limiting chemical exposure through the efforts to protect the environment and work alongside Innovation
-commonly used hierarchy of controls. The concept leading members of the scientific community, NGOs, Driving the development and use of
-consists of five actions that organizations can take and industry organizations to push for the development innovative materials that enables the creation
-with materials: and broad adoption of safer alternatives. We also of groundbreaking products and support
-share what we’ve learned in creating these systems industrywide change.
-• Elimination with others in the industry — and we push for change
-• Substitution that can transform product manufacturing.
-• Engineering controls Advocacy and leadership are needed to make this
-• Administrative controls happen. We’re committed to this role — pushing
-to broaden the use of safer and more sustainable
-• Personal protective equipment (PPE).
-materials based on smarter chemistry — and working
-with our suppliers and material manufacturers to create
-alternatives that can help move our industry forward.
-We test all our products, and place special attention on materials that come into prolonged skin contact.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 59
-Apple 2030
-Resources
-Smarter Chemistry
-Mapping
-We’re committed to creating And we examine the effects of material chemistries Our suppliers are required to participate in the PRODUCT LIFE CYCLE
-products of the highest quality across a product’s life — from design and program. Collectively, they share information on
-Smarter chemistry matters at every
-manufacturing to the customer experience and, thousands of materials used to manufacture our
-— and that commitment extends
-ultimately, recycling and recovery. This information products. To make this process easier, we’ve stage in the product life cycle
-to the health and environmental
-guides our decisions when it comes to health and implemented an advanced collection system
-impacts of everything we make. environmental risks. The changes we’re making for suppliers with access to a library of more
-have an impact beyond our footprint and across than 60,000 materials, which have been researched
-our industry, supporting our efforts to build and validated by Apple. Our suppliers use this library
-Through collaboration, we can build
-responsible circular economies at scale. to select the materials they use in our products.
-a comprehensive view of the chemicals in the Product design
-When a material that a supplier uses isn’t yet listed
-materials that we use and drive improvements Apple uses our Regulated
-in our library, we authenticate the new material
-in how we make our products. Substances Specification (RSS) to
-Building a comprehensive with documentation from the manufacturer that
-drive our internal teams and supply
-view of the materials in provides it.
-Our Full Material Disclosure (FMD) program maps chain partners to select materials that
-the materials in our products and their chemistries, our products meet our requirements.
-The FMD program includes tens of thousands of
-while our Chemical Safety Disclosure (CSD)
-We rely on detailed and comprehensive information parts and assemblies across our product lines. We
-program tracks the materials used to manufacture
-to guide our decision-making on material prioritize high-volume materials and those that come
-our products. We drive our supply chain partners
-chemistries. The FMD program, launched seven under prolonged skin contact, which we look closely Recycling Manufacturing
-to collect in-depth information on the material
-years ago, aims to catalog and map each chemical at for biocompatibility. The program helps address Recyclers can recover Apple requires suppliers to
-chemistries they use, including their purpose,
-in the materials used in our products. Material a challenge that’s faced across our industry: the materials that are safer for manage materials and chemicals
-the amount consumed, and how the chemicals
-manufacturers provide thorough reporting on lack of visibility into the chemical composition of use in new products. and helps them switch to
-are applied, stored, and handled. We also work
-material compositions from deep within our supply materials. To reduce potential toxicological risk and safer alternatives.
-closely with our partners to review the steps
-chain — proprietary data that’s shared through our pursue opportunities to develop better chemistries,
-they’re taking to protect their employees.
-secure data collection system. This system enables we rely on deep knowledge of the materials used.
-us to make informed choices about the materials Through the program, we’re able to identify these
-that are used. For iPhone, iPad, and Mac products opportunities to improve and contribute to our
-Product use
-released in 2023, we collected detailed chemical safety and environmental goals.
-Customers use products
-information on 93 percent of each product on
-made with smarter materials.
-average, by mass. For Studio Display, we collected
-information on more than 95 percent of the product
-by mass.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 60
-Apple 2030
-Resources
-Smarter Chemistry
-The comprehensive materials library helps supply chain — and the impact this can have on the COMPREHENSIVE CHEMICAL MAPPING FOR SAFER PRODUCTS
-inform decisions across our product life cycles. health and safety of people working in our supply
-We account for how chemicals are selected
-It drives better material selections by our supply chain. Read more about our work across our global
-chain partners through the RSS, and it provides supply chain in our People and Environment in Our and managed within our supply chain
-a foundation for assessing the materials that we Supply Chain 2024 Annual Progress Report.
-specify, how our products are manufactured,
-and, eventually, how they’ll be recycled. We use Detailed and accurate information drives this process,
-innovative approaches to this process, including including which chemicals our suppliers use as they
-machine learning to digitize data from chemical make our products and how they store, handle, and
-tests so this information can be more easily consume each one. Through the CSD program,
-An understanding of chemical Data helps Apple suppliers Apple customers benefit from
-assessed. And we’re finding ways to share this suppliers are required to provide this data as part of a
-ingredients leads to better manage chemicals and materials using products made with safer
-information by supporting the development of rigorous disclosure process. With a detailed chemical materials for Apple products when making Apple products materials and chemicals
-industry standards that will help encourage the inventory from our suppliers, we can support
-exchange of data on materials. These efforts our supply chain partners in identifying risks and
-Through the FMD program, Apple Through our CSD program, suppliers share The FMD and CSD programs support the
-support our goals of improving the safety of opportunities to implement safer alternatives.
-manufacturing partners share the materials information with Apple about how they use creation of quality products in a responsible
-our products, as well as the broader electronics
-they use to manufacture Apple products. chemicals, store the chemicals, and protect manner for our customers.
-industry and beyond. In 2023, more than 1000 supplier facilities shared
-their employees.
-their chemical inventories as well as their storage Apple works with material manufacturers to
-and control information through the CSD program, understand the chemistries of the materials CSD data informs and prioritizes supplier
-Creating an inventory including suppliers representing the majority of to enable evaluation. engagement, encouraging rigorous chemical
-of chemicals used Apple’s direct spend. And through this program, management practices and adoption of
-in manufacturing we’ve identified more than 17,000 unique materials safer alternatives.
-and chemicals used in the manufacturing process.
-The Apple Supplier Code of Conduct and Supplier All these efforts contribute to a safer work
-Responsibility Standards outline our requirements environment for people across our supply chain.
-for our suppliers in the areas of health and safety,
-labor and human rights, the environment, ethics,
-and management systems. We also account for how
-chemicals are selected and managed within our
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 61
-Apple 2030
-Resources
-Smarter Chemistry
-Assessment
-We base key decisions about our Setting and maintaining Our Green Chemistry Advisory Board provides Verifying and developing in 1,600+
-product designs, manufacturing rigorous chemical feedback on key initiatives, including potential the environmental testing lab
-updates to the RSS. The advisory board is an Performed toxicological
-processes, and approaches to safety requirements
-independent group of leading researchers We evaluate the safety of our products and materials assessment on more
-recycling and reusing on the data We first published the Regulated Substances and academics. Their diverse experience and through chemical analyses at our Environmental than 1,600 new materials
-that we collect on chemicals and Specification over 20 years ago, establishing perspectives help us lead the way in protecting Testing Lab. Our chemists test materials to monitor in 2023.
-materials. This information enables requirements for the use of chemicals or materials in our customers and those who make or recycle compliance with our specifications. The lab continues
-our products, accessories, manufacturing processes, our products. to grow in its mission and capacity; we’re expanding
-us to establish requirements
-and packaging. The specification builds on our our testing facilities with new technologies to
-for our suppliers, including the history of advancements in material safety — and it We apply controls to materials that come into conduct chemical analysis while broadening our
-requirements set in our Regulated reflects our dedication to the collection of necessary prolonged skin contact (as defined in our Restricted FMD and CSD programs. Our teams also review
-Substances Specification data to uphold these requirements. Chemicals for Prolonged Skin Contact Materials test reports from suppliers to evaluate substances
-list). The restrictions focus on substances that are against the Regulated Substances Specification and
-and our Restricted Chemicals
-We continue to evolve the RSS with new chemicals potential skin sensitizers to minimize the potential Restricted Chemicals for Prolonged Skin Contact
-for Prolonged Skin Contact and restrictions based on the latest scientific for reactions commonly reported across wearable Materials specification. In 2023, we performed
-Materials specification. research and standards, drawing from regulations, products, like jewelry. We derive these restrictions toxicological assessments on more than 1600
-international standards, and voluntary requirements. from leading standards, recommendations from new materials to proactively evaluate and eliminate
-Many of the specification’s restrictions exceed toxicologists and dermatologists, international laws potentially harmful substances from our products.
-Our requirements provide clear restrictions on
-the most stringent local regulatory requirements and directives, and Apple policies. We mandate
-potentially harmful chemicals in materials, including in order to protect workers health and the that our suppliers analyze each material that comes The data that we collect from our disclosure
-those that are restricted. Our assessment system environment. The specification designates restricted into prolonged contact with skin according to programs drives our assessments. We’re able
-supports our efforts to ensure that only materials that substances and requires reporting on additional Apple’s requirements, and we review compliance to generate comprehensive assessments like
-meet our stringent requirements are used in Apple substances. We’ve updated and expanded chemical with these requirements. Our specifications are GreenScreen®, a methodology that we use to gauge
-products. The data that we gather on chemicals and restrictions that, in many instances, surpass current incorporated into contractual obligations for our the potential impact of chemicals on individuals’
-our assessments allow us to make informed decisions regulatory restrictions. Most recently, we’ve added suppliers, and each one helps us maintain our health and the environment based on 18 criteria.
-about chemical management for the safety of those perfluorohexanesulfonic acid (PFHxA) — a subset of stringent requirements. We develop toxicological profiles on new chemicals
-who use, make, and recycle our products. These the larger group of PFAS — phenol, isopropylated, using both scientific literature and internal
-decisions also help make the materials recovered phosphate (3:1) (PIP 3:1), and several skin-sensitizing assessments. These profiles detail the impacts
-from our products at end of life safer for reuse in new substances well ahead of regulatory restrictions. of each chemical, providing data that allows us
-products, enabling circular supply chains. to evaluate the safety of using a substance in a
-particular product. In 2023, we continued to expand
-the scope of biocompatibility testing beyond
-individual materials to include modules and whole
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 62
-Apple 2030
-Resources
-Smarter Chemistry
-products. Through this work, we have an even new regulations, which were attended by more based on chemical hazard assessments, because
-more comprehensive view of each material and than 490 participants who helped validate over this is a more comprehensive and robust hazard
-the potential impact that assembly has on safety. 3,300 materials for low-VOC compliance. By approach than simply eliminating individual
-We perform toxicological analysis of the materials deploying a VOC specification worldwide, we’re substances of concern. In 2023, we approved
-in our products to help guide our material safety also helping drive adoption of low-VOC alternatives additional safer cleaners for use in our supply chain,
-guidelines. The information that we share through around the world. And we’re working with our bringing the total number of safer cleaners we’ve
-material specifications benefits our suppliers and suppliers to identify and develop alternate non- approved over the past three years to 175.
-those who we collaborate with in the industry. PFAS materials materials without regrettable
-substitutions that meet the current and upcoming Our efforts have had a direct impact on health and
-complex per- and polyfluoroalkyl substances (PFAS) safety — and they have the potential to change
-Working with suppliers regulatory requirements. how our industry operates. By making it easier
-for suppliers to select safer alternatives for process
-to meet global requirements
-chemicals at the outset, we’re promoting their use
-We’ve created systems for our suppliers to learn Creating a list of safer cleaners across our supply chain. All our final assembly
-about our material specifications, track and assess sites have used only safer alternative cleaners
-the materials they use, and regularly communicate We’re making an immediate impact in our efforts and degreasers, as defined by Apple, since 2018.
-material usage. This also helps our suppliers to protect workers and the environment through We’ve since expanded this work deeper into our
-meet global standards and regulations governing our approach to the application of cleaners and supply chain to suppliers and processes beyond
-their operations. The FMD and CSD programs degreasers, which are some of the highest-use final assembly, helping them identify and implement
-require suppliers to gather, understand, and share materials at final assembly sites. Regulators and opportunities to use safer alternatives in their
-information on materials they’re using — beyond environmental health and safety organizations have operations. In 2023, we received, for the third time
-regulatory requirements. focused considerable attention on the chemistries of in four years, the EPA Safer Choice Partner of the
-cleaners and degreasers. We’re investing in the due Year Award for our work to scale the use of safer
-We support suppliers’ engagement with these diligence required to identify preferred alternatives process chemicals and to protect those who work
-programs — and the RSS — through ongoing for suppliers and others in the industry to use. in our supply chain.
-training. This continued engagement is central
-to our partnership and to our shared efforts to We’ve eliminated the use of cleaners with known We’re also looking outside our own supply
-promote smarter chemistry in our products and carcinogens, mutagens, reproductive toxicants, chain to promote a broader transition to safer
-processes. Since 2020, our suppliers in China have strong sensitizers and persistent bio-accumulative chemicals. See page 65 for more information
-worked under new regulations governing the use toxins (including PFAS) from cleaners and degreasers on how we’re advocating for safer cleaners and
-of materials containing volatile organic compounds used at our supplier final assembly sites. We did this degreasers across our industry.
-(VOCs). In 2023, we continued to provide additional by using globally recognized standards (such as EPA
-support for suppliers through trainings on the Safer Choice, GreenScreen Certified® and ToxFMD®)
-We’ve deployed our VOC specification worldwide, we’re also helping drive adoption of low-VOC alternatives around the world.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 63
-Apple 2030
-Resources
-Smarter Chemistry
-Innovation
-We’re continually improving on Creating new, safer We’ve led in the identification and successful Driving the creation
-the chemical safety, performance, chemistries to move the removal of potentially harmful substances since of better dyes
-the late 1990s. This process has involved rigorously
-and environmental impact industry forward Read our white paper
-assessing chemicals and removing those that In partnership with our suppliers, we’re creating dye
-about our commitment
-of materials by expanding our Our strict requirements that govern potentially don’t align with our goals — in some cases, before formulations in our anodizing processes that better
-to phasing out per-
-knowledge of material properties. harmful substances in our products and processes removal becomes a requirement and industry safeguard worker health and the environment. and polyfluoroalkyl
-Our assessments of substances encourage our manufacturing partners to also standard. We’re committed to phasing out our use The innovation challenge was to achieve the quality substances.
-prioritize safer materials, helping create a market of PFAS and engaging with all our supply chain and selection of colors that meet our rigorous
-focus on those three areas
-for better alternatives. We’re lending our expertise partners to restrict PFAS from our products and design standards while improving environmental
-of improvement and help us on safer chemistries to support our suppliers as manufacturing processes. performance. We narrowed our options to the
-pursue innovations that align they meet the growing demand for safer materials. most color-versatile and UV-stable dyes, and we
-with our values. Prioritizing these materials also means phasing out While our analysis indicates that PFAS used in our engaged with our manufacturers to develop a wide
-chemistries that don’t meet our specifications. We’ve products are safe during product use, we felt it range of colorants. These alternatives mitigate the
-approached this across our company and products was important to broaden our scope to consider risks associated with conventional dyes used in
-The work we do in mapping, assessing, and while investing in safer alternatives to drive change manufacturing along the supply chain. We’re anodizing processes, including potential workplace
-managing the chemicals used in our products across our industry. The use of safer cleaners today prioritizing our phaseout activities in applications that exposure and impact on the local environment
-and supply chain lays the foundation for material supports the circular supply chains of the future. result in the highest volumes of PFAS reductions and through discharge.
-innovations. We also look at how these materials the most meaningful environmental impact. We’re
-are used in a product life cycle, from design and Using our research and analysis of materials, pursuing our phaseout in three steps: compiling
-manufacturing to end of life. With this knowledge, we’ve collaborated with suppliers to create safer a comprehensive catalog of PFAS uses in our
-we can seek out and support the development of alternatives — including for substances where none products, identifying and developing non-PFAS
-safer chemistries, and we can continually improve currently exist. In those cases, we lend our technical alternatives that can meet our performance needs,
-the overall safety of our products and processes. capabilities in material science to work with suppliers and confirming that non-PFAS alternatives align
-to develop entirely new chemistries. We maintain the with our safety and environmental goals. We have
-same high safety, performance, and environmental created new formulations of plastics, adhesives
-standards for new alternative materials, submitting and lubricants with PFAS replaced by other existing
-them through rigorous testing and evaluation technologies in order to achieve similar performance
-to avoid regrettable substitutions. in flame resistance and friction reduction.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 64
-Apple 2030
-Resources
-Smarter Chemistry
-APPLE’S REGULATED SUBSTANCES * Every Apple product is free of PVC and
-phthalates except for AC power cords in
-India, Thailand (for 2-prong AC power cords),
-We go beyond regulatory requirements by using safer materials
-and South Korea, where we continue to seek
-government approval for our PVC and phthalates
-to protect those who make, use, and recycle our products
-replacement.
-Materials selection Manufacturing Product use Recycling
-Per- and polyfluoroalkyl substances Safer cleaners and degreasers PVC and phthalates Brominated and chlorinated
-(PFAS) We’ve eliminated the use of cleaners and We’ve replaced PVC and phthalates with flame retardants
-We proactively removed PFOA and PFOS from degreasers that contain known carcinogens, safer thermoplastic elastomers.* Phthalates We’ve replaced brominated and
-our products in 2010 and 2013, respectively, mutagens, reproductive toxicants, strong are known endocrine disruptors which are chlorinated flame retardants with safer
-far ahead of global requirements. We’ve also sensitizers and persistent bio-accumulative not bound in PVC and can leak. Both are still metal hydroxides and phosphorous
-committed to eliminating PFAS entirely from toxins (including PFAS) from cleaners and used by other companies in power cords and compounds because brominated and
-our products ahead of our industry peers. degreasers used at our supplier final assembly headphone cables. chlorinated flame retardants reduce the
-We plan to do this by developing or selecting sites. We did this by using globally recognized recyclability of plastics and limit material
-non-PFAS alternatives that do not result in standards (such as EPA Safer Choice, circularity. Incineration of waste plastics
-regrettable substitutions. GreenScreen Certified® and ToxFMD®) based containing brominated and chlorinated
-on full formulation-level (or material-level) flame retardants can release toxic
-chemical hazard assessments, because this is chemicals such as dioxins and furans.
-a more comprehensive and robust approach
-than simply eliminating individual substances
-of concern.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 65
-Apple 2030
-Resources
-Smarter Chemistry
-Advocating for safer efforts to use safer cleaners in our supply chain have access to chemical hazard data to make it easier for SAFER CLEANER JOURNEY
-alternatives across been central to our advocacy for greater industry suppliers to choose safer alternatives. In 2023,
-Our efforts to use safer cleaners in
-collaboration and instrumental to our participation we worked with ChemFORWARD to announce
-our industry
-as a founding signatory of the Toward Zero Exposure a new open resource called ChemWorks that aims our supply chain have been central to our
-Our work around smarter chemistry helps facilitate program led by the Clean Electronics Production to help others identify certified safer formulations advocacy for greater industry collaboration
-the transition to safer alternatives that are accessible Network (CEPN). For more information about to accelerate the adoption of safer cleaners and
-to others in our industry. Identifying and promoting Apple’s participation in CEPN, read our People and degreasers as we have in our own supply chain.
-the use of safer cleaners beyond Apple is a way Environment in Our Supply Chain 2024 Annual 2018 2022
-to increase the impact of safer alternatives. The Progress Report. We also supported the Responsible Business Achieved Published
-criteria we set for chemicals in materials — and Alliance (RBA) in producing a comprehensive 100% participation of final certified Safer Cleaners List
-how our suppliers use them — help establish even We collaborated with IPC, a globally recognized technical guide on responsible chemical assembly supplier sites into for industry use with ChemWorks
-more stringent standards around health and safety electronics standards-setting body, to draft and management, as well as more than 20 hours of the Safer Cleaners Program Product Registry
-across the electronics industry. We collaborate with help launch IPC-1402, Standard for Green Cleaners related training content to educate workers across
-133
-standards-setting bodies, trade associations, and Used in Electronics Manufacturing. This standard many companies about controlling occupational 2020
-added 37 additional cleaners added
-NGOs to achieve this — developing tools, standards, resulted from work over the past three years with the exposures to hazardous chemicals. Achieved
-to the Safer Cleaners list, totaling
-and mechanisms to drive the identification and Green Cleaners for Electronics Manufacturing task EPA Partner of the Year Award
-133 cleaners
-adoption of smarter chemistries throughout our group, where Apple has served as a chair working for the first time
-supply chain. with more than 20 industry partners. This new Partnered
-Established
-standard will help suppliers across the electronics with Clean Production Action (CPA)
-internal Safer Cleaners list
-We’ve focused on cleaners and degreasers, building industry select cleaners that are safer for workers to utilize Safer Cleaner criteria for
-containing 54 cleaners
-out multiple pathways to advance industry innovation and the environment. In 2022, Apple received the IPC GreenScreen certificates
-in safer cleaners. For the past five years, our final Stan Plzak Corporate Recognition Award for our work
-2021
-assembly sites have exclusively used safer cleaners on this effort and our contributions to the industry.We 2023
-Transitioned
-and degreasers, as identified by Apple or as certified continued to partner with ChemFORWARD, 175
-internal criteria to industry
-by third-party programs. This work has expanded a nonprofit organization committed to creating broad added 42 additional cleaners added
-GreenScreen® certificates
-to component manufacturers who create modules to the Safer Cleaners list, totaling
-used in the final assembly of our products. Our 96 175 cleaners
-added 42 additional cleaners
-Expanded
-added to the Safer Cleaners list,
-the Safer Cleaners Program deeper
-totaling 96 cleaners
-into the supply chain to processes
-beyond final assembly
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 66
-Approach
-Listening to a range of voices
-Achieving change together
-Supporting communities worldwide
-Amplifying through advocacy
-Collaborating with others to
-achieve clear impact across
-our environmental initiatives
-and beyond.
-Engagement
-and Advocacy
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 67
-Approach
-Engagement and Advocacy
-We develop and maintain collaborative Stakeholders Focus areas 2023 highlights
-relationships with groups working to
-Research
-address environmental challenges CA SB 253
-We collaborate with leading institutions
-— from policymakers to the stakeholders Nongovernmental organizations (NGOs) to inform research and best practices CA Climate Corporate Data
-involved in driving change day-to-day. We interact with NGOs to share resources and for environmental initiatives. Accountability Act
-gain insights on leading practices related to
-We believe deeply in our responsibility
-environmental stewardship. As part of our commitment to greenhouse
-Partnerships
-to use our global platform and influence gas emissions disclosures, we endorsed
-We collaborate with global NGOs on strategy
-to collaborate with others in support the landmark California Climate Corporate
-and program delivery.
-Data Accountability Act (CA SB 253)
-of addressing the urgent needs of our
-Industry associations to improve transparency and drive progress
-environment. We recognize that we can’t We participate in industry associations to Coalitions in the fight against climate change.
-We amplify our positions on environmental
-solve complex, global environmental better understand global and regional issues
-topics by sharing them with suppliers
-challenges alone. Collaboration with and regulations, and also to align with
-and other corporations. 34
-environmental and climate policy.
-stakeholders is required to help catalyze
-countries
-the broader systems changes needed Events & bilateral meetings
-We share our perspective with multi-sectoral
-to limit the impacts of climate change As of 2023, we’ve funded 33 grants
-leaders through participation in targeted
-across 34 countries on initiatives
-and other environmental challenges. Policymakers
-forums and direct outreach. supporting community-level
-We engage with public sector leaders to help
-environmental efforts.
-set environmental policy and craft regulations
-Direct advocacy
-consistent with our environmental objectives.
-We issue direct comments or letters
-of support, or join proceedings, on matters 42
-where Apple’s operational objectives and
-businesses
-Communities expertise can help inform environmental policy.
-We work with communities to address the Since 2021, a total of 42 Black-,
-disproportionate impacts of climate change Hispanic/Latinx-, and Indigenous-owned
-and environmental injustices. businesses have participated in the
-Impact Accelerator.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 68
-Listening to a range of voices
-We learn from diverse communities sorting mechanisms. We also continue our Green
-that are devoted to environmental Chemistry Advisory Board, an independent group
-of experts in green chemistry, green engineering,
-stewardship. We approach these
-and toxicology who advise on our Smarter
-conversations to gather learnings
-Chemistry initiatives, including updates to the RSS.
-and thoughtfully engage with those
-who bring a range of perspectives We draw from cross-sector engagement platforms
-like the Alliance for Water Stewardship (AWS)
-and understanding of the issues
-to help guide our programs and set standards for
-that matter.
-environmental efforts. The expertise of AWS defines
-the world-class water stewardship practices that
-Our conversations with stakeholders are we’ve implemented at key Apple and supplier
-fundamental to our environmental efforts. facilities, earning AWS Standard certification.
-The communities that we engage with help shape
-how we evaluate global and regional regulations, The business community — including our customers,
-approaches, and the promise of emerging suppliers, industry partners, and investors — is also
-technologies. As we implement what we’ve a source of valuable collaboration. As co-chair of
-learned, we incorporate feedback on our progress the United States Information Technology Office
-— including aligning with new standards and best (USITO) — a trade association representing the U.S.
-practices or exploring the potential impact that information and communications technology industry
-cutting-edge research can have on our operations. in China — we lead the environmental protection and
-energy efficiency working groups. In this role, we
-We consult with the scientific community to better engage with other companies in China as we work
-understand emerging approaches, technologies, to comply with new environmental regulations and
-and tools that can support our environmental with policymakers on future standards.
-goals. To enhance material recovery for Apple and
-others, we worked with Carnegie Mellon University
-researchers to create robotic recycling systems that
-have advanced product disassembly and material
-We listen to a diverse set of stakeholders to learn how to improve our approaches to environmental stewardship.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 69
-Achieving change together
-As industry leaders, we have Supply chain We also encourage our suppliers to participate
-a responsibility to influence in market and policy developments that help
-Engaging with our suppliers on our climate and
-advance responsible and sustainable supply chains.
-change — through advocating environmental goals is critical to achieving impact
-Additionally, providing resources to our suppliers
-for policy and directly engaging across our footprint. We establish requirements
-makes up a critical component of our engagement
-and methods of communication and data exchange
-with our stakeholders. We work. We’ve offered trainings, workshops,
-through specific supplier platforms, surveys, and
-participate in collective action educational materials, webinars, and connections
-programs. Each program that engages suppliers
-to external funding and support throughout the
-as the best means to address articulates our expectations and serves as the
-breadth of our supplier responsibility programs.
-urgent environmental issues. foundation for our working relationships. Within
-those programs, we build the networks and systems
-Proactively sharing our experiences To learn more about our work with our suppliers,
-required to maintain a continued engagement
-and contributing to collaborative see our People and Environment in Our Supply Chain
-process with our suppliers.
-2024 Annual Progress Report.
-efforts in our areas of focus
-and expertise help us better Some of our programs — such as the Supplier
-Code of Conduct, the Supplier Clean Energy
-realize environmental goals that Industry engagement
-Program, and the Supplier Clean Water Program
-we share with our stakeholders.
-— are models for how we communicate supplier Through partnerships and coalitions, we contribute
-performance expectations and track progress. to various industries by sharing proprietary tools and
-Through these programs, we’re setting a high standards and pursuing policy objectives that drive
-standard for factories, helping facilitate efforts to toward our shared goals. We regularly evaluate our
-decarbonize operations across our supply chain, engagement with U.S. federal trade associations.
-driving water reuse across sites, establishing As part of this process, we’re assessing relevant
-protocols to responsibly use resources in trade association positions on climate and identifying
-manufacturing operations, and more. specific areas of misalignment with our values and
-principles on climate change. We then work with
-our trade associations to identify opportunities
-to align our positions.
-Technicians from Simmitri perform maintenance on solar panels installed at Bench-Tek Solutions in Santa Clara, California. Both
-companies are alumni of the Apple Impact Accelerator.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 70
-Collaborative impact 10 percent of annual primary aluminum at or above Key partnerships and memberships
-the FMC’s definition of “near-zero emissions primary
-We make public commitments alongside our partners Stakeholder Description (Apple engagement)
-aluminum”; and to ensuring that at least 50 percent
-to clarify our support and signal the change we’re Advanced Energy United Business coalition dedicated to getting 100 percent clean energy in the U.S. (Member)
-of all aluminum procured annually is sourced from
-working to create. We’re transparent about the Aluminum Stewardship Initiative (ASI) Multistakeholder Standards and Certification organization supporting responsible sourcing within
-secondary aluminum by 2030. We’re also supporting
-progress we make against these commitments so the aluminum value chain; recently completed an audit against their Performance Standard of
-investments in forestry and carbon removal through environmental, social, and governance criteria (Member)
-that we and our partners can be accountable for
-external initiatives like the Forest Investor Club and Asia Clean Energy Coalition (ACEC) Renewable energy buyers, sellers, and financiers dedicated to improving policies for procurement of
-results. The work we do with others yields tangible
-our own Restore Fund (see page 35). renewable energy in Asia to rapidly scale up renewable energy projects (Steering group member)
-outcomes across our environmental goals — and it
-Ceres Nonprofit dedicated to taking action to stabilize the climate, protect water and natural resources, and
-encourages broader action. build a just and inclusive economy (Member of the Ceres Company Network)
-Through the Exponential Roadmap Initiative, we’re
-ChemFORWARD Science-based nonprofit working to advance safer chemistry in product design and manufacturing
-strengthening our work to transitioning our supply
-An example of these collaborative efforts is our (Co-design partner and chair of Technical Advisory Group)
-chain to 100 percent renewables, on moving towards
-participation in RE100 — an energy initiative aimed ChemSec Business Group Multinational company forum supporting leadership in progressive chemical policy advocacy and
-full circularity by improving materials and low-carbon
-at scaling zero-carbon grids. RE100 unites the effective corporate practice of sustainable chemical management (Member)
-design, and on transforming our portfolio towards
-world’s most influential businesses committed to China Association of Circular Economy (CACE) Organization operating across industries and regions in China sharing our best practices in their
-climate solutions. conferences and workshops, and partnering with the organization on advocacy efforts focused on
-transitioning their entire electricity use to renewables.
-recycling and waste (Senior member)
-As part of the Toward Zero Exposure program Clean Electronics Production Network (CEPN) Twenty-member organizations working to improve chemical safety in the electronics supply chain as
-We’re also a founding member of the First Movers part of this multistakeholder initiative (Design team member)
-with the Clean Electronics Production Network
-Coalition (FMC). This global initiative harnesses Clean Energy Buyers Association (CEBA) Community of energy buyers promoting customer-driven clean energy use (Board member, serving
-(CEPN), we’re working to address health and safety
-companies’ purchasing power to decarbonize on the Transmission Advisory Board and the Federal Working Group
-challenges in the electronics supply chain with
-seven hard-to-abate industrial sectors — which Exponential Roadmap Initiative (ERI) Accredited initiative of the UN Climate Change High-Level Champions’ Race to Zero with the purpose
-other stakeholders. We made our pledge to shift to to accelerate exponential climate action and solutions through groundbreaking projects, with the
-currently account for 30 percent of global emissions
-100 percent fiber-based packaging by 2025 with mission to halve emissions before 2030 (Member)
-according to the World Economic Forum (WEF).
-the Ellen MacArthur Foundation. And Lisa Jackson, Japan Climate Leaders’ Partnership (JCLP) Coalition of Japanese companies aligning business objectives with climate goals (Executive member)
-Through this initiative, we’ve committed to moving
-VP, Environment, Policy, and Social Initiatives, was MIT Climate & Sustainability Consortium (MCSC) Academia and industry collaboration galvanizing the business community to have an impact on
-to sustainable aviation fuel for 5 percent of our
-appointed co-chair of America is All In, a coalition in broad and intersecting environmental challenges (Industry Advisory Board member)
-passenger air travel footprint; to procuring at least
-support of climate action in the U.S. Platform for Accelerating the Circular Economy (PACE) Public-private collaboration joining global leaders in the transition to a circular economy (Board
-member)
-RE100 Global corporate renewable energy initiative committing to using 100 percent renewable energy
-(RE100 Advisory Committee member)
-Responsible Business Alliance (RBA) Industry coalition dedicated to responsible business conduct in global supply chains (Full member,
-serving on the Board of Directors and steering committee of the Responsible Minerals Initiative)
-World Business Council for Sustainable Development (WBCSD) A global community of leading businesses driving systems transformation for a better world in which
-more than 9 billion people can live well, within planetary boundaries, by mid-century (Member)
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 71
-FEATURE
-Apple 2030 policy platform
-We support climate and Policy positions • Consider the life cycle emissions of energy • Encourage policy makers, peers, and partners • Promote consistent waste regulations, that are
-environmental policy through resources and mitigation technologies, and set to center equity and justice in climate solutions harmonized across geographies, to enable efficient,
-Our Apple 2030 roadmap is intended to not only
-high-integrity mitigation standards accordingly. in the development of the new green economy, commercially viable movement of materials for
-our actions and stakeholder address the impacts of our business, but also
-so that communities most impacted by climate recovery and recycling. This includes support for
-engagement. catalyze ambitious environmental leadership globally. • Encourage research into and incentives for
-change benefit from the economic opportunities U.S. ratification of the Basel Convention.
-Strong, worldwide government actions are essential pre-commercial technologies, particularly
-in climate solutions.
-to enable the systemic policy changes the world in hard-to-decarbonize sectors. • Encourage recycled content use through the
-In 2023 we publicly supported California’s Climate needs. We’re guided by the following principles: development of high-quality secondary material
-Corporate Data Accountability Act (CA SB 253), • Support policies accelerating the decarbonization Circular economy supply, by incentives for the development and
-which requires large businesses to publicly disclose Climate and energy of the transportation sector, including the • Drive policies that include circularity as part expansion of recycling infrastructure.
-their greenhouse gas emissions. We also filed • Encourage policymakers and businesses to set development and adoption of non-fossil, of the solution, where feasible, to responsibly meet
-comments supporting the U.S. Environmental science-based targets to reduce emissions in line low-carbon, and zero-carbon alternatives for the growing demand for critical materials used • Support the development of advanced electronics
-Protection Agency’s proposed rule to reduce with the Paris Agreement and limit warming to aviation, ground transport, and maritime shipping. in electronics of all kinds. recycling facilities that can recover more types of
-emissions from existing and new fossil power plants. 1.5°C. This should include interim and long-term • Encourage policies promoting the adoption • Further improve labor, human rights, and resources at higher qualities, including materials
-that are difficult to recover or of lower value.
-targets and accountability mechanisms across of scalable technological solutions within environmental standards throughout recycled
-We’re a founding member of the Asia Clean national and sectoral decarbonization efforts. hard-to-abate sectors. and primary materials supply chains.
-Energy Coalition (ACEC) — a new coalition of key
-stakeholders in the energy transition — advocating • Enable rapid decarbonization through government- • Encourage rules for high-integrity corporate • Promote policies that maximize product longevity
-for policies that will support more corporate led policies, including comprehensive carbon measurement and disclosure of emissions along and minimize environmental impact by balancing
-procurement of renewable energy across Asian pricing and emissions mitigation programs. the entire value chain, using globally recognized design for reliability and ease of repair, while
-markets. And we serve as an executive member • Encourage the transition to renewable electricity standards and harmonized approaches. ensuring user privacy and device security
-of the Japan Climate Leaders’ Partnership (JCLP). globally, including tripling global renewables • Support carbon removal credit schemes that are protected.
-This business coalition has called for an increased capacity to 11,000 gigawatts by 2030, and set strict environmental, social, and governance • Support globally-aligned, evidence-based
-focus on the transition to renewable energy in transitioning away from electricity sources emitting standards, and that support scalable, durable and product-specific eco-design standards.
-alignment with the Paris Agreement’s 1.5° C target, more pollution, like fossil fuels (including fossil fuels natural carbon removal solutions that benefit
-decarbonizing the power sector by 2035 (to align with carbon capture). local communities. • Develop collection programs that engage
-with other G7 nations), setting an aggressive customers, protect environmental and human
-implementation plan for floating offshore wind, • Remove barriers to renewable energy • Support strong national and international policies health, and capture high volumes of electronics
-and implementing higher carbon pricing. development, and increase investment in high- that support the scale up of carbon removal, for reuse, repair, refurbishment, and recycling.
-capacity transmission, energy storage, and load including the role that corporate investment
-shaping technologies. in carbon projects play in supporting national
-carbon targets.
-• Ensure that energy consumers can access cost-
-competitive renewable energy purchase options.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 72
-KEY MILESTONES
-Apple’s climate policy advocacy
-2015 (U.S.): Apple joined the White House’s 2019 (World): Apple participated in the UN 2020 (EU): Apple called on European leaders to 2023 (Global): Apple joined the global 2023 (Asia): Apple, through engagement in
-American Business Act on Climate Pledge Environment Assembly (UNEA) and conducted increase their climate ambition to achieve targets 3xRenewables campaign calling for a tripling the ACEC, CEDI, RE100, and other initiatives,
-bilateral discussions with a number of countries to of at least 55 percent greenhouse gas emissions of global renewable energy capacity by 2030. supported the creation or improvement of
-2016 (U.S.): Apple joined Google, Microsoft, and
-advocate for policies that enable a circular economy reductions by 2030 and carbon neutrality by cost-effective renewable energy procurement
-Amazon to sign an amicus brief in support of the 2023 (U.S.): Apple submitted comments to
-and bold action on climate. 2050. The EU adopted these targets. mechanisms across several countries, including
-U.S. EPA’s Clean Power Plan (CPP). support the EPA’s proposed rule to regulate
-Korea and Vietnam.
-2019 (Vietnam): Apple urged the government 2021 (U.S.): Apple was one of the first large, greenhouse gas emissions from existing coal power
-2016 (World): Apple addressed 700 senior
-to reform the electricity market, allowing businesses public U.S. companies to call on the U.S. plants and new and existing natural gas plants. 2023 (Japan): Apple, as part of JCLP, supported
-government, business, and community leaders at
-to purchase power directly from renewable Securities and Exchange Commission to require policy statements calling for power sector
-the seventh Clean Energy Ministerial (CEM), where 2023 (U.S.): Apple supported California’s Climate
-power plants. disclosures of global greenhouse gases across decarbonization by 2035 to align with other G7
-we called for governments to put a price on carbon Corporate Data Accountability Act (SB 253),
-all emissions scopes. nations, rapidly expanding renewables, setting
-across the world to address climate change. 2018 (Japan): Apple was among the first writing a letter affirming the policy in the final
-an aggressive implementation plan for floating
-multinational companies to join the Japan Climate 2021 (Vietnam): Apple and other companies stages of negotiations.
-2017 (U.S.): Apple urged the White House to offshore wind, diminishing reliance on fossil fuels,
-Leaders’ Partnership (JCLP) vocalized support to the government of Vietnam
-remain in the Paris Agreement and take meaningful 2022 (U.S.): Apple, along with Meta and Google, and implementing higher carbon pricing. Apple also
-for an ambitious Power Development Plan (PDP)
-action on climate change. 2018 (South Korea): Apple met with government advocated for greatly expanded renewable collaborated with other renewable energy users
-prioritizing clean energy.
-officials in Korea to discuss the need for increased generation to achieve a 70 percent emissions and called for enhancing the Non-Fossil Certificate
-2017 (China): Apple hosted a roundtable with
-renewable generation and retail choice, whereby 2021 (U.S.): Apple was the first company to voice reduction in North Carolina by intervening in the (NFC) scheme to enable transparency in tracking.
-the Green Electricity Consumption Cooperative
-consumers can select their power source. support for enacting the Clean Energy Standard state’s Carbon Plan proceeding.
-Organization (GECCO).
-(CES), which would decarbonize the power grid
-2018 (China): Apple submitted formal comments 2022 (U.S.): Apple led an amicus brief supporting
-2017 (Vietnam): Apple joined other companies by 2035.
-to China’s National Development and Reform the U.S. EPA’s authority to regulate greenhouse
-urging the government of Vietnam to make VIEW
-Commission (NRDC) about the implications of draft 2022 (South Korea): Apple called for Korea’s gases from power plants.
-regulatory changes allowing businesses to policy on corporate clean energy procurement. 2030 energy plan to set a higher target for Policymakers
-procure renewable energy through direct power 2022 (U.S.): Apple filed comments to encourage
-renewable energy, to establish a more fair need to set strong
-purchase agreements. 2018 (U.S.): Apple filed comments to the U.S. more rapid integration of renewable energy to the
-EPA urging it not to repeal the CPP because of its competitive market for renewables, and to improve transmission grid, a key bottleneck to renewable science-based targets
-2018 (U.S.): Apple filed comments to the Federal importance in reducing emissions. transparency for renewable energy solutions. energy deployment. to reduce emissions
-Energy Regulatory Commission (FERC) urging it
-not to finalize a rule that would subsidize fossil fuels, 2018 (Japan): Apple filed comments with the 2022 (Japan): Apple joined a letter calling for in line with the Paris
-a level of carbon pricing that provides an incentive
-which would limit the ability of renewables Japanese government calling for the development Agreement and limit
-for emissions reduction.
-to compete in the electricity market. FERC chose of a robust and verifiable renewable energy warming to 1.5° C.
-not to finalize that rule. trading system.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 73
-Supporting communities worldwide
-Through our engagement efforts, Our work combines collaboration and philanthropic • Safer Chemistry Impact Fund: Collaborating
-we work directly with groups and contributions, which we determine based on each to design science-based, data-driven solutions
-organization’s focus and their potential to effect that will systematically eliminate hazardous
-individuals who are addressing
-change. And we recognize the importance of chemicals and replace them with verified safer
-environmental injustice in their
-community-driven leadership and thus work alternatives across sectors to improve human and
-communities. We evaluate each closely with leadership teams. environmental impacts in support of corporate
-opportunity based on the potential ESG, national and international development goals.
-In 2023, we supported community-focused
-to scale a proven environmental • Conservation International: Conservation
-environmental partnership around the world,
-approach, test or pilot an International: Supporting leadership in Afro-
-including the following organizations:
-descendant communities in Latin America with
-innovation, or take steps to improve
-economic opportunities that deliver outcomes for
-equity in communities that are • Acumen: Launching the Energy for Livelihoods
-addressing the climate and biodiversity crises.
-Accelerator, delivered by Acumen Academy,
-disproportionately impacted by
-that supported 15 early-stage companies • Gravity Water: Converting rain into safe water
-climate change and environmental
-in India committed to improving the livelihoods for schools which benefits 42,000+ community
-dangers. When we partner with of smallholder farmers and micro-entrepreneurs. members, conserves 8M+ gallons of groundwater
-another organization, our success The aim was to help build an ecosystem yearly and enhances climate resilience.
-of clean energy enterprises serving the needs
-hinges on close collaboration while • Society of Entrepreneurs and Ecology
-of low-income communities.
-focusing on our mutual objectives. Foundation: Supporting the development
-• Beyond Benign: Continuing our partnership of a certified methodology for the first blue
-to bring green chemistry and sustainable science carbon project under the resumed CCER market.
-programming to Minority-Serving Institutions
-• World Wildlife Fund: Partnering on the Nature-
-across the country and to expand the talent
-Based Solutions Origination Platform (NbS-OP)
-pool of Black, Hispanic/Latinx, and Indigenous
-— a new model of scaling up, aligning, and
-scientists trained in sustainability for global
-mobilizing public and private investments for
-high-value companies.
-high-quality nature-based solutions under
-an integrated landscape approach.
-We support community organizations focused on addressing environmental justice challenges and smarter chemistry, such as Beyond
-Benign. Photo credit: Beyond Benign, Inc.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 74
-Environment and communities In 2023, we provided grants to organizations • Karrkad Kanjdji Trust Public Fund: Supporting
-around the world engaged in a range of Traditional Owners of Warddeken and Djelk
-We know that underresourced communities bear
-environmental work, including: Indigenous Protected Areas in Australia through
-the disproportionate impacts of environmental
-their Indigenous Women Rangers program while
-challenges, so we support organizations by providing
-• Environmental Youth Alliance (EYA): Offering funding incremental conservation activities.
-grants that focus on environmental issues. Our grants
-land-based education and employment training
-have helped these organizations reduce pollution, • Lewa: Integrating sustainable water management,
-programs for underrepresented youth that center
-improve health, and increase climate resilience in climate-smart agriculture, clean energy, and
-on native plant horticulture, ecological restoration,
-underserved and low-income communities around knowledge sharing to achieve vital conservation
-land stewardship, and community leadership
-the world. And we work with these groups to outcomes for community members, small-scale
-while working to help build a more inclusive
-address the global effects of climate change and farmers and students in Northern Kenya.
-environmental movement.
-environmental hazards that traditionally impact
-• Little Village Environmental Justice Organization
-overburdened communities. • Institute for Socio-Ecological Research (ISER
-(LVEJO): Delivering environmental justice to BIPOC
-Caribe): Supporting the Puerto Rico–based Climate
-who are most impacted by industrialization and
-We’ve expanded our Strengthen Local Communities Justice Hub, which integrates environmental justice,
-climate change by building a sustainable resilient
-(SLC) grant program, which provides funding to local climate change, and sustainability and resilience
-community through the healthy development of
-organizations in regions that are under-resourced while engaging and connecting with various
-youth and families, economic justice, participatory
-in communities worldwide. communities and spaces across the Caribbean.
-democracy and self-determination.
-• Justice Outside: Providing support for the
-• Taproot Earth: Supporting efforts to build
-Network for Network Leaders Program that
-power and cultivate solutions among frontline
-impacts the outdoors, environmental education,
-communities by advancing climate justice and
-and environmental justice while working toward a
-democracy to build a world where we can all live,
-more equitable, just, and influential network model
-rest, and thrive.
-that centers the experiences and knowledge of
-Black people, Indigenous people, and other people
-of color.
-We support organizations like City Blossoms, which addresses environmental issues in underserved communities and helps children and
-youth build lifelong connections to the natural world. Photo credit: Rafael Woldeab, City Blossoms
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 75
-FEATURE
-Continuing our commitment to equity with the Impact Accelerator
-Through the Impact Accelerator, The program supports companies as they better • Post-program support — including access
-we provide access to opportunities position themselves for growth, improve their to Apple experts and networking events — through
-abilities to engage larger contracts, and expand Apple’s Supplier Success community, fostering
-for communities of color as we
-their customer base — while supporting their connections made during the program and forging
-continue our strategic work and
-commitment to the environment. The program new connections across all its generations.
-investments in environmental has also connected like-minded business leaders
-• Opportunity to attend a leading university’s
-sectors — such as renewable to create new opportunities for innovation and
-business executive leadership program focused
-to realize our shared goals.
-energy, carbon removal, recycling on supply chain and growth.
-innovation, and smarter chemistry.
-The Apple Impact Accelerator program includes:
-In 2023, our third cohort of the Impact Accelerator
-included 12 businesses at the leading edge of
-Part of our Racial Equity and Justice Initiative (REJI), • Targeted training on topics including supply environmental services and solutions. Each company
-the Apple Impact Accelerator program boosts the chain management, supplier diversity, and selected was at least 51 percent owned, operated,
-progress of participating Black-, Hispanic/Latinx-, financial and legal subjects. and controlled by a Black, Hispanic/Latinx, or
-and Indigenous-owned businesses that share our • Customized skills development opportunities, Indigenous individual and aligned closely with our
-commitment to the environment. Offering customized including communications coaching, for executives environmental strategy, including our commitment
-training and access to Apple experts, the Impact and their teams to provide the knowledge and tools to reach carbon neutrality by 2030.
-Accelerator supports businesses that have the that organizations need to succeed
-potential to drive innovation and positive outcomes as Apple suppliers.
-in our supply chain — so that together, we can work
-to support communities disproportionately impacted • Access to company-wide mentors and
-by environmental issues. subject matter experts across the business
-to help companies align their business priorities
-with Apple’s environmental goals.
-• Opportunity for participants to pitch their services
-and solutions to decision-makers and business
-leaders within Apple.
-The Impact Accelerator’s goal is to ensure that our work to protect the environment also helps advance equity and expand access
-to opportunity for communities of color.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 76
-Greenhouse gas emissions
-High quality carbon credits
-Carbon footprint by product
-Energy
-Resources
-Normalizing factors
-Data
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 77
-Data
-Greenhouse gas emissions
-We account for our carbon footprint Fiscal year Notes: 8 We retired 324,100 metric tons of carbon
-by following internationally recognized 2023 2022 2021 2020 2019 • For data on years prior to 2019, please reference credits from the Alto Mayo project in Peru and
-Chyulu Hills project in Kenya to maintain carbon
-past Environmental Progress Reports.
-standards, like the World Resources Corporate emissions Gross emissions 324,100 324,000 166,380 334,430 573,730 neutrality for our corporate emissions in fiscal
-Institute (WRI) Greenhouse Gas (GHG) (metric tons CO2e)2 Scope 1 55,200 55,200 55,200 47,430 52,730 • Totals might not add up due to rounding. y ae na dr C 2 C0 B22 s. t T anh dis a p rdro sj .ect is certified to the VCS
-1 Apple’s carbon footprint boundary is aligned
-Protocol and ISO 14040/14044.1 Natural gas, diesel, propane 35,300 39,700 40,070 39,340 40,910 with the Greenhouse Gas (GHG) Protocol 9 We retired 167,000 metric tons of carbon
-Improving the accuracy of our carbon Fleet vehicles 17,000 12,600 12,090 4,270 6,950 f mra am tee riw ao l ark n da n red l ein vc al nu td te os Ae pm pi ls es , io wn hs e t reh a dt a a tr ae i s c tore md ait is n tf aro inm c t ah re b oC nh nyu el uu t rH ai ll il ts y p foro r j oe uc rt cin o K rpe on ry aa te
-footprint is an ongoing process — as Other emissions3 2,900 2,900 3,040 3,830 4,870 available. Apple’s carbon footprint includes emissions in fiscal year 2021. This project is
-direct scope 1 emissions; indirect scope 2 certified to the VCS and CCB standards.
-we learn more, we refine our carbon Scope 2 (market-based)4 3,400 3,000 2,780 0 0 emissions from purchased electricity, steam,
-10 We retired 70,000 metrics tons of carbon credits
-models and adjust our climate heating, and cooling; and indirect scope 3
-Electricity 0 0 0 0 0 emissions from purchased goods and services, — 53,000 from the Chyulu Hills project in Kenya
-roadmap. We also regularly revisit Steam, heating, and cooling5 3,400 3,000 2,780 0 0 transportation and distribution, business travel, a inn Cd o1 l7 o,0 m0 b0 ia f .rom the Cispatá Mangrove project
-the boundary of our carbon footprint employee commute, product use, and end of life.
-as our data sources improve and our Scope 3 412,800 265,800 108,400 287,000 521,000 2 Apple is carbon neutral for corporate emissions 11 tB re ac na su ps ae re w nce y’r ,e w c eo rm em guit late rld y t ro e fa inc ec u or ua rc py ra on dd u ct
-Business travel 225,700 113,500 22,850 153,000 326,000 as of April 2020. Beginning in fiscal year 2022, life cycle assessment model and sources of
-business evolves. we’ve expanded our footprint boundary to
-Employee commute6 164,100 134,200 85,570 134,000 195,000 include scope 3 emissions associated with data. For example, last year we obtained more
-granular data summarizing in which countries
-work from home, third-party cloud services,
-Upstream impacts (scope 1) 18,300 10,600 0 0 0 electricity transmission and distribution losses, our products are sold and used, resulting in
-more granularity possible for grid emission
-Work from home (market-based) 4,700 7,500 0 0 0 and upstream impacts from scope 1 fuels. factors used in the carbon footprint of the
-3 Emissions from R&D processes and product use phase. The net result was an
-Transmission and distribution loss (market-based) N/A N/A N/A N/A N/A
-refrigerant leaks. increase in our fiscal year 2021 carbon footprint.
-Third-party cloud (market-based) 0 0 0 0 0 4 We estimate the life cycle emissions associated When using the same level of data granularity
-and model as fiscal year 2021, our product use
-with our use of renewable electricity for our
-Carbon removals greenhouse gas emissions in fiscal year 2021
-corporate facilities to be about 70,000 metric
-would have been about 2.5 percent lower.
-Corporate carbon offsets7 -471,400 -324,1008 -167,0009 -70,00010 0 tons CO2e. We do not currently account for
-these emissions in our carbon footprint, due to 12 For fiscal year 2021, we retired credits from the
-Product life Gross emissions (Scope 3) 15,570,000 20,280,000 23,020,000 22,260,000 24,460,000 the poor quality of this data. Chyulu Hills project in Kenya and purchased
-cycle emissions carbon credits from two additional projects
-Manufacturing (purchased goods and services) 9,400,000 13,400,000 16,200,000 16,100,000 18,900,000 5 Beginning in fiscal year 2021, we’re accounting
-(metric tons CO2e)11 for scope 2 emissions from the purchase of to offset a total of 500,000 metric tons of
-Product transportation (upstream and downstream) 1,500,000 1,900,000 1,750,000 1,800,000 1,400,000 district heating, chilled water, and steam. direct emissions across our value chain. The
-first project, a REDD+ coastal conservation
-Product use (use of sold products) 4,600,000 4,900,000 4,990,000 4,300,000 4,100,000 6 Beginning in fiscal year 2020, we updated project in Guatemala, protects and conserves
-our methodology for calculating emissions forests from deforestation and degradation.
-End-of-life processing 70,000 80,000 80,000 60,000 60,000
-from employee commute to reflect employees The second project aims to establish forests
-Carbon removals working from home during COVID-19. on about 46,000 hectares of barren land that
-isn’t otherwise in use across seven counties in
-Product carbon offsets -13,500 0 -500,00012 0 0 7 For a detailed breakdown of carbon offset the Guizhou province of China. Both projects
-purchases applied to our corporate footprint,
-are certified to the same high standards that
-Total gross scope 3 emissions (corporate and product) (metric tons CO2e) 15,980,000 20,545,800 23,128,400 22,550,000 24,980,000 see the carbon offsets table on the following we require for projects in the Restore Fund,
-page.
-Total gross carbon footprint (without offsets) (metric tons CO2e)13 16,100,000 20,600,000 23,200,000 22,600,000 25,100,000 including VCS and CCB standards.
-Total net carbon footprint (after applying offsets) (metric tons CO2e)12 15,600,000 20,300,000 22,530,000 22,530,000 25,100,000 13 D fou oe
-tp
-t ro
-in
-r to su dn od i nn og t, o alu wr ag yr so s es
-q
-uan ald
-t
-hn ee t
-s
-c ua mrb oo fn
-t he
-subtotals disclosed above.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 78
-Data
-High quality carbon credits
-We retired the following high-quality carbon credits toward our corporate emissions footprint for 2023.
-Project name Project description Vintage Volume retired Registry link
-(metric tons CO2e)
-Chyulu Hills The Chyulu Hills REDD+ Project (CHRP) is a multi-partner initiative designed to promote climate change mitigation and 2018 230,000 registry.verra.org/app/projectDetail/VCS/1408
-adaptation, restore biodiversity, and create alternative livelihoods under the UN scheme of Reducing Emissions from
-Deforestation and forest Degradation (REDD+). It’s located in the Tsavo-Amboseli ecosystem in southeastern Kenya and
-stretches over an area of over 410,000 hectares. Its main geographic feature is the volcanic Chyulu Hills mountain range, from
-which the project derives its name. This project presents a broad ecosystem approach, including REDD+, to provide long-term
-sustainable financing and management to maintain the ecological integrity of an iconic African landscape. The project will
-help protect a very high-value wildlife and biodiversity area while supporting the development needs of Indigenous and other
-local communities.
-Guinan The Guinan Afforestation Project is located in the Guizhou Province of China and contributes to carbon removal and local 2019, 2020, and 2021 255,000 https://registry.verra.org/app/projectDetail/VCS/2070
-sustainable development by planting trees on the barren lands. The project is planting across 46,000 ha on barren hills and
-degraded lands. The project activity aims to enhance biodiversity conservation by increasing the connectivity of forests,
-improve soil and water conservation, and generate income and job opportunities for local communities.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 79
-Data
-Carbon footprint by product
-The following tables list the carbon footprints (in kilograms) of Apple products sold as of March 9, 2024, along with select configurations.1 Note: Dashes indicate that the configuration does
-not exist.
-Storage configurations 1 Product carbon footprint data for Apple
-products are published in our Product
-iPhone Unit 64GB 128GB 256GB 512GB 1TB Environmental Reports and are accurate as
-iPhone 15 kg CO2e – 56 61 74 – of product launch. In instances where carbon
-models were developed prior to product launch,
-iPhone 15 Plus kg CO2e – 61 66 79 – we use preproduction units.
-iPhone 15 Pro kg CO2e – 66 71 83 107 2 Greenhouse gas emissions prior to applied
-high quality carbon credits are represented for
-iPhone 15 Pro Max kg CO2e – – 75 87 110 all Apple Watch models with the exception of
-stainless steel Apple Watch Series 9 paired with
-iPhone 14 kg CO2e – 61 67 83 – sport loop.
-iPhone 14 Plus kg CO2e – 68 75 91 –
-iPhone 13 kg CO2e – 64 71 83 –
-iPhone SE (3rd generation) kg CO2e 46 50 58 – –
-Storage configurations
-iPad Unit 64GB 128GB 256GB 512GB 1TB 2 TB
-iPad Pro 12.9-inch (6th generation) Wi-Fi + Cellular kg CO2e – 135 142 156 183 284
-iPad Pro 11-inch (4th generation) Wi-Fi + Cellular kg CO2e – 100 107 121 148 249
-iPad Air (5th generation) Wi-Fi + Cellular kg CO2e 80 84 92 – – –
-iPad (10th generation) Wi-Fi + Cellular kg CO2e 72 82 – – – –
-iPad (9th generation) Wi-Fi + Cellular kg CO2e 75 – 84 – – –
-iPad mini (6th generation) Wi-Fi + Cellular kg CO2e 68 71 77 90 – –
-Select product configurations
-Aluminum case with Stainless steel case Titanium case with Titanium case with
-Apple Watch2 Unit Sport Loop with Sport Loop Alpine Loop Trail Loop
-Apple Watch Ultra 2 kg CO2e – – 12 11
-Apple Watch Series 9 kg CO2e 8 29 – –
-Apple Watch SE kg CO2e 7 – – –
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 80
-Storage configurations Displays Unit
-Laptops Unit 256GB 512GB 1TB Studio Display (2022) kg CO2e 544
-16-inch MacBook Pro (2023), Apple M3 Pro chip kg CO2e – 290 – Pro Display XDR with Pro Stand kg CO2e 974
-16-inch MacBook Pro (2023), Apple M3 Max chip kg CO2e – – 348
-HomePod Unit
-15-inch MacBook Air (2024), Apple M3 chip kg CO2e 158 167 –
-14-inch MacBook Pro (2023), Apple M3 chip kg CO2e – 202 –
-HomePod (2nd generation) kg CO2e 92
-14-inch MacBook Pro (2023), Apple M3 Pro chip kg CO2e – 235 –
-HomePod mini kg CO2e 42
-14-inch MacBook Pro (2023), Apple M3 Max chip kg CO2e – – 296
-13-inch MacBook Air (2022), Apple M2 chip kg CO2e 147 171 – Apple Vision Pro Unit
-13-inch MacBook Air (2024), Apple M3 chip kg CO2e 135 144 –
-Apple Vision Pro kg CO2e 335
-Storage configurations Storage configurations
-Desktops Unit 256GB 512GB 1TB 4TB Apple TV Unit 64GB 128GB
-iMac, Two ports kg CO2e 359 – – – Apple TV 4K, Wi-Fi kg CO2e 43 –
-iMac, Four ports kg CO2e – 389 – – Apple TV 4K, Wi-Fi + Ethernet kg CO2e – 46
-Mac mini (2023), Apple M2 Pro chip kg CO2e – 150 – –
-Mac mini (2023), Apple M2 chip kg CO2e 112 126 – –
-Mac Studio (2023), Apple M2 Max kg CO2e – 290 – –
-Mac Studio (2023), Apple M2 Ultra kg CO2e – – 346 –
-Mac Pro (2023) kg CO2e – – 1,572 –
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 81
-Data
-Energy
-Fiscal year 1 Beginning in fiscal year 2021, we’re accounting
-for the purchase of district heating, chilled
-Unit 2023 2022 2021 2020 2019 water, and steam.
-Corporate facilities Electricity 2 Because energy efficiency measures have
-energy lasting benefits, energy efficiency savings
-are calculated cumulatively since 2012. All
-Total MWh 3,487,000 3,199,000 2,854,000 2,580,000 2,427,000 efficiency measures are retired based on their
-U.S. MWh 2,830,000 2,614,000 2,377,000 2,192,000 2,075,000 effective useful lifetime as documented by the
-California Energy Commission. In 2023, we
-International MWh 657,000 585,000 477,000 389,000 351,000 accounted for our expired corporate energy
-efficiency savings and reflected these changes
-Fuel for fiscal years 2019 through 2023. Due to
-the COVID-19 pandemic, corporate facilities’
-Total MWh 662,950 334,250 467,280 439,170 462,680
-energy use declined temporarily as we adjusted
-Natural gas MWh 312,490 188,630 203,010 202,360 202,340 lighting and climate controls due to shutdowns
-and reduced occupancy. These savings are
-Biogas MWh 218,780 76,280 208,620 210,820 217,140 not included in the total savings from our
-energy efficiency program initiatives. We also
-Propane liquid MWh 1,030 1,830 40 140 280
-recognize that energy use at our employees’
-Gasoline MWh 50,760 38,790 34,880 14,910 23,950 homes likely increased during this period. We
-have not accounted for this energy use because
-Diesel (other) MWh 57,030 15,610 9,780 9,610 16,450 we anticipated this impact is small relative to
-our overall energy use and we’re still evolving
-Diesel (mobile combustion) MWh 22,860 13,120 10,950 1,330 2,520
-our methodology.
-Other 3 Energy savings from supplier energy efficiency
-Steam, heating, and cooling1 MWh 45,370 19,800 22,480 0 0 improvements are reported as annualized
-numbers. Beginning in 2020, supplier energy
-Energy efficiency Corporate facilities2 savings are calculated based on the fiscal year
-instead of on a calendar-year basis.
-Electricity savings MWh/year 298,500 290,220 223,940 215,260 118,830
-4 Beginning January 1, 2018, 100 percent of the
-Fuel savings MMBtu/year 126,540 116,190 110,330 136,820 162,280 electricity we use to power our global facilities is
-sourced from renewable energy.
-Supplier facilities3
-5 Supply chain renewable electricity capacity
-Electricity savings MWh/year 2,040,000,000 1,620,425,230 1,418,825,350 1,101,440 943,890 (operational) and renewable electricity use for
-fiscal year 2021 do not include REC purchases
-Fuel savings MMBtu/year 2,281,060 2,038,930 1,047,440 752,680 25,120
-Apple made, equivalent to 0.3 GW and 500,000
-Renewable electricity Corporate facilities MWh, respectively, to address a small increase
-to its carbon footprint.
-Renewable electricity used MWh 3,489,000 3,199,000 2,854,000 2,580,000 2,430,000
-Renewable electricity percentage4 % of total energy 100 100 100 100 100
-Scope 2 emissions avoided metric tons CO2e 1,144,000 1,201,000 1,063,720 948,000 899,000
-Supply chain5
-Renewable electricity capacity (operational) GW 16.5 13.7 10.3 4.5 2.7
-Renewable electricity capacity (committed) GW 21.0 20.0 15.9 7.9 5.1
-Renewable electricity used MWh 25,500,000 23,700,000 18,100,000 11,400,000 5,700,000
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 82
-Data
-Resources
-Fiscal year 1 We define freshwater as drinking-water
-quality. The majority of our freshwater
-Unit 2023 2022 2021 2020 2019 comes from municipal sources, and
-less than 5 percent comes from onsite
-Water Corporate facilities
-groundwater sources.
-Total million gallons 1,610 1,527 1,407 1,287 1,291 2 Recycled water represents a key alternative
-Freshwater1 million gallons 1,411 1,380 1,259 1,168 1,178 water source. Our recycled water is sourced
-primarily from municipal treatment plants,
-Recycled water2 million gallons 151 142 141 113 106 with less than 5 percent coming from onsite
-treatment. Recycled water is primarily used
-Other alternative sources3 million gallons 48 5 7 5 7 for irrigation, makeup water in cooling, and
-Supply chain toilet flushing.
-3 Other alternative sources of water include
-Freshwater saved million gallons 12,700 13,000 12,300 10,800 9,300
-rainwater and recovered condensate captured
-Waste Corporate facilities onsite. Water used for construction activities
-like dust control is not included in this total and
-Landfill diversion rate % 74 71 68 70 66 represents 13 million gallons of water used in
-fiscal year 2021. Beginning with our fiscal year
-Landfilled (municipal solid waste) pounds 38,343,490 33,260,990 33,202,200 25,826,550 38,317,120
-2023 water footprint, we began allocating our
-Recycled pounds 81,781,660 78,618,250 73,489,220 63,812,300 72,338,130 Prineville data center water use, which comes
-from an Aquifer Storage and Recovery system,
-Composted pounds 14,803,510 8,726,170 4,844,960 6,302,410 10,882,120 to alternative sources to better represent the
-impact of our water use.
-Hazardous waste pounds 7,321,130 2,780,610 3,525,840 4,053,770 6,096,600
-4 Beginning in fiscal year 2022, we expanded our
-Waste to energy pounds 5,713,790 1,197,570 657,890 786,250 1,129,080 packaging goal boundary to better reflect our
-impact to include retail bags, all finished goods
-Supply chain
-boxes (including plastic content in labels and
-Waste diverted from landfill metric tons 497,000 523,000 419,000 400,000 322,000 in-box documentation), packaging sent to our
-customers as part of Apple Trade In, AppleCare
-Product packaging Packaging packaging for whole units and service modules
-footprint Total packaging4 metric tons 254,270 276,100 257,000 226,000 189,000 ( pw roit th e cth t e it ee mxc se fp roti mon e o lef cp tl ra os st tic as ti cn e de isd ce hd a rt go e ), and
-Recycled fiber % of total 62 66 63 60 59 secondary packaging of Apple products and
-accessories sold by Apple. Our goal boundary
-Responsibly sourced virgin fiber5 % of total 35 30 33 35 33 does not include the inks, coatings, or adhesives
-used in our packaging In addition to our
-Plastic % of total 3 4 4 6 8 packaging footprint.
-5 Responsible sourcing of wood fiber is defined
-in Apple’s Sustainable Fiber Specification.
-Since 2017, all the virgin wood fiber used in our
-packaging has come from responsible sources.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 83
-Data
-*
-Normalizing factors
-Fiscal year * As reported in Apple’s Form 10-K Annual Report
-filed with the SEC.
-2023 2022 2021 2020 2019
-Net sales (in millions, US$) 383,285 394,328 365,817 274,515 260,174
-Number of full-time equivalent employees 161,000 164,000 154,000 147,000 137,000
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 84
-A: Corporate facilities energy supplement
-B: Apple’s life cycle assessment methodology
-C: Assurance and review statements
-Net comprehensive carbon footprint, facilities energy,
-carbon, waste, paper, and water data (Apex)
-Product carbon footprint (Fraunhofer Institute)
-Supplier Clean Energy Program (Apex)
-Supplier Energy Efficiency Program (Apex)
-Packaging fiber and plastic footprint
-(Fraunhofer Institute)
-D: Environment, Health and Safety Policy
-E: ISO 14001 certification
-Report notes
-End notes
-Appendix
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 85
-A: Corporate facilities energy supplement
-B: Apple’s life cycle assessment methodology
-C: Assurance and review statements
-D: Environment, Health and Safety Policy
-E: ISO 14001 certification
-Report notes
-End notes
-Appendix A
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 86
-Appendix A
-Corporate facilities energy supplement
-Use of renewable energy at our facilities has been 2011 2013 2015 & 2016
-a central component of our emissions reduction Ownership and PURPA: Apple’s 100 percent equity GreenEnergy Rider: We opened a new data center Portfolio solutions: We adapted to land scarcity
-strategy since 2011. We’ve learned a lot about how ownership of our Maiden solar arrays was the first in Reno, Nevada. With no PURPA or Direct Access constraints in Singapore and Japan by contracting
-best to secure renewable energy, which has helped time a nonenergy commercial company built its own options in Nevada, we worked directly with the local for solar PV on 800 rooftops in Singapore and 300
-us educate suppliers and expand our renewable utility-scale solar PV project. We used a 1978 federal utility, NV Energy, to create a whole new regulatory in Japan. We adapted our approach in each country
-energy efforts into our supply chain. This appendix law called the Public Utility Regulatory Policies Act structure. The Nevada GreenEnergy Rider enables to fit local partnerships and regulatory structures:
-summarizes the types of renewable energy solutions (PURPA) to structure the project. We then applied us to secure a long-term, fixed-price contract for We signed a long-term agreement similar to a power
-we’ve deployed, and it details how we implement this same structure to two more large solar PV and renewable electricity from a new solar PV project purchase agreement in Singapore and made an
-renewable energy at our data centers — our largest biogas fuel cell projects in North Carolina and two built for us but managed by the utility. We’ve used equity investment in Japan. These projects offer us
-energy loads. microhydro projects in Oregon. This was a landmark this partnership to create four solar projects totaling long-term flexibility as our load grows.
-moment in corporate renewable energy development 320 megawatts.
-and led to an increased use of PURPA in these states. 2017
-How we procure 2014 Renewable microgrid: We’ve been powering Apple
-renewable energy 2012 Equity investment: We invested in two 20-megawatt Park with 100 percent renewable energy — more
-Direct Access: In California and Oregon, we’ve solar PV projects in Sichuan, China, to support than 50 percent of which is generated onsite and
-Since launching our renewable energy program in used a program called Direct Access to bypass the all our in-country retail stores, corporate offices, managed by a microgrid. The onsite generation
-2011, we’ve implemented a number of solutions to default electricity generation offered by the utilities and data storage facilities. This project represented comes from 14 megawatts of rooftop solar PV and
-procure renewable energy. Our strategy has evolved servicing our data centers in those states. Instead, the first time a commercial company created a new 4 megawatts of baseload biogas fuel cells. Any
-over time to create the most positive impact. we contracted directly with independent power large-scale project in China for its own use. We’ve additional energy required is drawn by Direct Access
-producers and electricity service providers who since replicated this model many times for Apple’s from the California Flats solar project in nearby
-could supply 100 percent renewable electricity. After supply chain. Monterey County. The microgrid system with battery
-initially buying from existing, third-party-owned storage manages the renewable energy generation
-projects, we’re now procuring renewable energy from and the building’s energy use; optimizes demand
-projects we created: The Solar Star II and Montague management, load shifting, and frequency regulation
-Wind projects deliver renewables to our Oregon data services; and ensures uninterrupted energy reliability
-center, and the California Flats solar project delivers against local grid outages.
-renewables to our data centers, offices, and retail
-stores in California.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 87
-Facilities renewable energy projects Location Renewable energy technology Size (MW) Note: Data current as of February 2024
-To reach 100 percent renewable electricity for Australia PV 0.5 (operational).
-Apple’s own facilities, Apple has helped create Brazil Wind 0.5
-1,647 MW of renewable energy around the world. The China mainland PV 195
-projects listed to the right represent Apple-created Denmark
-PV 42
-renewable energy projects that support Apple Denmark Wind 17
-facilities’ electricity use and contribute to cleaner India PV 16
-grids around the world. Operational projects apply Israel
-PV 5
-a mix of renewable energy technology, including Japan
-PV 12
-wind (22 percent), solar (78 percent), microhydro
-Mexico
-Wind 0.8
-(0.2 percent), and biogas fuel cells (0.2 percent).
-Power for Impact projects
-PV 1.2
-Rooftop solar projects
-PV 5
-This table represents all operational renewable
-Singapore
-PV 54
-energy projects that Apple has helped create.
-Taiwan
-PV 1
-Türkiye
-PV 4
-Arizona, U.S.
-PV 62
-California, U.S.
-Biogas fuel cell 4
-California, U.S.
-PV 144
-Illinois, U.S.
-Wind 112
-Nevada, U.S.
-PV 320
-North Carolina, U.S.
-PV 164
-Oregon, U.S.
-Microhydro 3
-Oregon, U.S.
-PV 125
-Oregon, U.S.
-Wind 200
-Texas, U.S.
-Wind 25
-Virginia, U.S.
-PV 134
-Total 1647
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 88
-Fiscal year 2023 energy and carbon footprint (corporate facilities) Dash indicates unavailable data.
-The table below provides a detailed breakdown of 2023 energy use, which we used to calculate our greenhouse gas emissions. N/A = Gas use at colocation facilities is considered
-outside of Apple’s operational control.
-Scope 1 x Scope 2 1 Scope 2 market-based emissions from
-purchased electricity is zero. But, we also
-Scope 2 emissions account for purchased steam, heating, and
-Total gas Renewable Scope 1 emissions (metric Electricity Renewable electricity (market-based, metric cooling, which resulted in 3,400 metric tons of
-Location (MMBtu) biogas (MMBtu) tons CO2e) (million kWh) (million kWh) tons CO2e)1 emissions in fiscal year 2023.
-Corporate 1,007,071 746,506 42,746 940 940 0
-Cupertino, CA 805,271 202,306 32,027 427 427 0
-Elk Grove, CA 10,175 0 540 14 14 0
-Austin, TX 24,826 0 1,319 113 113 0
-Other U.S. 104,718 544,200 5,562 143 143 0
-Cork, Ireland 24,219 0 1,286 16 16 0
-Singapore 518 0 28 18 18 0
-China 960 0 51 41 41 0
-Other international 36,384 0 1,933 168 168 0
-Data center 740 0 39 2,344 2,344 0
-Maiden, NC 0 0 0 453 453 0
-Mesa, AZ 524 0 28 488 488 0
-Newark, CA 0 0 0 0 0 0
-Prineville, OR 216 0 11 269 269 0
-Reno, NV 0 0 0 440 440 0
-Viborg, Denmark – – – 40 40 0
-Colocation facilities (U.S.) – – – 387 387 0
-Colocation facilities (international) – – – 96 96 0
-China – – – 171 171 0
-Retail stores 58,446 0 3,105 203 203 0
-Domestic (U.S.) 34,449 0 1,830 96 96 0
-International 23,997 0 1,275 107 107 0
-Total 1,066,257 746,506 45,890 3,199 3,199 0
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 89
-A focus on data centers Maiden, North Carolina and Duke Energy to develop new renewable energy 2 In our 2023 Environmental Progress Report,
-we stated that we operate eight data centers.
-We used over 2.3 billion kWh of electricity in 2023 projects. The five Green Source Rider projects have
-100 percent renewable since opening June 2010 For fiscal year 2023, we no longer include the
-to power our data centers and colocation facilities Between 2011 and 2015, we installed 68 megawatts a combined capacity of 22 megawatts. In 2017, Newark, CA data center as it has been sold in
-fiscal year 2022.
-around the world. We’re proud that 100 percent of Apple-created projects: two 20-megawatt we made long-term commitments to five more
-3 Emissions avoided are calculated using the GHG
-of that electricity came from renewable sources solar projects, an 18-megawatt solar project, and solar projects in North Carolina, for an additional Protocol methodology for calculating market-
-including solar, wind, biogas fuel cells, and low- 10 megawatts of biogas fuel cells. We then worked 85 megawatts of renewable energy. based emissions.
-impact hydropower. To cover our needs, we build our with the local utility, Duke Energy, to help build
-own renewable power projects and work with utilities five solar projects through its Green Source Rider The energy efficiency measures we’ve implemented
-to purchase clean energy from locally obtained program. These solar projects came online beginning at our Maiden data centers include use of outside air
-resources. We’re staying at 100 percent even as in 2015 and were Duke Energy’s first Green Source cooling through a waterside economizer during night
-Apple’s data center presence continues to grow. Rider projects to become operational. We worked and cool-weather hours, which, along with water
-with Duke Energy for several years to develop this storage, allows the chillers to be idle 75 percent
-We now operate seven data centers, and more are green energy tariff option, which allowed Apple of the time.
-being developed.2 These data centers are spread
-across North America, Europe, and Asia. Each has
-unique design features that conserve energy and
-Maiden, North Carolina: Grid mix versus. Apple-sourced renewable energy
-reflect the climate, as well as other aspects, of Electricity use in 2023: 453 million kWh
-its location. Emissions avoided in 2023: 121,00 million MT CO2e3
-Default grid mix % x Apple actual renewable energy allocation %
-Gas 43 Apple’s solar projects 88
-Nuclear 32 Apple’s wind projects 12
-Coal 11 Source: 2023 energy data.
-Renewable 10
-Hydro 4
-Source: eGRID 2022.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 90
-Prineville, Oregon Also supporting the data center are two microhydro Reno, Nevada Utility Commission of Nevada to create a green 4 Emissions avoided are calculated using the GHG
-Protocol methodology for calculating market-
-projects that harness the power of water flowing energy option open to all commercial customers,
-100 percent renewable since opening May 2012 100 percent renewable since opening based emissions.
-To support our Prineville data center, we signed a through local irrigation canals that have been December 2012 called the NV GreenEnergy Rider, that does not 5 Emissions avoided are calculated using the GHG
-200-megawatt power purchase agreement for a operating for over 60 years. To supplement these Unlike competitive energy markets where some of require the customer to fund project development Protocol methodology for calculating market-
-based emissions.
-new Oregon wind farm, the Montague Wind Power projects, we executed a long-term purchase our data centers are located, the regulated electricity up front. Thanks to this new option, in 2015 we
-Facility, which entered commercial operation at the agreement for all environmental attributes from supply in Nevada did not offer a simple solution for us announced our second Nevada solar project,
-end of 2019. a 69-megawatt portfolio of eight solar projects to create new renewable energy projects dedicated the 50-megawatt Boulder Solar II project. This
-in Oregon. to our data center. In 2013, we created a partnership project came online in 2017. We‘ve utilized the NV
-This is in addition to our power purchase agreement with the local utility, NV Energy, to develop the Fort GreenEnergy Rider program to create two additional
-for the 56-megawatt Solar Star Oregon II project Our Prineville data center takes advantage of the cool Churchill Solar project. Apple designed, financed, projects: the 200-megawatt Techren II solar project,
-located just a few miles from our data center. This and dry climate by cooling its servers with outside and constructed the project. NV Energy owns and online in 2019, and the 50-megawatt Turquoise
-solar PV project came online and began supporting air whenever possible. Indirect evaporative cooling operates the facility and directs all the renewable Project, online in 2020.
-the data center in 2017. To strengthen the connection is enabled when the outside air temperature gets too energy it produces to our data center. The nearly
-between Apple and these projects, we use Oregon’s high to cool the servers with outside air alone. 20-megawatt Fort Churchill Solar project was Like in Prineville, our Reno data center takes
-Direct Access program to supply the renewable based on a unique tracker with curved mirrors that advantage of the mild climate by cooling its servers
-energy from these projects directly to our data center. concentrate sunlight onto photovoltaic cells. with outside air whenever possible. When the outside
-air is too warm to cool the servers alone, it draws
-To facilitate further renewable development in from indirect evaporative cooling.
-Nevada, Apple worked with NV Energy and the Public
-Prineville, Oregon: Grid mix versus Apple-sourced renewable energy Reno, Nevada: Grid mix versus Apple-sourced renewable energy
-Electricity use in 2023: 269 million kWh Electricity use in 2023: 440 million kWh
-Emissions avoided in 2023: 79,800 million CO2e4 Emissions avoided in 2023: 130,600 million MT CO2e5
-Default grid mix % x Apple actual renewable energy allocation % Default grid mix % x Apple actual renewable energy allocation %
-Hydro 51 Apple’s solar projects 38 Gas 59 Apple’s solar projects (NV GreenEnergy Rider program) 100
-Gas 31 Apple’s wind projects 60 Renewable 30 Source: 2023 energy data.
-Renewable 18 Apple’s microhydro projects 2 Coal 7
-Source: eGrid 2022. Source: 2023 energy data. Hydro 4
-Source: eGRID 2022.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 91
-Mesa, Arizona We began to explore onsite solar options at the Denmark online in late 2020. We’ve secured long-term supply 6 Apple took operational control of the building in
-October 2015 and converted it to a data center
-100 percent renewable since opening March 20176 data center and determined that we could provide 100 percent renewable energy from the first day contracts with both Danish renewable projects, which that began servicing customers in March 2017.
-Our global command data center in Mesa, Arizona, valuable shaded parking that paid for itself through of operations will scale up as our data center loads grow. 7 Emissions avoided are calculated using the GHG
-came online in 2016. To support this facility, we energy bill reductions while adding to our renewable Our data center came online in 2020. The data P baro st eo dc o el m m ise st ih oo nd so .logy for calculating market-
-partnered with the local utility, Salt River Project energy portfolio. The resulting PV facility includes center’s construction phase was powered with The power system design at the data center is based 8 Emissions avoided are calculated using the GHG
-(SRP), to build the 50-megawatt Bonnybrooke solar five elevated parking canopies and three ground- 100 percent wind energy from a local renewable on a resilient substation that eliminates the need for Protocol methodology for calculating market-
-based emissions.
-project, which became operational in January 2017. mounted arrays, for a total generating capacity of energy retailer in Denmark. Our Northern Jutland backup diesel generators. This reduces the carbon
-4.67 MW. The onsite PV system began commercial PV project achieved commercial operation in late footprint of the data center and completely eliminates
-As the Mesa data center grew, it became apparent operation in March 2019. 2019, will meet all the data center’s near-term energy the need for large diesel fuel storage systems and
-that we needed additional sources of renewable needs, and at 42 megawatts, is one of Denmark’s diesel engine emissions that would impact the
-energy to maintain our 100 percent renewable largest solar power plants. Our second renewable local community.
-electricity goal. project in Denmark, a 17 MW wind project, also came
-Mesa, Arizona: Grid mix versus Apple-sourced renewable energy Denmark: Grid mix versus Apple-sourced renewable energy
-Electricity use in 2023: 488 million kWh Electricity use in 2023: 40 million kWh
-Emissions avoided in 2023: 181,500 million MT CO2e7 Emissions avoided in 2023: 22,000 million MT CO2e8
-Default grid mix % x Apple actual renewable energy allocation % Default grid mix % Apple actual renewable energy allocation %
-Gas 43 Apple’s solar projects 82 Renewable 62 Apple’s wind and solar projects 100
-Nuclear 31 Apple’s wind projects 18 Hydro 20 Source: 2023 energy data.
-Coal 13 Source: 2023 energy data. Coal 8
-Hydro 5 Gas 5
-Renewable 9 Nuclear 4
-Source: eGRID 2022. Other 1
-Note: Total doesn’t add up to 100 percent due to rounding. Source: Energinet. https://energinet.dk/data-om-energi/deklarationer-
-og-csr/lokationsbaseret-deklaration-miljodeklaration/.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 92
-China 9 Emissions avoided are calculated using the GHG
-Protocol methodology for calculating market-
-100 percent renewable energy from the first day based emissions.
-of operations
-To cover the electricity load at our two data centers
-in China, we secured long term agreements with solar
-and wind projects in China — both operational.
-As the data centers further expand, we’ll continue
-to source renewable electricity in-country to support
-the growth with renewable electricity.
-China: Grid mix versus Apple-sourced renewable energy
-Electricity use in 2023: 171 million kWh
-Emissions avoided in 2023: 105,000 million kWh9
-Default grid mix % x Apple actual renewable energy allocation %
-Coal 63 Apple’s solar projects 50
-Hydro 17 Apple’s wind projects 50
-Renewable 11 Source: 2023 energy data.
-Nuclear 5
-Gas 3
-Source: IEA Electricity Information 2022, www.iea.org/data-and-
-statistics/data-product/electricity-information.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 93
-Our colocation facilities Apple’s emissions – 10 We calculate default utility emissions to
-The majority of our online services are provided Total energy Renewable Default utility emissions including renewable energy Percent renewable provide baseline emissions of what our carbon
-use (kWh) energy (kWh) (metric tons CO2e)10 (metric tons CO2e)11 energy (%)12 footprint would have been without the use of
-by our own data centers; however, we also use renewable energy. This allows us to demonstrate
-FY 2011 42,500 0 10 10 0 the savings resulting from our renewable
-third-party colocation facilities for additional data energy program.
-FY 2012 38,552,300 1,471,680 17,200 16,500 4
-center capacity. While we don’t own these shared 11 Apple’s greenhouse gas emissions are
-facilities and use only a portion of their total capacity, FY 2013 79,462,900 46,966,900 31,800 14,500 59 calculated using the World Resources Institute
-Greenhouse Gas Protocol methodology for
-we include our portion of their energy use in our FY 2014 108,659,700 88,553,400 44,300 11,000 81 calculating market-based emissions.
-renewable energy goals. FY 2015 142,615,000 121,086,100 60,500 12,700 85 12 We calculate our progress toward our
-FY 201613 145,520,900 143,083,200 66,300 1,600 98 100 percent renewable energy goal on a
-calendar-year basis, while the numbers
-Starting in January 2018, 100 percent of our power FY 2017 289,195,800 286,378,100 125,600 1,500 99 reported in this table are based on fiscal year.
-Beginning January 1, 2018, all the electricity use
-for colocation facilities was matched with renewable FY 2018 327,663,800 326,959,700 146,600 400 100 at our colocation facilities is from 100 percent
-renewable energy.
-energy generated within the same country or regional FY 2019 339,047,649 339,047,649 146,400 0 100
-13 Over the past few years, we’ve been installing
-grid. As our loads grow over time, we’ll continue FY 2020 372,901,398 372,901,398 153,459 0 100 submeters in colocation facilities to better track
-working with our colocation suppliers to match FY 2021 384,727,076 384,727,076 146,780 0 100 electricity usage. Beginning in fiscal year 2016,
-we started reporting this submetered electricity
-100 percent of our energy use with renewables. FY 2022 487,921,930 487,921,930 182,700 0 100 usage. Prior to fiscal year 2016, reported
-electricity usage was conservatively estimated
-FY 2023 483,299,062 483,299,062 186,141 0 100 based on maximum contract capacity quantities.
-Third-party computing We’ve updated our fiscal year 2016 colocation
-facilities footprint to more accurately reflect
-Beyond the use of our own data centers and
-Apple’s operational boundaries. Per the GHG
-colocation facilities, we also use third-party services Protocol, we’ve removed from our electricity
-usage and scope 2 calculations those emissions
-to support some of our on-demand cloud computing associated with colocation facility cooling and
-and storage services. As of 2023 , all the electricity building operations.
-associated with Apple’s load at our third-party
-computing vendors is matched with 100 percent
-clean energy.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 94
-A: Corporate facilities energy supplement
-B: Apple’s life cycle assessment methodology
-C: Assurance and review statements
-D: Environment, Health and Safety Policy
-E: ISO 14001 certification
-Report notes
-End notes
-Appendix B
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 95
-Appendix B
-Apple’s life cycle assessment methodology
-When conducting a product life cycle assessment PRODUCT LCA PROCESS
-(LCA), we calculate greenhouse gas emissions using
-How Apple conducts our product greenhouse gas life cycle assessment
-the 100-year time horizon global warming potentials
-(GWP100) from the 2023 IPCC Sixth Assessment
-Report (AR6),1 including biogenic carbon.
-There is inherent uncertainty in modeling greenhouse
-To model the To model transportation To model customer use To model end of life Putting it all together
-gas emissions due primarily to data limitations.
-manufacturing phase
-For the top component contributors to Apple’s
-We use data collected on shipments We measure the power consumed We use material composition data After we collect data about
-greenhouse gas emissions, Apple addresses
-We use part-by-part measurements of single products and multipack units by a product while it is running in a on our products and estimate the manufacturing, use, transportation,
-this uncertainty by developing detailed process-
-of the entire product along with data by land, sea, and air. We account simulated scenario. Daily usage patterns ratio of products that are sent to and end of life, we combine it with
-based environmental models with Apple-specific
-on part production. In some cases for transporting materials between are specific to each product and are a recycling or disposal. For products detailed greenhouse gas emission
-parameters. For the remaining elements of Apple’s
-where part-by-part data is not readily manufacturing sites; transporting mixture of actual and modeled customer sent to recycling, we capture the data. This emission data is based
-carbon footprint, we rely on industry average data
-available, we also use design-level products from manufacturing sites to use data. For the purposes of our initial processing by the recycler to on a combination of Apple-specific
-and assumptions.
-data for size and weight detail. The regional distribution hubs; transporting assessment, years of use, which are prepare the product for recovery and industry-average data sets for
-measurements help us accurately products from regional distribution based on first owners, are modeled to of electronic, metal, plastic, and material production, manufacturing
-The following details the five steps we use
-determine the size and weight of the hubs to individual customers; and be four years for macOS, visionOS, and glass material streams. Subsequent processes, electricity generation, and
-to conduct our LCA:
-components and materials in the transporting products from final tvOS devices and three years for iOS, downstream recycling processes are transportation. Renewable energy
-product, while data on manufacturing customers to recycling facilities. iPadOS, and watchOS devices. Most not included, as these are considered used in the supply chain, initiated by
-processes and yield loss during Apple products last longer and are often stages of production and not end-of- suppliers independently or through
-production allows us to account for passed along, resold, or returned to life processing. For products sent to the Apple Supplier Clean Energy
-the impact of manufacturing. The LCA Apple by the first owner for others to disposal, we capture the emissions Program, is also accounted for within
-includes accessories and packaging, use. More information on our product associated with landfilling or the LCA model. Combining product-
-as well as decreased emissions energy use is provided in our Product incineration of each type of material. specific information with emission
-through Apple’s Supplier Clean Energy Environmental Reports. data in our LCA allows us to compile
-Program. When calculating Apple’s detailed results for greenhouse gas
-comprehensive carbon footprint, we emissions as they relate to each
-also include units that are repaired and product. The data and modeling
-replaced through AppleCare. approaches are checked for quality
-and accuracy by the Fraunhofer
-Institute in Germany.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 96
-A: Corporate facilities energy supplement
-B: Apple’s life cycle assessment methodology
-C: Assurance and review statements
-Net comprehensive carbon footprint, facilities energy,
-carbon, waste, paper, and water data (Apex)
-Product carbon footprint (Fraunhofer Institute)
-Supplier Clean Energy Program (Apex)
-Supplier Energy Efficiency Program (Apex)
-Packaging fiber and plastic footprint
-(Fraunhofer Institute)
-D: Environment, Health and Safety Policy
-E: ISO 14001 certification
-Report notes
-End notes
-Appendix C
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 97
-INDEPENDENT ASSURANCE STATEMENT
-The work was planned and carried out to provide reasonable assurance for the following indicators, and
-Appendix C
-we believe it provides an appropriate basis for our conclusions:
-To: The Stakeholders of Apple Inc. • Energy: Direct (Million Therms) and Indirect (Million kilowatt hours (mkWh))
-Net comprehensive • Renewable Energy (mkWh)
-• Water Withdrawal (Million Gallons)
-Introduction and objectives of work • Greenhouse Gas (GHG) Emissions: Direct Scope 1 emissions by weight, Indirect
-Scope 2 emissions by weight (Metric Tonnes of Carbon Dioxide equivalent)
-carbon footprint, Apex Companies, LLC (Apex) was engaged by Apple Inc. (Apple) to conduct an independent assurance of select • Paper Quantities (Metric Tonnes)
-environmental data reported in its 2023 environmental report (the Report). This assurance statement applies to
-the related information included within the scope of work described below. The intended users of the assurance
-The work was planned and carried out to provide limited assurance for the following indicators, and we
-statement are the stakeholders of Apple. The overall aim of this process is to provide assurance to Apple’s
-stakeholders on the accuracy, reliability and objectivity of Subject Matter included in the Report. believe it provides an appropriate basis for our conclusions:
-facilities energy,
-This information and its presentation in the Report are the sole responsibility of the management of Apple. Apex • Greenhouse Gas (GHG) Emissions: Indirect Scope 3 emissions by weight (Purchased
-was not involved in the collection of the information or the drafting of the Report. Goods and Services, Fuel and Energy-Related Activities, Employee Commuting and
-Business Travel) (Metric Tonnes of Carbon Dioxide equivalent)
-carbon, waste, Scope of Work • Apple Comprehensive Carbon Footprint
-• Waste Quantities and Disposition (Metric Tonnes)
-Apple requested Apex to include in its independent review the following (Subject Matter):
-Our Findings
-paper, and water ▪ Assurance of select environmental data and information included in the Report for the fiscal
-year 2023 reporting period (September 25, 2022 through September 30, 2023), specifically, in Apex verified the following indicators for Apple’s Fiscal Year 2022 reporting period (September 25, 2022
-accordance with Apple’s definitions and World Resources Institute (WRI)/World Business through September 30, 2023):
-Council for Sustainable Development (WBCSD) Greenhouse Gas Protocol:
-data (Apex) o Energy: Direct (Million Therms) and Indirect (Million kilowatt hours (mkWh))
-o Renewable Energy (mkWh) Parameter Quantity Units Boundary / Protocol
-o Water Withdrawal (Million Gallons)
-o Greenhouse Gas (GHG) Emissions: Direct Scope 1 emissions by weight, Indirect Scope 2 Natural Gas Consumption 1,066,300 Metric million British Worldwide occupied
-emissions by weight, Indirect Scope 3 emissions by weight (Purchased Goods and thermal unit properties / Apple Internal
-Services, Fuel and Energy Related Activities, Employee Commute and Business Travel) Protocol
-(Metric Tonnes of Carbon Dioxide equivalent)
-o o A Wp ap sl te e C Qo um ap nr tie tih ee sn as niv de D C isa prb oo sn it ioF no o (Mtp eri tn rt ic Tonnes) Electricity Consumption 3,500 M hoil uli ro sn ( k mil ko Wwa ht )t PW pr roo opr tl oed crw otii e ld se /o Ac pc pu lp ei e Ind t ernal
-o Paper Quantities (Metric Tonnes)
-Renewable Energy 3,500 Million kilowatt Worldwide / Invoiced
-hours (mkWh) quantities & self-generated
-Excluded from the scope of our work is any assurance of information relating to:
-Scope 1 GHG Emissions 55,200 Metric tonnes of Worldwide occupied
-▪ Text or other written statements associated with the Report carbon dioxide properties / WRI/WBCSD
-▪ Activities outside the defined assurance period equivalent (tCO2e) GHG Protocol
-Assessment Standards
-S (Lc oo cp ae
-ti
-o2
-n
-G -BH aG
-se
-E dm
-)
-issions 1,206,700 tCO2e W proo prl ed rw tii ed se /o Wcc Ru Ip /Wied
-B CSD
-GHG Protocol
-Our work was conducted against Apex’s standard procedures and guidelines for external Verification
-of Sustainability Reports, based on current best practice in independent assurance. Apex procedures Scope 2 GHG Emissions 3,400 tCO2e Worldwide occupied
-are based on principles and methods described in the International Standard on Assurance (Market-Based) properties / WRI/WBCSD
-Engagements (ISAE) 3000 Revised, Assurance Engagements Other than Audits or Reviews of GHG Protocol
-Historical Financial Information (effective for assurance reports dated on or after Dec. 15, 2015), issued
-by the International Auditing and Assurance Standards Board and ISO 14064-3: Greenhouse gases -- Scope 3 Transmission and 0 tCO2e Worldwide occupied
-Distribution Loses (Market- properties / WRI/WBCSD
-Part 3: Specification with guidance for the validation and verification of greenhouse gas statements. Based) GHG Protocol Value Chain
-(Scope 3)
-Methodology
-Scope 3 GHG Emissions – 18,300 tCO2e Worldwide occupied
-Apex undertook the following activities: U Acp ts ivtr ie tiea sm Fuel-Related p Gr Hop Ge r Pti re os to / c W olR VI a/W luB e C CS hD ai n
-(Scope 3)
-1. Site visits to Apple facilities in Rialto, California and Battersea, United Kingdom;
-2. Interviews with relevant personnel of Apple; Scope 3 GHG Emissions – 225,700 tCO2e Worldwide occupied
-3. Review of internal and external documentary evidence produced by Apple; Business Travel properties / WRI/WBCSD
-4. Audit of environmental performance data presented in the Report, including a detailed review GHG Protocol Value Chain
-(Scope 3)
-of a sample of data against source data; and
-5. Review of Apple information systems for collection, aggregation, analysis and internal
-verification and review of environmental data.
-Apex Companies, LLC Page 2 of 5
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 98
-Scope 3 GHG Emissions – 164,100 tCO2e Worldwide occupied Comprehensive Carbon Footprint (Market Based)
-Employee Commute properties / WRI/WBCSD
-(G SH coG
-p
-P
-e
-r 3o )t ocol Value Chain C (Mo arp rko era t-t Be
-a
-G seH dG
-)1
-E missions 471,400 tCO2e W proo prl ed rw tii ed se /o Wcc Ru Ip /Wied
-B CSD
-GHG Protocol
-Scope 3 GHG Emissions - 20,600 tCO2e Worldwide occupied
-W (Eo mrk p loF yro em e CH oo mm me uE tm e)i ssions p Gr Hop Ge r Pti re os to / c W olR VI a/W luB e C CS hD ai n Product Use2 4,600,000 tCO2e Worldwide occupied
-(Location-Based) (Scope 3) properties / WRI/WBCSD
-GHG Protocol
-S Wc oo rp ke F 3 ro G mH HG o mEm e i Ess mio isn ss i o– n s 4,700 tCO2e W proo prl ed rw tii ed se /o Wcc Ru Ip /Wied B CSD Manufacturing3 9,400,000 tCO2e Worldwide occupied
-(Employee Commute) GHG Protocol Value Chain properties / WRI/WBCSD
-(Market-Based) (Scope 3) GHG Protocol
-S Oc tho ep re
-C
-3
-l
-oG uH
-d
-G
-S
-eE rm vicis es sio ns - 0 tCO2e W proo prl ed rw tii ed se /o Wcc Ru Ip /Wied
-B CSD
-Transportation4 1,500,000 tCO2e W proo prl ed rw tii ed se /o Wcc Ru Ip /Wied
-B CSD
-(Purchased Goods and GHG Protocol Value Chain GHG Protocol
-Services) (Market-Based) (Scope 3)
-Recycling4 70,000 tCO2e Worldwide occupied
-Water Withdrawal 1600 Million gallons Worldwide occupied properties / WRI/WBCSD
-properties / Apple Internal GHG Protocol
-Protocol
-Comprehensive Carbon 16,100,000 tCO2e Worldwide occupied
-Water Discharge 900 Million gallons Worldwide occupied Footprint5 properties / WRI/WBCSD
-properties / Apple Internal GHG Protocol
-Protocol
-Trash Disposed in Landfill 17,400 Metric tonnes Worldwide occupied
-properties / Apple Internal Parameter Quantity Units Boundary / Protocol
-Protocol
-Hazardous Waste 3,300 Metric tonnes Worldwide occupied
-Carbon Removals 485,000 tCO2e W proo prl ed rw tii ed se /o Wcc Ru Ip /Wied
-B CSD
-(Regulated waste) properties / Apple Internal GHG Protocol Value Chain
-Protocol
-Recycled Material (Removal 37,000 Metric tonnes Worldwide occupied
-Net Footprint6 15,600,000 tCO2e W proo prl ed rw tii ed se /o Wcc Ru Ip /Wied
-B CSD
-by recycling contractor) properties / Apple Internal GHG Protocol Value Chain
-Protocol
-Composted Material 6,700 Metric tonnes Worldwide occupied
-properties / Apple Internal 1. Corporate GHG Emissions = Scope 1 GHG Emissions + Scope 2 (Market-Based) GHG Emissions + Scope 3 GHG Emissions
-Protocol 2. mPr eo td riu cc tt o U nns ee s e rm edis us cio tin os n .( 4.65 million metric tonnes) reportedly verified by another third-party provider. Apex verified 0.05 million
-3. Manufacturing emissions (27.92 million metric tonnes) not verified by Apex - reportedly verified by another third-party provider -
-Waste to Energy 2,600 Metric tonnes Worldwide occupied CEP emissions reductions (18.51 million metric tonnes).
-properties / Apple Internal 4. Not Verified by Apex. Reportedly verified by another third-party provider.
-. Protocol 5 6. . C No em t Fp ore oh tpe rn ins ti =v e G C roa sr sb o Cn a F rbo oo ntp Fri on ot t= p rC ino t r –p o Cr aa rte bo G nH RG e mEm ovis as lsio ns + Product Use + Manufacturing + Transportation + Recycling
-C&D Landfilled 3,200 Metric tonnes Worldwide occupied
-Ppr ro op toe cr otie
-l
-s / Apple Internal
-Our Conclusion
-C&D Recycled 23,600 Metric tonnes Worldwide occupied Based on the assurance process and procedures conducted regarding the Subject Matter, we conclude
-properties / Apple Internal that:
-Protocol • The Energy, Water, Paper, and Scope 1, Scope 2, Scope 3 (Business Travel & Employee
-Commute) GHG Emissions assertions shown above are materially correct and are a fair
-Paper Used 1,100 Metric tonnes Worldwide occupied representation of the data and information;
-properties / Apple Internal
-Protocol • There is no evidence that the Scope 3 (Business Travel, Employee Commute Work From
-Home, Other Cloud Services, and Fuel and Energy Related Activities) GHG emissions, Waste,
-Product end use avoided 48,800 tCO2e Worldwide occupied and Comprehensive Carbon Footprint assertions shown above are not materially correct and
-emissions properties / WRI/WBCSD are not a fair representation of the data and information;
-(G SH coG p P e r 3o )t ocol Value Chain • Apple has established appropriate systems for the collection, aggregation and analysis of
-relevant environmental information, and has implemented underlying internal assurance
-practices that provide a reasonable degree of confidence that such information is complete and
-accurate.
-Apex Companies, LLC Page 3 of 5 Apex Companies, LLC Page 4 of 5
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 99
-Statement of independence, integrity and competence
-Apex has implemented a Code of Ethics across the business to maintain high ethical standards among
-staff in their day to day business activities. We are particularly vigilant in the prevention of conflicts of
-interest.
-No member of the assurance team has a business relationship with Apple, its Directors or Managers
-beyond that required of this assignment. We have conducted this verification independently, and there
-has been no conflict of interest.
-The assurance team has extensive experience in conducting verification and assurance over
-environmental, social, ethical and health and safety information, systems and processes, has over 30
-years combined experience in this field and an excellent understanding of Apex standard methodology
-for the Assurance of Sustainability Reports.
-Attestation:
-Trevor Donaghu, Lead Verifier Mary E. Armstrong-Friberg, Technical Reviewer
-ESG Director, National Practice Lead ESG Program Manager
-Apex Companies, LLC Apex Companies, LLC
-April 11, 2024
-Apex Companies, LLC Page 5 of 5
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 100
-Appendix C
-Product carbon
-footprint
-(Fraunhofer
-Institute)
-2023 27.92 1.50 4.65 0.07 34.14
-
-
-
- 
-
-
-
-
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 101
-o
-o
-o
-
-
-
-
-
-
-
-
-www.linkedin.com/in/karsten-schischke
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 102
-
-
-
-
-
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 103
-INDEPENDENT ASSURANCE STATEMENT
-The work was planned and carried out to provide limited assurance for all indicators and we believe it
-Appendix C
-provides an appropriate basis for our conclusions.
-To: The Stakeholders of Apple Inc.
-Supplier Clean Our Findings
-Introduction and objectives of work
-Apex verified the following indicators for Apple’s Fiscal Year 2023 reporting period (September 25, 2022
-Apex Companies, LLC (Apex) was engaged by Apple Inc. (Apple) to conduct an independent assurance through September 30, 2023):
-of its Supplier Clean Energy Program data reported in its 2023 environmental report (the Report). This
-Energy Program
-assurance statement applies to the related information included within the scope of work described
-below. The intended users of the assurance statement are the stakeholders of Apple. The overall aim Parameter Quantity Units Boundary / Protocol
-of this process is to provide assurance to Apple’s stakeholders on the accuracy, reliability and objectivity
-Clean Energy Use 25.54 Million megawatt Apple suppliers / Apple
-(Apex) of select information included in the Report. hours (mMWh) Internal Protocol
-This information and its presentation in the Report are the sole responsibility of the management of Avoided GHG Emissions 18.51 Million metric tons Apple suppliers / Apple
-Apple. Apex was not involved in the collection of the information or the drafting of the Report. of carbon dioxide Internal Protocol
-equivalent
-(mMtCO2e)
-Scope of Work Operational Capacity 16,552 Megawatts (MWac) Apple suppliers / Apple
-Internal Protocol
-Apple requested Apex to include in its independent review the following:
-▪ Methodology for tracking and verifying supplier clean energy contributions, including the Energy Our Conclusion
-Survey, Renewable Energy Agreement, and other forms of supporting documentation provided
-by suppliers where available. Based on the assurance process and procedures conducted, we conclude that:
-▪ Assurance of Clean Energy Program data and information for the fiscal year 2023 reporting • Nothing has come to our attention to indicate that the reviewed Clean Energy Use, Avoided
-period (September 25, 2022 through September 30, 2023), specifically, in accordance with GHG Emissions, and Operational Capacity assertions within the scope of our verification are
-Apple’s definitions: inaccurate and the information included therein is not fairly stated and have not been prepared
-in accordance with Apple’s stated protocols for the Supplier Clean Energy Program; and
-o PE rn oe gr rg ay m - fR ore sp uo prt pe ld ie m rse ; gawatt-hours (MWh) of clean energy attributed to the Clean Energy • Apple has established appropriate systems for the collection, aggregation and analysis of
-relevant environmental information, and has implemented underlying internal assurance
-o Avoided Greenhouse Gas (GHG) emissions associated with clean energy attributed to the practices that provide a reasonable degree of confidence that such information is complete and
-Clean Energy Program; accurate.
-o Operational Capacity in megawatts (MWac) of clean energy in support of Apple
-manufacturing as a part of Apple’s Supplier Clean Energy Program;
-Statement of independence, integrity and competence
-o Appropriateness and robustness of underlying reporting systems and processes, used to
-collect, analyze, and review the information reported. Apex has implemented a Code of Ethics across the business to maintain high ethical standards among
-staff in their day-to-day business activities. We are particularly vigilant in the prevention of conflicts of
-Excluded from the scope of our work is any assurance of information relating to:
-interest.
-▪ Text or other written statements associated with the Report
-No member of the assurance team has a business relationship with Apple, its Directors or Managers
-▪ Activities outside the defined assurance period beyond that required of this assignment. We have conducted this verification independently, and there
-has been no conflict of interest.
-The assurance team has extensive experience in conducting verification and assurance over
-Assessment Standards environmental, social, ethical and health and safety information, systems and processes, has over 30
-Our work was conducted against Apex’s standard procedures and guidelines for external Verification years combined experience in this field and an excellent understanding of Apex standard methodology
-of Sustainability Reports, based on current best practice in independent assurance. Apex procedures for the Assurance of Sustainability Reports.
-are based on principles and methods described in the International Standard on Assurance
-Engagements (ISAE) 3000 Revised, Assurance Engagements Other than Audits or Reviews of Attestation:
-Historical Financial Information (effective for assurance reports dated on or after Dec. 15, 2015), issued
-by the International Auditing and Assurance Standards Board and ISO 14064-3: Greenhouse gases --
-Part 3: Specification with guidance for the validation and verification of greenhouse gas statements.
-Trevor Donaghu, Lead Verifier David Reilly, Technical Reviewer
-Methodology
-ESG Director, National Practice Lead ESG Principal Consultant
-1. Interviews with relevant personnel of Apple; Apex Companies, LLC Apex Companies, LLC
-2. Review of internal and external documentary evidence produced by Apple;
-March 8, 2024
-3. Audit of environmental performance data presented in the Report, including a detailed review
-of a sample of data against source data; and
-4. Review of Apple information systems for collection, aggregation, analysis and internal
-verification and review of environmental data.
-Apex Companies, LLC
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 104
-Appendix C
-The work was planned and carried out to provide limited, rather than reasonable assurance
-and we believe it provides an appropriate basis for our conclusions.
-INDEPENDENT ASSURANCE STATEMENT
-Supplier Energy Our Findings
-To: The Stakeholders of Apple Inc.
-Apex verified Avoided Greenhouse Gas emissions for the fiscal year 2023 reporting period:
-Introduction and objectives of work Period Quantity Units Boundary / Protocol
-Efficiency Program
-Apex Companies, LLC (Apex) was engaged by Apple Inc. (Apple) to conduct an independent FY2023 1.69 Million metric tons Apple suppliers / Apple
-assurance of its Supplier Energy Efficiency Program data. This assurance statement applies (9/25/2022 - 9/30/2023) of carbon dioxide Internal Protocol
-equivalent
-to the related information included within the scope of work described below. The intended
-(Apex) users of the assurance statement are the stakeholders of Apple. The overall aim of this process
-is to provide assurance to Apple’s stakeholders on the accuracy, reliability and objectivity of the
-On the basis of our methodology and the activities described above:
-reported information.
-▪ Nothing has come to our attention to indicate that the reviewed emissions data within
-This information and its presentation are the sole responsibility of the management of Apple.
-the scope of our verification are inaccurate and the information included therein is not
-Apex was not involved in the collection of the information or the drafting of the reported
-fairly stated and have not been prepared in accordance with Apple’s stated protocols
-information.
-for the Supplier Energy Efficiency Program;
-▪ It is our opinion that Apple has established appropriate systems for the collection,
-Scope of work aggregation and analysis of quantitative data such as energy and associated GHG
-emissions reductions.
-Apple requested Apex to include in its independent review the following:
-▪ Methodology for tracking and verifying supplier energy efficiency projects, including This independent statement should not be relied upon to detect all errors, omissions or
-misstatements that may exist.
-supplier energy audit reports, supplier progress reports, energy efficiency project
-verifications, and other forms of supporting documentation provided by suppliers where
-available;
-Statement of independence, integrity and competence
-▪ Assurance of Energy Efficiency Program data and information for the fiscal year 2023
-reporting period (September 25, 2022 through September 30, 2023), specifically, in Apex has implemented a Code of Ethics across the business to maintain high ethical standards
-accordance with Apple’s definitions: among staff in their day to day business activities. We are particularly vigilant in the prevention
-of conflicts of interest.
-o A atv tro ibid ue td ed G tore te hn eh Eo nu es re g yG Eas ff ic(G ieH ncG y) Pe rom gis ras mio ;n s associated with energy reductions No member of the assurance team has a business relationship with Apple, its Directors or
-Managers beyond that required of this assignment. We have conducted this verification
-o Appropriateness and robustness of underlying reporting systems and processes, independently, and there has been no conflict of interest.
-used to collect, analyze, and review the information reported.
-The assurance team has extensive experience in conducting verification and assurance over
-Excluded from the scope of our work is any assurance of information relating to: environmental, social, ethical and health and safety information, systems and processes, has
-▪ Activities outside the defined assurance period. over 30 years combined experience in this field and an excellent understanding of Apex
-standard methodology for the Assurance of Sustainability Reports.
-Attestation:
-Methodology
-As part of its independent verification, Apex undertook the following activities:
-1. Interviews with relevant personnel of Apple;
-2. Review of documentary evidence produced by Apple;
-3. Audit of performance data; Trevor Donaghu, Lead Verifier Scott Johnston, Technical Reviewer
-4. Review of Apple’s systems for quantitative data aggregation. ESG Director, National Practice Lead ESG Principal Consultant
-Apex Companies, LLC. Apex Companies, LLC.
-Our work was conducted against Apex’s standard procedures and guidelines for external
-Verification of Sustainability Reports, based on current best practice in independent assurance. January 30, 2024
-Apex procedures are based on principles and methods described in the International Standard
-on Assurance Engagements (ISAE) 3000 Revised, Assurance Engagements Other than Audits
-or Reviews of Historical Financial Information (effective for assurance reports dated on or after
-Dec. 15, 2015), issued by the International Auditing and Assurance Standards Board and ISO
-14064-3: Greenhouse gases -- Part 3: Specification with guidance for the validation and
-verification of greenhouse gas statements.
-Apex Companies, LLC Page 1 of 2 Apex Companies, LLC Page 2 of 2
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 105
-Appendix C
-Packaging
-fiber and
-2023 Total Virgin Recycled
-Plastic w/o
-plastic Review Statement 6,400 6,400 --
-adhesives
-Corporate Packaging Fiber and Plastic Footprint Fiber 247,900 89,500 158,400
-[metric tons] [metric tons plastic] [metric tons plastic]
-footprint
-All results and figures reviewed for fiscal year 2023 are plausible.
-Fraunhofer IZM reviewed Apple’s corporate packaging fiber and plastic footprint data
-(Fraunhofer related to corporate packaging fiber and plastic usage from products, retail and service
-operations in fiscal year 2023. 2 Reviewed Data and Findings
-Institute)
-1 Summary
-As part of this review Apple disclosed following data to Fraunhofer IZM:
- Calculation methodology for the corporate packaging fiber and plastic footprint
-This review checks transparency of data and calculations, appropriateness of supporting  Sales data for FY2023, including accessories
-product and packaging related data and assumptions, and overall plausibility of the
-calculated corporate annual packaging fiber and plastic footprint of Apple products  Selected product and supplier specific data on packaging materials and production
-shipped in fiscal year 2023 and of retail and service operations in the same period. yields
-As there is no standardised method available for calculating a packaging fiber and plastic  Aggregated packaging fiber and plastic data for all products and the total
-footprint Apple defined a methodology for internal use. The scope of the fiber and plastic corporate packaging fiber and plastic footprint for the fiscal year 2023
-packaging footprint includes Apple’s corporate packaging fiber and plastic usage from
-products, retail operations and Apple care services. The packaging fiber and plastic The methodology paper provided by Apple (Packaging Plastic Footprint at Apple –
-footprint tracks the total amount of plastic, virgin and recycled wood fibre, that Apple uses Methodology Description – V1.0 in 2018, Fiber Footprint at Apple - Methodology
-in packaging. Apple obtains and analyses supplier-specific data for each product line and Description - V1.1 reviewed in 2017), is considered a sound and appropriate guidance for
-sums up these figures for the entire company using sell-in numbers. For some products, a determining the company packaging fiber and plastic. Where appropriate, this approach
-representative supplier is chosen to calculate the product-specifc packaging. The output is a
-total packaging fiber and plastic footprint. For labels, beats products and accessories, follows methodological principles applied for state-of-the-art Life Cycle Assessments.
-individual sell-in numbers were only availabe for a share of products. These were This review comprises a check of packaging fiber and plastic data for selected products
-extrapolated for the whole category. ESD packages (within Apple care) are excluded from
-(Apple watch, iPad, Mac).
-the packaging plastic footprint.
-Plausibility of some data has been questioned and discussed with Apple in detail. More
-The review of the corporate annual packaging fiber and plastic footprint has considered the granular data for accessories is recommended in the future.
-following criteria:
- The system boundaries are clearly defined This review was done remotely. All questions raised in the course of the review were
-answered by Apple and related explanation was provided where needed.
- Assumptions and estimations made are appropriate
- Use of supplier data is appropriate and methodologies used are adequately
-disclosed
-Data reported by Apple is as follows:
-Corporate Packaging Fiber and Plastic Fo Ro etp vir ein wt 1
-Client: Apple Inc.
-Corporate Packaging Fiber and Plastic Fo Ro etp vir ein wt 2
-Client: Apple Inc.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 106
-Based on the process and procedures conducted, there is no evidence that the corporate
-packaging fiber and plastic footprint is not materially correct and is not a fair
-representation of fiber and plastic data and information.
-Berlin, March 11, 2024
-- Marina Proske - - Karsten Schischke -
-Fraunhofer IZM Fraunhofer IZM
-Dept. Environmental and Dept. Environmental and
-Reliability Engineering Reliability Engineering
-Corporate Packaging Fiber and Plastic Fo Ro etp vir ein wt 3
-Client: Apple Inc.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 107
-A: Corporate facilities energy supplement
-B: Apple’s life cycle assessment methodology
-C: Assurance and review statements
-D: Environment, Health and Safety Policy
-E: ISO 14001 certification
-Report notes
-End notes
-Appendix D
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 108
-Appendix D
-Environment, Health and Safety Policy
-Mission Statement Guiding Principles Communicate EHS policies and programs to Apple
-Apple Inc. is committed to protecting the Meet or exceed all applicable EHS requirements. employees and stakeholders, and verify suppliers
-environment, health and safety (EHS) of our operate in accordance with Apple’s Supplier Code
-employees, contractors, and customers in the design, Where laws and regulations do not provide adequate of Conduct. Supplier Responsibility resources
-research, manufacture, distribution, and use of our controls, apply higher standards to protect human and Supplier Code of Conduct are available
-products and services in global communities where health and the environment. at apple.com/supplier-responsibility.
-we operate.
-Design, manage, and operate our facilities safely; Strive to create products that are safe in their
-We recognize that by integrating best EHS conserve energy, water, and resources; promote intended use and are manufactured in alignment
-management practices into all aspects of our renewable energy, and protect biodiversity. with our strict environmental standards.
-business, we can offer technologically innovative
-products and services while conserving and Encourage contractors, vendors, and suppliers to Pursue continual improvement through the
-enhancing resources for future generations. provide safe working conditions, treat workers with evaluation of our EHS performance by monitoring
-dignity and respect, and act fairly and ethically. ongoing performance results through periodic
-Apple strives for continuous improvement in our management reviews, and committing to correct
-EHS management systems and in the environmental Support and promote best scientific principles, EHS nonconformities.
-quality of our products, processes, and services. practices, and public policy initiatives that enhance
-environmental quality, health and safety performance, Ensure that all employees are aware of their role
-and ethical sourcing of materials. and responsibility to fulfill and sustain Apple’s EHS
-management systems and policy by providing
-training and tools in the user’s primary language.
-February 2024
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 109
-A: Corporate facilities energy supplement
-B: Apple’s life cycle assessment methodology
-C: Assurance and review statements
-D: Environment, Health and Safety Policy
-E: ISO 14001 certification
-Report notes
-End notes
-Appendix E
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 110
-Appendix E
-ISO 14001
-certification
-Certificate of Registration
-Apple operates manufacturing facilities in Cork, Ireland.
-We certify 100 percent of these facilities with ISO 14001. CERTIFICATE of Environmental Management
-NSAI has issued an IQNet recognised certificate that the organisation: System to I.S. EN ISO 14001:2015
-AAppppllee OOppeerraattiioonnss EEuurrooppee
-Hollyhill Industrial Estate AAppppllee OOppeerraattiioonnss EEuurrooppee
-Hollyhill
-Cork Hollyhill Industrial Estate
-Ireland Hollyhill
-Cork
-has implemented and maintains a
-Ireland
-EEnnvviirroonnmmeennttaall MMaannaaggeemmeenntt SSyysstteemm
-for the following scope:
-TThhee mmaannaaggeemmeenntt ooff aallll EEMMEEAA ooppeerraattiioonnaall aaccttiivviittiieess rreellaatteedd ttoo mmaannuuffaaccttuurriinngg,, ssaalleess,, NSAI certifies that the aforementioned company has been assessed and
-ddeelliivveerryy aanndd aafftteerr ssaalleess ssuuppppoorrtt ffoorr ddiirreecctt rreettaaiill aanndd cchhaannnneell ccuussttoommeerrss.. deemed to comply with the provisions of the standard referred to above in
-respect of:-
-which fulfils the requirements of the following standard:
-The management of all EMEA operational activities related to manufacturing,
-II..SS.. EENN IISSOO 1144000011::22001155
-sales, delivery and after sales support for direct retail and channel customers
-IIssssuueedd oonn:: 1144 JJuullyy 22002211
-FFiirrsstt iissssuueedd oonn:: 2200 MMaarrcchh 22000011
-EExxppiirreess oonn:: 1100 JJuullyy 22002244
-This attestation is directly linked to the IQNet Partner’s original certificate and shall not be
-used as a stand-alone document
-Registration Number: IE-14.0202
-A
-S
-Htp eep awr do
-a
--v
-r t
-Be d
-H
-u
-sib
-c
-iy nk:
-ee sy
-s Excellence, NSAI
-Registration Number: 14.0202 This certificate remains valid on condition Partner of
-P A rl eex s iS dt eo nic th oit fo Ii Qu Net HSt ee aw da r –t BH uic sk iney e ss Excellence, NSAI V
-R
-LO a ear si mlg it d i aan f ima nrol se mR n ve ad :g l1e ii d4dst tJor u oa n :lt y:i
-1
-o 21 0n 04 J: 2 uJ2 1u l0
-y
-l yM
-2
-2 0a 0 2r 2 4c 1 h 2001 t M a p
-c
-ch
-e
-ed aaa
-r
-re r
-t
-tn tt q
-i
-in a
-f
-ft u
-i
-ieh g
-c
-ca re e
-a
-at om
-t
-teA
-i
-if
-o
-op ae I
-n
-nQp n n .r t d N
-n
-co S oeeev y mttfe ws fd –i )t c
-o
-e tE a rhmn kc ev i
-(
-i oi i wsr nu o m wtsn e wmam rni .n a ie a qt nn ta nn it oi ea en n tl re
--
-a.d l Nin S a An I is a
-IQNet Partners*:
-AENOR Spain AFNOR Certification France APCER Portugal CCC Cyprus CISQ Italy CQC China CQM China CQS Czech
-Republic Cro Cert Croatia DQS Holding GmbH Germany FCAV Brazil FONDONORMA Venezuela ICONTEC Colombia All valid certifications are listed on NSAI’s website – www.nsai.ie. The continued validity of this certificate
-Inspecta Sertifiointi Oy Finland INTECO Costa Rica IRAM Argentina JQA Japan KFQ Korea MIRTEC Greece MSZT Hungary may be verified under “Certified Company Search”
-Nemko AS Norway NSAI Ireland NYCE-SIGE México PCBC Poland Quality Austria Austria RR Russia SII Israel SIQ Slovenia
-SIRIM QAS International Malaysia SQS Switzerland SRAC Romania TEST St Petersburg Russia TSE Turkey YUQS Serbia
-IQNet is represented in the USA by: AFNOR Certification, CISQ, DQS Holding GmbH and NSAI Inc.
-NSAI (National Standards Authority of Ireland), 1 Swift Square, Northwood, Santry, Dublin 9, Ireland T +353 1 807 3800 E: info@nsai.ie www.nsai.ie
-** The list of IQNet partners is valid at the time of issue of this certificate. Updated information is available under www.iqnet-
-certification.com
-CERT-067.14001: MMA IQNet NSAI 14001 2015 A4 (1) CERT-161 WM: 14001 2015 INAB (3)
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 111
-Report notes
-About this report by the supplier and cross-checked by Apple, or supplier reported, These risks and uncertainties include, without limitation, any For more information
-This report is published annually and focuses primarily on fiscal meaning it has been reported by the supplier based on production failure to meet stated environmental or sustainability targets, We believe that our responsibilities go beyond our stores and
-year activities. This report addresses environmental impacts and and allocation values. In all cases, Apple defines recycled content in goals, and commitments, and execute our strategies in the time corporate offices: They extend to our supply chain, the communities
-activities at Apple facilities (corporate offices, data centers, and alignment with ISO 14021. Product claims are made as of the launch frame expected or at all, global sociodemographic, political, and we’re a part of, and the planet we all share. Read Our Commitment
-retail stores), as well as the life cycle impacts of our products, date of those individual products, and they are accurate as of economic trends, changing government regulations or policies, to Human Rights.
-including in the manufacturing, transportation, use, and end- product launch. technological innovations, climate-related conditions and weather
-of-life phases. To provide feedback on this report, please events, our ability to gather and verify data regarding environmental Apple’s Racial Equity and Justice Initiative aims to advance equity
-contact environment-report@apple.com. Forward-looking statements impacts, the compliance of various third parties, including our and expand access to opportunities for Black, Hispanic/Latinx, and
-The report is provided voluntarily, and does not cover all information suppliers with our policies and procedures, or their commitments Indigenous communities to help dismantle systemic barriers to
-Reporting year about our business. References in this report to information should to us, and our expansion into new products, services, technologies, opportunity and combat injustices faced by communities of color.
-We track our environmental progress based on Apple’s fiscal year. not be construed as a characterization regarding the materiality and geographic regions. More information on risks, uncertainties,
-All references to a year throughout the report refer to Apple’s fiscal of such information to our financial results or for purposes of the and other potential factors that could affect our business and Read more about our work toward upholding high standards for
-years, unless “calendar year” is specified. Apple’s fiscal year is the U.S. securities, or any other, laws or requirements. While certain performance is included in our filings with the U.S. Securities labor and human rights, health and safety, and environmental
-52- or 53-week period that ends on the last Saturday of September. matters discussed in this report may be significant, any significance and Exchange Commission, including in the “Risk Factors” and stewardship across our global supply chain in our People and
-should not be read as necessarily rising to the level of materiality “Management’s Discussion and Analysis of Financial Condition and Environment in Our Supply Chain 2024 Annual Progress Report.
-Data assurance used for the purposes of complying with the U.S. federal securities, Results of Operations” sections of the company’s most recently
-We obtain third-party verification for some of the information in or other, laws and regulations. The information covered by the filed periodic reports on Form 10-K and Form 10-Q and subsequent
-this report from Apex Companies and the Fraunhofer Institute in report contains forward-looking statements within the meaning filings. Further, from time to time we engage in various initiatives
-Germany (as denoted in Appendix C). Data in this report, including of the Private Securities Litigation Reform Act of 1995, including (including voluntary disclosures, policies, and programs), but
-data or verification from third parties, reflects estimates using statements regarding our environmental or sustainability goals or we cannot guarantee that these initiatives will have the desired
-methodologies and assumptions believed to be reasonable and targets, commitments, and strategies and related business and effect. We assume no obligation, and expressly disclaim any duty
-accurate. Those estimates, methodologies, and assumptions may stakeholder impacts. Forward-looking statements can be identified (including in response to new or changed information) to update
-change in the future as a result of new information or subsequent by words such as “future,” “anticipates,” “believes,” “estimates,” any forward-looking statements or information, which speak as of
-developments, or they ultimately may prove to be inaccurate. “expects,” “intends,” “plans,” “predicts,” “will,” “would,” “could,” their respective dates. Readers should not place undue reliance on
-In addition, the bulk of Apple’s recycled content data is certified and “can,” “may,” “aim,” “strive,” and similar terms. These statements the forward-looking statements made in this report. Moreover, many
-thus verified by a third party. Less than 5 percent of the total mass involve risks and uncertainties, and actual results may differ of the assumptions, standards, metrics, and measurements used
-shipped in Apple products in fiscal year 2023 is recycled content materially from any future results expressed or implied by the in preparing this report continue to evolve, are sourced from third
-data that is either supplier verified, meaning it has been reported forward-looking statements. parties, and are based on assumptions believed to be reasonable
-at the time of preparation, but should not be considered guarantees.
-Given the inherent uncertainty of the estimates, assumptions, and
-timelines contained in this report, we may not be able to anticipate
-whether, or the degree to which, we will be able to meet our plans,
-targets, or goals in advance.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 112
-End notes
-Introduction Environmental Initiatives
-1 Apple follows the GHG Protocol Corporate Accounting and include industry-average recycled content, which may result in 13 In 2022, we expanded our packaging goal boundary to better reflect 17 Renewable electricity refers to fossil fuel–free sources of 29 Refer to footnote 21.
-Reporting Standard (GHG Protocol) to calculate value chain underreporting actual recycled content. Total recycled material our impact, resulting in an increase of about 36 percent of our total energy from renewable sources, like wind, solar, and low-impact
-30 Refer to footnote 22.
-emissions. The GHG Protocol currently defines scope 1 emissions shipped in products is driven by product material composition packaging mass, relative to fiscal year 2021. We include retail bags, hydroelectricity projects. Clean electricity refers to both renewable
-as direct greenhouse gas emissions that occur from sources that and total sales — as a result, this overall recycled or renewable all finished goods boxes (including plastic content in labels and electricity as well as other projects that Apple considers “low 31 Refer to footnote 23.
-are owned or controlled by the company; scope 2 emissions as content percentage may fluctuate based on the number and type of in-box documentation), packaging sent to our customers as part of carbon” but not “renewable,” like nuclear and large-impact
-32 Since publishing the “Material Impact Profiles” white paper, we’ve
-the indirect greenhouse gas emissions from the generation of products sold each year. Apple Trade In, AppleCare packaging for whole units and service hydroelectricity projects. Apple currently only allows for clean
-expanded our analysis to include biodiversity factors.
-purchased electricity, steam, heat, and cooling consumed by the modules (with the exception of plastics needed to protect items electricity sources to address electricity for product use when part
-5 All cobalt in the battery claims or references use mass balance
-company; and scope 3 emissions as all “other indirect emissions” from electrostatic discharge), and secondary packaging of Apple of a residual grid factor, in markets where there is sufficient data to 33 To account for recycled aluminum, we use third-party certified
-allocation.
-that occur in the value chain of the reporting company, including products and accessories sold by Apple. Our goal boundary does ensure that the clean electricity is not already claimed. For Apple’s recycled aluminum data, as well as supplier-verified data, meaning it
-both upstream and downstream emissions. Apple currently sets an 6 We plan to reach carbon neutrality beginning with our fiscal year not include the inks, coatings, or adhesives used in our packaging. corporate footprint, supply chain manufacturing, and the portion of has been reported by the supplier and cross-checked by Apple.
-operational boundary for its emissions and excludes the following 2030 carbon footprint. In addition to our packaging footprint, we also calculate the fiber our product use impact that is not already clean electricity, Apple is
-34 This statistic compares the carbon footprint of aluminum from
-scope 3 categories, as defined by the GHG Protocol, which used at our corporate facilities. In fiscal year 2023, this number was investing in only new renewable electricity sources.
-7 In addition to working toward transitioning our entire product recycled sources with primary aluminum smelted with electricity
-collectively make up less than 10 percent of our 2015 base year 1,100 metric tons.
-value chain to using 100 percent clean electricity by 2030, we’re 18 Refer to footnote 10. generated from coal.
-scope 3 emissions currently: “capital goods” due to limited data
-prioritizing energy efficiency and emissions reductions within 14 By 2030, we plan to replenish 100 percent of our corporate
-availability, which limits our ability to influence these emissions, and 19 Refer to footnote 4. 35 Refer to footnote 21.
-supplier facilities and operations. freshwater withdrawals in high-stress locations, as determined by
-“waste generated in operations,” as these emissions are negligible.
-a World Resources Institute (WRI) Aqueduct Baseline Water Stress 20 Refer to footnote 12. 36 Refer to footnote 22.
-The following subset of greenhouse gas categories recognized 8 The Supplier Clean Energy Program has since been codified in the
-Indicator and further refined through local context and analysis.
-in the Kyoto Protocol are included: carbon dioxide (CO2), Supplier Code of Conduct, scaling the program to our entire direct 21 Apple’s commitment is to use 100 percent recycled cobalt, using 37 Including iPhone 15 Plus and iPhone 15 Pro models. Excludes trace
-methane (CH4), nitrous oxide (N2O), hydrofluorocarbons (HFCs), manufacturing supply chain. 15 By the end of fiscal year 2025, we plan to have certified all Apple- mass balance allocation, in all Apple-designed batteries by 2025. amount of rare earth elements found outside of the magnets.
-perfluorocarbons (PFCs), and sulphur hexafluoride (SF6), Nitrogen
-9 Refer to footnote 4.
-owned data centers to the Alliance for Water Stewardship Standard. We calculate our use of recycled cobalt using mass balance
-38 Refer to footnote 23.
-trifluoride (NF3).
-16 By 2030, we plan to identify priority suppliers and drive their
-allocation at the end of each fiscal year.
-10 By 2025, we plan to use 100 percent recycled cobalt in all Apple- 39 Refer to footnote 22.
-2 Carbon reductions are calculated against a baseline scenario: 1) No enrollment in our Supplier Clean Water Program. Apple prioritizes 22 Apple’s commitment is to use 100 percent recycled tin soldering
-designed batteries (using mass balance allocation), 100 percent
-use of clean electricity for manufacturing or product use, beyond supplier facilities by overall basin stress indicator, on-site activity and gold plating in all Apple-designed rigid and flexible printed 40 Excludes trace amount of tungsten found outside of the Taptic
-recycled tin soldering and 100 percent recycled gold plating in
-what is already available on the grid (based on regional emissions type, and annual water volume usage. circuit boards by 2025. Engine and accounting for less than 0.1 percent of the total found in
-all Apple-designed rigid and flexible printed circuit boards, and
-factors). 2) Apple’s carbon intensity of key materials as of 2015 the device.
-100 percent recycled rare earth elements in all magnets. We 23 Apple’s commitment is to use 100 percent recycled rare earth
-(our baseline year for our 2030 product carbon neutrality goal).
-calculate our use of recycled cobalt using mass balance allocation elements in all magnets by 2025. 41 Refer to footnote 5.
-Carbon intensity of materials reflects use of recycled content and
-at the end of each fiscal year.
-production technology. 3) Apple’s average mix of transportation 24 Intergovernmental Panel on Climate Change (IPCC), “Summary 42 Refer to footnote 4.
-modes (air, rail, ocean, ground) by product line across three 11 Refer to footnote 5. for Policymakers of IPCC Special Report on Global Warming
-43 Testing was done under the condition of streaming 4K movies
-years (fiscal years 2017 to 2019) to best capture the baseline of 1.5°C approved by governments,” press release, www.ipcc.
-12 By 2025, we plan to remove plastic from packaging by transitioning played on Apple TV 4K (3rd generation) with the Siri Remote from
-transportation emissions of our products. ch/2018/10/08/summary-for-policymakers-of-ipcc-special-report-
-to 100 percent fiber-based packaging. Apple’s goal to remove the Apple TV app.
-on-global-warming-of-1-5c-approved-by-governments.
-3 As of product launch, 50 percent of all low-carbon watch plastic from packaging includes retail bags, all finished goods boxes
-44 Based on sales-weighted averages of Mac, iPad, iPhone, Apple
-products by weight are planned to be shipped via non-air modes (including plastic content in labels and in-box documentation), 25 Corporate emissions include scope 1 and 2 emissions from Apple
-Watch, Apple TV, HomePod, AirPods, and Beats.
-of transportation over the lifetime of the products from our final packaging sent to our customers as part of Apple Trade In, retail stores, corporate offices, Apple-owned and colocated data
-assembly sites to their next destination — primarily regional AppleCare packaging for whole units and service modules (with centers, and Apple-produced digital content for Apple One services, 45 Eligible products are those in a product category for which
-distribution hubs. the exception of plastics needed to protect items from electrostatic as well as scope 3 emissions associated with business travel, ENERGY STAR certification exists. For more information, visit
-discharge), and secondary packaging of Apple products and employee commute, work from home, upstream impacts from www.energystar.gov. ENERGY STAR and the ENERGY STAR mark
-4 Apple reports data about the recycled content of its products at
-accessories sold by Apple. Our goal does not include the inks, scope 1 fuels, and use of third-party cloud services. are registered trademarks owned by the U.S. Environmental
-different levels of fidelity, based on the level of independent data
-coatings, or adhesives used in our packaging. We plan to remove Protection Agency.
-verification. The bulk of Apple’s recycled content data is certified 26 Apple defines low-carbon materials as materials created using
-plastic from the packaging of refurbished products by 2027, once
-and thus verified by a third party. Less than 3 percent of the total production techniques with reduced carbon impact, such as 46 Apple lists eligible products sold in the United States and Canada
-old product packaging designs are phased out. We will continue
-mass shipped in Apple products in fiscal year 2023 contained Elysis (a patented technology that eliminates direct greenhouse on the Electronic Product Environmental Assessment Tool (EPEAT)
-selling existing inventory of AppleCare packaging for whole units
-recycled content that is either supplier verified, meaning it has been gas emissions from the traditional aluminum smelting process) or Registry. Eligible products are those in a product category for which
-and service modules that contain plastics for vintage and products
-reported by the supplier and cross-checked by Apple, or supplier aluminum smelted using hydroelectricity instead of coal. EPEAT registration exists, including workstations, desktops, laptops,
-at end of life until it is consumed. This change will enable us to avoid
-reported, meaning it has been reported by the supplier based displays, mobile phones, and tablets. For more information, visit
-waste generated by re-packaging goods in new 100 percent fiber- 27 Refer to footnote 5.
-on production and allocation values. In all cases, Apple defines www.epeat.net.
-based packaging.
-recycled content in alignment with ISO 14021. We do not currently 28 Refer to footnote 4.
-47 Refer to footnote 44.
-Contents Introduction Environmental Initiatives Engagement and Advocacy Data Appendix 2024 Environmental Progress Report 113
-Environmental Initiatives continued
-48 Energy consumption and energy efficiency values are based on the 58 Our use of the term RECs covers renewable energy certificates and 67 Based on official global AppleCare out of warranty prices for a 80 Waste diversion rates do not include construction and demolition © 2024 Apple Inc. All rights reserved. Apple and the Apple logo are
-ENERGY STAR Program Requirements for Computers, including similar certifications around the world, such as Guarantees of Origin back glass repairs across for iPhone 14 Pro and iPhone 15 Pro as of waste or electronic waste for fiscal year 2023. Electronic waste is trademarks of Apple Inc. registered in the U.S.and other countries and
-the max energy allowance for Mac mini. For more information, (GOs) in Europe, Large-Scale Generation Certificates (LGCs) in March 2024. accounted for in the total metric tons of electronic waste that we regions. Beats is a trademark of Beats Electronics, LLC., registered
-visit www.energystar.gov. ENERGY STAR and the ENERGY STAR Australia, and Green Electricity Certificates (GECs) in China. sent to recycling, found on page 82. in the U.S. and other countries and regions. iOS is a trademark or
-68 Estimated based on rock-to-metal ratios from USGS — a change
-mark are registered trademarks owned by the U.S. Environmental registered trademark of Cisco in the U.S. and other countries and is
-59 In 2023, suppliers relied predominantly on renewable energy from our previous report, which used ore-to-metal ratios — and on 81 These sites have been third-party verified by UL Solutions against
-Protection Agency. For more information on the power consumption used under license. ENERGY STAR and the ENERGY STAR mark are
-certificates (RECs) to meet their CEP commitments, as an interim recovery rates from iPhone main logic boards and flexes. the UL 2799 Zero Waste to Landfill Environmental Claim Validation
-of Mac mini, read the Mac mini Product Environmental Report. registered trademarks owned by the U.S. Environmental Protection
-solution to longer-term procurement options like power purchase Procedure (ECVP). UL Solutions requires at least 90 percent
-69 Apple is willing to license five patents relating to Daisy and certain Agency. Other product and company names mentioned herein may be
-49 Efficiency performance is based on the U.S. Department of Energy agreements (PPAs), which are becoming increasingly available diversion through methods other than waste-to-energy to achieve
-other associated intellectual property on reasonable, royalty- trademarks of their respective companies.
-Federal Energy Conservation Standards for Battery Chargers. Note across the globe. With the evolution of renewable procurement Zero Waste to Landfill (Silver: 90–94 percent, Gold: 95–99 percent,
-free terms.
-that ENERGY STAR does not certify smartphone devices. The options in China, suppliers have started transitioning to the and Platinum: 100 percent) designations.
-energy efficiency values are based on the following conditions: expanded Green Energy Certificate (GEC) and Green Power Trading 70 We define facility water use as high stress if the area is located
-82 Our Mesa and Prineville data centers are third-party certified as
-mechanism, which are nationally recognized ways of procuring within or withdraws water from a basin that has high or extremely
-• Power adapter, no load: Condition in which the Apple 20W Zero Waste by GBCI TRUE, receiving their certifications in 2021 and
-renewable energy in China today. high baseline water stress based on the WRI Aqueduct Water Risk
-USB-C Power Adapter with the USB-C to Lightning Cable (1 m) is 2020, respectively. TRUE requires 90 percent diversion or higher
-Atlas V4.0 tool, and as refined by additional local knowledge and
-connected to AC power but not connected to iPhone. 60 This value has been calculated and reviewed by a third party from the landfill without the use of waste-to-energy to achieve the
-third-party research.
-• Power adapter efficiency: Average of the Apple 20W USB-C according to the Tier 2c methodology of the 2019 Refinement to TRUE-certified project designation.
-Power Adapter with the USB-C Charge Cable (1 m) measured the 2006 IPCC Guidelines for National Greenhouse Gas Inventories 71 We calculate water discharge based on known evaporation
-83 All established final assembly supplier sites — or those that have
-efficiency when tested at 100 percent, 75 percent, 50 percent, based primarily on supplier reported data. from activities like cooling and irrigation. For sites where these
-been Apple suppliers for more than one year — for iPhone, iPad,
-and 25 percent of the power adapter’s rated output current. evaporative activities are not present, we estimate that water
-61 Based on the methodology Apple uses to calculate transportation Mac, Apple Watch, AirPods, HomePod, Apple TV, and Beats have
-withdrawn is returned to municipal systems. We estimate our margin
-50 Refer to footnote 43. emissions, which is regularly reviewed by a third party, been third-party verified by UL Solutions against the UL 2799
-of error to be approximately 10 percent, and we plan to continue to
-Fraunhofer IZM. Zero Waste to Landfill Environmental Claim Validation Procedure
-51 Refer to footnote 12. update our model with new sources of data.
-(ECVP). UL Solutions requires at least 90 percent diversion through
-62 Refer to footnote 3.
-52 Breakdown of U.S. retail packaging by weight. Adhesives, inks, and 72 Based on previous estimated consumption. methods other than waste-to-energy to achieve Zero Waste to
-coatings are excluded from our calculations of plastic content and 63 Rogelj, J., D. Shindell, K. Jiang, S. Fifita, P. Forster, V. Ginzburg, C. Landfill (Silver: 90–94 percent, Gold: 95–99 percent, and Platinum:
-73 These savings do not include reduction in water use from facility
-packaging weight. Handa, H. Kheshgi, S. Kobayashi, E. Kriegler, L. Mundaca, 100 percent) designations.
-closures and reduced occupancy due to the COVID-19 pandemic.
-R. Séférian, and M.V.Vilariño, 2018: “Mitigation Pathways
-53 Refers to retail packaging. We consider those savings temporary, and we acknowledge that the 84 Refer to footnote 81.
-Compatible with 1.5°C in the Context of Sustainable Development.”
-water use was transferred to employees’ homes.
-54 Our packaging design guidelines apply to retail packaging In: Global Warming of 1.5°C. An IPCC Special Report on the
-and shippers, and exclude plastic-based components, wraps, impacts of global warming of 1.5°C above pre-industrial levels 74 Refer to footnote 73.
-and adhesives. and related global greenhouse gas emission pathways, in the
-75 These savings are based on data observed from pilot operations.
-context of strengthening the global response to the threat
-55 Based on expected equivalent fiber production from our forestry
-of climate change, sustainable development, and efforts to 76 We account for savings through this program on a fiscal-year basis,
-projects and virgin fiber used for Apple product packaging. To
-eradicate poverty [Masson-Delmotte, V., P. Zhai, H.-O. Pörtner, rather than a calendar-year basis as reported in publications before
-determine the output of Apple’s projects, we work with our partners
-D. Roberts, J. Skea, P.R. Shukla, A. Pirani, W. Moufouma-Okia, C. fiscal year 2021.
-to understand the productive potential of these working forests.
-Péan, R. Pidcock, S. Connors, J.B.R. Matthews, Y. Chen,
-The forest management plans required to achieve or maintain 77 Refer to footnote 15.
-X. Zhou, M.I. Gomis, E. Lonnoy, T. Maycock, M. Tignor, and T.
-certification limit harvest volumes to sustainable levels. We use
-Waterfield (eds.)]. In Press. www.ipcc.ch/site/assets/uploads/ 78 By the end of fiscal year 2030, we plan to replenish 100 percent of
-these potential harvest volumes to estimate the sustainable
-sites/2/2019/02/SR15_Chapter2_Low_Res.pdf. our corporate freshwater withdrawals in high-stress locations, as
-productive capacity of these forests. Responsible sourcing of fiber
-determined by a WRI Aqueduct Baseline Water Stress Indicator, and
-is defined in Apple’s Responsible Fiber Specification (PDF) 64 Based on device pricing on SellCell.com and some carriers/resellers
-further refined through local context and analysis.
-that accept trade-in devices as of March 2024.
-56 In fiscal year 2023 we exceeded the requirements of criterion
-79 Duncan McNicholl and Rob Hope, “Reducing uncertainty in
-4.9.3.1 in IEEE 1680.1 by achieving 2.7 percent of energy savings 65 This applies specifically to our U.S.-based Apple Trade In program.
-corporate water impact: The role of Results-Based Contracting
-in Apple facilities that consumed more than 70 million kWh/yr
-66 MIL-STD 810H is a certification for military equipment. Tested for drinking water supply,” (Oxford, UK: Uptime Global and Oxford
-energy consumption.
-categories include: Altitude, High Temperature, Low Temperature, University, 2024).
-57 All efficiency measures are retired based on their effective useful Temperature Shock, Immersion, Freeze/Thaw, Shock, and Vibration.
-lifetime as documented by the California Energy Commission.
+# Preprocessed ESG Data for apple
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Environment | al | Progress | Report | Covering | fiscal | year | 2023 | Contents | Environmental | Initiatives | Apple | 2030 | 11 | Journey | Apple | 2030 | 12 | Approach | 15 | Design | material | 24 | Electricity | 32 | Direct | emission | 35 | Carbon | removal | Resources | 39 | Approach | 40 | Product | longevity | 45 | Material | recovery | 48 | Water | 52 | Zero | waste | Smarter | Chemistry | 58 | Approach | 59 | Mapping | 61 | Assessment | 63 | InnovationIntroduction | 3 | Reflections | Lisa | Jackson | 4 | Report | highlight | 5 | Goals | progressEngagement | Advocacy | 67 | Approach | 68 | Listening | range | voice | 69 | Achieving | change | together | 73 | Supporting | community | worldwide | Data | 77 | Greenhouse | gas | emission | 78 | High | quality | carbon | certificate | 79 | Carbon | footprint | product | 81 | Energy | 82 | Resources | 83 | Normalizing | factorsAppendix | 85 | A | Corporate | facility | energy | supplement | 94 | B | Apples | life | cycle | assessment | methodology | 96 | C | Assurance | review | statement | 107 | D | Environment | , | Health | Safety | Policy | 109 | E | ISO | 14001 | certification | 111 | Report | note | 112 | End | notes2024 | Environmental | Progress | Report | 2 | Engagement | Advocacy | Environmental | Initiatives | Data | Appendix | Introduction | Contents | Reflections | Apples | commitment | climate | action | never | clear | . |
+
+Thanks hard work team across company , weve reduced emission 55 percent since 2015 .
+Weve crossed key milestone environmental journey .
+And rising generational challenge climate change working company community span globe .
+Apple 2030 commitment carbon neutral entire footprint end decade .
+Well get innovating every stage product lifecycle theyre made , theyre made .
+That start bringing new clean energy online across supply chain .
+Today , 320 supplier committed using renewable electricity Apple production .
+With 16 gigawatts already online , theyre avoiding 18 illion metric ton greenhouse gas emission .
+Our team supplier part many community , Apples work protect planet take u around world .
+Thats partnering directly community local organization support environmental solution theyre needed .
+In 2023 , meant expanding Power Impact program bring clean energy underserved community Nepal Colombia , supporting program increase access safe water sanitation India .
+Were also building product recycled renewable material ever work help drive carbon footprint .
+Our customer play important role effort .
+When participate Apple Trade-In program , youre helping bring u closer day product made without taking anything Earth .
+The proof product .
+Last year , 20 percent material shipped Apple product came recycled source .
+MacBook Air first product made 50 percent recycled material , making important stride across product .
+The iPhone 15 lineup , Apple Watch Series 9 , Apple Watch Ultra 2 use 100 percent recycled cobalt battery .
+More 99 percent tungsten product come recycled source .
+And driving innovation around world improve way industry recycles recovers material .
+Were also finding new better way get Apple product people hand .
+Its train , plane , automobile increasingly , shipping Apple product open sea , ocean freight reduce emission much 95 percent compared air transport .
+And continue restore planet ecosystem like Atlantic Forest , stretch Brazil Paraguay play key role removing carbon atmosphere .
+What work add Progress .
+And progress sorely needed , impact climate change around u .
+Its frontlines boardroom government building theyre community .
+And owe global community rise challenge climate change innovation , empathy , commitment muster .
+Lisa Jackson VP , Environment , Policy Social Initiatives2024 Environmental Progress Report 3 Engagement Advocacy Environmental Initiatives Data Appendix Contents Introduction Report highlight Introduced significant product emission reduction to-date Innovations design clean energy drove dramatic reduction greenhouse gas emission fall Apple Watch lineup significant business-as-usual scenario.2 This included 100 percent clean energy manufacturing product use , 30 percent recycled renewable material weight , 50 percent shipping without use air transportation.3 Read page 9 .
+MacBook Air first Apple product made 50 percent recycled content This includes 100 percent recycled aluminum enclosure , 100 percent recycled rare earth element magnet , another first Apple , 100 percent recycled copper main logic board .
+Read page 16 .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| More | 320 | supplier | committed | renewable | electricity | As | March | 2024 | , | ore | 320 | supplier | committed | sourcing | renewable | electricity | Apple | production | , | representing | 95 | percent | direct | supplier | spend | . |
+
+Weve accelerated progress mandate Supplier Code Conduct direct supplier transition renewable energy manufacturing Apple product .
+Read page 27 .
+Launched Grid Forecast In contiguous United States , introduced Grid Forecast , new tool Home app Apple device .
+This tool show customer cleaner electricity available grid , empowering information help reduce greenhouse gas emission .
+Read page 30 .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Reduced | overall | emission | 55 | percent | We | reduced | overall | greenhouse | gas | emission | across | scope | 1 | , | 2 | , | 3 | 55 | percent | compared | 2015 | baseline | year | including | offsets.1 | In | time | period | , | revenue | grew | 64 | percent | . |
+
+We estimate weve avoided 31 million metric ton emission reduction effort like transitioning supply chain renewable electricity sourcing recycled content .
+Read page 14 .
+Increased use recycled material Were making steady progress journey toward using recycled renewable material product .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | 2023 | , | 22 | percent | material | shipped | Apple | product | came | recycled | sources.4 | This | includes | , | 99 | percent | tungsten | , | 71 | percent | aluminum | , | 52 | percent | cobalt | , | 25 | percent | gold | , | 24 | percent | lithium | products.5 | Read | page | 17 | . |
+
+Advocated reporting transparency As part commitment greenhouse gas emission disclosure , endorsed landmark California Climate Corporate Data Accountability Act ( CA SB 253 ) improve transparency drive progress fight climate change .
+Read page 71.2024 Environmental Progress Report 4 Engagement Advocacy Environmental Initiatives Data Appendix Contents Introduction Goals Progress Highlights Become carbon neutral corporate operation .
+Achieved We achieved carbon neutrality 2020 expanding energy efficiency initiative , sourcing 100 percent renewable electricity Apple facility , investing high-quality carbon credit offset remaining hard-to-decarbonize corporate emission .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Achieve | carbon | neutrality | entire | carbon | footprint | 2030 | reducing | related | emission | 75 | percent | compared | 2015.6Ongoing | Since | 2015 | , | weve | reduced | emission | 55 | percent | across | value | chain | . |
+| Transition | entire | value | chain | , | including | manufacturing | product | use | , | 100 | percent | clean | electricity | 2030.7Ongoing | As | March | 2024 | , | 320 | supplier | committed | use | 100 | renewable | energy | Apple | production | . |
+
+These supplier account 95 percent Apples direct spend material , manufacturing , assembly product worldwide.8Goals Progress Highlight Use recycled renewable material product packaging , enhance material recovery .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Ongoing | In | 2023 | , | 22 | percent | material | shipped | product | came | recycled | renewable | source | , | also | added | titanium | priority | material | list | 2023.9 | Transition | 100 | percent | recycled | cobalt | , | tin | , | gold | , | rare | earth | element | select | component | application | 2025.10Ongoing | In | 2023 | , | 56 | percent | cobalt | shipped | Apple- | designed | battery | came | recycled | sources.11 | Remove | plastic | packaging | 2025.12Ongoing | Our | product | packaging | shipped | 2023 | contains | 3 | percent | plastic | 21 | percent | 2015.13Goals | progress | Emissions | Materials | Resources | Goals | Progress | Highlight | Replenish | corporate | freshwater | withdrawal | high-stress | location | 2030.14Ongoing | Weve | partnered | freshwater | replenishment | project | resulting | 31.2 | million | gallon | volumetric | water | benefit | . |
+| Certify | Apple-owned | data | center | Alliance | Water | Stewardship | ( | AWS | ) | Standard | 2025.15Ongoing | Weve | certified | five | data | center | since | 2021 | , | 20 | supplier | since | 2017 | AWS | Standard | . |
+| Expand | grow | supplier | participation | Supplier | Clean | Water | Program | , | prioritizing | high | water | stress | location | driving | participant | average | 50 | percent | water | reuse | rate | 2030.16NewThrough | program | , | weve | supported | average | 42 | percent | reuse | rate | across | 242 | participating | supplier | facility | . |
+
+Eliminate waste sent landfill corporate facility supplier .
+OngoingOur corporate facility waste diversion rate increased 74 percent , driven progress data center .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Throughout | 2023 | , | 100 | percent | established | final | assembly | site | maintained | zero-waste-to-landfill | operations.2024 | Environmental | Progress | Report | 5 | Engagement | Advocacy | Environmental | Initiatives | Data | Appendix | Contents | Introduction | Overview | Apple | 2030 | Journey | Apple | 2030 | Approach | Design | material | Electricity | Direct | emission | Carbon | removal | Resources | Approach | Product | longevity | Material | recovery | Water | Zero | waste | Smarter | Chemistry | Approach | Mapping | Assessment | Innovation | Environment | al | InitiativesFocus | future | More | 38 | percent | manufacturing | electricity | iPhone | 15 | Pro | iPhone | 15 | Pro | Max | sourced | supplier | clean | energy | project | . |
+| 2024 | Environmental | Progress | Report | 6 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Apple | 2030 | commitment | carbon | neutral | entire | carbon | footprint | . |
+| Our | journey | 2030 | focused | first | reducing | scope | 1 | , | 2 | , | 3 | greenhouse | gas | emission | 75 | percent | compared | 2015 | , | investing | high-quality | carbon | removal | solution | remaining | emission | . |
+
+Design material Electricity17 Direct emission Carbon removalResources We aim make durable , long-lasting product enhance material recovery .
+And committed stewarding water resource eliminating waste sent landfill .
+Product longevity Material recovery Water Zero wasteSmarter Chemistry Through chemistry innovation material selection , design product safer anyone assembles , us , recycles better environment .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Mapping | Assessment | InnovationEnvironmental | Initiatives2024 | Environmental | Progress | Report | 7 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Apple | 2030 | The | time | change | The | significant | emission | reduction | associated | Apple | Watch | lineup | mark | milestone | toward | 2030 | goal.2024 | Environmental | Progress | Report | 8 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Journey | Apple | 2030 | Approach | Design | material | Electricity | Direct | emission | Carbon | removal | Resources | Smarter | Chemistry | An | ambitious | goal | 203 | 0 | We | committed | carbon | neutral | entire | carbon | footprint | end | decade | . |
+| Our | journey | 2030 | center | reducing | scope | 1 | , | 2 | , | 3 | emission | first | upstream | downstream | 75 | percent | balancing | remaining | emission | high-quality | carbon | removal | . |
+
+Weve already reduced emission 55 percent since 2015 , even revenue grew 64 percent eight-year period .
+Were focused decarbonizing three largest source emission material , electricity , transportation across value chain .
+Were prioritizing effort drastically reduce emission initiative focused achieving broadest impact applying offset .
+For emission cant reduced , primarily look high-quality , nature-based credit .
+We invest carbon sequestration removal project help u achieve carbon neutrality .
+Decarbonizing supply chain essential achieving Apple 2030 .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Weve | focused | innovative | approach | significantly | expand | renewable | energy | across | supply | chain | manufacture | product | recycled | renewable | materials.2024 | Environmental | Progress | Report | 9 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Apple | 2030 | Resources | Smarter | Chemistry | Decarbonizing | value | chain | Electricity | Electricity | manufacturing | charging | device | represents | largest | source | Apples | emission | across | product | line | . |
+
+Achieving carbon neutrality entire carbon footprint requires transition 100 percent clean energy significant energy reduction throughout supplier facility .
+We launched Supplier Clean Energy Program 2015 advance renewable energy throughout manufacturing supply chain .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| As | March | 2024 | , | ore | 320 | global | supplier | representing | 95 | percent | Apples | direct | manufacturing | spend | joined | program | . |
+
+These supplier committed using 100 percent renewable electricity Apple production end decade .
+The success initiative led next phase effort toward achieving carbon neutral supply chain 2030 .
+To rapidly scale accelerate progress Supplier Clean Energy Program , Apple updated Supplier Code Conduct require direct supplier transition renewable energy manufacturing Apple product .
+The codification requirement next step decarbonization journey sign commitment integrate supply chain decarbonization core business decision- making .
+We hope approach serve model company follow .
+Were also working address emission product use investment renewable energy every watt electricity associated customer product use matched clean electricity .
+Were prioritizing product efficiency reduce electricity use product .
+Weve also introduced Grid Forecast , tool Home app informs U. S. -based user power grid cleaner energy available use .
+And iOS 16 , launched Clean Energy Charging feature United States , look source electricity expected charge time optimizes grid using cleaner energy source like solar wind .
+Materials Weve advanced toward 2030 goal using recycled renewable material , often lower carbon footprint primary material .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| And | announced | , | 2025 | , | plan | use | 100 | percent | recycled | cobalt | Apple-designed | battery | , | 100 | percent | recycled | tin | soldering | , | 100 | percent | recycled | gold | plating | Apple- | designed | rigid | flexible | printed | circuit | board | , | 100 | percent | recycled | rare | earth | element | magnet | across | new | products.18 | Weve | pioneered | use | many | recycled | material | product | world-class | product | engineering | , | extensive | design | qualification | , | supply | chain | engagement | . |
+
+Our focus material yield significant environmental social impact , even material come notable challenge building circular supply chain .
+To read effort create circular supply chain , see Prioritizing effort section .
+We intentionally design product minimize use primary ( non-recycled ) material maximize recycled content feasible .
+And year year , innovate improve manufacturing process use material efficiently decrease manufacturing scrap .
+In 2023 , anufacturing product accounted 59 percent gross carbon footprint .
+This includes emission fuel combustion heating , ventilation , air conditioning ( HVAC ) refrigeration use fluorinated gas physical chemical process ( excluding transportation ) .
+These emission source vary widely require use diverse technology solution abate .
+Our approach identify process emission across supply chain , like use fluorinated gas display semiconductor manufacturing , launch targeted program address emission partnership supplier , government , industry stakeholder .
+We continue launch supplier program targeting emission manufacturing operation facility used produce Apple product , like Supplier Energy Efficiency Program launched 2015 help supplier optimize energy use .
+Transportation In 2023 , transporting product customer accounted 9 percent gross carbon footprint .
+To address emission transportation , shifting product volume shipping mode less carbon intensive air transport , ocean rail .
+Shipping Apple product ocean generates 95 percent fewer emission shipping air , based carbon footprint methodology .
+Were investigating transition low-carbon sustainable aviation fuel ( SAF ) reduce carbon footprint air shipment .
+Were also addressing transportation-related emission product packaging design drive reduced packaging mass volume , creating box use space efficiently .
+Carbon removal Prioritizing emission reduction across entire value chain critical limiting climate change 1.5C .
+Still , emission avoided reduced existing solution .
+And existing solution require greater industry government effort scale broader commercial adoption becomes feasible .
+As focus eliminating majority emission across value chain , also addressing emission cant reduce looking high-quality carbon credit nature-based project .
+The nature-based project select focus carbon sequestration , like planting forest restoring mangrove , additional benefit improve climate adaptation resilience .
+Transparency integrity critical carbon project fund .
+The credit investment must additional , permanent , measurable , quantified system place avoid double-counting must avoid leakage .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| To | read | work | carbon | removal | , | see | Carbon | removal | read | white | paper | , | Apples | Carbon | Removal | Strateg | y.2024 | Environmental | Progress | Report | 10 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Where | weve | beenWhere | going2023 | activity | 2015 | 2018 | 2020 | 2025 | 2022 | 2023 | 2030 | Achieved | Carbon | neutrality | corporate | operation | announced | 2030 | targets22 | % | material | shipped | product | came | recycled | renewable | sources1970 | % | reduction | average | product | energy | use | since | 2008 | 20 | % | reduction | emission | transporting | product | compared | 202212.8M | device | accessory | sent | new | user | reuse | program | like | Apple | Trade | In | AppleCareGoal | Transition | 100 | % | fiber-based | packaging | 202520 | 320 | supplier | committed | using | 100 | % | renewable | energy | Apple- | related | production | 2030Launched | Supplier | Clean | Energy | Energy | Efficiency | Programs | established | partner | global | supplier | reduce | energy | used | manufacture | Apple | productsJourney | Apple | 2030 | Achieved | 100 | % | renewable | electricity | generated | sourced | corporate | operationsApple | 2030 | To | carbon | neutral | entire | footprint | 2030Codified | 100 | % | renewable | energy | mandate | added | Supplier | Code | Conduct | applicable | direct | supplier | manufacture | Apple | product | Goal | Use | 100 | % | recycled | cobalt | Apple-designed | batteries21 | 100 | % | recycled | tin | soldering | 100 | % | recycled | gold | plating | Apple-designed | rigid | flexible | printed | circuit | boards22 | 100 | % | recycled | rare | earth | element | magnet | across | products232021Launched | Restore | Fund | advance | nature-based | carbon | removal | projects2024 | Environmental | Progress | Report | 11 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Approach | Apple | 2030 | We | ambitious | commitment | science-based | plan | reach | Apple | 2030 | goal | . |
+
+Were focused achieving reduction wherever possible , using approach offer clear evidence way forward seeking catalyze industry-wide change .
+This begin working achieve carbon neutrality across entire carbon footprint 2030 , setting ambitious target reduce emission 75 percent .
+We prioritize carbon reduction , emission cant mitigated using existing solution invest high-quality carbon removal project .
+Our goal carbon neutral extends entire carbon footprint consistent Intergovernmental Panel Climate Changes ( IPCC ) recommendation global carbon neutrality.24 Were also committed working toward reaching 90 percent reduction emission 2015 baseline 2050 .
+Attaining deep decarbonization require collective , worldwide effort .
+Entire industry economy must decarbonize .
+And reaching 90 percent reduction emission outside Apples one company control , committed taking action support goal .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Design | material | Designing | product | manufacturing | process | less | carbon | intensive | thoughtful | material | selection | , | increased | material | efficiency | , | greater | product | energy | efficiency | , | use | recycled | renewable | material | product | packaging | , | enhanced | material | recoveryElectricity | Increasing | energy | efficiency | facility | supply | chain | , | transitioning | electricity | entire | product | value | chain | including | manufacturing | customer | product | use | 100 | percent | clean | electricity | 2030Direct | emission | Reducing | direct | greenhouse | gas | emission | facility | supply | chain | process | innovation | , | emission | abatement | , | shifting | away | fossil | fuelsCarbon | removal | In | parallel | emission | reduction | effort | , | scaling | investment | carbon | removal | project | , | including | nature-based | solution | protect | restore | ecosystem | around | world | 75 | percent | emission | reduction25 | percent | footprintAPPLE | 2030 | ROADMAP | Addressing | Apples | carbon | footprint | four | pillar | Weve | made | significant | progress | cutting | emission | across | value | chain | 55 | percent | since | 2015 | . |
+
+This started transition sourcing 100 percent renewable electricity office , retail store , data center , achieved 2018 .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| And | 2020 | , | achieved | carbon | neutrality | corporate | emissions.25 | 2024 | Environmental | Progress | Report | 12 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Environmental | progress | good | business | . |
+
+We underpin climate strategy strong business principle innovation harnessing power market replicate solution scale aiming create impact necessary meet global reduction target .
+Were also working accelerate global transition toward decarbonization exploring next generation solution advocating stronger policy .
+These effort include fostering new strengthened collaboration public private partnership investing technological advancement .
+Weve issued 4 .
+7 billion green bond model business drive investment reduce global emission .
+Error bar Were continuously refining methodology improve carbon footprint estimate .
+But there inherent uncertainty modeling product-related greenhouse gas emission , illustrated error bar graphic .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Historical | emission | Avoided | emission | Gross | emission | Emissions | offset | Emissions | range | modeling | uncertaintyProjected | emission | ( | illustrative | ) | Projected | gross | emission | Projected | emission | offset | Million | metric | ton | CO2e | per | fiscal | year | Gross | emission | Carbon | offsetsremoval | Net | emissions38.4 | 38.42015 | 25.1 | 25.12019 | 203040 | 20 | 0 | Goal | To | carbon | neutral | entire | footprintGoal | 75 | % | reduction | gross | emission | 2015 | APPLES | PROGRESS | TOWARD | CARBON | NEUTRALITY | 16.1 | 15.60.52023Clear | principle | guide | work | . |
+
+Our emission reduction target aligned current climate science show necessary help limit warming 1.5 C. We calculate footprint across value chain include direct product- related emission sourcing material end life .
+We use result detailed carbon accounting adjust Apple 2030 roadmap , lay plan become carbon neutral .
+And committed disclosing carbon footprint well climate strategy progress .
+This mean sharing challenge success .
+Our annual Environmental Progress Report , well response global disclosure nonprofit CDP , provide detail progress .
+Transparency disclosure essential sharing climate strategy progress also sending clear signal inviting others work u .
+And progress need include low-income historically marginalized community often bear brunt climate change .
+Were pursuing way directly support community climate program .
+To learn work , read feature Power Impact program feature Impact Accelerator program .
+To see progress toward 2030 goal , see Journey Apple 2030 timeline .
+In latest Annual Green Bond Impact Report ( PDF ) , share progress project funded 2023 .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Read | latest | response | CDP | Climate | Change | 2023 | questionnaire | ( | PDF | ) | .2024 | Environmental | Progress | Report | 13 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | In | 2023 | , | estimate | environmental | program | avoided | 31 | million | metric | ton | emission | across | scope | . |
+
+Initiatives weve growing year continue yield clear result , including sourcing 100 percent renewable energy facility , transitioning supplier renewable energy , using low-carbon material products.26 While revenue grown 64 percent since 2015 , gross emission decreased 55 percent .
+Net greenhouse gas emission represents total gross footprint minus carbon offset .
+Percentages shown emission category represent share Apples gross footprint .
+Totals add 100 percent due rounding .
+Low-carbon material represents emission saving transitioning recycled material product using low-carbon aluminum , described page 33 .
+Clean energy represents saving clean energy procured Apple supplier .
+Business operation includes business travel , commute , work home , upstream impact scope 1 fuel , third- party cloud service .
+Avoided emission Gross emission Emissions offset 15.6 Million Metric Tons Net Greenhouse Gas Emissions 59 % 29 % 9 % 1 % 1 % 1 % 3 % Emissions OffsetsProduct footprint Product use clean energy 0.05 million metric ton avoided Low-carbon logistics 0.2 million metric ton avoidedSupplier energy efficiency 1.7 million metric ton avoided Low-carbon material 5.8 million metric ton avoided Supplier clean energy 18.5 million metric ton avoided Direct emission abatement 2.7 million metric ton avoidedCorporate footprint Corporate energy efficiency 0.08 million metric ton avoided Use renewable electricity 2.0 million metric ton avoided Apples comprehensive carbon footprint Product manufacturing ( Scope 3 ) Product use ( Scope 3 ) Product transport ( Scope 3 ) End-of-life product process ( Scope 3 ) Direct emission ( Scope 1 ) Electricity ( Scope 2 ) Business operation ( Scope 3 ) TOTAL EMISSIONS2024 Environmental Progress Report 14 Engagement Advocacy Data Appendix Introduction Contents Environmental Initiatives Apple 2030 Resources Smarter Chemistry Design material Were designing product less carbon intensive prioritizing use recycled content low-carbon material focusing energy efficiency software hardware .
+Were working toward future every Apple product created contribute circular supply chain .
+The design material choice make across product support reducing carbon footprint .
+Approach Innovation drive effort around circularity material source product design choice make recycling recovery innovation pursue .
+We prioritize material component account significant portion greenhouse gas emission .
+This mean choice make product product scale toward reducing overall footprint .
+These priority inform work design material efficiency increase use recycled renewable material .
+We aim create product use circular supply chain one day end reliance mined resource meeting rigorous standard quality , durability , performance , environmental social protection .
+We strive efficiency sourcing utilizing material , relying recycled renewable material product packaging , reducing scrap .
+And also maintain strict standard responsibly sourcing material primary , recycled , renewable source .
+Another part make goal possible recycling innovation developing enhance material recovery .
+We hope action inspire others support building circular supply chain .
+Design material address emission Product manufacturing ( Scope 3 ) Product use ( Scope 3 ) Product transport ( Scope 3 ) Working positively influence market work , advocating policy enables circular supply chain , impacting community worldwide , inspiring others follow suit opportunity drive u challenging work creating circular supply chain .
+Prioritizing less carbon-intensive material component Focusing account significant portion greenhouse gas emission Designing product material efficiency Incorporating carbon emission profile material go product Increasing use recycled renewable material Ensuring use across product Driving product energy efficiency Reducing energy use across products2023 progress 22 % recycled renewable Of material contained product shipped store customer , 22 percent came recycled renewable source .
+58 % less energy iMac us 58 percent less energy ENERGY STAR requirement.95 % recycled titanium We introduced titanium priority material list , fall model Apple Watch Ultra 2 , paired Alpine Loop Trail loop , used 95 percent recycled titanium case .
+Energy consumption energy efficiency value based ENERGY STAR Program Requirements Computers , including max energy allowance iMac .
+For information , visit www .
+energystar .
+gov .
+ENERGY STAR ENERGY STAR mark registered trademark owned U. S. Environmental Protection Agency .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| For | information | power | consumption | iMac | , | read | Product | Environmental | Report.2024 | Environmental | Progress | Report | 15 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Using | recycled | material | lower | product | carbon | footprint | Were | reducing | carbon | footprint | product | material | select | . |
+
+Our strategy transition material manufactured using low-carbon energy recycled content .
+Weve prioritized material component make large part product carbon footprint move u closer goal carbon neutrality .
+And accelerate collective effort , signed founding member First Movers Coalitions near-zero emission primary aluminum commitment 2030 ( see page 70 ) .
+Our use aluminum exemplifies Apples comprehensive approach Were transitioning recycled content , havent yet , moving low-carbon supplier exploring technological innovation decarbonize like ELYSIS aluminum , smelted without generating greenhouse gas emission ( see page 33 ) .
+Weve continued introduce 100 percent recycled aluminum enclosure Apple product Mac Studio us 100 percent recycled aluminum enclosure joining Apple Watch Series 9 , Apple Watch SE , iPad , MacBook Air , Mac mini , Siri Remote , MacBook Pro .
+In addition , new iMac contains 100 percent recycled aluminum stand .
+And iPhone 15 , weve increased recycled content using 75 percent recycled aluminum enclosure .
+Were addressing carbon impact source recycled aluminum , .
+Our first priority recover scrap high quality .
+Then , look postindustrial postconsumer source high-quality recycled aluminum recycled aluminum manufacturing emits less carbon newly mined material .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| These | emission | reduction | effort | reduced | aluminum-related | emission | 68 | percent | since | 2015 | represent | less | 9 | percent | product | manufacturing | footprint | , | compared | 27 | percent | 2015 | . |
+
+In 2023 , expanded use certified recycled cobalt , steel , gold , aluminum material typically significant carbon footprint .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| We | introduced | 100 | percent | certified | recycled | cobalt | first | time | battery | Apple | Watch | iPhone.27 | And | increased | content | certified | recycled | gold | across | product | line | 4 | percent | 2022 | approximately | 25 | percent | 2023 | . |
+
+This includes everything gold plating multiple printed circuit board new application USB-C connector iPhone 15.68 % Switching recycled low-carbon aluminum decreased greenhouse gas emission associated aluminum 68 percent since 2015 .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| TRANSITIONING | TO | RECYCLED | CONTENT | Mac | Studio | us | 100 | percent | recycled | aluminum | enclosure | 2024 | Environmental | Progress | Report | 16 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Prioritizing | effort | Were | making | progress | toward | goal | sourcing | recycled | renewable | material | product | In | 2023 | , | 22 | percent | material | contained | product | shipped | store | customer | came | recycled | renewable | sources.28 | And | track | meet | key | material | goal | . |
+| By | 2025 | , | plan | Use | 100 | percent | recycled | cobalt | Apple-designed | batteries.29 | Use | 100 | percent | recycled | tin | soldering | 100 | percent | recycled | gold | plating | Apple- | designed | rigid | flexible | printed | circuit | boards.30 | Use | 100 | percent | recycled | rare | earth | element | magnet | across | products.31Our | effort | focus | 15 | aterials | weve | prioritized | based | broad | range | environmental | , | social | , | supply | chain | impact | . |
+
+( These outlined detail Material Impact Profiles white paper.32 ) Some material prioritized process include lower-mass higher-impact material like gold .
+Our priority material include aluminum , cobalt , copper , glass , gold , lithium , paper , plastic , rare earth element , steel , tantalum , tin , titanium , tungsten , zinc , account 87 percent total product mass shipped customer 2023 .
+Maintaining standard recycled renewable material essential journey create circular supply chain .
+Our Recycled Renewable Material Specification set requirement based international standard recycled content responsible resource management .
+By requiring certification standard , able confirm material recycled come renewable source one continually produce without depleting earth natural resource .
+We approach material new source rigor , evaluating one safety material chemistry .
+This process allows u scale use material better environment safer use product .
+Recycled material certified third party recycled content standard conforms ISO 14021 .
+Total recycled content number also include supplier reported recycled content checked Apple third-party certified .
+Our team overcoming obstacle creating closed loop supply chain , including material performance traceability .
+This possible work diverse group partner .
+For example , able design alloy containing 100 percent recycled aluminum meet rigorous design performance standard .
+And weve improved ability track key material within supply chain .
+Barriers progress remain including challenge within control outside direct influence .
+Addressing requires collective response .
+Through collaboration within material space , achieve impact felt beyond business .
+The supply chain helping create serve product need help promote availability competitively priced , quality recycled renewable material across geography .
+Key challenge developing circular supply chain Traceability Information source material whether mined , recycled , renewable might readily available .
+Technical property The property certain recycled renewable material may differ primary material .
+This need accounted product design manufacturing .
+For example , select recycled plastic differ property plastic .
+The composition recycled material also impacted level contamination recycling process .
+Availability access The supply recycled renewable material constrained limited availability recoverable material production renewable content .
+When supply exists location around world , new supplier need incorporated supply chain material accessed .
+Scale Materials single component come hundred different supplier , requiring exponentially effort scale use high-quality recycled renewable material across component product .
+Regulatory barrier Transboundary movement regulation created establish critically important community environmental protection unintended consequence inhibiting material recovery movement recyclers refiner use new product .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| To | learn | support | policy | enable | circular | supply | chain | improving | social | environmental | protection | , | read | Policy | advocacy | feature.2024 | Environmental | Progress | Report | 17 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Aluminum | Regulatory | barrier | Technical | property | Scale | In | 2023 | , | 71 | percent | aluminum | product | shipped | customer | came | recycled | source | 67 | percent | 2022.33 | Because | recycled | aluminum | 140 | carbon | footprint | aluminum | primary | source | , | support | pursuit | low-carbon | design.34 | Learn | ELYSIS | aluminum | , | smelted | without | generating | greenhouse | gas | emission | ( | see | page | 33 | ) | . |
+| In | 2023 | , | 52 | percent | cobalt | shipped | product | double | amount | shipped | 2022 | came | certified | recycled | source | mass | balance | basis | , | including | post-industrial | scrap | post-consumer | scrap | end-of-life | battery | . |
+| In | 2023 | , | used | 100 | percent | recycled | cobalt | magnet | within | magnetic | power | module | 15-inch | MacBook | Air | M2 | chip | . |
+| In | 2023 | , | Apple | committed | using | 100 | percent | recycled | cobalt | Apple-designed | battery | 2025.35Material | key | challenge | Progress | Copper | Technical | property | Supply | chain | Scale | In | 2023 | , | introduced | 100 | percent | recycled | copper | fin | stack | heat | sink | 16-inch | MacBook | Pro | , | help | regulate | thermal | performance | . |
+
+For iPhone , introduced 100 percent recycled copper foil MagSafe inductive charger , exploring use recycled copper thermal application .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | 2023 | , | introduced | 100 | percent | recycled | copper | wire | T | aptic | Engine | iPhone | 15 | lineup | , | Apple | Watch | Series | 9 | , | Apple | Watch | Ultra | 2 | . |
+
+Copper key material printed circuit board .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Since | first | introducing | 100 | percent | recycled | copper | foil | iPad | ( | 10th | generation | ) | October | 2022 | , | weve | used | 100 | percent | recycled | copper | foil | main | logic | board | iPhone | 15 | lineup | , | Apple | Watch | Series | 9 | , | Apple | Watch | Ultra | 2 | , | October | 2023 | , | 16-inch | MacBook | Pro | . |
+
+Material key challenge Progress Glass Technical property Availability access Scale The display panel trackpad glass MacBook Air M3 contains 15 percent recycled glass .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Gold | Regulatory | barrier | Traceability | Scale | In | 2023 | , | use | recycled | gold | increased | 25 | percent | across | product | line | 4 | percent | 2022 | . |
+
+We also expanded use 100 percent certified recycled gold plating multiple printed circuit board USB-C connector iPhone 15 first Apple .
+Were committed using 100 percent recycled gold plating Apple-designed rigid flexible printed circuit board 2025.36 All gold Apple product responsibly sourced , whether primary recycled .
+For information , see Conflict Minerals Report .
+Lithium Regulatory barrier Availability access Scale In 2023 , 24 percent lithium , allocated using mass balance , shipped battery came certified recycled source , including post-industrial scrap post-consumer scrap end-of-life battery first Apple .
+PROGRESS ACROSS OUR 15 PRIORITY MATERIALS Tantalum Regulatory barrier Availability access Supply chain Were actively investigating recovery approach end-of-life electronics develop use recycled material capacitor .
+Steel Regulatory barrier Technical property Scale We work supply chain partner recover high-purity steel manufacturing scrap product end life .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | 2023 | , | continued | use | 90 | percent | recycled | steel | battery | tray | 15-inch | MacBook | Air | M2 | expanded | use | material | 13-inch | MacBook | Air | M3 | battery | tray | , | keyboard | feature | plate | , | trackpad | beam | plate | . |
+
+Rare earth element Regulatory barrier Availability access Scale More 75 percent total rare earth element Apple shipped product 2023 came certified recycled source .
+Compared earlier product , latest device contain greater percentage recycled rare earth element 100 percent iPhone 15,37 99 percent Apple Watch lineup , 98 percent MacBook lineup .
+Were committed using 100 percent recycled rare earth element magnet across product 2025.38 Plastics Technical property Availability access Scale Were transitioning fossil fuelbased plastic renewable recycled alternative .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | 2023 | , | included | renewable | plastic | Apple | Watch | Series | 9 | speaker | first | Apple | use | 25 | percent | recycled | plastic | multiple | component | . |
+
+For Mac Pro , 20 component made 35 percent recycled plastic .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Tin | Scale | In | 2023 | , | used | 40 | percent | recycled | tin | average | across | product | line | 38 | percent | 2022 | . |
+
+In previous year , expanded use recycled tin many flexible printed circuit board across many product .
+As continue scale use across even component , seek engage exponentially increasing number supplier effort .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Weve | also | committed | using | 100 | percent | recycled | tin | soldering | Apple-designed | rigid | flexible | printed | circuit | board | 2025.39 | Tungsten | Regulatory | barrier | More | 99 | percent | tungsten | used | 2023 | came | recycled | source | , | 95 | percent | 2022 | . |
+| In | 2023 | , | released | iPhone | 15 | model | featured | 99 | percent | recycled | tungsten | across | entire | device | , | released | Apple | Watch | model | featured | 100 | percent | recycled | tungsten | across | entire | device.40 | Our | disassembly | robot | , | Daisy | Dave | , | recycling | machine | , | T | az | , | helped | recover | recycle | tungsten | T | aptic | Engine | . |
+| Titanium | Availability | access | Scale | In | 2023 | , | Apple | Watch | Ultra | 2 | , | paired | Alpine | Loop | Trail | loop | , | contained | 95 | percent | recycled | titanium | enclosure | . |
+
+Zinc Technical property Supply chain Mac Studio contains 100 percent recycled copper zinc brass prong power cord plug AC inlet .
+For information progress paper , see feature packaging .
+Paper Cobalt Regulatory barrier Availability access Scale2024 Environmental Progress Report 18 Engagement Advocacy Data Appendix Introduction Contents Environmental Initiatives Apple 2030 Resources Smarter Chemistry Increasing recycled content product Were progressing toward goal relying solely responsibly sourced recycled renewable material product packaging .
+The source material rely matter u value material dont deplete earth resource .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | 2023 | accomplished | following | first-time | material | achievement | In | Apple | Watch | Ultra | 2 | , | paired | Alpine | Loop | Trail | loop | , | used | 95 | percent | recycled | titanium | enclosure | . |
+
+Across iPhone 15 lineup , used 100 percent recycled gold USB-C connector wire camera .
+Across iPhone 15 lineup , used 100 percent recycled copper wire Taptic Engine 100 percent recycled copper foil main logic board MagSafe inductive charger .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | iPhone | 15 | lineup | , | Apple | Watch | Series | 9 | , | Apple | Watch | Ultra | 2 | , | used | 100 | percent | recycled | cobalt | battery.41 | These | innovation | helped | u | increase | use | recycled | renewable | content | 22 | percent | material | shipped | product | 2023.422017 | 2019 | 2021 | 2023 | Titanium | Cobalt | Copper | Zinc | Steel | Gold | Tungsten | Rare | earth | element | Aluminum | Tin | Plastic | Apple | WatchDesktopLaptopiPadiPhone | Apple | WatchDesktopLaptopiPadiPhone | Apple | WatchDesktopLaptopiPadiPhone | Apple | WatchDesktopLaptopiPhone | Products | launched | calendar | yearAll | product | launched | calendar | year | include | certified | recycled | content | . |
+
+Some product launched calendar year include certified recycled content .
+No product launched calendar year include certified recycled content .
+In calendar year 2023 , launch new model iPad .
+Recycled content applicable .
+Material considered applicable found trace amount dispersed across module .
+RECYCLED MATERIALS Our transition certified recycled material product line2024 Environmental Progress Report 19 Engagement Advocacy Data Appendix Introduction Contents Environmental Initiatives Apple 2030 Resources Smarter Chemistry Responsible sourcing material We require supplier source material responsibly , primary recycled material .
+Our Standards Responsible Sourcing Materials based leading international guidance , including United Nations Guiding Principles Business Human Rights Organisation Economic Co-operation Development ( OECD ) Due Diligence Guidance Responsible Supply Chains Minerals Conflict-Affected High- Risk Areas .
+In 2023 , 100 percent identified tin , tantalum , tungsten , gold ( 3TG ) , cobalt , lithium smelter refiner Apples supply chain completed assessment verify compliance standard .
+We work third-party audit program industry-wide level identify environmental social , governance risk smelter , refiner , mining level .
+We map material product mica , copper , graphite , nickel , production , evaluate supplier new material compliance requirement .
+We also map , conduct additional due diligence , facilitate third-party audit material used product , graphite , nickel , copper .
+As build supply chain recycled material , partner smelter refiner able meet maintain standard .
+Industry collaboration As focus responsible sourcing use recycled content , continue drive progress broader industry multiple initiative .
+These include role steering committee Responsible Minerals Initiative ( RMI ) .
+This coalition one commonly used resource company working address mineral sourcing issue supply chain .
+We supporter First Movers Coalition Aluminum , whose focus aggregate demand signal low-carbon technology material .
+Using recycled renewable material help lower carbon footprint , moving u closer climate goal .
+To fulfill transition material , working policymakers support international standard enable use material globally .
+Apple committed setting strict standard responsible sourcing material used product .
+For information , read People Environment Our Supply Chain 2024 Annual Progress Report Conflict Minerals Report .
+Improving material manufacturing efficiency Making manufacturing process efficient creates less waste help u make material source .
+Were also designing product packaging require less material first place , helping reduce emission transporting processing material .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| For | example | , | 2023 | , | redesigned | packaging | Apple | Watch | Series | 9 | Apple | Watch | SE | model | introduce | new | compact | design | allows | 25 | percent | device | per | shipment | . |
+
+And progress toward 2030 carbon neutrality goal , investigating new material new way manufacture efficiently .
+Weve prioritized improving carbon footprint integrated circuit use product theyre carbon intensive .
+Weve also continued work sustainable semiconductor technology system research program imec , world-leading research innovation hub nanoelectronics digital technology .
+We two goal collaboration improve carbon footprint model associated leading node integrated circuit production , use model identify carbon reduction opportunity entire integrated circuit industry .
+Were also exploring opportunity improved efficiency across product manufacturing process .
+In 2023 , continued invest research development project aimed creating less waste processing material , reducing machining time associated energy use , efficiently transforming material near-net shape , maximizing recovery reprocessing manufacturing scrap .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Once | improved | process | successfully | developed | , | plan | work | supplier | deploy | scale | facilities.2024 | Environmental | Progress | Report | 20 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Driving | product | energy | efficiency | Product | energy | use | account | 29 | percent | gross | carbon | footprint | reason | , | work | reduce | product | energy | usage | . |
+
+We approach challenge earliest phase design , taking holistic view product efficiently software operates power requirement individual component .
+With generation product , strive improve energy efficiency .
+For example , transition Apple silicon Mac device continues drive improvement , including Our pro chip released 2023 enabled Mac device run improved energy efficiency .
+Mac mini M 2 made progress reducing energy use 2023 .
+And Apple TV 4K designed minimize impact environment , using nearly 30 percent less power previous generation achieving powerful performance.43 The efficiency gain A15 Bionic chip eliminate need internal fan , resulting compact design contributing 25 percent reduction carbon footprint previous generation .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Weve | cut | overall | product | energy | use | across | major | product | line | 70 | percent | since | 2008.44 | And | Apple | product | consistently | rated | ENERGY | STAR | , | set | specification | reflect | 25 | percent | energy-efficient | device | market | . |
+| In | 2023 | , | eligible | Apple | product | continued | receive | ENERGY | STAR | rating | superior | energy | efficiency.45 | And | 2023 | , | eligible | Apple | product | met | requirement | EPEAT | registration | , | another | environmental | rating | system | electronic | product | considers | energy | efficiency | number | environmental | topics.46 | Apple | TV | 4K | Designed | use | nearly | 30 | percent | less | power | previous | generation | achieving | powerful | performance50iPhone | 15 | Uses | 47 | percent | less | energy | U. | S. | Department | Energys | requirement | battery | charger | systems49PRODUCT | ENERGY | EFFICIENCY | Weve | cut | overall | product | energy | use | across | major | product | line | 70 | percent | since | 200847 | Mac | mini | Uses | 72 | percent | less | energy | ENERGY | STAR | requirement482024 | Environmental | Progress | Report | 21 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | FEATURE | Reducing | plastic | waste | packaging | innovation | Were | closing | goal | remove | plastic | packaging | transitioning | 100 | percent | fiber-based | packaging | 2025.51 | Along | journey | , | weve | addressed | many | packaging | component | typically | rely | plastic | , | including | large | product | tray | , | screen | film | , | wrap | , | foam | cushioning | . |
+
+Weve replaced fiber-based alternative implemented innovative alternative small us plastic across packaging like label lamination .
+At time , taking step ensure packaging recyclable fiber source come recycled source responsibly managed forest .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | 2023 | , | accomplished | following | Released | multiple | product | lineup | 95 | percent | fiber-based | packaging | , | including | iPhone | 15 | , | M | ac | , | iPad | Pro | , | Watch | , | Beats.52 | Released | first | 100 | percent | fiber-based | packaging | fall | Apple | Watch | lineup | . |
+
+Shipped Apple Vision Pro 100 percent fiber-based packaging 2024 .
+Weve also continued work address remaining plastic smaller part packaging , like label lamination , packaging innovation focused printing directly box using overprint varnish .
+This year , weve expanded effort include MacBook Pro , MacBook Air , Mac Studio , Mac Pro , Mac mini .
+In 2022 , introduced innovation iPhone , iMac , iPad , Apple Watch .
+That year , also introduced digital printing directly back box iPhone 14 iPhone 14 Pro eliminate need labels.53 We developing custom high-resolution printer print demand manufacturing facility product packaged .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| And | 2023 | , | broadened | approach | include | newly | released | iPhone | , | iPad | , | Apple | Watch | , | MacBook | models.18 | % | less | plastic | since | 2015 | 100 | % | 50 | % | 0 | % | 2015 | 2023 | 48 | % | Recycled | fiber | 31 | % | Responsibly | sourced | virgin | fiber | 21 | % | Plastic | 62 | % | Recycled | fiber | 35 | % | Responsibly | sourced | virgin | fiber | 3 | % | PlasticPACKAGING | FIBER | AND | PLASTIC | FOOTPRINT | ( | METRIC | TONS | ) | Our | goal | transition | 100 | percent | fiber-based | packaging | 2025 | In | 2022 | , | expanded | packaging | goal | boundary | better | reflect | impact | , | resulting | increase | 36 | percent | total | packaging | mass | , | relative | fiscal | year | 2021 | . |
+
+We include retail bag , finished good box ( including plastic content label in-box documentation ) , packaging sent customer part Apple Trade In , AppleCare packaging whole unit service module ( exception plastic needed protect item electrostatic discharge ) , secondary packaging Apple product accessory sold Apple .
+Our goal boundary include ink , coating , adhesive used packaging .
+In addition packaging footprint , also calculate fiber used corporate facility .
+In fiscal year 2023 , number 1100 metric ton .
+By 2025 , plan remove plastic packaging transitioning 100 percent fiber-based packaging .
+Our goal remove plastic packaging includes retail bag , finished good box ( including plastic content label in-box documentation ) , packaging sent customer part Apple Trade In , AppleCare packaging whole unit service module ( exception plastic needed protect item electrostatic discharge ) , secondary packaging Apple product accessory sold Apple .
+Our goal include ink , coating , adhesive used packaging .
+We plan remove plastic packaging refurbished Apple product 100-percent fiber based 2027 , old product packaging design phased .
+We continue selling existing inventory AppleCare packaging whole unit service module contain plastic vintage product end life consumed .
+This change enable u avoid waste generated re-packaging good new 100 percent fiber- based packaging .
+Responsible sourcing fiber defined Apples Responsible Fiber Specification ( PDF ) .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 2024 | Environmental | Progress | Report | 22 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Apples | packaging | design | guideline | factor | packaging | recyclability | , | requiring | use | fiber- | based | material | break | pulp | part | mixed-paper | recycling | stream | , | alongside | material | like | cereal | boxes.54 | We | test | packaging | standard | developed | independent | industry | research | organization | including | Western | Michigan | University | , | U. | S. | Forest | Services | Forest | Products | Laboratory | , | Confederation | European | Paper | Industries | continue | monitor | evolving | international | packaging | standard | . |
+
+Our fall Apple Watch lineup packaging 100 percent fiber-based , milestone toward commitment plastic-free packaging 2025 .
+100 % Our fall Apple Watch lineup packaging 100 percent fiber based , milestone toward commitment remove plastic packaging 2025 .
+As continue reduce plastic packaging , make sure wood , bamboo , bagasse fiber certified standard FSC , PEFC , Bonsucro .
+And since 2017 , wood fiber used packaging come either certified recycled source responsibly managed forest .
+Through partnership The Conservation Fund World Wildlife Fund , weve protected , improved forest management practice , one million acre working forest U. S. China .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | 2023 | , | forest | generated | enough | responsibly | sourced | fiber | balance | virgin | fiber | packaging | contributing | global | supply | responsibly | sourced | fiber.552024 | Environmental | Progress | Report | 23 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Electricity | Our | energy | efficiency | effort | extend | across | work | , | initial | design | manufacturing | beyond | . |
+
+Achieving efficiency across footprint essential meeting 2030 carbon neutrality goal .
+Weve achieved 100 percent clean electricity across operation , working toward manufacturing supply chain use Apple product .
+By using clean electricity place fossil fuel , contributing cleaner air lowering greenhouse gas emission .
+Approach We continue focus energy efficiency operation bringing new renewable electricity project online worldwide .
+In long term , believe project provide cost-effective energy .
+Managing energy use efficiency potential Designing , operating , maintaining facility reduce operational impact , auditing across operation supply chain drive efficiency conserving reducing energy use Using 100 percent renewable electricity corporate operation Continuing generate source electricity data center , retail store , office , since January 2018Transitioning supply chain renewable energy Making progress toward transitioning entire manufacturing supply chain , well supporting supplier adopting renewable energy technology helping drive environmental action supplier region Focusing product use Increasing product energy efficiency drive emission product use , taking step address emission remain Seeking renewable source positive impact Prioritizing energy supply option achieve positive environmental social benefits2023 progress 36M kWh In 2021 , Apple deployed proprietary server design focused energy computing efficiency added additional 36 million kilowatt-hours .
+1.7M MTCO 2e More 100 supplier facility participated energy efficiency program , achieving 2 billion kilowatt-hours electricity saving 2,200,000 MMBtu additional energy saving , together avoided nearly 1.7 million metric ton CO 2e .
+100 % clean energy Codified 100 percent clean energy mandate Supplier Code Conduct , requiring direct supplier transition renewable energy manufacturing Apple product .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Energy | efficiency | renewable | electricity | address | emission | Indirect | emission | ( | Scope | 2 | ) | Product | manufacturing | ( | Scope | 3 | ) | Product | use | ( | Scope | 3 | ) | 2024 | Environmental | Progress | Report | 24 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Data | center | Data | center | traditionally | energy | intensive | , | requiring | significant | resource | cool | heat-generating | server | IT | equipment | . |
+
+Thats continuously monitoring improving control cooling system .
+This retrospective view often enables u increase cooling capacity existing facility , thereby maximizing number server within data center footprint .
+In 2023 , continued see energy saving data center .
+A proprietary server design deployed 2021 focused energy computing efficiency resulted additional 36 illion kilowatt-hours per year energy saving .
+New facility When designing new facility , renovating existing facility , evaluate major system ensure managing energy footprint .
+We select LED fixture install sensor photocell reduce light level based occupancy level natural daylight .
+We install high efficiency heating cooling system transformer reduce energy consumption plug load .
+We take special attention ensure designing safe , productive space , still prioritizing energy saving .
+We also prioritize efficient compressed dry air system variable air volume fume hood RD space .
+Retail store We continue prioritize energy efficiency develop comprehensive energy model store ensure design aligned energy efficiency target .
+Weve also decarbonized even phasing natural gas reliant fossil fuel .
+Measurement accountability Measurement critical maintaining building energy performance .
+We well-developed system energy tracking benchmarking , includes data utility meter continuously monitor 15-minute electricity daily natural gas energy consumption .
+This method help u identify opportunity performance improvement .
+This early knowledge enables u restore building system efficiency actively manage energy footprint .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | 2023 | , | energy | efficiency | program | avoided | 41 | illion | kilowatt-hours | electricity | , | includes | saving | efficient | server | , | 100,500 | therm | natural | gas | adjustment | made | 6 | . |
+
+7 million square foot new existing buildings.56 Together , recent initiative avoid additional 27 , 000 etric ton CO 2e per year .
+Combined ongoing energy saving past year , accounting effective useful lifetime legacy saving , saved 75,000 etric ton CO 2e 2023.57Operating Apple facility efficiently Our data center , retail store , office source 100 percent renewable electricity , remain focused implementing energy reduction measure across facility .
+We assess natural gas electricity usage site type well research development facility auditing perform using best practice energy management reduce load .
+And design new building around occupant lab user specific need , enabling u use facility efficiently productively .
+Existing building We significant opportunity save energy retrocommissioning building Apple already occupies operates , including energy-intensive facility like data center .
+We audit performance building around world , deploy energy efficiency measure .
+Retrocommissioning focus building control optimize energy use operational efficiency .
+Were prioritizing reducing natural gas usage replacing natural gas equipment electrical .
+Were focused reviewing benchmarking natural gasintensive building look reduction fuel switching opportunity .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Apples | Reno | data | center | , | opened | 2012 | , | take | advantage | mild | climate | cooling | server | outside | air | whenever | possible.2024 | Environmental | Progress | Report | 25 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Improving | energy | efficiency | supply | chain | The | manufacturing | Apple | product | account | 59 | percent | gross | carbon | footprint | . |
+
+To address impact , collaborate closely supplier prioritize energy reduction .
+Together , work use clean energy efficiently possible every point supply chain , supporting creation efficient factory world .
+The Supplier Energy Efficiency Program , launched 2015 , help supplier optimize energy use .
+Implementing energy efficiency reduces energy intensity manufacturing , translates reduced greenhouse gas emission .
+We provide technical planning support supplier build energy-efficient system .
+We support supplier helping recognize optimization opportunity identify solution energy assessment .
+To assist implementation , connect supplier extensive education training opportunity including technical assistance resource help access external funding energy efficiency project .
+Our supplier successfully implemented range energy efficiency project , installing light sensor implementing free cooling system making boiler HVAC system energy improvements.1.7M We estimate supplier Supplier Energy Efficiency Program avoided nearly 1.7 million annualized metric ton supply chain greenhouse gas emission 2023 .
+Clean electricity Maintaining 100 percent renewable electricity Apple facility Our retail store , data center , RD facility , office around world currently source 100 percent renewable electricity .
+Weve focused effort source renewables around several key pillar Creating new renewable energy project Undertaking project deliver clear benefit local community Supporting renewable energy innovationsCreating new project Apple-created renewable source account 91 percent renewable electricity facility use currently around 1.6 gigawatts .
+New renewable electricity project require investment .
+Apple project include following funding approach Direct ownership ( 8 percent Apple-created project ) We build project including solar , biogas fuel cell , low-impact hydro project provide renewable electricity , feasible .
+Equity investment ( 4 percent Apple-created project ) We invest capital new solar PV wind project market , matching renewable energy generated energy use .
+Long-term renewable energy contract ( 88 percent Apple-created project ) Through long-term power purchase agreement , virtual power purchase agreement , form long-term commitment , help support new , local , primarily solar PV wind project line renewable energysourcing standard .
+We launched Asia Green Fund 2019 help provide technical expertise finance capital- intensive energy efficiency project .
+As green financing mechanism remain integral Supplier Energy Efficiency Program , exploring new approach connect supplier external funding energy efficiency project scaling program accelerating reduction .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | 2023 | , | ore | 100 | supplier | facility | participated | energy | efficiency | program | , | achieving | 2 | billion | kilowatt-hours | electricity | saving | 2,200 | , | 000 | M | MBtu | additional | energy | saving | . |
+
+Together , estimate avoided nearly 1 .
+7 million metric ton CO 2e , representing 25 percent increase since 2022 .
+To address gap renewable energy need beyond whats provided Apple-created project , directly purchase renewable electricity available utility green energy program 5 percent total corporate load 2023 .
+Colocation distribution facility vendor supply 3 percent total load renewable energy .
+And certain situation , purchase renewable energy certificate ( RECs ) .58 These RECs , account 2 percent total load , share power grid Apple facility support , available .
+These purchase subject standard Apple-created renewable energy project .
+Appendix A provides additional detail Apples renewable energy solutions.91 % Apple-created renewable source account 91 percent renewable electricity facility use .
+Supporting social impact Our Power Impact program , launched 2019 , continues help provide local community needed energy resource .
+With funding Apple , local community organization benefit access cost-effective renewable energy .
+Apple currently supporting 20 renewable electricity project around world , including Philippines , Thailand , South Africa .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Read | Power | Impact | page | 31.2024 | Environmental | Progress | Report | 26 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Transitioning | supplier | renewable | electricity | The | electricity | manufacturing | supplier | use | represents | largest | single | source | greenhouse | gas | emission | throughout | manufacturing | supply | chain | . |
+
+Thats effort facilitate entire supply chain transition 100 percent renewable electricity essential reaching 2030 carbon neutrality goal .
+Our Supplier Clean Energy Program ( CEP ) help enable supplier transition renewable electricity advocating policy change , providing information access renewable energy procurement option , creating engagement opportunity renewable energy expert .
+By engaging program , supplier implement best practice advocating procuring renewable energy across corporate operation , including associated Apple production .
+The program also equips share lesson learned partner throughout value chain , extending benefit beyond scope Apple .
+PROCUREMENT MECHANISMS Supplier renewable energy procurement mechanism Our supplier implementing clean energy solution using variety contracting mechanism .
+In 2023 , supplier relied mostly renewable energy certificate ( RECs ) meet CEP commitment , largely due expansion Chinas Green Energy Certificate ( GEC ) recognition GECs primary instrument tracking renewable energy consumption .
+Apple view strategic use well-designed REC program important interim solution longer-term procurement option like power purchase agreement ( PPAs ) , becoming increasingly available across globe , working closely supply chain longer-term transition .
+37 % Solar 19 % Other technology 44 % Wind1 % Onsite renewable electricity 25 % Renewable power purchase 8 % Direct investment 66 % Renewable energy certificatesTECHNOLOGIES Supplier renewable energy technology We work supplier select project greatest potential impact clear carbon , ecological , social benefit .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Other | technology | includes | clean | energy | source | form | biomass | , | geothermal | , | small-scale | , | low-impact | hydro.592024 | Environmental | Progress | Report | 27 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | As | March | 2024 | , | ore | 320 | supplier | committed | use | renewable | electricity | Apple | production | . |
+
+These supplier make 95 percent Apples direct spend material , manufacturing , assembly product worldwide .
+And represents 21 gigawatts clean energy commitment , 16.5 already operational .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| To | rapidly | scale | Supplier | Clean | Energy | Program | accelerate | progress | Apple | 2030 | , | weve | since | formalized | Clean | Energy | Program | Apple | Supplier | Code | Conduct | , | requiring | entire | direct | manufacturing | supply | chain | use | 100 | percent | renewable | electricity | Apple | production | 2030 | . |
+| In | 2023 | , | 16.5 | gigawatts | renewable | energy | procured | supplier | online | Apples | supply | chain | generated | 25 | . |
+
+5 million megawatt-hours clean energy , avoiding 18 .
+5 million metric ton greenhouse gas emission 6 .
+5 percent increase 2022 .
+How supplier responding Despite growing momentum advocacy renewables , transitioning 100 percent renewable electricity present challenge technical regulatory barrier , need capital investment , lack access high-quality cost- effective solution .
+Long-standing energy policy infrastructure incentivize use fossil fuel like coal make difficult bring new renewable energy online certain region .
+In case , supplier prompted rely less impactful interim solution , like one-time purchase energy attribute certificate existing renewable energy project .
+These option represent annual cost buyer often offer little opportunity cost saving return investment .
+To overcome challenge , supplier using new purchasing method , creating renewable energy business , even participating world largest innovative renewable energy deal .
+Suppliers also adapting changing renewable energy market finding new solution , including first-of-their-kind procurement structure geography introducing corporate procurement option .
+In China , includes Green Power Trading program , allows cross-provincial agreement provide supplier option .
+South Korea expanded option green power , including power purchase agreement ability purchase renewable energy certificate .
+Japan also introduced new renewable energy option , including virtual physical power purchase agreement price-competitive nonfossil certificate potential scale access renewable energy across market .
+While weve seen progress key market , continue advocate policy enable renewable energy compete fairly fossil fuel subsidized power rate , opening avenue supplier transition sourcing 100 percent renewable electricity ( see page 71 ) .
+How support supplier Galvanizing internal champion Weve able quickly scale Supplier Clean Energy Program involving team across Apple supplier engagement , including supplier-facing Apple employee .
+We empower employee tool help speed supplier transition 100 percent renewable electricity .
+Data transparency drive process .
+We track electricity use renewable procurement direct supplier , including beginning learn renewable electricity well way using 100 percent renewable electricity .
+We help supplier measure progress gain access solution .
+Weve also continued develop internal training engagement process Apple employee supplier .
+By connecting supplier resource providing transparency supplier progress , team scaling impact across supply chain .
+GigawattsFY22 FY23FY21FY20FY19FY18FY17FY16 4 8 16 20 24 12SUPPLY CHAIN CLEAN ENERGY PROGRESS Renewable electricity operational committed gigawatts ( GW ) Operational Committed2024 Environmental Progress Report 28 Engagement Advocacy Data Appendix Introduction Contents Environmental Initiatives Apple 2030 Resources Smarter Chemistry Supporting supplier capacity We share knowledge weve gained transition 100 percent renewable energy supplier , supplementing effort identify pursue opportunity decarbonize business evolve .
+For reason , invest heavily providing education training across supply chain platform Clean Energy Academy , includes advanced customized training workshop leading expert .
+In 2023 , nearly 300 supplier facility China mainland Taiwan participated Clean Energy Academies , attended renewable energy developer industry guest speaker .
+The academy offer update available energy procurement option supplier market , help supplier prepare participate upcoming renewable energy pilot , provide implementation guidance local expert .
+This program supplement Clean Energy Portal , available supplier facility , provides training material , resource , country-specific information guide supplier transition 100 percent renewable electricity .
+Also 2023 , announced plan support creation first-of-its-kind public training platform available business across many different industry , giving company size Apples supply chain beyond access resource advocacy network weve cultivated nearly decade .
+Weve partnered Clean Energy Buyers Institute ( CEBI ) corporation launch inaugural Clean Energy Procurement Academy shared training curriculum delivery process equip company technical readiness advance clean energy procurement , address scope 3 emission , decarbonize global supply chain .
+Additionally , support creation growth renewable energy industry association supplier join learn local opportunity , Japan Climate Leaders Partnership Clean Energy Buyers Association .
+Expanding access renewable electricity To support supplier transition renewable electricity , help find high-quality solution decide best address specific need .
+The China Clean Energy Fund This fund enables Apple supplier invest renewable energy .
+As March 2024 , fund invested 1 gigawatt renewable electricity project .
+Power purchase agreement ( PPAs ) Apple continue support global development high-quality program generating trading renewable energy certificate .
+We also connect supplier opportunity buy renewable energy directly project developer utility model emerge around globe .
+Direct Investments To cover emission supplier dont contract directly , invest additional renewable electricity project .
+To date , weve directly invested nearly 500 egawatts solar wind project China Japan address upstream electricity emission .
+Advocating policy change Effective government policy rule remove significant barrier low-carbon solution enable solution rapidly scale .
+Suppliers need clean energy investment make financial sense effectively transition renewable energy .
+But carbon-intensive energy source , like coal gas , often price advantage subsidy ignored cost externality , greenhouse gas emission .
+Across region supplier operate , engage policymakers support renewable energy thats cost-effective , accessible company , sourced high-quality project material impact local market .
+For example , encouraging government subsidize expand carbon-intensive infrastructure .
+We also encourage keep pace speed technological innovation , consider life cycle emission energy solution , support new energy solution effectively reduce global emission .
+Additionally , Apple support government effort beneficial electrification build-out necessary transmission infrastructure , considering cost-effectiveness .
+Public investment decarbonization properly supported fund generated establishing price carbon pollution .
+Collaborating group like Asia Clean Energy Coalition ( ACEC ) , Clean Energy Demand Initiative ( CEDI ) , RE100 bring together world influential business commitment use renewable electricity weve identified country-level policy barrier procuring renewable electricity .
+By engaging initiative others , local working group , use local international expertise capacity collate challenge faced member company advocate critical policy shift support grid decarbonization .
+In Japan , example , Apple collaborated renewable energy user called enhancing Non-Fossil certificate ( NFC ) scheme enable transparency tracking .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | China | , | Apple | supplier | participated | meeting | event | share | experience | renewable | energy | procurement | , | discussed | way | improve | policy | increase | availability | cost-effective | solutions.1 | GW | As | March | 2024 | , | China | Clean | Energy | Fund | invested | 1 | gigawatt | renewable | electricity | project | , | nearly | 100 | percent | investment | online.2024 | Environmental | Progress | Report | 29 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | flexibility | portion | emission | target | grid | higher | carbon | intensity | . |
+
+This approach allows u balance focusing area customer use product maximizing social environmental benefit additional renewable energy .
+For example , California large market Apple , might build new renewable energy project location lower clean energy percentage grid , renewable energy capacity significant impact .
+Were developing large-scale solar wind project around world part work .
+Radian Solar , plan additional project US , Europe India underway .
+In Europe , plan engage project range 30 300 egawatts , initial request proposal issued 2022 .
+Engaging customer Were building feature make easier customer decide draw cleaner electricity grid .
+In 2023 , launched Grid Forecast , new tool Home app iPhone , iPad , Mac , Apple Watch show cleaner electricity available grid .
+Apple us data combine grid , emission , weather information one easy-to-follow signal .
+This help people make informed decision run large appliance charge electric vehicle Product use The electricity customer use charge power Apple device represents 29 percent Apples gross carbon footprint .
+Increasing energy efficiency product direct action take drive emission product use , taking step address emission remain .
+As address emission tied electricity product use globally , guiding principle focus three area exploring innovative solution minimize greenhouse gas emission product use , including energy efficiency ( see page 25 ) building renewable electricity project aimed maximizing carbon reduction social impact engaging customer educate provide opportunity support decarbonizing grid .
+We also account portion grid already clean , residual grid mix data available .
+Clean energy project As expand strategy include product use , considering number factor selecting project .
+We working match expected electricity consumption product 100 percent clean electricity , starting fall Apple Watch lineup .
+Although well source majority clean electricity region used , maintaining geographic device throughout day .
+In contiguous United States , Grid Forecast available Apple Watch , added widget watch face complication .
+As additional data becomes available ongoing industry collaboration , Apple continue refining Grid Forecast maximize impact .
+To learn Grid Forecast , visit Grid Forecast support page .
+Clean Energy Charging , became available U. S. fall 2022 iOS 16 , enables customer help decrease carbon footprint iPhone .
+The feature look electricity source select charge time grid using cleaner energy source , optimizing charging reducing greenhouse gas emission .
+Learn Clean Energy Charging .
+Beyond work product , collaborate others continue advancing climate-smart decision-making customer across household energy usage , well employee partner .
+As example , Apple joined CoolClimate Network , research partnership University California , Berkeley , motivates empowers individual organization make low-carbon choice .
+Apple investing renewable energy worldwide including large-scale solar project Brown County , Texas help address electricity customer use charge Apple device .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 2024 | Environmental | Progress | Report | 30 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | FEATURE | Increasing | access | clean | energy | around | world | Power | Impact | driven | idea | access | renewable | energy | creates | opportunity | within | community | benefiting | climate | . |
+
+Apple launched initiative 2019 provide underresourced community renewable electricity supporting economic growth social impact .
+The program fund renewable energy project mutually beneficial local community organization get access cost-effective energy , Apple retains environmental attribute project .
+We currently support 20 renewable project country around world , including Colombia Apple helped bring rooftop solar power system online Hospital Infantil Santa Ana .
+The money saved energy bill allows hospital purchase equipment medication .
+In addition , Apple help fund rooftop solar installation Ciudad Don Bosco , nonprofit provides educational social service under-resourced youth .
+We recently expanded support providing funding phase II project .
+Democratic Republic Congo Apple provides access renewable energy Malaika School , empowers Congolese girl community education , agriculture , water project , health outreach , sport , vocational training .
+To support Malaika student teacher , solar initiative build Apple collaboration , including virtual Today Apple session coding Swift , photography , filmmaking , design , well event Apple Retail team Diversity Network Associations .
+Israel Apple support Nitzana Educational Eco-Village community underserved youth 260 kilowatt solar system help lower electricity cost .
+The saving help enhance educational experience youth various background .
+Apple also supported expansion another 64 kilowatt solar system installed February 2023 .
+Nepal Apple funded solar battery storage system nonprofit hospital serf child throughout Nepal .
+This system offer limited backup power grid outage .
+Nigeria Apple helped fund remote minigrid project provides energy access community member replaces fossil fuel business .
+In addition , Apple also fund solar power system provide power public healthcare center state Ondo , excess energy serving household surrounding region .
+Philippines Apple helped fund new rooftop solar installation educational institution Bataan .
+This help reduce electricity cost institution free fund scholarship high- achieving , under-resourced student .
+South Africa Apples first PFI project South Africa helped bring electricity 3,500 household previously lacked access local street lighting .
+In addition , Apple help fund two project South Africa school child disability .
+Along five operational project across South Africa , installation reduce electricity cost , saving help fund operating cost expand program support underserved group .
+Thailand Apple helped establish solar energy system replace polluting diesel fuel remote fishing village relies refrigerator maintain quality fish product .
+We increased local renewable energy production battery storage improve reliable access electricity .
+Vietnam Apples work support program Vietnam provide solar electricity 20 school around country , aspiration help showcase renewables sustainable development .
+At five school , solar energy system installed operational .
+Zambia Apple help fund microgrid battery storage system provide power hundred household currently without electricity .
+The project reduce reliance cost associated imported diesel gasoline generator , increase amount power available community organization business .
+Power Impact expanding access clean , affordable power different part world .
+Apple continue focus uplifting community pursues environmental goal .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 2024 | Environmental | Progress | Report | 31 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Direct | emission | Some | material | integral | product | result | significant | emission | . |
+
+The true certain manufacturing process transportation product .
+We seek technological solution supplier engagement abate emission source .
+Approach Were committed reducing direct greenhouse emission facility across supply chain .
+We engage multiple approach achieve , looking technical advancement help address emission changing make transport product .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Seeking | technological | solution | Pursuing | low | carbon | technology | address | carbon-intensive | process | Addressing | fluorinated | greenhouse | gas | emission | Partnering | closely | key | manufacturer | work | prevent | gas | released | atmosphere | Shifting | transport | mode | product | shipment | Moving | shipping | mode | less | carbon | intensive | air | transport | ocean | whenever | possible | Reducing | employee | commute | emission | Exploring | way | reduce | carbon | footprint | employee | commuting | workDirect | emission | abatement | address | emission | Direct | emission | ( | Scope | 1 | ) | Product | manufacturing | ( | Scope | 3 | ) | Product | transport | ( | Scope | 3 | ) | Business | travel | ( | Scope | 3 | ) | Employee | commute | ( | Scope | 3 | ) | 2023 | progress | 2.7M | MTCO | 2e | Our | display | supplier | abatement | effort | reduced | 2.7 | million | annualized | metric | ton | CO | 2e | . |
+
+100 attendee Apple hosted inaugural virtual training focused reporting abating scope 1 emission , 100 attendee .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 20 | % | less | emission | In | 2023 | , | reduced | emission | transporting | product | 20 | percent | compared | 2022 | . |
+
+Based data reported Apple supplier .
+Data independently assured Apple third-party .
+The low-carbon aluminum breakthrough build significant progress Apple made reducing carbon impact aluminum metal found product .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 2024 | Environmental | Progress | Report | 32 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Rethinking | aluminum | made | As | part | Apples | commitment | reduce | product | environmental | impact | innovation | , | partnered | aluminum | company | government | Canada | Quebec | invest | ELYSIS | . |
+
+This joint venture commercialize patented technology eliminates direct greenhouse gas emission traditional smelting process .
+Since collaboration began 2018 , weve helped accelerate development technology facilitating joint partnership providing initial funding ongoing technical support .
+In 2022 , Apple shipped iPhone SE device used ELYSIS aluminum , building 2019 purchase first-ever commercial batch aluminum resulting joint venture .
+The commercial- purity aluminum product first manufactured without creating direct greenhouse gas emission smelting process .
+ELYSIS continued make progress within Industrial Research Development Center Quebec produce commercial-purity primary aluminum industrial scale .
+Addressing fluorinated greenhouse gas emission One largest contributor direct emission supply chain use fluorinated greenhouse gas ( F-GHGs ) .
+F-GHGs notably used electronics manufacturing semiconductor flat-panel display , global warming potential ( GWPs ) thousand time CO 2 .
+While use F-GHGs certain manufacturing process today difficult avoid , emission reduced switching alternative low GWP gas , optimizing production process use emit fewer F-GHGs , installing gas abatement tool .
+Were collaborating closely supply chain partner work prevent gas released atmosphere .
+Since launch engagement effort 2019 , working largest manufacturer display semiconductor achieve high standard F-GHG abatement .
+In 2023 , display supplier effort resulted avoided emission 2 .
+7 million metric ton CO 2e , annualized.60 Further , engagement sector-specific industry coalition , working accelerate climate action across whole semiconductor value chain .
+The innovative direct carbon-free smelting process ELYSIS potential reduce climate impact production process aluminum one world widely used metal .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 2.7M | In | 2023 | , | display | supplier | effort | resulted | avoided | emission | 2.7 | million | metric | ton | CO | 2e | , | annualized.2024 | Environmental | Progress | Report | 33 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | packaging | compact | packaging | Apple | Watch | Series | 9 | Apple | Watch | SE | model | introduced | new | smaller | shape | allows | 25 | percent | device | per | shipment | . |
+
+Were collaborating supplier explore technical innovation transport , including alternative fuel electric vehicle .
+For example , 2022 , supported development analysis Carbon Direct , carbon management firm , identified pathway developing sustainable aviation fuel ( SAF ) .
+And 2023 , socialized learning partner , including supplier industry group .
+Read summary finding Promising production pathway opportunity scale section Sustainable Aviation Fuel Primer report .
+We also trialed limited use SAF two flight shipped select iPad model 2023 .
+In 2023 , continued partner carrier offer low-carbon delivery using electric vehicle ( EVs ) , e-bikes car , reducing impact customer community .
+By prioritizing vendor offer low-carbon option , signaling value option incentivizing decarbonization .
+Transporting product In 2023 , reduced emission transporting product 20 percent compared previous year .
+We also doubled product tonnage transported ocean .
+On average , ocean shipping emission approximately 95 percent lower air transport emissions.61 We aim continue increase use ocean shipping product .
+For example , select Apple Watch model , including watch band , well ship least 50 percent combined weight using non-air mode like ocean shipping lifetime product , cutting total transportation emission nearly half.62 And 2023 , shifted select model MacBook Pro MacBook Air use ocean shipping manufacturer , creating opportunity lower-carbon mode shipping product launch .
+Through forward-thinking logistics , consolidating product shipment factory facilitate ocean shipping sea port Asia Pacific market .
+And since 2022 , effort helped u increase ocean shipment 10 percent region diverting shipment air transport .
+Weve also reduced unnecessary space aboard aircraft truck using smaller , custom pallet , creating efficient shipment .
+Additionally , redesigning Improving employee travel commute Were focused finding new way reduce carbon footprint employee commuting work .
+For example , helping employee transition single-occupancy vehicle mass transit , coach service , campus bicycle .
+To incentivize use electric vehicle , provide 3,330 EV charging station 1,730 port across U. S. campus .
+For commute-related emission remain , applying high-quality offset carbon credit .
+Supporting supplier capacity As tackle direct emission across supply chain , building new educational material resource support help supplier decarbonize direct emission .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | 2023 | , | hosted | first | virtual | training | series | focused | reporting | abating | scope | 1 | emission | , | 100 | supplier | attendee | . |
+
+We continue launch supplier program targeted addressing direct emission energy process produce Apple product .
+The manufacturing Apple product account 59 percent gross carbon footprint .
+This includes emission fuel combustion heating , ventilation , air conditioning ( HVAC ) refrigeration fluorinated gas physical chemical process ( excluding transportation ) .
+These source vary widely require use diverse technology solution abate .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Apples | approach | identify | process | carbon | emission | hot | spot | across | supply | chain | like | use | fluorinated | gas | display | semiconductor | manufacturing | launch | targeted | program | address | carbon | hotspot | partnership | supplier | , | government | , | industry | stakeholders.25 | % | All | packaging | Apple | Watch | Series | 9 | Apple | Watch | SE | model | introduced | new | smaller | shape | allows | least | 25 | percent | device | per | shipment.2024 | Environmental | Progress | Report | 34 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Carbon | removal | Science | show | limiting | planet | warming | 1.5 | C | require | deeply | decarbonizing | industrial | emission | next | 30 | year | significantly | ramping | carbon | removal | address | surplus | carbon | dioxide | ( | CO | 2 | ) | already | atmosphere | . |
+
+To catalyze effort reach 1.5 C pathway , Apple scaling carbon removal solution , beginning available today , exploring solution future .
+Approach Apple unequivocal priority Emissions reduction take precedence carbon removal .
+Were striving reduce direct greenhouse gas emission facility , supporting emission reduction supply chain process innovation , direct emission abatement , transitioning clean energy .
+But even comprehensive measure , emission value chain cant yet avoided .
+We aim reduce emission 75 percent compared 2015 footprint 2030 .
+To achieve carbon neutrality across value chain , well voluntarily balance remaining unavoidable emission high-quality carbon removal credit .
+Were pursuing opportunity carbon removal following effortsExploring addressing carbon removal solution Recognizing achieving global climate target require pursuing carbon removal strategy considering option consistent Intergovernmental Panel Climate Changes ( IPCC ) position pathway limiting warming 1.5 C require carbon removal unavoidable emissions.63 Then , evaluating option five key criterion stage development , scalability , durability , carbon methodology , co-benefits .
+Investing nature-based carbon removal project Engaging project offer important ecological social benefit providing economic development opportunity local community .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Seeking | align | carbon | market | impact | investment | capital | addressing | three | main | barrier | facing | nature-based | solution | scale | , | quality | , | capacity | order | grow | nature-based | carbon | removal | well | beyond | current | scale | voluntary | carbon | markets.2023 | Progress | 280M | In | March | 2024 | , | Apple | welcomed | key | manufacturing | partner | new | investor | Restore | Fund | , | committing | additional | fund | Taiwan | Semiconductor | Manufacturing | Company | ( | TSMC | ) | invest | 50 | million | Murata | invest | 30 | million | fund | managed | Climate | Asset | Management | , | joint | venture | HSBC | Asset | Management | Pollination | . |
+
+These new investment build Apples previous commitment 200 million Restore Funds second phase , bringing total 280 million committed capital .
+Addressing unavoidable emission Working toward goal scale high- quality nature-based project putting robust standard place ensure integrity carbon removal .
+And building capacity partner support nature-based carbon removal implementation help enable effort grow beyond Apples demand .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Read | work | Apples | Carbon | Removal | Strategy | white | paper.2024 | Environmental | Progress | Report | 35 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | The | need | carbon | removal | Any | successful | strategy | addressing | climate | change | includes | development | carbon | removal | technology | pursued | urgently | parallel | effort | decarbonize | energy | production | protect | restore | Earths | ecosystem | . |
+
+As part effort achieve carbon neutrality across value chain , Apple prioritizes emission reduction .
+We balance remaining unavoidable emission high-quality carbon removal credit .
+To ensure removal high integrity , follow guidance set international standard apply rigorous standard criterion .
+Nature-based carbon removal Science indicates nature-based solution scalable economically viable opportunity mitigate climate change short term .
+In addition climate benefit , nature- based solution offer multiple co-benefits , including enhanced employment local livelihood , improved biodiversity , soil carbon nutrient cycling , increased timber supply reduce pressure primary forest .
+The IPCC lay range option remove carbon atmosphere using combination photosynthesis chemistry .
+These approach include existing climate solution , afforestation reforestation , relatively new technology , direct air capture ( DAC ) ocean alkalinization .
+Apple looked approach could help balance residual emission focus global urgency align 1.5 C pathway scale carbon removal .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Five | key | criterion | drive | exploration | Stage | development | A | solution | stage | development | important | meet | Apple | 2030 | target | reach | scale | within | time | frame | needed | stay | within | 1.5 | C | trajectory | . |
+
+Scalability We consider scalability climate crisis collective responsibility , impact Apples solution scale beyond environmental footprint .
+Durability Removals must permanent , there risk reversal , measure must place address risk compensate reversal defined period time .
+Carbon methodology The impact achieved need accounted using rigorous carbon accounting methodology aligns quality consistency carbon accounting system , including evaluating uncertainty underlying science .
+Co-benefits We evaluated co-benefits across different carbon removal technology .
+Most carbon removal approach potential generate additional benefit biodiversity community also pose risk .
+Our review different available technology helped u determine nature-based solution including afforestation , reforestation , revegetation ( ARR ) soil carbon sequestration currently offer comprehensive carbon removal approach .
+Restore Fund We launched Restore Fund 2019 partnership Conservation International Goldman Sachs .
+Since creation , fund invested three initiative projected remove million metric ton carbon starting 2025 .
+This fund unique aim change carbon removal cost potentially profitable investment .
+By creating fund generates financial return well real measurable carbon impact , strive drive broader change encouraging capital investment carbon removal around globe .
+We developed Restore Fund pilot , seeking expand improve others build work scale market nature-based removal .
+The first phase fund focused blending responsible forestry practice carbon removal sought maximize environmental impact , including carbon , hydrology , habitat restoration .
+As focus eliminating majority emission across value chain , also addressing emission cant reduce looking high-quality carbon credit nature-based project .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 2024 | Environmental | Progress | Report | 36 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Climate | Asset | Management | , | joint | venture | HSBC | Asset | Management | Pollination | . |
+
+Murata electronic component supplier Apple based Japan invest 30 illion fund .
+These new investment build Apples previous commitment 200 illion Restore Funds second phase , bringing total 280 illion committed capital .
+TSMC Murata among 320 supplier Apples Supplier Clean Energy Program .
+The fund TSMC Murata investing alongside Apple pool sustainably managed agriculture project ecosystem conservation restoration project generate carbon financial benefit .
+To improve accuracy monitoring reporting , verifying project carbon removal impact , Apple deploying innovative remote sensing technology using Space Intelligences CarbonMapper HabitatMapper Upstream Techs Lens .
+Using high-resolution satellite imagery Maxar provider , initiative enables u view detailed habitat forest carbon map Restore Fund project .
+Through engagement MIT Climate Sustainability Consortium , Apple jointly funding research PepsiCo Cargill improve measurement soil carbon nature-based carbon removal project .
+Apple partner used innovative tool including LiDAR iPhone , satellite data , bio-acoustic monitoring , machine learning evaluate well-being land project progress .
+Integrity rigorous approach central designed Restore Fund partner .
+The project aim become certified international standard developed organization Verra Gold Standard Climate , Community Biodiversity Alliance ( CCBA ) Forest Stewardship Council ( FSC ) .
+Using international standard help confirm carbon stored forest measured reported high standard project up-to-date safeguard place .
+The project choose also seek positive impact livelihood local community bringing economic opportunity often underserved rural economy .
+And well continue focus project protect land high conservation value .
+High-quality avoided emission project interim solution We plan reach goal becoming carbon neutral across entire value chain 2030 , using wide range solution disposal , prioritizing significant emission reduction , followed long- term carbon removal initiative like Restore Fund .
+Weve carbon neutral corporate emission since April 2020 .
+We started reducing corporate emission use 100 percent renewable electricity energy efficiency effort facility .
+But emission remain difficult avoid activity including natural gas used building emission business air travel employee commute .
+For emission cant avoid , use high-quality offset interim solution .
+Were intentional identifying avoided deforestation removal project high standard achieve meaningful impact .
+We often originate project working reputable partner , like Conservation International , carefully select project third-party-certified registry .
+For detail purchase high-quality carbon credit , see Data .
+Read work Apples Carbon Removal Strategy white paper .
+Based learning project growing global need nature-based solution , Apple announced expansion Restore Fund 2023 .
+The commitment aim develop investment vehicle scale nature-based solution using different kind financial innovation .
+This unique blended-fund structure intended achieve financial climate benefit investor advancing new model carbon removal address broader spectrum global potential nature-based solution .
+The expanded fund target two type investment regenerative agriculture ecosystem asset , pipeline landscape restoration project aim remove carbon atmosphere .
+In October 2022 , Apple announced three new project Restore Fund weve invested three high-quality forestry manager Brazil Paraguay .
+Our recent project , announced March 2024 , support restoration South Americas Atlantic Forest .
+Also March 2024 , Apple welcomed key manufacturing partner Taiwan Semiconductor Manufacturing Company ( TSMC ) Murata Manufacturing new investor Restore Fund .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Global | semiconductor | foundry | TSMC | invest | 50 | illion | fund | managed | 2024 | Environmental | Progress | Report | 37 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | ResourcesA | strong | case | recycled | material | All | MacBook | Air | model | contain | 100 | percent | recycled | aluminum | enclosure | . |
+| Our | custom | aerospace-grade | aluminum | alloy | lightweight | , | durable | , | scratch | resistant.2024 | Environmental | Progress | Report | 38 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Approach | Product | longevity | Material | recovery | Water | Zero | waste | Smarter | Chemistry | Approach | Resources | Were | committed | sourcing | , | using | , | recycling | material | rely | way | meet | high | standard | labor | , | human | right | , | environmental | stewardship | . |
+
+Our commitment responsibly use resource extends across corporate operation supply chain .
+This mean sourcing responsibly , minimizing freshwater use , eliminating waste across Apple-owned supplier site .
+We work reduce overall resource footprint supporting product collaborating supplier , NGOs , recyclers , community stakeholder , innovation leader .
+We know cant work alone requires broader engagement collaboration enabling stewardship shared resource .
+Building durable , long-lasting product central approach , making best use resource required create .
+We aim one day make product solely responsibly sourced recycled renewable material maintaining rigorous standard quality durability .
+Innovations new approach recycling make possible .
+Were able recover use material rely product even greater quantity , helping u begin realize full potential resource .
+Water one critical resource .
+Because also community resource , prioritize stewardship effort working toward efficient use freshwater , using alternative possible , managing discharge responsibly .
+We also look beyond facility water basin operate .
+Were working improve quality water community rely collaboration local partner including company , NGOs , government agency .
+We also conserve resource working eliminate waste .
+We work reuse recycle across operation throughout supply chain .
+We aim eliminate waste supplier operate .
+These effort include reducing overall amount waste generate , innovating reuse approach , creating new recycling opportunity local business .
+Areas impact Material recovery Improving collect end-of-life product developing recycling innovation others use old device raw material source future .
+Product longevity Designing durable hardware , using software update extend functionality , providing convenient access safe high-quality repair service , directing device part refurbishment reuse .
+Water Reducing water impact manufacturing product , use service , facility operation .
+At time transitioning alternative solution , improving quality water discharge , protecting shared water resource .
+Zero waste Minimizing overall waste generated eliminating waste sent landfill manufacturing supply chain well corporate office , data center , retail store .
+We continued initiative focusing enhancing supporting electrochemical metal-finishing process , like anodizing , potential save hundred million gallon water annually applied scale .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 2024 | Environmental | Progress | Report | 39 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Product | longevity | In | design | approach | , | combine | hardware | built | endure | rigor | everyday | use | , | tailored | software | update | unlock | new | feature | functionality | , | access | repair | service | needed | . |
+
+This also help keep product use long possible new customer experience Apple product service secondhand device .
+Approach Were committed building long-lasting device , part achieving designing durable hardware .
+To minimize product need repair , refine feature improve durability , like water resistance Ceramic Shield , protects iPhone display .
+And provide regular software support , customer update device recent operating system unlock latest feature functionality long possible .
+Weve also expanded access safe , reliable , secure repair service meet customer need .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| When | product | require | repair | , | customer | easily | find | repair | option | work | them.2023 | progress | 70 | % | less | emission | Back | glass | repair | iPhone | 15 | model | 70 | percent | less | greenhouse | gas | emission | per | repair | compared | iPhone | 14 | Pro | . |
+
+40 product Self Service Repair support 40 Apple product 33 country 24 language since expansion December 2023 .
+12.8M device Weve sent nearly 12.8 million device accessory new user reuse program like Apple Trade In AppleCare .
+To achieve product longevity , prioritize following action Software update Providing free software update enhance customer experience allowing access latest feature available device long possible including important security privacy update .
+Refurbishment reuse Collecting device refurbishing reuse several program , including Apple Trade In , iPhone Upgrade Program , AppleCare service , corporate Hardware Reuse Program extend product life .
+Based life cycle assessment ( LCA ) .
+Durability Designing device consideration potentially rugged use customer aiming minimize maintenance repair interruption .
+And utilizing rigorous reliability testing process simulates real-world use maximize lifespan product .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Repair | access | Offering | access | safe | , | reliable | , | secure | repair | expanding | number | Apple | Authorized | Service | Providers | ( | AASPs | ) | Independent | Repair | Providers | ( | IRPs | ) | , | well | Self | Service | Repair | ( | SSR | ) | customer | want | complete | repairs.2024 | Environmental | Progress | Report | 40 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Durability | Durable | product | hold | value | longer | . |
+| iPhone | , | example | , | hold | value | longer | compared | smartphones.64 | As | April | 2024 | , | iPhone | 7 | , | introduced | 2016 | , | still | monetary | value | Apple | Trade | In | United | States.65 | We | design | device | rigor | daily | use | mind | . |
+
+Engineers Reliability Testing Lab assess design strict durability standard measure performance material , component , fully assembled product .
+They use testing method mimic realistic condition customer use product , assessing many aspect device .
+To understand customer push product , in-depth user study constantly performed .
+The result used define durability standard product .
+During product development , test numerous unit product , relying result inform successive round design .
+In 2023 Apple launched Apple Watch Ultra 2 , design developed high level durability support need adventurous explorative customer .
+Apple Watch Ultra 2 designed demanding condition required series new environmental impact test maintain device high level reliability .
+Tests engineering team developed supported compliance MIL-STD-810H standard used military equipment thats also popular among rugged device manufacturers.66 This also included low-pressure testing simulate range environmental condition , high altitude , extreme temperature , temperature shock , chemical exposure , freezing thawing , shock , vibration , submersion , assessment emulate operation rugged setting .
+Our engineer performed test addition trusted reliability procedure developed iteration across several generation Apple Watch product line .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| DESIGNING | PRODUCTS | FOR | DURABILITY | iPhone | 7 | , | introduced | 2016 | , | still | monetary | value | Apple | Trade | In | United | States | April | 2024.2024 | Environmental | Progress | Report | 41 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | iPhone | ( | 1st | generation | ) | SIM | tray | iPhone | 4 | SIM | tray | Battery | Haptics | Rear | cameraiPhone | 7 | SIM | tray | Battery | Haptics | Rear | camera | Main | logic | board | Display | Splash | , | water | , | dust | resistant | IP67 | Sapphire | crystal | lens | coveriPhone | X | SIM | tray | Battery | Haptics | Rear | camera | Main | logic | board | Display | Bottom | speaker | Enclosure | Splash | , | water | , | dust | resistant | IP67 | Sapphire | crystal | lens | cover | Surgical-grade | stainless | steeliPhone | 13 | SIM | tray | Battery | Haptics | Rear | camera | Main | logic | board | Display | Bottom | speaker | Top | speaker | Enclosure | TrueDepth | camera | Splash | , | water | , | dust | resistant | IP68 | Sapphir | e | crystal | lens | cover | Surgical-grade | stainless | steel | Ceramic | ShieldiPhone | 15 | SIM | tray | Battery | Haptics | Rear | camera | Main | logic | board | Display | Bottom | speaker | Top | speaker | Enclosure | TrueDepth | camera | Back | glass | Main | microphone | Splash | , | water | , | dust | resistant | IP68 | Sapphire | crystal | lens | cover | Aerospace-grade | aluminum | Ceramic | Shield | 2007 | 2010 | 2016 | 2018 | 2021 | 2023 | Repairable | retail | store | , | Apple | Authorized | Service | Providers | , | central | repair | location | Features | enhance | durability | iPhone | 7 | , | iPhone | X | , | iPhone | 13 | iPhone | 15 | model | splash | , | water | , | dust | resistant | tested | controlled | laboratory | condition | . |
+
+iPhone 7 iPhone X rating IP67 IEC standard 60529 ( maximum depth 1 meter 30 minute ) .
+iPhone 15 rating IP68 IEC standard 60529 ( maximum depth 6 meter 30 minute ) .
+Splash , water , dust resistance permanent condition resistance might decrease result normal wear .
+Do attempt charge wet iPhone refer user guide cleaning drying instruction .
+Liquid damage covered warranty .
+Back glass repair available iPhone 15 model .
+Main microphone repair available iPhone 15 iPhone 15 Plus .
+Based life cycle assessment ( LCA ) .
+IPHONE LONGEVITY JOURNEY Increased durability repairability enhance iPhone longevity 70 % Back glass repair iPhone 15 model 70 percent less greenhouse gas emission per repair compared iPhone 14 Pro .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 2024 | Environmental | Progress | Report | 42 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Apple | Authorized | Service | Providers | , | retail | store | , | Independent | Repair | Providers | Self | Service | RepairLaunched | April | 2022 | , | Self | Service | Repair | give | individual | access | repair | manual | genuine | Apple | part | tool | Apple | Self | Service | Repair | Store | . |
+
+In February 2024 , Apple Diagnostics Self Service Repair made available Europe , following introduction U. S. 2023 .
+Apple Diagnostics troubleshooting session give customer ability Apple Authorized Service Providers Independent Repair Providers test device optimal part functionality performance , well identify part may need repair .
+Self Service Repair available U. S. available Apple user 24 European country including Croatia , Denmark , Greece , Netherlands , Portugal , Switzerland .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| With | expansion | announced | December | 2023 | , | Self | Service | Repair | support | 40 | Apple | product | 33 | country | 24 | language | . |
+
+Repair access We design product durable minimal need repair .
+But repair needed , customer easy access convenient , quality repair service get device back running quickly possible .
+Weve expanded repair footprint past three year nearly doubling number professional service location access genuine Apple part , tool , training .
+Repair option include Apple Store location , Apple Authorized Service Providers , participating Independent Repair Providers , mail-in repair center , onsite service , Self Service Repair .
+This also includes global network 10,000 Independent Repair Providers Apple Authorized Service Providers .
+Since 2019 , Independent Repair Provider program enabled repair business size access genuine Apple part , tool , diagnostics , training .
+This program expanded U. S. , Europe , Canada 200 country territory worldwide .
+We also continue expand coverage offering repair service customer home office select city across United States .
+We train certify service personnel repair Apple product .
+This help correctly diagnose issue , leading successful service repair preventing damage device work .
+GLOBAL REPAIR LOCATIONS Expanding access repair worldwide support product longevity10,000 Independent Repair Providers Apple Authorized Service Providers 33 country , 24 language , 40 Apple product supported Self Service Repair 35 type device repair offered Self Service Repair2024 Environmental Progress Report 43 Engagement Advocacy Data Appendix Introduction Contents Environmental Initiatives Apple 2030 Resources Smarter Chemistry Designing product repairability mind We continue make progress designing durable product offering customer repair option .
+At time , working make repair accessible affordable following effort iPhone 15 Pro iPhone 15 Pro Max new internal structural frame make easier repair significantly reduces repair cost .
+For example , cost back glass repair iPhone 15 Pro reduced 60 percent compared iPhone 14 Pro.67 The aluminum housing back glass longer one enclosure , repair back glass dont require replacing housing .
+The 13-inch MacBook Air Retina display ( 2018 ) later model allow battery replacement stretch-release adhesive , improving repairability .
+iPad mini ( 6th generation ) iPad Air ( 5th generation ) support same-unit battery replacement select location .
+Weve expanded availability repair part support older product seven year country around world .
+For example , program Mac laptop make battery repair available 10 year product last distributed , subject part availability .
+For information , refer Apple Support page availability service part repair .
+Software update Free software update also support product longevity goal .
+We provide enhance customer experience allowing access latest feature available device long possible .
+This includes important security privacy update .
+As continually improve operating system power product , also make sure software release run seamlessly supported device .
+Customers benefit latest software update whether theyre using brand-new device one thats several generation older .
+iOS 17 , recent release , extends support back iPhone XS ( 2018 ) .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| iPadOS | 17 | compatibility | go | back | sixth-generation | iPad | ( | 2018 | ) | , | macOS | 14 | Sonoma | support | MacBook | model | 2018 | later | . |
+
+The update operating system make latest capability Messages Lock Screen Continuity feature available broad user base .
+These update also provide customer access newest security privacy feature .
+High adoption rate clear signal customer find value software update .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| By | February | 2024 | , | ore | 75 | percent | iPhone | device | introduced | last | four | year | updated | iOS | 17 | , | iPadOS | 17 | used | 60 | percent | iPad | device | introduced | last | four | year | . |
+
+Refurbishment reuse Refurbishing reusing product help lower impact device environment including carbon intensity per year life .
+We extend life product building serve one owner enabling customer exchange device upgrade .
+We collect device refurbishment reuse several program , including Apple Trade In , iPhone Upgrade Program , AppleCare service , corporate Hardware Reuse Program .
+In 2023 , sent nearly 12 .
+8 million device accessory new owner reuse .
+The Apple Trade In program , available 27 country , provides customer product end-of-life option access value current device upgrade newer model , trade device free .
+Our customer drive success trade-in program third party product thats refurbished reused contributes reducing overall environmental footprint .
+Some device part also reused .
+We continue expand number part recovered refurbished high quality performance standard reused replacement .
+This enables u reduce need create spare part repair device .
+We also remain focused opportunity reuse accessory sent recycling .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| For | example | , | send | collected | power | cable | adapter | still | function | final | assembly | site | , | power | product | used | production | lines.12.8M | Weve | sent | nearly | 12.8 | million | device | accessory | new | owner | reuse | 2023.2024 | Environmental | Progress | Report | 44 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Material | recovery | Even | product | reach | end | life | , | material | within | serve | next | generation | product | . |
+
+Each time effectively recover material end-of-life product , enable circular supply chain .
+This help reduce need mine new material save energy expended extracting refining material , driving emission conserving resource .
+Approach We aim design product optimal material recovery , innovate recycling technology , work others help build circular supply chain .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 2023 | progress | 40K | MT | scrap | Directed | nearly | 40,000 | metric | ton | electronic | scrap | recycling | facility | globally | help | customer | employee | program | 17 | category | Deployed | autonomous | mobile | robot | ( | AMRs | ) | transport | material | across | operation | , | well | automated | product | sorter | us | machine | learning | identify | sort | product | 17 | category | 29 | model | Expanded | capability | Daisy | , | disassembly | robot | , | enabling | quickly | skillfully | take | apart | 29 | iPhone | model | including | various | model | iPhone | 5 | iPhone | 14 | Pro | Max | discrete | componentsFostering | next | generation | recycling | Committing | long-term | approach | recycling | innovation | , | relying | continually | improving | current | approach | nurturing | new | emerging | technology | . |
+
+And supporting initiative set redefine disassembly material recovery Apple product throughout industry .
+Recycler partnership innovation Positioning recycling strategy key part effort create circular supply chain working make easier customer recycle product .
+Disassembly recovery advancement Continuing develop better , efficient mean disassembling product maximize material recovery minimizing waste .
+In 2023 , expanded capability Daisy , disassemble 29 iPhone model discrete component .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 2024 | Environmental | Progress | Report | 45 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Optimizing | recycling | partnership | innovation | Our | recycling | strategy | key | part | effort | create | circular | supply | chain | . |
+
+We provide participate product take-back recycling collection program 99 percent country sell product .
+Our customer trade device reuse recycling retail location recycling program offered local operator around world .
+They also option online program like Apple Trade In .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | 2023 | , | directed | nearly | 40 | , | 000 | etric | ton | electronic | scrap | globally | recycling | facility | help | customer | employee | program | . |
+
+We work best-in-class recyclers maximize potential recycling material stream drive effort close loop key material .
+We define best-in-class recyclers capable recovering material high rate better environmental safety performance .
+We verify recyclers compliance Supplier Code Conduct Supplier Responsibility Standards third-party assessment .
+In addition , look recyclers maintain regional leading certification , WEEELABEX , e-Stewards , R2 .
+We assess recyclers regularly compliance standard , regulation , best practice area labor human right security environment , health , safety ( EHS ) .
+In 2023 , conducted 91 recycler assessment .
+Weve increasingly sought specialty provider capable handling specific material stream enhance quantity quality material .
+This global footprint recyclers also help u build resilient recycling supply chain innovate supplier around world .
+Education training help u improve recovery rate product .
+Weve invested deeply provides recyclers information need improve efficiency , quality , capacity .
+We work recyclers continue devising new recycling solution shared training ongoing support .
+We help partner develop ability disassemble product recover much material possible minimizing waste .
+We continue expand Apple Recycler Guides provide up-to-date recycling guidance across product .
+Our engineering team develop guide help professional recyclers optimize recovery complete process using tool procedure available .
+The guide provide valuable insight recycling process , including recommendation directing disassembled part downstream facility resource recovery .
+Were increasing market availability high- quality recycled content improving material recovery rate .
+Through Apple Education Hub , part Supplier Employee Development Fund , weve also supported U. S. recyclers effort improve recycling capacity , quality , efficiency lean manufacturing educational program .
+Embracing lean methodology management system bolster employee engagement , mitigate safety issue , improve recycling economics .
+Read program People Environment Our Supply Chain 2024 Annual Progress Report .
+Were also continuing partnership Atea leading provider IT infrastructure solution Nordic Baltic region collect end-of-life iPhone device recycling Daisy robot Netherlands .
+We encourage customer around world return end-of-life device Apple material reintroduced circular economy .
+To learn recycling program , visit Apple Reuse Recycling Program web page .
+We work best-in-class recyclers drive effort close loop key material used product .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 2024 | Environmental | Progress | Report | 46 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Developing | new | approach | disassembly | recovery | Innovation | play | key | role | realizing | potential | recycling | Apple | product | . |
+
+We continue develop better , efficient mean disassembling product maximize material recovery minimizing waste .
+Our Material Recovery Lab ( MRL ) , R2-certified facility Austin , Texas , focus assessing recyclability product , helping inform design decision support disassembly recovery .
+The MRLs work led way automated approach material recovery robot Daisy , Dave , Taz .
+Were also developing new technology R2-certified asset recovery center Santa Clara Valley , California , us automation machine learning facilitate recycling process typically require manual sorting , time intensive error prone .
+In 2023 , deployed autonomous mobile robot ( AMRs ) transport material across operation , well automated product sorter us machine learning identify sort product 17 category .
+These technology improve material handling sorting efficiency , direct impact material capacity operation .
+This work aim create low-cost solution supplier deploy recover material , freeing employee complex task cant easily automated .
+Were also working improve material handling effort demanufacturing .
+Last year , began deploying overhead projectorbased augmented reality system recyclers , project instruction demanufacturing process onto work surface .
+These system designed improve safety , productivity , efficiency .
+Designing next generation recycling Were committed long-term approach recycling innovation , relying continually improving current approach nurturing new emerging technology .
+And continue support initiative set redefine disassembly material recovery .
+Were investing recycling innovation industry-wide impact .
+For several year , weve worked Carnegie Mellon Universitys Biorobotics Lab School Computer Sciences Robotics Institute identify disassemble e-scrap .
+This project potential enable recyclers recover material higher quality .
+The software develop open source available others industry working maximize recovery recyclable material .
+Weve also collaborated lab improve accuracy disassembly recovery material X-ray imaging combined RGB imaging .
+And optimizing robot ability handle object adjust contact , enabling feel using high-frequency force feedback machine learning .
+Through work , driving toward developing truly intelligent disassembly technology .
+Learn Apples research Carnegie Mellon University white paper .
+Advanced disassembly Daisy In 2023 , w e expanded capability Daisy , disassemble 29 iPhone model discrete component .
+Daisy disassemble 1 .
+2 million phone year , helping u recover valuable material recycling .
+From one metric ton iPhone main logic board , flex , camera module recovered Daisy , recycling partner recover amount gold copper obtained 2 , 000 etric ton mined rock.68 The U. S. Patent Trademark Office issued Apple five patent related Daisy , willing license researcher electronics manufacturer developing disassembly process hope follow suit work increase share recycled material supply chain.69Taz Helps recycle module separating magnet containing rare earth element audio module .
+While rare earth element typically lost conventional shredder , Taz designed access valuable material , improving overall recovery rate .
+As 2024 , Taz Daisy operating recycling partner China .
+As 2024 , Taz operating recycling partner China .
+Dave A robot enables recovery rare earth magnet well tungsten steel specializing disassembly Taptic Engine .
+As 2023 Dave operating recycling partner China .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 2024 | Environmental | Progress | Report | 47 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Low-water | design | Minimizing | water | impact | design | product | , | service | , | site | Site | efficiency | conservation | Improving | performance | existing | site | process | Site-level | water | stewardship | Demonstrating | responsibility | beyond | facility | watershed-level | management | Leadership | advocacy | Advancing | water | management | policy | , | advocacy | , | technology | innovationWater | We | aim | advance | water | security | protect | community | place | supplier | operate | action | improve | freshwater | availability | , | quality | , | equity | . |
+
+Strategy Water local resource , strategy context based respectful local condition supplier operate .
+We collect analyze data site-level feedback make sure understand water impact .
+We use tool like World Resources Institute ( WRI ) Aqueduct Water Risk Atlas gain insight local watershed health , baseline water stress .
+Weve developed water footprint understand use water across value chain operation , service , manufacturing supply chain .
+Through water footprint effort , weve identified 70 percent corporate water use occurs area high extreme basin stress , majority water-related impact manufacturing supply chain.70We use insight inform water program priority .
+And work directly supplier ensure robust policy , managing wastewater system efficiently , reducing overall consumption reusing wastewater .
+We partner 240 supplier facility guide toward world-class water conservation management .
+We know cant address water stewardship challenge alone .
+Making meaningful impact water requires collective action .
+To , must go beyond operation collaborate community work basin stewardship , replenishment , WASH ( water access , sanitation , health ) project throughout value chain .
+Replenishment nature-based solution Improving water availability , quality , access regenerative approaches2023 progress 31.2M gallon Weve collaborated partner freshwater replenishment project resulting 31.2 million gallon volumetric water benefit .
+20 supplier Weve certified 20 supplier five data center AWS Standard .
+42 % reuse rate Through Supplier Clean Water Program , weve supported average 42 percent reuse rate across 242 participating supplier facility .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| We | focus | work | five | strategic | pillar | 2024 | Environmental | Progress | Report | 48 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Low-water | design | We | approach | low-water | design | first | focusing | site | selection | , | conducting | water | risk | evaluation | determine | whether | potential | site | water- | stressed | area | . |
+
+The result inform site selection help mitigate impact expected water use .
+We design solution manage quality wastewater return watershed .
+In corporate operation , discharge majority wastewater sanitary sewer .
+Up 54 percent water use corporate location discharged back local water system rather consumed.71 We monitor water quality site industrial wastewater discharge location meet exceeds local discharge requirement .
+At Capstone campus Austin , Texas , aim achieve net-zero water use relying onsite wastewater reuse system , well condensate recovery stormwater capture , limiting potable water use potable purpose .
+This effort save 60 illion gallon freshwater use annually.72 Using wastewater cooling also allow u achieve 28 illion kilowatt-hour energy saving annually location .
+In total , low-water design effort avoided 150 illion gallon freshwater use 2023.73 In supply chain , majority water used manufacturing .
+For example , 2023 continued initiative focus eradicating potential hazard associated liquid discharge throughout manufacturing supply chain .
+The purpose initiative enhance support electrochemical metal-finishing process , like anodizing .
+This effort incorporates cutting- edge technology , including optimal water management , modular filtration recovery unit , acid recovery system , evaporators .
+Pilot line demonstrated success enclosure anodizing process recovery reuse rate reaching 75 80 percent water 95 percent acid .
+This process improvement potential save hundred million gallon water annually applied scale .
+WATER USE AT CORPORATE FACILITIES We track corporate water use data center , retail store , distribution center , corporate office 1,610 Mgal3 % Other alternative source We capture rainwater recover condensate alternative water source onsite use .
+9 % Recycled water We source recycled water key alternative freshwater use primarily irrigation , cooling system , toilet flushing .
+Our recycled water come mostly municipal treatment plant , less 5 percent coming onsite treatment .
+88 % Freshwater We define freshwater drinking-water quality , majority come municipal source , less 5 percent sourced groundwater .
+Site efficiency conservation Next , identify step use less freshwater existing operation , prioritizing region effort immediately reduce stress local watershed .
+In 2023 , facility used 1 .
+6 billion gallon water direct operation , 5 percent increase 2022 driven mostly increase corporate campus portfolio .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| However | , | site | efficiency | conservation | effort | , | saved | 79 | illion | gallon | freshwater | 2023.74 | Last | year | , | alternative | water | source | accounted | 12 | percent | total | corporate | water | usage | primarily | municipal | recycled | water | source | . |
+
+Additional efficiency conservation accomplishment include We used rainwater capture system source 9 million gallon water Apple location Texas , North Carolina , Ireland , Taiwan , Japan .
+In 2023 , captured 2 .
+6 million gallon condensate condensate recovery system Santa Clara Valley Austin .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| At | Apple | Park | , | completed | new | blending | tank | project | enable | u | replace | 18 | illion | gallon | potable | water | recycled | water | per | year.2024 | Environmental | Progress | Report | 49 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Since | program | launch | 2013 | , | average | reuse | rate | 246 | participating | supplier | increased | 42 | percent | , | saving | supplier | 12.7 | billion | gallon | freshwater | 2023 | total | 76 | billion | gallon | water | savings.76 | These | saving | come | range | initiative | , | reuse | reclaimed | water | , | upgrade | water-efficient | equipment | , | countercurrent | rinse | method | . |
+
+At data center , server upgrade 2023 resulted 12 illion gallon water saved .
+Weve also piloted resin water treatment system reduced makeup water use 30 percent discharge 60 percent.75 Based success , implementing technology data center Prineville , Oregon , Mesa , Arizona .
+We also continued pilot plant-based water treatment using sustainably harvested sphagnum moss several data center , helping eliminate need biocides corrosion inhibitor .
+This system , us compostable , natural sphagnum moss improve water quality , support water saving .
+We implemented Reno , Nevada , Maiden , North Carolina , data center begun permanent installation Mesa , Arizona .
+Our supply chain account 99 percent total water footprint , based detailed water inventory .
+We require supplier maintain high standard water discharge outlined Apple Supplier Code Conduct .
+Through Clean Water Program , help supplier minimize process water impact adopt best practice water management wastewater treatment .
+Through AWS , weve certified five seven data center operate Prineville , Oregon Reno , Nevada Maiden , North Carolina Mesa , Arizona Viborg , Denmark .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Were | track | certify | remaining | two | Apple-owned-and- | operated | data | center | 2025.77 | Since | 2018 | , | 20 | supplier | site | certified | AWS | Standard | , | 16 | achieved | Platinum | rating | highest | score | within | AWS | framework | . |
+
+In May 2023 , partnered AWS Suzhou Industrial Park Administration Committee conduct training session Suzhou Industrial Park ( SIP ) tenant .
+This training promoted water stewardship helped establish comprehensive water management system factory , including Apple supplier .
+CERTIFIED DATA CENTERS Number Apple-owned data center certified Alliance Water Stewardship Goal We aim certify owned operated data center 2025Site-level water stewardship We engage community around facility protection local watershed .
+Since 2018 , weve partnered Alliance Water Stewardship ( AWS ) advance AWS Standard , first global framework measure responsible water stewardship across social , cultural , environmental , economic criterion .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | 2020 | , | joined | AWS | board | trustee | highlight | water | stewardship | opportunity | supplier | promote | collective | action | shared | water | challenge | impacting | sector.2021 | Prineville | , | OR2023 | Reno | , | NV | Mesa | , | AZ | Maiden | , | NC2024 | Viborg | , | DK | 2024 | Environmental | Progress | Report | 50 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Floodplain | Restoration | Northern | California | Collaborated | River | Partners | , | leader | large- | scale | , | multi-benefit | river | restoration | , | project | help | restore | native | vegetation | wetland | 750 | acre | farmland | confluence | Sacramento | River | , | Feather | River | , | Butte | Creek | . |
+
+The work also support migration rearing four run Chinook salmon Sacramento River Basin .
+Our first project Northern California address critical need increase floodplain habitat , connectivity , function environment community Californias resource-rich Central Valley .
+This project restore river ecosystem improve safety reliability state flood control system .
+Our support expected result nearly 5 billion gallon volumetric water benefit 20 year .
+Advocacy effort local partnership Our work water afforded u another opportunity lead others push change across industry .
+We collaborate group , including AWS Responsible Business Alliance ( RBA ) , speak conference engage audience driving impact within community industriesOur 2023 outreach effort included Volumetric Water Benefit Accounting methodology Engaged development next phase methodology World Resources Institute ( WRI ) technical standard sector .
+University Oxford Uptime Contributed briefing paper Reducing uncertainty corporate water impact The role Results- Based Contracting drinking water supply , explains efficiency effectiveness contract delivering corporate funding augment drinking water supply developing regions.79 Ceres Global annual conference Addressed investor community highlight business case focusing water impact .
+UN 2023 Water Conference Presented importance expanding adoption water stewardship approach .
+AWS Global Water Stewardship Forum Participated share expanded strategic initiative corporate site indirect supplier effort .
+Replenishment nature-based solution Replenishment nature-based solution essential tool addressing water availability , quality , access .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Our | goal | replenish | 100 | percent | corporate | freshwater | withdrawal | high-stress | location | 2030.78 | This | work | began | 2022 | project | Southern | California | India | , | grew | 2023 | contracted | project | two | key | location | Northern | California | , | home | corporate | headquarters | , | Colorado | River | Basin | , | home | Mesa | data | center | . |
+
+Our 2023 project included Invasive Species Removal Southern California Funded removal invasive Arundo donax cane specie San Fernando Valley area Los Angeles River watershed .
+This plant monopolizes resource , displacing wildlife stressing local watershed .
+This removal effort Council Watershed Health ( CWH ) address water availability watershed , feed greater Los Angeles area .
+This project save estimated 21 million gallon water annually .
+Drinking Water Supply India Provided drinking water partnership Uptime Catalyst Facility India .
+This total exceeded corporate freshwater withdrawal year .
+Uptime operates innovative , performance-based program enables Safe Water Network community partner maintain distribute clean , affordable water Telangana Maharashtra 300 kiosk .
+This program provided approximately 23 illion gallon drinking water 2023 .
+Forest Restoration Arizona Started initiative Salt River Project restore approximately 30,000 acre degraded at-risk forest source watershed Phoenix metro area , includes Mesa data center .
+Our agreement increase pace scale effort U. S. Forest Service Arizona Department Forestry Fire Management strategically thin forest Northern Arizona high risk severe wildfire , severely degrade water supply .
+In 2023 , project provided estimated water benefit 8 .
+2 million gallon .
+Apples support project expected result 1 .
+8 billion gallon volumetric water benefit next 20 year .
+Catawba-Wateree Water Management Group Joined Advisory Board partner locally sustainable water management high-water withdrawal basin operate .
+This organization oversees water management Catawba-Wateree Basin , home Maiden , North Carolina data center .
+Water Champion Field Trip Hosted 28 brand leader , supplier , local partner tour nature-based solution wetland restoration project aimed reducing water pollution raise awareness water issue water stewardship .
+Frank Water Continued partnership India-based organization work alongside local partner support access safe water , sanitation , hygiene .
+In 2023 , grant supported expansion organization programming focusing Bangalore also include Chennai .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| This | involved | implementing | Decision | Support | System | stakeholder | engagement | mapping | tool | , | designed | support | , | new | critical | region | India.2024 | Environmental | Progress | Report | 51 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Zero | waste | Were | committed | eliminating | waste | sent | landfill | environmental | cost | come | . |
+
+At office , retail location , data center , construction site , implementing system adopting approach avoid sending waste landfill , ask manufacturer supply chain .
+Our focus innovative approach eliminating waste generated manufacturing engaging local specialty recyclers composters redirect material landfill .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Approach | 2023 | progress | 74 | % | diversion | rate | In | 2023 | achieved | waste | diversion | rate | 74 | % | waste | generated | corporate | operation | . |
+
+3M metric ton As result Apples Zero Waste Program , 3 million metric ton waste redirected landfill supplier fac ilities .
+185 facility More 185 Apple supplier facility across 11 country region zero-waste assured UL Solutions .
+Measuring progress Understanding amount waste divert source ability protect community supplier operate .
+Prioritizing waste-free operation Reducing waste facility manufacturing supplier .
+Driving waste diversion elimination Using zero-waste approach office , retail location , data center .
+Partnering waste reduction Promoting supporting program practice manufacturing supplier .
+And working specialty recyclers composters redirect material landfill .
+In 2023 , Viborg , Denmark , facility became third receive TRUE Platinum certification , requires 90 percent waste facility recycled , composted , redirected reuse .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 2024 | Environmental | Progress | Report | 52 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Reducing | waste | corporate | facility | Were | reducing | amount | waste | generated | corporate | operation | directing | recycling | program | . |
+| In | 2023 | , | recycling | composting | effort | allowed | u | achieve | waste | diversion | rate | 74 | percent | 71 | percent | 2022 | . |
+
+We also limited landfill waste global operation 17 , 400 etric tons.80 Weve continued effort make progress waste diversion since achieving first zero-waste certification , UL Solutions Zero Waste Landfill Validation , 2015 campus Cork , Ireland .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | 2023 | , | Taiwan | Technology | Center | became | second | Apple | facility | receive | UL | Solutions | Zero | Waste | Landfill | Validation.81 | Our | corporate | office | Sacramento | , | California | , | well | data | center | Viborg | , | Denmark | , | received | TRUE | certification | 2023 | , | joining | data | center | Mesa | , | Arizona | , | Prineville | , | Oregon.82 | These | facility | achieved | TRUE | Platinum | , | highest | certification | level | . |
+
+TRUE recognizes facility divert 90 percent waste recycling , compost , reuse .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Promoting | material | reuse | , | composting | , | waste | diversion | across | corporate | retail | location | We | prioritize | finding | opportunity | recycle | construction | demolition | waste | recently | accomplished | following | In | 2023 | , | recycling | source | separation | corporate | office | data | center | construction | demolition | effort | resulted | waste | diversion | rate | 88 | percent | approximately | 23,600 | metric | ton | . |
+
+New initiative San Diego Culver City campus , alongside 30 participating location , achieved average diversion rate 91 percent .
+We also developed several specialty recycling initiative return material back original supplier .
+The program salvaged 100 etric ton material , yielding 50 etric ton ceiling tile sheetrock , 40 etric ton carpet tile , 6 metric ton glass reuse material new product .
+Reusable Air Filters In 2023 , fully switched reusable air filter reduce waste source like packaging material commonly used equipment .
+Previously , off-the-shelf reusable air filter available application .
+In 2019 , partnered industry-leading automotive filtration technology company design sustainable solution met specific design criterion design center .
+And date 58,000 reusable high-performance air filter also available company use placed Apple-managed facility worldwide .
+By replacing disposable air filter reusable one , avoid landfilling 25 ton dirty filter year .
+Further , reusable air filter energy efficient , leading 35 percent saving fan energy use .
+Managing hazardous waste We remain committed safely responsibly managing hazardous waste .
+To make sure waste treated , recycled , incinerated according safety environmental standard U. S. , Apple performs audit treatment , storage , disposal facility ( TSDFs ) , seven performed 2023 .
+We continually reevaluate facility dispose manage hazardous regulated waste , working assess disposal method , availability , economics , sustainability .
+Driving solution internally communication , reporting , education Our employee play critical role reporting waste facilitating waste audit location .
+We support effort training , education , access resource .
+In 2022 , standardized waste reporting requirement implemented centralized dashboard system across data center corporate office .
+Our retail auditing program examined five location North America , documenting material characteristic waste .
+This data allowing better assessment waste practice opportunity improve approach .
+We also provide site-specific zero- waste training Apple data center .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| All | new | data | center | employee | required | complete | site-specific | zero-waste | training | receive | manager | approval | completion.25tn | We | partnered | industry-leading | automotive | filtration | technology | company | design | sustainable | air | filtration | solution | help | avoid | landfilling | 25 | ton | dirty | filter | per | year.2024 | Environmental | Progress | Report | 53 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | In | 2023 | , | fully | switched | reusable | air | filter | reduce | waste | source | like | packaging | material | commonly | used | equipment | . |
+
+Taking zero-waste approach supplier Were committed zero waste .
+Apple employee , supplier , recyclers , waste solution provider central achieving goal .
+Since launched Zero Waste Program manufacturing partner 2015 , weve continued make considerable progress .
+And weve expanded program include 350 supplier facility across 13 country region .
+We require supplier take part Zero Waste Program part Supplier Code Conduct .
+Suppliers must implement systematic approach identifying waste source characterizing stream waste inventory , developing program solution quantify monitor waste-to-landfill diversion rate , setting waste minimization goal , maintaining progress toward achieving zero waste landfill .
+Our Zero Waste Program provides training tool help supplier track waste , set waste minimization goal , create improvement plan achieving zero waste operation .
+In 2023 , Supplier Zero Waste Implementation Plan became part assessment requirement , following year training piloting .
+Now key manufacturing supplier must implement Zero Waste Program , includes evaluating performance program criterion .
+As part Supplier Code Conduct requirement , also require 1,000 supplier production facility report waste inventory Apple annually .
+Facilities received training template record correctly classify waste data document visible diversion rate .
+To verify waste data quality , partnered third-party auditor conduct sample evaluation , focused waste classification , waste data recordkeeping reporting , reasonable waste treatment method .
+We provide facility participating program resource guidance reduce waste reuse , recycle , compost waste .
+Suppliers location also access tool improve waste management , case , onsite support .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| The | program | making | impact | In | 2023 | , | supplier | redirected | 497 | , | 000 | etric | ton | waste | landfill | , | bringing | total | 3 | million | metric | ton | since | program | inception | equivalent | eliminating | 3 | . |
+
+7 million square meter landfill space .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Throughout | 2023 | , | 100 | percent | established | final | assembly | site | maintained | zero-waste-to-landfill | operations.83 | And | working | next | challenge | achieving | zero | waste | , | level | deeper | subassembly | module | supplier | assemble | individual | component | Apple | product | . |
+
+The waste stream level often complex final assembly site , making progress .
+As 2023 , ore 300 odule supplier participated Zero Waste Program since inception including provide core technology component , display , PCB flex , packaging enclosure .
+Theyve diverted 352 , 000 etric ton waste landfill .
+Pushing toward zero-waste innovation We use novel recycling strategy approach divert greater quantity waste landfill supplier facility greater rate .
+We also pursue material solution impact waste stream coming facility simplify maximize recyclable content supplier work .
+Plastics comprise one major waste stream supply chain .
+For reason , weve focused effort reducing amount plastic waste generated manufacturing .
+In 2018 , partnered key material vendor develop component helped supplier reduce waste .
+These include recyclable protective film ( RPFs ) safeguard product manufacturing reusable tray used securely deliver module assembly site .
+Were also working reduce complex waste stream , including processing chemical waste found upstream supply chain .
+One typical process waste coolant , chemical material used cool surface machinery involved manufacturing component like enclosure .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| To | avoid | sending | coolant | waste | landfill | incinerator | , | launched | series | coolant | reduction | initiative | 2024 | Environmental | Progress | Report | 54 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | enclosure | supply | chain | . |
+
+We focused reducing coolant usage implementing minimum quantity lubricant ( MQL ) technology , ultraviolet ozone approach recycling coolant , end-of-life recycling .
+These initiative reduced 20,000 etric ton coolant-containing waste past year .
+Engaging supplier reduce waste We work closely supplier realize zero-waste goal .
+This work face range challenge , including lack access recycling technology , absence local infrastructure , lower value recyclable material impact economics recycling .
+In 2023 , focused reducing significant portion plastic manufacturing transportation product .
+With packaging , weve already made significant progress transitioning fiber-based material .
+Were working extend success packaging module component used supplier transportation assembly site .
+Our supplier developed fiber alternative replace plastic film , foam , bag .
+The initial pilot , launched 2022 , focused reducing waste associated iPad program includes iPhone , Mac , Apple Watch , AirPods .
+Since effort began , supplier saved 3 , 600 etric ton plastic used manufacturing transporting product .
+The Waste Resource database designed provides access available technology local recyclers weve recommended supplier work .
+The database includes information 1,500 resource across 250 city China , Thailand , India , Vietnam number grows supplier share valuable resource database .
+As supplier achieve zero-waste goal , able learn share information .
+We plan make resource public benefit entire electronics industry .
+One example resource benefiting industry tool developed Apple UL Solutions , partner validates zero-waste effort .
+The tool provides first-ever supply chain zero-waste management system assurance program , enabling third-party zero-waste verification system level rather site level .
+The assurance procedure allowed u accelerate verification process significantly establishes new model company across industry employ verify zero-waste program scale .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| This | streamlined | approach | brought | even | supplier | program | , | 185 | facility | assured | 2023 | UL | Solutions | 35 | ore | previous | year.84 | We | also | provide | support | supplier | verifying | zero-waste | effort | . |
+
+Since launch , foundation Zero Waste Program followed UL 2799 Zero Waste Landfill Environmental Claim Validation Procedure ( ECVP ) , requires least 90 percent diversion method waste-to- energy .
+Through standard , supplier facility certify clear benchmark waste diversion , including Platinum , Gold , Silver level verification .
+Weve spent last seven year expanding program throughout supply chain , supplier China , India , Vietnam becoming UL validated .
+Since switched individual site verification system-level verification , supplier participating assurance program easily apply verification statement UL .
+Supplier capability development To address challenge waste classification supplier across different country region , weve created Apple Recommended Waste Category List provides standardized guidance classify different type waste .
+This implemented widely used supplier Zero Waste Program .
+Suppliers also received access training coaching waste classification support effort separating waste promoting waste reduction , reuse , recycling .
+The data weve aggregated summarizes top 10 waste stream including plastic , paper , metal corresponding diversion solution .
+This provides valuable perspective waste footprint across supply chain also show u expend effort material utilization reduce amount waste sent incineration landfill .
+Starting 2022 , Apple organized series webinars supplier , policymakers , industrial leader share experience Zero Waste Program participating supplier plan join .
+These session provide opportunity discus lesson learned implementing Zero Waste Program , best practice around compliance requirement waste management , emerging recycling reduction technology .
+Were focused expanding impact Zero Waste Program supply chain beyond .
+In 2023 , launched zero-waste education initiative India .
+Supported Supplier Employee Development Fund , weve able design series zero-waste-related training specific India supplier leadership , employee , member local community .
+Weve offered several learning program India cover sustainability basic , roadmap achieving zero waste , best practice waste management .
+These include supplier classroom session Bangalore Chennai focused leadership capability training help scale Zero Waste Program , well community e-learning resource introduce sustainable living , domestic composting , basic waste management beyond workplace benefit everyone .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 2024 | Environmental | Progress | Report | 55 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | FEATURE | Green | building | Whether | constructing | data | center | corporate | office | restoring | historic | site | house | retail | store | , | opportunity | advance | vision | world | wed | like | live | one | thats | inclusive | accessible | , | reflects | value | place | creativity | innovation | , | furthers | environmental | goal | . |
+
+Our environmental approach design construction adheres industry-recognized best practice green building promote renewable energy , water conservation , energy efficiency , responsible material sourcing .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| As | 2023 | , | 108 | corporate | office | , | data | center | , | retail | store | across | world | , | totaling | 18 | illion | square | foot | green | building | space | , | Leadership | Energy | Environmental | Design | ( | LEED | ) | Building | Research | Establishment | Environmental | Assessment | Method | ( | BREEAM | ) | certified | . |
+
+Our global footprint requires adapt need different location climate pursuing overall objective .
+In 2023 , two Apple site Israel Spain earned LEED Gold certification one location achieved Platinum certification first Southern California .
+A building Culver City campus demonstrated reduction 45 percent reduction indoor water use 15 percent energy use .
+For construction demolition waste , site diverted 75 percent material .
+The location also recognized ease commuting , including proximity seven public transit line , availability bike rack shower employee cycle work .
+We bring similar environmental approach retail store development .
+In Mumbai , India , opened Apple BKC first retail location nation earned LEED Platinum certification .
+The store energy-efficient design , use natural light , onsite photovoltaic panel helped achieve energy saving 40 percent , low-flow fixture onsite gray water recycling reduced water consumption 84 percent .
+The site also diverted 95 percent construction waste landfill using sustainably harvested wood ceiling , furniture , fixture .
+The success effort resulted strong partnership local landlord partner shared value priority , ensuring collective environmental objective achieved .
+Our new Apple Battersea retail location historic Battersea Power Station London trending achieve BREEAM Very Good rating .
+The build-out store office resulted 99 percent rate diversion construction waste .
+The retail store project us newest sustainable design language material , heavily focus low-carbon design element including biopolymer terrazzo floor , sustainably harvested wood , reduced steel tonnage , acoustic baffle ceiling .
+Each Apple building need coexist environment meeting standard human-centric design .
+We work hard strike balance harness creativity innovation challenge demand.108 As 2023 , 108 Apple building worldwide LEED BREEAM certified environmental performance .
+Our environmental approach mindful energy resource use .
+Apple BKC earned LEED Platinum certification .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 2024 | Environmental | Progress | Report | 56 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Smarter | Che | mistryDisplaying | smarter | thinking | iPhone | 15 | model | use | arsenic-free | glass | also | free | mercury | , | brominated | flame | retardant | , | PVC.2024 | Environmental | Progress | Report | 57 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Approach | Mapping | Assessment | Innovation | Approach | Smarter | Chemistry | We | identify | use | chemical | material | best | serve | priority | safety | , | performance | , | environment | . |
+
+This approach foundation smarter chemistry underpins effort across supply chain .
+Smarter chemistry approach proactively promoting use safer material chemical .
+We identify chemical balance priority including safety performance minimizing environmental impact .
+The program support step taking toward circular supply chain reducing recirculation potentially harmful substance , contributes healthier workplace manufacturer supplier .
+We focus limiting chemical exposure commonly used hierarchy control .
+The concept consists five action organization take material Elimination Substitution Engineering control Administrative control Personal protective equipment ( PPE ) .
+We prioritize elimination substitution , alternative available eliminate substitute potential exposure , rely engineering administrative control safeguard hazard exposure .
+Our program involves establishing safety requirement often exceed local industry standard supporting supplier .
+Weve created standard program support effort , including rigorous requirement defined Regulated Substances Specification ( RSS ) deep supply chain engagement Full Material Disclosure ( FMD ) Chemical Safety Disclosure ( CSD ) program .
+Maintaining comprehensive information chemical material use essential .
+It help u better protect people design , make , use , recycle device .
+This information also informs effort protect environment work alongside leading member scientific community , NGOs , industry organization push development broad adoption safer alternative .
+We also share weve learned creating system others industry push change transform product manufacturing .
+Advocacy leadership needed make happen .
+Were committed role pushing broaden use safer sustainable material based smarter chemistry working supplier material manufacturer create alternative help move industry forward .
+Strategic pillar Mapping Engaging supply chain partner comprehensively identify process chemical material used make product .
+This allows u drive change go beyond whats required regulatory compliance .
+Assessment Assessing potential human health environmental risk material chemistry evaluate compliance requirement inform product design .
+Innovation Driving development use innovative material enables creation groundbreaking product support industrywide change .
+We test product , place special attention material come prolonged skin contact .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 2024 | Environmental | Progress | Report | 58 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Mapping | Were | committed | creating | product | highest | quality | commitment | extends | health | environmental | impact | everything | make | . |
+
+Through collaboration , build comprehensive view chemical material use drive improvement make product .
+Our Full Material Disclosure ( FMD ) program map material product chemistry , Chemical Safety Disclosure ( CSD ) program track material used manufacture product .
+We drive supply chain partner collect in-depth information material chemistry use , including purpose , amount consumed , chemical applied , stored , handled .
+We also work closely partner review step theyre taking protect employee .
+Building comprehensive view material product We rely detailed comprehensive information guide decision-making material chemistry .
+The FMD program , launched seven year ago , aim catalog map chemical material used product .
+Material manufacturer provide thorough reporting material composition deep within supply chain proprietary data thats shared secure data collection system .
+This system enables u make informed choice material used .
+For iPhone , iPad , Mac product released 2023 , collected detailed chemical information 93 percent product average , mass .
+For Studio Display , collected information 95 percent product mass .
+Our supplier required participate program .
+Collectively , share information thousand material used manufacture product .
+To make process easier , weve implemented advanced collection system supplier access library 60 , 000 aterials , researched validated Apple .
+Our supplier use library select material use product .
+When material supplier us isnt yet listed library , authenticate new material documentation manufacturer provides .
+The FMD program includes ten thousand part assembly across product line .
+We prioritize high-volume material come prolonged skin contact , look closely biocompatibility .
+The program help address challenge thats faced across industry lack visibility chemical composition material .
+To reduce potential toxicological risk pursue opportunity develop better chemistry , rely deep knowledge material used .
+Through program , able identify opportunity improve contribute safety environmental goal .
+And examine effect material chemistry across product life design manufacturing customer experience , ultimately , recycling recovery .
+This information guide decision come health environmental risk .
+The change making impact beyond footprint across industry , supporting effort build responsible circular economy scale .
+Manufacturing Apple requires supplier manage material chemical help switch safer alternative .
+Recycling Recyclers recover material safer use new product .
+Product use Customers use product made smarter material .
+Product design Apple us Regulated Substances Specification ( RSS ) drive internal team supply chain partner select material meet requirement .
+PRODUCT LIFE CYCLE Smarter chemistry matter every stage product life cycle2024 Environmental Progress Report 59 Engagement Advocacy Data Appendix Introduction Contents Environmental Initiatives Apple 2030 Resources Smarter Chemistry Creating inventory chemical used manufacturing The Apple Supplier Code Conduct Supplier Responsibility Standards outline requirement supplier area health safety , labor human right , environment , ethic , management system .
+We also account chemical selected managed within The comprehensive material library help inform decision across product life cycle .
+It drive better material selection supply chain partner RSS , provides foundation assessing material specify , product manufactured , , eventually , theyll recycled .
+We use innovative approach process , including machine learning digitize data chemical test information easily assessed .
+And finding way share information supporting development industry standard help encourage exchange data material .
+These effort support goal improving safety product , well broader electronics industry beyond .
+supply chain impact health safety people working supply chain .
+Read work across global supply chain People Environment Our Supply Chain 2024 Annual Progress Report .
+Detailed accurate information drive process , including chemical supplier use make product store , handle , consume one .
+Through CSD program , supplier required provide data part rigorous disclosure process .
+With detailed chemical inventory supplier , support supply chain partner identifying risk opportunity implement safer alternative .
+In 2023 , ore 1000 supplier facility shared chemical inventory well storage control information CSD program , including supplier representing majority Apples direct spend .
+And program , weve identified 17,000 unique material chemical used manufacturing process .
+All effort contribute safer work environment people across supply chain .
+COMPREHENSIVE CHEMICAL MAPPING FOR SAFER PRODUCTS We account chemical selected managed within supply chain An understanding chemical ingredient lead better material Apple product Through FMD program , Apple manufacturing partner share material use manufacture Apple product .
+Apple work material manufacturer understand chemistry material enable evaluation .
+Data help Apple supplier manage chemical material making Apple product Through CSD program , supplier share information Apple use chemical , store chemical , protect employee .
+CSD data informs prioritizes supplier engagement , encouraging rigorous chemical management practice adoption safer alternative .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Apple | customer | benefit | using | product | made | safer | material | chemical | The | FMD | CSD | program | support | creation | quality | product | responsible | manner | customers.2024 | Environmental | Progress | Report | 60 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Assessment | Setting | maintaining | rigorous | chemical | safety | requirement | We | first | published | Regulated | Substances | Specification | 20 | year | ago | , | establishing | requirement | use | chemical | material | product | , | accessory | , | manufacturing | process | , | packaging | . |
+
+The specification build history advancement material safety reflects dedication collection necessary data uphold requirement .
+We continue evolve RSS new chemical restriction based latest scientific research standard , drawing regulation , international standard , voluntary requirement .
+Many specification restriction exceed stringent local regulatory requirement order protect worker health environment .
+The specification designates restricted substance requires reporting additional substance .
+Weve updated expanded chemical restriction , many instance , surpass current regulatory restriction .
+Most recently , weve added perfluorohexanesulfonic acid ( PFHxA ) subset larger group PFAS phenol , isopropylated , phosphate ( 31 ) ( PIP 31 ) , several skin-sensitizing substance well ahead regulatory restriction .
+Our Green Chemistry Advisory Board provides feedback key initiative , including potential update RSS .
+The advisory board independent group leading researcher academic .
+Their diverse experience perspective help u lead way protecting customer make recycle product .
+We apply control material come prolonged skin contact ( defined Restricted Chemicals Prolonged Skin Contact Materials list ) .
+The restriction focus substance potential skin sensitizer minimize potential reaction commonly reported across wearable product , like jewelry .
+We derive restriction leading standard , recommendation toxicologist dermatologist , international law directive , Apple policy .
+We mandate supplier analyze material come prolonged contact skin according Apples requirement , review compliance requirement .
+Our specification incorporated contractual obligation supplier , one help u maintain stringent requirement .
+We base key decision product design , manufacturing process , approach recycling reusing data collect chemical material .
+This information enables u establish requirement supplier , including requirement set Regulated Substances Specification Restricted Chemicals Prolonged Skin Contact Materials specification .
+Our requirement provide clear restriction potentially harmful chemical material , including restricted .
+Our assessment system support effort ensure material meet stringent requirement used Apple product .
+The data gather chemical assessment allow u make informed decision chemical management safety use , make , recycle product .
+These decision also help make material recovered product end life safer reuse new product , enabling circular supply chain .
+Verifying developing environmental testing lab We evaluate safety product material chemical analysis Environmental Testing Lab .
+Our chemist test material monitor compliance specification .
+The lab continues grow mission capacity expanding testing facility new technology conduct chemical analysis broadening FMD CSD program .
+Our team also review test report supplier evaluate substance Regulated Substances Specification Restricted Chemicals Prolonged Skin Contact Materials specification .
+In 2023 , performed toxicological assessment 1600 new material proactively evaluate eliminate potentially harmful substance product .
+The data collect disclosure program drive assessment .
+Were able generate comprehensive assessment like GreenScreen , methodology use gauge potential impact chemical individual health environment based 18 criterion .
+We develop toxicological profile new chemical using scientific literature internal assessment .
+These profile detail impact chemical , providing data allows u evaluate safety using substance particular product .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | 2023 | , | continued | expand | scope | biocompatibility | testing | beyond | individual | material | include | module | whole | 1,600 | Performed | toxicological | assessment | 1,600 | new | material | 2023.2024 | Environmental | Progress | Report | 61 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | product | . |
+
+Through work , even comprehensive view material potential impact assembly safety .
+We perform toxicological analysis material product help guide material safety guideline .
+The information share material specification benefit supplier collaborate industry .
+Working supplier meet global requirement Weve created system supplier learn material specification , track assess material use , regularly communicate material usage .
+This also help supplier meet global standard regulation governing operation .
+The FMD CSD program require supplier gather , understand , share information material theyre using beyond regulatory requirement .
+We support supplier engagement program RSS ongoing training .
+This continued engagement central partnership shared effort promote smarter chemistry product process .
+Since 2020 , supplier China worked new regulation governing use material containing volatile organic compound ( VOCs ) .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | 2023 | , | continued | provide | additional | support | supplier | training | new | regulation | , | attended | 490 | participant | helped | validate | 3,300 | aterials | low-VOC | compliance | . |
+
+By deploying VOC specification worldwide , also helping drive adoption low-VOC alternative around world .
+And working supplier identify develop alternate non- PFAS material material without regrettable substitution meet current upcoming complex per- polyfluoroalkyl substance ( PFAS ) regulatory requirement .
+Creating list safer cleaner Were making immediate impact effort protect worker environment approach application cleaner degreasers , highest-use material final assembly site .
+Regulators environmental health safety organization focused considerable attention chemistry cleaner degreasers .
+Were investing due diligence required identify preferred alternative supplier others industry use .
+Weve eliminated use cleaner known carcinogen , mutagen , reproductive toxicant , strong sensitizer persistent bio-accumulative toxin ( including PFAS ) cleaner degreasers used supplier final assembly site .
+We using globally recognized standard ( EPA Safer Choice , GreenScreen Certified ToxFMD ) based chemical hazard assessment , comprehensive robust hazard approach simply eliminating individual substance concern .
+In 2023 , approved additional safer cleaner use supply chain , bringing total number safer cleaner weve approved past three year 175 .
+Our effort direct impact health safety potential change industry operates .
+By making easier supplier select safer alternative process chemical outset , promoting use across supply chain .
+All final assembly site used safer alternative cleaner degreasers , defined Apple , since 2018 .
+Weve since expanded work deeper supply chain supplier process beyond final assembly , helping identify implement opportunity use safer alternative operation .
+In 2023 , received , third time four year , EPA Safer Choice Partner Year Award work scale use safer process chemical protect work supply chain .
+Were also looking outside supply chain promote broader transition safer chemical .
+See page 65 information advocating safer cleaner degreasers across industry .
+Weve deployed VOC specification worldwide , also helping drive adoption low-VOC alternative around world .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 2024 | Environmental | Progress | Report | 62 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Innovation | Were | continually | improving | chemical | safety | , | performance | , | environmental | impact | material | expanding | knowledge | material | property | . |
+
+Our assessment substance focus three area improvement help u pursue innovation align value .
+The work mapping , assessing , managing chemical used product supply chain lay foundation material innovation .
+We also look material used product life cycle , design manufacturing end life .
+With knowledge , seek support development safer chemistry , continually improve overall safety product process .
+Creating new , safer chemistry move industry forward Our strict requirement govern potentially harmful substance product process encourage manufacturing partner also prioritize safer material , helping create market better alternative .
+Were lending expertise safer chemistry support supplier meet growing demand safer material .
+Prioritizing material also mean phasing chemistry dont meet specification .
+Weve approached across company product investing safer alternative drive change across industry .
+The use safer cleaner today support circular supply chain future .
+Using research analysis material , weve collaborated supplier create safer alternative including substance none currently exist .
+In case , lend technical capability material science work supplier develop entirely new chemistry .
+We maintain high safety , performance , environmental standard new alternative material , submitting rigorous testing evaluation avoid regrettable substitution .
+Weve led identification successful removal potentially harmful substance since late 1990s .
+This process involved rigorously assessing chemical removing dont align goal case , removal becomes requirement industry standard .
+Were committed phasing use PFAS engaging supply chain partner restrict PFAS product manufacturing process .
+While analysis indicates PFAS used product safe product use , felt important broaden scope consider manufacturing along supply chain .
+Were prioritizing phaseout activity application result highest volume PFAS reduction meaningful environmental impact .
+Were pursuing phaseout three step compiling comprehensive catalog PFAS us product , identifying developing non-PFAS alternative meet performance need , confirming non-PFAS alternative align safety environmental goal .
+We created new formulation plastic , adhesive lubricant PFAS replaced existing technology order achieve similar performance flame resistance friction reduction .
+Read white paper commitment phasing per- polyfluoroalkyl substance .
+Driving creation better dye In partnership supplier , creating dye formulation anodizing process better safeguard worker health environment .
+The innovation challenge achieve quality selection color meet rigorous design standard improving environmental performance .
+We narrowed option color-versatile UV-stable dye , engaged manufacturer develop wide range colorants .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| These | alternative | mitigate | risk | associated | conventional | dye | used | anodizing | process | , | including | potential | workplace | exposure | impact | local | environment | discharge.2024 | Environmental | Progress | Report | 63 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | APPLES | REGULATED | SUBSTANCES | We | go | beyond | regulatory | requirement | using | safer | material | protect | make | , | use | , | recycle | product | Every | Apple | product | free | PVC | phthalates | except | AC | power | cord | India | , | Thailand | ( | 2-prong | AC | power | cord | ) | , | South | Korea | , | continue | seek | government | approval | PVC | phthalates | replacement | . |
+
+Manufacturing Safer cleaner degreasers Weve eliminated use cleaner degreasers contain known carcinogen , mutagen , reproductive toxicant , strong sensitizer persistent bio-accumulative toxin ( including PFAS ) cleaner degreasers used supplier final assembly site .
+We using globally recognized standard ( EPA Safer Choice , GreenScreen Certified ToxFMD ) based full formulation-level ( material-level ) chemical hazard assessment , comprehensive robust approach simply eliminating individual substance concern .
+Recycling Brominated chlorinated flame retardant Weve replaced brominated chlorinated flame retardant safer metal hydroxide phosphorous compound brominated chlorinated flame retardant reduce recyclability plastic limit material circularity .
+Incineration waste plastic containing brominated chlorinated flame retardant release toxic chemical dioxin furan .
+Product use PVC phthalates Weve replaced PVC phthalates safer thermoplastic elastomer .
+Phthalates known endocrine disruptors bound PVC leak .
+Both still used company power cord headphone cable .
+Materials selection Per- polyfluoroalkyl substance ( PFAS ) We proactively removed PFOA PFOS product 2010 2013 , respectively , far ahead global requirement .
+Weve also committed eliminating PFAS entirely product ahead industry peer .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| We | plan | developing | selecting | non-PFAS | alternative | result | regrettable | substitutions.2024 | Environmental | Progress | Report | 64 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Advocating | safer | alternative | across | industry | Our | work | around | smarter | chemistry | help | facilitate | transition | safer | alternative | accessible | others | industry | . |
+
+Identifying promoting use safer cleaner beyond Apple way increase impact safer alternative .
+The criterion set chemical material supplier use help establish even stringent standard around health safety across electronics industry .
+We collaborate standards-setting body , trade association , NGOs achieve developing tool , standard , mechanism drive identification adoption smarter chemistry throughout supply chain .
+Weve focused cleaner degreasers , building multiple pathway advance industry innovation safer cleaner .
+For past five year , final assembly site exclusively used safer cleaner degreasers , identified Apple certified third-party program .
+This work expanded component manufacturer create module used final assembly product .
+Our effort use safer cleaner supply chain central advocacy greater industry collaboration instrumental participation founding signatory Toward Zero Exposure program led Clean Electronics Production Network ( CEPN ) .
+For information Apples participation CEPN , read People Environment Our Supply Chain 2024 Annual Progress Report .
+We collaborated IPC , globally recognized electronics standards-setting body , draft help launch IPC-1402 , Standard Green Cleaners Used Electronics Manufacturing .
+This standard resulted work past three year Green Cleaners Electronics Manufacturing task group , Apple served chair working 20 industry partner .
+This new standard help supplier across electronics industry select cleaner safer worker environment .
+In 2022 , Apple received IPC Stan Plzak Corporate Recognition Award work effort contribution industry .
+We continued partner ChemFORWARD , nonprofit organization committed creating broad access chemical hazard data make easier supplier choose safer alternative .
+In 2023 , worked ChemFORWARD announce new open resource called ChemWorks aim help others identify certified safer formulation accelerate adoption safer cleaner degreasers supply chain .
+We also supported Responsible Business Alliance ( RBA ) producing comprehensive technical guide responsible chemical management , well 20 hour related training content educate worker across many company controlling occupational exposure hazardous chemical .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| SAFER | CLEANER | JOURNEY | Our | effort | use | safer | cleaner | supply | chain | central | advocacy | greater | industry | collaboration | 2022 | Published | certified | Safer | Cleaners | List | industry | use | ChemWorks | Product | Registry | 133 | added | 37 | additional | cleaner | added | Safer | Cleaners | list | , | totaling | 133 | cleaner | Partnered | Clean | Production | Action | ( | CPA | ) | utilize | Safer | Cleaner | criterion | GreenScreen | certificate | 2023 | 175 | added | 42 | additional | cleaner | added | Safer | Cleaners | list | , | totaling | 175 | cleaner | Expanded | Safer | Cleaners | Program | deeper | supply | chain | process | beyond | final | assembly2018 | Achieved | 100 | % | participation | final | assembly | supplier | site | Safer | Cleaners | Program | 2020 | Achieved | EPA | Partner | Year | Award | first | time | Established | internal | Safer | Cleaners | list | containing | 54 | cleaner | 2021 | Transitioned | internal | criterion | industry | GreenScreen | certificate | 96 | added | 42 | additional | cleaner | added | Safer | Cleaners | list | , | totaling | 96 | cleaners2024 | Environmental | Progress | Report | 65 | Engagement | Advocacy | Data | Appendix | Introduction | Contents | Environmental | Initiatives | Apple | 2030 | Resources | Smarter | Chemistry | Engage | ment | Ad | vocacyAmplifying | advocacy | Collaborating | others | achieve | clear | impact | across | environmental | initiative | beyond.2024 | Environmental | Progress | Report | 66 | Environmental | Initiatives | Data | Appendix | Introduction | Contents | Engagement | Advocacy | Approach | Listening | range | voice | Achieving | change | together | Supporting | community | worldwide | We | develop | maintain | collaborative | relationship | group | working | address | environmental | challenge | policymakers | stakeholder | involved | driving | change | day-to-day | . |
+
+We believe deeply responsibility use global platform influence collaborate others support addressing urgent need environment .
+We recognize cant solve complex , global environmental challenge alone .
+Collaboration stakeholder required help catalyze broader system change needed limit impact climate change environmental challenge .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Stakeholders | 2023 | highlight | CA | SB | 253 | CA | Climate | Corporate | Data | Accountability | Act | As | part | commitment | greenhouse | gas | emission | disclosure | , | endorsed | landmark | California | Climate | Corporate | Data | Accountability | Act | ( | CA | SB | 253 | ) | improve | transparency | drive | progress | fight | climate | change | . |
+| 34 | country | As | 2023 | , | weve | funded | 33 | grant | across | 34 | country | initiative | supporting | community-level | environmental | effort | . |
+
+42 business Since 2021 , total 42 Black- , HispanicLatinx- , Indigenous-owned business participated Impact Accelerator .
+Approach Engagement Advocacy Focus area Research We collaborate leading institution inform research best practice environmental initiative .
+Partnerships We collaborate global NGOs strategy program delivery .
+Coalitions We amplify position environmental topic sharing supplier corporation .
+Events bilateral meeting We share perspective multi-sectoral leader participation targeted forum direct outreach .
+Direct advocacy We issue direct comment letter support , join proceeding , matter Apples operational objective expertise help inform environmental policy .
+Nongovernmental organization ( NGOs ) We interact NGOs share resource gain insight leading practice related environmental stewardship .
+Industry association We participate industry association better understand global regional issue regulation , also align environmental climate policy .
+Policymakers We engage public sector leader help set environmental policy craft regulation consistent environmental objective .
+Communities We work community address disproportionate impact climate change environmental injustices.2024 Environmental Progress Report 67 Environmental Initiatives Data Appendix Introduction Contents Engagement Advocacy Listening range voice We learn diverse community devoted environmental stewardship .
+We approach conversation gather learning thoughtfully engage bring range perspective understanding issue matter .
+Our conversation stakeholder fundamental environmental effort .
+The community engage help shape evaluate global regional regulation , approach , promise emerging technology .
+As implement weve learned , incorporate feedback progress including aligning new standard best practice exploring potential impact cutting-edge research operation .
+We consult scientific community better understand emerging approach , technology , tool support environmental goal .
+To enhance material recovery Apple others , worked Carnegie Mellon University researcher create robotic recycling system advanced product disassembly material sorting mechanism .
+We also continue Green Chemistry Advisory Board , independent group expert green chemistry , green engineering , toxicology advise Smarter Chemistry initiative , including update RSS .
+We draw cross-sector engagement platform like Alliance Water Stewardship ( AWS ) help guide program set standard environmental effort .
+The expertise AWS defines world-class water stewardship practice weve implemented key Apple supplier facility , earning AWS Standard certification .
+The business community including customer , supplier , industry partner , investor also source valuable collaboration .
+As co-chair United States Information Technology Office ( USITO ) trade association representing U. S. information communication technology industry China lead environmental protection energy efficiency working group .
+In role , engage company China work comply new environmental regulation policymakers future standard .
+We listen diverse set stakeholder learn improve approach environmental stewardship .
+2024 Environmental Progress Report 68 Environmental Initiatives Data Appendix Introduction Contents Engagement Advocacy Achieving change together As industry leader , responsibility influence change advocating policy directly engaging stakeholder .
+We participate collective action best mean address urgent environmental issue .
+Proactively sharing experience contributing collaborative effort area focus expertise help u better realize environmental goal share stakeholder .
+Supply chain Engaging supplier climate environmental goal critical achieving impact across footprint .
+We establish requirement method communication data exchange specific supplier platform , survey , program .
+Each program engages supplier articulates expectation serf foundation working relationship .
+Within program , build network system required maintain continued engagement process supplier .
+Some program Supplier Code Conduct , Supplier Clean Energy Program , Supplier Clean Water Program model communicate supplier performance expectation track progress .
+Through program , setting high standard factory , helping facilitate effort decarbonize operation across supply chain , driving water reuse across site , establishing protocol responsibly use resource manufacturing operation , .
+We also encourage supplier participate market policy development help advance responsible sustainable supply chain .
+Additionally , providing resource supplier make critical component engagement work .
+Weve offered training , workshop , educational material , webinars , connection external funding support throughout breadth supplier responsibility program .
+To learn work supplier , see People Environment Our Supply Chain 2024 Annual Progress Report .
+Industry engagement Through partnership coalition , contribute various industry sharing proprietary tool standard pursuing policy objective drive toward shared goal .
+We regularly evaluate engagement U. S. federal trade association .
+As part process , assessing relevant trade association position climate identifying specific area misalignment value principle climate change .
+We work trade association identify opportunity align position .
+Technicians Simmitri perform maintenance solar panel installed Bench-Tek Solutions Santa Clara , California .
+Both company alumnus Apple Impact Accelerator .
+2024 Environmental Progress Report 69 Environmental Initiatives Data Appendix Introduction Contents Engagement Advocacy Collaborative impact We make public commitment alongside partner clarify support signal change working create .
+Were transparent progress make commitment partner accountable result .
+The work others yield tangible outcome across environmental goal encourages broader action .
+An example collaborative effort participation RE100 energy initiative aimed scaling zero-carbon grid .
+RE100 unites world influential business committed transitioning entire electricity use renewables .
+Were also founding member First Movers Coalition ( FMC ) .
+This global initiative harness company purchasing power decarbonize seven hard-to-abate industrial sector currently account 30 percent global emission according World Economic Forum ( WEF ) .
+Through initiative , weve committed moving sustainable aviation fuel 5 percent passenger air travel footprint procuring least 10 percent annual primary aluminum FMCs definition near-zero emission primary aluminum ensuring least 50 percent aluminum procured annually sourced secondary aluminum 2030 .
+Were also supporting investment forestry carbon removal external initiative like Forest Investor Club Restore Fund ( see page 35 ) .
+Through Exponential Roadmap Initiative , strengthening work transitioning supply chain 100 percent renewables , moving towards full circularity improving material low-carbon design , transforming portfolio towards climate solution .
+As part Toward Zero Exposure program Clean Electronics Production Network ( CEPN ) , working address health safety challenge electronics supply chain stakeholder .
+We made pledge shift 100 percent fiber-based packaging 2025 Ellen MacArthur Foundation .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| And | Lisa | Jackson | , | VP | , | Environment | , | Policy | , | Social | Initiatives | , | appointed | co-chair | America | All | In | , | coalition | support | climate | action | U. | S. | Key | partnership | membership | Stakeholder | Description | ( | Apple | engagement | ) | Advanced | Energy | United | Business | coalition | dedicated | getting | 100 | percent | clean | energy | U. | S. | ( | Member | ) | Aluminum | Stewardship | Initiative | ( | ASI | ) | Multistakeholder | Standards | Certification | organization | supporting | responsible | sourcing | within | aluminum | value | chain | recently | completed | audit | Performance | Standard | environmental | , | social | , | governance | criterion | ( | Member | ) | Asia | Clean | Energy | Coalition | ( | ACEC | ) | Renewable | energy | buyer | , | seller | , | financier | dedicated | improving | policy | procurement | renewable | energy | Asia | rapidly | scale | renewable | energy | project | ( | Steering | group | member | ) | Ceres | Nonprofit | dedicated | taking | action | stabilize | climate | , | protect | water | natural | resource | , | build | inclusive | economy | ( | Member | Ceres | Company | Network | ) | ChemFORWARD | Science-based | nonprofit | working | advance | safer | chemistry | product | design | manufacturing | ( | Co-design | partner | chair | Technical | Advisory | Group | ) | ChemSec | Business | Group | Multinational | company | forum | supporting | leadership | progressive | chemical | policy | advocacy | effective | corporate | practice | sustainable | chemical | management | ( | Member | ) | China | Association | Circular | Economy | ( | CACE | ) | Organization | operating | across | industry | region | China | sharing | best | practice | conference | workshop | , | partnering | organization | advocacy | effort | focused | recycling | waste | ( | Senior | member | ) | Clean | Electronics | Production | Network | ( | CEPN | ) | Twenty-member | organization | working | improve | chemical | safety | electronics | supply | chain | part | multistakeholder | initiative | ( | Design | team | member | ) | Clean | Energy | Buyers | Association | ( | CEBA | ) | Community | energy | buyer | promoting | customer-driven | clean | energy | use | ( | Board | member | , | serving | Transmission | Advisory | Board | Federal | Working | Group | Exponential | Roadmap | Initiative | ( | ERI | ) | Accredited | initiative | UN | Climate | Change | High-Level | Champions | Race | Zero | purpose | accelerate | exponential | climate | action | solution | groundbreaking | project | , | mission | halve | emission | 2030 | ( | Member | ) | Japan | Climate | Leaders | Partnership | ( | JCLP | ) | Coalition | Japanese | company | aligning | business | objective | climate | goal | ( | Executive | member | ) | MIT | Climate | Sustainability | Consortium | ( | MCSC | ) | Academia | industry | collaboration | galvanizing | business | community | impact | broad | intersecting | environmental | challenge | ( | Industry | Advisory | Board | member | ) | Platform | Accelerating | Circular | Economy | ( | PACE | ) | Public-private | collaboration | joining | global | leader | transition | circular | economy | ( | Board | member | ) | RE100 | Global | corporate | renewable | energy | initiative | committing | using | 100 | percent | renewable | energy | ( | RE100 | Advisory | Committee | member | ) | Responsible | Business | Alliance | ( | RBA | ) | Industry | coalition | dedicated | responsible | business | conduct | global | supply | chain | ( | Full | member | , | serving | Board | Directors | steering | committee | Responsible | Minerals | Initiative | ) | World | Business | Council | Sustainable | Development | ( | WBCSD | ) | A | global | community | leading | business | driving | system | transformation | better | world | 9 | billion | people | live | well | , | within | planetary | boundary | , | mid-century | ( | Member | ) | 2024 | Environmental | Progress | Report | 70 | Environmental | Initiatives | Data | Appendix | Introduction | Contents | Engagement | Advocacy | We | support | climate | environmental | policy | action | stakeholder | engagement | . |
+
+In 2023 publicly supported Californias Climate Corporate Data Accountability Act ( CA SB 253 ) , requires large business publicly disclose greenhouse gas emission .
+We also filed comment supporting U. S. Environmental Protection Agencys proposed rule reduce emission existing new fossil power plant .
+Were founding member Asia Clean Energy Coalition ( ACEC ) new coalition key stakeholder energy transition advocating policy support corporate procurement renewable energy across Asian market .
+And serve executive member Japan Climate Leaders Partnership ( JCLP ) .
+This business coalition called increased focus transition renewable energy alignment Paris Agreements 1.5 C target , decarbonizing power sector 2035 ( align G7 nation ) , setting aggressive implementation plan floating offshore wind , implementing higher carbon pricing .
+Policy position Our Apple 2030 roadmap intended address impact business , also catalyze ambitious environmental leadership globally .
+Strong , worldwide government action essential enable systemic policy change world need .
+Were guided following principle Climate energy Encourage policymakers business set science-based target reduce emission line Paris Agreement limit warming 1.5C .
+This include interim long-term target accountability mechanism across national sectoral decarbonization effort .
+Enable rapid decarbonization government- led policy , including comprehensive carbon pricing emission mitigation program .
+Encourage transition renewable electricity globally , including tripling global renewables capacity 11,000 gigawatts 2030 , transitioning away electricity source emitting pollution , like fossil fuel ( including fossil fuel carbon capture ) .
+Remove barrier renewable energy development , increase investment high- capacity transmission , energy storage , load shaping technology .
+Ensure energy consumer access cost- competitive renewable energy purchase option .
+Consider life cycle emission energy resource mitigation technology , set high-integrity mitigation standard accordingly .
+Encourage research incentive pre-commercial technology , particularly hard-to-decarbonize sector .
+Support policy accelerating decarbonization transportation sector , including development adoption non-fossil , low-carbon , zero-carbon alternative aviation , ground transport , maritime shipping .
+Encourage policy promoting adoption scalable technological solution within hard-to-abate sector .
+Encourage rule high-integrity corporate measurement disclosure emission along entire value chain , using globally recognized standard harmonized approach .
+Support carbon removal credit scheme set strict environmental , social , governance standard , support scalable , durable natural carbon removal solution benefit local community .
+Support strong national international policy support scale carbon removal , including role corporate investment carbon project play supporting national carbon target .
+Encourage policy maker , peer , partner center equity justice climate solution development new green economy , community impacted climate change benefit economic opportunity climate solution .
+Circular economy Drive policy include circularity part solution , feasible , responsibly meet growing demand critical material used electronics kind .
+Further improve labor , human right , environmental standard throughout recycled primary material supply chain .
+Promote policy maximize product longevity minimize environmental impact balancing design reliability ease repair , ensuring user privacy device security protected .
+Support globally-aligned , evidence-based product-specific eco-design standard .
+Develop collection program engage customer , protect environmental human health , capture high volume electronics reuse , repair , refurbishment , recycling .
+FEATURE Apple 2030 policy platform Promote consistent waste regulation , harmonized across geography , enable efficient , commercially viable movement material recovery recycling .
+This includes support U. S. ratification Basel Convention .
+Encourage recycled content use development high-quality secondary material supply , incentive development expansion recycling infrastructure .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Support | development | advanced | electronics | recycling | facility | recover | type | resource | higher | quality | , | including | material | difficult | recover | lower | value.2024 | Environmental | Progress | Report | 71 | Environmental | Initiatives | Data | Appendix | Introduction | Contents | Engagement | Advocacy | 2015 | ( | U. | S. | ) | Apple | joined | White | Houses | American | Business | Act | Climate | Pledge | 2016 | ( | U. | S. | ) | Apple | joined | Google | , | Microsoft | , | Amazon | sign | amicus | brief | support | U. | S. | EPAs | Clean | Power | Plan | ( | CPP | ) | . |
+
+2016 ( World ) Apple addressed 700 senior government , business , community leader seventh Clean Energy Ministerial ( CEM ) , called government put price carbon across world address climate change .
+2017 ( U. S. ) Apple urged White House remain Paris Agreement take meaningful action climate change .
+2017 ( China ) Apple hosted roundtable Green Electricity Consumption Cooperative Organization ( GECCO ) .
+2017 ( Vietnam ) Apple joined company urging government Vietnam make regulatory change allowing business procure renewable energy direct power purchase agreement .
+2018 ( U. S. ) Apple filed comment Federal Energy Regulatory Commission ( FERC ) urging finalize rule would subsidize fossil fuel , would limit ability renewables compete electricity market .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| FERC | chose | finalize | rule.2020 | ( | EU | ) | Apple | called | European | leader | increase | climate | ambition | achieve | target | least | 55 | percent | greenhouse | gas | emission | reduction | 2030 | carbon | neutrality | 2050 | . |
+
+The EU adopted target .
+2021 ( U. S. ) Apple one first large , public U. S. company call U. S. Securities Exchange Commission require disclosure global greenhouse gas across emission scope .
+2021 ( Vietnam ) Apple company vocalized support government Vietnam ambitious Power Development Plan ( PDP ) prioritizing clean energy .
+2021 ( U. S. ) Apple first company voice support enacting Clean Energy Standard ( CES ) , would decarbonize power grid 2035 .
+2022 ( South Korea ) Apple called Koreas 2030 energy plan set higher target renewable energy , establish fair competitive market renewables , improve transparency renewable energy solution .
+2022 ( Japan ) Apple joined letter calling level carbon pricing provides incentive emission reduction.2023 ( Asia ) Apple , engagement ACEC , CEDI , RE100 , initiative , supported creation improvement cost-effective renewable energy procurement mechanism across several country , including Korea Vietnam .
+2023 ( Japan ) Apple , part JCLP , supported policy statement calling power sector decarbonization 2035 align G7 nation , rapidly expanding renewables , setting aggressive implementation plan floating offshore wind , diminishing reliance fossil fuel , implementing higher carbon pricing .
+Apple also collaborated renewable energy user called enhancing Non-Fossil Certificate ( NFC ) scheme enable transparency tracking .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| VIEW | Policymakers | need | set | strong | science-based | target | reduce | emission | line | Paris | Agreement | limit | warming | 1.5 | C.2022 | ( | U. | S. | ) | Apple | filed | comment | encourage | rapid | integration | renewable | energy | transmission | grid | , | key | bottleneck | renewable | energy | deployment.2022 | ( | U. | S. | ) | Apple | led | amicus | brief | supporting | U. | S. | EPAs | authority | regulate | greenhouse | gas | power | plants.2022 | ( | U. | S. | ) | Apple | , | along | Meta | Google | , | advocated | greatly | expanded | renewable | generation | achieve | 70 | percent | emission | reduction | North | Carolina | intervening | state | Carbon | Plan | proceeding.2023 | ( | U. | S. | ) | Apple | supported | Californias | Climate | Corporate | Data | Accountability | Act | ( | SB | 253 | ) | , | writing | letter | affirming | policy | final | stage | negotiations.2023 | ( | Global | ) | Apple | joined | global | 3xRenewables | campaign | calling | tripling | global | renewable | energy | capacity | 2030 | . |
+
+2023 ( U. S. ) Apple submitted comment support EPAs proposed rule regulate greenhouse gas emission existing coal power plant new existing natural gas plant .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| KEY | MILESTONES | Apples | climate | policy | advocacy | 2018 | ( | Japan | ) | Apple | filed | comment | Japanese | government | calling | development | robust | verifiable | renewable | energy | trading | system.2018 | ( | U. | S. | ) | Apple | filed | comment | U. | S. | EPA | urging | repeal | CPP | importance | reducing | emissions.2018 | ( | China | ) | Apple | submitted | formal | comment | Chinas | National | Development | Reform | Commission | ( | NRDC | ) | implication | draft | policy | corporate | clean | energy | procurement.2018 | ( | South | Korea | ) | Apple | met | government | official | Korea | discus | need | increased | renewable | generation | retail | choice | , | whereby | consumer | select | power | source | . |
+| 2018 | ( | Japan | ) | Apple | among | first | multinational | company | join | Japan | Climate | Leaders | Partnership | ( | JCLP | ) | 2019 | ( | Vietnam | ) | Apple | urged | government | reform | electricity | market | , | allowing | business | purchase | power | directly | renewable | power | plants.2019 | ( | World | ) | Apple | participated | UN | Environment | Assembly | ( | UNEA | ) | conducted | bilateral | discussion | number | country | advocate | policy | enable | circular | economy | bold | action | climate.2024 | Environmental | Progress | Report | 72 | Environmental | Initiatives | Data | Appendix | Introduction | Contents | Engagement | Advocacy | Supporting | community | worldwide | Through | engagement | effort | , | work | directly | group | individual | addressing | environmental | injustice | community | . |
+
+We evaluate opportunity based potential scale proven environmental approach , test pilot innovation , take step improve equity community disproportionately impacted climate change environmental danger .
+When partner another organization , success hinge close collaboration focusing mutual objective .
+Our work combine collaboration philanthropic contribution , determine based organization focus potential effect change .
+And recognize importance community-driven leadership thus work closely leadership team .
+In 2023 , supported community-focused environmental partnership around world , including following organization Acumen Launching Energy Livelihoods Accelerator , delivered Acumen Academy , supported 15 early-stage company India committed improving livelihood smallholder farmer micro-entrepreneurs .
+The aim help build ecosystem clean energy enterprise serving need low-income community .
+Beyond Benign Continuing partnership bring green chemistry sustainable science programming Minority-Serving Institutions across country expand talent pool Black , HispanicLatinx , Indigenous scientist trained sustainability global high-value company .
+Safer Chemistry Impact Fund Collaborating design science-based , data-driven solution systematically eliminate hazardous chemical replace verified safer alternative across sector improve human environmental impact support corporate ESG , national international development goal .
+Conservation International Conservation International Supporting leadership Afro- descendant community Latin America economic opportunity deliver outcome addressing climate biodiversity crisis .
+Gravity Water Converting rain safe water school benefit 42,000 community member , conserve 8M gallon groundwater yearly enhances climate resilience .
+Society Entrepreneurs Ecology Foundation Supporting development certified methodology first blue carbon project resumed CCER market .
+World Wildlife Fund Partnering Nature- Based Solutions Origination Platform ( NbS-OP ) new model scaling , aligning , mobilizing public private investment high-quality nature-based solution integrated landscape approach .
+We support community organization focused addressing environmental justice challenge smarter chemistry , Beyond Benign .
+Photo credit Beyond Benign , Inc. 2024 Environmental Progress Report 73 Environmental Initiatives Data Appendix Introduction Contents Engagement Advocacy Environment community We know underresourced community bear disproportionate impact environmental challenge , support organization providing grant focus environmental issue .
+Our grant helped organization reduce pollution , improve health , increase climate resilience underserved low-income community around world .
+And work group address global effect climate change environmental hazard traditionally impact overburdened community .
+Weve expanded Strengthen Local Communities ( SLC ) grant program , provides funding local organization region under-resourced community worldwide .
+In 2023 , provided grant organization around world engaged range environmental work , including Environmental Youth Alliance ( EYA ) Offering land-based education employment training program underrepresented youth center native plant horticulture , ecological restoration , land stewardship , community leadership working help build inclusive environmental movement .
+Institute Socio-Ecological Research ( ISER Caribe ) Supporting Puerto Ricobased Climate Justice Hub , integrates environmental justice , climate change , sustainability resilience engaging connecting various community space across Caribbean .
+Justice Outside Providing support Network Network Leaders Program impact outdoors , environmental education , environmental justice working toward equitable , , influential network model center experience knowledge Black people , Indigenous people , people color .
+Karrkad Kanjdji Trust Public Fund Supporting Traditional Owners Warddeken Djelk Indigenous Protected Areas Australia Indigenous Women Rangers program funding incremental conservation activity .
+Lewa Integrating sustainable water management , climate-smart agriculture , clean energy , knowledge sharing achieve vital conservation outcome community member , small-scale farmer student Northern Kenya .
+Little Village Environmental Justice Organization ( LVEJO ) Delivering environmental justice BIPOC impacted industrialization climate change building sustainable resilient community healthy development youth family , economic justice , participatory democracy self-determination .
+Taproot Earth Supporting effort build power cultivate solution among frontline community advancing climate justice democracy build world live , rest , thrive .
+We support organization like City Blossoms , address environmental issue underserved community help child youth build lifelong connection natural world .
+Photo credit Rafael Woldeab , City Blossoms 2024 Environmental Progress Report 74 Environmental Initiatives Data Appendix Introduction Contents Engagement Advocacy FEATURE Continuing commitment equity Impact Accelerator Through Impact Accelerator , provide access opportunity community color continue strategic work investment environmental sector renewable energy , carbon removal , recycling innovation , smarter chemistry .
+Part Racial Equity Justice Initiative ( REJI ) , Apple Impact Accelerator program boost progress participating Black- , HispanicLatinx- , Indigenous-owned business share commitment environment .
+Offering customized training access Apple expert , Impact Accelerator support business potential drive innovation positive outcome supply chain together , work support community disproportionately impacted environmental issue .
+The program support company better position growth , improve ability engage larger contract , expand customer base supporting commitment environment .
+The program also connected like-minded business leader create new opportunity innovation realize shared goal .
+The Apple Impact Accelerator program includes Targeted training topic including supply chain management , supplier diversity , financial legal subject .
+Customized skill development opportunity , including communication coaching , executive team provide knowledge tool organization need succeed Apple supplier .
+Access company-wide mentor subject matter expert across business help company align business priority Apples environmental goal .
+Opportunity participant pitch service solution decision-makers business leader within Apple .
+Post-program support including access Apple expert networking event Apples Supplier Success community , fostering connection made program forging new connection across generation .
+Opportunity attend leading university business executive leadership program focused supply chain growth .
+In 2023 , third cohort Impact Accelerator included 12 business leading edge environmental service solution .
+Each company selected least 51 percent owned , operated , controlled Black , HispanicLatinx , Indigenous individual aligned closely environmental strategy , including commitment reach carbon neutrality 2030 .
+The Impact Accelerators goal ensure work protect environment also help advance equity expand access opportunity community color .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 2024 | Environmental | Progress | Report | 75 | Environmental | Initiatives | Data | Appendix | Introduction | Contents | Engagement | Advocacy | Data2024 | Environmental | Progress | Report | 76 | Engagement | Advocacy | Environmental | Initiatives | Appendix | Introduction | Contents | Data | Greenhouse | gas | emission | High | quality | carbon | credit | Carbon | footprint | product | Energy | Resources | Normalizing | factor | Data | Greenhouse | gas | emission | We | account | carbon | footprint | following | internationally | recognized | standard | , | like | World | Resources | Institute | ( | WRI | ) | Greenhouse | Gas | ( | GHG | ) | Protocol | ISO | 1404014044.1 | Improving | accuracy | carbon | footprint | ongoing | process | learn | , | refine | carbon | model | adjust | climate | roadmap | . |
+
+We also regularly revisit boundary carbon footprint data source improve business evolves .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Fiscal | year | 2023 | 2022 | 2021 | 2020 | 2019 | Corporate | emission | ( | metric | ton | CO | 2e | ) | 2Gross | emission | 324,100 | 324,000 | 166,380 | 334,430 | 573,730 | Scope | 1 | 55,200 | 55,200 | 55,200 | 47,430 | 52,730 | Natural | gas | , | diesel | , | propane | 35,300 | 39,700 | 40,070 | 39,340 | 40,910 | Fleet | vehicle | 17,000 | 12,600 | 12,090 | 4,270 | 6,950 | Other | emissions32,900 | 2,900 | 3,040 | 3,830 | 4,870 | Scope | 2 | ( | market-based | ) | 4 | 3,400 | 3,000 | 2,780 | 0 | 0 | Electricity | 0 | 0 | 0 | 0 | 0 | Steam | , | heating | , | cooling5 | 3,400 | 3,000 | 2,780 | 0 | 0 | Scope | 3 | 412,800 | 265,800 | 108,400 | 287,000 | 521,000 | Business | travel | 225,700 | 113,500 | 22,850 | 153,000 | 326,000 | Employee | commute6164,100 | 134,200 | 85,570 | 134,000 | 195,000 | Upstream | impact | ( | scope | 1 | ) | 18,300 | 10,600 | 0 | 0 | 0 | Work | home | ( | market-based | ) | 4,700 | 7,500 | 0 | 0 | 0 | Transmission | distribution | loss | ( | market-based | ) | NA | NA | NA | NA | NA | Third-party | cloud | ( | market-based | ) | 0 | 0 | 0 | 0 | 0 | Carbon | removal | Corporate | carbon | offsets7-471,400-324,1008-167,0009-70,000100 | Product | life | cycle | emission | ( | metric | ton | CO | 2e | ) | 11Gross | emission | ( | Scope | 3 | ) | 15,570,000 | 20,280,000 | 23,020,000 | 22,260,000 | 24,460,000 | Manufacturing | ( | purchased | good | service | ) | 9,400,000 | 13,400,000 | 16,200,000 | 16,100,000 | 18,900,000 | Product | transportation | ( | upstream | downstream | ) | 1,500,000 | 1,900,000 | 1,750,000 | 1,800,000 | 1,400,000 | Product | use | ( | use | sold | product | ) | 4,600,000 | 4,900,000 | 4,990,000 | 4,300,000 | 4,100,000 | End-of-life | processing | 70,000 | 80,000 | 80,000 | 60,000 | 60,000 | Carbon | removal | Product | carbon | offsets-13,500 | 0-500,00012 | 0 | 0 | Total | gross | scope | 3 | emission | ( | corporate | product | ) | ( | metric | ton | CO | 2e | ) | 15,980,000 | 20,545,800 | 23,128,400 | 22,550,000 | 24,980,000 | Total | gross | carbon | footprint | ( | without | offset | ) | ( | metric | ton | CO | 2e | ) | 13 | 16,100,000 | 20,600,000 | 23,200,000 | 22,600,000 | 25,100,000 | Total | net | carbon | footprint | ( | applying | offset | ) | ( | metric | ton | CO | 2e | ) | 1215,600,000 | 20,300,000 | 22,530,000 | 22,530,000 | 25,100,000Notes | For | data | year | prior | 2019 | , | please | reference | past | Environmental | Progress | Reports | . |
+
+Totals might add due rounding .
+1 Apples carbon footprint boundary aligned Greenhouse Gas ( GHG ) Protocol framework includes emission material relevant Apple , data available .
+Apples carbon footprint includes direct scope 1 emission indirect scope 2 emission purchased electricity , steam , heating , cooling indirect scope 3 emission purchased good service , transportation distribution , business travel , employee commute , product use , end life .
+2 Apple carbon neutral corporate emission April 2020 .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Beginning | fiscal | year | 2022 | , | weve | expanded | footprint | boundary | include | scope | 3 | emission | associated | work | home | , | third-party | cloud | service | , | electricity | transmission | distribution | loss | , | upstream | impact | scope | 1 | fuel | . |
+
+3 Emissions RD process refrigerant leak .
+4 We estimate life cycle emission associated use renewable electricity corporate facility 70 , 000 etric ton CO 2e .
+We currently account emission carbon footprint , due poor quality data .
+5 Beginning fiscal year 2021 , accounting scope 2 emission purchase district heating , chilled water , steam .
+6 Beginning fiscal year 2020 , updated methodology calculating emission employee commute reflect employee working home COVID-19 .
+7 For detailed breakdown carbon offset purchase applied corporate footprint , see carbon offset table following page.8 We retired 324 , 100 etric ton carbon credit Alto Mayo project Peru Chyulu Hills project Kenya maintain carbon neutrality corporate emission fiscal year 2022 .
+This project certified VCS CCB standard .
+9 We retired 167 , 000 etric ton carbon credit Chyulu Hills project Kenya maintain carbon neutrality corporate emission fiscal year 2021 .
+This project certified VCS CCB standard .
+10 We retired 70 , 000 etrics ton carbon credit 53,000 Chyulu Hills project Kenya 17,000 Cispatá Mangrove project Colombia .
+11 Because committed accuracy transparency , regularly refine product life cycle assessment model source data .
+For example , last year obtained granular data summarizing country product sold used , resulting granularity possible grid emission factor used carbon footprint product use phase .
+The net result increase fiscal year 2021 carbon footprint .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| When | using | level | data | granularity | model | fiscal | year | 2021 | , | product | use | greenhouse | gas | emission | fiscal | year | 2021 | would | 2 | . |
+
+5 percent lower .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 12 | For | fiscal | year | 2021 | , | retired | credit | Chyulu | Hills | project | Kenya | purchased | carbon | credit | two | additional | project | offset | total | 500 | , | 000 | etric | ton | direct | emission | across | value | chain | . |
+
+The first project , REDD coastal conservation project Guatemala , protects conserve forest deforestation degradation .
+The second project aim establish forest 46,000 hectare barren land isnt otherwise use across seven county Guizhou province China .
+Both project certified high standard require project Restore Fund , including VCS CCB standard .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 13 | Due | rounding | , | gross | net | carbon | footprint | always | equal | sum | subtotal | disclosed | above.2024 | Environmental | Progress | Report | 77 | Engagement | Advocacy | Environmental | Initiatives | Appendix | Introduction | Contents | Data | Data | High | quality | carbon | credit | We | retired | following | high-quality | carbon | credit | toward | corporate | emission | footprint | 2023 | . |
+
+Project name Project description Vintage Volume retired ( metric ton CO 2e ) Registry link Chyulu Hills The Chyulu Hills REDD Project ( CHRP ) multi-partner initiative designed promote climate change mitigation adaptation , restore biodiversity , create alternative livelihood UN scheme Reducing Emissions Deforestation forest Degradation ( REDD ) .
+Its located Tsavo-Amboseli ecosystem southeastern Kenya stretch area 410,000 hectare .
+Its main geographic feature volcanic Chyulu Hills mountain range , project derives name .
+This project present broad ecosystem approach , including REDD , provide long-term sustainable financing management maintain ecological integrity iconic African landscape .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| The | project | help | protect | high-value | wildlife | biodiversity | area | supporting | development | need | Indigenous | local | communities.2018 | 230,000 | registry | . |
+
+verra .
+orgappprojectDetailVCS1408 Guinan The Guinan Afforestation Project located Guizhou Province China contributes carbon removal local sustainable development planting tree barren land .
+The project planting across 46,000 ha barren hill degraded land .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| The | project | activity | aim | enhance | biodiversity | conservation | increasing | connectivity | forest | , | improve | soil | water | conservation | , | generate | income | job | opportunity | local | communities.2019 | , | 2020 | , | 2021 | 255,000 | httpsregistry | . |
+
+verra .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| orgappprojectDetailVCS2070 | 2024 | Environmental | Progress | Report | 78 | Engagement | Advocacy | Environmental | Initiatives | Appendix | Introduction | Contents | Data | Data | Carbon | footprint | product | The | following | table | list | carbon | footprint | ( | kilogram | ) | Apple | product | sold | March | 9 | , | 2024 | , | along | select | configurations.1 | Storage | configuration | iPhone | Unit | 64GB | 128GB | 256GB | 512GB | 1TB | iPhone | 15 | kg | CO | 2e | 56 | 61 | 74 | iPhone | 15 | Plus | kg | CO | 2e | 61 | 66 | 79 | iPhone | 15 | Pro | kg | CO | 2e | 66 | 71 | 83 | 107 | iPhone | 15 | Pro | Max | kg | CO | 2e | 75 | 87 | 110 | iPhone | 14 | kg | CO | 2e | 61 | 67 | 83 | iPhone | 14 | Plus | kg | CO | 2e | 68 | 75 | 91 | iPhone | 13 | kg | CO | 2e | 64 | 71 | 83 | iPhone | SE | ( | 3rd | generation | ) | kg | CO | 2e | 46 | 50 | 58 | Storage | configuration | iPad | Unit | 64GB | 128GB | 256GB | 512GB | 1TB | 2 | TB | iPad | Pro | 12.9-inch | ( | 6th | generation | ) | Wi-Fi | Cellular | kg | CO | 2e | 135 | 142 | 156 | 183 | 284 | iPad | Pro | 11-inch | ( | 4th | generation | ) | Wi-Fi | Cellular | kg | CO | 2e | 100 | 107 | 121 | 148 | 249 | iPad | Air | ( | 5th | generation | ) | Wi-Fi | Cellular | kg | CO | 2e | 80 | 84 | 92 | iPad | ( | 10th | generation | ) | Wi-Fi | Cellular | kg | CO | 2e | 72 | 82 | iPad | ( | 9th | generation | ) | Wi-Fi | Cellular | kg | CO | 2e | 75 | 84 | iPad | mini | ( | 6th | generation | ) | Wi-Fi | Cellular | kg | CO | 2e | 68 | 71 | 77 | 90 | Note | Dashes | indicate | configuration | exist | . |
+
+1 Product carbon footprint data Apple product published Product Environmental Reports accurate product launch .
+In instance carbon model developed prior product launch , use preproduction unit .
+2 Greenhouse gas emission prior applied high quality carbon credit represented Apple Watch model exception stainless steel Apple Watch Series 9 paired sport loop .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Select | product | configuration | Apple | Watch2 | UnitAluminum | case | Sport | LoopStainless | steel | case | Sport | LoopTitanium | case | Alpine | LoopTitanium | case | Trail | Loop | Apple | Watch | Ultra | 2 | kg | CO | 2e | 12 | 11 | Apple | Watch | Series | 9 | kg | CO | 2e | 8 | 29 | Apple | Watch | SE | kg | CO | 2e | 7 | 2024 | Environmental | Progress | Report | 79 | Engagement | Advocacy | Environmental | Initiatives | Appendix | Introduction | Contents | Data | Storage | configuration | Laptops | Unit | 256GB | 512GB | 1TB | 16-inch | MacBook | Pro | ( | 2023 | ) | , | Apple | M3 | Pro | chip | kg | CO | 2e | 290 | 16-inch | MacBook | Pro | ( | 2023 | ) | , | Apple | M3 | Max | chip | kg | CO | 2e | 348 | 15-inch | MacBook | Air | ( | 2024 | ) | , | Apple | M3 | chip | kg | CO | 2e | 158 | 167 | 14-inch | MacBook | Pro | ( | 2023 | ) | , | Apple | M3 | chip | kg | CO | 2e | 202 | 14-inch | MacBook | Pro | ( | 2023 | ) | , | Apple | M3 | Pro | chip | kg | CO | 2e | 235 | 14-inch | MacBook | Pro | ( | 2023 | ) | , | Apple | M3 | Max | chip | kg | CO | 2e | 296 | 13-inch | MacBook | Air | ( | 2022 | ) | , | Apple | M2 | chip | kg | CO | 2e | 147 | 171 | 13-inch | MacBook | Air | ( | 2024 | ) | , | Apple | M3 | chip | kg | CO | 2e | 135 | 144 | Storage | configuration | Desktops | Unit | 256GB | 512GB | 1TB | 4TB | iMac | , | Two | port | kg | CO | 2e | 359 | iMac | , | Four | port | kg | CO | 2e | 389 | Mac | mini | ( | 2023 | ) | , | Apple | M2 | Pro | chip | kg | CO | 2e | 150 | Mac | mini | ( | 2023 | ) | , | Apple | M2 | chip | kg | CO | 2e | 112 | 126 | Mac | Studio | ( | 2023 | ) | , | Apple | M2 | Max | kg | CO | 2e | 290 | Mac | Studio | ( | 2023 | ) | , | Apple | M2 | Ultra | kg | CO | 2e | 346 | Mac | Pro | ( | 2023 | ) | kg | CO | 2e | 1,572 | Displays | Unit | Studio | Display | ( | 2022 | ) | kg | CO | 2e | 544 | Pro | Display | XDR | Pro | Stand | kg | CO | 2e | 974 | HomePod | Unit | HomePod | ( | 2nd | generation | ) | kg | CO | 2e | 92 | HomePod | mini | kg | CO | 2e | 42 | Apple | Vision | Pro | Unit | Apple | Vision | Pro | kg | CO | 2e | 335 | Storage | configuration | Apple | TV | Unit | 64GB | 128GB | Apple | TV | 4K | , | Wi-Fi | kg | CO | 2e | 43 | Apple | TV | 4K | , | Wi-Fi | Ethernet | kg | CO | 2e | 462024 | Environmental | Progress | Report | 80 | Engagement | Advocacy | Environmental | Initiatives | Appendix | Introduction | Contents | Data | Data | Energy | Fiscal | year | Unit | 2023 | 2022 | 2021 | 2020 | 2019 | Corporate | facility | energy | Electricity | Total | MWh | 3,487,000 | 3,199,000 | 2,854,000 | 2,580,000 | 2,427,000 | U. | S. | MWh | 2,830,000 | 2,614,000 | 2,377,000 | 2,192,000 | 2,075,000 | International | MWh | 657,000 | 585,000 | 477,000 | 389,000 | 351,000 | Fuel | Total | MWh | 662,950 | 334,250 | 467,280 | 439,170 | 462,680 | Natural | gas | MWh | 312,490 | 188,630 | 203,010 | 202,360 | 202,340 | Biogas | MWh | 218,780 | 76,280 | 208,620 | 210,820 | 217,140 | Propane | liquid | MWh | 1,030 | 1,830 | 40 | 140 | 280 | Gasoline | MWh | 50,760 | 38,790 | 34,880 | 14,910 | 23,950 | Diesel | ( | ) | MWh | 57,030 | 15,610 | 9,780 | 9,610 | 16,450 | Diesel | ( | mobile | combustion | ) | MWh | 22,860 | 13,120 | 10,950 | 1,330 | 2,520 | Other | Steam | , | heating | , | cooling1 | MWh | 45,370 | 19,800 | 22,480 | 0 | 0 | Energy | efficiency | Corporate | facilities2 | Electricity | saving | MWhyear | 298,500 | 290,220 | 223,940 | 215,260 | 118,830 | Fuel | saving | MMBtuyear | 126,540 | 116,190 | 110,330 | 136,820 | 162,280 | Supplier | facilities3 | Electricity | saving | MWhyear | 2,040,000,000 | 1,620,425,230 | 1,418,825,350 | 1,101,440 | 943,890 | Fuel | saving | MMBtuyear | 2,281,060 | 2,038,930 | 1,047,440 | 752,680 | 25,120 | Renewable | electricity | Corporate | facility | Renewable | electricity | used | MWh | 3,489,000 | 3,199,000 | 2,854,000 | 2,580,000 | 2,430,000 | Renewable | electricity | percentage4 | % | total | energy | 100 | 100 | 100 | 100 | 100 | Scope | 2 | emission | avoided | metric | ton | CO | 2e | 1,144,000 | 1,201,000 | 1,063,720 | 948,000 | 899,000 | Supply | chain5 | Renewable | electricity | capacity | ( | operational | ) | GW | 16.5 | 13.7 | 10.3 | 4.5 | 2.7 | Renewable | electricity | capacity | ( | committed | ) | GW | 21.0 | 20.0 | 15.9 | 7.9 | 5.1 | Renewable | electricity | used | MWh | 25,500,000 | 23,700,000 | 18,100,000 | 11,400,000 | 5,700,0001 | Beginning | fiscal | year | 2021 | , | accounting | purchase | district | heating | , | chilled | water | , | steam | . |
+
+2 Because energy efficiency measure lasting benefit , energy efficiency saving calculated cumulatively since 2012 .
+All efficiency measure retired based effective useful lifetime documented California Energy Commission .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | 2023 | , | accounted | expired | corporate | energy | efficiency | saving | reflected | change | fiscal | year | 2019 | 2023 | . |
+
+Due COVID-19 pandemic , corporate facility energy use declined temporarily adjusted lighting climate control due shutdown reduced occupancy .
+These saving included total saving energy efficiency program initiative .
+We also recognize energy use employee home likely increased period .
+We accounted energy use anticipated impact small relative overall energy use still evolving methodology .
+3 Energy saving supplier energy efficiency improvement reported annualized number .
+Beginning 2020 , supplier energy saving calculated based fiscal year instead calendar-year basis .
+4 Beginning January 1 , 2018 , 100 percent electricity use power global facility sourced renewable energy .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 5 | Supply | chain | renewable | electricity | capacity | ( | operational | ) | renewable | electricity | use | fiscal | year | 2021 | include | REC | purchase | Apple | made | , | equivalent | 0.3 | GW | 500 | , | 000 | MWh | , | respectively | , | address | small | increase | carbon | footprint.2024 | Environmental | Progress | Report | 81 | Engagement | Advocacy | Environmental | Initiatives | Appendix | Introduction | Contents | Data | Data | Resources | Fiscal | year | Unit | 2023 | 2022 | 2021 | 2020 | 2019 | Water | Corporate | facility | Total | million | gallon | 1,610 | 1,527 | 1,407 | 1,287 | 1,291 | Freshwater1million | gallon | 1,411 | 1,380 | 1,259 | 1,168 | 1,178 | Recycled | water2million | gallon | 151 | 142 | 141 | 113 | 106 | Other | alternative | sources3million | gallon | 48 | 5 | 7 | 5 | 7 | Supply | chain | Freshwater | saved | million | gallon | 12,700 | 13,000 | 12,300 | 10,800 | 9,300 | Waste | Corporate | facility | Landfill | diversion | rate | % | 74 | 71 | 68 | 70 | 66 | Landfilled | ( | municipal | solid | waste | ) | pound | 38,343,490 | 33,260,990 | 33,202,200 | 25,826,550 | 38,317,120 | Recycled | pound | 81,781,660 | 78,618,250 | 73,489,220 | 63,812,300 | 72,338,130 | Composted | pound | 14,803,510 | 8,726,170 | 4,844,960 | 6,302,410 | 10,882,120 | Hazardous | waste | pound | 7,321,130 | 2,780,610 | 3,525,840 | 4,053,770 | 6,096,600 | Waste | energy | pound | 5,713,790 | 1,197,570 | 657,890 | 786,250 | 1,129,080 | Supply | chain | Waste | diverted | landfill | metric | ton | 497,000 | 523,000 | 419,000 | 400,000 | 322,000 | Product | packaging | footprintPackaging | Total | packaging4metric | ton | 254,270 | 276,100 | 257,000 | 226,000 | 189,000 | Recycled | fiber | % | total | 62 | 66 | 63 | 60 | 59 | Responsibly | sourced | virgin | fiber5 | % | total | 35 | 30 | 33 | 35 | 33 | Plastic | % | total | 3 | 4 | 4 | 6 | 81 | We | define | freshwater | drinking-water | quality | . |
+
+The majority freshwater come municipal source , less 5 percent come onsite groundwater source .
+2 Recycled water represents key alternative water source .
+Our recycled water sourced primarily municipal treatment plant , less 5 percent coming onsite treatment .
+Recycled water primarily used irrigation , makeup water cooling , toilet flushing .
+3 Other alternative source water include rainwater recovered condensate captured onsite .
+Water used construction activity like dust control included total represents 13 illion gallon water used fiscal year 2021 .
+Beginning fiscal year 2023 water footprint , began allocating Prineville data center water use , come Aquifer Storage Recovery system , alternative source better represent impact water use .
+4 Beginning fiscal year 2022 , expanded packaging goal boundary better reflect impact include retail bag , finished good box ( including plastic content label in-box documentation ) , packaging sent customer part Apple Trade In , AppleCare packaging whole unit service module ( exception plastic needed protect item electrostatic discharge ) , secondary packaging Apple product accessory sold Apple .
+Our goal boundary include ink , coating , adhesive used packaging In addition packaging footprint .
+5 Responsible sourcing wood fiber defined Apples Sustainable Fiber Specification .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Since | 2017 | , | virgin | wood | fiber | used | packaging | come | responsible | sources.2024 | Environmental | Progress | Report | 82 | Engagement | Advocacy | Environmental | Initiatives | Appendix | Introduction | Contents | Data | Data | Normalizing | factor | Fiscal | year | 2023 | 2022 | 2021 | 2020 | 2019 | Net | sale | ( | million | , | US | ) | 383,285 | 394,328 | 365,817 | 274,515 | 260,174 | Number | full-time | equivalent | employee | 161,000 | 164,000 | 154,000 | 147,000 | 137,000 | As | reported | Apples | Form | 10-K | Annual | Report | filed | SEC.2024 | Environmental | Progress | Report | 83 | Engagement | Advocacy | Environmental | Initiatives | Appendix | Introduction | Contents | Data | Appendix2024 | Environmental | Progress | Report | 84 | Engagement | Advocacy | Environmental | Initiatives | Data | Introduction | Contents | Appendix | A | Corporate | facility | energy | supplement | B | Apples | life | cycle | assessment | methodology | C | Assurance | review | statement | Net | comprehensive | carbon | footprint | , | facility | energy | , | carbon | , | waste | , | paper | , | water | data | ( | Apex | ) | Product | carbon | footprint | ( | Fraunhofer | Institute | ) | Supplier | Clean | Energy | Program | ( | Apex | ) | Supplier | Energy | Efficiency | Program | ( | Apex | ) | Packaging | fiber | plastic | footprint | ( | Fraunhofer | Institute | ) | D | Environment | , | Health | Safety | Policy | E | ISO | 14001 | certification | Report | note | End | note | Appendix | A2024 | Environmental | Progress | Report | 85 | Engagement | Advocacy | Environmental | Initiatives | Data | Introduction | Contents | Appendix | A | Corporate | facility | energy | supplement | B | Apples | life | cycle | assessment | methodology | C | Assurance | review | statement | D | Environment | , | Health | Safety | Policy | E | ISO | 14001 | certification | Report | note | End | note | Appendix | A | Corporate | facility | energy | supplement | Use | renewable | energy | facility | central | component | emission | reduction | strategy | since | 2011 | . |
+
+Weve learned lot best secure renewable energy , helped u educate supplier expand renewable energy effort supply chain .
+This appendix summarizes type renewable energy solution weve deployed , detail implement renewable energy data center largest energy load .
+How procure renewable energy Since launching renewable energy program 2011 , weve implemented number solution procure renewable energy .
+Our strategy evolved time create positive impact.2011 Ownership PURPA Apples 100 percent equity ownership Maiden solar array first time nonenergy commercial company built utility-scale solar PV project .
+We used 1978 federal law called Public Utility Regulatory Policies Act ( PURPA ) structure project .
+We applied structure two large solar PV biogas fuel cell project North Carolina two microhydro project Oregon .
+This landmark moment corporate renewable energy development led increased use PURPA state .
+2012 Direct Access In California Oregon , weve used program called Direct Access bypass default electricity generation offered utility servicing data center state .
+Instead , contracted directly independent power producer electricity service provider could supply 100 percent renewable electricity .
+After initially buying existing , third-party-owned project , procuring renewable energy project created The Solar Star II Montague Wind project deliver renewables Oregon data center , California Flats solar project delivers renewables data center , office , retail store California.2013 GreenEnergy Rider We opened new data center Reno , Nevada .
+With PURPA Direct Access option Nevada , worked directly local utility , NV Energy , create whole new regulatory structure .
+The Nevada GreenEnergy Rider enables u secure long-term , fixed-price contract renewable electricity new solar PV project built u managed utility .
+Weve used partnership create four solar project totaling 320 megawatt .
+2014 Equity investment We invested two 20-megawatt solar PV project Sichuan , China , support in-country retail store , corporate office , data storage facility .
+This project represented first time commercial company created new large-scale project China use .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Weve | since | replicated | model | many | time | Apples | supply | chain.2015 | 2016 | Portfolio | solution | We | adapted | land | scarcity | constraint | Singapore | Japan | contracting | solar | PV | 800 | rooftop | Singapore | 300 | Japan | . |
+
+We adapted approach country fit local partnership regulatory structure We signed long-term agreement similar power purchase agreement Singapore made equity investment Japan .
+These project offer u long-term flexibility load grows .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 2017 | Renewable | microgrid | Weve | powering | Apple | Park | 100 | percent | renewable | energy | 50 | percent | generated | onsite | managed | microgrid | . |
+
+The onsite generation come 14 egawatts rooftop solar PV 4 megawatt baseload biogas fuel cell .
+Any additional energy required drawn Direct Access California Flats solar project nearby Monterey County .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| The | microgrid | system | battery | storage | manages | renewable | energy | generation | building | energy | use | optimizes | demand | management | , | load | shifting | , | frequency | regulation | service | ensures | uninterrupted | energy | reliability | local | grid | outages.2024 | Environmental | Progress | Report | 86 | Engagement | Advocacy | Environmental | Initiatives | Data | Introduction | Contents | Appendix | Facilities | renewable | energy | project | To | reach | 100 | percent | renewable | electricity | Apples | facility | , | Apple | helped | create | 1,647 | M | W | renewable | energy | around | world | . |
+
+The project listed right represent Apple-created renewable energy project support Apple facility electricity use contribute cleaner grid around world .
+Operational project apply mix renewable energy technology , including wind ( 22 percent ) , solar ( 78 percent ) , microhydro ( 0.2 percent ) , biogas fuel cell ( 0.2 percent ) .
+This table represents operational renewable energy project Apple helped create .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Location | Renewable | energy | technology | Size | ( | MW | ) | Australia | PV | 0.5 | Brazil | Wind | 0.5 | China | mainland | PV | 195 | Denmark | PV | 42 | Denmark | Wind | 17 | India | PV | 16 | Israel | PV | 5 | Japan | PV | 12 | Mexico | Wind | 0.8 | Power | Impact | project | PV | 1.2 | Rooftop | solar | project | PV | 5 | Singapore | PV | 54 | Taiwan | PV | 1 | Türkiye | PV | 4 | Arizona | , | U. | S. | PV | 62 | California | , | U. | S. | Biogas | fuel | cell | 4 | California | , | U. | S. | PV | 144 | Illinois | , | U. | S. | Wind | 112 | Nevada | , | U. | S. | PV | 320 | North | Carolina | , | U. | S. | PV | 164 | Oregon | , | U. | S. | Microhydro | 3 | Oregon | , | U. | S. | PV | 125 | Oregon | , | U. | S. | Wind | 200 | Texas | , | U. | S. | Wind | 25 | Virginia | , | U. | S. | PV | 134 | Total | 1647Note | Data | current | February | 2024 | ( | operational | ) | .2024 | Environmental | Progress | Report | 87 | Engagement | Advocacy | Environmental | Initiatives | Data | Introduction | Contents | Appendix | Dash | indicates | unavailable | data | . |
+
+NA Gas use colocation facility considered outside Apples operational control .
+1 Scope 2 market-based emission purchased electricity zero .
+But , also account purchased steam , heating , cooling , resulted 3 , 400 etric ton emission fiscal year 2023 .
+Fiscal year 2023 energy carbon footprint ( corporate facility ) The table provides detailed breakdown 2023 energy use , used calculate greenhouse gas emission .
+LocationScope 1 x Scope 2 Total gas ( MMBtu ) Renewable biogas ( MMBtu ) Scope 1 emission ( metric ton CO 2e ) Electricity ( million kWh ) Renewable electricity ( million kWh ) Scope 2 emission ( market-based , metric ton CO 2e ) 1 Corporate 1,007,071 746,506 42,746 940 940 0 Cupertino , CA 805,271 202,306 32,027 427 427 0 Elk Grove , CA 10,175 0 540 14 14 0 Austin , TX 24,826 0 1,319 113 113 0 Other U. S. 104,718 544,200 5,562 143 143 0 Cork , Ireland 24,219 0 1,286 16 16 0 Singapore 518 0 28 18 18 0 China 960 0 51 41 41 0 Other international 36,384 0 1,933 168 168 0 Data center 740 0 39 2,344 2,344 0 Maiden , NC 0 0 0 453 453 0 Mesa , AZ 524 0 28 488 488 0 Newark , CA 0 0 0 0 0 0 Prineville , OR 216 0 11 269 269 0 Reno , NV 0 0 0 440 440 0 Viborg , Denmark 40 40 0 Colocation facility ( U. S. ) 387 387 0 Colocation facility ( international ) 96 96 0 China 171 171 0 Retail store 58,446 0 3,105 203 203 0 Domestic ( U. S. ) 34,449 0 1,830 96 96 0 International 23,997 0 1,275 107 107 0 Total 1,066,257 746,506 45,890 3,199 3,199 02024 Environmental Progress Report 88 Engagement Advocacy Environmental Initiatives Data Introduction Contents Appendix A focus data center We used 2 .
+3 billion kWh electricity 2023 power data center colocation facility around world .
+Were proud 100 percent electricity came renewable source including solar , wind , biogas fuel cell , low- impact hydropower .
+To cover need , build renewable power project work utility purchase clean energy locally obtained resource .
+Were staying 100 percent even Apples data center presence continues grow .
+We operate seven data center , developed.2 These data center spread across North America , Europe , Asia .
+Each unique design feature conserve energy reflect climate , well aspect , location .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Maiden | , | North | Carolina | 100 | percent | renewable | since | opening | June | 2010 | Between | 2011 | 2015 | , | installed | 68 | egawatts | Apple-created | project | two | 20-megawatt | solar | project | , | 18-megawatt | solar | project | , | 10 | egawatts | biogas | fuel | cell | . |
+
+We worked local utility , Duke Energy , help build five solar project Green Source Rider program .
+These solar project came online beginning 2015 Duke Energys first Green Source Rider project become operational .
+We worked Duke Energy several year develop green energy tariff option , allowed Apple Duke Energy develop new renewable energy project .
+The five Green Source Rider project combined capacity 22 egawatts .
+In 2017 , made long-term commitment five solar project North Carolina , additional 85 egawatts renewable energy .
+The energy efficiency measure weve implemented Maiden data center include use outside air cooling waterside economizer night cool-weather hour , , along water storage , allows chiller idle 75 percent time .
+Maiden , North Carolina Grid mix versus .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Apple-sourced | renewable | energy | Electricity | use | 2023 | 453 | million | kWh | Emissions | avoided | 2023 | 121,00 | million | MT | CO | 2e3 | Default | grid | mix | % | x | Apple | actual | renewable | energy | allocation | % | Gas | 43 | Apples | solar | project | 88 | Nuclear | 32 | Apples | wind | project | 12 | Coal | 11 | Source | 2023 | energy | data | . |
+| Renewable | 10 | Hydro | 4 | Source | eGRID | 2022.2 | In | 2023 | Environmental | Progress | Report | , | stated | operate | eight | data | center | . |
+
+For fiscal year 2023 , longer include Newark , CA data center sold fiscal year 2022 .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 3 | Emissions | avoided | calculated | using | GHG | Protocol | methodology | calculating | market- | based | emissions.2024 | Environmental | Progress | Report | 89 | Engagement | Advocacy | Environmental | Initiatives | Data | Introduction | Contents | Appendix | Prineville | , | Oregon | 100 | percent | renewable | since | opening | May | 2012 | To | support | Prineville | data | center | , | signed | 200-megawatt | power | purchase | agreement | new | Oregon | wind | farm | , | Montague | Wind | Power | Facility | , | entered | commercial | operation | end | 2019 | . |
+
+This addition power purchase agreement 56-megawatt Solar Star Oregon II project located mile data center .
+This solar PV project came online began supporting data center 2017 .
+To strengthen connection Apple project , use Oregons Direct Access program supply renewable energy project directly data center .
+Also supporting data center two microhydro project harness power water flowing local irrigation canal operating 60 year .
+To supplement project , executed long-term purchase agreement environmental attribute 69-megawatt portfolio eight solar project Oregon .
+Our Prineville data center take advantage cool dry climate cooling server outside air whenever possible .
+Indirect evaporative cooling enabled outside air temperature get high cool server outside air alone .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Prineville | , | Oregon | Grid | mix | versus | Apple-sourced | renewable | energy | Electricity | use | 2023 | 269 | million | kWh | Emissions | avoided | 2023 | 79,800 | million | CO | 2e4 | Default | grid | mix | % | x | Apple | actual | renewable | energy | allocation | % | Hydro | 51 | Apples | solar | project | 38 | Gas | 31 | Apples | wind | project | 60 | Renewable | 18 | Apples | microhydro | project | 2 | Source | eGrid | 2022 | . |
+
+Source 2023 energy data .
+Reno , Nevada 100 percent renewable since opening December 2012 Unlike competitive energy market data center located , regulated electricity supply Nevada offer simple solution u create new renewable energy project dedicated data center .
+In 2013 , created partnership local utility , NV Energy , develop Fort Churchill Solar project .
+Apple designed , financed , constructed project .
+NV Energy owns operates facility directs renewable energy produce data center .
+The nearly 20-megawatt Fort Churchill Solar project based unique tracker curved mirror concentrate sunlight onto photovoltaic cell .
+To facilitate renewable development Nevada , Apple worked NV Energy Public Utility Commission Nevada create green energy option open commercial customer , called NV GreenEnergy Rider , require customer fund project development front .
+Thanks new option , 2015 announced second Nevada solar project , 50-megawatt Boulder Solar II project .
+This project came online 2017 .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Weve | utilized | NV | GreenEnergy | Rider | program | create | two | additional | project | 200-megawatt | Techren | II | solar | project | , | online | 2019 | , | 50-megawatt | Turquoise | Project | , | online | 2020 | . |
+
+Like Prineville , Reno data center take advantage mild climate cooling server outside air whenever possible .
+When outside air warm cool server alone , draw indirect evaporative cooling .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Reno | , | Nevada | Grid | mix | versus | Apple-sourced | renewable | energy | Electricity | use | 2023 | 440 | million | kWh | Emissions | avoided | 2023 | 130,600 | million | MT | CO | 2e5 | Default | grid | mix | % | x | Apple | actual | renewable | energy | allocation | % | Gas | 59 | Apple | solar | project | ( | NV | GreenEnergy | Rider | program | ) | 100 | Renewable | 30 | Source | 2023 | energy | data | . |
+
+Coal 7 Hydro 4 Source eGRID 2022.4 Emissions avoided calculated using GHG Protocol methodology calculating market- based emission .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 5 | Emissions | avoided | calculated | using | GHG | Protocol | methodology | calculating | market- | based | emissions.2024 | Environmental | Progress | Report | 90 | Engagement | Advocacy | Environmental | Initiatives | Data | Introduction | Contents | Appendix | Mesa | , | Arizona | 100 | percent | renewable | since | opening | March | 20176 | Our | global | command | data | center | Mesa | , | Arizona | , | came | online | 2016 | . |
+
+To support facility , partnered local utility , Salt River Project ( SRP ) , build 50-megawatt Bonnybrooke solar project , became operational January 2017 .
+As Mesa data center grew , became apparent needed additional source renewable energy maintain 100 percent renewable electricity goal .
+We began explore onsite solar option data center determined could provide valuable shaded parking paid energy bill reduction adding renewable energy portfolio .
+The resulting PV facility includes five elevated parking canopy three ground- mounted array , total generating capacity 4.67 M W. The onsite PV system began commercial operation March 2019 .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Mesa | , | Arizona | Grid | mix | versus | Apple-sourced | renewable | energy | Electricity | use | 2023 | 488 | million | kWh | Emissions | avoided | 2023 | 181,500 | million | MT | CO | 2e7 | Default | grid | mix | % | x | Apple | actual | renewable | energy | allocation | % | Gas | 43 | Apples | solar | project | 82 | Nuclear | 31 | Apples | wind | project | 18 | Coal | 13 | Source | 2023 | energy | data | . |
+
+Hydro 5 Renewable 9 Source eGRID 2022 .
+Note Total doesnt add 100 percent due rounding .
+Denmark 100 percent renewable energy first day operation Our data center came online 2020 .
+The data center construction phase powered 100 percent wind energy local renewable energy retailer Denmark .
+Our Northern Jutland PV project achieved commercial operation late 2019 , meet data center near-term energy need , 42 egawatts , one Denmarks largest solar power plant .
+Our second renewable project Denmark , 17 M W wind project , also came online late 2020 .
+Weve secured long-term supply contract Danish renewable project , scale data center load grow .
+The power system design data center based resilient substation eliminates need backup diesel generator .
+This reduces carbon footprint data center completely eliminates need large diesel fuel storage system diesel engine emission would impact local community .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Denmark | Grid | mix | versus | Apple-sourced | renewable | energy | Electricity | use | 2023 | 40 | million | kWh | Emissions | avoided | 2023 | 22,000 | million | MT | CO | 2e8 | Default | grid | mix | % | Apple | actual | renewable | energy | allocation | % | Renewable | 62 | Apples | wind | solar | project | 100 | Hydro | 20 | Source | 2023 | energy | data | . |
+
+Coal 8 Gas 5 Nuclear 4 Other 1 Source Energinet .
+httpsenerginet .
+dkdata-om-energideklarationer- og-csrlokationsbaseret-deklaration-miljodeklaration.6 Apple took operational control building October 2015 converted data center began servicing customer March 2017 .
+7 Emissions avoided calculated using GHG Protocol methodology calculating market- based emission .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 8 | Emissions | avoided | calculated | using | GHG | Protocol | methodology | calculating | market- | based | emissions.2024 | Environmental | Progress | Report | 91 | Engagement | Advocacy | Environmental | Initiatives | Data | Introduction | Contents | Appendix | China | 100 | percent | renewable | energy | first | day | operation | To | cover | electricity | load | two | data | center | China | , | secured | long | term | agreement | solar | wind | project | China | operational | . |
+
+As data center expand , well continue source renewable electricity in-country support growth renewable electricity .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| China | Grid | mix | versus | Apple-sourced | renewable | energy | Electricity | use | 2023 | 171 | million | kWh | Emissions | avoided | 2023 | 105,000 | million | kWh9 | Default | grid | mix | % | x | Apple | actual | renewable | energy | allocation | % | Coal | 63 | Apples | solar | project | 50 | Hydro | 17 | Apples | wind | project | 50 | Renewable | 11 | Source | 2023 | energy | data | . |
+
+Nuclear 5 Gas 3 Source IEA Electricity Information 2022 , www .
+iea .
+orgdata-and- statisticsdata-productelectricity-information.9 Emissions avoided calculated using GHG Protocol methodology calculating market- based emissions.2024 Environmental Progress Report 92 Engagement Advocacy Environmental Initiatives Data Introduction Contents Appendix Our colocation facility The majority online service provided data center however , also use third-party colocation facility additional data center capacity .
+While dont shared facility use portion total capacity , include portion energy use renewable energy goal .
+Starting January 2018 , 100 percent power colocation facility matched renewable energy generated within country regional grid .
+As load grow time , well continue working colocation supplier match 100 percent energy use renewables .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Total | energy | use | ( | kWh | ) | Renewable | energy | ( | kWh | ) | Default | utility | emission | ( | metric | ton | CO | 2e | ) | 10Apples | emission | including | renewable | energy | ( | metric | ton | CO | 2e | ) | 11Percent | renewable | energy | ( | % | ) | 12 | FY | 2011 | 42,500 | 0 | 10 | 10 | 0 | FY | 2012 | 38,552,300 | 1,471,680 | 17,200 | 16,500 | 4 | FY | 2013 | 79,462,900 | 46,966,900 | 31,800 | 14,500 | 59 | FY | 2014 | 108,659,700 | 88,553,400 | 44,300 | 11,000 | 81 | FY | 2015 | 142,615,000 | 121,086,100 | 60,500 | 12,700 | 85 | FY | 201613145,520,900 | 143,083,200 | 66,300 | 1,600 | 98 | FY | 2017 | 289,195,800 | 286,378,100 | 125,600 | 1,500 | 99 | FY | 2018 | 327,663,800 | 326,959,700 | 146,600 | 400 | 100 | FY | 2019 | 339,047,649 | 339,047,649 | 146,400 | 0 | 100 | FY | 2020 | 372,901,398 | 372,901,398 | 153,459 | 0 | 100 | FY | 2021 | 384,727,076 | 384,727,076 | 146,780 | 0 | 100 | FY | 2022 | 487,921,930 | 487,921,930 | 182,700 | 0 | 100 | FY | 2023 | 483,299,062 | 483,299,062 | 186,141 | 0 | 100 | Third-party | computing | Beyond | use | data | center | colocation | facility | , | also | use | third-party | service | support | on-demand | cloud | computing | storage | service | . |
+| As | 2023 | , | electricity | associated | Apples | load | third-party | computing | vendor | matched | 100 | percent | clean | energy.10 | We | calculate | default | utility | emission | provide | baseline | emission | carbon | footprint | would | without | use | renewable | energy | . |
+
+This allows u demonstrate saving resulting renewable energy program .
+11 Apples greenhouse gas emission calculated using World Resources Institute Greenhouse Gas Protocol methodology calculating market-based emission .
+12 We calculate progress toward 100 percent renewable energy goal calendar-year basis , number reported table based fiscal year .
+Beginning January 1 , 2018 , electricity use colocation facility 100 percent renewable energy .
+13 Over past year , weve installing submeters colocation facility better track electricity usage .
+Beginning fiscal year 2016 , started reporting submetered electricity usage .
+Prior fiscal year 2016 , reported electricity usage conservatively estimated based maximum contract capacity quantity .
+Weve updated fiscal year 2016 colocation facility footprint accurately reflect Apples operational boundary .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Per | GHG | Protocol | , | weve | removed | electricity | usage | scope | 2 | calculation | emission | associated | colocation | facility | cooling | building | operations.2024 | Environmental | Progress | Report | 93 | Engagement | Advocacy | Environmental | Initiatives | Data | Introduction | Contents | Appendix | Appendix | B2024 | Environmental | Progress | Report | 94 | Engagement | Advocacy | Environmental | Initiatives | Data | Introduction | Contents | Appendix | A | Corporate | facility | energy | supplement | B | Apples | life | cycle | assessment | methodology | C | Assurance | review | statement | D | Environment | , | Health | Safety | Policy | E | ISO | 14001 | certification | Report | note | End | note | Appendix | B | Apples | life | cycle | assessment | methodology | When | conducting | product | life | cycle | assessment | ( | LCA | ) | , | calculate | greenhouse | gas | emission | using | 100-year | time | horizon | global | warming | potential | ( | GWP100 | ) | 2023 | IPCC | Sixth | Assessment | Report | ( | AR6 | ) | ,1 | including | biogenic | carbon | . |
+
+There inherent uncertainty modeling greenhouse gas emission due primarily data limitation .
+For top component contributor Apples greenhouse gas emission , Apple address uncertainty developing detailed process- based environmental model Apple-specific parameter .
+For remaining element Apples carbon footprint , rely industry average data assumption .
+The following detail five step use conduct LCATo model manufacturing phase We use part-by-part measurement entire product along data part production .
+In case part-by-part data readily available , also use design-level data size weight detail .
+The measurement help u accurately determine size weight component material product , data manufacturing process yield loss production allows u account impact manufacturing .
+The LCA includes accessory packaging , well decreased emission Apples Supplier Clean Energy Program .
+When calculating Apples comprehensive carbon footprint , also include unit repaired replaced AppleCare .
+PRODUCT LCA PROCESS How Apple conduct product greenhouse gas life cycle assessment To model transportation We use data collected shipment single product multipack unit land , sea , air .
+We account transporting material manufacturing site transporting product manufacturing site regional distribution hub transporting product regional distribution hub individual customer transporting product final customer recycling facility .
+To model customer use We measure power consumed product running simulated scenario .
+Daily usage pattern specific product mixture actual modeled customer use data .
+For purpose assessment , year use , based first owner , modeled four year macOS , visionOS , tvOS device three year iOS , iPadOS , watchOS device .
+Most Apple product last longer often passed along , resold , returned Apple first owner others use .
+More information product energy use provided Product Environmental Reports .
+To model end life We use material composition data product estimate ratio product sent recycling disposal .
+For product sent recycling , capture initial processing recycler prepare product recovery electronic , metal , plastic , glass material stream .
+Subsequent downstream recycling process included , considered stage production end-of- life processing .
+For product sent disposal , capture emission associated landfilling incineration type material .
+Putting together After collect data manufacturing , use , transportation , end life , combine detailed greenhouse gas emission data .
+This emission data based combination Apple-specific industry-average data set material production , manufacturing process , electricity generation , transportation .
+Renewable energy used supply chain , initiated supplier independently Apple Supplier Clean Energy Program , also accounted within LCA model .
+Combining product- specific information emission data LCA allows u compile detailed result greenhouse gas emission relate product .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| The | data | modeling | approach | checked | quality | accuracy | Fraunhofer | Institute | Germany.2024 | Environmental | Progress | Report | 95 | Engagement | Advocacy | Environmental | Initiatives | Data | Introduction | Contents | Appendix | Appendix | C2024 | Environmental | Progress | Report | 96 | Engagement | Advocacy | Environmental | Initiatives | Data | Introduction | Contents | Appendix | A | Corporate | facility | energy | supplement | B | Apples | life | cycle | assessment | methodology | C | Assurance | review | statement | Net | comprehensive | carbon | footprint | , | facility | energy | , | carbon | , | waste | , | paper | , | water | data | ( | Apex | ) | Product | carbon | footprint | ( | Fraunhofer | Institute | ) | Supplier | Clean | Energy | Program | ( | Apex | ) | Supplier | Energy | Efficiency | Program | ( | Apex | ) | Packaging | fiber | plastic | footprint | ( | Fraunhofer | Institute | ) | D | Environment | , | Health | Safety | Policy | E | ISO | 14001 | certification | Report | note | End | note | Appendix | C | Net | comprehensive | carbon | footprint | , | facility | energy | , | carbon | , | waste | , | paper | , | water | data | ( | Apex | ) | INDEPENDENT | ASSURANCE | STATEMENT | To | The | Stakeholders | Apple | Inc. | Introduction | objective | work | Apex | Companies | , | LLC | ( | Apex | ) | e | ngaged | Apple | Inc. | ( | Apple | ) | conduct | independent | assurance | select | environmental | data | reporte | 2023 | environmental | report | ( | Report | ) | . |
+
+This assurance statement applies related information included within scope work described .
+The intended user assurance statement stakeholder Apple .
+The overall aim process provide assurance Apple stakeholder accuracy , reliability objectivity Subject Matter included Report .
+This information presentation Report sole responsibility management Apple .
+Apex involved collection information drafting Report .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Scope | Work | Apple | requested | Apex | include | independent | review | following | ( | Subject | Matter | ) | Assurance | select | environmental | ata | information | included | Report | fiscal | year | 2023 | reporting | period | ( | September | 2 | 5 | , | 202 | 2 | September | 30 | , | 202 | 3 | ) | , | specifically | , | accordance | Apples | definition | World | Resources | Institute | ( | WRI | ) | World | Business | Council | Sustainable | Development | ( | WBCSD | ) | Greenhouse | Gas | Protocol | Energy | Direct | ( | Million | Therms | ) | Indirect | ( | Million | k | ilowatt | hour | ( | mkWh | ) | ) | Renewable | Energy | ( | mkW | h | ) | Water | Withdrawal | ( | Million | Gallons | ) | Greenhouse | Gas | ( | GHG | ) | Emissions | Direct | Scope | 1 | emission | weight | , | Indirect | Scope | 2 | emission | weight | , | Indirect | Scope | 3 | emission | weight | ( | Purchased | Goods | Services | , | Fuel | Energy | Related | Activities | , | Employee | Commute | Business | Travel | ) | ( | Metric | Tonnes | Carbon | Dioxide | equivalent | ) | Apple | Comprehensive | Carbon | Footprint | Waste | Quantities | Disposition | ( | Metric | Tonnes | ) | Paper | Quantities | ( | Metric | Tonnes | ) | Excluded | scope | work | assurance | information | relating | Text | written | statement | associated | Report | Activities | outside | defined | assurance | period | Assessment | Standards | Our | work | conducted | Apexs | standard | procedure | guideline | external | Verification | Sustainability | Reports | , | based | current | best | practice | independent | assurance | . |
+| Apex | procedure | based | principle | method | described | International | Sta | ndard | Assurance | Engagements | ( | ISAE | ) | 3000 | Revised | , | Assurance | Engagements | Other | Audits | Reviews | Historical | Financial | Information | ( | effective | assurance | report | dated | Dec. | 15 | , | 2015 | ) | , | issued | International | Auditing | Assurance | Standards | Board | ISO | 14064-3 | Greenhouse | gas | -- | Part | 3 | Specification | guidance | validation | verification | greenhouse | gas | statement | . |
+
+Methodology Apex undertook following activity 1 .
+Site visit Apple facility Rialto , California Battersea , United Kingdom 2 .
+Interviews relevant personnel Apple 3. Review internal external documentary evidence produced Apple 4 .
+Audit environmental performance data presented Report , including detailed review sample data source data 5. Review Apple information system collection , aggregation , analysis internal verification review environmental data .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Apex | Companies | , | LLC | Page | 2 | 5 | The | work | planned | carried | provide | reasonable | assuran | ce | following | indicator | , | believe | provides | appropriate | basis | conclusion | Energy | Direct | ( | Million | Therms | ) | Indirect | ( | Million | kilowatt | hour | ( | mkWh | ) | ) | Renewable | Energy | ( | mkWh | ) | Water | Withdrawal | ( | Million | Gallons | ) | Greenhouse | Gas | ( | GHG | ) | Emissions | Direct | Scope | 1 | emission | weight | , | Indirect | Scope | 2 | emission | weight | ( | Metric | Tonnes | Carbon | Dioxide | equivalent | ) | Paper | Quantities | ( | Metric | Tonnes | ) | The | work | planned | carried | provide | limited | assuran | ce | following | indicator | , | believe | provides | appropriate | basis | conclusion | Greenhouse | Gas | ( | GHG | ) | Emissions | Indirect | Scope | 3 | emission | weight | ( | Purchased | Goods | Services | , | Fuel | Energy-Related | Activities | , | Employee | Commut | ing | Business | Travel | ) | ( | Metric | Tonnes | Carbon | Dioxide | equivalent | ) | Apple | Comprehensive | Carbon | Footprint | Waste | Quantities | Disposition | ( | Metric | Tonnes | ) | Our | Findings | Apex | verified | following | indicator | Apples | Fiscal | Year | 2022 | reporting | period | ( | September | 2 | 5 | , | 2022 | September | 30 | , | 2023 | ) | Parameter | Quantity | Units | Boundary | Protocol | Natural | Gas | Consumption | 1,066,300 | Metric | million | British | thermal | unit | Worldwide | occupied | property | Apple | Internal | Protocol | Electricity | Consumption | 3,500 | Million | kilowatt | hour | ( | mkWh | ) | Worldwide | occupied | property | Apple | Internal | Protocol | Renewable | Energy | 3,500 | Million | kilowatt | hour | ( | mkWh | ) | Worldwide | Invoiced | quantity | self-generated | Scope | 1 | GHG | Emissions | 55,200 | Metric | ton | ne | carbon | dioxide | equivalent | ( | tCO | 2e | ) | Worldwide | occupied | property | WRIWBCSD | GHG | Protocol | Scope | 2 | GHG | Emissions | ( | Location-Based | ) | 1,206,700 | tCO | 2e | Worldwide | occupied | property | WRIWBCSD | GHG | Protocol | Scope | 2 | GHG | Emissions | ( | Market-Based | ) | 3,400 | tCO | 2e | Worldwide | occupied | property | WRIWBCSD | GHG | Protocol | Scope | 3 | Transmission | Distribution | Loses | ( | Market- | Based | ) | 0 | tCO | 2e | Worldwide | occupied | property | WRIWBCSD | GHG | Protocol | Value | Chain | ( | Scope | 3 | ) | Scope | 3 | GHG | Emissions | Upstream | Fuel-Related | Activities | 18,300 | tCO | 2e | Worldwide | occupied | property | WRIWBCSD | GHG | Protocol | Value | Chain | ( | Scope | 3 | ) | Scope | 3 | GHG | Emissions | Business | Travel | 225,700 | tCO | 2e | Worldwide | occupied | property | WRIWBCSD | GHG | Protocol | Value | Chain | ( | Scope | 3 | ) | 2024 | Environmental | Progress | Report | 97 | Engagement | Advocacy | Environmental | Initiatives | Data | Introduction | Contents | Appendix | Apex | Companies | , | LLC | Page | 3 | 5 | Scope | 3 | GHG | Emissions | Employee | Commute | 164,100 | tCO | 2e | Worldwide | occupied | property | WRIWBCSD | GHG | Protocol | Value | Chain | ( | Scope | 3 | ) | Scope | 3 | GHG | Emissions- | Work | From | Home | Emissions | ( | Employee | Commute | ) | ( | Location-Based | ) | 20,600 | tCO | 2e | Worldwide | occupied | property | WRIWBCSD | GHG | Protocol | Value | Chain | ( | Scope | 3 | ) | Scope | 3 | GHG | Emissions | Work | From | Home | Emissions | ( | Employee | Commute | ) | ( | Market-Based | ) | 4,700 | tCO | 2e | Worldwide | occupied | property | WRIWBCSD | GHG | Protocol | Value | Chain | ( | Scope | 3 | ) | Scope | 3 | GHG | Emissions- | Other | Cloud | Services | ( | Purchased | Goods | Services | ) | ( | Market-Based | ) | 0 | tCO | 2e | Worldwide | occupied | property | WRIWBCSD | GHG | Protocol | Value | Chain | ( | Scope | 3 | ) | Water | Withdrawal | 1600 | Million | gallon | Worldwide | occupied | property | Apple | Internal | Protocol | Water | Discharge | 900 | Million | gallon | Worldwide | occupied | property | Apple | Internal | Protocol | Trash | Disposed | Landfill | 17,400 | Metric | tonne | Worldwide | occupied | property | Apple | Internal | Protocol | Hazardous | Waste | ( | Regulated | waste | ) | 3,300 | Metric | tonne | Worldwide | occupied | property | Apple | Internal | Protocol | Recycled | Material | ( | Removal | recycling | contractor | ) | 37,000 | Metric | tonne | Worldwide | occupied | property | Apple | Internal | Protocol | Composted | Material | 6,700 | Metric | tonne | Worldwide | occupied | property | Apple | Internal | Protocol | Waste | Energy | 2,600 | Metric | tonne | s. | Worldwide | occupied | property | Apple | Internal | Protocol | CD | Landfilled | 3,200 | Metric | tonne | Worldwide | occupied | property | Apple | Internal | Protocol | CD | Recycled | 23,600 | Metric | tonne | Worldwide | occupied | property | Apple | Internal | Protocol | Paper | Used | 1,100 | Metric | tonne | Worldwide | occupied | property | Apple | Internal | Protocol | Product | end | use | avoided | emission | 48,800 | tCO | 2e | Worldwide | occupied | property | WRIWBCSD | GHG | Protocol | Value | Chain | ( | Scope | 3 | ) | Apex | Companies | , | LLC | Page | 4 | 5 | Comprehensive | Carbon | Footprint | ( | Market | Based | ) | Corporate | GHG | Emissions | ( | Market-Based | ) | 1 | 471,400 | tCO | 2e | Worldwide | occupied | property | WRIWBCSD | GHG | Protocol | Product | Use2 | 4,600,000 | tCO | 2e | Worldwide | occupied | property | WRIWBCSD | GHG | Protocol | Manufacturing3 | 9,400,000 | tCO | 2e | Worldwide | occupied | property | WRIWBCSD | GHG | Protocol | Transportation4 | 1,500,000 | tCO | 2e | Worldwide | occupied | property | WRIWBCSD | GHG | Protocol | Recycling4 | 70,000 | tCO | 2e | Worldwide | occupied | property | WRIWBCSD | GHG | Protocol | Comprehensive | Carbon | Footprint5 | 16,100,000 | tCO | 2e | Worldwide | occupied | property | WRIWBCSD | GHG | Protocol | Parameter | Quantity | Units | Boundary | Protocol | Carbon | Removals | 485,000 | tCO | 2e | Worldwide | occupied | property | WRIWBCSD | GHG | Protocol | Value | Chain | Net | Footprint6 | 15,600,000 | tCO | 2e | Worldwide | occupied | property | WRIWBCSD | GHG | Protocol | Value | Chain | 1 | . |
+
+Corporate GHG Emissions Scope 1 GHG Emissions Scope 2 ( Market-Based ) GHG Emissions Scope 3 GHG Emissions 2 .
+Product Use emission ( 4.65 million metric tonne ) reportedly verified another third-party provider .
+Apex verified 0.05 million metric tonne reduction .
+3 .
+Manufacturing emission ( 27.92 million metric tonne ) n ot verified Apex- reportedly verified another third-party provider- CEP emission reduction ( 18.51 million metric tonne ) .
+4 .
+Not Verified Apex .
+Reportedly verified another third-party provider .
+5 .
+Comprehensive Carbon Footprint Corporate GHG Emissions Product Use Manufacturing Transportation Recycling 6 .
+Net Footprint Gross Carbon Footprint Carbon Removals Our Conclusion Based assurance process procedure conducted regarding Subject Matter , conclude The Energy , Water , Paper , Scope 1 , Scope 2 , Scope 3 ( Business Travel Employee Commute ) GHG Emissions assertion show n ar e materially correct fair representati data information There evidence Scope 3 ( Business Travel , Employee Commute Work From Home , Other Cloud Services , Fuel Energy Related Activities ) GHG emission , Waste , Comprehensive Carbon Footprint assertion shown materially correct fair representation data information Apple established appropriate system collection , aggregation analysis relevant environmental information , implemented underlying internal assurance practice provide reasonable degree confidence information complete accurate .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 2024 | Environmental | Progress | Report | 98 | Engagement | Advocacy | Environmental | Initiatives | Data | Introduction | Contents | Appendix | Apex | Companies | , | LLC | Page | 5 | 5 | Statement | independence | , | integrity | competence | Apex | implemented | Code | Ethics | across | business | maintain | high | ethical | standard | among | staff | day | day | business | activity | . |
+
+We particularly vigilant prevention conflict interest .
+No member assurance team business relationship Apple , Directors Managers beyond required assignment .
+We conducted verification independently , conflict interest .
+The assurance team extensive experience conducting verification assurance environmental , social , ethical health safety information , system process , 30 year combined experience field excellent understanding Apex standard methodology Assurance Sustainability Reports .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Attestation | Trevor | Donaghu | , | Lead | Verifier | Mary | E. | Armstrong-Friberg | , | Technical | Reviewer | ESG | Director | , | National | Practice | Lead | ESG | Program | Manager | Apex | Companies | , | LLC | Apex | Companies | , | LLC | April | 11 | , | 202 | 4 | 2024 | Environmental | Progress | Report | 99 | Engagement | Advocacy | Environmental | Initiatives | Data | Introduction | Contents | Appendix | Appendix | C | Product | carbon | footprint | ( | Fraunhofer | Institute | ) | 2023 | 27.92 | 1.50 | 4.65 | 0.07 | 34.14 | 2024 | Environmental | Progress | Report | 100 | Engagement | Advocacy | Environmental | Initiatives | Data | Introduction | Contents | Appendix | www | . |
+
+linkedin .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| cominkarsten-schischke | 2024 | Environmental | Progress | Report | 101 | Engagement | Advocacy | Environmental | Initiatives | Data | Introduction | Contents | Appendix | 2024 | Environmental | Progress | Report | 102 | Engagement | Advocacy | Environmental | Initiatives | Data | Introduction | Contents | Appendix | Appendix | C | Supplier | Clean | Energy | Program | ( | Apex | ) | INDEPENDENT | ASSURANCE | STATEMENT | To | The | Stakeholders | Apple | Inc. | Introduction | objective | work | Apex | Companies | , | LLC | ( | Apex | ) | e | ngaged | Apple | Inc. | ( | Apple | ) | conduct | independent | assurance | Supplier | Clean | Energy | Program | data | reporte | 2023 | environmental | report | ( | Report | ) | . |
+
+This assurance tatement applies related information included within scope work described .
+The intended user assurance statement stakeholder Apple .
+The overall aim process provide assurance Apple stakeholder accuracy , reliability objectivity select information included Report .
+This information presentation Report sole responsibility management Apple .
+Apex involved collection information drafting Report .
+Scope Work Apple requested Apex include independent review following Methodology tracking verifying supplier clean energy contribution , including Energy Survey , Renewable Energy Agreement , form supporting documentation provided supplier available .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Assurance | Clean | Energy | Program | data | information | fiscal | year | 2023 | reporting | period | ( | September | 2 | 5 | , | 202 | 2 | September | 30 | , | 202 | 3 | ) | , | specifically | , | accordance | Apples | definition | Energy- | Reported | megawatt-hours | ( | MWh | ) | clean | energy | attributed | Clean | Energy | Program | supplier | Avoided | Greenhouse | Gas | ( | GHG | ) | emission | associated | clean | energy | attributed | Clean | Energy | Program | Operational | Capacity | megawatt | ( | MW | ac | ) | clean | energy | support | Apple | manufacturing | part | Apples | Supplier | Clean | Energy | Program | Appropriateness | robustness | underlying | reporting | system | process | , | used | collect | , | analyze | , | review | information | reported | . |
+
+Excluded scope work assurance information relating Text written statement associated Report Activities outside defined assurance period Assessment Standards Our work conducted Apexs standard procedure guideline external Verification Sustainability Reports , based current best practice independent assurance .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Apex | procedure | based | principle | method | described | International | Standard | Assurance | Engagements | ( | ISAE | ) | 3000 | Revised | , | Assurance | Engagements | Other | Audits | Reviews | Historical | Financial | Information | ( | effective | assurance | report | dated | Dec. | 15 | , | 2015 | ) | , | issued | In | ternational | Auditing | Assurance | Standards | Board | ISO | 14064-3 | Greenhouse | gas | -- | Part | 3 | Specification | guidance | validation | verification | greenhouse | gas | statement | . |
+
+Methodology 1 .
+Interviews relevant personnel Apple 2. Review internal external documentary evidence produced Apple 3 .
+Audit environmental performance data presented Report , including detailed review sample data source data 4. Review Apple information system collection , aggregation , analysis internal verification review environmental data .
+Apex Companies , LLC Page 2 2 The work planned carried provide limited assuran ce indicator believe provides appropriate basis conclusion .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Our | Findings | Apex | verified | following | indicator | Apples | Fiscal | Year | 2023 | reporting | period | ( | September | 2 | 5 | , | 202 | 2 | September | 30 | , | 202 | 3 | ) | Parameter | Quantity | Units | Boundary | Protocol | Clean | Energy | Use | 25.54 | Million | mega | watt | hour | ( | MWh | ) | Apple | supplier | Apple | Internal | Protocol | Avoided | GHG | Emissions | 18.51 | Million | metric | ton | carbon | dioxide | equivalent | ( | mMtCO | 2e | ) | Apple | supplier | Apple | Internal | Protocol | Operational | Capacity | 16,55 | 2 | Megawatts | ( | MW | ac | ) | Apple | supplier | Apple | Internal | Protocol | Our | Conclusion | Based | assurance | process | procedure | conducted | , | conclude | Nothing | come | attention | indicate | reviewed | Clean | Energy | Use | , | Avoided | GHG | Emissions | , | Operational | Capacity | assertion | within | scope | verification | inaccurate | information | included | therein | fairly | stated | prepared | accordance | Apples | stated | protocol | Supplier | Clean | Energy | Program | Apple | established | appropriate | system | collection | , | aggregation | analysis | relevant | environmental | information | , | implemented | underlying | internal | assurance | practice | provide | reasonable | degree | confidence | information | complete | accurate | . |
+
+Statement independence , integrity competence Apex implemented Code Ethics across business maintain high ethical standard among staff day-to-day business activity .
+We particularly vigilant prevention conflict interest .
+No member assurance team business relationship Apple , Directors Managers beyond required assignment .
+We conducted verification independently , conflict interest .
+The assurance team extensive experience conducting verification assurance environmental , social , ethical health safety information , system process , 30 year combined experience field excellent understanding Apex standard methodology Assurance Sustainability Reports .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Attestation | Trevor | Donaghu | , | Lead | Verifier | David | Reilly | , | Technical | Reviewer | ESG | Director | , | National | Practice | Lead | ESG | Principal | Consultant | Apex | Companies | , | LLC | Apex | Companies | , | LLC | March | 8 | , | 202 | 4 | 2024 | Environmental | Progress | Report | 103 | Engagement | Advocacy | Environmental | Initiatives | Data | Introduction | Contents | Appendix | Appendix | C | Supplier | Energy | Efficiency | Program | ( | Apex | ) | Apex | Companies | , | LLC | Page | 1 | 2 | INDEPENDENT | ASSURANCE | STATEMENT | To | The | Stakeholders | Apple | Inc. | Introduction | objective | work | Apex | Companies | , | LLC | ( | Apex | ) | engaged | Apple | Inc. | ( | Apple | ) | conduct | independent | assurance | Supplier | Energy | Efficiency | Program | data | . |
+
+This assurance statement applies related information included within scope work described .
+The intended user assurance statement stakeholder Apple .
+The overall aim process provide assurance Apples stakeholder accuracy , reliability objectivity reported information .
+This information presentation sole responsibility management Apple .
+Apex involved collection information drafting reported information .
+Scope work Apple requested Apex include independent review following Methodology tracking verifying supplier energy efficiency project , including supplier energy audit report , supplier progress report , energy efficiency project verification , form supporting documentation provided supplier available Assurance Energy Efficiency Program data information fiscal year 202 3 reporting perio ( September 25 , 202 2 September 30 , 202 3 ) , specifically , accordance Apples definition Avoided Greenhouse Gas ( GHG ) emission associated energy reduction attributed Energy Efficiency Program Appropriateness robustness underlying reporting system process , used collect , analyze , review information reported .
+Excluded scope work assurance information relating Activities outside defined assurance period .
+Methodology As part independent verification , Apex undertook following activity 1 .
+Interviews relevant personnel Apple 2. Review documentary evidence produced Apple 3 .
+Audit performance data 4. Review Apples system quantitative data aggregation .
+Our work conducted Apexs standard procedure guideline external Verification Sustainability Reports , based current best practice independent assurance .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Apex | procedure | based | principle | method | described | International | Standard | Assurance | Engagements | ( | ISAE | ) | 3000 | Revised | , | Assurance | Engagements | Other | Audits | Reviews | Historical | Financial | Information | ( | effective | assurance | report | dated | Dec. | 15 | , | 2015 | ) | , | issued | International | Auditing | Assurance | Standards | Board | ISO | 14064-3 | Greenhouse | gas | -- | Part | 3 | Specificati | guidance | validation | verification | greenhouse | gas | statement | . |
+
+Apex Companies , LLC Page 2 2 The work planned carried provide limited , rather reasonable assurance believe provides appropriate basis conclusion .
+Our Findings Apex verified Avoided Greenhouse Gas emission fiscal year 202 3 reporting period Period Quantity Units Boundary Protocol FY20 23 ( 9252022- 9302023 ) 1.69 Million etric ton carbon dioxide equivalent Apple supplier Apple Internal Protocol On basis methodology activity described Nothing come attention indicate reviewed emission data within scope verification inaccurate information included therein fairly stated prepared accordance Apples stated protocol Supplier Energy Efficiency Program It opinion Apple established appropriate system collection , aggregation analysis quantitative data energy associated GHG emission reduction .
+This independent statement relied upon detect error , omission misstatement may exist .
+Statement independence , ntegrity competence Apex implemented Code Ethics across business maintain high ethical standard among staff day day business activity .
+We particularly vigilant prevention conflict interest .
+No member assurance team business relationship Apple , Directors Managers beyond required assignment .
+We conducted verification independent ly , conflict interest .
+The assurance team extensive experience conducting verification assurance environmental , social , ethical health safety information , system process , 30 year combined experience field excellent understanding Apex standard methodology Assurance Sustainability Reports .
+Attestation Trevor Donaghu , Lead Verifier Scott Johnston , Technical Reviewer ESG Director , National Practice Lead ESG Principal Consultant Apex Companies , LLC .
+Apex Companies , LLC .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| January | 30 | , | 202 | 4 | 2024 | Environmental | Progress | Report | 104 | Engagement | Advocacy | Environmental | Initiatives | Data | Introduction | Contents | Appendix | Appendix | C | Packaging | fiber | plastic | footprint | ( | Fraunhofer | Institute | ) | Corporate | Packaging | Fiber | Plastic | Footprint | Review | Client | Apple | Inc. | 1 | Review | Statement | Corporate | Packaging | Fiber | Plastic | Footprint | Fraunhofer | IZM | reviewed | Apples | corporate | packaging | fiber | plastic | footprint | data | related | corporate | packaging | fiber | plastic | usage | product | , | retail | service | operation | fis | cal | year | 20 | 23 | . |
+
+1 Summary This review check transparency data calculation , appropriateness supporting product packaging related data assumption , overall plausibility calculated corporate annual packaging fiber plastic footprint Apple product shipped fiscal year 2 023 retail servi ce operation period .
+As standardised method available calculating packaging fiber plastic footprint Apple defined methodology internal use .
+The scope fiber plastic packaging footprint includes Apples corporate packaging fiber plastic usage product , retail operation Apple care service .
+The packaging fiber plastic footprint track total amount plastic , vi rgin recycled wood fibre , Apple us packaging .
+Apple obtain analysis supplier-specific data product line sum figure entire company using sell-in number .
+For product , representative supplier chos en calculate product-specifc packaging .
+The output total packag ing fiber plastic footprint .
+For label , beat product accessory , individual sell-in number availabe share product s. These extrapolated w hole category .
+ESD package ( within Apple care ) excluded packaging plastic footprint .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| The | review | corporate | annual | packaging | fiber | plastic | footprint | considered | following | criterion | The | system | boundary | clearly | defined | Assumptions | estimation | made | app | ropriate | Use | supplier | data | appropriate | methodology | used | adequately | disclosed | Data | reported | Apple | follows | Corporate | Packaging | Fiber | Plastic | Footprint | Review | Client | Apple | Inc. | 2 | 2023 | Total | Virgin | Recycled | Plastic | wo | adhesive | 6,400 | 6,400 | -- | Fiber | 247,900 | 89,500 | 158,4 | 00 | metric | ton | metric | ton | plastic | metric | ton | plastic | All | result | figure | reviewed | fiscal | year | 20 | 23 | plausible | . |
+| 2 | Reviewed | Data | Findings | As | part | review | Apple | disclosed | following | data | Fraunhofer | IZM | Calculation | ethodology | c | orporate | packaging | fiber | plastic | footprint | Sales | data | FY202 | 3 | , | including | accessory | Selected | p | roduct | supplier | specific | data | packaging | material | production | yield | Aggregated | packaging | fiber | plastic | data | pr | oducts | total | corporate | packaging | fiber | plastic | footprint | fiscal | year | 2023 | The | methodology | paper | provided | Apple | ( | Packaging | Plastic | Footprint | Apple | Methodology | Description | V1.0 | 2018 | , | Fiber | Footprint | Apple- | Methodology | Description- | V1.1 | reviewed | 2017 | ) | , | considered | sound | appropriate | guidance | determining | company | packaging | fiber | plastic | . |
+
+Where appropriate , approach follows methodological principle applied state-of-the-art Life Cycle Assessment s. This review comprises check packaging fiber plastic data selected product ( Apple watch , iPad , Mac ) .
+Plausibility data questioned discussed Apple detail .
+More granular data accessory recommended future .
+This review done remotely .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| All | question | raised | course | review | answered | Apple | related | explanation | provided | neede | d. | 2024 | Environmental | Progress | Report | 105 | Engagement | Advocacy | Environmental | Initiatives | Data | Introduction | Contents | Appendix | Corporate | Packaging | Fiber | Plastic | Footprint | Review | Client | Apple | Inc. | 3 | Based | process | procedure | conducted | , | evidence | corporate | packaging | fiber | plastic | footprint | materially | correct | fair | representation | fiber | plastic | data | information | . |
+
+Berlin , March 11 , 2024 - Marina Proske -- Karsten Schischke- Fraunhofer IZM Fraunhof er IZM Dept .
+Environmental Dept .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Environmental | Reliability | Engineering | Reliability | Engineering | 2024 | Environmental | Progress | Report | 106 | Engagement | Advocacy | Environmental | Initiatives | Data | Introduction | Contents | Appendix | Appendix | D2024 | Environmental | Progress | Report | 107 | Engagement | Advocacy | Environmental | Initiatives | Data | Introduction | Contents | Appendix | A | Corporate | facility | energy | supplement | B | Apples | life | cycle | assessment | methodology | C | Assurance | review | statement | D | Environment | , | Health | Safety | Policy | E | ISO | 14001 | certification | Report | note | End | note | Appendix | D | Environment | , | Health | Safety | Policy | Mission | Statement | Apple | Inc. | committed | protecting | environment | , | health | safety | ( | EHS | ) | employee | , | contractor | , | customer | design | , | research | , | manufacture | , | distribution | , | use | product | service | global | community | operate | . |
+
+We recognize integrating best EHS management practice aspect business , offer technologically innovative product service conserving enhancing resource future generation .
+Apple strives continuous improvement EHS management system environmental quality product , process , service .
+Guiding Principles Meet exceed applicable EHS requirement .
+Where law regulation provide adequate control , apply higher standard protect human health environment .
+Design , manage , operate facility safely conserve energy , water , resource promote renewable energy , protect biodiversity .
+Encourage contractor , vendor , supplier provide safe working condition , treat worker dignity respect , act fairly ethically .
+Support promote best scientific principle , practice , public policy initiative enhance environmental quality , health safety performance , ethical sourcing material .
+Communicate EHS policy program Apple employee stakeholder , verify supplier operate accordance Apples Supplier Code Conduct .
+Supplier Responsibility resource Supplier Code Conduct available apple .
+comsupplier-responsibility .
+Strive create product safe intended use manufactured alignment strict environmental standard .
+Pursue continual improvement evaluation EHS performance monitoring ongoing performance result periodic management review , committing correct EHS nonconformity .
+Ensure employee aware role responsibility fulfill sustain Apples EHS management system policy providing training tool user primary language .
+February 20242024 Environmental Progress Report 108 Engagement Advocacy Environmental Initiatives Data Introduction Contents Appendix Appendix E2024 Environmental Progress Report 109 Engagement Advocacy Environmental Initiatives Data Introduction Contents Appendix A Corporate facility energy supplement B Apples life cycle assessment methodology C Assurance review statement D Environment , Health Safety Policy E ISO 14001 certification Report note End note Appendix E ISO 14001 certification Apple operates manufacturing facility Cork , Ireland .
+We certify 100 percent facility ISO 14001 .
+CERT-067.14 001 MMA IQNet NSAI 14001 2015 A4 ( 1 ) CERTIFICATE NSAI issued IQNet recognised certificate organisation AAppppllee OOppeerraattiioonnss EEuurrooppee Hollyhill Industrial Estate Hollyhill Cork Ireland implemented maintains EEnnvviirroonnmmeennttaall MMaannaaggeemmeenntt SSyysstteemm following scope TThhee mmaannaaggeemmeenntt ooff aallll EEMMEEAA ooppeerraattiioonnaall aaccttiivviittiieess rreellaatteedd ttoo mmaannuuffaaccttuurriinngg , , ssaalleess , , ddeelliivveerryy aanndd aafftteerr ssaalleess ssuuppppoorrtt ffoorr ddiirreecctt rreettaaiill aanndd cchhaannnneell ccuussttoommeerrss .
+.
+fulfils requirement following standard II .
+.SS .
+.
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| EENN | IISSOO | 114400001122001155 | IIssssuueedd | oonn | 1144 | JJuullyy | 22002211 | FFiirrsstt | iissssuueedd | oonn | 2200 | MMaarrcchh | 22000011 | EExxppiirreess | oonn | 1100 | JJuullyy | 22002244 | This | attestation | directly | linked | IQNet | Partners | original | certificate | shall | used | stand-alone | document | Registration | Number | IE-14.0202 | Alex | Stoichitoiu | President | IQNet | Stewart | Hickey | Head | Business | Excellence | , | NSAI | IQNet | Partners | AENOR | Spain | AFNOR | Certification | France | APCER | Portugal | CCC | Cyprus | CISQ | Italy | CQC | China | CQM | China | CQS | Czech | Republic | Cro | Cert | Croatia | DQS | Holding | GmbH | Germany | FCAV | Brazil | FONDONORMA | Venezuela | ICONTEC | Colombia | Inspecta | Sertifiointi | Oy | Finland | INTECO | Costa | Rica | IRAM | Argentina | JQA | Japan | KFQ | Korea | MIRTEC | Greece | MSZT | Hungary | Nemko | AS | Norway | NSAI | Ireland | NYCE-SIGE | México | PCBC | Poland | Quality | Austria | Austria | RR | Russia | SII | Israel | SIQ | Slovenia | SIRIM | QAS | International | Malaysia | SQS | Switzerland | SRAC | Romania | TEST | St | Petersburg | Russia | TSE | Turkey | YUQS | Serbia | IQNet | represented | USA | AFNOR | Certification | , | CISQ | , | DQS | Holding | GmbH | NSAI | Inc | . |
+
+The list IQNet partner valid time issue certificate .
+Upd ated information available www .
+iqnet- certification .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| com | CERT-161 | WM | 14001 | 2015 | INAB | ( | 3 | ) | Certificate | Registration | Environmental | Management | System | I. | S. | EN | ISO | 1400120 | 15 | AAppppllee | OOppeerraattiioonnss | EEuurrooppee | Hollyhill | Industrial | Estate | Hollyhill | Cork | Ireland | NSAI | certifies | aforementioned | company | ha | assessed | deemed | comply | provision | standard | referred | respect | of- | The | management | EMEA | operational | activity | related | manufacturing | , | sale | , | delivery | sale | support | direct | retail | channel | customer | Approved | Stewart | Hickey | Head- | Business | Excellence | , | NSAI | Registration | Number | 14.0202 | Original | Registration | 20 | March | 2001 | Last | amended | 14 | July | 2021 | Valid | 14 | July | 2021 | Remains | valid | 10 | July | 2024 | This | certificate | remains | valid | condition | Approved | Environmental | Management | System | maintained | adequate | effi | cacious | manner | . |
+
+NSAI partner IQNet international certification networ k ( www .
+iqnet- certification .
+com ) Partner All valid certification listed NSAIs website www .
+nsai .
+ie .
+The continu ed validity certificate may verified Certified Company Search NSAI ( National Standards Authority Ireland ) , 1 Swift Square , Northwood , Santry , Dublin 9 , Ireland T 353 1 807 3800 E infonsai .
+ie www .
+nsai .
+ie 2024 Environmental Progress Report 110 Engagement Advocacy Environmental Initiatives Data Introduction Contents Appendix Report note About report This report published annually focus primarily fiscal year activity .
+This report address environmental impact activity Apple facility ( corporate office , data center , retail store ) , well life cycle impact product , including manufacturing , transportation , use , end- of-life phase .
+To provide feedback report , please contact environment-reportapple .
+com .
+Reporting year We track environmental progress based Apples fiscal year .
+All reference year throughout report refer Apples fiscal year , unless calendar year specified .
+Apples fiscal year 52- 53-week period end last Saturday September .
+Data assurance We obtain third-party verification information report Apex Companies Fraunhofer Institute Germany ( denoted Appendix C ) .
+Data report , including data verification third party , reflects estimate using methodology assumption believed reasonable accurate .
+Those estimate , methodology , assumption may change future result new information subsequent development , ultimately may prove inaccurate .
+In addition , bulk Apples recycled content data certified thus verified third party .
+Less 5 percent total mass shipped Apple product fiscal year 2023 recycled content data either supplier verified , meaning reported supplier cross-checked Apple , supplier reported , meaning reported supplier based production allocation value .
+In case , Apple defines recycled content alignment ISO 14021 .
+Product claim made launch date individual product , accurate product launch .
+Forward-looking statement The report provided voluntarily , cover information business .
+References report information construed characterization regarding materiality information financial result purpose U. S. security , , law requirement .
+While certain matter discussed report may significant , significance read necessarily rising level materiality used purpose complying U. S. federal security , , law regulation .
+The information covered report contains forward-looking statement within meaning Private Securities Litigation Reform Act 1995 , including statement regarding environmental sustainability goal target , commitment , strategy related business stakeholder impact .
+Forward-looking statement identified word future , anticipates , belief , estimate , expects , intends , plan , predicts , , would , could , , may , aim , strive , similar term .
+These statement involve risk uncertainty , actual result may differ materially future result expressed implied forward-looking statement .
+These risk uncertainty include , without limitation , failure meet stated environmental sustainability target , goal , commitment , execute strategy time frame expected , global sociodemographic , political , economic trend , changing government regulation policy , technological innovation , climate-related condition weather event , ability gather verify data regarding environmental impact , compliance various third party , including supplier policy procedure , commitment u , expansion new product , service , technology , geographic region .
+More information risk , uncertainty , potential factor could affect business performance included filing U. S. Securities Exchange Commission , including Risk Factors Managements Discussion Analysis Financial Condition Results Operations section company recently filed periodic report Form 10-K Form 10-Q subsequent filing .
+Further , time time engage various initiative ( including voluntary disclosure , policy , program ) , guarantee initiative desired effect .
+We assume obligation , expressly disclaim duty ( including response new changed information ) update forward-looking statement information , speak respective date .
+Readers place undue reliance forward-looking statement made report .
+Moreover , many assumption , standard , metric , measurement used preparing report continue evolve , sourced third party , based assumption believed reasonable time preparation , considered guarantee .
+Given inherent uncertainty estimate , assumption , timeline contained report , may able anticipate whether , degree , able meet plan , target , goal advance .
+For information We believe responsibility go beyond store corporate office They extend supply chain , community part , planet share .
+Read Our Commitment Human Rights .
+Apples Racial Equity Justice Initiative aim advance equity expand access opportunity Black , HispanicLatinx , Indigenous community help dismantle systemic barrier opportunity combat injustice faced community color .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Read | work | toward | upholding | high | standard | labor | human | right | , | health | safety | , | environmental | stewardship | across | global | supply | chain | People | Environment | Our | Supply | Chain | 2024 | Annual | Progress | Report.2024 | Environmental | Progress | Report | 111 | Engagement | Advocacy | Environmental | Initiatives | Data | Introduction | Contents | Appendix | End | note | Introduction | Environmental | Initiatives | 1 | Apple | follows | GHG | Protocol | Corporate | Accounting | Reporting | Standard | ( | GHG | Protocol | ) | calculate | value | chain | emission | . |
+
+The GHG Protocol currently defines scope 1 emission direct greenhouse gas emission occur source owned controlled company scope 2 emission indirect greenhouse gas emission generation purchased electricity , steam , heat , cooling consumed company scope 3 emission indirect emission occur value chain reporting company , including upstream downstream emission .
+Apple currently set operational boundary emission excludes following scope 3 category , defined GHG Protocol , collectively make less 10 percent 2015 base year scope 3 emission currently capital good due limited data availability , limit ability influence emission , waste generated operation , emission negligible .
+The following subset greenhouse gas category recognized Kyoto Protocol included carbon dioxide ( CO 2 ) , methane ( CH 4 ) , nitrous oxide ( N 2O ) , hydrofluorocarbon ( HFCs ) , perfluorocarbon ( PFCs ) , sulphur hexafluoride ( SF 6 ) , Nitrogen trifluoride ( NF 3 ) .
+2 Carbon reduction calculated baseline scenario 1 ) No use clean electricity manufacturing product use , beyond already available grid ( based regional emission factor ) .
+2 ) Apples carbon intensity key material 2015 ( baseline year 2030 product carbon neutrality goal ) .
+Carbon intensity material reflects use recycled content production technology .
+3 ) Apples average mix transportation mode ( air , rail , ocean , ground ) product line across three year ( fiscal year 2017 2019 ) best capture baseline transportation emission product .
+3 As product launch , 50 percent low-carbon watch product weight planned shipped via non-air mode transportation lifetime product final assembly site next destination primarily regional distribution hub .
+4 Apple report data recycled content product different level fidelity , based level independent data verification .
+The bulk Apples recycled content data certified thus verified third party .
+Less 3 percent total mass shipped Apple product fiscal year 2023 contained recycled content either supplier verified , meaning reported supplier cross-checked Apple , supplier reported , meaning reported supplier based production allocation value .
+In case , Apple defines recycled content alignment ISO 14021 .
+We currently 17 Renewable electricity refers fossil fuelfree source energy renewable source , like wind , solar , low-impact hydroelectricity project .
+Clean electricity refers renewable electricity well project Apple considers low carbon renewable , like nuclear large-impact hydroelectricity project .
+Apple currently allows clean electricity source address electricity product use part residual grid factor , market sufficient data ensure clean electricity already claimed .
+For Apples corporate footprint , supply chain manufacturing , portion product use impact already clean electricity , Apple investing new renewable electricity source .
+18 Refer footnote 10 .
+19 Refer footnote 4 .
+20 Refer footnote 12 .
+21 Apples commitment use 100 percent recycled cobalt , using mass balance allocation , Apple-designed battery 2025 .
+We calculate use recycled cobalt using mass balance allocation end fiscal year .
+22 Apples commitment use 100 percent recycled tin soldering gold plating Apple-designed rigid flexible printed circuit board 2025 .
+23 Apples commitment use 100 percent recycled rare earth element magnet 2025 .
+24 Intergovernmental Panel Climate Change ( IPCC ) , Summary Policymakers IPCC Special Report Global Warming 1.5C approved government , press release , www .
+ipcc .
+ch20181008summary-for-policymakers-of-ipcc-special-report- on-global-warming-of-1-5c-approved-by-governments .
+25 Corporate emission include scope 1 2 emission Apple retail store , corporate office , Apple-owned colocated data center , Apple-produced digital content Apple One service , well scope 3 emission associated business travel , employee commute , work home , upstream impact scope 1 fuel , use third-party cloud service .
+26 Apple defines low-carbon material material created using production technique reduced carbon impact , Elysis ( patented technology eliminates direct greenhouse gas emission traditional aluminum smelting process ) aluminum smelted using hydroelectricity instead coal .
+27 Refer footnote 5 .
+28 Refer footnote 4 .
+29 Refer footnote 21 .
+30 Refer footnote 22 .
+31 Refer footnote 23 .
+32 Since publishing Material Impact Profiles white paper , weve expanded analysis include biodiversity factor .
+33 To account recycled aluminum , use third-party certified recycled aluminum data , well supplier-verified data , meaning reported supplier cross-checked Apple .
+34 This statistic compare carbon footprint aluminum recycled source primary aluminum smelted electricity generated coal .
+35 Refer footnote 21 .
+36 Refer footnote 22 .
+37 Including iPhone 15 Plus iPhone 15 Pro model .
+Excludes trace amount rare earth element found outside magnet .
+38 Refer footnote 23 .
+39 Refer footnote 22 .
+40 Excludes trace amount tungsten found outside Taptic Engine accounting less 0 .
+1 percent total found device .
+41 Refer footnote 5 .
+42 Refer footnote 4 .
+43 Testing done condition streaming 4K movie played Apple TV 4K ( 3rd generation ) Siri Remote Apple TV app .
+44 Based sales-weighted average Mac , iPad , iPhone , Apple Watch , Apple TV , HomePod , AirPods , Beats .
+45 Eligible product product category ENERGY STAR certification exists .
+For information , visit www .
+energystar .
+gov .
+ENERGY STAR ENERGY STAR mark registered trademark owned U. S. Environmental Protection Agency .
+46 Apple list eligible product sold United States Canada Electronic Product Environmental Assessment Tool ( EPEAT ) Registry .
+Eligible product product category EPEAT registration exists , including workstation , desktop , laptop , display , mobile phone , tablet .
+For information , visit www .
+epeat .
+net .
+47 Refer footnote 44. include industry-average recycled content , may result underreporting actual recycled content .
+Total recycled material shipped product driven product material composition total sale result , overall recycled renewable content percentage may fluctuate based number type product sold year .
+5 All cobalt battery claim reference use mass balance allocation .
+6 We plan reach carbon neutrality beginning fiscal year 2030 carbon footprint .
+7 In addition working toward transitioning entire product value chain using 100 percent clean electricity 2030 , prioritizing energy efficiency emission reduction within supplier facility operation .
+8 The Supplier Clean Energy Program since codified Supplier Code Conduct , scaling program entire direct manufacturing supply chain .
+9 Refer footnote 4 .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 10 | By | 2025 | , | plan | use | 100 | percent | recycled | cobalt | Apple- | designed | battery | ( | using | mass | balance | allocation | ) | , | 100 | percent | recycled | tin | soldering | 100 | percent | recycled | gold | plating | Apple-designed | rigid | flexible | printed | circuit | board | , | 100 | percent | recycled | rare | earth | element | magnet | . |
+
+We calculate use recycled cobalt using mass balance allocation end fiscal year .
+11 Refer footnote 5 .
+12 By 2025 , plan remove plastic packaging transitioning 100 percent fiber-based packaging .
+Apples goal remove plastic packaging includes retail bag , finished good box ( including plastic content label in-box documentation ) , packaging sent customer part Apple Trade In , AppleCare packaging whole unit service module ( exception plastic needed protect item electrostatic discharge ) , secondary packaging Apple product accessory sold Apple .
+Our goal include ink , coating , adhesive used packaging .
+We plan remove plastic packaging refurbished product 2027 , old product packaging design phased .
+We continue selling existing inventory AppleCare packaging whole unit service module contain plastic vintage product end life consumed .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| This | change | enable | u | avoid | waste | generated | re-packaging | good | new | 100 | percent | fiber- | based | packaging.13 | In | 2022 | , | expanded | packaging | goal | boundary | better | reflect | impact | , | resulting | increase | 36 | percent | total | packaging | mass | , | relative | fiscal | year | 2021 | . |
+
+We include retail bag , finished good box ( including plastic content label in-box documentation ) , packaging sent customer part Apple Trade In , AppleCare packaging whole unit service module ( exception plastic needed protect item electrostatic discharge ) , secondary packaging Apple product accessory sold Apple .
+Our goal boundary include ink , coating , adhesive used packaging .
+In addition packaging footprint , also calculate fiber used corporate facility .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| In | fiscal | year | 2023 | , | number | 1,100 | metric | ton | . |
+
+14 By 2030 , plan replenish 100 percent corporate freshwater withdrawal high-stress location , determined World Resources Institute ( WRI ) Aqueduct Baseline Water Stress Indicator refined local context analysis .
+15 By end fiscal year 2025 , plan certified Apple- owned data center Alliance Water Stewardship Standard .
+16 By 2030 , plan identify priority supplier drive enrollment Supplier Clean Water Program .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Apple | prioritizes | supplier | facility | overall | basin | stress | indicator | , | on-site | activity | type | , | annual | water | volume | usage.2024 | Environmental | Progress | Report | 112 | Engagement | Advocacy | Environmental | Initiatives | Data | Introduction | Contents | Appendix | Environmental | Initiatives | continued | 48 | Energy | consumption | energy | efficiency | value | based | ENERGY | STAR | Program | Requirements | Computers | , | including | max | energy | allowance | Mac | mini | . |
+
+For information , visit www .
+energystar .
+gov .
+ENERGY STAR ENERGY STAR mark registered trademark owned U. S. Environmental Protection Agency .
+For information power consumption Mac mini , read Mac mini Product Environmental Report .
+49 Efficiency performance based U. S. Department Energy Federal Energy Conservation Standards Battery Chargers .
+Note ENERGY STAR certify smartphone device .
+The energy efficiency value based following condition Power adapter , load Condition Apple 20W USB-C Power Adapter USB-C Lightning Cable ( 1 ) connected AC power connected iPhone .
+Power adapter efficiency Average Apple 20W USB-C Power Adapter USB-C Charge Cable ( 1 ) measured efficiency tested 100 percent , 75 percent , 50 percent , 25 percent power adapter rated output current .
+50 Refer footnote 43 .
+51 Refer footnote 12 .
+52 Breakdown U. S. retail packaging weight .
+Adhesives , ink , coating excluded calculation plastic content packaging weight .
+53 Refers retail packaging .
+54 Our packaging design guideline apply retail packaging shipper , exclude plastic-based component , wrap , adhesive .
+55 Based expected equivalent fiber production forestry project virgin fiber used Apple product packaging .
+To determine output Apples project , work partner understand productive potential working forest .
+The forest management plan required achieve maintain certification limit harvest volume sustainable level .
+We use potential harvest volume estimate sustainable productive capacity forest .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| Responsible | sourcing | fiber | defined | Apples | Responsible | Fiber | Specification | ( | PDF | ) | 56 | In | fiscal | year | 2023 | exceeded | requirement | criterion | 4.9.3.1 | IEEE | 1680.1 | achieving | 2 | . |
+
+7 percent energy saving Apple facility consumed 70 illion kWhyr energy consumption .
+57 All efficiency measure retired based effective useful lifetime documented California Energy Commission.58 Our use term RECs cover renewable energy certificate similar certification around world , Guarantees Origin ( GOs ) Europe , Large-Scale Generation Certificates ( LGCs ) Australia , Green Electricity Certificates ( GECs ) China .
+59 In 2023 , supplier relied predominantly renewable energy certificate ( RECs ) meet CEP commitment , interim solution longer-term procurement option like power purchase agreement ( PPAs ) , becoming increasingly available across globe .
+With evolution renewable procurement option China , supplier started transitioning expanded Green Energy Certificate ( GEC ) Green Power Trading mechanism , nationally recognized way procuring renewable energy China today .
+60 This value calculated reviewed third party according Tier 2c methodology 2019 Refinement 2006 IPCC Guidelines National Greenhouse Gas Inventories based primarily supplier reported data .
+61 Based methodology Apple us calculate transportation emission , regularly reviewed third party , Fraunhofer IZM .
+62 Refer footnote 3 .
+63 Rogelj , J. , D. Shindell , K. Jiang , S. Fifita , P. Forster , V. Ginzburg , C. Handa , H. Kheshgi , S. Kobayashi , E. Kriegler , L. Mundaca , R. Séférian , M. V. Vilariño , 2018 Mitigation Pathways Compatible 1.5C Context Sustainable Development .
+In Global Warming 1.5C .
+An IPCC Special Report impact global warming 1.5C pre-industrial level related global greenhouse gas emission pathway , context strengthening global response threat climate change , sustainable development , effort eradicate poverty Masson-Delmotte , V. , P. Zhai , H. -O. Pörtner , D. Roberts , J. Skea , P. R. Shukla , A. Pirani , W. Moufouma-Okia , C. Péan , R. Pidcock , S. Connors , J .
+B. R. Matthews , Y. Chen , X. Zhou , M. I. Gomis , E. Lonnoy , T. Maycock , M. Tignor , T. Waterfield ( ed .
+) .
+In Press .
+www .
+ipcc .
+chsiteassetsuploads sites2201902SR15_Chapter2_Low_Res .
+pdf .
+64 Based device pricing SellCell .
+com carriersresellers accept trade-in device March 2024 .
+65 This applies specifically U. S. -based Apple Trade In program .
+66 MIL-STD 810H certification military equipment .
+Tested category include Altitude , High Temperature , Low Temperature , Temperature Shock , Immersion , FreezeThaw , Shock , Vibration.67 Based official global AppleCare warranty price back glass repair across iPhone 14 Pro iPhone 15 Pro March 2024 .
+68 Estimated based rock-to-metal ratio USGS change previous report , used ore-to-metal ratio recovery rate iPhone main logic board flex .
+69 Apple willing license five patent relating Daisy certain associated intellectual property reasonable , royalty- free term .
+70 We define facility water use high stress area located within withdraws water basin high extremely high baseline water stress based WRI Aqueduct Water Risk Atlas V4.0 tool , refined additional local knowledge third-party research .
+71 We calculate water discharge based known evaporation activity like cooling irrigation .
+For site evaporative activity present , estimate water withdrawn returned municipal system .
+We estimate margin error approximately 10 percent , plan continue update model new source data .
+72 Based previous estimated consumption .
+73 These saving include reduction water use facility closure reduced occupancy due COVID-19 pandemic .
+We consider saving temporary , acknowledge water use transferred employee home .
+74 Refer footnote 73 .
+75 These saving based data observed pilot operation .
+76 We account saving program fiscal-year basis , rather calendar-year basis reported publication fiscal year 2021 .
+77 Refer footnote 15 .
+78 By end fiscal year 2030 , plan replenish 100 percent corporate freshwater withdrawal high-stress location , determined WRI Aqueduct Baseline Water Stress Indicator , refined local context analysis .
+
+| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |
+|------|--------|--------|--------|--------|--------|
+| 79 | Duncan | McNicholl | Rob | Hope | , | Reducing | uncertainty | corporate | water | impact | The | role | Results-Based | Contracting | drinking | water | supply | , | ( | Oxford | , | UK | Uptime | Global | Oxford | University | , | 2024 | ) | .80 | Waste | diversion | rate | include | construction | demolition | waste | electronic | waste | fiscal | year | 2023 | . |
+
+Electronic waste accounted total metric ton electronic waste sent recycling , found page 82 .
+81 These site third-party verified UL Solutions UL 2799 Zero Waste Landfill Environmental Claim Validation Procedure ( ECVP ) .
+UL Solutions requires least 90 percent diversion method waste-to-energy achieve Zero Waste Landfill ( Silver 90 94 percent , Gold 95 99 percent , Platinum 100 percent ) designation .
+82 Our Mesa Prineville data center third-party certified Zero Waste GBCI TRUE , receiving certification 2021 2020 , respectively .
+TRUE requires 90 percent diversion higher landfill without use waste-to-energy achieve TRUE-certified project designation .
+83 All established final assembly supplier site Apple supplier one year iPhone , iPad , Mac , Apple Watch , AirPods , HomePod , Apple TV , Beats third-party verified UL Solutions UL 2799 Zero Waste Landfill Environmental Claim Validation Procedure ( ECVP ) .
+UL Solutions requires least 90 percent diversion method waste-to-energy achieve Zero Waste Landfill ( Silver 90 94 percent , Gold 95 99 percent , Platinum 100 percent ) designation .
+84 Refer footnote 81 .
+2024 Apple Inc. All right reserved .
+Apple Apple logo trademark Apple Inc. registered U. S. country region .
+Beats trademark Beats Electronics , LLC .
+, registered U. S. country region .
+iOS trademark registered trademark Cisco U. S. country used license .
+ENERGY STAR ENERGY STAR mark registered trademark owned U. S. Environmental Protection Agency .
+Other product company name mentioned herein may trademark respective companies.2024 Environmental Progress Report 113 Engagement Advocacy Environmental Initiatives Data Introduction Contents Appendix
