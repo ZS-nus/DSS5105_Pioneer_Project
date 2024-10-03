@@ -1,0 +1,97 @@
+import os
+import fitz  # PyMuPDF
+from PIL import Image, ImageEnhance, ImageFilter
+import easyocr
+import pdfplumber
+import re
+import ssl
+import nltk
+from nltk.tokenize import sent_tokenize, word_tokenize
+
+# Disable SSL verification (not recommended for production)
+ssl._create_default_https_context = ssl._create_unverified_context
+
+# Ensure NLTK data is downloaded
+nltk.download('punkt')
+
+def preprocess_image(image):
+    """Preprocess the image to improve OCR accuracy."""
+    image = image.convert('L')
+    enhancer = ImageEnhance.Contrast(image)
+    image = enhancer.enhance(2)
+    image = image.filter(ImageFilter.MedianFilter())
+    return image
+
+def filter_text(text):
+    """Filter out headers, footers, and page numbers from the text."""
+    header_footer_pattern = re.compile(r'^(Header|Footer|Page \d+)', re.IGNORECASE)
+    filtered_lines = [line for line in text.split('\n') if not header_footer_pattern.match(line.strip())]
+    return '\n'.join(filtered_lines)
+
+def clean_text(text):
+    """Clean the text by removing unwanted characters and normalizing whitespace."""
+    text = re.sub(r'\s+', ' ', text)  # Normalize whitespace
+    text = re.sub(r'[^\w\s]', '', text)  # Remove punctuation
+    text = text.lower()  # Convert to lowercase
+    return text
+
+def tokenize_text(text):
+    """Tokenize the text into sentences and words."""
+    sentences = sent_tokenize(text)
+    tokenized_text = [word_tokenize(sentence) for sentence in sentences]
+    return tokenized_text
+
+def extract_text_from_pdf(pdf_path):
+    """Extract text from a PDF file using OCR and layout detection."""
+    print("Initializing easyocr reader...")
+    reader = easyocr.Reader(['en'])  # Initialize the easyocr reader with English language
+    print("Reader initialized.")
+    
+    text = ""
+    with pdfplumber.open(pdf_path) as pdf:
+        for page_num, page in enumerate(pdf.pages):
+            print(f"Processing page {page_num + 1}/{len(pdf.pages)}...")
+            # Extract text using pdfplumber
+            page_text = page.extract_text()
+            if page_text:
+                text += page_text + "\n"
+            else:
+                # If no text is found, perform OCR
+                page_image = page.to_image()
+                image = page_image.original
+                image = preprocess_image(image)
+                image.save("temp_image.png")  # Save the image temporarily
+                result = reader.readtext("temp_image.png", detail=0)  # Perform OCR
+                text += " ".join(result) + "\n"
+                os.remove("temp_image.png")  # Remove the temporary image file
+    
+    # Filter out headers, footers, and page numbers
+    filtered_text = filter_text(text)
+    print("OCR processing complete.")
+    
+    # Clean and tokenize the text
+    cleaned_text = clean_text(filtered_text)
+    tokenized_text = tokenize_text(cleaned_text)
+    
+    return tokenized_text
+
+def save_as_markdown(tokenized_text, output_file, output_dir="."):
+    """Save the tokenized text as a markdown file in the specified directory."""
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    
+    output_file_path = os.path.join(output_dir, output_file)
+    
+    with open(output_file_path, 'w', encoding='utf-8') as f:
+        for sentence in tokenized_text:
+            f.write(" ".join(sentence) + "\n")
+    print(f"Text saved as markdown in {output_file_path}")
+
+if __name__ == "__main__":
+    pdf_path = "../ESG_reports/Apple ESG 2024.pdf"
+    print(f"Extracting text from {pdf_path}...")
+    text = extract_text_from_pdf(pdf_path)
+    output_md = "Apple.md"
+    output_dir = "../ESG_reports"
+    save_as_markdown(text, output_md, output_dir)
+    print("Process completed.")

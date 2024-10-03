@@ -60,6 +60,9 @@ def list_all_files():
         bucket = storage.bucket()
         blobs = bucket.list_blobs()
         file_names = [blob.name for blob in blobs]
+        print("Files in bucket:")
+        for file_name in file_names:
+            print(file_name)
         return file_names
     except Exception as e:
         print(f"Error listing files: {e}")
