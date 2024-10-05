@@ -14,7 +14,7 @@ def convert_all_pdfs(input_dir, output_dir):
             pdf_path = os.path.join(input_dir, filename)
             
             # Generate output filename (replace .pdf with .md)
-            md_filename = os.path.splitext(filename)[0] + '.md'
+            md_filename = os.path.splitext(filename)[0] + '.txt'
             md_path = os.path.join(output_dir, md_filename)
             
             print(f"Converting {filename} to markdown...")
@@ -34,7 +34,7 @@ def convert_all_pdfs(input_dir, output_dir):
 
 if __name__ == "__main__":
     input_directory = "../ESG_reports"
-    output_directory = "../md_files"
+    output_directory = "../txt_files"
     
     convert_all_pdfs(input_directory, output_directory)
     print("Conversion process completed.")

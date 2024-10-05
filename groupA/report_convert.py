@@ -84,22 +84,34 @@ def detect_and_format_tables(text):
     lines = text.split('\n')
     formatted_lines = []
     in_table = False
-    table_header = False
-    
+    headers = []
+
     for line in lines:
-        # Detect if the line looks like a table row (contains year and multiple numbers)
-        if re.search(r'\b(FY\s*\d{4}|\d{4})\b.*\b\d+([.,]\d+)?\b.*\b\d+([.,]\d+)?\b', line):
+        # Check if the line contains potential table data
+        if re.search(r'\b(20\d{2}|[0-9]+(?:,[0-9]{3})*)\b', line):
             if not in_table:
-                formatted_lines.append("\n| Year | Value 1 | Value 2 | Value 3 | Value 4 | Value 5 |")
-                formatted_lines.append("|------|--------|--------|--------|--------|--------|")
+                # Attempt to extract headers from the previous line or the current line
+                if headers:
+                    header_line = "| " + " | ".join(headers) + " |"
+                    formatted_lines.append(header_line)
+                    formatted_lines.append("|" + "---|" * len(headers))
                 in_table = True
-            formatted_lines.append("| " + " | ".join(line.split()) + " |")
+            
+            # Extract data, allowing for commas in numbers
+            data = re.findall(r'[\d,]+(?:\.\d+)?|[A-Za-z%]+', line)
+            if data:
+                formatted_row = "| " + " | ".join(data) + " |"
+                formatted_lines.append(formatted_row)
         else:
             if in_table:
+                # End of the table
                 formatted_lines.append("")  # Add a blank line after table
                 in_table = False
-            formatted_lines.append(line)
-    
+            # Check for potential headers in non-table lines
+            potential_headers = re.findall(r'([A-Za-z\s()]+)', line)
+            if potential_headers:
+                headers = [header.strip() for header in potential_headers if header.strip()]
+
     return "\n".join(formatted_lines)
 
 def format_for_ai(processed_sentences):
@@ -129,12 +141,12 @@ if __name__ == "__main__":
     formatted_text = format_for_ai(processed_text)
     
     # Create md_files directory if it doesn't exist
-    os.makedirs("../md_files", exist_ok=True)
+    os.makedirs("../txt_files", exist_ok=True)
     
     # Save the preprocessed data to a Markdown file in md_files directory
-    output_file = "../md_files/ibm_preprocessed.md"
+    output_file = "../txt_files/IBM.txt"
     with open(output_file, "w", encoding="utf-8") as f:
-        f.write("# Preprocessed ESG Data for Apple\n\n")
+        f.write("# Preprocessed ESG Data\n\n")
         f.write(formatted_text)
     
     print(f"\nPreprocessed data saved to: {output_file}")
