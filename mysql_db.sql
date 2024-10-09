@@ -183,7 +183,7 @@ CREATE TABLE IF NOT EXISTS governance (
     FOREIGN KEY (CompanyID) REFERENCES company_info(CompanyID)
 );
 
-INSERT INTO governance (CompanyID, ReportYear, BoardComposition, EthicalBehaviour, RiskManagement, FemaleDirectorsPercentage, IndependentDirectorsPercentage, ManagementDiversityPercentage, CertificationCount, Certifications)
+INSERT INTO governance (CompanyID, ReportYear, BoardComposition, EthicalBehaviour, RiskManagement, BoardIndependence, WomenOnBoard, ManagementDiversity, CertificationList, Certifications)
 VALUES
 (7, 2023, NULL, NULL, 1, NULL, NULL, NULL, 0, NULL),
 (7, 2022, NULL, NULL, 1, NULL, NULL, NULL, 0, NULL),
@@ -219,16 +219,17 @@ VALUES
 (8, 2022, 1, 0, 0, NULL, NULL, NULL, 0, NULL),
 (8, 2021, 1, 0, 0, NULL, NULL, NULL, 3, 'ISO 14064-1:2018');
 
--- create the user_id table
 CREATE TABLE IF NOT EXISTS users (
-    id TEXT PRIMARY KEY, 
-    uid TEXT,
-    creation_date TEXT,
-    last_sign_in_date TEXT
+    uid VARCHAR(128) PRIMARY KEY,
+    email VARCHAR(255) UNIQUE NOT NULL,
+    user_name VARCHAR(255) NOT NULL,
+    user_role VARCHAR(50) NOT NULL,
+    creation_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    last_sign_in_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 
--- insert data into the userid table
-INSERT INTO users (id, uid, creation_date, last_sign_in_date)
-VALUES
-('user1@example.com', 'UID123', '2023-01-15T10:30:00Z', '2024-02-10T15:20:00Z'),
-
+-- Insert the three users
+INSERT INTO users (uid, email, user_name, user_role) VALUES
+('jbG4LvsLlahschSvyHqWCiaH7OB3', 'e1351499@hotmail.com', 'MING YUE', 'admin'),
+('9dura5GhsjYZTrOjTrKKNtDoQk73', 'zs@pioneer.com', 'ZHAOSHENG', 'admin'),
+('iI2Oa6xbt9aoWswUFkLUmfz8uB13', 'admin@pioneer.com', 'ZHAOSHENG', 'admin');
