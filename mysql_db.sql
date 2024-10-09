@@ -218,3 +218,17 @@ VALUES
 (8, 2023, 1, 0, 0, NULL, 25.0, NULL, 0, NULL),
 (8, 2022, 1, 0, 0, NULL, NULL, NULL, 0, NULL),
 (8, 2021, 1, 0, 0, NULL, NULL, NULL, 3, 'ISO 14064-1:2018');
+
+-- create the user_id table
+CREATE TABLE IF NOT EXISTS users (
+    id TEXT PRIMARY KEY, 
+    uid TEXT,
+    creation_date TEXT,
+    last_sign_in_date TEXT
+);
+
+-- insert data into the userid table
+INSERT INTO users (id, uid, creation_date, last_sign_in_date)
+VALUES
+('user1@example.com', 'UID123', '2023-01-15T10:30:00Z', '2024-02-10T15:20:00Z'),
+
