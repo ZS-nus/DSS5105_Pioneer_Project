@@ -146,7 +146,7 @@ async function keepTryingToConnect() {
 // Update the initialization to include the storage bucket
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  storageBucket: process.env.STORAGE_BUCKET // Ensure this environment variable is set
+  storageBucket: process.env.STORAGE_BUCKET
 });
 
 const app = express();
