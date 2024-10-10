@@ -4,9 +4,9 @@ import torch
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split, KFold
-from transformers import BertTokenizer, BertForTokenClassification
-from transformers import Trainer, TrainingArguments
-from torch.utils.data import Dataset
+from transformers import RobertaTokenizer, RobertaForTokenClassification
+from transformers import Trainer, TrainingArguments, get_linear_schedule_with_warmup
+from torch.utils.data import Dataset, WeightedRandomSampler
 from seqeval.metrics import accuracy_score, precision_score, recall_score, f1_score
 from seqeval.scheme import IOB2
 
@@ -14,7 +14,7 @@ from seqeval.scheme import IOB2
 torch.manual_seed(42)
 
 # Load the tokenizer
-tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
+tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
 
 # Define paths
 input_data_path = '../txt_files'
@@ -136,15 +136,15 @@ train_dataset = ESGDataset(train_inputs, train_masks, train_labels)
 val_dataset = ESGDataset(val_inputs, val_masks, val_labels)
 
 # Prepare the model
-model = BertForTokenClassification.from_pretrained('bert-base-uncased', num_labels=len(unique_labels))
+model = RobertaForTokenClassification.from_pretrained('roberta-base', num_labels=len(unique_labels))
 
 # Set up training arguments
 training_args = TrainingArguments(
     output_dir='./results',
-    num_train_epochs=3,
-    per_device_train_batch_size=16,
+    num_train_epochs=10,  # Increased from 3
+    per_device_train_batch_size=32,  # Increased from 16
     per_device_eval_batch_size=64,
-    warmup_steps=500,
+    warmup_steps=1000,  # Increased from 500
     weight_decay=0.01,
     logging_dir='./logs',
     logging_steps=10,
@@ -152,6 +152,7 @@ training_args = TrainingArguments(
     eval_steps=100,
     save_steps=1000,
     save_total_limit=2,
+    learning_rate=2e-5,  # Explicitly set learning rate
 )
 
 # Modify the compute_metrics function
@@ -176,7 +177,7 @@ def compute_metrics(p):
     }
 
 # Set up K-fold cross-validation
-k_folds = 2
+k_folds = 5  # Increased from 2
 kf = KFold(n_splits=k_folds, shuffle=True, random_state=42)
 
 # Lists to store metrics for each fold
@@ -199,15 +200,15 @@ for fold, (train_idx, val_idx) in enumerate(kf.split(input_ids)):
     val_dataset = ESGDataset(val_inputs, val_masks, val_labels)
     
     # Prepare the model
-    model = BertForTokenClassification.from_pretrained('bert-base-uncased', num_labels=len(unique_labels))
+    model = RobertaForTokenClassification.from_pretrained('roberta-base', num_labels=len(unique_labels))
     
     # Set up training arguments
     training_args = TrainingArguments(
         output_dir=f'./results/fold_{fold + 1}',
-        num_train_epochs=3,
-        per_device_train_batch_size=16,
+        num_train_epochs=10,  # Increased from 3
+        per_device_train_batch_size=32,  # Increased from 16
         per_device_eval_batch_size=64,
-        warmup_steps=500,
+        warmup_steps=1000,  # Increased from 500
         weight_decay=0.01,
         logging_dir=f'./logs/fold_{fold + 1}',
         logging_steps=10,
@@ -215,17 +216,36 @@ for fold, (train_idx, val_idx) in enumerate(kf.split(input_ids)):
         eval_steps=100,
         save_steps=1000,
         save_total_limit=2,
+        learning_rate=2e-5,  # Explicitly set learning rate
     )
     
+    # Create weighted sampler to handle class imbalance
+    label_counts = torch.bincount(train_labels.flatten())
+    class_weights = 1. / label_counts.float()
+    sample_weights = class_weights[train_labels.flatten()]
+    sampler = WeightedRandomSampler(sample_weights, len(sample_weights))
+
     # Create Trainer instance
     trainer = Trainer(
         model=model,
         args=training_args,
         train_dataset=train_dataset,
         eval_dataset=val_dataset,
-        compute_metrics=compute_metrics
+        compute_metrics=compute_metrics,
+        data_collator=lambda data: {'input_ids': torch.stack([f['input_ids'] for f in data]),
+                                    'attention_mask': torch.stack([f['attention_mask'] for f in data]),
+                                    'labels': torch.stack([f['labels'] for f in data])},
+        sampler=sampler
     )
     
+    # Add learning rate scheduler
+    optimizer = torch.optim.AdamW(model.parameters(), lr=2e-5)
+    scheduler = get_linear_schedule_with_warmup(
+        optimizer,
+        num_warmup_steps=1000,
+        num_training_steps=len(train_dataset) * training_args.num_train_epochs
+    )
+
     # Train the model
     trainer.train()
     
@@ -249,19 +269,20 @@ print(f"F1-score: {np.mean(f1_scores):.4f} (+/- {np.std(f1_scores):.4f})")
 print("\nTraining final model on all data...")
 full_dataset = ESGDataset(input_ids, attention_masks, labels)
 
-final_model = BertForTokenClassification.from_pretrained('bert-base-uncased', num_labels=len(unique_labels))
+final_model = RobertaForTokenClassification.from_pretrained('roberta-base', num_labels=len(unique_labels))
 
 final_training_args = TrainingArguments(
     output_dir='./final_model',
-    num_train_epochs=3,
-    per_device_train_batch_size=16,
+    num_train_epochs=5,  # Increased from 3
+    per_device_train_batch_size=32,  # Increased from 16
     per_device_eval_batch_size=64,
-    warmup_steps=500,
+    warmup_steps=1000,  # Increased from 500
     weight_decay=0.01,
     logging_dir='./final_logs',
     logging_steps=10,
     save_steps=1000,
     save_total_limit=2,
+    learning_rate=2e-5,  # Explicitly set learning rate
 )
 
 final_trainer = Trainer(

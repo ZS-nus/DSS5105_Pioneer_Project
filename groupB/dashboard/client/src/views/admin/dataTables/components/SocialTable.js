@@ -110,8 +110,8 @@ export default function ComplexTable(props) {
         </Flex>
       ),
     }),
-    columnHelper.accessor('Male', {
-      id: 'male_employees',
+    columnHelper.accessor('DataSecurity', {
+      id: 'DataSecurity',
       header: () => (
         <Text
           justifyContent="space-between"
@@ -119,7 +119,7 @@ export default function ComplexTable(props) {
           fontSize={{ sm: '10px', lg: '12px' }}
           color="gray.400"
         >
-          Gender Diversity
+          Data Security
         </Text>
       ),
       cell: (info) => (
@@ -130,8 +130,8 @@ export default function ComplexTable(props) {
         </Flex>
       ),
     }),
-    columnHelper.accessor('WaterUsage', {
-      id: 'water_consumption',
+    columnHelper.accessor('CustomerPrivacy', {
+      id: 'CustomerPrivacy',
       header: () => (
         <Text
           justifyContent="space-between"
@@ -139,7 +139,7 @@ export default function ComplexTable(props) {
           fontSize={{ sm: '10px', lg: '12px' }}
           color="gray.400"
         >
-          Age Diversity
+          Customer Privacy
         </Text>
       ),
       cell: (info) => (

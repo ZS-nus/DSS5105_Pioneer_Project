@@ -254,13 +254,16 @@ app.get('/api/table/social', async (req, res) => {
         s.CompanyID,
         s.ReportYear,
         s.EmployeeCount,
+        s.DataSecurity,
+        s.CustomerPrivacy,
+        s.Cybersecurity,
         ROUND(s.MalePercentage, 2) AS MalePercentage,
         ROUND(s.FemalePercentage, 2) AS FemalePercentage,
         ROUND(s.AgeUnder30, 2) AS AgeUnder30,
         ROUND(s.Age30to50, 2) AS Age30to50,
         ROUND(s.AgeAbove50, 2) AS AgeAbove50,
         ROUND(s.TrainingHours, 1) AS TrainingHours,
-        ROUND(s.CommunityInvestmentUSD) AS CommunityInvestmentUSD
+        s.WorkRelatedInjuries
       FROM social s
       INNER JOIN company_info c ON s.CompanyID = c.CompanyID
       INNER JOIN (
