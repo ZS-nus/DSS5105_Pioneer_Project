@@ -1,0 +1,18 @@
+                      Water                     Corporate facilities            Unit                  2023                  2022                  2021                  2020                  2019
+                       None                                    Total million gallons                 1,610                 1,527                 1,407                 1,287                 1,291
+                       None                             Freshwater 1 million gallons                 1,411                 1,380                 1,259                 1,168                 1,178
+                       None                         Recycled water 2 million gallons                   151                   142                   141                   113                   106
+                       None              Other alternative sources 3 million gallons                    48                     5                     7                     5                     7
+                       None            Supply chain Freshwater saved million gallons                12,700                13,000                12,300                10,800                 9,300
+                      Waste                     Corporate facilities            None                  None                  None                  None                  None                  None
+                       None Landfill diversion rate Landfilled solid               %                    74                    71                    68                    70                    66
+                       None               (municipal waste) Recycled   pounds pounds 38,343,490 81,781,660 33,260,990 78,618,250 33,202,200 73,489,220 25,826,550 63,812,300 38,317,120 72,338,130
+                       None                                Composted          pounds            14,803,510             8,726,170             4,844,960             6,302,410            10,882,120
+                       None                          Hazardous waste          pounds             7,321,130             2,780,610             3,525,840             4,053,770             6,096,600
+                       None                          Waste to energy          pounds             5,713,790             1,197,570               657,890               786,250             1,129,080
+                       None                             Supply chain            None                  None                  None                  None                  None                  None
+                       None             Waste diverted from landfill     metric tons               497,000               523,000               419,000               400,000               322,000
+Product packaging footprint              Packaging Total packaging 4     metric tons               254,270               276,100               257,000               226,000               189,000
+                       None                           Recycled fiber      % of total                    62                    66                    63                    60                    59
+                       None       Responsibly sourced virgin fiber 5      % of total                    35                    30                    33                    35                    33
+                       None                                  Plastic      % of total                     3                     4                     4                     6                     8
