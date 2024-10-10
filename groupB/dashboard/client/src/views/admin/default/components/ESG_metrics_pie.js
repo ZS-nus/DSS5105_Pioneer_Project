@@ -104,23 +104,6 @@ export default function Conversion(props) {
         </Text>
       </Flex>
     </Flex>
-    <Flex flexDirection='row'>
-      <Flex direction='column' py='5px'>
-        <Flex align='center'>
-          <Box h='8px' w='8px' bg='#fc4a1a' borderRadius='50%' me='4px' />
-          <Text
-            fontSize='xs'
-            color='secondaryGray.600'
-            fontWeight='700'
-            mb='5px'>
-            Penalty
-          </Text>
-        </Flex>
-        <Text fontSize='lg' color={textColor} fontWeight='700'>
-          20%
-        </Text>
-      </Flex>
-    </Flex>
   </Flex>
 </Card>
 

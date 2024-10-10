@@ -5,7 +5,7 @@ from firebase_admin import credentials, storage
 def initialize_firebase():
     cred = credentials.Certificate('./pioneer_key.json')
     firebase_admin.initialize_app(cred, {
-        'storageBucket': 'pioneer-43aee.appspot.com/reports'  # Correct bucket name without 'gs://'
+        'storageBucket': 'pioneer-43aee.appspot.com'  # Correct bucket name without 'gs://'
     })
 
 def download_progress(bytes_downloaded, total_bytes):
@@ -60,6 +60,9 @@ def list_all_files():
         bucket = storage.bucket()
         blobs = bucket.list_blobs()
         file_names = [blob.name for blob in blobs]
+        print("Files in bucket:")
+        for file_name in file_names:
+            print(file_name)
         return file_names
     except Exception as e:
         print(f"Error listing files: {e}")

@@ -30,7 +30,7 @@ const routes = [
     component: <MainDashboard />,
   },
   {
-    name: 'Upload Report',
+    name: 'ESG Report Upload',
     layout: '/admin',
     path: '/upload',
     icon: (

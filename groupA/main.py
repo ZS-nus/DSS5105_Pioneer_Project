@@ -1,5 +1,4 @@
 from fetch_storage import initialize_firebase, fetch_file_from_storage, list_all_files
-from OCR_test import extract_text_from_pdf, save_as_markdown
 
 if __name__ == "__main__":
     # Initialize Firebase

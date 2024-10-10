@@ -90,8 +90,8 @@ export default function ComplexTable(props) {
         </Flex>
       ),
     }),
-    columnHelper.accessor('GHGEmissions', {
-      id: 'ghg_emissions',
+    columnHelper.accessor('BoardComposition', {
+      id: 'BoardComposition',
       header: () => (
         <Text
           justifyContent="space-between"
@@ -110,8 +110,8 @@ export default function ComplexTable(props) {
         </Flex>
       ),
     }),
-    columnHelper.accessor('EnergyConsumption', {
-      id: 'energy_consumption',
+    columnHelper.accessor('CertificationList', {
+      id: 'CertificationList',
       header: () => (
         <Text
           justifyContent="space-between"
@@ -120,26 +120,6 @@ export default function ComplexTable(props) {
           color="gray.400"
         >
           Certifications
-        </Text>
-      ),
-      cell: (info) => (
-        <Flex align="center">
-          <Text color={textColor} fontSize="sm" fontWeight="700">
-            {info.getValue()}
-          </Text>
-        </Flex>
-      ),
-    }),
-    columnHelper.accessor('WaterUsage', {
-      id: 'water_consumption',
-      header: () => (
-        <Text
-          justifyContent="space-between"
-          align="center"
-          fontSize={{ sm: '10px', lg: '12px' }}
-          color="gray.400"
-        >
-          Ethical Behaviour
         </Text>
       ),
       cell: (info) => (

@@ -7,6 +7,9 @@ const mysql = require('mysql2/promise');
 const serviceAccount = require('../pioneer_key.json');
 const { Storage } = require('@google-cloud/storage');
 const { S3Client, ListObjectsV2Command } = require('@aws-sdk/client-s3');
+const multer = require('multer');
+const upload = multer({ storage: multer.memoryStorage() });
+const axios = require('axios');
 
 // Create an S3 client without specifying credentials
 const s3Client = new S3Client({
@@ -143,7 +146,7 @@ async function keepTryingToConnect() {
 // Update the initialization to include the storage bucket
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  storageBucket: process.env.STORAGE_BUCKET // Ensure this environment variable is set
+  storageBucket: process.env.STORAGE_BUCKET
 });
 
 const app = express();
@@ -200,6 +203,7 @@ app.get('/api/table/company', async (req, res) => {
     res.status(500).json({ error: 'Internal server error' });
   }
 });
+
 
 // Modify the /api/table/environment endpoint
 app.get('/api/table/environment', async (req, res) => {
@@ -307,6 +311,48 @@ app.get('/api/score/environment', async (req, res) => {
   }
 });
 
+// Add this new endpoint for governance data
+app.get('/api/table/governance', async (req, res) => {
+  try {
+    console.log('Fetching governance data...');
+    const query = `
+      SELECT 
+        c.CompanyName,
+        g.CompanyID,
+        g.ReportYear,
+        g.BoardComposition,
+        g.EthicalBehaviour,
+        g.RiskManagement,
+        ROUND(g.BoardIndependence, 2) AS BoardIndependence,
+        ROUND(g.WomenOnBoard, 2) AS WomenOnBoard,
+        g.ManagementDiversity,
+        g.CertificationList,
+        g.Certifications
+      FROM governance g
+      INNER JOIN company_info c ON g.CompanyID = c.CompanyID
+      INNER JOIN (
+        SELECT CompanyID, MAX(ReportYear) as LatestYear
+        FROM governance
+        GROUP BY CompanyID
+      ) latest ON g.CompanyID = latest.CompanyID AND g.ReportYear = latest.LatestYear
+      ORDER BY c.CompanyName
+    `;
+
+    const rows = await executeQuery(query);
+    
+    if (rows.length > 0) {
+      console.log('First governance data row:', rows[0]);
+      res.json(rows);
+    } else {
+      console.log('No governance data found.');
+      res.status(404).json({ error: 'No data found' });
+    }
+  } catch (error) {
+    console.error('Error fetching governance data:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
 // Add this new endpoint to list files in S3 and fallback to Firebase Storage
 app.get('/api/s3/storage/files', async (req, res) => {
   const params = {
@@ -328,7 +374,7 @@ app.get('/api/s3/storage/files', async (req, res) => {
       throw new Error('No files found in S3');
     }
   } catch (error) {
-    console.error('Error fetching files from S3:', error);
+    // console.error('Error fetching files from S3:', error);
     
     // Fallback to Firebase Storage
     try {
@@ -343,7 +389,7 @@ app.get('/api/s3/storage/files', async (req, res) => {
       });
 
       // Log the firebaseFileList to the console
-      console.log('Files fetched from Firebase Storage:', firebaseFileList);
+      // console.log('Files fetched from Firebase Storage:', firebaseFileList);
 
       // Return files from Firebase Storage
       return res.json(firebaseFileList);
@@ -351,6 +397,87 @@ app.get('/api/s3/storage/files', async (req, res) => {
       console.error('Error fetching files from Firebase Storage:', firebaseError);
       return res.status(500).json({ error: 'Internal server error' });
     }
+  }
+});
+
+// Placeholder function for calling the Python API
+async function callPythonExtractionAPI(fileName) {
+  // This URL should be updated when the actual API is available
+  const pythonAPIUrl = process.env.PYTHON_Extraction_API_URL;
+  
+  try {
+    const response = await axios.post(pythonAPIUrl, { fileName });
+    console.log('Python API response:', response.data);
+    return response.data;
+  } catch (error) {
+    console.error('Error calling Python API:', error);
+    throw error;
+  }
+}
+
+
+// This api is for uploading the report to Firebase
+app.post('/api/firebase/upload', upload.single('file'), async (req, res) => {
+  if (!req.file) {
+    return res.status(400).send('No file uploaded.');
+  }
+
+  const file = req.file;
+  const now = new Date();
+  const dateString = now.getFullYear() +
+                     ('0' + (now.getMonth() + 1)).slice(-2) +
+                     ('0' + now.getDate()).slice(-2) +
+                     '_' +
+                     ('0' + now.getHours()).slice(-2) +
+                     ('0' + now.getMinutes()).slice(-2) +
+                     ('0' + now.getSeconds()).slice(-2);
+  
+  const fileName = `reports/${dateString}_${file.originalname}`;
+  console.log("File selected for upload", fileName);
+
+  try {
+    const bucket = admin.storage().bucket();
+    const fileUpload = bucket.file(fileName);
+
+    const blobStream = fileUpload.createWriteStream({
+      metadata: {
+        contentType: file.mimetype
+      }
+    });
+
+    blobStream.on('error', (error) => {
+      console.error('Error uploading file:', error);
+      res.status(500).send('Error uploading file.');
+    });
+
+    blobStream.on('finish', async () => {
+      // Make the file publicly accessible
+      await fileUpload.makePublic();
+
+      const publicUrl = `https://storage.googleapis.com/${bucket.name}/${fileUpload.name}`;
+      
+      // Call the Python API
+      try {
+        const pythonAPIResponse = await callPythonExtractionAPI(fileName);
+        res.status(200).send({ 
+          message: 'File uploaded successfully and processed', 
+          url: publicUrl,
+          pythonAPIResponse 
+        });
+      } catch (pythonAPIError) {
+        console.error('Error from Python API:', pythonAPIError);
+        res.status(200).send({ 
+          message: 'File uploaded successfully, but processing failed', 
+          url: publicUrl,
+          error: 'PDF processing failed'
+        });
+      }
+    });
+
+    blobStream.end(file.buffer);
+  } catch (error) {
+    console.error('Error in file upload:', error);
+    res.status(500).send('Server error during file upload.');
   }
 });
 

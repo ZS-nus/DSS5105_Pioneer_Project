@@ -549,8 +549,8 @@ export const pieChartOptions = {
 };
 
 export const ESG_metrics_pieChartOptions = {
-  labels: ["Environmental", "Social", "Governance","Penalty"],
-  colors: ["#38ef7d", "#6AD2FF", "#f7b733", "#fc4a1a"],
+  labels: ["Environmental", "Social", "Governance"],
+  colors: ["#38ef7d", "#6AD2FF", "#f7b733"],
   chart: {
     width: "60px",
   },
@@ -582,7 +582,7 @@ export const ESG_metrics_pieChartOptions = {
     },
   },
   fill: {
-    colors: ["#38ef7d", "#6AD2FF", "#f7b733", "#fc4a1a"],
+    colors: ["#38ef7d", "#6AD2FF", "#f7b733"  ],
   },
   tooltip: {
     enabled: true,
@@ -591,7 +591,7 @@ export const ESG_metrics_pieChartOptions = {
 };
 
 export const pieChartData = [63, 25, 12];
-export const ESG_metrics_pieChartData = [30, 30, 20, 20];
+export const ESG_metrics_pieChartData = [40,30,30];
 
 // Total Spent Default
 
