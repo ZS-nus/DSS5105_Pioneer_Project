@@ -205,7 +205,7 @@ for fold, (train_idx, val_idx) in enumerate(kf.split(input_ids)):
     # Set up training arguments
     training_args = TrainingArguments(
         output_dir=f'./results/fold_{fold + 1}',
-        num_train_epochs=10,  # Increased from 3
+        num_train_epochs=20,  # Increased from 3
         per_device_train_batch_size=32,  # Increased from 16
         per_device_eval_batch_size=64,
         warmup_steps=1000,  # Increased from 500
@@ -226,18 +226,19 @@ for fold, (train_idx, val_idx) in enumerate(kf.split(input_ids)):
     sampler = WeightedRandomSampler(sample_weights, len(sample_weights))
 
     # Create Trainer instance
+    data_collator = lambda data: {'input_ids': torch.stack([f['input_ids'] for f in data]),
+                                    'attention_mask': torch.stack([f['attention_mask'] for f in data]),
+                                    'labels': torch.stack([f['labels'] for f in data])}
     trainer = Trainer(
         model=model,
         args=training_args,
         train_dataset=train_dataset,
         eval_dataset=val_dataset,
-        compute_metrics=compute_metrics,
-        data_collator=lambda data: {'input_ids': torch.stack([f['input_ids'] for f in data]),
-                                    'attention_mask': torch.stack([f['attention_mask'] for f in data]),
-                                    'labels': torch.stack([f['labels'] for f in data])},
-        sampler=sampler
+        data_collator=data_collator,
+        tokenizer=tokenizer,
+        compute_metrics=compute_metrics
     )
-    
+
     # Add learning rate scheduler
     optimizer = torch.optim.AdamW(model.parameters(), lr=2e-5)
     scheduler = get_linear_schedule_with_warmup(

@@ -8,3 +8,6 @@ groupB/dashboard/node_modules/
 *.DS_Store
 groupA/esg_bert_model
 groupA/final_model
+groupA/results
+groupA/logs
+groupA/final_logs
