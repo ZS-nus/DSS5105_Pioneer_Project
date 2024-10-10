@@ -108,6 +108,8 @@ def main():
     esg_score['Final ESG score'] = esg_score['Final ESG score'].clip(0, 10)
 
     print(esg_score)
+    print(esg_score.info())
+    print(esg_score['Final ESG score'])
     
     # Update the database with the new ESG scores
     update_table(db_pool, esg_score, 'esg_scores')
