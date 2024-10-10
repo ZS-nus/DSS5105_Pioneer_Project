@@ -85,29 +85,31 @@ def main():
     esg_score = pd.DataFrame({
         'CompanyID': env_data['CompanyID'],
         'ReportYear': env_data['ReportYear'],
-        'Environmental Score': environmental_score,
-        'Social Score': social_score,
-        'Governance Score': governance_score
+        'Environmental_Score': environmental_score,
+        'Social_Score': social_score,
+        'Governance_Score': governance_score
     })
 
     # Fill NaN values with 0 or another appropriate value
     esg_score = esg_score.fillna(0)
 
     # Ensure all component scores are capped at 10
-    for col in ['Environmental Score', 'Social Score', 'Governance Score']:
+    for col in ['Environmental_Score', 'Social_Score', 'Governance_Score']:
         esg_score[col] = esg_score[col].clip(0, 10)
 
     # Calculate final ESG score (out of 10)
-    esg_score['Final ESG score'] = (
-        esg_score['Environmental Score'] * 0.35 +
-        esg_score['Social Score'] * 0.45 +
-        esg_score['Governance Score'] * 0.20
+    esg_score['Final_ESG_score'] = (
+        esg_score['Environmental_Score'] * 0.35 +
+        esg_score['Social_Score'] * 0.45 +
+        esg_score['Governance_Score'] * 0.20
     )
 
     # Ensure final ESG score doesn't exceed 10
-    esg_score['Final ESG score'] = esg_score['Final ESG score'].clip(0, 10)
+    esg_score['Final_ESG_score'] = esg_score['Final_ESG_score'].clip(0, 10)
 
     print(esg_score)
+    print(esg_score.info())
+    print(esg_score['Final_ESG_score'])
     
     # Update the database with the new ESG scores
     update_table(db_pool, esg_score, 'esg_scores')
