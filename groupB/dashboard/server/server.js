@@ -204,6 +204,7 @@ app.get('/api/table/company', async (req, res) => {
   }
 });
 
+
 // Modify the /api/table/environment endpoint
 app.get('/api/table/environment', async (req, res) => {
   try {
@@ -306,6 +307,48 @@ app.get('/api/score/environment', async (req, res) => {
     res.json(rows);
   } catch (error) {
     console.error('Error fetching e_score:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
+// Add this new endpoint for governance data
+app.get('/api/table/governance', async (req, res) => {
+  try {
+    console.log('Fetching governance data...');
+    const query = `
+      SELECT 
+        c.CompanyName,
+        g.CompanyID,
+        g.ReportYear,
+        g.BoardComposition,
+        g.EthicalBehaviour,
+        g.RiskManagement,
+        ROUND(g.BoardIndependence, 2) AS BoardIndependence,
+        ROUND(g.WomenOnBoard, 2) AS WomenOnBoard,
+        g.ManagementDiversity,
+        g.CertificationList,
+        g.Certifications
+      FROM governance g
+      INNER JOIN company_info c ON g.CompanyID = c.CompanyID
+      INNER JOIN (
+        SELECT CompanyID, MAX(ReportYear) as LatestYear
+        FROM governance
+        GROUP BY CompanyID
+      ) latest ON g.CompanyID = latest.CompanyID AND g.ReportYear = latest.LatestYear
+      ORDER BY c.CompanyName
+    `;
+
+    const rows = await executeQuery(query);
+    
+    if (rows.length > 0) {
+      console.log('First governance data row:', rows[0]);
+      res.json(rows);
+    } else {
+      console.log('No governance data found.');
+      res.status(404).json({ error: 'No data found' });
+    }
+  } catch (error) {
+    console.error('Error fetching governance data:', error);
     res.status(500).json({ error: 'Internal server error' });
   }
 });
