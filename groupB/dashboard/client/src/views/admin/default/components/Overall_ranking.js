@@ -1,9 +1,6 @@
-/* eslint-disable */
-
+import React, { useState, useEffect } from 'react';
 import {
-  Avatar,
   Box,
-  Button,
   Flex,
   Progress,
   Table,
@@ -22,20 +19,39 @@ import {
   getSortedRowModel,
   useReactTable,
 } from '@tanstack/react-table';
-import * as React from 'react';
+import { fetchESGScoreData } from '../../../../api';
 
 const columnHelper = createColumnHelper();
 
 export default function TopCreatorTable(props) {
-  const { tableData } = props;
-  const [sorting, setSorting] = React.useState([]);
+  const [esgData, setESGData] = useState([]);
+  const [sorting, setSorting] = useState([]);
   const textColor = useColorModeValue('secondaryGray.900', 'white');
   const textColorSecondary = useColorModeValue('secondaryGray.600', 'white');
   const borderColor = useColorModeValue('gray.200', 'whiteAlpha.100');
-  let defaultData = tableData;
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetchESGScoreData();
+        // Process the data to get the latest report for each company
+        const latestReports = response.data.reduce((acc, curr) => {
+          if (!acc[curr.CompanyID] || curr.ReportYear > acc[curr.CompanyID].ReportYear) {
+            acc[curr.CompanyID] = curr;
+          }
+          return acc;
+        }, {});
+        setESGData(Object.values(latestReports));
+      } catch (error) {
+        console.error('Error fetching ESG data:', error);
+      }
+    };
+    fetchData();
+  }, []);
+
   const columns = [
-    columnHelper.accessor('name', {
-      id: 'name',
+    columnHelper.accessor('CompanyName', {
+      id: 'CompanyName',
       header: () => (
         <Text
           justifyContent="space-between"
@@ -48,15 +64,14 @@ export default function TopCreatorTable(props) {
       ),
       cell: (info) => (
         <Flex align="center">
-          <Avatar src={info.getValue()[1]} w="30px" h="30px" me="8px" />
           <Text color={textColor} fontSize="sm" fontWeight="600">
-            {info.getValue()[0]}
+            {info.getValue()}
           </Text>
         </Flex>
       ),
     }),
-    columnHelper.accessor('artworks', {
-      id: 'artworks',
+    columnHelper.accessor('ReportYear', {
+      id: 'ReportYear',
       header: () => (
         <Text
           justifyContent="space-between"
@@ -73,8 +88,8 @@ export default function TopCreatorTable(props) {
         </Text>
       ),
     }),
-    columnHelper.accessor('rating', {
-      id: 'rating',
+    columnHelper.accessor('Final_ESG_score', {
+      id: 'Final ESG score',
       header: () => (
         <Text
           justifyContent="space-between"
@@ -82,25 +97,57 @@ export default function TopCreatorTable(props) {
           fontSize={{ sm: '10px', lg: '12px' }}
           color="gray.400"
         >
-          RATING
+          ESG score
         </Text>
       ),
-      cell: (info) => (
-        <Flex align="center">
-          <Progress
-            variant="table"
-            colorScheme="brandScheme"
-            h="8px"
-            w="108px"
-            value={info.getValue()}
-          />
-        </Flex>
+      cell: (info) => {
+        const score = info.getValue();
+        return (
+          <Flex align="center">
+            <Text color={textColor} fontSize="sm" fontWeight="600">
+              {score !== undefined ? score.toFixed(2) : 'N/A'}
+            </Text>
+          </Flex>
+        );
+      },
+    }),
+    columnHelper.accessor('Final_ESG_score', {
+      id: 'FinalESGScore',
+      header: () => (
+        <Text
+          justifyContent="space-between"
+          align="center"
+          fontSize={{ sm: '10px', lg: '12px' }}
+          color="gray.400"
+        >
+          ESG Score
+        </Text>
       ),
+      cell: (info) => {
+        const score = info.getValue();
+        // Scale the score to 0-100 range for the Progress component
+        const scaledScore = score !== undefined ? (score / 10) * 100 : 0;
+        return (
+          <Flex align="center">
+            <Progress
+              variant="table"
+              colorScheme="brandScheme"
+              h="8px"
+              w="108px"
+              value={scaledScore}
+              max={100}  // Explicitly set the maximum value
+            />
+            <Text ml={2} color={textColorSecondary} fontSize="sm" fontWeight="500">
+              {score !== undefined ? score.toFixed(2) : 'N/A'}
+            </Text>
+          </Flex>
+        );
+      },
     }),
   ];
-  const [data, setData] = React.useState(() => [...defaultData]);
+
   const table = useReactTable({
-    data,
+    data: esgData,
     columns,
     state: {
       sorting,
@@ -110,6 +157,7 @@ export default function TopCreatorTable(props) {
     getSortedRowModel: getSortedRowModel(),
     debugTable: true,
   });
+
   return (
     <Flex
       direction="column"
@@ -168,8 +216,7 @@ export default function TopCreatorTable(props) {
           <Tbody>
             {table
               .getRowModel()
-              .rows.slice(0, 11)
-              .map((row) => {
+              .rows.map((row) => {
                 return (
                   <Tr key={row.id}>
                     {row.getVisibleCells().map((cell) => {

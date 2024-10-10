@@ -70,7 +70,7 @@ export default function Conversion(props) {
           </Text>
         </Flex>
         <Text fontSize='lg' color={textColor} fontWeight='700'>
-          30%
+          40%
         </Text>
       </Flex>
       <Flex direction='column' py='5px' me='10px'>
@@ -100,7 +100,7 @@ export default function Conversion(props) {
           </Text>
         </Flex>
         <Text fontSize='lg' color={textColor} fontWeight='700'>
-          20%
+          30%
         </Text>
       </Flex>
     </Flex>

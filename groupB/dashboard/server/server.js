@@ -289,7 +289,6 @@ app.get('/api/table/social', async (req, res) => {
   }
 });
 
-// Modify the /api/score/environment endpoint
 app.get('/api/score/environment', async (req, res) => {
   try {
     console.log('Fetching environmental score ...');
@@ -490,4 +489,42 @@ process.on('SIGINT', async () => {
     await pool.end();
   }
   process.exit(0);
+});
+
+// Corrected endpoint for ESG scores
+app.get('/api/score/esg', async (req, res) => {
+  try {
+    console.log('Fetching ESG scores...');
+    const query = `
+      SELECT 
+        c.CompanyName,
+        e.CompanyID,
+        e.ReportYear,
+        e.Environmental_Score,
+        e.Social_Score,
+        e.Governance_Score,
+        e.Final_ESG_score
+      FROM esg_scores e
+      INNER JOIN company_info c ON e.CompanyID = c.CompanyID
+      INNER JOIN (
+        SELECT CompanyID, MAX(ReportYear) as LatestYear
+        FROM esg_scores
+        GROUP BY CompanyID
+      ) latest ON e.CompanyID = latest.CompanyID AND e.ReportYear = latest.LatestYear
+      ORDER BY c.CompanyName
+    `;
+
+    const rows = await executeQuery(query);
+    
+    if (rows.length > 0) {
+      console.log('First ESG score row:', rows[0]);
+      res.json(rows);
+    } else {
+      console.log('No ESG scores found.');
+      res.status(404).json({ error: 'No data found' });
+    }
+  } catch (error) {
+    console.error('Error fetching ESG scores:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
 });
