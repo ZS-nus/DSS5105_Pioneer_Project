@@ -1,11 +1,11 @@
 import torch
-from transformers import BertTokenizer, BertForTokenClassification
+from transformers import RobertaTokenizer, RobertaForTokenClassification
 from seqeval.metrics import classification_report
 import argparse
 
 def load_model_and_tokenizer(model_path):
-    tokenizer = BertTokenizer.from_pretrained(model_path)
-    model = BertForTokenClassification.from_pretrained(model_path)
+    tokenizer = RobertaTokenizer.from_pretrained(model_path)
+    model = RobertaForTokenClassification.from_pretrained(model_path)
     return model, tokenizer
 
 def process_text(text, model, tokenizer, max_length=512):
@@ -39,7 +39,7 @@ def align_predictions_with_tokens(predictions, attention_mask, tokens, id2label)
         if mask == 1:  # Only consider non-padding tokens
             aligned_predictions.append(id2label[predictions[0][i].item()])
     
-    # Remove predictions for special tokens ([CLS] and [SEP])
+    # Remove predictions for special tokens (typically <s> and </s> for RoBERTa)
     aligned_predictions = aligned_predictions[1:-1]
     tokens = tokens[1:-1]
     
@@ -93,7 +93,7 @@ def extract_esg_info(file_path, model_path):
 
 def main():
     file_path = "../txt_files/apple.txt"
-    model_path = "./esg_bert_model"  # Assuming the model is in the current directory
+    model_path = "./esg_bert_model"  # This is now a RoBERTa model
 
     esg_info = extract_esg_info(file_path, model_path)
     
