@@ -205,7 +205,7 @@ for fold, (train_idx, val_idx) in enumerate(kf.split(input_ids)):
     # Set up training arguments
     training_args = TrainingArguments(
         output_dir=f'./results/fold_{fold + 1}',
-        num_train_epochs=10,  # Increased from 3
+        num_train_epochs=20,  # Increased from 3
         per_device_train_batch_size=32,  # Increased from 16
         per_device_eval_batch_size=64,
         warmup_steps=1000,  # Increased from 500
