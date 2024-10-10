@@ -242,3 +242,19 @@ INSERT INTO users (uid, email, user_name, user_role) VALUES
 ('jbG4LvsLlahschSvyHqWCiaH7OB3', 'e1351499@hotmail.com', 'MING YUE', 'admin'),
 ('9dura5GhsjYZTrOjTrKKNtDoQk73', 'zs@pioneer.com', 'ZHAOSHENG', 'admin'),
 ('iI2Oa6xbt9aoWswUFkLUmfz8uB13', 'admin@pioneer.com', 'ZHAOSHENG', 'admin');
+
+-- Drop the existing esg_scores table if it exists
+DROP TABLE IF EXISTS esg_scores;
+
+-- Create the esg_scores table
+CREATE TABLE esg_scores (
+    CompanyID INT NOT NULL,
+    ReportYear INT NOT NULL,
+    Environmental_Score DECIMAL(5,2),
+    Social_Score DECIMAL(5,2),
+    Governance_Score DECIMAL(5,2),
+    Final_ESG_score DECIMAL(5,2),
+    update_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    PRIMARY KEY (CompanyID, ReportYear),
+    FOREIGN KEY (CompanyID) REFERENCES company_info(CompanyID)
+);
