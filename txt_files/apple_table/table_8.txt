@@ -1,0 +1,23 @@
+                                                                                                                                                      
+                                           iPhone 15 kg CO2e                      –              56               61                 74         – None
+                                      iPhone 15 Plus kg CO2e                      –              61               66                 79         – None
+                                       iPhone 15 Pro kg CO2e                      –              66               71                 83       107 None
+                                   iPhone 15 Pro Max kg CO2e                      –               –               75                 87       110 None
+                                           iPhone 14 kg CO2e                      –              61               67                 83         – None
+                                      iPhone 14 Plus kg CO2e                      –              68               75                 91         – None
+                                           iPhone 13 kg CO2e                      –              64               71                 83         – None
+                          iPhone SE (3rd generation) kg CO2e                     46              50               58                  –         – None
+                                                None    None Storage configurations            None             None               None      None None
+                                                iPad    Unit                   64GB           128GB            256GB              512GB       1TB 2 TB
+iPad Pro 12.9-inch (6th generation) Wi-Fi + Cellular kg CO2e                      –             135              142                156       183  284
+  iPad Pro 11-inch (4th generation) Wi-Fi + Cellular kg CO2e                      –             100              107                121       148  249
+          iPad Air (5th generation) Wi-Fi + Cellular kg CO2e                     80              84               92                  –         –    –
+             iPad (10th generation) Wi-Fi + Cellular kg CO2e                     72              82                –                  –         –    –
+              iPad (9th generation) Wi-Fi + Cellular kg CO2e                     75               –               84                  –         –    –
+         iPad mini (6th generation) Wi-Fi + Cellular kg CO2e                     68              71               77                 90         –    –
+                                                None    None         Select product  configurations             None               None      None None
+                                                None    None     Aluminum case with Stainless steel    case Titanium case with Titanium case with None
+                                        Apple Watch2    Unit             Sport Loop      with Sport Loop Alpine Loop         Trail Loop      None None
+                                 Apple Watch Ultra 2 kg CO2e                      –               –               12                 11      None None
+                                Apple Watch Series 9 kg CO2e                      8              29                –                  –      None None
+                                      Apple Watch SE kg CO2e                      7               –                –                  –      None None
