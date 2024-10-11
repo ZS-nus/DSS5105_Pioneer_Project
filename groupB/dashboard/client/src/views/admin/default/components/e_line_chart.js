@@ -53,7 +53,8 @@ export default function TotalSpent(props) {
     );
   }
 
-  const years = [...new Set(data.map(item => item.ReportYear))];
+  const years = [...new Set(data.map(item => item.ReportYear))].sort((a, b) => a - b);
+
   const updatedChartOptions = {
     ...E_score_line_option,
     xaxis: {

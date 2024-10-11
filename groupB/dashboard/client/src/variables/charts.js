@@ -20,6 +20,65 @@ export const createBarChartData = (data) => {
 };
 
 
+
+export const e_barChartData = (data) => {
+  // Group data by CompanyID and get the latest year for each company
+  const latestDataByCompany = data.reduce((acc, curr) => {
+    if (!acc[curr.CompanyID] || curr.ReportYear > acc[curr.CompanyID].ReportYear) {
+      acc[curr.CompanyID] = curr;
+    }
+    return acc;
+  }, {});
+
+  // Convert the grouped data to an array and sort by Environmental_Score
+  const sortedData = Object.values(latestDataByCompany)
+    .sort((a, b) => b.Environmental_Score - a.Environmental_Score);
+
+  return {
+    labels: sortedData.map(item => item.CompanyName),
+    data: sortedData.map(item => item.Environmental_Score)
+  };
+};
+
+export const s_barChartData = (data) => {
+  // Group data by CompanyID and get the latest year for each company
+  const latestDataByCompany = data.reduce((acc, curr) => {
+    if (!acc[curr.CompanyID] || curr.ReportYear > acc[curr.CompanyID].ReportYear) {
+      acc[curr.CompanyID] = curr;
+    }
+    return acc;
+  }, {});
+
+  // Convert the grouped data to an array and sort by Environmental_Score
+  const sortedData = Object.values(latestDataByCompany)
+    .sort((a, b) => b.Social_Score - a.Social_Score);
+
+  return {
+    labels: sortedData.map(item => item.CompanyName),
+    data: sortedData.map(item => item.Social_Score)
+  };
+};
+
+export const g_barChartData = (data) => {
+  // Group data by CompanyID and get the latest year for each company
+  const latestDataByCompany = data.reduce((acc, curr) => {
+    if (!acc[curr.CompanyID] || curr.ReportYear > acc[curr.CompanyID].ReportYear) {
+      acc[curr.CompanyID] = curr;
+    }
+    return acc;
+  }, {});
+
+  // Convert the grouped data to an array and sort by Environmental_Score
+  const sortedData = Object.values(latestDataByCompany)
+    .sort((a, b) => b.Governance_Score - a.Governance_Score);
+  console.log(sortedData);
+  return {
+    labels: sortedData.map(item => item.CompanyName),
+    data: sortedData.map(item => item.Governance_Score)
+  };
+};
+
+
 export const barChartOptionsDailyTraffic = {
   chart: {
     toolbar: {
@@ -703,9 +762,55 @@ export const e_score_line = (data) => {
   return chartData;
 };
 
+export const s_score_line = (data) => {
+  // Group data by company
+  const groupedData = data.reduce((acc, current) => {
+    const { CompanyName, ReportYear, Social_Score } = current;
+    if (!acc[CompanyName]) {
+      acc[CompanyName] = {};
+    }
+    acc[CompanyName][ReportYear] = Social_Score; // Assign the score to the corresponding year
+    return acc;
+  }, {});
+
+  // Prepare the final data structure for the chart
+  const chartData = Object.keys(groupedData).map(company => {
+    const years = Object.keys(groupedData[company]).sort(); // Get sorted years
+    return {
+      name: company,
+      data: years.map(year => groupedData[company][year] || 0), // Fill in scores for each year
+    };
+  });
+
+  return chartData;
+};
+
+export const g_score_line = (data) => {
+  // Group data by company
+  const groupedData = data.reduce((acc, current) => {
+    const { CompanyName, ReportYear, Governance_Score } = current;
+    if (!acc[CompanyName]) {
+      acc[CompanyName] = {};
+    }
+    acc[CompanyName][ReportYear] = Governance_Score; // Assign the score to the corresponding year
+    return acc;
+  }, {});
+
+  // Prepare the final data structure for the chart
+  const chartData = Object.keys(groupedData).map(company => {
+    const years = Object.keys(groupedData[company]).sort(); // Get sorted years
+    return {
+      name: company,
+      data: years.map(year => groupedData[company][year] || 0), // Fill in scores for each year
+    };
+  });
+
+  return chartData;
+};
+
 export const esg_score_line = (data) => {
   // Group data by company
-  console.log(data);
+  // console.log(data);
   const groupedData = data.reduce((acc, current) => {
     const { CompanyName, ReportYear, Final_ESG_score } = current;
     if (!acc[CompanyName]) {
@@ -723,7 +828,7 @@ export const esg_score_line = (data) => {
       data: years.map(year => groupedData[company][year] || 0), // Fill in scores for each year
     };
   });
-  console.log(chartData);
+  // console.log(chartData);
   return chartData;
 };
 
@@ -867,6 +972,9 @@ export const S_score_line_option = {
   },
   yaxis: {
     show: true,
+    min: 0,
+    max: 10,
+    tickAmount: 5,
   },
   legend: {
     show: true,

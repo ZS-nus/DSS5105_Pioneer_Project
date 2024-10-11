@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo } from "react";
 
 // Chakra imports
 import { Box, Flex, Icon, Text, useColorModeValue } from "@chakra-ui/react";
@@ -9,18 +9,25 @@ import Card from "components/card/Card.js";
 import {
   barChartDataDailyTraffic,
   s_barChartOptionsDailyTraffic,
-  createBarChartData,
+  s_barChartData,
 } from "variables/charts";
 
 
 
-export default function EBarChart(props) {
+export default function SBarChart(props) {
   const { data, ...rest } = props; // Destructure data from props
 
-
-
-  // Chakra Color Mode
   const textColor = useColorModeValue("secondaryGray.900", "white");
+
+  // Move useMemo to the top level
+  const { chartData, labels, latestYear } = useMemo(() => {
+    if (!data || data.length === 0) {
+      return { chartData: [], labels: [], latestYear: null };
+    }
+    const { labels, data: chartData } = s_barChartData(data);
+    const latestYear = Math.max(...data.map(item => item.ReportYear));
+    return { chartData, labels, latestYear };
+  }, [data]);
 
   // Check if data is null or empty
   if (!data || data.length === 0) {
@@ -31,63 +38,41 @@ export default function EBarChart(props) {
     );
   }
 
-
-  // Set x-axis categories to company names
-  const xAxisCategories = data.map(item => item.CompanyName);
-
-
-  // Ensure chartData is structured correctly for ApexCharts
   const finalChartData = [
     {
-      name: "Environmental Scores",
-      data: createBarChartData(data).data, // This should be an array of env_score_weighted values
+      name: "Social Scores",
+      data: chartData,
     },
   ];
+
+  const chartOptions = {
+    ...s_barChartOptionsDailyTraffic,
+    xaxis: {
+      ...s_barChartOptionsDailyTraffic.xaxis,
+      categories: labels,
+    },
+  };
 
 
   return (
     <Card align='center' direction='column' w='100%' {...rest}>
       <Flex justify='space-between' align='start' px='10px' pt='5px'>
         <Flex flexDirection='column' align='start' me='20px'>
-        <Flex w='100%'>
-          <Text
+          <Flex w='100%'>
+            <Text
               color={textColor}
               fontSize='20px'
               fontWeight='700'
               lineHeight='100%'>
-              Social Rating
+              Social Rating {latestYear ? `(${latestYear})` : ''}
             </Text>
-          </Flex>
-          <Flex w='100%'>
-          </Flex>
-          <Flex align='end'>
-            {/* <Text
-              color={textColor}
-              fontSize='34px'
-              fontWeight='700'
-              lineHeight='100%'>
-              2.579
-            </Text>
-            <Text
-              ms='6px'
-              color='secondaryGray.600'
-              fontSize='sm'
-              fontWeight='500'>
-              Visitors
-            </Text> */}
           </Flex>
         </Flex>
-        {/* <Flex align='center'>
-          <Icon as={RiArrowUpSFill} color='green.500' />
-          <Text color='green.500' fontSize='sm' fontWeight='700'>
-            +2.45%
-          </Text>
-        </Flex> */}
       </Flex>
       <Box h='240px' mt='auto'>
         <BarChart
-          chartData={finalChartData}// Pass the categories to the chart
-          chartOptions={{ ...s_barChartOptionsDailyTraffic, xaxis: { ...s_barChartOptionsDailyTraffic.xaxis, categories: xAxisCategories } }} // Update x-axis categories in options
+          chartData={finalChartData}
+          chartOptions={chartOptions}
         />
       </Box>
     </Card>

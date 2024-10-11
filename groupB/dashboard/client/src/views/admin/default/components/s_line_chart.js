@@ -8,7 +8,7 @@ import {
 import Card from "components/card/Card.js";
 import LineChart from "components/charts/LineChart";
 import LineChartMenu from 'views/admin/default/components/line_chart_menu';  
-import { e_score_line, S_score_line_option } from "variables/charts"; 
+import { s_score_line, S_score_line_option } from "variables/charts"; 
 
 export default function TotalSpent(props) {
   const { data, ...rest } = props;
@@ -20,7 +20,7 @@ export default function TotalSpent(props) {
 
   useEffect(() => {
     if (data && data.length > 0) {
-      const processedData = e_score_line(data);
+      const processedData = s_score_line(data);
       // console.log("Processed chart data:", processedData);
       setChartData(processedData);
     }
@@ -53,7 +53,8 @@ export default function TotalSpent(props) {
     );
   }
 
-  const years = [...new Set(data.map(item => item.ReportYear))];
+  const years = [...new Set(data.map(item => item.ReportYear))].sort((a, b) => a - b);
+
   const updatedChartOptions = {
     ...S_score_line_option,
     xaxis: {

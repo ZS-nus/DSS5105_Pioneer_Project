@@ -36,6 +36,7 @@ import tableDataTopCreators from "views/admin/marketplace/variables/tableDataTop
 import { tableColumnsTopCreators } from "views/admin/marketplace/variables/tableColumnsTopCreators";
 import OverallRanking from "views/admin/default/components/Overall_ranking";
 import Card from "components/card/Card.js";
+import ESG_analysis from "views/admin/default/components/esg_analysis";
 import {
   e_score_line,
   lineChartOptionsTotalSpent,
@@ -80,13 +81,18 @@ export default function UserReports() {
     <Box pt={{ base: "130px", md: "80px", xl: "80px" }}>
 
       <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
-        <Card px='0px' mb='20px'>
-          <OverallRanking
-            tableData={tableDataTopCreators}
-            columnsData={tableColumnsTopCreators}
-          />
-        </Card>
 
+        <SimpleGrid columns={{ base: 1, md: 1, xl: 1 }} gap='20px' mb='20px'>
+          <Card px='0px' mb='20px'>
+            <OverallRanking
+              tableData={tableDataTopCreators}
+              columnsData={tableColumnsTopCreators}
+            />
+          </Card>
+        </SimpleGrid>
+
+        <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
+        <ESG_analysis />
         <Card px='0px' mb='20px'>
           <Flex direction="column" h="100%"> {/* Add this Flex container */}
             <Box pl='20px' pr='20px' flex="1"> {/* Modify this Box */}
@@ -94,7 +100,9 @@ export default function UserReports() {
             </Box>
           </Flex>
         </Card>
+        </SimpleGrid>
 
+    
       </SimpleGrid>
 
       <SimpleGrid columns={{ base: 1, md: 1, xl: 1 }} gap='20px' mb='20px'>
