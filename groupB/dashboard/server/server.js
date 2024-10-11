@@ -122,22 +122,29 @@ async function executeQuery(query, params = []) {
   }
 }
 
+function getCurrentDateTime() {
+  const now = new Date();
+  const utcOffset = 8 * 60; // UTC +8 in minutes
+  const localDate = new Date(now.getTime() + utcOffset * 60 * 1000); // Adjust for UTC +8
+  return localDate.toISOString(); // Returns the date and time in ISO format
+}
+
 async function keepTryingToConnect() {
   while (true) {
     const success = await createTunnel();
     if (success) {
-      console.log('Database connection established.');
+      console.log(`${getCurrentDateTime()} - Database connection established.`);
       // Start keep-alive mechanism
       setInterval(() => {
         if (pool) {
           pool.query('SELECT 1')
-            .then(() => console.log('Keep-alive query executed successfully'))
-            .catch(err => console.error('Keep-alive query failed:', err.message));
+            .then(() => console.log(`${getCurrentDateTime()} - Keep-alive query executed successfully`))
+            .catch(err => console.error(`${getCurrentDateTime()} - Keep-alive query failed:`, err.message));
         }
       }, 60000); // Run every 60 seconds
       break;
     } else {
-      console.log('Retrying database connection in 5 seconds...');
+      console.log(`${getCurrentDateTime()} - Retrying database connection in 5 seconds...`);
       await new Promise(resolve => setTimeout(resolve, 5000));
     }
   }
@@ -518,6 +525,38 @@ app.get('/api/score/esg', async (req, res) => {
     
     if (rows.length > 0) {
       console.log('First ESG score row:', rows[0]);
+      res.json(rows);
+    } else {
+      console.log('No ESG scores found.');
+      res.status(404).json({ error: 'No data found' });
+    }
+  } catch (error) {
+    console.error('Error fetching ESG scores:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
+// Add this new endpoint for fetching all ESG scores with company info
+app.get('/api/dashboard/esg', async (req, res) => {
+  try {
+    console.log('Fetching all ESG scores with company info...');
+    const query = `
+      SELECT 
+        c.CompanyName,
+        e.CompanyID,
+        e.ReportYear,
+        ROUND(e.Environmental_Score, 2) AS Environmental_Score,
+        ROUND(e.Social_Score, 2) AS Social_Score,
+        ROUND(e.Governance_Score, 2) AS Governance_Score,
+        ROUND(e.Final_ESG_score, 2) AS Final_ESG_score
+      FROM esg_scores e
+      INNER JOIN company_info c ON e.CompanyID = c.CompanyID
+      ORDER BY c.CompanyName, e.ReportYear DESC
+    `; // Query to select all records from esg_scores with company info, scores rounded to 2 decimal places
+    const rows = await executeQuery(query);
+    
+    if (rows.length > 0) {
+      console.log('Fetched ESG scores:', rows[0]); // Log only the first row to avoid cluttering the console
       res.json(rows);
     } else {
       console.log('No ESG scores found.');

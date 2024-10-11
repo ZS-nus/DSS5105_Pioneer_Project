@@ -31,7 +31,7 @@ import {
 } from "views/admin/default/variables/columnsData";
 import tableDataCheck from "views/admin/default/variables/tableDataCheck.json";
 import tableDataComplex from "views/admin/default/variables/tableDataComplex.json";
-import { fetchEScoreData,fetchESGScoreData} from '../../../api'; // Import your API function
+import { fetchDashboardESGData,fetchESGScoreData} from '../../../api'; // Import your API function
 import tableDataTopCreators from "views/admin/marketplace/variables/tableDataTopCreators.json";
 import { tableColumnsTopCreators } from "views/admin/marketplace/variables/tableColumnsTopCreators";
 import OverallRanking from "views/admin/default/components/Overall_ranking";
@@ -42,51 +42,24 @@ import {
 } from "variables/charts";
 
 export default function UserReports() {
-
   const [esg_score, setESGScore] = useState([]);
-  const [e_score, setEScore] = useState([]);
-  const [s_score, setSScore] = useState([]);
-  const [g_score, setGScore] = useState([]);
-  const [latestScores, setLatestScores] = useState([]);
+  const [latestScores, setLatestScores] = useState([]); // Add this line
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetchESGScoreData();
+        const response = await fetchDashboardESGData();
         const data = response.data;
 
         if (!Array.isArray(data)) {
           throw new Error("Fetched data is not an array");
         }
 
-        // Separate the scores
-        const esgScores = data.map(item => ({ ...item, score: item.Final_ESG_score }));
-        const eScores = data.map(item => ({ ...item, score: item.Environmental_Score }));
-        const sScores = data.map(item => ({ ...item, score: item.Social_Score }));
-        const gScores = data.map(item => ({ ...item, score: item.Governance_Score }));
+        // Set the entire fetched data as esg_score
+        setESGScore(data); // Save all fetched data into esg_score
 
-        console.log("Final_esg_score",esgScores)
-        console.log("eScores",eScores)
-
-        setESGScore(esgScores);
-        setEScore(eScores);
-        setSScore(sScores);
-        setGScore(gScores);
-
-        // Process the data to get the latest scores
-        const latest = data.reduce((acc, current) => {
-          const existing = acc.find(item => item.CompanyID === current.CompanyID);
-          if (!existing || existing.ReportYear > existing.ReportYear) {
-            acc = acc.filter(item => item.CompanyID !== current.CompanyID);
-            acc.push(current);
-          }
-          return acc;
-        }, []);
-
-        // Sort the latest scores by Final_ESG_score in descending order
-        latest.sort((a, b) => b.Final_ESG_score - a.Final_ESG_score);
-
-        setLatestScores(latest);
+        // Set all fetched data as latest scores
+        setLatestScores(data); // Now this line is valid
 
       } catch (error) {
         console.error("Error fetching data:", error);
@@ -95,6 +68,7 @@ export default function UserReports() {
 
     fetchData();
   }, []);
+
 
   // Get the company name from the first entry in esg_score
   const companyName = esg_score.length > 0 ? esg_score[0].CompanyName : "Unknown Company";
@@ -129,18 +103,18 @@ export default function UserReports() {
 
 
       <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
-          <EBarChart data={e_score} />
-          <ELineChart data={e_score} company={companyName} /> 
+          <EBarChart data={esg_score} />
+          <ELineChart data={esg_score} company={companyName} /> 
       </SimpleGrid>
 
       <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
-          <SBarChart data={e_score} />
-          <SLineChart data={e_score} company={companyName} /> 
+          <SBarChart data={esg_score} />
+          <SLineChart data={esg_score} company={companyName} /> 
       </SimpleGrid>
 
       <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
-          <GBarChart data={e_score} />
-          <GLineChart data={e_score} company={companyName} /> 
+          <GBarChart data={esg_score} />
+          <GLineChart data={esg_score} company={companyName} /> 
       </SimpleGrid>
 
 

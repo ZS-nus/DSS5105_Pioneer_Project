@@ -46,6 +46,10 @@ export const fetchGovernanceData = () => {
     return api.get('/score/esg');
   };
 
+  export const fetchDashboardESGData = () => {
+    return api.get('/dashboard/esg');
+  };
+
   export const fetchFirebaseStorageFiles = () => {
     return api.get('/s3/storage/files');
   };

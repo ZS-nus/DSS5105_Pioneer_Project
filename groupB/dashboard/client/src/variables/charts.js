@@ -683,11 +683,11 @@ export const lineChartOptionsTotalSpent = {
 export const e_score_line = (data) => {
   // Group data by company
   const groupedData = data.reduce((acc, current) => {
-    const { CompanyName, ReportYear, env_score_weighted } = current;
+    const { CompanyName, ReportYear, Environmental_Score } = current;
     if (!acc[CompanyName]) {
       acc[CompanyName] = {};
     }
-    acc[CompanyName][ReportYear] = env_score_weighted; // Assign the score to the corresponding year
+    acc[CompanyName][ReportYear] = Environmental_Score; // Assign the score to the corresponding year
     return acc;
   }, {});
 
@@ -702,6 +702,31 @@ export const e_score_line = (data) => {
 
   return chartData;
 };
+
+export const esg_score_line = (data) => {
+  // Group data by company
+  console.log(data);
+  const groupedData = data.reduce((acc, current) => {
+    const { CompanyName, ReportYear, Final_ESG_score } = current;
+    if (!acc[CompanyName]) {
+      acc[CompanyName] = {};
+    }
+    acc[CompanyName][ReportYear] = Final_ESG_score; // Assign the score to the corresponding year
+    return acc;
+  }, {});
+
+  // Prepare the final data structure for the chart
+  const chartData = Object.keys(groupedData).map(company => {
+    const years = Object.keys(groupedData[company]).sort(); // Get sorted years
+    return {
+      name: company,
+      data: years.map(year => groupedData[company][year] || 0), // Fill in scores for each year
+    };
+  });
+  console.log(chartData);
+  return chartData;
+};
+
 
 export const E_score_line_option = {
   chart: {
@@ -1003,6 +1028,14 @@ export const ESG_score_line_option = {
   },
   yaxis: {
     show: true,
+    min: 0,
+    max: 10,
+    tickAmount: 10, // This will create 5 ticks on the y-axis (0, 2.5, 5, 7.5, 10)
+    labels: {
+      formatter: function(val) {
+        return val.toFixed(1); // This will format the labels to one decimal place
+      }
+    },
   },
   legend: {
     show: true,
