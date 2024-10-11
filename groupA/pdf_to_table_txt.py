@@ -38,13 +38,23 @@ for i, table in enumerate(tables):
             formatted_table = formatter.format(table)  # 将 CroppedTable 转换为 FormattedTable
             df = formatted_table.df()  # 导出为 Pandas DataFrame
             
-            # 打印表格内容
-            print(df)
-            
+            # 将空值替换为 'N/A'，增强表格的可读性
+            df.fillna('N/A', inplace=True)
+
+            # 构建分隔线和标题
+            title = f"Table {i + 1}"
+            separator = "=" * 80
+
+            # 构建表格文本内容
+            table_text = f"{separator}\n{title}\n{separator}\n"
+            table_text += df.to_string(index=False, col_space=10)  # 调整列宽，增强可读性
+            table_text += f"\n{separator}\n"
+
             # 将表格保存到 TXT 文件
             txt_filename = os.path.join(output_dir, f"table_{i+1}.txt")
             with open(txt_filename, 'w', encoding='utf-8') as f:
-                f.write(df.to_string(index=False))  # 将 DataFrame 转换为字符串格式并写入文件
+                f.write(table_text)
+            
             print(f"Table {i + 1} saved to {txt_filename}")
             
         except Exception as e:
