@@ -611,7 +611,8 @@ export const ESG_metrics_pieChartOptions = {
   labels: ["Environmental", "Social", "Governance"],
   colors: ["#38ef7d", "#6AD2FF", "#f7b733"],
   chart: {
-    width: "60px",
+    width: "10=0%", // Change this to 100% to make it responsive
+    height: "100%", // Add this to make it take full height
   },
   states: {
     hover: {
@@ -621,32 +622,42 @@ export const ESG_metrics_pieChartOptions = {
     },
   },
   legend: {
-    show: true,
+    show: false,
+    position: 'bottom', // Move legend to bottom to give more space to the chart
   },
   dataLabels: {
-    enabled: true,
-    fontSize: "20px",
+    enabled: false,
+    fontSize: "2px", // Adjust font size as needed
     fontWeight: "1000",
     fontFamily: 'Helvetica, Arial',
   },
   hover: { mode: null },
   plotOptions: {
-    donut: {
+    pie: { // Change from 'donut' to 'pie' if you want a full pie chart
       expandOnClick: false,
       donut: {
-        labels: {
-          show: false,
-        },
+        size: '65%', // Adjust this to change the size of the donut hole (smaller percentage = bigger pie)
       },
     },
   },
   fill: {
-    colors: ["#38ef7d", "#6AD2FF", "#f7b733"  ],
+    colors: ["#38ef7d", "#6AD2FF", "#f7b733"],
   },
   tooltip: {
     enabled: true,
     theme: "dark",
   },
+  responsive: [{
+    breakpoint: 480,
+    options: {
+      chart: {
+        width: 300
+      },
+      legend: {
+        position: 'bottom'
+      }
+    }
+  }]
 };
 
 export const pieChartData = [63, 25, 12];
