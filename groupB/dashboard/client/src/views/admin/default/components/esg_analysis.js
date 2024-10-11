@@ -29,15 +29,15 @@ export default function GeneralInformation(props) {
 
   return (
     <Card mb={{ base: "0px", "2xl": "20px" }} {...rest}>
-      <Flex px="25px" mb="8px" justifyContent="space-between" align="center">
-        <Text
-            color={textColorPrimary}
-            fontWeight='bold'
-            fontSize='2xl'
-            mt='10px'
-            mb='4px'>
-            ESG Analysis
-        </Text>
+      <Flex mb="8px" justifyContent="space-between" align="center">
+      <Text
+        color={textColorPrimary}
+        fontWeight='bold'
+        fontSize='2xl'
+        mt='10px'
+        mb='4px'>
+        ESG Analysis
+      </Text>
         <LineChartMenu 
           menuItems={menuItems} 
           onSelectCompany={handleCompanySelect}

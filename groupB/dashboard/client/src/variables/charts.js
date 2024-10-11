@@ -622,11 +622,11 @@ export const ESG_metrics_pieChartOptions = {
     },
   },
   legend: {
-    show: false,
+    show: true,
     position: 'bottom', // Move legend to bottom to give more space to the chart
   },
   dataLabels: {
-    enabled: false,
+    enabled: true,
     fontSize: "2px", // Adjust font size as needed
     fontWeight: "1000",
     fontFamily: 'Helvetica, Arial',
