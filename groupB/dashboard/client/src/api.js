@@ -42,7 +42,7 @@ export const fetchGovernanceData = () => {
     return api.get('/score/governance');
   };
 
-    export const fetchESGScoreData = () => {
+  export const fetchESGScoreData = () => {
     return api.get('/score/esg');
   };
 

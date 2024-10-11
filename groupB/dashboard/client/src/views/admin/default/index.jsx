@@ -31,7 +31,7 @@ import {
 } from "views/admin/default/variables/columnsData";
 import tableDataCheck from "views/admin/default/variables/tableDataCheck.json";
 import tableDataComplex from "views/admin/default/variables/tableDataComplex.json";
-import { fetchEScoreData } from '../../../api'; // Import your API function
+import { fetchEScoreData,fetchESGScoreData} from '../../../api'; // Import your API function
 import tableDataTopCreators from "views/admin/marketplace/variables/tableDataTopCreators.json";
 import { tableColumnsTopCreators } from "views/admin/marketplace/variables/tableColumnsTopCreators";
 import OverallRanking from "views/admin/default/components/Overall_ranking";
@@ -43,38 +43,50 @@ import {
 
 export default function UserReports() {
 
-  const [e_score, setEScore] = useState([]); // State to store all fetched data
-  const [e_score_latest, setERateLatest] = useState([]); // State to store latest scores
+  const [esg_score, setESGScore] = useState([]);
+  const [e_score, setEScore] = useState([]);
+  const [s_score, setSScore] = useState([]);
+  const [g_score, setGScore] = useState([]);
+  const [latestScores, setLatestScores] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetchEScoreData(); // Call the API function
-        const data = response.data; // Access the data property of the response
-        // console.log("Fetched Data:", data); // Log the fetched data
+        const response = await fetchESGScoreData();
+        const data = response.data;
 
-        // Check if data is an array
         if (!Array.isArray(data)) {
           throw new Error("Fetched data is not an array");
         }
 
-        setEScore(data); // Store the fetched data
+        // Separate the scores
+        const esgScores = data.map(item => ({ ...item, score: item.Final_ESG_score }));
+        const eScores = data.map(item => ({ ...item, score: item.Environmental_Score }));
+        const sScores = data.map(item => ({ ...item, score: item.Social_Score }));
+        const gScores = data.map(item => ({ ...item, score: item.Governance_Score }));
+
+        console.log("Final_esg_score",esgScores)
+        console.log("eScores",eScores)
+
+        setESGScore(esgScores);
+        setEScore(eScores);
+        setSScore(sScores);
+        setGScore(gScores);
 
         // Process the data to get the latest scores
-        const latestScores = data.reduce((acc, current) => {
-          const existing = acc.find(item => item.CompanyName === current.CompanyName);
-          if (!existing || existing.ReportYear < current.ReportYear) {
-            // If no existing entry or current year is greater, update the entry
-            acc = acc.filter(item => item.CompanyName !== current.CompanyName); // Remove older entries
-            acc.push(current); // Add the current entry
+        const latest = data.reduce((acc, current) => {
+          const existing = acc.find(item => item.CompanyID === current.CompanyID);
+          if (!existing || existing.ReportYear > existing.ReportYear) {
+            acc = acc.filter(item => item.CompanyID !== current.CompanyID);
+            acc.push(current);
           }
           return acc;
         }, []);
 
-        // Sort the latest scores by env_score_weighted in ascending order
-        latestScores.sort((a, b) => a.env_score_weighted - b.env_score_weighted);
+        // Sort the latest scores by Final_ESG_score in descending order
+        latest.sort((a, b) => b.Final_ESG_score - a.Final_ESG_score);
 
-        setERateLatest(latestScores); // Store the sorted latest scores
+        setLatestScores(latest);
 
       } catch (error) {
         console.error("Error fetching data:", error);
@@ -84,8 +96,8 @@ export default function UserReports() {
     fetchData();
   }, []);
 
-// Get the company name from the first entry in e_score
-  const companyName = e_score.length > 0 ? e_score[0].CompanyName : "Unknown Company";
+  // Get the company name from the first entry in esg_score
+  const companyName = esg_score.length > 0 ? esg_score[0].CompanyName : "Unknown Company";
 
   // Chakra Color Mode
   const brandColor = useColorModeValue("brand.500", "white");
@@ -112,22 +124,22 @@ export default function UserReports() {
       </SimpleGrid>
 
       <SimpleGrid columns={{ base: 1, md: 1, xl: 1 }} gap='20px' mb='20px'>
-      <ESGLineChart data={e_score} company={companyName} /> 
+      <ESGLineChart data={esg_score} company={companyName} /> 
       </SimpleGrid>
 
 
       <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
-          <EBarChart data={e_score_latest} />
+          <EBarChart data={e_score} />
           <ELineChart data={e_score} company={companyName} /> 
       </SimpleGrid>
 
       <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
-          <SBarChart data={e_score_latest} />
+          <SBarChart data={e_score} />
           <SLineChart data={e_score} company={companyName} /> 
       </SimpleGrid>
 
       <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
-          <GBarChart data={e_score_latest} />
+          <GBarChart data={e_score} />
           <GLineChart data={e_score} company={companyName} /> 
       </SimpleGrid>
 
