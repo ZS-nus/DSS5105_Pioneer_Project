@@ -42,6 +42,10 @@ export const fetchGovernanceData = () => {
     return api.get('/score/governance');
   };
 
+    export const fetchESGScoreData = () => {
+    return api.get('/score/esg');
+  };
+
   export const fetchFirebaseStorageFiles = () => {
     return api.get('/s3/storage/files');
   };
