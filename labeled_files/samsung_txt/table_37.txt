@@ -1,0 +1,29 @@
+================================================================================
+Table 37
+================================================================================
+Supplier Third-Party Audit Compliance Rate by Area1)                  2020       2021       2022
+                              Labor and human rights        N/A        N/A        N/A        N/A
+                          Freely chosen employment2)          %         97         98         98
+                    Guarantee of freedom of movement          %         99         99        100
+                          Prohibition of child labor          %        100        100        100
+                      Protection of underage workers          %         98        100        100
+                                       Working hours          %         82         87         93
+          Guarantee of at least one day off per week          %         92         97         97
+                                Wages and benefits3)          %         90         91         96
+                                    Humane treatment          %        100        100        100
+                                Non-discrimination4)          %        100        100        100
+                            Freedom of association5)          %         99         99         98
+                                   Safety and Health        N/A        N/A        N/A        N/A
+                                 Occupational safety          %         94         96         95
+                              Emergency preparedness          %         96         95         94
+                     Occupational injury and illness          %         99         99         98
+                           Physically demanding work          %         95         99         97
+                                Machine safeguarding          %         98         99         98
+                       Sanitation, food, and housing          %         95         99         99
+                                         Environment        N/A        N/A        N/A        N/A
+                                Pollution prevention          %         99         98         99
+                                Hazardous substances          %         97         99         96
+                          Wastewater and solid waste          %         99        100         98
+                                       Air emissions          %        100        100         99
+                              Materials restrictions          %        100        100        100
+================================================================================

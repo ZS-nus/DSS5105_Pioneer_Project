@@ -1,0 +1,7 @@
+================================================================================
+Table 7
+================================================================================
+Empty DataFrame
+Columns: [Human Rights, Human Resource Management, Diversity, Equity, and Inclusion, Tech for All, Sustainability in Supply Chain, Empowering Communities]
+Index: []
+================================================================================

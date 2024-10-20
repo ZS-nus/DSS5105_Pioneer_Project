@@ -1,0 +1,26 @@
+================================================================================
+Table 9
+================================================================================
+             Integrating circularity   To enable greater circularity                                    In our data centers, we prioritize           process and have landed
+                                 N/A     within our supply chain, we SIMPLIFIED VIEW OF META’S APPROACH           the use of post-consumer             hundreds of new racks
+     We believe evolving from linear    focus on eliminating the use TO CIRCULARITY IN OUR DATA CENTERS        recycled (PCR) plastics and      containing reused components
+          to circular production and     of hazardous substances and                                N/A     recycled metal in our hardware     within our fleet. The quality
+       consumption is critical for a    prioritizing the responsible                                N/A      and system design to enable a          of the reused components
+     better reality, which is why we  takeback, reuse, and recycling                                N/A    more circular supply chain, and       continues to show excellent
+    have integrated circularity into    of electronic equipment. Our                                N/A          thus, reduce the embedded         results, with some of the
+     our net zero emission strategy.   Materials of Concern Standard                  Recycle Materials            carbon in our hardware.      oldest racks with the reused
+   Limiting the use of new materials       and Electronics Reuse and                                N/A                                N/A         components already at two
+          helps us prevent waste and      Recycling Standard support                                N/A          Avoiding emissions in our    years of age and continuing to
+          avoids upstream emissions.   safe and healthy environments                                N/A        upstream supply chain means     perform well under real-world
+                                 N/A                             N/A                          Refurbish                                N/A                               N/A
+    Beyond our operations, we see it    for anyone who manufactures,                                N/A     using less, where possible. To          production workloads. We
+    as our responsibility to use our uses or recycles Meta hardware.                       Supply chain  achieve this, we are investing in     expect to closely monitor the
+         consumer hardware products,                             N/A                                N/A  systems that will extend the life hardware health for all the racks
+     family of apps and knowledge to                             N/A                             Repair     of our hardware and reusing as      and iterate on our practices
+catalyze circularity in our industry                             N/A                                N/A     many components as possible in      moving forward. We have also
+                         and beyond.                             N/A                                N/A        our data center production.    extended the estimated average
+                                 N/A                             N/A                                N/A                                N/A  useful life of a majority of our
+                                 N/A                             N/A                        Data center                 Since we have been         servers from four to five
+                                 N/A                             N/A                                N/A                              2021,                            years.
+                                 N/A                             N/A                                N/A     validating the reliability and                               N/A
+================================================================================

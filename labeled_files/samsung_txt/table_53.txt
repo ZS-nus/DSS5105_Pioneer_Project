@@ -1,0 +1,17 @@
+================================================================================
+Table 53
+================================================================================
+           Category                                                        Type                                                                                                                                     Calculation Method
+    Financial value                                              N/A    Benefit                                                                                                                                 Net income of the year
+      Socioeconomic                               Government support    Benefit                                                                                                                 Corporate taxes paid to the government
+              value                                   Investor value    Benefit                                                                                                 Dividends and interest paid to investors and creditors
+                N/A                                 Employee support    Benefit                                                                                                           Wages and welfare benefits paid to employees
+                N/A                                 Supplier support    Benefit                                                                                           Based on the amount of support through the Coprosperity Fund
+                N/A                             Development of local    Benefit                                                                                         Donations for the resolution of individual communities’ issues
+                N/A                                      communities        N/A                                                                                Calculation of the ROI (118%) of educational project investment costs1)
+Environmental value GHG emissions reduction in the product use stage    Benefit                                                                  Calculation of social benefits for GHG emissions reduction in the product use stage2)
+                N/A                GHG emissions from business sites       Cost                                                                                                 Calculation of social costs concerning GHG emissions2)
+                N/A           Impacts on the atmospheric environment       Cost                                                                    Calculation of social costs concerning air pollutant (NOx, SOx, and PM) emissions3)
+                N/A                    Impacts on aquatic ecosystems       Cost Calculation of social costs concerning water consumption based on the water stress levels of individual regions where our business sites are located4)
+                N/A              Impacts of waste on the environment       Cost                                                              Calculation of social costs concerning the burial, incineration, and recycling of waste5)
+================================================================================

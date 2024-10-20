@@ -1,0 +1,18 @@
+================================================================================
+Table 28
+================================================================================
+                              FY    2019/20    2020/21    2021/22    2022/23    2023/24
+Total turnover rate of employees         8%         8%        11%         7%         5%
+                      By region3        N/A        N/A        N/A        N/A        N/A
+                        Americas        n/a         6%        12%         8%         5%
+  Asia Pacific (excluding China)        n/a         7%        11%        10%         8%
+                           China        n/a        10%        12%         6%         4%
+                            EMEA        n/a         4%         7%         7%         5%
+                      By gender4        N/A        N/A        N/A        N/A        N/A
+                            Male        n/a         8%        11%         7%         5%
+                          Female        n/a         8%        11%         7%         6%
+                   By age group4        N/A        N/A        N/A        N/A        N/A
+           Under 30 years of age        n/a        16%        21%        11%         9%
+              30-50 years of age        n/a         7%        10%         7%         4%
+            Over 50 years of age        n/a         3%         5%         5%         4%
+================================================================================

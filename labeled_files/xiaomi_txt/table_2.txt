@@ -1,0 +1,9 @@
+================================================================================
+Table 2
+================================================================================
+                                    ISO/IEC 27001                                    Information security management system certification
+                                    ISO/IEC 27018        N/A Certification for the management system of personal information in the cloud
+                                    ISO/IEC 27701        N/A                         Personal information management system certification
+                      SOC 2 Type II Certification        N/A                                                   Specialized security audit
+TÜV Rheinland Enhanced Privacy Protection Testing        N/A                                                                         MIUI
+================================================================================

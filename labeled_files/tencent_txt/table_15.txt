@@ -1,0 +1,17 @@
+================================================================================
+Table 15
+================================================================================
+               Indicators                                                                       Year ended 31 \n2023 December \n2022       2021
+Training and development8             Percentage of employees who received training (by gender)                  N/A             N/A        N/A
+                      N/A                                                                  Male                98.6%           99.4%      99.6%
+                      N/A                                                                Female                98.7%           99.6%      99.6%
+                      N/A   Percentage of employees who received training (by management level)                  N/A             N/A        N/A
+                      N/A                                                            Management                99.4%           99.7%      99.8%
+                      N/A                                                        Non-management                98.6%           99.4%      99.6%
+                      N/A           Average hours of training received by employees (by gender)                  N/A             N/A        N/A
+                      N/A                                                                  Male                25.29            35.4       39.7
+                      N/A                                                                Female                27.39            38.5       44.1
+                      N/A Average hours of training received by employees (by management level)                  N/A             N/A        N/A
+                      N/A                                                            Management                33.89            50.5       55.5
+                      N/A                                                        Non-management                24.99            34.6       39.5
+================================================================================

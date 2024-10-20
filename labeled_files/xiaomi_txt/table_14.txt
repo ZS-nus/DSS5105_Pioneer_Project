@@ -1,0 +1,23 @@
+================================================================================
+Table 14
+================================================================================
+                                               Unit       2023       2022       2021
+                           Training Rate        N/A        N/A        N/A        N/A
+                   Overall Training Rate          %      98.13      97.67      97.42
+                               By Gender        N/A        N/A        N/A        N/A
+                                    Male          %      98.20      97.05      97.29
+                                  Female          %      98.00      98.96      97.68
+                         By Cohort Level        N/A        N/A        N/A        N/A
+                                  Senior          %      98.10      91.01      87.84
+                               Mid-Level          %      98.25      95.91      96.82
+                                  Junior          %      98.00      99.01      97.91
+        Average Number of Training Hours        N/A        N/A        N/A        N/A
+Overall Average Number of Training Hours       Hour      30.17      35.57      25.76
+                               By Gender        N/A        N/A        N/A        N/A
+                                    Male       Hour      30.68      36.95      25.94
+                                  Female       Hour      29.10      32.72      25.39
+                         By Cohort Level        N/A        N/A        N/A        N/A
+                                  Senior       Hour      22.99      19.30      15.31
+                               Mid-Level       Hour      35.27      25.91      18.85
+                                  Junior       Hour      30.48      42.57      29.94
+================================================================================

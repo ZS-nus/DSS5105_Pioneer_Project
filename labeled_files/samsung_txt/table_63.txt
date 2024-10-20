@@ -1,0 +1,30 @@
+================================================================================
+Table 63
+================================================================================
+                    GRI Standards        No.                                                                              Disclosures     Status                                       Page                               Notes
+Strategy, Policies, and Practices       2-24                                                             Embedding policy commitments          ● 16, 24, 42, 43, 47, 59, 66, 71, 76, 79, 80                                 N/A
+                              N/A       2-25                                                  Processes to remediate negative impacts          ●                                     43, 48                                 N/A
+                              N/A       2-26                                       Mechanisms for seeking advice and raising concerns          ●                                      97-99                                 N/A
+                              N/A       2-27                                                     Compliance with laws and regulations          ●                                        110                Refer to the website
+                              N/A       2-28                                                                  Membership associations          ●                                     7, 40,                                 N/A
+                      Stakeholder       2-29                                                       Approach to stakeholder engagement          ●                                       86 7                                 N/A
+                       Engagement       2-30                                                         Collective bargaining agreements          ●                                     43, 77                                 N/A
+                 GRI 3: Universal  Standards                                                                                      N/A        N/A                                        N/A                                 N/A
+                   Disclosures on        3-1                                                   Processes to determine material topics          ●                                    114-115                                 N/A
+                  Material Topics        3-2                                                                  List of material topics          ●                                    114-115                                 N/A
+                 GRI 200: Economy        3-3                                                            Management of material topics          ●                                    114-115                                 N/A
+                         Economic      201-1                                                    Direct economic value and distributed          ●                                        101                                 N/A
+                      Performance      201-2 generated Financial implications and other risks and opportunities due to climate change          ●                                        124                                 N/A
+                              N/A      201-3                               Define benefit plan obligations and other retirement plans          ●                                          - Refer to the Annual Business Report
+                  Market Presence      202-1             Ratios of standard entry level wage by gender compared to local minimum wage          ●                                 43, 60, 79                                 N/A
+                Indirect Economic      203-1                                        Infrastructure investments and services supported          ●                                      87-92                                 N/A
+                          Impacts      203-2                                                    Significant indirect economic impacts          ●                                      87-92                                 N/A
+            Procurement Practices      204-1                                                Proportion of spending on local suppliers          ○                                          X                                 N/A
+                  Anti-corruption      205-1                                      Operations assessed for risks related to corruption          ●                                      97-99                                 N/A
+                              N/A      205-2                 Communication and training about anti-corruption policies and procedures          ●                                      97-99                                 N/A
+                              N/A      205-3                                      Confirmed incidents of corruption and actions taken          ●                                        N/A Refer to the Annual Business Report
+        Anti￾competitive Behavior      206-1          Legal actions for anti-competitive behavior, anti-trust, and monopoly practices          ●                                        N/A Refer to the Annual Business Report
+                              Tax      207-2                                             Tax governance, control, and risk management          ●                                        N/A                Refer to the Website
+                              N/A      207-3                         Stakeholder engagement and management of concerns related to tax          ●                                        N/A                Refer to the Website
+                              N/A      207-4                                                             Country-by-country reporting          ●                                        101                                 N/A
+================================================================================

@@ -1,0 +1,41 @@
+================================================================================
+Table 38
+================================================================================
+                              FY    2019/20    2020/21    2021/22    2022/23    2023/24
+       Energy consumption (MWh)1        N/A        N/A        N/A        N/A        N/A
+        Total energy consumption    327,798    346,683    366,885    392,825    377,338
+        Direct (Fuel combustion)     35,152     33,157     24,546     29,165     22,760
+        By Source (Fuel detail):        N/A        N/A        N/A        N/A        N/A
+          Stationary combustion:        N/A        N/A        N/A        N/A        N/A
+                  Gas/diesel oil      1,789      2,698      1,405      1,978      1,765
+                     Natural gas     32,049     29,533     21,599     20,310     17,454
+         Liquefied petroleum gas        452        404        389        341        272
+              Mobile combustion:        N/A        N/A        N/A        N/A        N/A
+             On road diesel fuel        223        174        442        530        452
+                 Gasoline/petrol        309        277        415        326        270
+         Liquefied petroleum gas         72         66         31         25         14
+          Compressed natural gas          –          –          –          –          –
+                    Jet Kerosene        258          6        264      5,654      2,533
+    Indirect (Purchased energy)2 292,645.18 313,526.43    342,340    363,660    354,578
+                     Electricity    272,150    292,751    323,663    349,118    337,276
+                           Steam     18,348     19,470     17,281     13,964     16,724
+                         Cooling      2,148      1,306      1,395        578        578
+Energy consumption (gigajoules)1        N/A        N/A        N/A        N/A        N/A
+        Total energy consumption  1,180,071  1,248,059  1,320,787  1,414,169  1,358,417
+        Direct (Fuel combustion)    126,548    119,364     88,364    104,994     81,936
+        By Source (Fuel detail):        N/A        N/A        N/A        N/A        N/A
+          Stationary combustion:        N/A        N/A        N/A        N/A        N/A
+                  Gas/diesel oil      6,442      9,712      5,058      7,122      6,354
+                     Natural gas    115,375    106,317     77,757     73,118     62,835
+         Liquefied petroleum gas      1,628      1,454      1,401      1,227        977
+              Mobile combustion:        N/A        N/A        N/A        N/A        N/A
+             On road diesel fuel        801        626      1,593      1,909      1,626
+                 Gasoline/petrol      1,112        996      1,492      1,174        973
+         Liquefied petroleum gas        260        236        112         91         51
+          Compressed natural gas          –          –          –          –          –
+                    Jet Kerosene        930         21        952     20,353      9,120
+    Indirect (Purchased energy)2  1,053,522  1,128,696  1,232,422  1,309,174  1,276,481
+                     Electricity    979,740  1,053,903  1,165,186  1,256,824  1,214,193
+                           Steam     66,051     70,092     62,213     50,269     60,207
+                         Cooling      7,731      4,701      5,023      2,081      2,081
+================================================================================

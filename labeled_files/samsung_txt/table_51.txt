@@ -1,0 +1,15 @@
+================================================================================
+Table 51
+================================================================================
+                 Supply chain management             DX \n2021       2022  DS \n2021       2022 Total \n2021       2022
+       Comprehensive supplier evaluation        N/A        N/A        N/A        N/A        N/A          N/A        N/A
+                   Suppliers evaluated1)          %         97         91         82         83           93         89
+           Suppliers rated outstanding2)          %         65         59         77         74           68         62
+Suppliers with ISO 14001 certification3)          %         88         90         89         92           88         90
+Suppliers with OHSAS 18001 certification          %       454)       475)         56         67           47         50
+                       Supplier Training        N/A        N/A        N/A        N/A        N/A          N/A        N/A
+                 Participating companies  Companies        535        552        376        501          911      1,053
+               Participating individuals    Persons      6,641      8,677     12,084     12,230       18,725     20,907
+Supply chain work environment management        N/A        N/A        N/A        N/A        N/A          N/A        N/A
+Third party-audited first-tier suppliers  Companies         84         93         24         28          108        121
+================================================================================

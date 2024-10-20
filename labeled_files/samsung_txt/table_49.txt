@@ -1,0 +1,21 @@
+================================================================================
+Table 49
+================================================================================
+                                 Pollutant management1)                  2020       2021       2022
+                                Air pollutant emissions        N/A        N/A        N/A        N/A
+                                                    NOx     Tonnes        652        717        785
+                                                    SOx     Tonnes          6         19         35
+                                                    NH3     Tonnes         71         68         95
+                                                     HF     Tonnes         18         22         19
+                                                   PM2)     Tonnes        210        163        207
+                    Volatile organic compound emissions        N/A        N/A        N/A        N/A
+                    Volatile organic compound emissions     Tonnes        289        314        394
+                              Water pollutant discharge        N/A        N/A        N/A        N/A
+                                                    COD     Tonnes      1,033        906        846
+                                                    BOD     Tonnes        315        266        313
+                                                     SS     Tonnes        377        393        411
+                                                      F     Tonnes        428        520        576
+                                           Heavy metals     Tonnes          9         13         16
+Consumption of ozone depleting substances (CFC-11 eq)3)        N/A        N/A        N/A        N/A
+  Consumption of ozone depleting substances (CFC-11 eq)     Tonnes          2          1          2
+================================================================================

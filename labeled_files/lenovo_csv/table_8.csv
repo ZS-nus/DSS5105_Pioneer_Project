@@ -1,0 +1,8 @@
+PC tool,Benefit
+Lenovo Settings (Windows),"An application that provides power management features, such as Connected Standby for the user."
+Adaptive Thermal Management,Adjusts system power and fan speeds based on ambient levels.
+Active Directory and LANDesk®,Supports remote deployment of power schemes and global settings to allow administrators the ability to control and enforce ThinkPad energy savings company-wide.
+EasyResume,"Provides quick recovery from computer lid close, balancing low power state by suppressing CPU usage at lid close."
+Intelligent Cooling,Balances thermal performance to adjust settings to provide a cooler surface for comfort while optimizing product energy.
+Energy Saving Power Supply Unit (PSU),The PSU turns off the internal fan when the system detects the power load is low and saves energy consumption.
+Smart Power (Monitors),"A power and energy management feature that dynamically detects and optimizes the distribution of power. Example: If there are multiple devices plugged into a monitor like a smartphone, a laptop, or other USB-powered peripheral – the monitor will gauge how much power each of them needs and adjust according to the requirement."

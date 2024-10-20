@@ -1,0 +1,22 @@
+================================================================================
+Table 25
+================================================================================
+                        Scope 3 emissions (in Metric Tons CO2e) 1, 5, \n2017 7, 8 \n2018       2019       2020       2021       2022
+                                               Total                 480,000     652,000  4,078,000  5,091,000  5,772,583  8,466,264
+         Category 1: Purchased Goods & Services 5, 8                       -           -  1,428,000  1,846,000  2,956,909  2,545,466
+                                     Of Total (in %)                       -           -        35%        36%        51%        30%
+                      Category 2: Capital Goods 5, 8                       -           -  1,671,000  2,516,000  2,466,041  5,346,583
+                                     Of Total (in %)                       -           -        41%        49%        43%        63%
+      Category 3: Fuel & Energy￾Related Activities 5                       -           -    264,000     56,000     10,483     12,658
+                                     Of Total (in %)                       -           -         6%         1%        <1%        <1%
+Category 4: Upstream Transportation and Distribution                       -           -     65,000     49,000    180,183    176,636
+                                     Of Total (in %)                       -           -         2%         1%         3%         2%
+      Category 5: Waste Generated in Operations 5, 8                       -           -      4,000     10,000     18,430     18,519
+                                     Of Total (in %)                       -           -        <1%        <1%        <1%        <1%
+                    Category 6: Business Travel 5, 7                 246,000     397,000    529,000    129,000      8,653    251,807
+                                     Of Total (in %)                       -           -        13%         3%        <1%         3%
+                    Category 7: Employee Commuting 8                  43,000      71,000     90,000     61,000     23,163     45,054
+                                     Of Total (in %)                       -           -         2%         1%        <1%        <1%
+                Category 8: Upstream Leased Assets 5                       -           -     16,000     24,000      1,185      3,444
+                                     Of Total (in %)                       -           -        <1%        <1%        <1%        <1%
+================================================================================

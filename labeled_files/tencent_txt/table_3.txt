@@ -1,0 +1,17 @@
+================================================================================
+Table 3
+================================================================================
+opportunities \nvalue the enhance Risk and Opportunity \nPhysical Risks1       Category \n• Acute • Chronic Time Horizons \nBaseline2 Climate Scenarios Selection \nIPCC Sixth Assessment Report IPCC Shared Socioeconomic Pathways ("SSP")
+                              N/A                                    N/A                                N/A                     20303                                                   Low-carbon scenarios, aligned with Paris Agreement:
+                              N/A                                    N/A                                N/A                     20503                                                                                            • SSP1-2.6
+                              N/A                                    N/A                                N/A                       N/A                                                                                High-carbon scenarios:
+                              N/A                                    N/A                                N/A                       N/A                                                                                            • SSP3-7.0
+                              N/A                                    N/A                                N/A                       N/A                                                                                            • SSP5-8.5
+                              N/A                       Transition Risks      • Policy & Legal • Technology                      2030                                                                                                   IEA
+                              N/A                                    N/A              • Market • Reputation                      2040                                                   Low-carbon scenarios, aligned with Paris Agreement:
+                              N/A                                    N/A                                N/A                     20504                                                                          • Net Zero Emission Scenario
+                              N/A               Transition Opportunities                • Energy Efficiency                       N/A                                                       High-carbon scenarios: Stated Policies Scenario
+                              N/A                                    N/A                    • Energy source                       N/A                                                                                                   N/A
+                              N/A                                    N/A                           Services                       N/A                                                                                                   N/A
+                              N/A                                    N/A • Products & • Market • Resilience                       N/A                                                                                                   N/A
+================================================================================

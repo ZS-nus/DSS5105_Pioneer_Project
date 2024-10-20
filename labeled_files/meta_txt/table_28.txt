@@ -1,0 +1,24 @@
+================================================================================
+Table 28
+================================================================================
+                                                             2017            2018        2019       2020       2021       2022
+                                  Papillion, NE                 -           5,000     178,000    519,000    736,810  1,007,635
+                                 Prineville, OR           426,000         488,000     573,000    686,000    898,409    982,177
+                  Leased data center facilities           359,000         432,000     647,000    795,000    964,650  1,105,834
+           Other data center-related facilities           135,000         133,000     113,000    206,000    249,843    256,939
+                                  Offices Total           102,000         181,000     222,000    204,000    303,717    340,657
+                      Electricity intensity (in       MWh/unit of key performance indicators)        N/A        N/A        N/A
+                                            N/A              2017            2018        2019       2020       2021       2022
+Electricity intensity per monthly active person                 -               -           -          -     0.0026     0.0031
+  Electricity intensity per million USD revenue                 -               -           -          -       79.9       98.7
+                       Electricity mix (in % of total electricity           used)         N/A        N/A        N/A        N/A
+                                            N/A              2017            2018        2019       2020       2021       2022
+                                      Renewable               51%             75%         86%       100%       100%       100%
+                                  Non-renewable               49%             25%         14%         0%         0%         0%
+                      2.2 Total energy consumed               N/A             N/A         N/A        N/A        N/A        N/A
+                         Energy consumption (in              GJ)5             N/A         N/A        N/A        N/A        N/A
+                                            N/A              2017            2018        2019       2020       2021       2022
+                       Total energy consumption                 -               -           - 27,075,000 34,882,163 42,560,221
+                      Direct energy consumption                 -               -           -    438,000    853,042  1,138,794
+                    Indirect energy consumption                 -               -           - 26,638,000 34,029,121 41,421,428
+================================================================================

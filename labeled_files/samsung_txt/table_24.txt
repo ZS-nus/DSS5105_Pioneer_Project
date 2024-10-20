@@ -1,0 +1,23 @@
+================================================================================
+Table 24
+================================================================================
+Economic value distribution \n[Suppliers] Purchasing costs1) KRW 1 trillion 2020 \n168.7 2021 \n192.0 2022 \n219.8
+                             [Local communities] CSR costs2) KRW 1 trillion          0.5          0.4          0.4
+                    [Shareholders and investors] Dividends3) KRW 1 trillion         20.3          9.8          9.8
+          [Shareholders and investors] Dividend payout ratio              %           78           25           18
+                                [Creditors] Interest costs4) KRW 1 trillion          0.6          0.4          0.8
+                            [Employees] Personnel expenses5) KRW 1 trillion         31.0         34.6         37.6
+              [Government] Taxes and public duties by region            N/A          N/A          N/A          N/A
+            [Government] Taxes and public duties by region6) KRW 1 trillion          5.9         10.2         13.0
+                                                        Asia              %           18           14           11
+                                                       Korea              %           51           67           74
+                                         Americas and Europe              %           28           16           14
+                                                      Others              %            3            3            1
+                          Percentage of distributed economic          value          N/A          N/A          N/A
+                                                 Suppliers1)              %         73.5         77.0         79.3
+                                         Local communities2)              %          0.1          0.1          0.1
+                                Shareholders and investors3)              %          8.9          3.9          3.5
+                                                 Creditors4)              %          0.3          0.2          0.3
+                                                 Employees5)              %         13.5         13.9         13.6
+                                               Government 6)              %          3.7          4.9          3.2
+================================================================================
