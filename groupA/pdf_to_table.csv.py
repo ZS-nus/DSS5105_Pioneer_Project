@@ -22,8 +22,8 @@ def ingest_pdf(pdf_path):
     return tables, doc, pages  # 返回页的引用
 
 # 提取表格
-pdf_path = "../ESG_reports/Apple ESG 2024.pdf"
-output_dir = "../labeled_files/apple_csv"  # 输出文件夹
+pdf_path = "../ESG_reports/google.pdf"
+output_dir = "../labeled_files/google_csv"  # 输出文件夹
 os.makedirs(output_dir, exist_ok=True)  # 创建输出文件夹（如果不存在）
 
 tables, doc, pages = ingest_pdf(pdf_path)

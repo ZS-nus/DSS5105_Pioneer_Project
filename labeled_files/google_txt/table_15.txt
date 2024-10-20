@@ -1,0 +1,10 @@
+================================================================================
+Table 15
+================================================================================
+Electricity and renewable energy by region       Unit Total electricity            Total renewable energy allocated2           
+                             North America        MWh        18,535,300        N/A                        11,875,400        N/A
+             Europe, Middle East, & Africa        MWh         3,547,200        N/A                         3,456,200        N/A
+                             Latin America        MWh           424,900        N/A                           336,200        N/A
+                              Asia Pacific        MWh         2,799,600        N/A                             4,100        N/A
+                              Global total        MWh        25,307,000        N/A                        15,671,900        N/A
+================================================================================

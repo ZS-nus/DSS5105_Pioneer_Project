@@ -1,0 +1,54 @@
+CARBON-FREE \nGlobal average,ENERGY (CFE) \nCFE,Unit,2019,2020,2021,2022,2023,DATA CENTER \nCountry,Regional Regional
+CFE across,Google data centers (hourly),%,61,67,66,64,64,,
+,,,,,,,,Indonesia,Perusahaan
+CFE across,Google offices (hourly),%,-,-,-,541,56,,
+,,,,,,,,Ireland,EirGrid
+CFE across,Google data centers and offices (hourly),%,-,-,-,64,64,,
+,,,,,,,,Israel,Israel
+,,,,,,,,Italy,Terna
+Regional,average CFE across Google data centers,,Unit 2019,2020,2021,2022,20232,,
+,,,,,,,,Japan,Kansai
+North America,- East3,%,-,-,-,-,47,,
+North America,- Central4,%,-,-,-,-,91,Japan,TEPCO
+North America,- West5,%,-,-,-,-,63,Netherlands,Tennet
+"Europe, Middle","East, & Africa",%,-,-,-,-,83,Poland,Polskie
+Latin America,,%,-,-,-,-,91,,
+,,,,,,,,Qatar,Kahramaa
+Asia Pacific,,%,-,-,-,-,12,,
+,,,,,,,,Saudi Arabia,National
+Global CFE,across Google data centers,%,-,-,-,-,64,,
+,,,,,,,,Singapore,Energy
+DATA CENTER,GRID REGION CFE,,,,2023,,,South Africa,Eksom
+,,,,,,,,South Korea,Korea
+Country,Regional grid6,Unit,Google,Contracted,,Consumed,Grid,,
+,,,CFE,CFE,Grid,CFE,CFE %,,
+,,,,,,,,Spain,Red
+,Australian Energy Market Operator,,,,,,,,
+Australia,"(AEMO), New South Wales (NSW)",%,33,0,33,,33,Switzerland,Swissgrid
+,Australian Energy Market Operator,,,,,,,Taiwan,Taiwan
+Australia,"(AEMO), Victoria",%,40,0,40,,40,,
+,,,,,,,,United States,Bonneville
+Belgium,Elia,%,82,35,47,,74,,
+,,,,,,,,,California
+,Operador Nacional do Sistema Elétrico,,,,,,,United States,
+Brazil,(ONS),%,90,0,90,,90,,(CAISO)
+,,,,,,,,United States,Duke
+Canada,Hydro-Québec,%,100,0,100,,100,,
+,,,,,,,,,Electric
+,The Independent Electricity System,,,,,,,United States,
+Canada,,%,87,0,87,,87,,(ERCOT)
+,Operator (IESO),,,,,,,,
+,,,,,,,,,Midcontinent
+Chile,Sistema Interconectado Central,%,91,75,16,,61,United States,Operator
+Denmark,Energinet,%,92,43,49,,86,United States,NV
+Finland,Fingrid,%,98,77,21,,92,United States,PacifiCorp
+France,Réseau de Transport d’Électricité (RTE),%,94,0,94,,94,United States,PJM
+,,,,,,,,United States,Salt
+Germany,Germany,%,90,73,17,,64,,
+,,,,,,,,,South
+Great Britain,National Grid ESO,%,92,76,16,,65,United States,
+,,,,,,,,,(Santee
+Hong Kong,CLP Power Hong Kong Limited,%,28,0,28,,28,United States,Southern
+,(CLP Power),,,,,,,,
+India,Northern India Regional Grid,%,29,0,29,,29,United States,Southwest
+India,Western India Regional Grid,%,14,0,14,,14,United States,Tennessee
