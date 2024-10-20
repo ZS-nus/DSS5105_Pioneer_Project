@@ -71,7 +71,7 @@ export const g_barChartData = (data) => {
   // Convert the grouped data to an array and sort by Environmental_Score
   const sortedData = Object.values(latestDataByCompany)
     .sort((a, b) => b.Governance_Score - a.Governance_Score);
-  console.log(sortedData);
+  // console.log(sortedData);
   return {
     labels: sortedData.map(item => item.CompanyName),
     data: sortedData.map(item => item.Governance_Score)
@@ -1174,5 +1174,107 @@ export const ESG_score_line_option = {
     },
   },
   color: ["#7551FF", "#39B8FF"],
+};
+
+
+export const ESG_predict_line_option = {
+  chart: {
+    toolbar: {
+      show: false,
+    },
+    dropShadow: {
+      enabled: true,
+      top: 13,
+      left: 0,
+      blur: 10,
+      opacity: 0.1,
+      color: "#4318FF",
+    },
+  },
+  colors: ["#800080"],
+  fill: {
+    type: "gradient",
+    gradient: {
+      shade: "dark",
+      type: "horizontal",
+      shadeIntensity: 0.5,
+      gradientToColors: ["#ffc0cb"],
+      inverseColors: false,
+      opacityFrom: 1,
+      opacityTo: 1,
+      stops: [0, 100]
+    }
+  },
+  markers: {
+    size: 0,
+    colors: "white",
+    strokeColors: "#7551FF",
+    strokeWidth: 3,
+    strokeOpacity: 0.9,
+    strokeDashArray: 0,
+    fillOpacity: 1,
+    discrete: [],
+    shape: "circle",
+    radius: 2,
+    offsetX: 0,
+    offsetY: 0,
+    showNullDataPoints: true,
+  },
+  tooltip: {
+    theme: "dark",
+  },
+  dataLabels: {
+    enabled: true,
+  },
+  stroke: {
+    curve: "smooth",
+    type: "line",
+    width: 3, // Adjust the line width as needed
+  },
+  xaxis: {
+    type: "numeric",
+    categories: [],
+    labels: {
+      style: {
+        colors: "#A3AED0",
+        fontSize: "12px",
+        fontWeight: "500",
+      },
+    },
+    axisBorder: {
+      show: false,
+    },
+    axisTicks: {
+      show: false,
+    },
+  },
+  yaxis: {
+    show: true,
+    min: 0,
+    max: 10,
+    tickAmount: 10, // This will create 5 ticks on the y-axis (0, 2.5, 5, 7.5, 10)
+    labels: {
+      formatter: function(val) {
+        return val.toFixed(1); // This will format the labels to one decimal place
+      }
+    },
+  },
+  legend: {
+    show: true,
+    showForSingleSeries: true,
+    position: 'bottom',
+    horizontalAlign: 'center',
+    floating: false,
+    fontSize: '14px',
+    fontFamily: 'Helvetica, Arial',
+    fontWeight: 400,
+  },
+  grid: {
+    show: true,
+    column: {
+      color: ["#7551FF", "#39B8FF"],
+      opacity: 0.5,
+    },
+  },
 };
 

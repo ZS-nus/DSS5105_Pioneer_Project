@@ -567,3 +567,37 @@ app.get('/api/dashboard/esg', async (req, res) => {
     res.status(500).json({ error: 'Internal server error' });
   }
 });
+
+// Add this new endpoint for fetching ESG predictions
+app.get('/api/score/predict', async (req, res) => {
+  try {
+    console.log('Fetching ESG predictions...');
+    const query = `
+      SELECT 
+        c.CompanyName,
+        p.CompanyID,
+        p.Year,
+        ROUND(p.Environmental, 2) AS Environmental_Score,
+        ROUND(p.Social, 2) AS Social_Score,
+        ROUND(p.Governance, 2) AS Governance_Score,
+        ROUND(p.ESG_Score, 2) AS ESG_score,
+        p.Data_Type
+      FROM esg_predictions p
+      INNER JOIN company_info c ON p.CompanyID = c.CompanyID
+      ORDER BY c.CompanyName, p.Year
+    `;
+
+    const rows = await executeQuery(query);
+    
+    if (rows.length > 0) {
+      console.log('First ESG prediction row:', rows[0]);
+      res.json(rows);
+    } else {
+      console.log('No ESG predictions found.');
+      res.status(404).json({ error: 'No data found' });
+    }
+  } catch (error) {
+    console.error('Error fetching ESG predictions:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});

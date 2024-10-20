@@ -135,6 +135,10 @@ def update_predict_table(pool, final_df):
     engine = create_engine(f"mysql+pymysql://{db_config['user']}:{db_config['password']}@{db_config['host']}:{db_config['port']}/{db_config['database']}")
     
     try:
+        # Rename 'ESG Score' to 'ESG_Score' if it exists
+        if 'ESG Score' in final_df.columns:
+            final_df = final_df.rename(columns={'ESG Score': 'ESG_Score'})
+
         # Convert float64 columns to float
         float_columns = final_df.select_dtypes(include=['float64']).columns
         final_df[float_columns] = final_df[float_columns].astype(float)

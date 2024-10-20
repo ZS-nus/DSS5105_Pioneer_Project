@@ -45,7 +45,7 @@ for company_id, group in esg_ts_data.groupby('CompanyID'):
         'Environmental_Score': 'Environmental',
         'Social_Score': 'Social',
         'Governance_Score': 'Governance',
-        'Final_ESG_score': 'ESG Score'
+        'Final_ESG_score': 'ESG_Score'
     })
     actual_df['Data_Type'] = 'Actual'
     actual_df['Year'] = actual_df['Year'].dt.year
@@ -87,14 +87,14 @@ for company_id, group in esg_ts_data.groupby('CompanyID'):
         })
 
     # Calculate final ESG score
-    forecast_df['ESG Score'] = (
+    forecast_df['ESG_Score'] = (
         0.35 * forecast_df['Environmental'] + 
         0.45 * forecast_df['Social'] + 
         0.2 * forecast_df['Governance']
     )
     
     # Clip values to be between 0 and 10
-    for col in ['Environmental', 'Social', 'Governance', 'ESG Score']:
+    for col in ['Environmental', 'Social', 'Governance', 'ESG_Score']:
         forecast_df[col] = np.clip(forecast_df[col], 0, 10)
 
     forecast_df['Data_Type'] = 'Predicted'
@@ -105,14 +105,11 @@ final_df = pd.concat(company_data, ignore_index=True)
 # Sort the DataFrame by CompanyID and Year
 final_df = final_df.sort_values(['CompanyID', 'Year'])
 
-# print(final_forecast_df[[ 'Environmental_Forecast', 'Governance_Forecast', 'Predicted ESG Score']])
-print(final_df.info())
-print(final_df.head(10))
-
+# print(final_df.info())
+print(final_df[['CompanyID', 'Year', 'Environmental', 'Social', 'Governance', 'ESG_Score', 'Data_Type']].head(10))
 
 if db_pool:
     # Update the predictions table
     update_predict_table(db_pool, final_df)
 else:
     print("Failed to connect to the database. Predictions were not saved.")
-
