@@ -70,6 +70,11 @@ def fetch_environmental_data(pool):
 
     return execute_query(pool, query)
 
+def fetch_ESG_data(pool):
+    query = "SELECT * FROM esg_scores"
+
+    return execute_query(pool, query)
+
 
 def fetch_social_data(pool):
     query = "SELECT * FROM social"
@@ -115,4 +120,34 @@ def update_table(pool, df, table_name):
 
 
 
+def update_predict_table(pool, final_df):
+    load_dotenv()
+    
+    db_config = {
+        'host': os.getenv('DB_HOST'),
+        'port': int(os.getenv('DB_PORT', 3306)),
+        'user': os.getenv('DB_USER'),
+        'password': os.getenv('DB_PASSWORD'),
+        'database': os.getenv('DB_NAME'),
+    }
+    
+    # Create SQLAlchemy engine
+    engine = create_engine(f"mysql+pymysql://{db_config['user']}:{db_config['password']}@{db_config['host']}:{db_config['port']}/{db_config['database']}")
+    
+    try:
+        # Convert float64 columns to float
+        float_columns = final_df.select_dtypes(include=['float64']).columns
+        final_df[float_columns] = final_df[float_columns].astype(float)
+
+        # Add update_time column
+        final_df['update_time'] = datetime.now()
+
+        # Write the DataFrame to the 'esg_predictions' table
+        final_df.to_sql('esg_predictions', engine, if_exists='replace', index=False)
+        print("Successfully updated the esg_predictions table in the database.")
+    except Exception as e:
+        print(f"An error occurred while updating the esg_predictions table: {str(e)}")
+    finally:
+        # Close the database connection
+        engine.dispose()
 
