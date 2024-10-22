@@ -86,6 +86,9 @@ def fetch_governance_data(pool):
     query = "SELECT * FROM governance"
     return execute_query(pool, query)
 
+def fetch_predict_data(pool):
+    query = "SELECT * FROM esg_predictions"
+    return execute_query(pool, query)
 
 def update_table(pool, df, table_name):
     load_dotenv()
