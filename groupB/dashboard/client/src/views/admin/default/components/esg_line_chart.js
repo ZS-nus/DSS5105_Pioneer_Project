@@ -8,7 +8,25 @@ import {
 import Card from "components/card/Card.js";
 import LineChart from "components/charts/LineChart";
 import LineChartMenu from 'views/admin/default/components/line_chart_menu';  
-import { esg_score_line, ESG_score_line_option } from "variables/charts"; 
+import { ESG_score_line_option } from "variables/charts"; 
+
+const processChartData = (data) => {
+  const companyData = {};
+  data.forEach(item => {
+    if (!companyData[item.CompanyName]) {
+      companyData[item.CompanyName] = [];
+    }
+    companyData[item.CompanyName].push({
+      x: item.ReportYear,
+      y: item.Final_ESG_score
+    });
+  });
+
+  return Object.entries(companyData).map(([name, data]) => ({
+    name,
+    data: data.sort((a, b) => a.x - b.x)
+  }));
+};
 
 export default function TotalSpent(props) {
   const { data, ...rest } = props;
@@ -20,26 +38,34 @@ export default function TotalSpent(props) {
 
   useEffect(() => {
     if (data && data.length > 0) {
-      const processedData = esg_score_line(data);
-      // console.log("Processed chart data:", processedData);
+      const processedData = processChartData(data);
       setChartData(processedData);
     }
   }, [data]);
 
   const menuItems = useMemo(() => 
-    data ? [...new Set(data.map(item => item.CompanyName))] : []
-  , [data]);
+    chartData.map(item => item.name)
+  , [chartData]);
 
   const currentChartData = useMemo(() => {
     if (selectedCompany) {
-      const selectedData = chartData.filter(entry => entry.name === selectedCompany);
-      console.log("Selected company data:", selectedData);
-      return selectedData;
-    } else {
-      // console.log("Setting default data:", chartData.length > 0 ? [chartData[0]] : []);
-      return chartData.length > 0 ? [chartData[0]] : [];
+      return chartData.filter(entry => entry.name === selectedCompany);
     }
+    return chartData.length > 0 ? [chartData[0]] : [];
   }, [chartData, selectedCompany]);
+
+  const updatedChartOptions = useMemo(() => ({
+    ...ESG_score_line_option,
+    xaxis: {
+      ...ESG_score_line_option.xaxis,
+      type: 'numeric',
+      labels: {
+        formatter: function(value) {
+          return Math.round(value);
+        }
+      }
+    },
+  }), []);
 
   const handleCompanySelect = useCallback((company) => {
     setSelectedCompany(prev => company === prev ? null : company);
@@ -53,14 +79,6 @@ export default function TotalSpent(props) {
     );
   }
 
-  const years = [...new Set(data.map(item => item.ReportYear))].sort((a, b) => a - b);
-  console.log("esg_line year", years)
-  const updatedChartOptions = {
-    ...ESG_score_line_option,
-    xaxis: {
-      categories: years,
-    },
-  };
   return (
     <Card
       justifyContent='center'

@@ -750,98 +750,9 @@ export const lineChartOptionsTotalSpent = {
 };
 
 
-export const e_score_line = (data) => {
-  // Group data by company
-  const groupedData = data.reduce((acc, current) => {
-    const { CompanyName, ReportYear, Environmental_Score } = current;
-    if (!acc[CompanyName]) {
-      acc[CompanyName] = {};
-    }
-    acc[CompanyName][ReportYear] = Environmental_Score; // Assign the score to the corresponding year
-    return acc;
-  }, {});
 
-  // Prepare the final data structure for the chart
-  const chartData = Object.keys(groupedData).map(company => {
-    const years = Object.keys(groupedData[company]).sort(); // Get sorted years
-    return {
-      name: company,
-      data: years.map(year => groupedData[company][year] || 0), // Fill in scores for each year
-    };
-  });
 
-  return chartData;
-};
 
-export const s_score_line = (data) => {
-  // Group data by company
-  const groupedData = data.reduce((acc, current) => {
-    const { CompanyName, ReportYear, Social_Score } = current;
-    if (!acc[CompanyName]) {
-      acc[CompanyName] = {};
-    }
-    acc[CompanyName][ReportYear] = Social_Score; // Assign the score to the corresponding year
-    return acc;
-  }, {});
-
-  // Prepare the final data structure for the chart
-  const chartData = Object.keys(groupedData).map(company => {
-    const years = Object.keys(groupedData[company]).sort(); // Get sorted years
-    return {
-      name: company,
-      data: years.map(year => groupedData[company][year] || 0), // Fill in scores for each year
-    };
-  });
-
-  return chartData;
-};
-
-export const g_score_line = (data) => {
-  // Group data by company
-  const groupedData = data.reduce((acc, current) => {
-    const { CompanyName, ReportYear, Governance_Score } = current;
-    if (!acc[CompanyName]) {
-      acc[CompanyName] = {};
-    }
-    acc[CompanyName][ReportYear] = Governance_Score; // Assign the score to the corresponding year
-    return acc;
-  }, {});
-
-  // Prepare the final data structure for the chart
-  const chartData = Object.keys(groupedData).map(company => {
-    const years = Object.keys(groupedData[company]).sort(); // Get sorted years
-    return {
-      name: company,
-      data: years.map(year => groupedData[company][year] || 0), // Fill in scores for each year
-    };
-  });
-
-  return chartData;
-};
-
-export const esg_score_line = (data) => {
-  // Group data by company
-  // console.log(data);
-  const groupedData = data.reduce((acc, current) => {
-    const { CompanyName, ReportYear, Final_ESG_score } = current;
-    if (!acc[CompanyName]) {
-      acc[CompanyName] = {};
-    }
-    acc[CompanyName][ReportYear] = Final_ESG_score; // Assign the score to the corresponding year
-    return acc;
-  }, {});
-
-  // Prepare the final data structure for the chart
-  const chartData = Object.keys(groupedData).map(company => {
-    const years = Object.keys(groupedData[company]).sort(); // Get sorted years
-    return {
-      name: company,
-      data: years.map(year => groupedData[company][year] || 0), // Fill in scores for each year
-    };
-  });
-  // console.log(chartData);
-  return chartData;
-};
 
 
 export const E_score_line_option = {
