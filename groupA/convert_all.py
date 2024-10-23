@@ -1,9 +1,9 @@
 import os
-from report_convert import extract_and_preprocess_esg_data
+from convert_report_text_with_table import process_pdf
 
 def convert_all_pdfs(input_dir, output_dir):
     """
-    Convert all PDF files in the input directory to preprocessed markdown files in the output directory.
+    Convert all PDF files in the input directory to preprocessed text and table files in the output directory.
     """
     # Ensure output directory exists
     os.makedirs(output_dir, exist_ok=True)
@@ -13,22 +13,22 @@ def convert_all_pdfs(input_dir, output_dir):
         if filename.lower().endswith('.pdf'):
             pdf_path = os.path.join(input_dir, filename)
             
-            # Generate output filename (replace .pdf with .md)
-            md_filename = os.path.splitext(filename)[0] + '.txt'
-            md_path = os.path.join(output_dir, md_filename)
+            # Generate output filename (replace .pdf with .txt)
+            txt_filename = os.path.splitext(filename)[0] + '.txt'
+            txt_path = os.path.join(output_dir, txt_filename)
             
-            print(f"Converting {filename} to markdown...")
+            print(f"Converting {filename} to text with tables...")
             
             try:
-                # Extract and preprocess ESG data
-                preprocessed_text = extract_and_preprocess_esg_data(pdf_path)
+                # Process PDF to extract text and tables
+                combined_content = process_pdf(pdf_path)
                 
-                # Write preprocessed text to markdown file
-                with open(md_path, 'w', encoding='utf-8') as md_file:
-                    md_file.write(f"# Preprocessed ESG Data for {os.path.splitext(filename)[0]}\n\n")
-                    md_file.write(preprocessed_text)
+                # Write processed content to text file
+                with open(txt_path, 'w', encoding='utf-8') as txt_file:
+                    txt_file.write(f"# Processed Content for {os.path.splitext(filename)[0]}\n\n")
+                    txt_file.write(combined_content)
                 
-                print(f"Successfully converted {filename} to {md_filename}")
+                print(f"Successfully converted {filename} to {txt_filename}")
             except Exception as e:
                 print(f"Error converting {filename}: {str(e)}")
 

@@ -1,9 +1,0 @@
-================================================================================
-Table 24
-================================================================================
-                                     Market-based 2018 \nLocation-based Market-based 2019 \nLocation-based Market-based 2020 \nLocation-based Market-based 2021 \nLocation-based Market-based 2022 \nLocation-based
-                      Prineville, OR            -               145,000            -               167,000            -               200,000            -               245,996            -               284,462
-       Leased data center facilities      102,000               128,000      188,000               193,000            -               223,000            -               272,848            -               323,060
-Other data center-related facilities       17,000                44,000        1,000                41,000        2,000                62,000            -                93,354            -                91,364
-                       Offices total        6,000                60,000        8,000                72,000        7,000                68,000            -                92,230            -               100,160
-================================================================================
