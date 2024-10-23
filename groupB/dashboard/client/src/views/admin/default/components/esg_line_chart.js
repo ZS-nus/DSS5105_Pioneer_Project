@@ -54,7 +54,7 @@ export default function TotalSpent(props) {
   }
 
   const years = [...new Set(data.map(item => item.ReportYear))].sort((a, b) => a - b);
-
+  console.log("esg_line year", years)
   const updatedChartOptions = {
     ...ESG_score_line_option,
     xaxis: {

@@ -1133,7 +1133,7 @@ export const ESG_score_line_option = {
     categories: [],
     labels: {
       style: {
-        colors: "#A3AED0",
+        colors: "#000000",
         fontSize: "12px",
         fontWeight: "500",
       },
