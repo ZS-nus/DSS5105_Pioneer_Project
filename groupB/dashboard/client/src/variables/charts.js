@@ -20,6 +20,65 @@ export const createBarChartData = (data) => {
 };
 
 
+
+export const e_barChartData = (data) => {
+  // Group data by CompanyID and get the latest year for each company
+  const latestDataByCompany = data.reduce((acc, curr) => {
+    if (!acc[curr.CompanyID] || curr.ReportYear > acc[curr.CompanyID].ReportYear) {
+      acc[curr.CompanyID] = curr;
+    }
+    return acc;
+  }, {});
+
+  // Convert the grouped data to an array and sort by Environmental_Score
+  const sortedData = Object.values(latestDataByCompany)
+    .sort((a, b) => b.Environmental_Score - a.Environmental_Score);
+
+  return {
+    labels: sortedData.map(item => item.CompanyName),
+    data: sortedData.map(item => item.Environmental_Score)
+  };
+};
+
+export const s_barChartData = (data) => {
+  // Group data by CompanyID and get the latest year for each company
+  const latestDataByCompany = data.reduce((acc, curr) => {
+    if (!acc[curr.CompanyID] || curr.ReportYear > acc[curr.CompanyID].ReportYear) {
+      acc[curr.CompanyID] = curr;
+    }
+    return acc;
+  }, {});
+
+  // Convert the grouped data to an array and sort by Environmental_Score
+  const sortedData = Object.values(latestDataByCompany)
+    .sort((a, b) => b.Social_Score - a.Social_Score);
+
+  return {
+    labels: sortedData.map(item => item.CompanyName),
+    data: sortedData.map(item => item.Social_Score)
+  };
+};
+
+export const g_barChartData = (data) => {
+  // Group data by CompanyID and get the latest year for each company
+  const latestDataByCompany = data.reduce((acc, curr) => {
+    if (!acc[curr.CompanyID] || curr.ReportYear > acc[curr.CompanyID].ReportYear) {
+      acc[curr.CompanyID] = curr;
+    }
+    return acc;
+  }, {});
+
+  // Convert the grouped data to an array and sort by Environmental_Score
+  const sortedData = Object.values(latestDataByCompany)
+    .sort((a, b) => b.Governance_Score - a.Governance_Score);
+  // console.log(sortedData);
+  return {
+    labels: sortedData.map(item => item.CompanyName),
+    data: sortedData.map(item => item.Governance_Score)
+  };
+};
+
+
 export const barChartOptionsDailyTraffic = {
   chart: {
     toolbar: {
@@ -552,7 +611,8 @@ export const ESG_metrics_pieChartOptions = {
   labels: ["Environmental", "Social", "Governance"],
   colors: ["#38ef7d", "#6AD2FF", "#f7b733"],
   chart: {
-    width: "60px",
+    width: "10=0%", // Change this to 100% to make it responsive
+    height: "100%", // Add this to make it take full height
   },
   states: {
     hover: {
@@ -563,31 +623,41 @@ export const ESG_metrics_pieChartOptions = {
   },
   legend: {
     show: true,
+    position: 'bottom', // Move legend to bottom to give more space to the chart
   },
   dataLabels: {
     enabled: true,
-    fontSize: "20px",
+    fontSize: "2px", // Adjust font size as needed
     fontWeight: "1000",
     fontFamily: 'Helvetica, Arial',
   },
   hover: { mode: null },
   plotOptions: {
-    donut: {
+    pie: { // Change from 'donut' to 'pie' if you want a full pie chart
       expandOnClick: false,
       donut: {
-        labels: {
-          show: false,
-        },
+        size: '65%', // Adjust this to change the size of the donut hole (smaller percentage = bigger pie)
       },
     },
   },
   fill: {
-    colors: ["#38ef7d", "#6AD2FF", "#f7b733"  ],
+    colors: ["#38ef7d", "#6AD2FF", "#f7b733"],
   },
   tooltip: {
     enabled: true,
     theme: "dark",
   },
+  responsive: [{
+    breakpoint: 480,
+    options: {
+      chart: {
+        width: 300
+      },
+      legend: {
+        position: 'bottom'
+      }
+    }
+  }]
 };
 
 export const pieChartData = [63, 25, 12];
@@ -680,28 +750,10 @@ export const lineChartOptionsTotalSpent = {
 };
 
 
-export const e_score_line = (data) => {
-  // Group data by company
-  const groupedData = data.reduce((acc, current) => {
-    const { CompanyName, ReportYear, env_score_weighted } = current;
-    if (!acc[CompanyName]) {
-      acc[CompanyName] = {};
-    }
-    acc[CompanyName][ReportYear] = env_score_weighted; // Assign the score to the corresponding year
-    return acc;
-  }, {});
 
-  // Prepare the final data structure for the chart
-  const chartData = Object.keys(groupedData).map(company => {
-    const years = Object.keys(groupedData[company]).sort(); // Get sorted years
-    return {
-      name: company,
-      data: years.map(year => groupedData[company][year] || 0), // Fill in scores for each year
-    };
-  });
 
-  return chartData;
-};
+
+
 
 export const E_score_line_option = {
   chart: {
@@ -842,6 +894,9 @@ export const S_score_line_option = {
   },
   yaxis: {
     show: true,
+    min: 0,
+    max: 10,
+    tickAmount: 5,
   },
   legend: {
     show: true,
@@ -989,7 +1044,7 @@ export const ESG_score_line_option = {
     categories: [],
     labels: {
       style: {
-        colors: "#A3AED0",
+        colors: "#000000",
         fontSize: "12px",
         fontWeight: "500",
       },
@@ -1003,6 +1058,14 @@ export const ESG_score_line_option = {
   },
   yaxis: {
     show: true,
+    min: 0,
+    max: 10,
+    tickAmount: 10, // This will create 5 ticks on the y-axis (0, 2.5, 5, 7.5, 10)
+    labels: {
+      formatter: function(val) {
+        return val.toFixed(1); // This will format the labels to one decimal place
+      }
+    },
   },
   legend: {
     show: true,
@@ -1022,5 +1085,107 @@ export const ESG_score_line_option = {
     },
   },
   color: ["#7551FF", "#39B8FF"],
+};
+
+
+export const ESG_predict_line_option = {
+  chart: {
+    toolbar: {
+      show: false,
+    },
+    dropShadow: {
+      enabled: true,
+      top: 13,
+      left: 0,
+      blur: 10,
+      opacity: 0.1,
+      color: "#4318FF",
+    },
+  },
+  colors: ["#800080"],
+  fill: {
+    type: "gradient",
+    gradient: {
+      shade: "dark",
+      type: "horizontal",
+      shadeIntensity: 0.5,
+      gradientToColors: ["#ffc0cb"],
+      inverseColors: false,
+      opacityFrom: 1,
+      opacityTo: 1,
+      stops: [0, 100]
+    }
+  },
+  markers: {
+    size: 0,
+    colors: "white",
+    strokeColors: "#7551FF",
+    strokeWidth: 3,
+    strokeOpacity: 0.9,
+    strokeDashArray: 0,
+    fillOpacity: 1,
+    discrete: [],
+    shape: "circle",
+    radius: 2,
+    offsetX: 0,
+    offsetY: 0,
+    showNullDataPoints: true,
+  },
+  tooltip: {
+    theme: "dark",
+  },
+  dataLabels: {
+    enabled: true,
+  },
+  stroke: {
+    curve: "smooth",
+    type: "line",
+    width: 3, // Adjust the line width as needed
+  },
+  xaxis: {
+    type: "numeric",
+    categories: [],
+    labels: {
+      style: {
+        colors: "#A3AED0",
+        fontSize: "12px",
+        fontWeight: "500",
+      },
+    },
+    axisBorder: {
+      show: false,
+    },
+    axisTicks: {
+      show: false,
+    },
+  },
+  yaxis: {
+    show: true,
+    min: 0,
+    max: 10,
+    tickAmount: 10, // This will create 5 ticks on the y-axis (0, 2.5, 5, 7.5, 10)
+    labels: {
+      formatter: function(val) {
+        return val.toFixed(1); // This will format the labels to one decimal place
+      }
+    },
+  },
+  legend: {
+    show: true,
+    showForSingleSeries: true,
+    position: 'bottom',
+    horizontalAlign: 'center',
+    floating: false,
+    fontSize: '14px',
+    fontFamily: 'Helvetica, Arial',
+    fontWeight: 400,
+  },
+  grid: {
+    show: true,
+    column: {
+      color: ["#7551FF", "#39B8FF"],
+      opacity: 0.5,
+    },
+  },
 };
 

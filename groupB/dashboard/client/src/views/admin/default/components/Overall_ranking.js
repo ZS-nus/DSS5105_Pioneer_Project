@@ -25,7 +25,10 @@ const columnHelper = createColumnHelper();
 
 export default function TopCreatorTable(props) {
   const [esgData, setESGData] = useState([]);
-  const [sorting, setSorting] = useState([]);
+  // Set initial sorting state to sort by Final_ESG_score in descending order
+  const [sorting, setSorting] = useState([
+    { id: 'FinalESGScore', desc: true }
+  ]);
   const textColor = useColorModeValue('secondaryGray.900', 'white');
   const textColorSecondary = useColorModeValue('secondaryGray.600', 'white');
   const borderColor = useColorModeValue('gray.200', 'whiteAlpha.100');
@@ -87,29 +90,6 @@ export default function TopCreatorTable(props) {
           {info.getValue()}
         </Text>
       ),
-    }),
-    columnHelper.accessor('Final_ESG_score', {
-      id: 'Final ESG score',
-      header: () => (
-        <Text
-          justifyContent="space-between"
-          align="center"
-          fontSize={{ sm: '10px', lg: '12px' }}
-          color="gray.400"
-        >
-          ESG score
-        </Text>
-      ),
-      cell: (info) => {
-        const score = info.getValue();
-        return (
-          <Flex align="center">
-            <Text color={textColor} fontSize="sm" fontWeight="600">
-              {score !== undefined ? score.toFixed(2) : 'N/A'}
-            </Text>
-          </Flex>
-        );
-      },
     }),
     columnHelper.accessor('Final_ESG_score', {
       id: 'FinalESGScore',

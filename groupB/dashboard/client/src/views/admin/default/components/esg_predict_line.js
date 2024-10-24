@@ -8,7 +8,8 @@ import {
 import Card from "components/card/Card.js";
 import LineChart from "components/charts/LineChart";
 import LineChartMenu from 'views/admin/default/components/line_chart_menu';  
-import { S_score_line_option } from "variables/charts"; 
+import { ESG_predict_line_option } from "variables/charts"; 
+import { fetchESGPredict } from "api";
 
 const processChartData = (data) => {
   const companyData = {};
@@ -17,8 +18,9 @@ const processChartData = (data) => {
       companyData[item.CompanyName] = [];
     }
     companyData[item.CompanyName].push({
-      x: item.ReportYear,
-      y: item.Social_Score
+      x: item.Year,
+      y: item.ESG_score,
+      dataType: item.Data_Type
     });
   });
 
@@ -28,23 +30,34 @@ const processChartData = (data) => {
   }));
 };
 
-export default function TotalSpent(props) {
-  const { data, ...rest } = props;
-
+export default function ESGPredictLine(props) {
+  const { ...rest } = props;
   const textColor = useColorModeValue("secondaryGray.900", "white");
 
   const [chartData, setChartData] = useState([]);
   const [selectedCompany, setSelectedCompany] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    if (data && data.length > 0) {
-      const processedData = processChartData(data);
-      setChartData(processedData);
-    }
-  }, [data]);
+    const fetchData = async () => {
+      try {
+        setLoading(true);
+        const response = await fetchESGPredict();
+        setChartData(processChartData(response.data));
+        setLoading(false);
+      } catch (err) {
+        console.error('Error fetching ESG predict data:', err);
+        setError('Failed to fetch ESG predict data');
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
 
   const menuItems = useMemo(() => 
-    chartData.map(item => item.name)
+    [...new Set(chartData.map(item => item.name))]
   , [chartData]);
 
   const currentChartData = useMemo(() => {
@@ -54,47 +67,35 @@ export default function TotalSpent(props) {
     return chartData.length > 0 ? [chartData[0]] : [];
   }, [chartData, selectedCompany]);
 
-  const updatedChartOptions = useMemo(() => ({
-    ...S_score_line_option,
-    xaxis: {
-      ...S_score_line_option.xaxis,
-      type: 'numeric',
-      labels: {
-        formatter: function(value) {
-          return Math.round(value);
-        }
-      }
-    },
-  }), []);
-
   const handleCompanySelect = useCallback((company) => {
     setSelectedCompany(prev => company === prev ? null : company);
   }, []);
 
-  if (!data || data.length === 0) {
-    return (
-      <Box>
-        <Text>No data available to display.</Text>
-      </Box>
-    );
+  const updatedChartOptions = useMemo(() => ({
+    ...ESG_predict_line_option,
+    xaxis: {
+      ...ESG_predict_line_option.xaxis,
+      labels: {
+        ...ESG_predict_line_option.xaxis.labels,
+        style: {
+          ...ESG_predict_line_option.xaxis.labels.style,
+          colors: '#000000', // Replace with your desired color
+        },
+      },
+    },
+  }), []);
+
+  if (loading) return <Box><Text>Loading...</Text></Box>;
+  if (error) return <Box><Text>Error: {error}</Text></Box>;
+  if (!chartData || chartData.length === 0) {
+    return <Box><Text>No data available to display.</Text></Box>;
   }
 
   return (
-    <Card
-      justifyContent='center'
-      align='center'
-      direction='column'
-      w='100%'
-      mb='0px'
-      {...rest}>
+    <Card justifyContent='center' align='center' direction='column' w='100%' mb='0px' {...rest}>
       <Flex px="25px" mb="8px" justifyContent="space-between" align="center">
-        <Text
-          color={textColor}
-          fontSize="18px"
-          fontWeight="700"
-          lineHeight="100%"
-        >
-          Social Score Trend by Company
+        <Text color={textColor} fontSize="18px" fontWeight="700" lineHeight="100%">
+          Predicted ESG Score by Company
         </Text>
         <LineChartMenu 
           menuItems={menuItems} 
@@ -106,7 +107,7 @@ export default function TotalSpent(props) {
         <Box minH='260px' minW='100%' mt='auto'>
           {currentChartData.length > 0 ? (
             <LineChart
-              key={selectedCompany || 'default'}
+              key={selectedCompany}
               chartData={currentChartData}
               chartOptions={updatedChartOptions}
             />
