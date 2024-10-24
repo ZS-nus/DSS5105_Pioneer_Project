@@ -977,6 +977,19 @@ export const G_score_line_option = {
   },
   yaxis: {
     show: true,
+    min: 0,
+    max: 10,
+    tickAmount: 10, // This will create 10 ticks on the y-axis
+    labels: {
+      formatter: function(val) {
+        return val.toFixed(1); // This will format the labels to one decimal place
+      },
+      style: {
+        colors: "#A3AED0",
+        fontSize: "12px",
+        fontWeight: "500",
+      }
+    }
   },
   legend: {
     show: true,
@@ -1188,4 +1201,5 @@ export const ESG_predict_line_option = {
     },
   },
 };
+
 
