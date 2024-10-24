@@ -1,37 +1,36 @@
 import pandas as pd
 import random
 from db_connect import connect_to_db, fetch_ESG_data, fetch_predict_data
-    
+
 esg_scores_df = pd.DataFrame(fetch_predict_data(connect_to_db()))
 
-# Descriptive templates with distinction
-templates = [
-    "From {start_year} to {end_year}, company {company_id}'s ESG score {trend_description}, peaking in {max_year} at {max_score:.2f}. "
-    "Based on this trend, future predictions suggest that the score is likely to {predicted_trend} until {last_pred_year}. This indicates that company {company_id} may continue to face challenges or opportunities in its ESG performance.",
+# Descriptive templates categorized by trend
+improvement_templates = [
+    "From {start_year} to {end_year}, company {company_id}'s ESG score improved from {start_score:.2f} to {end_score:.2f}. "
+    "Based on this trend, future predictions suggest that the score is expected to {predicted_trend} until {last_pred_year}. This indicates that company {company_id} is likely to continue capitalizing on opportunities to further enhance its ESG performance.",
 
-    "Between {start_year} and {end_year}, company {company_id}'s ESG performance {trend_description}, reaching its highest in {max_year} at {max_score:.2f}. "
-    "Looking ahead, predictions show that the company's ESG score may {predicted_trend} through {last_pred_year}. This forecast reflects potential shifts in sustainability efforts and external factors.",
-
-    "Over the course of {start_year} to {end_year}, company {company_id} has {trend_description}, achieving a peak score of {max_score:.2f} in {max_year}. "
-    "Future projections suggest the score may {predicted_trend} until {last_pred_year}, indicating potential shifts in the company's approach to ESG practices.",
-
-    "From {start_year} through {end_year}, the ESG score of company {company_id} {trend_description}, with the highest score being {max_score:.2f} in {max_year}. "
-    "Looking ahead, predictions suggest the score will {predicted_trend} until {last_pred_year}, showing possible impacts of strategic ESG changes.",
-
-    "Company {company_id} demonstrated {trend_description} between {start_year} and {end_year}, peaking in {max_year} at {max_score:.2f}. "
-    "Based on this, predictions for the future indicate the score may {predicted_trend} through {last_pred_year}, reflecting potential sustainability shifts.",
-
-    "Between {start_year} and {end_year}, company {company_id}'s ESG score {trend_description}, reaching a peak of {max_score:.2f} in {max_year}. "
-    "Predictions for the future suggest the score could {predicted_trend} through {last_pred_year}, pointing to either challenges or improvements in ESG efforts.",
-
-    "During the period from {start_year} to {end_year}, company {company_id} saw its ESG score {trend_description}, reaching its highest point in {max_year} at {max_score:.2f}. "
-    "Looking ahead, predictions show the score may {predicted_trend} until {last_pred_year}, reflecting potential changes in the company's ESG strategy.",
-
-    "From {start_year} to {end_year}, company {company_id} experienced {trend_description} in its ESG score, peaking in {max_year} with a score of {max_score:.2f}. "
-    "Projections suggest that by {last_pred_year}, the score may {predicted_trend}, signaling future opportunities or challenges for company {company_id} in terms of ESG performance."
+    "Between {start_year} and {end_year}, company {company_id}'s ESG performance improved from {start_score:.2f} to {end_score:.2f}. "
+    "Looking ahead, predictions show that the company's ESG score may {predicted_trend} through {last_pred_year}. This forecast suggests potential growth in sustainability efforts, influenced by factors such as regulatory changes, market demand for green products, and technological advancements."
 ]
 
-# Simplified trend analysis and random template selection
+decline_templates = [
+    "Between {start_year} and {end_year}, company {company_id}'s ESG performance declined from {start_score:.2f} to {end_score:.2f}. "
+    "Predictions indicate a continued {predicted_trend} until {last_pred_year}, reflecting potential challenges in sustainability efforts, such as increased regulatory pressure, limited access to green technologies, or rising operational costs.",
+
+    "From {start_year} to {end_year}, company {company_id} experienced a decline in its ESG score from {start_score:.2f} to {end_score:.2f}. "
+    "Looking ahead, predictions suggest a {predicted_trend} until {last_pred_year}, signaling future challenges for ESG performance, such as adapting to stricter environmental regulations or addressing stakeholder concerns over sustainability."
+]
+
+fluctuation_templates = [
+    "Over the course of {start_year} to {end_year}, company {company_id} has {trend_description}, achieving a peak score of {max_score:.2f} in {max_year} and a lowest score of {min_score:.2f} in {min_year}. "
+    "Future projections suggest the score may {predicted_trend} until {last_pred_year}, indicating potential shifts in the company's approach to ESG practices, such as adopting new sustainability technologies, improving supply chain transparency, or enhancing employee well-being initiatives.",
+
+    "From {start_year} to {end_year}, company {company_id} experienced {trend_description} in its ESG score, peaking in {max_year} with a score of {max_score:.2f}, and reaching a low in {min_year} with a score of {min_score:.2f}. "
+    "Projections suggest that by {last_pred_year}, the score may {predicted_trend}, signaling future opportunities or challenges for company {company_id} in terms of ESG performance, such as leveraging renewable energy initiatives or responding to evolving consumer expectations."
+]
+
+
+# Simplified trend analysis and template selection
 def analyze_trend_with_template(esg_scores, company_id):
     group = esg_scores[esg_scores['CompanyID'] == company_id].sort_values('Year')
     actual_group = group[group['Data_Type'] == 'Actual']
@@ -67,13 +66,16 @@ def analyze_trend_with_template(esg_scores, company_id):
     # Actual trend
     if all(x < y for x, y in zip(scores, scores[1:])):
         trend_description = "showed consistent improvement"
+        suitable_templates = improvement_templates
     elif all(x > y for x, y in zip(scores, scores[1:])):
         trend_description = "experienced a gradual decline"
+        suitable_templates = decline_templates
     else:
         trend_description = "fluctuated over time"
+        suitable_templates = fluctuation_templates
 
-    # Randomly select one template
-    selected_template = random.choice(templates)
+    # Randomly select one suitable template
+    selected_template = random.choice(suitable_templates)
 
     # Ensure all placeholders are properly filled
     description = selected_template.format(
