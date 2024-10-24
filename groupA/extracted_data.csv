@@ -1,12 +1,1 @@
-Category,Year,Value,Unit
-EnergyConsumption,20,23.0,MWh
-EnergyConsumption,19,1610.0,MWh
-GHGEmissions,20,11.0,tonnes CO2e
-GHGEmissions,19,5800.0,tonnes CO2e
-WaterUsage,20,2200.0,million gallons
-WaterUsage,19,7570.0,million gallons
-WasteGenerated,20,22.0,tonnes
-WasteGenerated,19,95.0,tonnes
-RenewableEnergyUse,20,23.0,MWh
-RenewableEnergyUse,19,1610.0,MWh
-EmployeeCount,19,5.0,employees
+
