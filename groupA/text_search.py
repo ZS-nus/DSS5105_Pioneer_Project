@@ -18,6 +18,12 @@ def check_keywords(content, keywords, similarity_threshold=60):
                     return 1
     return 0
 
+def find_iso_certificates(content):
+    # 使用正则表达式匹配 ISO 证书
+    iso_pattern = r'ISO\s*\d{4,5}(?::\d{4})?'
+    iso_certificates = re.findall(iso_pattern, content)
+    return list(set(iso_certificates))
+
 def scan_txt_files():
     txt_folder = '../txt_files'
     keywords = {
@@ -64,6 +70,9 @@ def scan_txt_files():
                 file_results[category] = f"{category.replace('_', ' ')}:{result}"
             
             results[filename] = file_results
+            
+            iso_certificates = find_iso_certificates(content)
+            file_results['iso_certificates'] = iso_certificates
 
     return results
 
