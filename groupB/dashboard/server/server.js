@@ -332,11 +332,7 @@ app.get('/api/table/governance', async (req, res) => {
         g.BoardComposition,
         g.EthicalBehaviour,
         g.RiskManagement,
-        ROUND(g.BoardIndependence, 2) AS BoardIndependence,
-        ROUND(g.WomenOnBoard, 2) AS WomenOnBoard,
-        g.ManagementDiversity,
-        g.CertificationList,
-        g.Certifications
+        g.CertificationList
       FROM governance g
       INNER JOIN company_info c ON g.CompanyID = c.CompanyID
       INNER JOIN (

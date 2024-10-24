@@ -28,9 +28,22 @@ def scan_txt_files():
     txt_folder = '../txt_files'
     keywords = {
         'data_security': [
-            'data security', 'information protection', 'cybersecurity', 'data privacy',
-            'data breach', 'information security', 'data encryption', 'cyber threat',
+            'data security', 'information protection', 'data privacy',
+            'data breach', 'information security', 'data encryption',
             'data protection', 'secure data', 'data confidentiality', 'data integrity'
+        ],
+        'cybersecurity': [
+            'cybersecurity', 'cyber threat', 'cyber attack', 'cyber risk',
+            'cyber defense', 'cyber incident', 'cyber vulnerability', 'cyber resilience',
+            'cyber protection', 'network security', 'cyber crime', 'malware',
+            'ransomware', 'phishing', 'firewall', 'cyber awareness'
+        ],
+        'customer_privacy': [
+            'customer privacy', 'privacy policy', 'privacy protection', 'privacy rights',
+            'personal information', 'data subject rights', 'privacy compliance', 
+            'privacy notice', 'privacy impact', 'customer consent', 'privacy breach',
+            'privacy risk', 'privacy management', 'data collection', 'data processing',
+            'data retention', 'privacy training', 'privacy framework', 'GDPR', 'CCPA'
         ],
         'ethical_corruption': [
             'ethical conduct', 'anti-corruption', 'bribery', 'integrity',
@@ -49,7 +62,7 @@ def scan_txt_files():
             'board inclusivity', 'diverse perspectives in board', 'board member diversity'
         ],
         'risk_management': [
-            'risk'
+            'risk',
             'risk management', 'risk assessment', 'risk mitigation', 'risk control',
             'enterprise risk management', 'risk identification', 'risk monitoring',
             'risk strategy', 'risk analysis', 'risk reporting', 'risk governance'
