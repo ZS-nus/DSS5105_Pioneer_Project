@@ -1,0 +1,24 @@
+﻿location,scope 1 \ntotal gas (mmbtu),renewable biogas (mmbtu),x \nscope 1 emissions (metric tons co2e)
+Corporate,1007071,746506,42746
+Cupertino CA,805271,202306,32027
+Elk Grove CA,10175,0,540
+Austin TX,24826,0,1319
+Other U.S.,104718,544200,5562
+Cork Ireland,24219,0,1286
+Singapore,518,0,28
+China,960,0,51
+Other international,36384,0,1933
+Data center,740,0,39
+Maiden NC,0,0,0
+Mesa AZ,524,0,28
+Newark CA,0,0,0
+Prineville OR,216,0,11
+Reno NV,0,0,0
+Viborg Denmark,–,–,–
+Colocation facilities (U.S.),–,–,–
+Colocation facilities (international),–,–,–
+China,–,–,–
+Retail stores,58446,0,3105
+Domestic (U.S.),34449,0,1830
+International,23997,0,1275
+Total,1066257,746506,45890

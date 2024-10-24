@@ -1,0 +1,61 @@
+﻿Source_File,Description,Unit,2022,2023
+table_10.csv,Total,MWh,3199000.0,
+table_10.csv,U.S.,MWh,2614000.0,
+table_10.csv,International,MWh,585000.0,
+table_10.csv,Total,MWh,334250.0,
+table_10.csv,Natural gas,MWh,188630.0,
+table_10.csv,Biogas,MWh,76280.0,
+table_10.csv,Propane liquid,MWh,1830.0,
+table_10.csv,Gasoline,MWh,38790.0,
+table_10.csv,Diesel (other),MWh,15610.0,
+table_10.csv,Diesel (mobile combustion),MWh,13120.0,
+table_10.csv,"Steam, heating, and cooling 1",MWh,19800.0,
+table_10.csv,Electricity savings,MWh/year,290220.0,
+table_10.csv,Fuel savings,MMBtu/year,116190.0,
+table_10.csv,Electricity savings,MWh/year,1620425230.0,
+table_10.csv,Fuel savings,MMBtu/year,2038930.0,
+table_10.csv,Renewable electricity used,MWh,3199000.0,
+table_10.csv,Renewable electricity percentage 4,% of total energy,100.0,
+table_10.csv,Scope 2 emissions avoided,metric tons CO 2 e,1201000.0,
+table_10.csv,Renewable electricity capacity (operational),GW,13.7,
+table_10.csv,Renewable electricity capacity (committed),GW,20.0,
+table_10.csv,Renewable electricity used,MWh,23700000.0,
+table_11.csv,,million gallons,,1610
+table_11.csv,,million gallons,,1411
+table_11.csv,,million gallons,,151
+table_11.csv,,million gallons,,48
+table_11.csv,,million gallons,,12700
+table_11.csv,,%,,74
+table_11.csv,,pounds pounds,,38343490 81781660
+table_11.csv,,pounds,,14803510
+table_11.csv,,pounds,,7321130
+table_11.csv,,pounds,,5713790
+table_11.csv,,metric tons,,497000
+table_11.csv,,metric tons,,254270
+table_11.csv,,% of total,,62
+table_11.csv,,% of total,,35
+table_11.csv,,% of total,,3
+table_6.csv,Corporate emissions Gross emissions,,324000.0,
+table_6.csv,(metric tons CO2e)2 Scope 1,,55200.0,
+table_6.csv,"Natural gas, diesel, propane",,39700.0,
+table_6.csv,Fleet vehicles,,12600.0,
+table_6.csv,Other emissions3,,2900.0,
+table_6.csv,Scope 2 (market-based)4,,3000.0,
+table_6.csv,Electricity,,0.0,
+table_6.csv,"Steam, heating, and cooling5",,3000.0,
+table_6.csv,Scope 3,,265800.0,
+table_6.csv,Business travel,,113500.0,
+table_6.csv,Employee commute6,,134200.0,
+table_6.csv,Upstream impacts (scope 1),,10600.0,
+table_6.csv,Work from home (market-based),,7500.0,
+table_6.csv,Third-party cloud (market-based),,0.0,
+table_6.csv,Corporate carbon offsets7,,-3241008.0,
+table_6.csv,Product life Gross emissions (Scope 3),,20280000.0,
+table_6.csv,cycle emissions Manufacturing (purchased goods and services),,13400000.0,
+table_6.csv,(metric tons CO2e)11 Product transportation (upstream and downstream),,1900000.0,
+table_6.csv,Product use (use of sold products),,4900000.0,
+table_6.csv,End-of-life processing,,80000.0,
+table_6.csv,Product carbon offsets,,0.0,
+table_6.csv,Total gross scope 3 emissions (corporate and product) (metric tons CO2e),,20545800.0,
+table_6.csv,Total gross carbon footprint (without offsets) (metric tons CO2e)13,,20600000.0,
+table_6.csv,Total net carbon footprint (after applying offsets) (metric tons CO2e)12,,20300000.0,

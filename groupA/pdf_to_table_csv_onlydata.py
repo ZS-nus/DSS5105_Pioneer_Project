@@ -43,6 +43,9 @@ for i, table in enumerate(tables):
             formatted_table = formatter.format(table)  # Convert CroppedTable to FormattedTable
             df = formatted_table.df()  # Export as Pandas DataFrame
 
+            # Remove 'FY' from any cell containing it
+            df = df.applymap(lambda x: x.replace('FY', '').strip() if isinstance(x, str) else x)
+
             # Check if DataFrame contains numeric values
             if contains_numbers(df):
                 # Replace empty values with 'N/A' to enhance readability
