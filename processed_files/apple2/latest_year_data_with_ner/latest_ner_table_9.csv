@@ -1,0 +1,11 @@
+﻿unnamed: 0,unnamed: 1,storage,configurations,unnamed: 4,unnamed: 5,displays,NER_Results
+16-inch MacBook Pro (2023) Apple M3 Pro chip,kg CO2e,–,290,–,,Pro Display,"[[('16-inch', 'QUANTITY'), ('MacBook Pro', 'ORG'), ('2023', 'DATE'), ('Apple M3 Pro', 'ORG')], [('kg CO2e', 'PERSON')], [], [('290', 'CARDINAL')], [], [], [('Pro Display', 'PERSON')]]"
+16-inch MacBook Pro (2023) Apple M3 Max chip,kg CO2e,–,–,348,,HomePod,"[[('16-inch', 'QUANTITY'), ('MacBook Pro', 'ORG'), ('2023', 'DATE'), ('Apple', 'ORG'), ('M3 Max', 'PERSON')], [('kg CO2e', 'PERSON')], [], [], [('348', 'CARDINAL')], [], [('HomePod', 'ORG')]]"
+14-inch MacBook Pro (2023) Apple M3 chip,kg CO2e,–,202,–,,HomePod,"[[('14-inch', 'QUANTITY'), ('MacBook Pro', 'ORG'), ('2023', 'DATE')], [('kg CO2e', 'PERSON')], [], [('202', 'CARDINAL')], [], [], [('HomePod', 'ORG')]]"
+14-inch MacBook Pro (2023) Apple M3 Pro chip,kg CO2e,–,235,–,,,"[[('14-inch', 'QUANTITY'), ('MacBook Pro', 'ORG'), ('2023', 'DATE'), ('Apple M3 Pro', 'ORG')], [('kg CO2e', 'PERSON')], [], [('235', 'CARDINAL')], [], [], []]"
+14-inch MacBook Pro (2023) Apple M3 Max chip,kg CO2e,–,–,296,,,"[[('14-inch', 'QUANTITY'), ('MacBook Pro', 'ORG'), ('2023', 'DATE'), ('Apple', 'ORG'), ('M3 Max', 'PERSON')], [('kg CO2e', 'PERSON')], [], [], [('296', 'CARDINAL')], [], []]"
+Mac mini (2023) Apple M2 Pro chip,kg CO2e,–,150,–,–,,"[[('2023', 'DATE')], [('kg CO2e', 'PERSON')], [], [('150', 'CARDINAL')], [], [], []]"
+Mac mini (2023) Apple M2 chip,kg CO2e,112,126,–,–,,"[[('2023', 'DATE'), ('Apple M2', 'ORG')], [('kg CO2e', 'PERSON')], [('112', 'CARDINAL')], [('126', 'CARDINAL')], [], [], []]"
+Mac Studio (2023) Apple M2 Max,kg CO2e,–,290,–,–,,"[[('Mac Studio', 'PERSON'), ('2023', 'DATE'), ('M2 Max', 'PERSON')], [('kg CO2e', 'PERSON')], [], [('290', 'CARDINAL')], [], [], []]"
+Mac Studio (2023) Apple M2 Ultra,kg CO2e,–,–,346,–,,"[[('Mac Studio', 'PERSON'), ('2023', 'DATE'), ('Apple M2 Ultra', 'ORG')], [('kg CO2e', 'PERSON')], [], [], [('346', 'CARDINAL')], [], []]"
+Mac Pro (2023),kg CO2e,–,–,1572,–,,"[[('Mac Pro', 'PERSON'), ('2023', 'DATE')], [('kg CO2e', 'PERSON')], [], [], [('1572', 'DATE')], [], []]"
