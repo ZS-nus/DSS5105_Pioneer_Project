@@ -93,7 +93,7 @@ export default function UserReports() {
         </SimpleGrid>
 
         <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
-        <ESG_analysis gap='20px' mb='20px'/>
+        <ESG_analysis gap='20px' mb='20px'company={companyName} data={esg_score}/>
         <Card px='0px' mb='20px'>
           <Flex direction="column" h="100%"> {/* Add this Flex container */}
             <Box pl='10px' pr='10px' flex="1"> {/* Modify this Box */}

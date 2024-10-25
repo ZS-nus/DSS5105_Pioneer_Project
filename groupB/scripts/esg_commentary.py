@@ -1,10 +1,13 @@
 import pandas as pd
 import random
-from db_connect import connect_to_db, fetch_ESG_data, fetch_predict_data, fetch_company_info
+from db_connect import get_connection_pool, fetch_predict_data, fetch_company_info
+
+# Create a connection pool
+db_pool = get_connection_pool()
 
 # Fetch data
-esg_scores_df = pd.DataFrame(fetch_predict_data(connect_to_db()))
-company_info_df = pd.DataFrame(fetch_company_info(connect_to_db())) 
+esg_scores_df = pd.DataFrame(fetch_predict_data(db_pool))
+company_info_df = pd.DataFrame(fetch_company_info(db_pool)) 
 
 # print(esg_scores_df.head())
 
@@ -34,8 +37,8 @@ fluctuation_templates = [
 ]
 
 # Trend analysis with grouped template selection
-def analyze_trend_with_template(esg_scores, company_id, company_info_df):
-    group = esg_scores[esg_scores['CompanyID'] == company_id].sort_values('Year')
+def analyze_trend_with_template(esg_scores_df, company_id, company_info_df):
+    group = esg_scores_df[esg_scores_df['CompanyID'] == company_id].sort_values('Year')
     actual_group = group[group['Data_Type'] == 'Actual']
     predicted_group = group[group['Data_Type'] == 'Predicted']
     
@@ -102,6 +105,6 @@ def analyze_trend_with_template(esg_scores, company_id, company_info_df):
     return description
 
 # Test the function
-company_id = 2 # example
-result = analyze_trend_with_template(esg_scores_df, company_id, company_info_df)
-print(result)
+# company_id = 2 # example
+# result = analyze_trend_with_template(esg_scores_df, company_id, company_info_df)
+# print(result)

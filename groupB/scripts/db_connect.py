@@ -7,16 +7,16 @@ import base64
 from sqlalchemy import create_engine
 from datetime import datetime
 
-def connect_to_db():
-    load_dotenv()
+load_dotenv()
 
+def get_connection_pool():
     db_config = {
         'host': os.getenv('DB_HOST'),
         'port': int(os.getenv('DB_PORT', 3306)),
         'user': os.getenv('DB_USER'),
         'password': os.getenv('DB_PASSWORD'),
         'database': os.getenv('DB_NAME'),
-        'pool_size': 10,
+        'pool_size': 5,
         'pool_name': 'mypool',
         'charset': 'utf8mb4',
         'collation': 'utf8mb4_general_ci'
@@ -28,14 +28,12 @@ def connect_to_db():
         db_config['ssl_ca'] = ssl_cert
         db_config['ssl_verify_cert'] = False
 
-    print(f"Connecting to {db_config['host']}:{db_config['port']} as {db_config['user']}")
-
     try:
         pool = mysql.connector.pooling.MySQLConnectionPool(**db_config)
-        print("Successfully connected to the database.")
+        print("Successfully created the connection pool.")
         return pool
     except mysql.connector.Error as err:
-        print(f"Error connecting to the database: {err}")
+        print(f"Error creating the connection pool: {err}")
         return None
 
 def execute_query(pool, query, params=None):
@@ -60,6 +58,10 @@ def execute_query(pool, query, params=None):
             # Wait for 1 second before retrying
             import time
             time.sleep(1)
+
+def fetch_predict_data(pool):
+    query = "SELECT * FROM esg_predictions"
+    return execute_query(pool, query)
 
 def fetch_company_info(pool):
     query = "SELECT * FROM company_info"
@@ -88,10 +90,6 @@ def fetch_social_data(pool):
 
 def fetch_governance_data(pool):
     query = "SELECT * FROM governance"
-    return execute_query(pool, query)
-
-def fetch_predict_data(pool):
-    query = "SELECT * FROM esg_predictions"
     return execute_query(pool, query)
 
 def update_table(pool, df, table_name):
@@ -161,4 +159,3 @@ def update_predict_table(pool, final_df):
     finally:
         # Close the database connection
         engine.dispose()
-

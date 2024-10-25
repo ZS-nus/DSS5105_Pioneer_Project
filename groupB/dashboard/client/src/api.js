@@ -1,6 +1,7 @@
 import axios from 'axios';
 
 const API_BASE_URL = 'http://localhost:5105/api';
+const PYTHON_API_BASE_URL = 'http://localhost:5106';  // New Python API base URL
 
 const api = axios.create({
   baseURL: API_BASE_URL,
@@ -9,6 +10,20 @@ const api = axios.create({
     // Add any other default headers here
   },
 });
+
+// Create a new axios instance for the Python API
+const pythonApi = axios.create({
+  baseURL: PYTHON_API_BASE_URL,
+  headers: {
+    'Content-Type': 'application/json',
+    // Add any other default headers here
+  },
+});
+
+// Add this new function for fetching ESG commentary from the Python API
+export const fetchESGCommentary = (companyId) => {
+  return pythonApi.post('/dashboard/analysis', { company_id: companyId });
+};
 
 export const loginUser = (credentials) => {
   return api.post('/login', credentials);
