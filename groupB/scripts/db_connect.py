@@ -75,6 +75,10 @@ def fetch_ESG_data(pool):
 
     return execute_query(pool, query)
 
+def fetch_ESG_financial_data(pool):
+    query = "SELECT CompanyID, Final_ESG_Score FROM esg_scores WHERE ReportYear = 2023 AND CompanyID IN (1, 2, 3, 4, 5, 6, 7, 8)"
+
+    return execute_query(pool, query)
 
 def fetch_social_data(pool):
     query = "SELECT * FROM social"
