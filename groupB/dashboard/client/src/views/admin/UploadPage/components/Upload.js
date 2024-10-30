@@ -138,7 +138,7 @@ export default function Upload(props) {
             my={{ base: "auto", "2xl": "10px" }}
             mx='auto'
             textAlign='start'>
-            Our system utilizes advanced Artificial Intelligence technologies to extract and analyze ESG data from unstructured reports.
+            Please make sure the uploaded file is named as the company name. eg: "Apple.pdf"
           </Text>
           <Flex w='100%' direction="column">
             <Button
