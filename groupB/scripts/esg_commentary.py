@@ -14,10 +14,16 @@ company_info_df = pd.DataFrame(fetch_company_info(db_pool))
 # Descriptive templates split by trend type
 improvement_templates = [
     "From {start_year} to {end_year}, {company_name}'s ESG score improved from {start_score:.2f} to {end_score:.2f}. "
-    "Based on this trend, future predictions suggest that the score is expected to {predicted_trend} until {last_pred_year}. This indicates that company {company_name} is likely to continue capitalizing on opportunities to further enhance its ESG performance.",
+    "Based on this trend, future predictions suggest that the score is expected to {predicted_trend} until {last_pred_year}. This indicates that {company_name} is likely to continue capitalizing on opportunities to further enhance its ESG performance.",
 
     "Between {start_year} and {end_year}, {company_name}'s ESG performance improved from {start_score:.2f} to {end_score:.2f}. "
-    "Looking ahead, predictions show that the company's ESG score may {predicted_trend} through {last_pred_year}. This forecast suggests potential growth in sustainability efforts, influenced by factors such as regulatory changes, market demand for green products, and technological advancements."
+    "Looking ahead, predictions show that the company's ESG score may {predicted_trend} through {last_pred_year}. This forecast suggests potential growth in sustainability efforts, influenced by factors such as regulatory changes, market demand for green products, and technological advancements.",
+
+    "{company_name} showed a significant improvement in ESG score from {start_score:.2f} in {start_year} to {end_score:.2f} in {end_year}. "
+    "This positive trend is likely to {predicted_trend} until {last_pred_year}, demonstrating {company_name}'s ongoing commitment to sustainability and corporate responsibility.",
+
+    "Throughout the years from {start_year} to {end_year}, {company_name} managed to increase its ESG score from {start_score:.2f} to {end_score:.2f}. "
+    "Future forecasts suggest that the trend will {predicted_trend} until {last_pred_year}, highlighting the company's successful efforts in enhancing its sustainability practices."
 ]
 
 decline_templates = [
@@ -25,7 +31,13 @@ decline_templates = [
     "Predictions indicate a continued {predicted_trend} until {last_pred_year}, reflecting potential challenges in sustainability efforts, such as increased regulatory pressure, limited access to green technologies, or rising operational costs.",
 
     "From {start_year} to {end_year}, {company_name} experienced a decline in its ESG score from {start_score:.2f} to {end_score:.2f}. "
-    "Looking ahead, predictions suggest a {predicted_trend} until {last_pred_year}, signaling future challenges for ESG performance, such as adapting to stricter environmental regulations or addressing stakeholder concerns over sustainability."
+    "Looking ahead, predictions suggest a {predicted_trend} until {last_pred_year}, signaling future challenges for ESG performance, such as adapting to stricter environmental regulations or addressing stakeholder concerns over sustainability.",
+
+    "From {start_year} to {end_year}, there was a decline in {company_name}'s ESG score, dropping from {start_score:.2f} to {end_score:.2f}. "
+    "Future predictions indicate that the trend may {predicted_trend} until {last_pred_year}, suggesting the need for strategic changes to overcome the challenges faced in sustainability.",
+
+    "{company_name}'s ESG performance witnessed a reduction between {start_year} and {end_year}, with scores falling from {start_score:.2f} to {end_score:.2f}. "
+    "Looking ahead, the score is expected to {predicted_trend} until {last_pred_year}, pointing to potential challenges in maintaining sustainability goals."
 ]
 
 fluctuation_templates = [
@@ -33,8 +45,15 @@ fluctuation_templates = [
     "Future projections suggest the score may {predicted_trend} until {last_pred_year}, indicating potential shifts in the company's approach to ESG practices, such as adopting new sustainability technologies, improving supply chain transparency, or enhancing employee well-being initiatives.",
 
     "From {start_year} to {end_year}, {company_name} experienced {trend_description} in its ESG score, peaking in {max_year} with a score of {max_score:.2f}, and reaching a low in {min_year} with a score of {min_score:.2f}. "
-    "Projections suggest that by {last_pred_year}, the score may {predicted_trend}, signaling future opportunities or challenges for company {company_name} in terms of ESG performance, such as leveraging renewable energy initiatives or responding to evolving consumer expectations."
+    "Projections suggest that by {last_pred_year}, the score may {predicted_trend}, signaling future opportunities or challenges for {company_name} in terms of ESG performance, such as leveraging renewable energy initiatives or responding to evolving consumer expectations.",
+
+    "Between {start_year} and {end_year}, {company_name} experienced fluctuations in ESG performance, with the highest score being {max_score:.2f} in {max_year} and the lowest score being {min_score:.2f} in {min_year}. "
+    "The future trend is predicted to {predicted_trend} until {last_pred_year}, indicating that {company_name} might need to focus on stabilizing its sustainability initiatives.",
+
+    "From {start_year} to {end_year}, {company_name} showed variability in ESG scores, reaching a peak at {max_score:.2f} in {max_year} and a low of {min_score:.2f} in {min_year}. "
+    "Future predictions suggest that the scores may {predicted_trend} until {last_pred_year}, highlighting the dynamic nature of {company_name}'s ESG efforts and the opportunities to improve consistency."
 ]
+
 
 # Trend analysis with grouped template selection
 def analyze_trend_with_template(esg_scores_df, company_id, company_info_df):
