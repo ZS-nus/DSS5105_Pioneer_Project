@@ -502,7 +502,7 @@ export const barChartOptionsConsumption = {
   },
   xaxis: {
     categories: ["17", "18", "19", "20", "21", "22", "23", "24", "25"],
-    show: false,
+    show: true,
     labels: {
       show: true,
       style: {
@@ -512,17 +512,17 @@ export const barChartOptionsConsumption = {
       },
     },
     axisBorder: {
-      show: false,
+      show: true,
     },
     axisTicks: {
-      show: false,
+      show: true,
     },
   },
   yaxis: {
-    show: false,
+    show: true,
     color: "black",
     labels: {
-      show: false,
+      show: true,
       style: {
         colors: "#A3AED0",
         fontSize: "14px",
@@ -536,7 +536,7 @@ export const barChartOptionsConsumption = {
     show: true,
     yaxis: {
       lines: {
-        show: false,
+        show: true,
         opacity: 0.5,
       },
     },
