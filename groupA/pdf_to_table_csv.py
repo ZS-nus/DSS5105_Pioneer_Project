@@ -7,6 +7,12 @@ import torch
 from fuzzywuzzy import process
 import platform
 
+# Set logging level to ERROR to suppress WARNING messages
+# Suppress only the fuzzy matching warnings
+logging.getLogger('root').setLevel(logging.ERROR)
+# Keep processing information
+logging.getLogger('processing').setLevel(logging.INFO)
+
 # Update imports to use recommended paths
 from gmft.detectors.tatr import TATRTableDetectorConfig
 from gmft.formatters.tatr import TATRFormatConfig
@@ -14,11 +20,11 @@ from gmft.auto import AutoTableDetector, AutoTableFormatter
 from gmft.pdf_bindings import PyPDFium2Document
 
 # Configure logging with more detailed format
-logging.basicConfig(
-    filename='table_extraction.log',
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
-)
+# logging.basicConfig(
+#     filename='table_extraction.log',
+#     level=logging.INFO,
+#     format='%(asctime)s - %(levelname)s - %(message)s'
+# )
 
 def get_device():
     """
@@ -65,12 +71,12 @@ print("-" * 50 + "\n")
 
 # Create detector and formatter configurations
 detector_config = TATRTableDetectorConfig(
-    detector_base_threshold=0.7,
+    detector_base_threshold=0.5,
     torch_device=device
 )
 
 formatter_config = TATRFormatConfig(
-    formatter_base_threshold=0.7,  # Base threshold for table feature confidence
+    formatter_base_threshold=0.3,  # Base threshold for table feature confidence
     image_processor_path='microsoft/table-transformer-detection',
     formatter_path='microsoft/table-transformer-structure-recognition',
     no_timm=True,
@@ -130,20 +136,33 @@ def clean_dataframe(df):
     return df
 
 def check_numeric_content(df):
-    numeric_cols = df.apply(lambda s: pd.to_numeric(s, errors='coerce').notnull().mean() > 0.5)
+    def is_numeric(x):
+        try:
+            float(str(x).replace(',', '').replace('%', ''))
+            return True
+        except:
+            return False
+    
+    numeric_cols = df.apply(lambda s: s.map(lambda x: is_numeric(x)).mean() > 0.2)  # Lowered from 0.3 to 0.2
     return numeric_cols.any()
 
 def contains_year(df):
-    """Check if the DataFrame contains any year values."""
-    year_pattern = r'\b(19|20)\d{2}\b'
+    # Match years like 2023, FY2023, FY23, 2023/24
+    year_pattern = r'\b(19|20)\d{2}\b|FY\d{2,4}|\d{4}/\d{2,4}'
     
-    # Replace applymap with map for each column
-    has_year = any(
-        df[col].map(lambda x: bool(re.search(year_pattern, str(x)))).any()
+    def check_year(x):
+        if isinstance(x, str):
+            return bool(re.search(year_pattern, x))
+        return False
+
+    # Check both column names and content
+    has_year_in_cols = any(check_year(col) for col in df.columns)
+    has_year_in_data = any(
+        df[col].map(lambda x: check_year(str(x))).any()
         for col in df.columns
     )
     
-    return has_year
+    return has_year_in_cols or has_year_in_data
 
 def validate_data(df):
     # Implement data validation logic as needed
@@ -179,23 +198,33 @@ def process_tables(pdf_path, output_dir):
         valid_table_count = 0
 
         for i, table in enumerate(tables):
-            logging.info(f"Processing Table {i + 1}")
+            print(f"\nProcessing Table {i + 1}")
 
             try:
                 df = process_complex_table(table)
                 df = clean_dataframe(df)
                 df = normalize_headers(df)
+                
+                print(f"\nTable {i + 1} Content:")
+                print(df)
+                print("\nColumns:", df.columns.tolist())
 
-                if check_numeric_content(df) and contains_year(df) and validate_data(df):
+                # Add debugging information
+                has_numeric = check_numeric_content(df)
+                has_year = contains_year(df)
+                print(f"Has numeric content: {has_numeric}")
+                print(f"Has year information: {has_year}")
+
+                if has_numeric and has_year and validate_data(df):
                     valid_table_count += 1
                     csv_filename = os.path.join(output_dir, f"table_{valid_table_count}.csv")
                     df.to_csv(csv_filename, index=False, encoding='utf-8-sig')
-                    logging.info(f"Table {i + 1} saved as table_{valid_table_count}.csv")
+                    print(f"Table {i + 1} saved as table_{valid_table_count}.csv")
                 else:
-                    logging.warning(f"Table {i + 1} rejected: Does not meet criteria")
+                    print(f"Table {i + 1} rejected: numeric={has_numeric}, year={has_year}")
 
             except Exception as e:
-                logging.error(f"Error processing table {i + 1}: {str(e)}")
+                print(f"Error processing table {i + 1}: {str(e)}")
 
         logging.info(f"Processing complete. {valid_table_count} valid tables saved.")
         return valid_table_count
@@ -226,8 +255,13 @@ def convert_pdf_to_csv(pdf_path: str, output_dir: str) -> dict:
         }
 
 if __name__ == "__main__":
-    pdf_path = "../ESG_reports/samsung.pdf"
-    output_dir = "../labeled_files/samsung/"
+    pdf_path = "../ESG_reports/tencent.pdf"
+    output_dir = "../labeled_files/tencent/"
 
     result = convert_pdf_to_csv(pdf_path, output_dir)
     print(result)
+
+    print(f"PyTorch version: {torch.__version__}")
+    print(f"CUDA available: {torch.cuda.is_available()}")
+    if torch.cuda.is_available():
+        print(f"CUDA device: {torch.cuda.get_device_name(0)}")

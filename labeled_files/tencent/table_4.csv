@@ -1,0 +1,15 @@
+﻿Indicators \nWater Resources,WaterUsage(tonne (Mt)),"Year ended 2023 \n8,191,328.4 \n13.5","31 December 2022 \n8,152,481.9 \n14.7","2021 \n6,201,651.6 \n11.1"
+Waste,Reusing amount of electronic equipment (tonnes)13,"4,298.5","2,740.6",
+,Resource utilisation amount of electronic waste (tonnes)14,369.7,166.0,
+,Non-hazardous waste (tonnes)15,"46,536.4","33,062.4","29,849.9"
+,Non-hazardous waste per unit of revenue (kg/RMB million)15,76.4,59.6,53.3
+,"Hazardous waste (tonnes)14, 16","1,321.7","1,051.0",323.7
+,Hazardous waste per unit of revenue,2.2,1.9,0.6
+Notes:,"(kg/RMB million)14, 16",,,
+1. The material emissions of,Tencent are GHG emissions caused by the combustion of fuels and the purchased electricity,produced from fossil fuels.,,
+"2. Since 2022, Tencent's GHG verified by a third party. 3. Total GHG emissions are","emissions have been calculated in accordance with GHG Protocol Corporate Standard, calculated using the market-based method. Due to rounding, the sum of Scope 1, Scope 2","SBTi guidance for ICT companies and (market-based), and Scope 3 for 2023 is","ISO 14064-1:2018. The GHG emissions 5,793,823.8 tCO2e, which marginally","(Scope 1, 2, 3) have exceeds the presented"
+"by 0.1. In 2023, we have 4. Since 2022, fugitive","added the calculation of Scope 2 (location-based) emissions, amounting to 2,922,093.6 tCO2e. emissions (including fire extinguishers and methane emissions) are included in the calculation",of Scope 1. This adjustment is in line,with the SBTi guidelines and improves,the completeness of
+emission calculation. 2021 5. The increase in Scope 1 carbon emissions for that 6. Electricity emissions in,data is not restated due to lack of historical data. emissions in 2023 is a normal fluctuation caused by the refilling cycle of fire extinguishers. The year. China are calculated using the National Grid Emission Factors published by the Chinese Ministry,refilling cycle of fire extinguishers of Ecology and Environment.,"is typically five years, and the refilled",amount is calculated
+"7. Since 2022, we have added","two more scope 3 categories: ""fuel and energy related activities (not included in Scope 1 and","Scope 2)"" and ""downstream leased","assets"". These new categories are",in line with the SBTi guidance
+for ICT companies. 8. The total energy consumption,is calculated with reference to the coe cients in the National Standards of the PRC General,Principles for Calculation of the,Comprehensive Energy Consumption,(GB/T 2589-2020).
+9. The increase in gasoline,consumption mainly comes from the increase in demand for administrative vehicles in 2023.,"Due to the impact of the pandemic,",business travel in 2022 remained relatively,low.
