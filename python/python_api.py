@@ -2,10 +2,13 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from typing import List, Optional
 import pandas as pd
+from pathlib import Path
+import os
 from scripts.db_connect import get_connection_pool, fetch_environmental_data, fetch_social_data, fetch_governance_data, fetch_ESG_data, fetch_predict_data, fetch_company_info, update_table, update_predict_table
 from scripts.esg_score import calculate_environmental_score, calculate_social_score, calculate_governance_score, decimal_to_float
 from scripts.predict import generate_predictions
 from scripts.esg_commentary import analyze_trend_with_template
+from scripts.convert_pdf_text import PDFConverter
 import uvicorn
 
 # pip install fastapi
@@ -26,6 +29,13 @@ app.add_middleware(
 )
 
 db_pool = get_connection_pool()
+
+# Initialize storage paths
+STORAGE_DIR = Path("storage")
+STORAGE_DIR.mkdir(exist_ok=True)
+
+# Initialize PDFConverter
+pdf_converter = PDFConverter(STORAGE_DIR)
 
 @app.get("/")
 async def root():
@@ -104,6 +114,55 @@ async def get_commentary(company_id: int):
         raise he
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/convert-to-text/{file_name}")
+async def convert_to_text(file_name: str):
+    """
+    Convert PDF to text format with table extraction.
+    Uses file_name from the path parameter to process PDF from storage.
+    """
+    try:
+        # Validate file name and extension
+        if not file_name.lower().endswith('.pdf'):
+            raise HTTPException(
+                status_code=400, 
+                detail="Invalid file format. File must be a PDF."
+            )
+        
+        # Construct paths
+        pdf_path = STORAGE_DIR / "pdf_uploads" / file_name
+        txt_filename = os.path.splitext(file_name)[0] + '.txt'
+        
+        # Check if PDF exists
+        if not pdf_path.exists():
+            raise HTTPException(
+                status_code=404,
+                detail=f"PDF file '{file_name}' not found in storage."
+            )
+        
+        # Process PDF
+        result = pdf_converter.process_pdf(str(pdf_path), txt_filename)
+        
+        if result["status"] == "error":
+            raise HTTPException(
+                status_code=500,
+                detail=result["message"]
+            )
+            
+        return {
+            "message": "PDF converted successfully",
+            "original_filename": file_name,
+            "pdf_path": result["pdf_path"],
+            "txt_path": result["txt_path"]
+        }
+        
+    except HTTPException as he:
+        raise he
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"An error occurred while processing the PDF: {str(e)}"
+        )
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=5106)
