@@ -4,10 +4,10 @@ import Card from "components/card/Card.js";
 import React, { useState, useEffect, useCallback, useMemo } from "react";
 import Information from "views/admin/profile/components/Information";
 import LineChartMenu from 'views/admin/default/components/line_chart_menu';  
-import { fetchESGCommentary } from '../../../../api';  // Import the function
-import { debounce } from 'lodash';  // Import debounce from lodash
+import { fetchESGCommentary } from '../../../../api';
+import { debounce } from 'lodash';
 
-// Assets
+// Process data helper function
 const processData = (data) => {
   const companyData = {};
   data.forEach(item => {
@@ -20,6 +20,7 @@ const processData = (data) => {
 
 export default function ESG_analysis(props) {
   const { data, ...rest } = props;
+  
   // Chakra Color Mode
   const textColorPrimary = useColorModeValue("secondaryGray.900", "white");
   const textColorSecondary = "gray.400";
@@ -29,41 +30,59 @@ export default function ESG_analysis(props) {
   );
   const textColor = useColorModeValue("secondaryGray.900", "white");
 
+  // State management
   const [processedData, setProcessedData] = useState({});
   const [selectedCompany, setSelectedCompany] = useState(null);
   const [commentary, setCommentary] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState(null);
 
-  const fetchCommentary = useCallback(
-    debounce((companyId) => {
-      if (companyId) {
-        fetchESGCommentary(companyId)
-          .then(response => {
-            setCommentary(response.data.commentary);
-          })
-          .catch(error => {
-            console.error("Error fetching commentary:", error);
-            setCommentary("Failed to fetch commentary.");
-          });
+  // Fetch commentary function
+  const fetchCommentary = useCallback(async (companyId) => {
+    if (!companyId) return;
+    
+    setIsLoading(true);
+    setError(null);
+    
+    try {
+      const response = await fetchESGCommentary(companyId);
+      if (response.data && response.data.commentary) {
+        setCommentary(response.data.commentary);
+      } else {
+        setCommentary("No analysis available for this company.");
       }
-    }, 300),
-    []
-  );
+    } catch (error) {
+      console.error("Error fetching commentary:", error);
+      setError("Failed to fetch company analysis. Please try again later.");
+      setCommentary("");
+    } finally {
+      setIsLoading(false);
+    }
+  }, []);
 
+  // Initialize data and fetch first company's commentary
   useEffect(() => {
     if (data && data.length > 0) {
       const processed = processData(data);
       setProcessedData(processed);
-      const firstCompanyName = data[0].CompanyName;  // Change this line
-      const firstCompanyId = data[0].CompanyID;
-      setSelectedCompany(firstCompanyName);  // Set the name, not the ID
-      fetchCommentary(firstCompanyId);  // Still fetch commentary using the ID
+      
+      // Set initial company and fetch its commentary
+      const firstCompanyName = Object.keys(processed)[0];
+      const firstCompanyData = processed[firstCompanyName];
+      
+      if (firstCompanyData) {
+        setSelectedCompany(firstCompanyName);
+        fetchCommentary(firstCompanyData.CompanyID);
+      }
     }
   }, [data, fetchCommentary]);
 
+  // Memoize menu items
   const menuItems = useMemo(() => 
     Object.keys(processedData)
   , [processedData]);
 
+  // Handle company selection
   const handleCompanySelect = useCallback((companyName) => {
     const selectedCompanyData = processedData[companyName];
     if (selectedCompanyData) {
@@ -96,9 +115,20 @@ export default function ESG_analysis(props) {
           selectedCompany={selectedCompany}
         />
       </Flex>
-      <Text color={textColorPrimary} fontSize='md' me='26px' mb='40px'>
-        {commentary || "Select a company to view its ESG analysis."}
-      </Text>
+      
+      {isLoading ? (
+        <Text color={textColorSecondary} fontSize='md' me='26px' mb='40px'>
+          Loading analysis...
+        </Text>
+      ) : error ? (
+        <Text color="red.500" fontSize='md' me='26px' mb='40px'>
+          {error}
+        </Text>
+      ) : (
+        <Text color={textColorPrimary} fontSize='md' me='26px' mb='40px'>
+          {commentary || "Select a company to view its ESG analysis."}
+        </Text>
+      )}
     </Card>
   );
 }

@@ -22,7 +22,7 @@ const pythonApi = axios.create({
 
 // Add this new function for fetching ESG commentary from the Python API
 export const fetchESGCommentary = (companyId) => {
-  return pythonApi.post('/dashboard/analysis', { company_id: companyId });
+  return pythonApi.get(`/dashboard/analysis/${companyId}`);
 };
 
 export const loginUser = (credentials) => {
