@@ -266,9 +266,6 @@ app.get('/api/table/social', async (req, res) => {
         s.Cybersecurity,
         ROUND(s.MalePercentage, 2) AS MalePercentage,
         ROUND(s.FemalePercentage, 2) AS FemalePercentage,
-        ROUND(s.AgeUnder30, 2) AS AgeUnder30,
-        ROUND(s.Age30to50, 2) AS Age30to50,
-        ROUND(s.AgeAbove50, 2) AS AgeAbove50,
         ROUND(s.TrainingHours, 1) AS TrainingHours,
         s.WorkRelatedInjuries
       FROM social s
@@ -407,17 +404,27 @@ app.get('/api/s3/storage/files', async (req, res) => {
 
 // Placeholder function for calling the Python API
 async function callPythonExtractionAPI(fileName) {
-  // This URL should be updated when the actual API is available
-  const pythonAPIUrl = process.env.PYTHON_Extraction_API_URL;
-  
-  try {
-    const response = await axios.post(pythonAPIUrl, { fileName });
-    console.log('Python API response:', response.data);
-    return response.data;
-  } catch (error) {
-    console.error('Error calling Python API:', error);
-    throw error;
-  }
+    const pythonAPIUrl = process.env.PYTHON_Extraction_API_URL;
+    
+    try {
+        // First call the fetch endpoint to process the PDF
+        const fetchResponse = await axios.post(`${pythonAPIUrl}/reports/fetch/${encodeURIComponent(fileName)}`);
+        console.log('Python API fetch response:', fetchResponse.data);
+
+        if (fetchResponse.data.status === 'success') {
+            // If fetch was successful, call the extract endpoint
+            const extractResponse = await axios.post(
+                `${pythonAPIUrl}/reports/extract/text/${encodeURIComponent(fileName)}`
+            );
+            console.log('Python API extract response:', extractResponse.data);
+            return extractResponse.data;
+        } else {
+            throw new Error('Failed to fetch and process the PDF');
+        }
+    } catch (error) {
+        console.error('Error calling Python API:', error);
+        throw error;
+    }
 }
 
 

@@ -386,35 +386,115 @@ async def extract_report_text(report_name: str):
     """Extract and analyze text content of a processed report"""
     logger.info(f"Received request to extract text from report: {report_name}")
     try:
-        # Construct path to text file
-        txt_filename = os.path.splitext(report_name)[0] + '.txt'
-        txt_path = STORAGE_DIR / "txt_outputs" / txt_filename
+        # Extract company name from filename (remove date prefix and .txt extension)
+        company_name = '_'.join(report_name.split('_')[2:]).replace('.txt', '')
+        company_name = company_name.upper()  # Convert to uppercase for consistency
         
-        # Check if text file exists
-        if not txt_path.exists():
-            logger.error(f"Text file not found: {txt_filename}")
-            raise HTTPException(
-                status_code=404,
-                detail=f"Text file for '{report_name}' not found. Please process the PDF first."
+        # Get database connection from pool
+        conn = db_pool.get_connection()
+        try:
+            cursor = conn.cursor()
+            
+            # Check if company exists and get CompanyID
+            cursor.execute(
+                "SELECT CompanyID FROM company_info WHERE UPPER(CompanyName) = %s",
+                (company_name,)
             )
-        
-        # Analyze the report
-        result = report_analyzer.analyze_report(str(txt_path))
-        
-        if result["status"] == "error":
-            logger.error(f"Error extracting text: {result['message']}")
-            raise HTTPException(
-                status_code=500,
-                detail=result["message"]
-            )
-        
-        logger.info("Successfully extracted text from report")
-        return {
-            "status": "success",
-            "report_name": report_name,
-            "analysis": result["analysis"]
-        }
-        
+            result = cursor.fetchone()
+            
+            if not result:
+                # Company doesn't exist, insert it
+                cursor.execute(
+                    """INSERT INTO company_info 
+                       (CompanyName, Sector, Location, FoundedYear, Website) 
+                       VALUES (%s, 'Technology', 'Unknown', NULL, NULL)""",
+                    (company_name,)
+                )
+                company_id = cursor.lastrowid
+            else:
+                company_id = result[0]
+
+            # Analyze the report
+            txt_path = STORAGE_DIR / "txt_outputs" / f"{report_name}"
+            if not txt_path.exists():
+                raise HTTPException(
+                    status_code=404,
+                    detail=f"Text file for '{report_name}' not found. Please process the PDF first."
+                )
+            
+            result = report_analyzer.analyze_report(str(txt_path))
+            
+            if result["status"] == "error":
+                raise HTTPException(
+                    status_code=500,
+                    detail=result["message"]
+                )
+
+            # Update governance table
+            analysis = result["analysis"]
+            cert_count = len(analysis.get('iso_certificates', []))
+            
+            # First update governance table
+            cursor.execute("""
+                INSERT INTO governance 
+                (CompanyID, ReportYear, BoardComposition, EthicalBehaviour, RiskManagement, CertificationList)
+                VALUES (%s, %s, %s, %s, %s, %s)
+                ON DUPLICATE KEY UPDATE
+                BoardComposition = VALUES(BoardComposition),
+                EthicalBehaviour = VALUES(EthicalBehaviour),
+                RiskManagement = VALUES(RiskManagement),
+                CertificationList = VALUES(CertificationList)
+            """, (
+                company_id,
+                analysis['report_year'],
+                1 if analysis.get('board_diversity', 0) > 0 else 0,
+                1 if analysis.get('ethical_corruption', 0) > 0 else 0,
+                1 if analysis.get('risk_management', 0) > 0 else 0,
+                cert_count
+            ))
+
+            # Then update social table
+            cursor.execute("""
+                INSERT INTO social 
+                (CompanyID, ReportYear, DataSecurity, CustomerPrivacy, Cybersecurity, 
+                 GenderStats, AgeStats, EmployeeCount, MalePercentage, FemalePercentage, 
+                 TrainingHours, WorkRelatedInjuries)
+                VALUES (%s, %s, %s, %s, %s, %s, %s, NULL, NULL, NULL, NULL, NULL)
+                ON DUPLICATE KEY UPDATE
+                DataSecurity = VALUES(DataSecurity),
+                CustomerPrivacy = VALUES(CustomerPrivacy),
+                Cybersecurity = VALUES(Cybersecurity),
+                GenderStats = VALUES(GenderStats),
+                AgeStats = VALUES(AgeStats)
+            """, (
+                company_id,
+                analysis['report_year'],
+                1 if analysis.get('data_security', 0) > 0 else 0,
+                1 if analysis.get('customer_privacy', 0) > 0 else 0,
+                1 if analysis.get('cybersecurity', 0) > 0 else 0,
+                1 if analysis.get('gender_diversity', 0) > 0 else 0,
+                1 if analysis.get('age_diversity', 0) > 0 else 0
+            ))
+            
+            conn.commit()
+            
+            return {
+                "status": "success",
+                "report_name": report_name,
+                "company_id": company_id,
+                "analysis": result["analysis"],
+                "database_update": {
+                    "company": company_name,
+                    "report_year": analysis['report_year'],
+                    "governance_updated": True,
+                    "social_updated": True
+                }
+            }
+
+        finally:
+            cursor.close()
+            conn.close()
+            
     except HTTPException as he:
         raise he
     except Exception as e:

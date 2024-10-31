@@ -106,10 +106,49 @@ class ReportAnalyzer:
         return 0
 
     def find_iso_certificates(self, content: str) -> list:
-        """Find ISO certificates in content"""
+        """Find ISO certificates in content and normalize them"""
         iso_pattern = r'ISO\s*\d{4,5}(?::\d{4})?'
         iso_certificates = re.findall(iso_pattern, content)
-        return list(set(iso_certificates))
+        
+        # Set cutoff year (current year - 3)
+        cutoff_year = self.current_year - 3
+        
+        # Track which base numbers should be excluded (due to old versions)
+        excluded_base_numbers = set()
+        valid_certs = {}
+        
+        for cert in iso_certificates:
+            # Remove spaces and convert to uppercase
+            cert = re.sub(r'\s+', '', cert).upper()
+            
+            # Extract the base ISO number and version year if exists
+            base_match = re.match(r'ISO(\d+)(?::(\d{4}))?', cert)
+            if not base_match:
+                continue
+                
+            base_number = base_match.group(1)
+            version_year = base_match.group(2)
+            
+            if version_year:
+                if int(version_year) < cutoff_year:
+                    # If version is too old, exclude this base number entirely
+                    excluded_base_numbers.add(base_number)
+                else:
+                    # If version is recent enough, store it
+                    if (base_number not in valid_certs or 
+                        ':' not in valid_certs[base_number] or 
+                        int(version_year) > int(valid_certs[base_number].split(':')[1])):
+                        valid_certs[base_number] = f"ISO{base_number}:{version_year}"
+            else:
+                # Store base version only if we haven't seen any version of it yet
+                if base_number not in excluded_base_numbers and base_number not in valid_certs:
+                    valid_certs[base_number] = f"ISO{base_number}"
+        
+        # Remove any base versions where we found old versions
+        final_certs = [cert for base_num, cert in valid_certs.items() 
+                       if base_num not in excluded_base_numbers]
+        
+        return sorted(final_certs)
 
     def detect_report_year(self, content: str) -> int:
         """Detect the report year from content"""
