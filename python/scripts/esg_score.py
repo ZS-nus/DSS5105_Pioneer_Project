@@ -44,6 +44,9 @@ def calculate_environmental_score(env_data, pax):
     env_metric = ['EnergyConsumption', 'GHGEmissions', 'WaterUsage', 'WasteGenerated'] # renewable removed
     env_data = pd.merge(pax, env_data, how='inner', on=['CompanyID', 'ReportYear'])
     
+    # Fill missing EmployeeCount values with the mean of the EmployeeCount column
+    env_data['EmployeeCount'].fillna(env_data['EmployeeCount'].mean(), inplace=True)
+    
     for col in env_metric:
         env_data[col] = env_data[col].apply(decimal_to_float)
         env_data['EmployeeCount'] = env_data['EmployeeCount'].apply(decimal_to_float)
