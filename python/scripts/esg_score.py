@@ -1,7 +1,25 @@
+import sys
+import os
+from pathlib import Path
+
+# Get the absolute path to the script's directory
+script_dir = Path(__file__).parent.absolute()
+
+# Add both the script's directory and its parent to the Python path
+sys.path.append(str(script_dir))  # For db_connect.py
+sys.path.append(str(script_dir.parent))  # For config.py
+
+from db_connect import get_connection_pool, fetch_company_info, fetch_environmental_data, fetch_social_data, fetch_governance_data, update_table
 import pandas as pd
 import numpy as np
 from decimal import Decimal
-from .db_connect import get_connection_pool, fetch_company_info, fetch_environmental_data, fetch_social_data, fetch_governance_data, update_table
+
+# Define ESG weights
+ESG_WEIGHTS = {
+    'Environmental': 0.4,
+    'Social': 0.3,
+    'Governance': 0.3
+}
 
 def decimal_to_float(value):
     if isinstance(value, Decimal):
@@ -100,6 +118,11 @@ def main():
     social_data = pd.DataFrame(fetch_social_data(db_pool))
     gov_data = pd.DataFrame(fetch_governance_data(db_pool))
     
+    # Debug: Print the shapes of our dataframes
+    print(f"Environmental data shape: {env_data.shape}")
+    print(f"Social data shape: {social_data.shape}")
+    print(f"Governance data shape: {gov_data.shape}")
+    
     # Prepare pax data
     pax = social_data[['CompanyID', 'EmployeeCount', 'ReportYear']].copy()
     pax['EmployeeCount'] = pax['EmployeeCount'].apply(decimal_to_float)
@@ -107,21 +130,14 @@ def main():
     
     # Calculate scores
     environmental_score = calculate_environmental_score(env_data, pax)
-    # Create environmental score DataFrame
-    e_score_df = pd.DataFrame({
-        'CompanyID': env_data['CompanyID'],
-        'ReportYear': env_data['ReportYear'],
-        'Environmental_Score': environmental_score
-    })
-    
-    # Fill NaN values and ensure scores are capped at 10
-    e_score_df = e_score_df.fillna(0)
-    e_score_df['Environmental_Score'] = e_score_df['Environmental_Score'].clip(0, 10)
-    
-    
-    # Calculate and update other scores as before...
     social_score = calculate_social_score(social_data)
     governance_score = calculate_governance_score(gov_data)
+    
+    # Debug: Print sample of scores
+    print("\nSample of calculated scores:")
+    print("Environmental scores:", environmental_score.head())
+    print("Social scores:", social_score.head())
+    print("Governance scores:", governance_score.head())
     
     # Combine scores into a single DataFrame for ESG scores
     esg_score = pd.DataFrame({
@@ -132,20 +148,31 @@ def main():
         'Governance_Score': governance_score
     })
 
-    # Fill NaN values and process ESG scores as before...
+    # Fill NaN values and process ESG scores
     esg_score = esg_score.fillna(0)
     for col in ['Environmental_Score', 'Social_Score', 'Governance_Score']:
         esg_score[col] = esg_score[col].clip(0, 10)
-
+    
+    # Debug: Print before final calculation
+    print("\nBefore final ESG calculation:")
+    print(esg_score.head())
+    
+    # Calculate final ESG score with weights
     esg_score['Final_ESG_score'] = (
-        esg_score['Environmental_Score'] * 0.35 +
-        esg_score['Social_Score'] * 0.45 +
-        esg_score['Governance_Score'] * 0.20
+        esg_score['Environmental_Score'] * ESG_WEIGHTS['Environmental'] +
+        esg_score['Social_Score'] * ESG_WEIGHTS['Social'] +
+        esg_score['Governance_Score'] * ESG_WEIGHTS['Governance']
     )
     esg_score['Final_ESG_score'] = esg_score['Final_ESG_score'].clip(0, 10)
     
+    # Debug: Print after final calculation
+    print("\nAfter final ESG calculation:")
+    print(esg_score.head())
+    
     # Update the ESG scores table
+    print("\nUpdating database...")
     update_table(db_pool, esg_score, 'esg_scores')
+    print("Database update complete")
 
 if __name__ == "__main__":
     main()

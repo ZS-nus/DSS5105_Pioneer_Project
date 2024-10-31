@@ -167,9 +167,9 @@ async def calculate_esg():
         })
         
         esg_score['Final_ESG_score'] = (
-            esg_score['Environmental_Score'] * 0.35 +
-            esg_score['Social_Score'] * 0.45 +
-            esg_score['Governance_Score'] * 0.20
+            esg_score['Environmental_Score'] * 0.4 +
+            esg_score['Social_Score'] * 0.3 +
+            esg_score['Governance_Score'] * 0.3
         )
         
         # Update database
