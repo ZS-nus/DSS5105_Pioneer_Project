@@ -9,7 +9,14 @@ from scripts.esg_score import calculate_environmental_score, calculate_social_sc
 from scripts.predict import generate_predictions
 from scripts.esg_commentary import analyze_trend_with_template
 from scripts.convert_pdf_text import PDFConverter
+from scripts.storage_cleanup import StorageManager
 import uvicorn
+import schedule
+import time
+from threading import Thread
+from scripts.fetch_report import FirebaseStorageManager
+import logging
+from scripts.report_extraction_text import ReportAnalyzer
 
 # pip install fastapi
 # pip install uvicorn
@@ -37,9 +44,100 @@ STORAGE_DIR.mkdir(exist_ok=True)
 # Initialize PDFConverter
 pdf_converter = PDFConverter(STORAGE_DIR)
 
+# Initialize storage manager
+storage_manager = StorageManager(
+    storage_dir="storage",
+    max_age_days=7,    # Keep files for 7 days
+    max_size_mb=500    # Keep maximum 500MB of files
+)
+
+# Initialize Firebase Storage Manager
+firebase_manager = FirebaseStorageManager(
+    credential_path='./scripts/pioneer_key.json',  # Adjust path as needed
+    storage_dir=STORAGE_DIR
+)
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger('pioneer_api')
+
+# Add after other initializations
+report_analyzer = ReportAnalyzer()
+
+def run_cleanup_schedule():
+    """Run cleanup job on schedule"""
+    while True:
+        schedule.run_pending()
+        time.sleep(3600)  # Check every hour
+
+# Schedule cleanup to run daily at midnight
+schedule.every().day.at("00:00").do(storage_manager.cleanup)
+
+# Start the cleanup scheduler in a separate thread
+cleanup_thread = Thread(target=run_cleanup_schedule, daemon=True)
+cleanup_thread.start()
+
 @app.get("/")
 async def root():
     return {"message": "Pioneer Python API"}
+
+# Add cleanup check before processing new files
+@app.post("/convert-to-text/{file_name}")
+async def convert_to_text(file_name: str):
+    """
+    Convert PDF to text format with table extraction.
+    Uses file_name from the path parameter to process PDF from storage.
+    """
+    try:
+        # Run cleanup check before processing
+        storage_manager.cleanup()
+        
+        # Validate file name and extension
+        if not file_name.lower().endswith('.pdf'):
+            raise HTTPException(
+                status_code=400, 
+                detail="Invalid file format. File must be a PDF."
+            )
+        
+        # Construct paths
+        pdf_path = STORAGE_DIR / "pdf_uploads" / file_name
+        txt_filename = os.path.splitext(file_name)[0] + '.txt'
+        
+        # Check if PDF exists
+        if not pdf_path.exists():
+            raise HTTPException(
+                status_code=404,
+                detail=f"PDF file '{file_name}' not found in storage."
+            )
+        
+        # Process PDF
+        result = pdf_converter.process_pdf(str(pdf_path), txt_filename)
+        
+        if result["status"] == "error":
+            raise HTTPException(
+                status_code=500,
+                detail=result["message"]
+            )
+            
+        return {
+            "message": "PDF converted successfully",
+            "original_filename": file_name,
+            "pdf_path": result["pdf_path"],
+            "txt_path": result["txt_path"]
+        }
+        
+    except HTTPException as he:
+        raise he
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"An error occurred while processing the PDF: {str(e)}"
+        )
+
+
 
 @app.post("/calculate-esg")
 async def calculate_esg():
@@ -115,53 +213,215 @@ async def get_commentary(company_id: int):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.post("/convert-to-text/{file_name}")
-async def convert_to_text(file_name: str):
+@app.post("/cleanup")
+async def manual_cleanup(force: bool = True, max_age_hours: Optional[int] = None):
     """
-    Convert PDF to text format with table extraction.
-    Uses file_name from the path parameter to process PDF from storage.
+    Manually trigger storage cleanup
+    
+    Args:
+        force (bool): If True, forces deletion regardless of age/size limits
+        max_age_hours (int, optional): If specified, only delete files older than this many hours
     """
     try:
-        # Validate file name and extension
-        if not file_name.lower().endswith('.pdf'):
+        if force:
+            # Force cleanup - delete everything or by age if specified
+            result = storage_manager.force_cleanup(max_age_hours)
+            return {
+                "status": "success",
+                "message": "Force cleanup completed",
+                "details": result
+            }
+        else:
+            # Regular cleanup using age/size limits
+            result = storage_manager.cleanup()
+            return {
+                "status": "success",
+                "message": "Regular cleanup completed",
+                "details": result
+            }
+            
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error during cleanup: {str(e)}"
+        )
+
+# Optional: Add a separate force cleanup endpoint
+@app.post("/cleanup/force")
+async def force_cleanup(max_age_hours: Optional[int] = None):
+    """Force cleanup all files or files older than specified hours"""
+    try:
+        result = storage_manager.force_cleanup(max_age_hours)
+        return {
+            "status": "success",
+            "message": "Force cleanup completed",
+            "details": result
+        }
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error during force cleanup: {str(e)}"
+        )
+
+@app.get("/storage-status")
+async def get_storage_status():
+    """
+    Get current storage usage statistics
+    """
+    try:
+        pdf_size = storage_manager.get_directory_size(storage_manager.pdf_dir)
+        txt_size = storage_manager.get_directory_size(storage_manager.txt_dir)
+        total_size = pdf_size + txt_size
+        
+        # Count files
+        pdf_files = len(list(storage_manager.pdf_dir.glob('*')))
+        txt_files = len(list(storage_manager.txt_dir.glob('*')))
+        
+        return {
+            "status": "success",
+            "storage_info": {
+                "total_size_mb": round(total_size / (1024 * 1024), 2),
+                "pdf_directory": {
+                    "size_mb": round(pdf_size / (1024 * 1024), 2),
+                    "file_count": pdf_files
+                },
+                "txt_directory": {
+                    "size_mb": round(txt_size / (1024 * 1024), 2),
+                    "file_count": txt_files
+                },
+                "limits": {
+                    "max_size_mb": storage_manager.max_size / (1024 * 1024),
+                    "max_age_days": storage_manager.max_age.days
+                }
+            }
+        }
+        
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error getting storage status: {str(e)}"
+        )
+
+@app.get("/reports")
+async def list_reports():
+    """List all available reports in Firebase Storage"""
+    logger.info("Received request to list reports")
+    try:
+        result = firebase_manager.list_files()
+        if result["status"] == "error":
+            logger.error(f"Error listing reports: {result['message']}")
+            raise HTTPException(status_code=500, detail=result["message"])
+        logger.info("Successfully retrieved report list")
+        return result
+        
+    except Exception as e:
+        logger.error(f"Error listing reports: {str(e)}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error listing reports: {str(e)}"
+        )
+
+@app.post("/reports/fetch/{report_name}")
+async def fetch_report(report_name: str):
+    """Fetch a specific report from Firebase Storage"""
+    logger.info(f"Received request to fetch report: {report_name}")
+    try:
+        # Validate file name
+        if not report_name.lower().endswith('.pdf'):
+            logger.warning(f"Invalid file format requested: {report_name}")
             raise HTTPException(
-                status_code=400, 
-                detail="Invalid file format. File must be a PDF."
+                status_code=400,
+                detail="Invalid file format. Only PDF files are supported."
             )
         
-        # Construct paths
-        pdf_path = STORAGE_DIR / "pdf_uploads" / file_name
-        txt_filename = os.path.splitext(file_name)[0] + '.txt'
-        
-        # Check if PDF exists
-        if not pdf_path.exists():
-            raise HTTPException(
-                status_code=404,
-                detail=f"PDF file '{file_name}' not found in storage."
-            )
-        
-        # Process PDF
-        result = pdf_converter.process_pdf(str(pdf_path), txt_filename)
+        # Fetch the file
+        logger.info(f"Attempting to fetch file: {report_name}")
+        result = firebase_manager.fetch_file(report_name)
         
         if result["status"] == "error":
+            logger.error(f"Error fetching file: {result['message']}")
             raise HTTPException(
-                status_code=500,
+                status_code=404 if "not found" in result["message"] else 500,
                 detail=result["message"]
             )
-            
+        
+        # Process the PDF automatically after fetching
+        pdf_path = result["details"]["file_path"]
+        txt_filename = os.path.splitext(report_name)[0] + '.txt'
+        
+        logger.info(f"Converting PDF to text: {pdf_path}")
+        conversion_result = pdf_converter.process_pdf(pdf_path, txt_filename)
+        
+        if conversion_result["status"] == "error":
+            logger.error(f"Error converting PDF: {conversion_result['message']}")
+            raise HTTPException(
+                status_code=500,
+                detail=conversion_result["message"]
+            )
+        
+        logger.info("Successfully fetched and processed report")
         return {
-            "message": "PDF converted successfully",
-            "original_filename": file_name,
-            "pdf_path": result["pdf_path"],
-            "txt_path": result["txt_path"]
+            "status": "success",
+            "message": "Report fetched and processed successfully",
+            "details": {
+                "download": result["details"],
+                "conversion": {
+                    "pdf_path": conversion_result["pdf_path"],
+                    "txt_path": conversion_result["txt_path"]
+                }
+            }
         }
         
     except HTTPException as he:
         raise he
     except Exception as e:
+        logger.error(f"Unexpected error fetching report: {str(e)}")
         raise HTTPException(
             status_code=500,
-            detail=f"An error occurred while processing the PDF: {str(e)}"
+            detail=f"Error fetching report: {str(e)}"
+        )
+
+@app.post("/reports/extract/text/{report_name}")
+async def extract_report_text(report_name: str):
+    """Extract and analyze text content of a processed report"""
+    logger.info(f"Received request to extract text from report: {report_name}")
+    try:
+        # Construct path to text file
+        txt_filename = os.path.splitext(report_name)[0] + '.txt'
+        txt_path = STORAGE_DIR / "txt_outputs" / txt_filename
+        
+        # Check if text file exists
+        if not txt_path.exists():
+            logger.error(f"Text file not found: {txt_filename}")
+            raise HTTPException(
+                status_code=404,
+                detail=f"Text file for '{report_name}' not found. Please process the PDF first."
+            )
+        
+        # Analyze the report
+        result = report_analyzer.analyze_report(str(txt_path))
+        
+        if result["status"] == "error":
+            logger.error(f"Error extracting text: {result['message']}")
+            raise HTTPException(
+                status_code=500,
+                detail=result["message"]
+            )
+        
+        logger.info("Successfully extracted text from report")
+        return {
+            "status": "success",
+            "report_name": report_name,
+            "analysis": result["analysis"]
+        }
+        
+    except HTTPException as he:
+        raise he
+    except Exception as e:
+        logger.error(f"Unexpected error extracting text: {str(e)}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error extracting text: {str(e)}"
         )
 
 if __name__ == "__main__":

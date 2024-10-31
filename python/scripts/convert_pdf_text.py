@@ -4,12 +4,12 @@ import re
 import ssl
 import os
 from pathlib import Path
-import pandas as pd
 from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
-from gmft.auto import CroppedTable, AutoTableDetector, AutoTableFormatter
-from gmft.pdf_bindings import PyPDFium2Document
+import logging
+
+logger = logging.getLogger(__name__)
 
 class PDFConverter:
     def __init__(self, storage_dir):
@@ -23,9 +23,6 @@ class PDFConverter:
         
         # Initialize NLTK components
         self._setup_nltk()
-        
-        # Initialize table detectors
-        self._setup_table_detector()
 
     def _setup_nltk(self):
         """Setup NLTK and SSL"""
@@ -45,15 +42,6 @@ class PDFConverter:
         self.lemmatizer = WordNetLemmatizer()
         self.stop_words = set(stopwords.words('english'))
 
-    def _setup_table_detector(self):
-        """Setup table detection components"""
-        self.detector = AutoTableDetector()
-        self.detector.min_columns = 2
-        self.detector.min_rows = 2
-        self.detector.line_scale = 15
-        self.detector.cell_thresh = 0.3
-        self.formatter = AutoTableFormatter()
-
     def save_uploaded_pdf(self, file_content: bytes, filename: str) -> str:
         """Save uploaded PDF file and return the path"""
         pdf_path = self.pdf_dir / filename
@@ -65,12 +53,14 @@ class PDFConverter:
         """Process PDF and return the file paths and status"""
         try:
             # Extract and process content
-            combined_content = self._process_pdf_content(pdf_path)
+            raw_text = self._extract_text_from_pdf(pdf_path)
+            processed_text = self._preprocess_text(raw_text)
+            formatted_text = self._format_for_ai(processed_text)
             
             # Save to text file
             txt_path = self.txt_dir / output_filename
             with open(txt_path, "w", encoding="utf-8") as f:
-                f.write(combined_content)
+                f.write(formatted_text)
             
             return {
                 "status": "success",
@@ -79,6 +69,7 @@ class PDFConverter:
                 "txt_path": str(txt_path)
             }
         except Exception as e:
+            logger.error(f"Error processing PDF: {str(e)}")
             return {
                 "status": "error",
                 "message": f"Error processing PDF: {str(e)}",
@@ -96,7 +87,7 @@ class PDFConverter:
         return text
 
     def _clean_text(self, text: str) -> str:
-        """Clean the text while preserving numbers, important punctuation, and potential table structures."""
+        """Clean the text while preserving numbers and important punctuation."""
         text = re.sub(r'(?<!\n)[ \t]+(?!\n)', ' ', text)
         text = re.sub(r'[^\w\s.,%()-]', '', text)
         text = re.sub(r'\s([.,%)-])', r'\1', text)
@@ -139,56 +130,3 @@ class PDFConverter:
         for sentence in processed_sentences:
             formatted_text += " ".join(sentence) + "\n"
         return "EXTRACTED TEXT:\n\n" + formatted_text.strip()
-
-    def _extract_tables_from_pdf(self, pdf_path: str):
-        """Extract tables from PDF file."""
-        doc = PyPDFium2Document(pdf_path)
-        tables = []
-        pages = [page for page in doc]
-        
-        for page in pages:
-            detected = self.detector.detect(page)
-            if detected:
-                for table in detected:
-                    formatted = self.formatter.format(table)
-                    if formatted is not None:
-                        tables.append(formatted)
-        
-        return tables, doc, pages
-
-    def _format_table(self, table: CroppedTable, table_num: int) -> str:
-        """Format table with basic structure."""
-        try:
-            df = pd.DataFrame(table.data)
-            df = df.fillna('N/A')
-            df.columns = [str(col).strip().replace('\n', ' ') for col in df.columns]
-            
-            separator = "=" * 80
-            title = f"Table {table_num}"
-            
-            table_text = f"{separator}\n{title}\n{separator}\n"
-            table_text += df.to_string(index=False, justify='left')
-            table_text += f"\n{separator}\n\n"
-            
-            return table_text
-        except Exception as e:
-            return f"Error processing Table {table_num}: {str(e)}\n\n"
-
-    def _process_pdf_content(self, pdf_path: str) -> str:
-        """Process PDF content: extract text, tables, and combine them."""
-        # Extract and process text
-        raw_text = self._extract_text_from_pdf(pdf_path)
-        processed_text = self._preprocess_text(raw_text)
-        formatted_text = self._format_for_ai(processed_text)
-
-        # Extract and format tables
-        tables, doc, pages = self._extract_tables_from_pdf(pdf_path)
-        formatted_tables = ""
-        for i, table in enumerate(tables):
-            formatted_tables += self._format_table(table, i+1)
-
-        # Close the document after processing
-        doc.close()
-
-        # Combine processed text and tables
-        return f"{formatted_text}\n\n{formatted_tables}"

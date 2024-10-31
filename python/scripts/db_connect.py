@@ -1,5 +1,4 @@
-import os
-from dotenv import load_dotenv
+from config import MYSQL_CONFIG, SSL_KEY_BASE64
 import mysql.connector
 from mysql.connector import pooling
 import pandas as pd
@@ -7,24 +6,12 @@ import base64
 from sqlalchemy import create_engine
 from datetime import datetime
 
-load_dotenv()
-
 def get_connection_pool():
-    db_config = {
-        'host': os.getenv('DB_HOST'),
-        'port': int(os.getenv('DB_PORT', 3306)),
-        'user': os.getenv('DB_USER'),
-        'password': os.getenv('DB_PASSWORD'),
-        'database': os.getenv('DB_NAME'),
-        'pool_size': 5,
-        'pool_name': 'mypool',
-        'charset': 'utf8mb4',
-        'collation': 'utf8mb4_general_ci'
-    }
-
-    ssl_key_base64 = os.getenv('SSL_KEY_BASE64')
-    if ssl_key_base64:
-        ssl_cert = base64.b64decode(ssl_key_base64).decode('ascii')
+    db_config = MYSQL_CONFIG.copy()
+    
+    # Add SSL configuration if available
+    if SSL_KEY_BASE64:
+        ssl_cert = base64.b64decode(SSL_KEY_BASE64).decode('ascii')
         db_config['ssl_ca'] = ssl_cert
         db_config['ssl_verify_cert'] = False
 
@@ -93,20 +80,14 @@ def fetch_governance_data(pool):
     return execute_query(pool, query)
 
 def update_table(pool, df, table_name):
-    load_dotenv()
-    
-    db_config = {
-        'host': os.getenv('DB_HOST'),
-        'port': int(os.getenv('DB_PORT', 3306)),
-        'user': os.getenv('DB_USER'),
-        'password': os.getenv('DB_PASSWORD'),
-        'database': os.getenv('DB_NAME'),
-    }
-    
-    # Create SQLAlchemy engine
-    engine = create_engine(f"mysql+pymysql://{db_config['user']}:{db_config['password']}@{db_config['host']}:{db_config['port']}/{db_config['database']}")
-    
     try:
+        # Create SQLAlchemy engine using config
+        connection_string = (
+            f"mysql+pymysql://{MYSQL_CONFIG['user']}:{MYSQL_CONFIG['password']}"
+            f"@{MYSQL_CONFIG['host']}:{MYSQL_CONFIG['port']}/{MYSQL_CONFIG['database']}"
+        )
+        engine = create_engine(connection_string)
+        
         # Convert float64 columns to float
         float_columns = df.select_dtypes(include=['float64']).columns
         df[float_columns] = df[float_columns].astype(float)
@@ -117,29 +98,23 @@ def update_table(pool, df, table_name):
         # Write the DataFrame to the specified table
         df.to_sql(table_name, engine, if_exists='replace', index=False)
         print(f"Successfully updated the {table_name} table in the database.")
+        
     except Exception as e:
         print(f"An error occurred while updating the {table_name} table: {str(e)}")
     finally:
-        # Close the database connection
         engine.dispose()
 
 
 
 def update_predict_table(pool, final_df):
-    load_dotenv()
-    
-    db_config = {
-        'host': os.getenv('DB_HOST'),
-        'port': int(os.getenv('DB_PORT', 3306)),
-        'user': os.getenv('DB_USER'),
-        'password': os.getenv('DB_PASSWORD'),
-        'database': os.getenv('DB_NAME'),
-    }
-    
-    # Create SQLAlchemy engine
-    engine = create_engine(f"mysql+pymysql://{db_config['user']}:{db_config['password']}@{db_config['host']}:{db_config['port']}/{db_config['database']}")
-    
     try:
+        # Create SQLAlchemy engine using MYSQL_CONFIG
+        connection_string = (
+            f"mysql+pymysql://{MYSQL_CONFIG['user']}:{MYSQL_CONFIG['password']}"
+            f"@{MYSQL_CONFIG['host']}:{MYSQL_CONFIG['port']}/{MYSQL_CONFIG['database']}"
+        )
+        engine = create_engine(connection_string)
+        
         # Rename 'ESG Score' to 'ESG_Score' if it exists
         if 'ESG Score' in final_df.columns:
             final_df = final_df.rename(columns={'ESG Score': 'ESG_Score'})
