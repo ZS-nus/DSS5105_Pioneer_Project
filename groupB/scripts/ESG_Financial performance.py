@@ -1,12 +1,10 @@
 import yfinance as yf
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-from db_connect import connect_to_db, fetch_ESG_financial_data
+from db_connect import get_connection_pool, fetch_ESG_score_2023, update_table, fetch_2023_finances
 
 
 def main():
-    db_pool = connect_to_db()
+    db_pool = get_connection_pool()
     if not db_pool:
         print("Failed to connect to the database.")
         return
@@ -36,25 +34,43 @@ def main():
         '^GSPC'   # Apple
     ]
 
+    df['Currency'] = [
+        'USD', 
+        'KRW',
+        'HKD',
+        'USD',
+        'HKD',
+        'USD',
+        'HKD',
+        'USD'    
+    ]
+    
     # Year 2023
     start_date = '2023-01-01'
-    end_date = '2024-01-01'
+    end_date = '2023-12-31'
 
-    beta_results = pd.DataFrame(columns=['CompanyID', 'Beta'])
-
+    financial_results = pd.DataFrame(columns=['CompanyID', 'Beta', 'Mean_stockprice', 
+                                          'Yearend_stockprice', 'Currency'])
+    
     # Calculate beta for each company in 2023
     for index, row in df.iterrows():
         company_ticker = row['Company Ticker']
         market_ticker = row['Market Ticker']
         company_id = row['CompanyID']
+        stock_currency = row['Currency']
         
         company_data = yf.download(company_ticker, start=start_date, end=end_date)
         market_data = yf.download(market_ticker, start=start_date, end=end_date)
+        
+        # Daily returns
         company_returns = company_data['Adj Close'].pct_change().dropna()
         market_returns = market_data['Adj Close'].pct_change().dropna()
-
         returns_data = pd.concat([company_returns, market_returns], axis=1).dropna()
         returns_data.columns = ['Company', 'Market']
+        
+        # Stock price
+        yearend_stockprice = company_data['Adj Close'].iloc[-1,0] # year end price
+        mean_stockprice = company_data['Adj Close'].mean().tolist()[0] # mean stock price
 
         # beta formula: beta = covariance(Company, Market) / variance(Market)
         # measure of the volatility of an investment compared to the market 
@@ -62,35 +78,33 @@ def main():
         market_variance = returns_data['Market'].var()
         beta = covariance / market_variance
 
-        beta_results = beta_results._append({'CompanyID': company_id, 'Beta': beta}, 
-                                            ignore_index=True)
-        
-    # Financial performance data calculated from financial reports
-    # ESG Score from esg_scores table (will update ESG score again when other companies are added)
-    esg_fin = {
-        "CompanyID": [1, 2, 3, 4, 5, 6, 7, 8],
-        "ROE": [1.558, 0.1975, 0.165, 0.3311, 0.2552, 0.04, 0.26, 0.1351],
-        "ROA": [0.275, 0.0281, 0.0539, 0.0555, 0.1703, 0.034, 0.183, 0.0748],
-        "DebtToEquity": [4.67, 6.03, 0.97, 4.98, 0.5, 0.25, 0.42, 0.8],
-        "Total assets (thousands USD)": [352583000, 39256653, 45506507, 135241000, 229623000, 349053672, 402392000, 221370966]
-    }
-    esg_fin = pd.DataFrame(esg_fin)
-    esg_fin = esg_fin.join(beta_results.set_index('CompanyID'), on='CompanyID', how='inner')
-    esg_fin['CompanyID'] = esg_fin['CompanyID'].astype('category')
+        financial_results = financial_results._append({'CompanyID': company_id, 'Beta': beta, 
+                                                   'Mean_stockprice': mean_stockprice,
+                                                   'Yearend_stockprice': yearend_stockprice,
+                                                   'Currency': row['Currency']}, 
+                                                    ignore_index=True)
+        financial_results.sort_values(by='CompanyID', inplace=True)
+        financial_results.reset_index(drop=True, inplace=True)
+        # financial_results = financial_results[['Beta', 'Mean_stockprice', 'Yearend_stockprice', 'Currency']]       
+    
+    # Update ESG and financial performance data in db
+    esg_score_2023 = pd.DataFrame(fetch_ESG_score_2023(db_pool)).sort_values(by='CompanyID')
+    esg_fin = pd.DataFrame(fetch_2023_finances(db_pool)).sort_values(by='CompanyID')
+    
+    esg_fin[['Final_ESG_Score']] = esg_score_2023[['Final_ESG_Score']]
+    esg_fin[['Beta', 'Mean_stockprice', 'Yearend_stockprice', 'Currency']] = financial_results[['Beta', 'Mean_stockprice', 'Yearend_stockprice', 'Currency']]
+    
+    '''
+    high negative correlation between beta and ESG Score 2023
+    - higher beta, more risk, lower ESG score
+    '''
+    esg_fin_metrics = esg_fin[['ROA', 'ROE', 'DebtToEquity', 'TotalAssets_thousandsUSD', 'Beta','Final_ESG_Score']]
+    corr_matrix = esg_fin_metrics.corr(method='pearson')['Final_ESG_Score']
+    corr_matrix = corr_matrix.reset_index()
+    
+    update_table(db_pool, esg_fin, 'esg_fin')
+    update_table(db_pool, corr_matrix, 'corr_matrix')
+    print(corr_matrix)
 
-    esg_score_2023 = pd.DataFrame(fetch_ESG_financial_data(db_pool))
-    esg_score_2023.rename(columns={'CompanyID': 'CompanyID_ESG'}, inplace=True)
-    esg_fin = esg_fin.merge(esg_score_2023.set_index('CompanyID_ESG'), 
-                           left_on='CompanyID', right_on='CompanyID_ESG', how='inner')
-
-    esg_fin_metrics = esg_fin.drop(columns=['CompanyID'])
-    correlation_matrix = esg_fin_metrics.corr(method='pearson')
-    print(correlation_matrix) 
-
-'''
-high negative correlation between beta and ESG Score 2023
-- higher beta, more risk, lower ESG score
-'''
 if __name__ == "__main__":
     main()
-

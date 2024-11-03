@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from decimal import Decimal
-from db_connect import get_connection_pool, fetch_company_info, fetch_environmental_data, fetch_social_data, fetch_governance_data, update_table
+from db_connect import get_connection_pool, fetch_environmental_data, fetch_social_data, fetch_governance_data, update_table
 
 def decimal_to_float(value):
     if isinstance(value, Decimal):
@@ -135,9 +135,9 @@ def main():
         esg_score[col] = esg_score[col].clip(0, 10)
 
     esg_score['Final_ESG_score'] = (
-        esg_score['Environmental_Score'] * 0.35 +
-        esg_score['Social_Score'] * 0.45 +
-        esg_score['Governance_Score'] * 0.20
+        esg_score['Environmental_Score'] * 0.4 +
+        esg_score['Social_Score'] * 0.3 +
+        esg_score['Governance_Score'] * 0.3
     )
     esg_score['Final_ESG_score'] = esg_score['Final_ESG_score'].clip(0, 10)
     

@@ -257,3 +257,49 @@ CREATE TABLE esg_scores (
     PRIMARY KEY (CompanyID, ReportYear),
     FOREIGN KEY (CompanyID) REFERENCES company_info(CompanyID)
 );
+
+-- Drop the existing esg_finance table if it exists
+DROP TABLE IF EXISTS esg_fin;
+
+-- Create the esg_finance table
+CREATE TABLE esg_fin (
+    CompanyID INT NOT NULL,
+	Final_ESG_Score DECIMAL(7, 4) NULL,
+    ROE DECIMAL(10,4),
+    ROA DECIMAL(10,4),
+    DebtToEquity DECIMAL(5,2),
+    TotalAssets_thousandsUSD BIGINT,
+	Beta DECIMAL(6, 3) NULL,
+	Mean_stockprice DECIMAL(10, 2) NULL,
+	Yearend_stockprice DECIMAL(10, 2) NULL,
+	Currency VARCHAR(255) NULL,
+    PRIMARY KEY (CompanyID),
+    FOREIGN KEY (CompanyID) REFERENCES company_info(CompanyID)
+);
+
+INSERT INTO esg_fin (CompanyID, Final_ESG_Score, ROE, ROA, DebtToEquity, TotalAssets_thousandsUSD, Beta, Mean_stockprice, Yearend_stockprice, Currency) VALUES
+(1, NULL, 1.5580, 0.2750, 4.67, 352583000, NULL, NULL, NULL, NULL),
+(2, NULL, 0.1975, 0.0281, 6.03, 39256653, NULL, NULL, NULL, NULL),
+(3, NULL, 0.1650, 0.0539, 0.97, 45506507, NULL, NULL, NULL, NULL),
+(4, NULL, 0.3311, 0.0555, 4.98, 135241000, NULL, NULL, NULL, NULL),
+(5, NULL, 0.2552, 0.1703, 0.50, 229623000, NULL, NULL, NULL, NULL),
+(6, NULL, 0.0400, 0.0340, 0.25, 349053672, NULL, NULL, NULL, NULL),
+(7, NULL, 0.2600, 0.1830, 0.42, 402392000, NULL, NULL, NULL, NULL),
+(8, NULL, 0.1351, 0.0748, 0.80, 221370966, NULL, NULL, NULL, NULL);
+
+
+-- Drop the existing esg_finance table if it exists
+DROP TABLE IF EXISTS corr_matrix;
+
+-- Create the corr_matrix table
+CREATE TABLE corr_matrix (
+	Financial_metric VARCHAR(255) NOT NULL
+);
+
+INSERT INTO corr_matrix (Financial_metric) VALUES
+('ESG_Score'),
+('ROE'),
+('ROA'),
+('DebtToEquity'),
+('TotalAssets_thousandsUSD'),
+('Beta')

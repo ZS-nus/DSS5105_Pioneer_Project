@@ -69,27 +69,30 @@ def fetch_company_info(pool):
 
 def fetch_environmental_data(pool):
     query = "SELECT * FROM environment"
-
-    return execute_query(pool, query)
-
-def fetch_ESG_data(pool):
-    query = "SELECT * FROM esg_scores"
-
-    return execute_query(pool, query)
-
-def fetch_ESG_financial_data(pool):
-    query = "SELECT CompanyID, Final_ESG_Score FROM esg_scores WHERE ReportYear = 2023 AND CompanyID IN (1, 2, 3, 4, 5, 6, 7, 8)"
-
     return execute_query(pool, query)
 
 def fetch_social_data(pool):
     query = "SELECT * FROM social"
-
     return execute_query(pool, query)
-
 
 def fetch_governance_data(pool):
     query = "SELECT * FROM governance"
+    return execute_query(pool, query)
+
+def fetch_ESG_data(pool):
+    query = "SELECT * FROM esg_scores"
+    return execute_query(pool, query)
+
+def fetch_ESG_score_2023(pool):
+    query = "SELECT CompanyID, Final_ESG_Score FROM esg_scores WHERE ReportYear = 2023 AND CompanyID IN (1, 2, 3, 4, 5, 6, 7, 8)"
+    return execute_query(pool, query)
+
+def fetch_2023_finances(pool):
+    query = "SELECT * FROM esg_fin"
+    return execute_query(pool, query)
+
+def fetch_corr_matrix(pool):
+    query = "SELECT * FROM corr_matrix"
     return execute_query(pool, query)
 
 def update_table(pool, df, table_name):
