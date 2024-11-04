@@ -45,6 +45,11 @@ export const fetchGovernanceData = () => {
     return api.get('/table/social');
   };
 
+  export const fetchFinancialData = () => {
+    return api.get('/table/financial');
+  };
+
+
   export const fetchEScoreData = () => {
     return api.get('/score/environment');
   };

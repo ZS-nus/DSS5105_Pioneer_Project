@@ -251,6 +251,44 @@ app.get('/api/table/environment', async (req, res) => {
   }
 });
 
+// Modify the /api/table/environment endpoint
+app.get('/api/table/financial', async (req, res) => {
+  try {
+    console.log('Fetching financial data...');
+    const query = `
+      SELECT 
+        c.CompanyName,
+        f.CompanyID,
+        ROUND(f.Final_ESG_Score, 2) AS Final_ESG_Score,
+        ROUND(f.ROE, 2) AS ROE,
+        ROUND(f.ROA, 2) AS ROA,
+        ROUND(f.DebtToEquity, 2) AS DebtToEquity,
+        f.TotalAssets_thousandsUSD,
+        ROUND(f.Beta, 3) AS Beta,
+        ROUND(f.Mean_stockprice, 2) AS Mean_stockprice,
+        ROUND(f.Yearend_stockprice, 2) AS Yearend_stockprice,
+        f.Currency
+      FROM esg_fin f
+      INNER JOIN company_info c ON f.CompanyID = c.CompanyID
+      ORDER BY c.CompanyName
+    `;
+
+    const rows = await executeQuery(query);
+    
+    if (rows.length > 0) {
+      console.log('First financial data row:', rows[0]);
+      res.json(rows);
+    } else {
+      console.log('No financial data found.');
+      res.status(404).json({ error: 'No data found' });
+    }
+  } catch (error) {
+    console.error('Error fetching financial data:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
+
 // Add this new endpoint for social data
 app.get('/api/table/social', async (req, res) => {
   try {
