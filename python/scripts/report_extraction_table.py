@@ -4,6 +4,7 @@ import logging
 import re
 from pathlib import Path
 from datetime import datetime
+import math
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -111,6 +112,18 @@ class TableDataExtractor:
             logger.warning(f"Error checking table relevance: {str(e)}")
             return False
 
+    def is_intensity_metric(self, row_text: str) -> bool:
+        """Check if the row represents an intensity metric"""
+        intensity_indicators = [
+            'per unit of',
+            'per capita',
+            '/rmb',
+            '/person',
+            'intensity',
+            'per revenue'
+        ]
+        return any(indicator in row_text.lower() for indicator in intensity_indicators)
+
     def extract_latest_year_data(self, df: pd.DataFrame) -> dict:
         """Extract data for the latest year from the table"""
         try:
@@ -131,6 +144,29 @@ class TableDataExtractor:
             # Get latest year with validation
             latest_year = None
             latest_year_num = 0
+            
+                    # For each metric, look for rows that contain the keyword but are NOT intensity metrics
+            for metric_name, keywords in self.metrics.items():
+                try:
+                    matching_rows = df[df.iloc[:, 0].str.contains('|'.join(keywords), 
+                                                                na=False, case=False)]
+                    
+                    # Filter out intensity metrics
+                    matching_rows = matching_rows[~matching_rows.iloc[:, 0].apply(
+                        lambda x: self.is_intensity_metric(str(x))
+                    )]
+
+                    if not matching_rows.empty:
+                        value_str = str(matching_rows.iloc[0][latest_year]).replace(',', '')
+                        value = float(value_str) if value_str not in ['-', '', 'nan'] else None
+                        
+                        if value is not None:
+                            extracted_data[metric_name] = value
+                            logger.info(f"Found {metric_name}: {value}")
+
+                except Exception as e:
+                    logger.warning(f"Error extracting {metric_name}: {e}")
+                    continue
             
             for col in year_columns:
                 try:
@@ -246,6 +282,19 @@ class TableDataExtractor:
             logger.error(f"Error extracting data: {str(e)}")
             return {}
 
+    def is_intensity_metric(self, row_text: str) -> bool:
+        """Check if the row represents an intensity metric"""
+        intensity_indicators = [
+            'per unit of',
+            'per capita',
+            '/rmb',
+            '/person',
+            'intensity',
+            'per revenue',
+            'million'
+        ]
+        return any(indicator in str(row_text).lower() for indicator in intensity_indicators)
+
     def process_tables(self, table_dir: str) -> dict:
         """Process all CSV tables in the directory"""
         try:
@@ -292,6 +341,12 @@ class TableDataExtractor:
                         logger.info(f"Table {csv_file.name} rejected: Not relevant")
                         continue
 
+                    # Skip tables that only contain intensity metrics
+                    first_col_values = df.iloc[:, 0].astype(str)
+                    if all(self.is_intensity_metric(val) for val in first_col_values):
+                        logger.info(f"Skipping {csv_file.name}: Contains only intensity metrics")
+                        continue
+
                     extracted_data = self.extract_latest_year_data(df)
                     if extracted_data:
                         # Track year frequency
@@ -299,10 +354,21 @@ class TableDataExtractor:
                             year = extracted_data['ReportYear']
                             year_counts[year] = year_counts.get(year, 0) + 1
                         
+                        # Update combined data with absolute values only
                         for key, value in extracted_data.items():
                             if key in combined_data and value is not None:
-                                combined_data[key] = value
-                                logger.info(f"Updated {key} with value: {value}")
+                                row_text = df[df.iloc[:, 0].astype(str).str.contains(
+                                    '|'.join(self.metrics.get(key, [])), 
+                                    case=False, 
+                                    na=False
+                                )].iloc[0, 0]
+                                
+                                # Only update if not an intensity metric
+                                if not self.is_intensity_metric(str(row_text)):
+                                    combined_data[key] = value
+                                    logger.info(f"Updated {key} with absolute value: {value}")
+                                else:
+                                    logger.info(f"Skipped intensity metric for {key}: {row_text}")
                         
                         processed_tables.append({
                             "table_name": csv_file.name,
@@ -325,12 +391,21 @@ class TableDataExtractor:
             else:
                 logger.warning("No valid years found across tables")
 
+            # Clean the data for JSON serialization
+            clean_metrics = {}
+            for key, value in combined_data.items():
+                # Convert nan to None and keep other values
+                if isinstance(value, float) and math.isnan(value):
+                    clean_metrics[key] = None
+                else:
+                    clean_metrics[key] = value
+
             # Track what metrics were found and not found
             found_metrics = []
             missing_metrics = []
             
             # Check what metrics were found
-            for metric, value in combined_data.items():
+            for metric, value in clean_metrics.items():
                 if metric != 'ReportYear':  # Skip ReportYear from this check
                     if value is not None:
                         found_metrics.append(metric)
@@ -344,12 +419,17 @@ class TableDataExtractor:
                 "status": "success",
                 "data": {
                     "report_name": report_name,
-                    "table_analysis": {
-                        "metrics": combined_data,
-                        "metrics_found": found_metrics,
-                        "metrics_missing": missing_metrics,
-                        "report_year": combined_data['ReportYear']
-                    }
+                    "metrics": {
+                        "ReportYear": clean_metrics['ReportYear'],
+                        "EnergyConsumption": clean_metrics['EnergyConsumption'],
+                        "GHGEmissions": clean_metrics['GHGEmissions'],
+                        "WaterUsage": clean_metrics['WaterUsage'],
+                        "WasteGenerated": clean_metrics['WasteGenerated'],
+                        "RenewableEnergyUse": clean_metrics['RenewableEnergyUse'],
+                        "EmployeeCount": clean_metrics['EmployeeCount']
+                    },
+                    "metrics_found": found_metrics,
+                    "metrics_missing": missing_metrics
                 }
             }
 
