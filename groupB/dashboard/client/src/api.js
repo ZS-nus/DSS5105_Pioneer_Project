@@ -94,11 +94,5 @@ export const fetchGovernanceData = () => {
     }
   };
 
-  // export const reportUploadToS3 = () => {
-  //   return api.get('/s3/upload');
-  // };
-
-
-// Add other API calls as needed
 
 export default api;

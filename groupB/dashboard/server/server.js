@@ -442,17 +442,22 @@ app.get('/api/s3/storage/files', async (req, res) => {
 
 // Placeholder function for calling the Python API
 async function callPythonExtractionAPI(fileName) {
-    const pythonAPIUrl = process.env.PYTHON_Extraction_API_URL;
+    const pythonAPIUrl = process.env.PYTHON_Extraction_API_URL || 'http://localhost:5106';
     
     try {
+        // Clean up the fileName by removing any 'reports/' prefix
+        const cleanFileName = fileName.replace('reports/', '');
+        
         // First call the fetch endpoint to process the PDF
-        const fetchResponse = await axios.post(`${pythonAPIUrl}/reports/fetch/${encodeURIComponent(fileName)}`);
+        const fetchResponse = await axios.post(
+            `${pythonAPIUrl}/reports/fetch/${encodeURIComponent(cleanFileName)}`
+        );
         console.log('Python API fetch response:', fetchResponse.data);
 
         if (fetchResponse.data.status === 'success') {
             // If fetch was successful, call the extract endpoint
             const extractResponse = await axios.post(
-                `${pythonAPIUrl}/reports/extract/text/${encodeURIComponent(fileName)}`
+                `${pythonAPIUrl}/reports/extract/text/${encodeURIComponent(cleanFileName)}`
             );
             console.log('Python API extract response:', extractResponse.data);
             return extractResponse.data;
@@ -495,36 +500,49 @@ app.post('/api/firebase/upload', upload.single('file'), async (req, res) => {
       }
     });
 
-    blobStream.on('error', (error) => {
-      console.error('Error uploading file:', error);
-      res.status(500).send('Error uploading file.');
+    // Create a promise to handle the upload
+    const uploadPromise = new Promise((resolve, reject) => {
+      blobStream.on('error', (error) => {
+        console.error('Error uploading file:', error);
+        reject(error);
+      });
+
+      blobStream.on('finish', async () => {
+        try {
+          // Make the file publicly accessible
+          await fileUpload.makePublic();
+          const publicUrl = `https://storage.googleapis.com/${bucket.name}/${fileUpload.name}`;
+          resolve(publicUrl);
+        } catch (error) {
+          reject(error);
+        }
+      });
+
+      blobStream.end(file.buffer);
     });
 
-    blobStream.on('finish', async () => {
-      // Make the file publicly accessible
-      await fileUpload.makePublic();
+    // Wait for upload to complete before calling Python API
+    const publicUrl = await uploadPromise;
+    
+    // Add a small delay to ensure file is available
+    await new Promise(resolve => setTimeout(resolve, 2000));
 
-      const publicUrl = `https://storage.googleapis.com/${bucket.name}/${fileUpload.name}`;
-      
-      // Call the Python API
-      try {
-        const pythonAPIResponse = await callPythonExtractionAPI(fileName);
-        res.status(200).send({ 
-          message: 'File uploaded successfully and processed', 
-          url: publicUrl,
-          pythonAPIResponse 
-        });
-      } catch (pythonAPIError) {
-        console.error('Error from Python API:', pythonAPIError);
-        res.status(200).send({ 
-          message: 'File uploaded successfully, but processing failed', 
-          url: publicUrl,
-          error: 'PDF processing failed'
-        });
-      }
-    });
-
-    blobStream.end(file.buffer);
+    // Call the Python API
+    try {
+      const pythonAPIResponse = await callPythonExtractionAPI(fileName);
+      res.status(200).send({ 
+        message: 'File uploaded successfully and processed', 
+        url: publicUrl,
+        pythonAPIResponse 
+      });
+    } catch (pythonAPIError) {
+      console.error('Error from Python API:', pythonAPIError);
+      res.status(200).send({ 
+        message: 'File uploaded successfully, but processing failed', 
+        url: publicUrl,
+        error: 'PDF processing failed'
+      });
+    }
   } catch (error) {
     console.error('Error in file upload:', error);
     res.status(500).send('Server error during file upload.');

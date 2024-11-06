@@ -17,6 +17,7 @@ class StorageManager:
         self.storage_dir = Path(storage_dir)
         self.pdf_dir = self.storage_dir / "pdf_uploads"
         self.txt_dir = self.storage_dir / "txt_outputs"
+        self.table_dir = self.storage_dir / "table_outputs"  # Added table outputs directory
         self.max_age = timedelta(days=max_age_days)
         self.max_size = max_size_mb * 1024 * 1024  # Convert MB to bytes
         
@@ -30,6 +31,7 @@ class StorageManager:
         # Create directories if they don't exist
         self.pdf_dir.mkdir(parents=True, exist_ok=True)
         self.txt_dir.mkdir(parents=True, exist_ok=True)
+        self.table_dir.mkdir(parents=True, exist_ok=True)  # Create table outputs directory
 
     def get_file_age(self, file_path: Path) -> timedelta:
         """Get the age of a file"""
@@ -48,8 +50,8 @@ class StorageManager:
     def get_all_files(self) -> list:
         """Get list of all files with their details"""
         all_files = []
-        for directory in [self.pdf_dir, self.txt_dir]:
-            for file_path in directory.glob('*'):
+        for directory in [self.pdf_dir, self.txt_dir, self.table_dir]:  # Added table_dir
+            for file_path in directory.glob('**/*'):  # Use ** to include subdirectories
                 if file_path.is_file():
                     stats = file_path.stat()
                     all_files.append({
@@ -93,7 +95,7 @@ class StorageManager:
         """
         files_removed = 0
         try:
-            total_size = self.get_directory_size(self.pdf_dir) + self.get_directory_size(self.txt_dir)
+            total_size = self.get_directory_size(self.pdf_dir) + self.get_directory_size(self.txt_dir) + self.get_directory_size(self.table_dir)
             logging.info(f"Current storage size: {total_size / (1024 * 1024):.2f} MB / {self.max_size / (1024 * 1024):.2f} MB")
             
             if total_size > self.max_size:
@@ -139,6 +141,16 @@ class StorageManager:
                 file_path = file_info['path']
                 file_size = file_info['size']
                 
+                # If it's a table output directory, remove the entire directory
+                if str(file_path).startswith(str(self.table_dir)):
+                    parent_dir = file_path.parent
+                    if parent_dir != self.table_dir:  # Don't remove the main table_outputs directory
+                        shutil.rmtree(parent_dir, ignore_errors=True)
+                        files_removed += 1
+                        total_size_removed += file_size
+                        logging.info(f"Force deleted directory: {parent_dir}")
+                        continue
+
                 if max_age_hours is None or file_info['age'] > timedelta(hours=max_age_hours):
                     file_path.unlink()
                     files_removed += 1
@@ -164,7 +176,11 @@ class StorageManager:
         logging.info("Starting storage cleanup...")
         
         # Get initial state
-        initial_size = self.get_directory_size(self.pdf_dir) + self.get_directory_size(self.txt_dir)
+        initial_size = (
+            self.get_directory_size(self.pdf_dir) + 
+            self.get_directory_size(self.txt_dir) + 
+            self.get_directory_size(self.table_dir)  # Added table directory size
+        )
         initial_count = len(self.get_all_files())
         
         # Perform cleanup
@@ -172,7 +188,11 @@ class StorageManager:
         files_removed_size = self.cleanup_by_size()
         
         # Get final state
-        final_size = self.get_directory_size(self.pdf_dir) + self.get_directory_size(self.txt_dir)
+        final_size = (
+            self.get_directory_size(self.pdf_dir) + 
+            self.get_directory_size(self.txt_dir) + 
+            self.get_directory_size(self.table_dir)  # Added table directory size
+        )
         final_count = len(self.get_all_files())
         
         stats = {

@@ -17,6 +17,9 @@ from threading import Thread
 from scripts.fetch_report import FirebaseStorageManager
 import logging
 from scripts.report_extraction_text import ReportAnalyzer
+from scripts.convert_pdf_table import process_pdf
+import asyncio
+from scripts.report_extraction_table import TableDataExtractor
 
 # pip install fastapi
 # pip install uvicorn
@@ -66,6 +69,9 @@ logger = logging.getLogger('pioneer_api')
 
 # Add after other initializations
 report_analyzer = ReportAnalyzer()
+
+# Initialize the table extractor
+table_extractor = TableDataExtractor()
 
 def run_cleanup_schedule():
     """Run cleanup job on schedule"""
@@ -137,7 +143,57 @@ async def convert_to_text(file_name: str):
             detail=f"An error occurred while processing the PDF: {str(e)}"
         )
 
-
+@app.post("/convert-pdf-table/{file_name}")
+async def convert_pdf_table(file_name: str):
+    """
+    Convert PDF to text format with enhanced table extraction.
+    Uses file_name from the path parameter to process PDF from storage.
+    """
+    try:
+        # Run cleanup check before processing
+        storage_manager.cleanup()
+        
+        # Validate file name and extension
+        if not file_name.lower().endswith('.pdf'):
+            raise HTTPException(
+                status_code=400, 
+                detail="Invalid file format. File must be a PDF."
+            )
+        
+        # Construct paths
+        pdf_path = STORAGE_DIR / "pdf_uploads" / file_name
+        folder_name = os.path.splitext(file_name)[0]
+        output_dir = STORAGE_DIR / "table_outputs" / folder_name
+        
+        # Check if PDF exists
+        if not pdf_path.exists():
+            raise HTTPException(
+                status_code=404,
+                detail=f"PDF file '{file_name}' not found in storage."
+            )
+        
+        # Create output directory
+        os.makedirs(output_dir, exist_ok=True)
+        
+        # Process PDF with table extraction
+        result = process_pdf(str(pdf_path), str(output_dir))
+            
+        return {
+            "message": "PDF processed successfully with table extraction",
+            "original_filename": file_name,
+            "pdf_path": str(pdf_path),
+            "tables_directory": str(output_dir),
+            "table_count": result["table_count"],
+            "table_files": result["table_files"]
+        }
+        
+    except HTTPException as he:
+        raise he
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"An error occurred while processing the PDF: {str(e)}"
+        )
 
 @app.post("/calculate-esg")
 async def calculate_esg():
@@ -321,64 +377,72 @@ async def list_reports():
             detail=f"Error listing reports: {str(e)}"
         )
 
-@app.post("/reports/fetch/{report_name}")
-async def fetch_report(report_name: str):
-    """Fetch a specific report from Firebase Storage"""
-    logger.info(f"Received request to fetch report: {report_name}")
+@app.post("/reports/fetch/{file_name}")
+async def fetch_report(file_name: str, max_retries: int = 5, retry_delay: int = 2):
+    """
+    Fetch and process a report file with retries
+    """
     try:
-        # Validate file name
-        if not report_name.lower().endswith('.pdf'):
-            logger.warning(f"Invalid file format requested: {report_name}")
-            raise HTTPException(
-                status_code=400,
-                detail="Invalid file format. Only PDF files are supported."
-            )
+        # Clean up filename and ensure correct path
+        file_name = file_name.replace('reports/', '')  # Remove if present
+        if not file_name.endswith('.pdf'):
+            file_name += '.pdf'
+            
+        # Construct Firebase path and txt filename
+        firebase_path = f"reports/{file_name}"
+        txt_filename = os.path.splitext(file_name)[0] + '.txt'  # Create txt filename
         
-        # Fetch the file
-        logger.info(f"Attempting to fetch file: {report_name}")
-        result = firebase_manager.fetch_file(report_name)
+        logger.info(f"Attempting to fetch file: {firebase_path}")
+        
+        # Use Firebase manager to fetch the file
+        result = firebase_manager.fetch_file(firebase_path)
         
         if result["status"] == "error":
-            logger.error(f"Error fetching file: {result['message']}")
             raise HTTPException(
-                status_code=404 if "not found" in result["message"] else 500,
+                status_code=404,
                 detail=result["message"]
             )
+            
+        local_path = Path(result["details"]["file_path"])
         
-        # Process the PDF automatically after fetching
-        pdf_path = result["details"]["file_path"]
-        txt_filename = os.path.splitext(report_name)[0] + '.txt'
+        # First convert PDF to text using PDFConverter
+        logger.info(f"Converting PDF to text: {local_path}")
+        text_result = pdf_converter.process_pdf(str(local_path), txt_filename)
         
-        logger.info(f"Converting PDF to text: {pdf_path}")
-        conversion_result = pdf_converter.process_pdf(pdf_path, txt_filename)
-        
-        if conversion_result["status"] == "error":
-            logger.error(f"Error converting PDF: {conversion_result['message']}")
+        if text_result["status"] == "error":
             raise HTTPException(
                 status_code=500,
-                detail=conversion_result["message"]
+                detail=text_result["message"]
             )
+            
+        # Then process PDF for tables
+        logger.info(f"Processing PDF for tables: {local_path}")
+        folder_name = os.path.splitext(file_name)[0]
+        output_dir = STORAGE_DIR / "table_outputs" / folder_name
+        os.makedirs(output_dir, exist_ok=True)
         
-        logger.info("Successfully fetched and processed report")
+        table_result = process_pdf(str(local_path), str(output_dir))
+        
+        # Extract and analyze text content - use txt_filename without .pdf extension
+        logger.info(f"Extracting text content from: {txt_filename}")
+        text_analysis = await extract_report_text(txt_filename)  # Pass the .txt filename
+        
         return {
             "status": "success",
-            "message": "Report fetched and processed successfully",
-            "details": {
-                "download": result["details"],
-                "conversion": {
-                    "pdf_path": conversion_result["pdf_path"],
-                    "txt_path": conversion_result["txt_path"]
-                }
-            }
+            "message": f"File {file_name} downloaded and processed successfully",
+            "file_path": str(local_path),
+            "text_result": text_result,
+            "table_result": table_result,
+            "text_analysis": text_analysis
         }
         
     except HTTPException as he:
         raise he
     except Exception as e:
-        logger.error(f"Unexpected error fetching report: {str(e)}")
+        logger.error(f"Error processing file {file_name}: {str(e)}")
         raise HTTPException(
             status_code=500,
-            detail=f"Error fetching report: {str(e)}"
+            detail=f"Error processing file: {str(e)}"
         )
 
 @app.post("/reports/extract/text/{report_name}")
@@ -386,8 +450,19 @@ async def extract_report_text(report_name: str):
     """Extract and analyze text content of a processed report"""
     logger.info(f"Received request to extract text from report: {report_name}")
     try:
-        # Extract company name from filename (remove date prefix and .txt extension)
-        company_name = '_'.join(report_name.split('_')[2:]).replace('.txt', '')
+        # Ensure the filename ends with .txt
+        if not report_name.endswith('.txt'):
+            report_name = os.path.splitext(report_name)[0] + '.txt'
+        
+        # Extract company name from filename
+        parts = report_name.split('_')
+        if len(parts) >= 3 and parts[0].isdigit():
+            # Format: YYYYMMDD_HHMMSS_company.txt
+            company_name = '_'.join(parts[2:]).replace('.txt', '')
+        else:
+            # Format: company.txt
+            company_name = report_name.replace('.txt', '')
+            
         company_name = company_name.upper()  # Convert to uppercase for consistency
         
         # Get database connection from pool
@@ -430,11 +505,23 @@ async def extract_report_text(report_name: str):
                     detail=result["message"]
                 )
 
-            # Update governance table
+            # Extract report year from the content or filename
             analysis = result["analysis"]
-            cert_count = len(analysis.get('iso_certificates', []))
+            report_year = analysis.get('report_year')
             
-            # First update governance table
+            # If report_year is not found in analysis, try to extract from filename
+            if not report_year:
+                # Extract year from filename (assuming format: YYYYMMDD_HHMMSS_company.txt)
+                try:
+                    report_year = int(report_name.split('_')[0][:4])
+                except:
+                    report_year = 2023  # Default to current year if extraction fails
+            
+            # Store report_year back in analysis dict
+            analysis['report_year'] = report_year
+
+            # Update governance table
+            cert_count = len(analysis.get('iso_certificates', []))
             cursor.execute("""
                 INSERT INTO governance 
                 (CompanyID, ReportYear, BoardComposition, EthicalBehaviour, RiskManagement, CertificationList)
@@ -446,14 +533,14 @@ async def extract_report_text(report_name: str):
                 CertificationList = VALUES(CertificationList)
             """, (
                 company_id,
-                analysis['report_year'],
+                report_year,  # Use report_year directly
                 1 if analysis.get('board_diversity', 0) > 0 else 0,
                 1 if analysis.get('ethical_corruption', 0) > 0 else 0,
                 1 if analysis.get('risk_management', 0) > 0 else 0,
                 cert_count
             ))
 
-            # Then update social table
+            # Update social table
             cursor.execute("""
                 INSERT INTO social 
                 (CompanyID, ReportYear, DataSecurity, CustomerPrivacy, Cybersecurity, 
@@ -468,7 +555,7 @@ async def extract_report_text(report_name: str):
                 AgeStats = VALUES(AgeStats)
             """, (
                 company_id,
-                analysis['report_year'],
+                report_year,  # Use report_year directly instead of analysis['report_year']
                 1 if analysis.get('data_security', 0) > 0 else 0,
                 1 if analysis.get('customer_privacy', 0) > 0 else 0,
                 1 if analysis.get('cybersecurity', 0) > 0 else 0,
@@ -482,10 +569,10 @@ async def extract_report_text(report_name: str):
                 "status": "success",
                 "report_name": report_name,
                 "company_id": company_id,
-                "analysis": result["analysis"],
+                "analysis": analysis,  # This now includes the report_year
                 "database_update": {
                     "company": company_name,
-                    "report_year": analysis['report_year'],
+                    "report_year": report_year,  # Use report_year directly
                     "governance_updated": True,
                     "social_updated": True
                 }
@@ -502,6 +589,64 @@ async def extract_report_text(report_name: str):
         raise HTTPException(
             status_code=500,
             detail=f"Error extracting text: {str(e)}"
+        )
+
+@app.post("/reports/extract/table/{report_name}")
+async def extract_report_tables(report_name: str):
+    """Extract and analyze table content from a processed report"""
+    logger.info(f"Received request to extract tables from report: {report_name}")
+    try:
+        # Clean up filename and ensure correct path
+        report_name = report_name.replace('reports/', '')  # Remove if present
+        if report_name.endswith('.pdf'):
+            report_name = report_name[:-4]  # Remove .pdf extension
+        if report_name.endswith('.txt'):
+            report_name = report_name[:-4]  # Remove .txt extension
+            
+        # Extract company name from filename
+        company_name = '_'.join(report_name.split('_')[2:])
+        company_name = company_name.upper()
+        
+        # Process tables from the correct directory
+        table_dir = STORAGE_DIR / "table_outputs" / report_name
+        if not table_dir.exists():
+            raise HTTPException(
+                status_code=404,
+                detail=f"Table directory not found: {table_dir}. Please process the PDF first."
+            )
+        
+        logger.info(f"Processing tables from directory: {table_dir}")
+        table_result = table_extractor.process_tables(str(table_dir))
+        
+        if table_result["status"] == "error":
+            raise HTTPException(
+                status_code=500,
+                detail=table_result["message"]
+            )
+
+        # Get report year from table data or filename
+        report_year = table_result.get("data", {}).get("ReportYear")
+        if not report_year:
+            try:
+                report_year = int(report_name.split('_')[0][:4])
+            except:
+                report_year = 2023
+        
+        return {
+            "status": "success",
+            "report_name": report_name,
+            "company_name": company_name,
+            "table_analysis": table_result["data"],
+            "report_year": report_year
+        }
+            
+    except HTTPException as he:
+        raise he
+    except Exception as e:
+        logger.error(f"Unexpected error extracting tables: {str(e)}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error extracting tables: {str(e)}"
         )
 
 if __name__ == "__main__":

@@ -124,7 +124,7 @@ def validate_config():
     
     # Validate database configuration
     required_db_keys = ["host", "port", "database", "user", "password"]
-    missing_keys = [key for key in required_db_keys if key not in DB_CONFIG]
+    missing_keys = [key for key in required_db_keys if key not in MYSQL_CONFIG]
     if missing_keys:
         raise KeyError(f"Missing required database configuration keys: {missing_keys}")
 

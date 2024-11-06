@@ -1,4 +1,5 @@
-﻿Coal,63,Apple’s solar projects
-Hydro,17,Apple’s wind projects
-Renewable,11,Source: 2023 energy data.
-Nuclear,5,
+﻿Default grid mix,% x,RenewableEnergyUse (MWh)
+,43,Apple’s solar projects
+Nuclear,32,Apple’s wind projects
+,11,Source: 2023 energy data.
+Renewable,10,

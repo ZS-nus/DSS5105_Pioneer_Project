@@ -255,8 +255,8 @@ def convert_pdf_to_csv(pdf_path: str, output_dir: str) -> dict:
         }
 
 if __name__ == "__main__":
-    pdf_path = "../ESG_reports/tencent.pdf"
-    output_dir = "../labeled_files/tencent/"
+    pdf_path = "../ESG_reports/apple.pdf"
+    output_dir = "../labeled_files/apple/"
 
     result = convert_pdf_to_csv(pdf_path, output_dir)
     print(result)
