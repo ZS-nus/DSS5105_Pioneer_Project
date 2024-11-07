@@ -11,6 +11,11 @@ logger = logging.getLogger(__name__)
 
 class TableDataExtractor:
     def __init__(self):
+        
+        self.year_pattern = None  # Will store 'ascending' or 'descending'
+        self.latest_year = None
+        
+        
         # Define unit conversions
         self.conversions = {
             'kwh': 0.001,  # kWh to MWh
@@ -29,7 +34,9 @@ class TableDataExtractor:
                 'electricity consumption',
                 'power consumption',
                 'total energy',
-                'comprehensive energy'
+                'comprehensive energy',
+                'energy used',
+                '^energy used$'
             ],
             'GHGEmissions': [
                 'ghg emissions',
@@ -48,7 +55,9 @@ class TableDataExtractor:
                 'waste generated',
                 'total waste',
                 'hazardous waste',
-                'non-hazardous waste'
+                'non-hazardous waste',
+                'total generated',  # Add this keyword
+                'nonhazardous waste'
             ],
             'RenewableEnergyUse': [
                 'renewable energy',
@@ -61,7 +70,9 @@ class TableDataExtractor:
                 'full-time employees',
                 'total workforce',
                 'headcount',
-                'total employees'
+                'total employees',
+                'employees',  
+                '^employees$'  
             ]
         }
 
@@ -83,179 +94,310 @@ class TableDataExtractor:
     def is_relevant_table(self, df: pd.DataFrame) -> bool:
         """Check if table contains relevant environmental data"""
         try:
+            # Check minimum table size
+            if df.shape[1] < 2:  # Require at least 2 columns
+                logger.info("Table rejected: Too few columns")
+                return False
+
             # Check for year columns
             has_year = any('FY' in str(col) or '20' in str(col) for col in df.columns)
             logger.info(f"Has year columns: {has_year}")
             
             if not has_year:
+                logger.info("Table rejected: No year columns found")
+                return False
+            
+            # Check numeric content ratio (excluding first column)
+            numeric_ratio = self.get_numeric_ratio(df)
+            logger.info(f"Numeric ratio: {numeric_ratio:.2f}")
+            if numeric_ratio < 0.6:  # Increased threshold to 60%
+                logger.info("Table rejected: Insufficient numeric content")
+                return False
+                
+            # Check average text length in first column (to filter out narrative text)
+            first_col_text = df.iloc[:, 0].astype(str)
+            avg_text_length = sum(len(str(text)) for text in first_col_text) / len(first_col_text)
+            logger.info(f"Average text length in first column: {avg_text_length:.1f}")
+            if avg_text_length > 100:  # Reject if average text length is too long
+                logger.info("Table rejected: First column contains long narrative text")
                 return False
             
             # Get first column text and column names for keyword checking
-            first_col = df.iloc[:, 0].astype(str).str.lower()
-            first_col_text = ' '.join(first_col)
+            first_col_text = ' '.join(first_col_text.str.lower())
             col_names = [str(col).lower() for col in df.columns]
             col_text = ' '.join(col_names)
             
             logger.info(f"First column text: {first_col_text}")
             logger.info(f"Column names: {col_text}")
             
+            # Special check for employee data
+            if 'employees' in first_col_text and numeric_ratio > 0.5:
+                logger.info("Found employees in first column")
+                return True
+            
             # Check for relevant keywords in both first column and column names
-            for metric_keywords in self.metrics.values():
+            for metric_name, metric_keywords in self.metrics.items():
                 for keyword in metric_keywords:
                     if keyword in first_col_text or keyword in col_text:
                         logger.info(f"Found relevant keyword: {keyword}")
                         return True
             
+            logger.info("Table rejected: No relevant keywords found")
             return False
                 
         except Exception as e:
             logger.warning(f"Error checking table relevance: {str(e)}")
             return False
-
-    def is_intensity_metric(self, row_text: str) -> bool:
-        """Check if the row represents an intensity metric"""
-        intensity_indicators = [
-            'per unit of',
-            'per capita',
-            '/rmb',
-            '/person',
-            'intensity',
-            'per revenue'
-        ]
-        return any(indicator in row_text.lower() for indicator in intensity_indicators)
+    
+    def detect_year_pattern_from_tables(self, tables_dict):
+        """Analyze multiple tables to determine the common year pattern"""
+        year_patterns = []
+        valid_years = []
+        
+        for table_name, df in tables_dict.items():
+            try:
+                # Find columns that look like years
+                year_cols = []
+                for col in df.columns:
+                    col_str = str(col).upper()
+                    if 'FY' in col_str or '20' in col_str:
+                        matches = re.findall(r'\d+', col_str)
+                        if matches:
+                            year_num = int(matches[0])
+                            if year_num < 100:
+                                year_num += 2000
+                            if 2000 <= year_num <= 2100:
+                                year_cols.append((col, year_num))
+                
+                if len(year_cols) >= 2:
+                    # Sort by column index
+                    col_indices = [list(df.columns).index(col) for col, _ in year_cols]
+                    years = [year for _, year in year_cols]
+                    
+                    # Check if years are ascending or descending
+                    if col_indices == sorted(col_indices) and years == sorted(years):
+                        year_patterns.append('ascending')
+                        valid_years.extend(years)
+                    elif col_indices == sorted(col_indices) and years == sorted(years, reverse=True):
+                        year_patterns.append('descending')
+                        valid_years.extend(years)
+            
+            except Exception as e:
+                logger.warning(f"Error analyzing year pattern in table {table_name}: {e}")
+                continue
+        
+        # Determine most common pattern
+        if year_patterns:
+            self.year_pattern = max(set(year_patterns), key=year_patterns.count)
+            logger.info(f"Detected year pattern: {self.year_pattern}")
+            
+            # Set latest year
+            if valid_years:
+                self.latest_year = max(valid_years)
+                logger.info(f"Detected latest year: {self.latest_year}")
+        
+        return self.year_pattern, self.latest_year
+    
+    def get_numeric_ratio(self, df: pd.DataFrame) -> float:
+        try:
+            if df.shape[1] <= 1:
+                return 0.0
+                
+            # Get data columns (exclude first column)
+            data_cols = df.iloc[:, 1:]
+            
+            def is_numeric(val):
+                val_str = str(val).strip()
+                # Remove special characters and handle percentages
+                val_str = re.sub(r'[†‡§¶]', '', val_str)
+                val_str = val_str.replace(',', '').replace('%', '')
+                try:
+                    float(val_str)
+                    return True
+                except ValueError:
+                    return False
+            
+            # Count numeric cells
+            total_cells = data_cols.size
+            numeric_cells = sum(data_cols.applymap(is_numeric).sum())
+            
+            return numeric_cells / total_cells if total_cells > 0 else 0.0
+            
+        except Exception as e:
+            logger.warning(f"Error calculating numeric ratio: {str(e)}")
+            return 0.0
 
     def extract_latest_year_data(self, df: pd.DataFrame) -> dict:
         """Extract data for the latest year from the table"""
         try:
             extracted_data = {}
             
-            # Get year columns
-            year_columns = [col for col in df.columns if 'FY' in str(col) or '20' in str(col)]
-            
-            if not year_columns:
-                logger.warning("No valid year columns found in the table")
-                return extracted_data
+            # Get year columns with enhanced pattern matching
+            year_cols = []
+            for col in df.columns:
+                col_str = str(col).upper()
+                if 'FY' in col_str or '20' in col_str:
+                    matches = re.findall(r'\d+', col_str)
+                    if matches:
+                        year_num = int(matches[0])
+                        if year_num < 100:
+                            year_num += 2000
+                        elif year_num < 1000:
+                            # Handle unusual cases like FY795 -> 2023
+                            year_num = 2000 + (year_num % 100)
+                        if 2000 <= year_num <= 2100:
+                            year_cols.append((col, year_num))
+
+            # If no valid years found or years look suspicious
+            if not year_cols or any(year > 2100 or year < 2000 for _, year in year_cols):
+                # Use the detected pattern and latest year
+                if self.year_pattern and self.latest_year:
+                    numeric_cols = [col for col in df.columns[1:] 
+                                if any(str(x).replace(',','').replace('.','').isdigit() 
+                                        for x in df[col] if pd.notna(x))]
+                    
+                    if numeric_cols:
+                        if self.year_pattern == 'ascending':
+                            latest_col = numeric_cols[-1]
+                        else:
+                            latest_col = numeric_cols[0]
+                        
+                        latest_year = self.latest_year
+                        extracted_data['ReportYear'] = latest_year
+                        logger.info(f"Using detected year pattern: {self.year_pattern}, latest year: {latest_year}")
+                    else:
+                        logger.warning("No numeric columns found")
+                        return {}
+                else:
+                    logger.warning("No year pattern detected and no valid year columns")
+                    return {}
+            else:
+                # Use actual year columns
+                latest_col, latest_year = max(year_cols, key=lambda x: x[1])
+                extracted_data['ReportYear'] = latest_year
+                logger.info(f"Found latest year: {latest_year} in column {latest_col}")
 
             # Log DataFrame info for debugging
             logger.info(f"Processing DataFrame columns: {df.columns.tolist()}")
             logger.info("First few rows:")
             logger.info(df.head(2))
 
-            # Get latest year with validation
-            latest_year = None
-            latest_year_num = 0
-            
-                    # For each metric, look for rows that contain the keyword but are NOT intensity metrics
+            # Handle special characters in numeric values
+            def clean_numeric(val):
+                if isinstance(val, str):
+                    # Remove special characters like †, ‡, §, ¶, b
+                    val = re.sub(r'[†‡§¶b]', '', val)
+                    # Remove commas and spaces
+                    val = val.replace(',', '').strip()
+                return val
+
+            # For each metric, look for rows that contain the keyword   
             for metric_name, keywords in self.metrics.items():
                 try:
                     matching_rows = df[df.iloc[:, 0].str.contains('|'.join(keywords), 
                                                                 na=False, case=False)]
                     
-                    # Filter out intensity metrics
-                    matching_rows = matching_rows[~matching_rows.iloc[:, 0].apply(
-                        lambda x: self.is_intensity_metric(str(x))
-                    )]
-
                     if not matching_rows.empty:
-                        value_str = str(matching_rows.iloc[0][latest_year]).replace(',', '')
-                        value = float(value_str) if value_str not in ['-', '', 'nan'] else None
-                        
-                        if value is not None:
-                            extracted_data[metric_name] = value
-                            logger.info(f"Found {metric_name}: {value}")
+                        # Special handling for water usage
+                        if metric_name == 'WaterUsage':
+                            water_rows = df[df.iloc[:, 0].str.contains(
+                                'water consumption|total water|water usage|water withdrawal', 
+                                case=False, 
+                                na=False
+                            )]
+                            if not water_rows.empty:
+                                value_str = clean_numeric(str(water_rows.iloc[0][latest_col]))
+                        else:
+                            value_str = clean_numeric(str(matching_rows.iloc[0][latest_col]))
+
+                        try:
+                            if value_str and value_str not in ['-', '', 'nan']:
+                                value = float(value_str)
+                                extracted_data[metric_name] = value
+                                logger.info(f"Found {metric_name}: {value}")
+                        except ValueError as e:
+                            logger.warning(f"Error converting value '{value_str}' to float: {e}")
+                            continue
 
                 except Exception as e:
                     logger.warning(f"Error extracting {metric_name}: {e}")
                     continue
-            
-            for col in year_columns:
-                try:
-                    year_str = str(col).strip()
-                    if 'FY' in year_str.upper():
-                        # Extract all digits from the string
-                        digits = re.findall(r'\d+', year_str)
-                        if digits:
-                            year_num = int(digits[0])
-                            # If it's a 4-digit year, use it directly
-                            if year_num > 1000:
-                                full_year = year_num
-                            else:
-                                # If it's a 2-digit year, assume 2000s
-                                full_year = 2000 + year_num
-                    else:
-                        # Direct year format (e.g., "2023")
-                        full_year = int(re.findall(r'\d{4}', year_str)[0])
-                    
-                    # Validate year is reasonable
-                    current_year = datetime.now().year
-                    if 2000 <= full_year <= current_year + 1:
-                        if full_year > latest_year_num:
-                            latest_year_num = full_year
-                            latest_year = col
-                except ValueError:
-                    continue
-            
-            if not latest_year:
-                logger.warning("No valid year found in columns")
-                return extracted_data
-                
-            logger.info(f"Latest year column found: {latest_year} (year: {latest_year_num})")
-            extracted_data['ReportYear'] = latest_year_num
 
-            # Look for employee count
+            # Enhanced employee count extraction
             try:
-                employee_rows = df[df.iloc[:, 0].str.contains('|'.join(self.metrics['EmployeeCount']), 
-                                                            na=False, case=False)]
+                # Look for exact match with 'Employees' first
+                employee_rows = df[df.iloc[:, 0].str.lower() == 'employees']
+                
+                # If no exact match, then try the keyword list
+                if employee_rows.empty:
+                    employee_rows = df[df.iloc[:, 0].str.contains('|'.join(self.metrics['EmployeeCount']), 
+                                                                na=False, case=False)]
+                
                 if not employee_rows.empty:
-                    value_str = str(employee_rows.iloc[0][latest_year]).replace(',', '')
-                    extracted_data['EmployeeCount'] = int(float(value_str))
-                    logger.info(f"Found Employee Count: {extracted_data['EmployeeCount']}")
+                    value_str = clean_numeric(str(employee_rows.iloc[0][latest_col]))
+                    if value_str and value_str not in ['-', '', 'nan']:
+                        value = float(value_str)
+                        extracted_data['EmployeeCount'] = int(value)
+                        logger.info(f"Found Employee Count: {extracted_data['EmployeeCount']}")
             except Exception as e:
                 logger.warning(f"Error extracting employee count: {e}")
 
             # Look for energy consumption
             try:
-                energy_rows = df[df.iloc[:, 0].str.contains('|'.join(self.metrics['EnergyConsumption']), 
-                                                          na=False, case=False)]
+                # First try exact match for "Energy used"
+                energy_rows = df[df.iloc[:, 0].str.lower() == 'energy used']
+                
+                # If no exact match, then try the keyword list
+                if energy_rows.empty:
+                    energy_rows = df[df.iloc[:, 0].str.contains('|'.join(self.metrics['EnergyConsumption']), 
+                                                            na=False, case=False)]
+                
                 if not energy_rows.empty:
-                    value_str = str(energy_rows.iloc[0][latest_year]).replace(',', '')
-                    extracted_data['EnergyConsumption'] = float(value_str)
-                    logger.info(f"Found Energy Consumption: {extracted_data['EnergyConsumption']}")
+                    value_str = clean_numeric(str(energy_rows.iloc[0][latest_col]))
+                    if value_str and value_str not in ['-', '', 'nan']:
+                        value = float(value_str)
+                        extracted_data['EnergyConsumption'] = value
+                        logger.info(f"Found Energy Consumption: {extracted_data['EnergyConsumption']}")
             except Exception as e:
                 logger.warning(f"Error extracting energy consumption: {e}")
 
             # Look for GHG emissions
             try:
                 ghg_rows = df[df.iloc[:, 0].str.contains('|'.join(self.metrics['GHGEmissions']), 
-                                                       na=False, case=False)]
+                                                    na=False, case=False)]
                 if not ghg_rows.empty:
-                    value_str = str(ghg_rows.iloc[0][latest_year]).replace(',', '')
-                    extracted_data['GHGEmissions'] = float(value_str)
-                    logger.info(f"Found GHG Emissions: {extracted_data['GHGEmissions']}")
+                    value_str = clean_numeric(str(ghg_rows.iloc[0][latest_col]))
+                    if value_str and value_str not in ['-', '', 'nan']:
+                        value = float(value_str)
+                        extracted_data['GHGEmissions'] = value
+                        logger.info(f"Found GHG Emissions: {extracted_data['GHGEmissions']}")
             except Exception as e:
                 logger.warning(f"Error extracting GHG emissions: {e}")
 
             # Look for water usage
             try:
                 water_rows = df[df.iloc[:, 0].str.contains('|'.join(self.metrics['WaterUsage']), 
-                                                         na=False, case=False)]
+                                                        na=False, case=False)]
                 if not water_rows.empty:
-                    value_str = str(water_rows.iloc[0][latest_year]).replace(',', '')
-                    extracted_data['WaterUsage'] = float(value_str)
-                    logger.info(f"Found Water Usage: {extracted_data['WaterUsage']}")
+                    value_str = clean_numeric(str(water_rows.iloc[0][latest_col]))
+                    if value_str and value_str not in ['-', '', 'nan']:
+                        value = float(value_str)
+                        extracted_data['WaterUsage'] = value
+                        logger.info(f"Found Water Usage: {extracted_data['WaterUsage']}")
             except Exception as e:
                 logger.warning(f"Error extracting water usage: {e}")
 
             # Look for waste data
             try:
                 waste_rows = df[df.iloc[:, 0].str.contains('|'.join(self.metrics['WasteGenerated']), 
-                                                         na=False, case=False)]
+                                                        na=False, case=False)]
                 if not waste_rows.empty:
                     total_waste = 0
                     for _, row in waste_rows.iterrows():
-                        value_str = str(row[latest_year]).replace(',', '')
+                        value_str = clean_numeric(str(row[latest_col]))
                         try:
-                            total_waste += float(value_str)
+                            if value_str and value_str not in ['-', '', 'nan']:
+                                total_waste += float(value_str)
                         except ValueError:
                             continue
                     if total_waste > 0:
@@ -267,11 +409,13 @@ class TableDataExtractor:
             # Look for renewable energy
             try:
                 renewable_rows = df[df.iloc[:, 0].str.contains('|'.join(self.metrics['RenewableEnergyUse']), 
-                                                             na=False, case=False)]
+                                                            na=False, case=False)]
                 if not renewable_rows.empty:
-                    value_str = str(renewable_rows.iloc[0][latest_year]).replace(',', '')
-                    extracted_data['RenewableEnergyUse'] = float(value_str)
-                    logger.info(f"Found Renewable Energy Use: {extracted_data['RenewableEnergyUse']}")
+                    value_str = clean_numeric(str(renewable_rows.iloc[0][latest_col]))
+                    if value_str and value_str not in ['-', '', 'nan']:
+                        value = float(value_str)
+                        extracted_data['RenewableEnergyUse'] = value
+                        logger.info(f"Found Renewable Energy Use: {extracted_data['RenewableEnergyUse']}")
             except Exception as e:
                 logger.warning(f"Error extracting renewable energy data: {e}")
 
