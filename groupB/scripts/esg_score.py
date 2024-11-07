@@ -55,6 +55,9 @@ def calculate_environmental_score(env_data, pax):
     env_weights = [0.4, 0.2, 0.2, 0.2]
     env_indicator_score = env_data[[col + '_score' for col in env_metric]]
     environmental_score = (env_indicator_score * env_weights).sum(axis=1)
+    environmental_score = environmental_score.round(3)
+    env_data['Percentile_rank'] = environmental_score.groupby(env_data['ReportYear']).rank(pct=True) * 10
+    environmental_score =  env_data['Percentile_rank']
     
     return environmental_score
 
