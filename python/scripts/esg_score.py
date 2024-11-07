@@ -66,18 +66,21 @@ def calculate_environmental_score(env_data, pax):
     env_data['EmployeeCount'].fillna(env_data['EmployeeCount'].mean(), inplace=True)
     
     for col in env_metric:
+        # Fill missing values in each column with the 25th percentile of that column
+        percentile_25 = env_data[col].quantile(0.25)
+        env_data[col].fillna(percentile_25, inplace=True)
+        
         env_data[col] = env_data[col].apply(decimal_to_float)
         env_data['EmployeeCount'] = env_data['EmployeeCount'].apply(decimal_to_float)
         env_data[col + "_per_employee"] = env_data[col] / env_data['EmployeeCount']
         env_data[col + "_score"] = calc_score(env_data[col + '_per_employee'])
-    
-    env_data.fillna(0, inplace=True)
     
     env_weights = [0.4, 0.2, 0.2, 0.2]
     env_indicator_score = env_data[[col + '_score' for col in env_metric]]
     environmental_score = (env_indicator_score * env_weights).sum(axis=1)
     
     return environmental_score
+
 
 def calculate_social_score(social_data):
     binary_col = ['DataSecurity', 'CustomerPrivacy', 'Cybersecurity', 'GenderStats', 'AgeStats']
