@@ -21,10 +21,24 @@ ESG_WEIGHTS = {
     'Governance': 0.3
 }
 
+# Add a function to update weights
+def update_esg_weights(env_weight: float, social_weight: float, gov_weight: float):
+    """Update ESG weights ensuring they sum to 1"""
+    total = env_weight + social_weight + gov_weight
+    if abs(total - 1.0) > 0.0001:  # Allow small floating point differences
+        raise ValueError("ESG weights must sum to 1.0")
+        
+    ESG_WEIGHTS['Environmental'] = float(env_weight)
+    ESG_WEIGHTS['Social'] = float(social_weight)
+    ESG_WEIGHTS['Governance'] = float(gov_weight)
+
 def decimal_to_float(value):
+    """Convert decimal or any numeric type to float"""
     if isinstance(value, Decimal):
         return float(value)
-    return value
+    elif pd.isna(value):
+        return 0.0
+    return float(value)
 
 def calc_score(perf_metric):
     perf_metric = pd.to_numeric(perf_metric, errors='coerce')
@@ -59,53 +73,88 @@ def train_score(TrainingHours): # specifically for training hours -> higher is b
 
 
 def calculate_environmental_score(env_data, pax):
-    env_metric = ['EnergyConsumption', 'GHGEmissions', 'WaterUsage', 'WasteGenerated'] # renewable removed
+    env_metric = ['EnergyConsumption', 'GHGEmissions', 'WaterUsage', 'WasteGenerated']
     env_data = pd.merge(pax, env_data, how='inner', on=['CompanyID', 'ReportYear'])
     
-    # Fill missing EmployeeCount values with the mean of the EmployeeCount column
+    # Convert EmployeeCount to float first
+    env_data['EmployeeCount'] = env_data['EmployeeCount'].apply(decimal_to_float)
     env_data['EmployeeCount'].fillna(env_data['EmployeeCount'].mean(), inplace=True)
     
     for col in env_metric:
-        # Fill missing values in each column with the 25th percentile of that column
+        # Convert column to float first
+        env_data[col] = env_data[col].apply(decimal_to_float)
+        
+        # Fill missing values with 25th percentile
         percentile_25 = env_data[col].quantile(0.25)
         env_data[col].fillna(percentile_25, inplace=True)
         
-        env_data[col] = env_data[col].apply(decimal_to_float)
-        env_data['EmployeeCount'] = env_data['EmployeeCount'].apply(decimal_to_float)
         env_data[col + "_per_employee"] = env_data[col] / env_data['EmployeeCount']
         env_data[col + "_score"] = calc_score(env_data[col + '_per_employee'])
+        # Convert score to float
+        env_data[col + "_score"] = env_data[col + "_score"].apply(decimal_to_float)
     
     env_weights = [0.4, 0.2, 0.2, 0.2]
     env_indicator_score = env_data[[col + '_score' for col in env_metric]]
-    environmental_score = (env_indicator_score * env_weights).sum(axis=1)
     
-    return environmental_score
-
+    # Ensure all values are float
+    environmental_score = pd.Series(0.0, index=env_indicator_score.index)
+    for col, weight in zip(env_indicator_score.columns, env_weights):
+        environmental_score += env_indicator_score[col].apply(decimal_to_float) * weight
+    
+    # Round to 3 decimal places
+    environmental_score = environmental_score.round(3)
+    
+    # Calculate percentile rank within each year and scale to 10
+    env_data['Percentile_rank'] = environmental_score.groupby(env_data['ReportYear']).rank(pct=True) * 10
+    
+    # Return the percentile rank as the final environmental score
+    return env_data['Percentile_rank']
 
 def calculate_social_score(social_data):
     binary_col = ['DataSecurity', 'CustomerPrivacy', 'Cybersecurity', 'GenderStats', 'AgeStats']
-    social_data[binary_col] = social_data[binary_col].fillna(0).astype(int) * 10
     
-    social_data['WorkRelatedInjuries' + "_score"] = calc_score(social_data['WorkRelatedInjuries'].apply(decimal_to_float))
-    social_data['TrainingHours' + "_score"] = train_score(social_data['TrainingHours']).apply(decimal_to_float)
+    # Convert binary columns to float
+    for col in binary_col:
+        social_data[col] = social_data[col].apply(decimal_to_float)
+    social_data[binary_col] = social_data[binary_col].fillna(0) * 10
+    
+    # Convert and calculate injury score
+    social_data['WorkRelatedInjuries'] = social_data['WorkRelatedInjuries'].apply(decimal_to_float)
+    social_data['WorkRelatedInjuries_score'] = calc_score(social_data['WorkRelatedInjuries'])
+    
+    # Convert and calculate training score
+    social_data['TrainingHours'] = social_data['TrainingHours'].apply(decimal_to_float)
+    social_data['TrainingHours_score'] = train_score(social_data['TrainingHours'])
     
     social_weights = [0.2, 0.2, 0.2, 0.1, 0.1, 0.1, 0.1]
-    social_indicator_score = social_data[binary_col + ['WorkRelatedInjuries' + "_score"] + ['TrainingHours' + "_score"]]
-    social_indicator_score = social_indicator_score.applymap(decimal_to_float)
-    social_score = (social_indicator_score * social_weights).sum(axis=1)
+    social_indicator_score = social_data[binary_col + ['WorkRelatedInjuries_score', 'TrainingHours_score']]
+    
+    # Calculate weighted sum ensuring float values
+    social_score = pd.Series(0.0, index=social_indicator_score.index)
+    for col, weight in zip(social_indicator_score.columns, social_weights):
+        social_score += social_indicator_score[col].apply(decimal_to_float) * weight
     
     return social_score
 
 def calculate_governance_score(gov_data):
     binary_col = ['BoardComposition', 'EthicalBehaviour', 'RiskManagement']
     certificate = ['CertificationList']
+    
+    # Convert all columns to float first
+    for col in binary_col + certificate:
+        gov_data[col] = gov_data[col].apply(decimal_to_float)
+    
     gov_data.fillna(0, inplace=True)
-    gov_data[binary_col] = gov_data[binary_col] * 10 # scores for main keywords
-    gov_data[certificate] = gov_data[certificate] * 2 # scores for certifications
+    gov_data[binary_col] = gov_data[binary_col] * 10
+    gov_data[certificate] = gov_data[certificate] * 2
     
     gov_weights = [0.15, 0.3, 0.3, 0.25]
-    gov_indicator_score = gov_data[binary_col + certificate].applymap(decimal_to_float)
-    gov_score = (gov_indicator_score * gov_weights).sum(axis=1)
+    gov_indicator_score = gov_data[binary_col + certificate]
+    
+    # Calculate weighted sum ensuring float values
+    gov_score = pd.Series(0.0, index=gov_indicator_score.index)
+    for col, weight in zip(gov_indicator_score.columns, gov_weights):
+        gov_score += gov_indicator_score[col].apply(decimal_to_float) * weight
     
     return gov_score
 

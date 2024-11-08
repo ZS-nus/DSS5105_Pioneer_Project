@@ -28,6 +28,7 @@ export default function Settings() {
         <SocialTable />
         <GovTable />
         <Financial />
+        <Financial />
         {/* <ColumnsTable
           columnsData={columnsDataColumns}
           tableData={tableDataColumns}

@@ -69,8 +69,8 @@ def main():
         returns_data.columns = ['Company', 'Market']
         
         # Stock price
-        yearend_stockprice = company_data['Adj Close'].iloc[-1,0] # year end price
-        mean_stockprice = company_data['Adj Close'].mean().tolist()[0] # mean stock price
+        yearend_stockprice = company_data['Adj Close'].iloc[-1]  # year end price
+        mean_stockprice = company_data['Adj Close'].mean()  # mean stock price
 
         # beta formula: beta = covariance(Company, Market) / variance(Market)
         # measure of the volatility of an investment compared to the market 

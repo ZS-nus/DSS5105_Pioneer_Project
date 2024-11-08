@@ -64,7 +64,11 @@ class TableDataExtractor:
                 'clean energy',
                 'green energy',
                 'solar',
-                'wind power'
+                'wind power',
+                'renewable electricity',
+                'renewable power',
+                'renewable sources',
+                'renewable electricity use'
             ],
             'EmployeeCount': [
                 'full-time employees',
@@ -228,25 +232,32 @@ class TableDataExtractor:
             return 0.0
 
     def extract_latest_year_data(self, df: pd.DataFrame) -> dict:
-        """Extract data for the latest year from the table"""
+        """Extract data from the latest year column"""
+        extracted_data = {}
         try:
-            extracted_data = {}
-            
-            # Get year columns with enhanced pattern matching
+            # Find year columns
             year_cols = []
-            for col in df.columns:
+            for col in df.columns[1:]:  # Skip first column (labels)
                 col_str = str(col).upper()
-                if 'FY' in col_str or '20' in col_str:
-                    matches = re.findall(r'\d+', col_str)
+                # Handle FY format (e.g., FY2023, FY23)
+                if 'FY' in col_str:
+                    # Try full year format first (FY2023)
+                    fy_match = re.search(r'FY(\d{4})', col_str)
+                    if fy_match:
+                        year = int(fy_match.group(1))
+                        year_cols.append((col, year))
+                    else:
+                        # Try short year format (FY23)
+                        fy_match = re.search(r'FY(\d{2})', col_str)
+                        if fy_match:
+                            year = 2000 + int(fy_match.group(1))
+                            year_cols.append((col, year))
+                # Handle direct year format
+                elif '20' in col_str:
+                    matches = re.findall(r'20\d{2}', col_str)
                     if matches:
-                        year_num = int(matches[0])
-                        if year_num < 100:
-                            year_num += 2000
-                        elif year_num < 1000:
-                            # Handle unusual cases like FY795 -> 2023
-                            year_num = 2000 + (year_num % 100)
-                        if 2000 <= year_num <= 2100:
-                            year_cols.append((col, year_num))
+                        year = int(matches[0])
+                        year_cols.append((col, year))
 
             # If no valid years found or years look suspicious
             if not year_cols or any(year > 2100 or year < 2000 for _, year in year_cols):
@@ -276,6 +287,8 @@ class TableDataExtractor:
                 latest_col, latest_year = max(year_cols, key=lambda x: x[1])
                 extracted_data['ReportYear'] = latest_year
                 logger.info(f"Found latest year: {latest_year} in column {latest_col}")
+
+        # Rest of your existing code for extracting metrics...
 
             # Log DataFrame info for debugging
             logger.info(f"Processing DataFrame columns: {df.columns.tolist()}")
@@ -361,20 +374,27 @@ class TableDataExtractor:
             except Exception as e:
                 logger.warning(f"Error extracting energy consumption: {e}")
 
-            # Look for GHG emissions
+            # Enhanced GHG emissions extraction
             try:
                 ghg_rows = df[df.iloc[:, 0].str.contains('|'.join(self.metrics['GHGEmissions']), 
                                                     na=False, case=False)]
                 if not ghg_rows.empty:
-                    value_str = clean_numeric(str(ghg_rows.iloc[0][latest_col]))
-                    if value_str and value_str not in ['-', '', 'nan']:
-                        value = float(value_str)
-                        extracted_data['GHGEmissions'] = value
-                        logger.info(f"Found GHG Emissions: {extracted_data['GHGEmissions']}")
+                    # Look specifically for Scope 1+2 total
+                    scope12_rows = ghg_rows[ghg_rows.iloc[:, 0].str.contains(
+                        'scope 1 and 2|total emissions', 
+                        case=False, 
+                        na=False
+                    )]
+                    if not scope12_rows.empty:
+                        value_str = clean_numeric(str(scope12_rows.iloc[0][latest_col]))
+                        if value_str and value_str not in ['-', '', 'nan']:
+                            value = float(value_str)
+                            extracted_data['GHGEmissions'] = value
+                            logger.info(f"Found GHG Emissions: {extracted_data['GHGEmissions']}")
             except Exception as e:
                 logger.warning(f"Error extracting GHG emissions: {e}")
 
-            # Look for water usage
+            # Enhanced water usage extraction
             try:
                 water_rows = df[df.iloc[:, 0].str.contains('|'.join(self.metrics['WaterUsage']), 
                                                         na=False, case=False)]
@@ -382,6 +402,9 @@ class TableDataExtractor:
                     value_str = clean_numeric(str(water_rows.iloc[0][latest_col]))
                     if value_str and value_str not in ['-', '', 'nan']:
                         value = float(value_str)
+                        # Convert million liters to cubic meters
+                        if 'million' in str(water_rows.iloc[0, 0]).lower():
+                            value *= 1000
                         extracted_data['WaterUsage'] = value
                         logger.info(f"Found Water Usage: {extracted_data['WaterUsage']}")
             except Exception as e:

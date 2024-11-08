@@ -1,3 +1,4 @@
+from contextlib import asynccontextmanager
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from typing import List, Optional
@@ -27,7 +28,28 @@ from scripts.report_extraction_table import TableDataExtractor
 # pip install numpy
 # pip install statsmodels
 
-app = FastAPI()
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    """Lifespan events manager for FastAPI"""
+    # Startup
+    logger.info("Server starting up - running initial predictions")
+    try:
+        # Fetch ESG data and generate predictions
+        esg_score = fetch_ESG_data(db_pool)
+        predictions_df = generate_predictions(esg_score)
+        update_predict_table(db_pool, predictions_df)
+        logger.info("Initial predictions completed successfully")
+    except Exception as e:
+        logger.error(f"Error during startup predictions: {str(e)}")
+        # We log the error but don't raise it to allow the server to start
+    
+    yield  # Server is running
+    
+    # Shutdown
+    logger.info("Server shutting down")
+    
+# Update FastAPI initialization to use lifespan
+app = FastAPI(lifespan=lifespan)
 
 # Add CORS middleware
 app.add_middleware(
@@ -72,6 +94,9 @@ report_analyzer = ReportAnalyzer()
 
 # Initialize the table extractor
 table_extractor = TableDataExtractor()
+
+
+
 
 def run_cleanup_schedule():
     """Run cleanup job on schedule"""
@@ -213,15 +238,15 @@ async def calculate_esg():
         social_score = calculate_social_score(social_data)
         governance_score = calculate_governance_score(gov_data)
         
-        # Combine and calculate final ESG score
+        # Combine scores
         esg_score = pd.DataFrame({
             'CompanyID': env_data['CompanyID'],
             'ReportYear': env_data['ReportYear'],
-            'Environmental_Score': environmental_score,
-            'Social_Score': social_score,
-            'Governance_Score': governance_score
+            'Environmental_Score': environmental_score.apply(decimal_to_float),
+            'Social_Score': social_score.apply(decimal_to_float),
+            'Governance_Score': governance_score.apply(decimal_to_float)
         })
-        
+    
         esg_score['Final_ESG_score'] = (
             esg_score['Environmental_Score'] * 0.4 +
             esg_score['Social_Score'] * 0.3 +
@@ -404,6 +429,7 @@ async def fetch_report(file_name: str, max_retries: int = 5, retry_delay: int = 
             )
             
         local_path = Path(result["details"]["file_path"])
+        base_name = os.path.splitext(file_name)[0]
         
         # First convert PDF to text using PDFConverter
         logger.info(f"Converting PDF to text: {local_path}")
@@ -423,17 +449,39 @@ async def fetch_report(file_name: str, max_retries: int = 5, retry_delay: int = 
         
         table_result = process_pdf(str(local_path), str(output_dir))
         
-        # Extract and analyze text content - use txt_filename without .pdf extension
+        # Extract and analyze text content
         logger.info(f"Extracting text content from: {txt_filename}")
-        text_analysis = await extract_report_text(txt_filename)  # Pass the .txt filename
+        text_analysis = await extract_report_text(txt_filename)
+        
+        # Update database with extracted data
+        logger.info(f"Updating database with extracted data")
+        update_result = await update_report_data(base_name)
+        
+        # Fetch updated ESG data
+        logger.info("Fetching updated ESG data for predictions")
+        esg_data = fetch_ESG_data(db_pool)
+        
+        # Generate new predictions
+        logger.info("Generating new predictions")
+        predictions_df = generate_predictions(esg_data)
+        
+        # Update predictions in database
+        logger.info("Updating predictions in database")
+        update_predict_table(db_pool, predictions_df)
         
         return {
             "status": "success",
-            "message": f"File {file_name} downloaded and processed successfully",
+            "message": f"File {file_name} processed and database updated successfully",
             "file_path": str(local_path),
-            "text_result": text_result,
-            "table_result": table_result,
-            "text_analysis": text_analysis
+            "processing_results": {
+                "text_result": text_result,
+                "table_result": table_result,
+                "text_analysis": text_analysis
+            },
+            "database_updates": {
+                "data_update": update_result,
+                "predictions_updated": True
+            }
         }
         
     except HTTPException as he:
@@ -450,137 +498,64 @@ async def extract_report_text(report_name: str):
     """Extract and analyze text content of a processed report"""
     logger.info(f"Received request to extract text from report: {report_name}")
     try:
-        # Ensure the filename ends with .txt
-        if not report_name.endswith('.txt'):
-            report_name = os.path.splitext(report_name)[0] + '.txt'
+        # Clean up filename
+        report_name = report_name.replace('reports/', '')
+        base_name = report_name.replace('.pdf', '').replace('.txt', '')
         
-        # Extract company name from filename
-        parts = report_name.split('_')
-        if len(parts) >= 3 and parts[0].isdigit():
-            # Format: YYYYMMDD_HHMMSS_company.txt
-            company_name = '_'.join(parts[2:]).replace('.txt', '')
+        # Extract year and company from filename (YYYYMMDD_HHMMSS_company)
+        parts = base_name.split('_')
+        if len(parts) >= 3:
+            report_year = int(parts[0][:4])
+            company_name = '_'.join(parts[2:]).upper()
         else:
-            # Format: company.txt
-            company_name = report_name.replace('.txt', '')
-            
-        company_name = company_name.upper()  # Convert to uppercase for consistency
-        
-        # Get database connection from pool
-        conn = db_pool.get_connection()
-        try:
-            cursor = conn.cursor()
-            
-            # Check if company exists and get CompanyID
-            cursor.execute(
-                "SELECT CompanyID FROM company_info WHERE UPPER(CompanyName) = %s",
-                (company_name,)
+            raise HTTPException(
+                status_code=400,
+                detail="Invalid filename format. Expected: YYYYMMDD_HHMMSS_company"
             )
-            result = cursor.fetchone()
             
-            if not result:
-                # Company doesn't exist, insert it
-                cursor.execute(
-                    """INSERT INTO company_info 
-                       (CompanyName, Sector, Location, FoundedYear, Website) 
-                       VALUES (%s, 'Technology', 'Unknown', NULL, NULL)""",
-                    (company_name,)
-                )
-                company_id = cursor.lastrowid
-            else:
-                company_id = result[0]
+        # Ensure the text file exists
+        txt_path = STORAGE_DIR / "txt_outputs" / f"{base_name}.txt"
+        if not txt_path.exists():
+            raise HTTPException(
+                status_code=404,
+                detail=f"Text file for '{base_name}' not found. Please process the PDF first."
+            )
+        
+        # Analyze the report
+        result = report_analyzer.analyze_report(str(txt_path))
+        
+        if result["status"] == "error":
+            raise HTTPException(
+                status_code=500,
+                detail=result["message"]
+            )
 
-            # Analyze the report
-            txt_path = STORAGE_DIR / "txt_outputs" / f"{report_name}"
-            if not txt_path.exists():
-                raise HTTPException(
-                    status_code=404,
-                    detail=f"Text file for '{report_name}' not found. Please process the PDF first."
-                )
+        # Add report year to analysis
+        analysis = result["analysis"]
+        analysis['report_year'] = report_year
             
-            result = report_analyzer.analyze_report(str(txt_path))
-            
-            if result["status"] == "error":
-                raise HTTPException(
-                    status_code=500,
-                    detail=result["message"]
-                )
-
-            # Extract report year from the content or filename
-            analysis = result["analysis"]
-            report_year = analysis.get('report_year')
-            
-            # If report_year is not found in analysis, try to extract from filename
-            if not report_year:
-                # Extract year from filename (assuming format: YYYYMMDD_HHMMSS_company.txt)
-                try:
-                    report_year = int(report_name.split('_')[0][:4])
-                except:
-                    report_year = 2023  # Default to current year if extraction fails
-            
-            # Store report_year back in analysis dict
-            analysis['report_year'] = report_year
-
-            # Update governance table
-            cert_count = len(analysis.get('iso_certificates', []))
-            cursor.execute("""
-                INSERT INTO governance 
-                (CompanyID, ReportYear, BoardComposition, EthicalBehaviour, RiskManagement, CertificationList)
-                VALUES (%s, %s, %s, %s, %s, %s)
-                ON DUPLICATE KEY UPDATE
-                BoardComposition = VALUES(BoardComposition),
-                EthicalBehaviour = VALUES(EthicalBehaviour),
-                RiskManagement = VALUES(RiskManagement),
-                CertificationList = VALUES(CertificationList)
-            """, (
-                company_id,
-                report_year,  # Use report_year directly
-                1 if analysis.get('board_diversity', 0) > 0 else 0,
-                1 if analysis.get('ethical_corruption', 0) > 0 else 0,
-                1 if analysis.get('risk_management', 0) > 0 else 0,
-                cert_count
-            ))
-
-            # Update social table
-            cursor.execute("""
-                INSERT INTO social 
-                (CompanyID, ReportYear, DataSecurity, CustomerPrivacy, Cybersecurity, 
-                 GenderStats, AgeStats, EmployeeCount, MalePercentage, FemalePercentage, 
-                 TrainingHours, WorkRelatedInjuries)
-                VALUES (%s, %s, %s, %s, %s, %s, %s, NULL, NULL, NULL, NULL, NULL)
-                ON DUPLICATE KEY UPDATE
-                DataSecurity = VALUES(DataSecurity),
-                CustomerPrivacy = VALUES(CustomerPrivacy),
-                Cybersecurity = VALUES(Cybersecurity),
-                GenderStats = VALUES(GenderStats),
-                AgeStats = VALUES(AgeStats)
-            """, (
-                company_id,
-                report_year,  # Use report_year directly instead of analysis['report_year']
-                1 if analysis.get('data_security', 0) > 0 else 0,
-                1 if analysis.get('customer_privacy', 0) > 0 else 0,
-                1 if analysis.get('cybersecurity', 0) > 0 else 0,
-                1 if analysis.get('gender_diversity', 0) > 0 else 0,
-                1 if analysis.get('age_diversity', 0) > 0 else 0
-            ))
-            
-            conn.commit()
-            
-            return {
-                "status": "success",
-                "report_name": report_name,
-                "company_id": company_id,
-                "analysis": analysis,  # This now includes the report_year
-                "database_update": {
-                    "company": company_name,
-                    "report_year": report_year,  # Use report_year directly
-                    "governance_updated": True,
-                    "social_updated": True
+        return {
+            "status": "success",
+            "report_name": base_name,
+            "company_name": company_name,
+            "report_year": report_year,
+            "analysis": analysis,
+            "metrics_found": {
+                "governance": {
+                    "board_diversity": bool(analysis.get('board_diversity')),
+                    "ethical_corruption": bool(analysis.get('ethical_corruption')),
+                    "risk_management": bool(analysis.get('risk_management')),
+                    "iso_certificates": len(analysis.get('iso_certificates', []))
+                },
+                "social": {
+                    "data_security": bool(analysis.get('data_security')),
+                    "customer_privacy": bool(analysis.get('customer_privacy')),
+                    "cybersecurity": bool(analysis.get('cybersecurity')),
+                    "gender_diversity": bool(analysis.get('gender_diversity')),
+                    "age_diversity": bool(analysis.get('age_diversity'))
                 }
             }
-
-        finally:
-            cursor.close()
-            conn.close()
+        }
             
     except HTTPException as he:
         raise he
@@ -596,19 +571,22 @@ async def extract_report_tables(report_name: str):
     """Extract and analyze table content from a processed report"""
     logger.info(f"Received request to extract tables from report: {report_name}")
     try:
-        # Clean up filename and ensure correct path
-        report_name = report_name.replace('reports/', '')  # Remove if present
-        if report_name.endswith('.pdf'):
-            report_name = report_name[:-4]  # Remove .pdf extension
-        if report_name.endswith('.txt'):
-            report_name = report_name[:-4]  # Remove .txt extension
-            
-        # Extract company name from filename
-        company_name = '_'.join(report_name.split('_')[2:])
-        company_name = company_name.upper()
+        # Clean up filename
+        report_name = report_name.replace('reports/', '')
+        base_name = report_name.replace('.pdf', '').replace('.txt', '')
         
+        # Extract company from filename (YYYYMMDD_HHMMSS_company)
+        parts = base_name.split('_')
+        if len(parts) >= 3:
+            company_name = '_'.join(parts[2:]).upper()
+        else:
+            raise HTTPException(
+                status_code=400,
+                detail="Invalid filename format. Expected: YYYYMMDD_HHMMSS_company"
+            )
+            
         # Process tables from the correct directory
-        table_dir = STORAGE_DIR / "table_outputs" / report_name
+        table_dir = STORAGE_DIR / "table_outputs" / base_name
         if not table_dir.exists():
             raise HTTPException(
                 status_code=404,
@@ -624,20 +602,30 @@ async def extract_report_tables(report_name: str):
                 detail=table_result["message"]
             )
 
-        # Get report year from table data or filename
-        report_year = table_result.get("data", {}).get("ReportYear")
-        if not report_year:
-            try:
-                report_year = int(report_name.split('_')[0][:4])
-            except:
-                report_year = 2023
+        # Get metrics and year from table data
+        metrics = table_result["data"]["metrics"]
+        report_year = metrics["ReportYear"]  # Use the year from table extraction
         
         return {
             "status": "success",
-            "report_name": report_name,
+            "report_name": base_name,
             "company_name": company_name,
-            "table_analysis": table_result["data"],
-            "report_year": report_year
+            "report_year": report_year,
+            "table_analysis": {
+                "metrics": metrics,
+                "metrics_found": [k for k, v in metrics.items() if v is not None],
+                "metrics_missing": [k for k, v in metrics.items() if v is None],
+                "environmental_metrics": {
+                    "energy": metrics.get("EnergyConsumption"),
+                    "emissions": metrics.get("GHGEmissions"),
+                    "water": metrics.get("WaterUsage"),
+                    "waste": metrics.get("WasteGenerated"),
+                    "renewable": metrics.get("RenewableEnergyUse")
+                },
+                "social_metrics": {
+                    "employee_count": metrics.get("EmployeeCount")
+                }
+            }
         }
             
     except HTTPException as he:
@@ -647,6 +635,261 @@ async def extract_report_tables(report_name: str):
         raise HTTPException(
             status_code=500,
             detail=f"Error extracting tables: {str(e)}"
+        )
+        
+        
+@app.post("/reports/extract/update/data/{report_name}")
+async def update_report_data(report_name: str):
+    """Update database with extracted data from both text and tables"""
+    logger.info(f"Updating database with extracted data for report: {report_name}")
+    try:
+        # Get text and table analysis results
+        text_result = await extract_report_text(report_name)
+        table_result = await extract_report_tables(report_name)
+        
+        # Extract key information
+        company_name = text_result["company_name"]
+        text_year = text_result["report_year"]
+        table_year = table_result["report_year"]
+        
+        # Use table year if available, otherwise fall back to text year
+        report_year = table_year if table_year else text_year
+        
+        # Log if there's a year mismatch
+        if text_year != table_year:
+            logger.warning(
+                f"Report year mismatch for {report_name}: "
+                f"text_year={text_year}, table_year={table_year}. "
+                f"Using table year: {report_year}"
+            )
+        
+        text_data = text_result["analysis"]
+        table_data = table_result["table_analysis"]["metrics"]
+
+        # Get database connection
+        conn = db_pool.get_connection()
+        try:
+            cursor = conn.cursor()
+            
+            # Get or create company
+            cursor.execute(
+                "SELECT CompanyID FROM company_info WHERE UPPER(CompanyName) = %s",
+                (company_name,)
+            )
+            result = cursor.fetchone()
+            
+            if not result:
+                cursor.execute(
+                    """INSERT INTO company_info 
+                       (CompanyName, Sector, Location, FoundedYear, Website) 
+                       VALUES (%s, 'Technology', 'NULL', NULL, NULL)""",
+                    (company_name,)
+                )
+                company_id = cursor.lastrowid
+            else:
+                company_id = result[0]
+
+            # Update governance table
+            cert_count = len(text_data.get('iso_certificates', []))
+            cursor.execute("""
+                INSERT INTO governance 
+                (CompanyID, ReportYear, BoardComposition, EthicalBehaviour, 
+                 RiskManagement, CertificationList)
+                VALUES (%s, %s, %s, %s, %s, %s)
+                ON DUPLICATE KEY UPDATE
+                BoardComposition = VALUES(BoardComposition),
+                EthicalBehaviour = VALUES(EthicalBehaviour),
+                RiskManagement = VALUES(RiskManagement),
+                CertificationList = VALUES(CertificationList)
+            """, (
+                company_id,
+                report_year,
+                1 if text_data.get('board_diversity', 0) > 0 else 0,
+                1 if text_data.get('ethical_corruption', 0) > 0 else 0,
+                1 if text_data.get('risk_management', 0) > 0 else 0,
+                cert_count
+            ))
+
+            # Update social table
+            cursor.execute("""
+                INSERT INTO social 
+                (CompanyID, ReportYear, DataSecurity, CustomerPrivacy, Cybersecurity,
+                 GenderStats, AgeStats, EmployeeCount)
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+                ON DUPLICATE KEY UPDATE
+                DataSecurity = VALUES(DataSecurity),
+                CustomerPrivacy = VALUES(CustomerPrivacy),
+                Cybersecurity = VALUES(Cybersecurity),
+                GenderStats = VALUES(GenderStats),
+                AgeStats = VALUES(AgeStats),
+                EmployeeCount = COALESCE(VALUES(EmployeeCount), EmployeeCount)
+            """, (
+                company_id,
+                report_year,
+                1 if text_data.get('data_security', 0) > 0 else 0,
+                1 if text_data.get('customer_privacy', 0) > 0 else 0,
+                1 if text_data.get('cybersecurity', 0) > 0 else 0,
+                1 if text_data.get('gender_diversity', 0) > 0 else 0,
+                1 if text_data.get('age_diversity', 0) > 0 else 0,
+                table_data.get('EmployeeCount')
+            ))
+
+            # Update environment table
+            cursor.execute("""
+                INSERT INTO environment 
+                (CompanyID, ReportYear, EnergyConsumption, GHGEmissions,
+                 WaterUsage, WasteGenerated, RenewableEnergyUse)
+                VALUES (%s, %s, %s, %s, %s, %s, %s)
+                ON DUPLICATE KEY UPDATE
+                EnergyConsumption = VALUES(EnergyConsumption),
+                GHGEmissions = VALUES(GHGEmissions),
+                WaterUsage = VALUES(WaterUsage),
+                WasteGenerated = VALUES(WasteGenerated),
+                RenewableEnergyUse = VALUES(RenewableEnergyUse)
+            """, (
+                company_id,
+                report_year,
+                table_data.get('EnergyConsumption'),
+                table_data.get('GHGEmissions'),
+                table_data.get('WaterUsage'),
+                table_data.get('WasteGenerated'),
+                table_data.get('RenewableEnergyUse')
+            ))
+
+            conn.commit()
+
+            return {
+                "status": "success",
+                "report_name": report_name,
+                "company_name": company_name,
+                "report_year": {
+                    "used": report_year,
+                    "from_text": text_year,
+                    "from_table": table_year,
+                    "mismatch": text_year != table_year
+                },
+                "extraction_results": {
+                    "text": {
+                        "found": bool(text_data),
+                        "metrics": {
+                            "governance": {
+                                "board_diversity": bool(text_data.get('board_diversity')),
+                                "ethical_corruption": bool(text_data.get('ethical_corruption')),
+                                "risk_management": bool(text_data.get('risk_management')),
+                                "iso_certificates": len(text_data.get('iso_certificates', []))
+                            },
+                            "social": {
+                                "data_security": bool(text_data.get('data_security')),
+                                "customer_privacy": bool(text_data.get('customer_privacy')),
+                                "cybersecurity": bool(text_data.get('cybersecurity')),
+                                "gender_diversity": bool(text_data.get('gender_diversity')),
+                                "age_diversity": bool(text_data.get('age_diversity'))
+                            }
+                        }
+                    },
+                    "table": {
+                        "found": bool(table_data),
+                        "metrics": {
+                            "environmental": {
+                                "energy": table_data.get("EnergyConsumption"),
+                                "emissions": table_data.get("GHGEmissions"),
+                                "water": table_data.get("WaterUsage"),
+                                "waste": table_data.get("WasteGenerated"),
+                                "renewable": table_data.get("RenewableEnergyUse")
+                            },
+                            "social": {
+                                "employee_count": table_data.get("EmployeeCount")
+                            }
+                        }
+                    }
+                },
+                "database_update": {
+                    "company_id": company_id,
+                    "tables_updated": {
+                        "governance": True,
+                        "social": True,
+                        "environment": True
+                    }
+                }
+            }
+
+        finally:
+            cursor.close()
+            conn.close()
+
+    except HTTPException as he:
+        raise he
+    except Exception as e:
+        logger.error(f"Error updating report data: {str(e)}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error updating report data: {str(e)}"
+        )  
+        
+        
+@app.delete("/company/delete/{company_name}")
+async def delete_company_data(company_name: str):
+    """Delete all records associated with a company from all tables"""
+    logger.info(f"Attempting to delete all records for company: {company_name}")
+    try:
+        # Get database connection
+        conn = db_pool.get_connection()
+        try:
+            cursor = conn.cursor()
+            
+            # First get the company ID
+            cursor.execute(
+                "SELECT CompanyID FROM company_info WHERE UPPER(CompanyName) = %s",
+                (company_name.upper(),)
+            )
+            result = cursor.fetchone()
+            
+            if not result:
+                raise HTTPException(
+                    status_code=404,
+                    detail=f"Company '{company_name}' not found"
+                )
+                
+            company_id = result[0]
+            
+            # Delete from all related tables
+            tables = ['environment', 'social', 'governance', 'esg_scores', 'esg_predictions']
+            deleted_counts = {}
+            
+            for table in tables:
+                cursor.execute(f"""
+                    DELETE FROM {table}
+                    WHERE CompanyID = %s
+                """, (company_id,))
+                deleted_counts[table] = cursor.rowcount
+            
+            # Finally delete from company_info
+            cursor.execute("""
+                DELETE FROM company_info
+                WHERE CompanyID = %s
+            """, (company_id,))
+            deleted_counts['company_info'] = cursor.rowcount
+            
+            conn.commit()
+            
+            return {
+                "status": "success",
+                "message": f"Successfully deleted all records for {company_name}",
+                "company_id": company_id,
+                "deleted_records": deleted_counts
+            }
+            
+        finally:
+            cursor.close()
+            conn.close()
+            
+    except HTTPException as he:
+        raise he
+    except Exception as e:
+        logger.error(f"Error deleting company data: {str(e)}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error deleting company data: {str(e)}"
         )
 
 if __name__ == "__main__":
