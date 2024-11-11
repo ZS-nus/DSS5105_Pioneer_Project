@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from decimal import Decimal
-from db_connect import connect_to_db, fetch_ESG_data, update_predict_table
+from db_connect import get_connection_pool, fetch_ESG_data, update_predict_table
 from statsmodels.tsa.holtwinters import ExponentialSmoothing
 import warnings
 
@@ -12,33 +12,30 @@ warnings.filterwarnings("ignore", category=RuntimeWarning, message="divide by ze
 warnings.filterwarnings("ignore", category=RuntimeWarning, message="invalid value encountered in scalar add")
 warnings.filterwarnings("ignore", category=RuntimeWarning, message="divide by zero encountered in log")
 
-db_pool = connect_to_db()
+
+db_pool = get_connection_pool()
 if not db_pool:
     print("Failed to connect to the database.")
     exit()
 else:
     esg_score = fetch_ESG_data(db_pool)
 
+# Load data into DataFrame
 esg_ts_data = pd.DataFrame(esg_score)
 esg_ts_data = esg_ts_data[['CompanyID', 'ReportYear', 'Environmental_Score', 'Social_Score', 'Governance_Score', 'Final_ESG_score']].copy()
-
-# Convert ReportYear to datetime
 esg_ts_data['ReportYear'] = pd.to_datetime(esg_ts_data['ReportYear'], format='%Y')
-
 esg_ts_data.reset_index(drop=True, inplace=True)
-
 esg_ts_data.fillna(esg_ts_data.mean(), inplace=True)
 
 # Set the number of years to forecast
 forecast_years = 3
+confidence_level = 1.96  # 95% confidence interval multiplier for a normal distribution
 company_data = []
 
 # Process data for each company
 for company_id, group in esg_ts_data.groupby('CompanyID'):
-    
-    # Ensure data is sorted by year and set year as index
     group = group.sort_values(by='ReportYear').set_index('ReportYear')
-
+    
     # Add actual data to the company_data list
     actual_df = group.reset_index().rename(columns={
         'ReportYear': 'Year',
@@ -63,19 +60,47 @@ for company_id, group in esg_ts_data.groupby('CompanyID'):
             'Governance': [group['Governance_Score'].mean()] * forecast_years
         })
     else:
-        # Use exponential smoothing for time series forecasting
+        # Calculate historical mean and standard deviation for each score
+        target_means = {
+            'Environmental': group['Environmental_Score'].mean(),
+            'Social': group['Social_Score'].mean(),
+            'Governance': group['Governance_Score'].mean()
+        }
+        std_devs = {
+            'Environmental': group['Environmental_Score'].std(),
+            'Social': group['Social_Score'].std(),
+            'Governance': group['Governance_Score'].std()
+        }
+
+        # Calculate confidence intervals based on historical data
+        confidence_intervals = {
+            key: (
+                target_means[key] - confidence_level * std_devs[key],  # lower bound
+                target_means[key] + confidence_level * std_devs[key]   # upper bound
+            )
+            for key in target_means
+        }
+
+        # Exponential Smoothing model for forecasting
         models = {
             'Environmental': ExponentialSmoothing(group['Environmental_Score'], trend="add", seasonal=None),
             'Social': ExponentialSmoothing(group['Social_Score'], trend="add", seasonal=None),
             'Governance': ExponentialSmoothing(group['Governance_Score'], trend="add", seasonal=None)
         }
-        
         fits = {k: v.fit() for k, v in models.items()}
-        
-        # Forecast
         forecasts = {k: v.forecast(steps=forecast_years) for k, v in fits.items()}
         
-        # Create forecast DataFrame
+        # Constrain predictions within the confidence intervals
+        for key, forecast in forecasts.items():
+            constrained_forecast = []
+            for i in range(forecast_years):
+                # Constrain each forecasted value within the calculated confidence interval
+                next_value = np.clip(forecast.iloc[i], confidence_intervals[key][0], confidence_intervals[key][1])
+                constrained_forecast.append(next_value)
+                
+            forecasts[key] = constrained_forecast
+
+        # Prepare forecast DataFrame
         last_year = group.index[-1].year
         future_years = pd.date_range(start=f"{last_year+1}-01-01", periods=forecast_years, freq='YS')
         forecast_df = pd.DataFrame({
@@ -93,23 +118,24 @@ for company_id, group in esg_ts_data.groupby('CompanyID'):
         0.2 * forecast_df['Governance']
     )
     
-    # Clip values to be between 0 and 10
+    # Clip values between 0 and 10
     for col in ['Environmental', 'Social', 'Governance', 'ESG_Score']:
         forecast_df[col] = np.clip(forecast_df[col], 0, 10)
 
     forecast_df['Data_Type'] = 'Predicted'
     company_data.append(forecast_df)
 
+# Concatenate all company data
 final_df = pd.concat(company_data, ignore_index=True)
-
-# Sort the DataFrame by CompanyID and Year
 final_df = final_df.sort_values(['CompanyID', 'Year'])
 
-# print(final_df.info())
+# Display first few rows of the result
 print(final_df[['CompanyID', 'Year', 'Environmental', 'Social', 'Governance', 'ESG_Score', 'Data_Type']].head(10))
 
+# Update database table if connected
 if db_pool:
-    # Update the predictions table
     update_predict_table(db_pool, final_df)
 else:
     print("Failed to connect to the database. Predictions were not saved.")
+
+

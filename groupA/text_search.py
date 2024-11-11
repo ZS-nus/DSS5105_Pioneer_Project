@@ -18,13 +18,32 @@ def check_keywords(content, keywords, similarity_threshold=60):
                     return 1
     return 0
 
+def find_iso_certificates(content):
+    # 使用正则表达式匹配 ISO 证书
+    iso_pattern = r'ISO\s*\d{4,5}(?::\d{4})?'
+    iso_certificates = re.findall(iso_pattern, content)
+    return list(set(iso_certificates))
+
 def scan_txt_files():
     txt_folder = '../txt_files'
     keywords = {
         'data_security': [
-            'data security', 'information protection', 'cybersecurity', 'data privacy',
-            'data breach', 'information security', 'data encryption', 'cyber threat',
+            'data security', 'information protection', 'data privacy',
+            'data breach', 'information security', 'data encryption',
             'data protection', 'secure data', 'data confidentiality', 'data integrity'
+        ],
+        'cybersecurity': [
+            'cybersecurity', 'cyber threat', 'cyber attack', 'cyber risk',
+            'cyber defense', 'cyber incident', 'cyber vulnerability', 'cyber resilience',
+            'cyber protection', 'network security', 'cyber crime', 'malware',
+            'ransomware', 'phishing', 'firewall', 'cyber awareness'
+        ],
+        'customer_privacy': [
+            'customer privacy', 'privacy policy', 'privacy protection', 'privacy rights',
+            'personal information', 'data subject rights', 'privacy compliance', 
+            'privacy notice', 'privacy impact', 'customer consent', 'privacy breach',
+            'privacy risk', 'privacy management', 'data collection', 'data processing',
+            'data retention', 'privacy training', 'privacy framework', 'GDPR', 'CCPA'
         ],
         'ethical_corruption': [
             'ethical conduct', 'anti-corruption', 'bribery', 'integrity',
@@ -43,7 +62,7 @@ def scan_txt_files():
             'board inclusivity', 'diverse perspectives in board', 'board member diversity'
         ],
         'risk_management': [
-            'risk'
+            'risk',
             'risk management', 'risk assessment', 'risk mitigation', 'risk control',
             'enterprise risk management', 'risk identification', 'risk monitoring',
             'risk strategy', 'risk analysis', 'risk reporting', 'risk governance'
@@ -64,6 +83,9 @@ def scan_txt_files():
                 file_results[category] = f"{category.replace('_', ' ')}:{result}"
             
             results[filename] = file_results
+            
+            iso_certificates = find_iso_certificates(content)
+            file_results['iso_certificates'] = iso_certificates
 
     return results
 

@@ -62,6 +62,7 @@ VALUES
 (4, 2021, 2846000, 475000, NULL, 20700, NULL),
 (4, 2022, 2448000, 430000, NULL, 14800, NULL),
 (4, 2023, 2287000, 364000, NULL, 16500, NULL),
+(6, 2023, 36399000, 13291000, 177361000, 1314923, NULL),
 (6, 2022, 35177000, 15053000, 172811000, 1413365, 8704000),
 (6, 2021, 32322000, 17400000, 163660000, 1324972, 5278000),
 (6, 2020, 29024000, 14806000, 141648000, 1181741, 4030000),
@@ -101,9 +102,6 @@ CREATE TABLE social (
     Cybersecurity BOOLEAN,
     MalePercentage DECIMAL(5,2),
     FemalePercentage DECIMAL(5,2),
-    AgeUnder30 DECIMAL(5,2),
-    Age30to50 DECIMAL(5,2),
-    AgeAbove50 DECIMAL(5,2),
     TrainingHours DECIMAL(10,1),
     WorkRelatedInjuries VARCHAR(255),
     GenderStats BOOLEAN,
@@ -113,42 +111,43 @@ CREATE TABLE social (
 );
 
 -- Insert data into the social table
-INSERT INTO social (CompanyID, ReportYear, EmployeeCount, DataSecurity, CustomerPrivacy, Cybersecurity, MalePercentage, FemalePercentage, AgeUnder30, Age30to50, AgeAbove50, TrainingHours, WorkRelatedInjuries, GenderStats, AgeStats)
+INSERT INTO social (CompanyID, ReportYear, EmployeeCount, DataSecurity, CustomerPrivacy, Cybersecurity, MalePercentage, FemalePercentage, TrainingHours, WorkRelatedInjuries, GenderStats, AgeStats)
 VALUES
-(7, 2023, 204000, 0, 0, 0, 65.90, 34.10, 40.00, 35.00, 15.00, NULL, NULL, 1, 1),
-(7, 2022, 190234, 0, 0, 0, 65.90, 34.10, 40.00, 35.00, 15.00, NULL, NULL, 1, 1),
-(7, 2021, 186779, 0, 0, 0, 66.10, 33.90, 40.00, 35.00, 15.00, NULL, NULL, 1, 1),
-(7, 2020, 156500, 0, 0, 0, 67.50, 32.50, 40.00, 35.00, 15.00, NULL, NULL, 1, 1),
-(7, 2019, 118899, 0, 0, 0, 68.00, 32.00, 40.00, 35.00, 15.00, NULL, NULL, 1, 1),
-(6, 2022, 270372, 1, 1, 1, 64.90, 35.10, 31.00, NULL, NULL, 9140000.0, '0.031', 1, 1),
-(6, 2021, 266673, 1, 1, 1, 63.70, 36.30, 33.72, NULL, NULL, 8180000.0, '0.022', 1, 1),
-(6, 2020, 267937, 1, 1, 1, 62.70, 37.30, 38.00, NULL, NULL, 7340000.0, '0.008', 1, 1),
-(3, 2023, 35116, 1, 1, 1, 73.65, 26.35, 35.76, 63.51, 0.73, 172705.0, NULL, 1, 1),
-(3, 2022, 35997, 1, 1, 1, 69.35, 30.65, 39.40, 59.74, 0.86, 302383.0, NULL, 1, 1),
-(3, 2021, 33415, 1, 1, 1, 66.70, 33.30, 43.69, 55.51, 0.80, 363531.0, NULL, 1, 1),
-(3, 2020, 24810, 1, 1, 1, NULL, NULL, 47.32, 52.14, 0.53, NULL, '0.000045', 0, 1),
-(5, 2023, 67317, 0, 0, 0, 63.30, 36.70, NULL, NULL, NULL, NULL, NULL, 1, 0),
-(5, 2022, 86482, 0, 0, 0, 62.90, 37.10, NULL, NULL, NULL, NULL, NULL, 1, 0),
-(5, 2021, 71970, 0, 0, 0, 63.30, 36.70, NULL, NULL, NULL, NULL, NULL, 1, 0),
-(5, 2020, 58604, 0, 0, 0, 63.00, 37.00, NULL, NULL, NULL, NULL, NULL, 1, 0),
-(1, 2023, 161000, 1, 1, 1, 64.41, 35.59, NULL, NULL, NULL, NULL, NULL, 1, 0),
-(1, 2022, 164000, 1, 1, 1, 64.60, 35.30, NULL, NULL, NULL, NULL, NULL, 1, 0),
-(1, 2021, 154000, 1, 1, 1, 65.20, 34.80, NULL, NULL, NULL, NULL, NULL, 1, 0),
-(1, 2020, 147000, 1, 1, 1, 66.00, 34.00, NULL, NULL, NULL, NULL, NULL, 1, 0),
-(1, 2019, 137000, 1, 1, 1, 67.00, 33.00, NULL, NULL, NULL, NULL, NULL, 1, 0),
-(4, 2023, 282200, 1, 0, 1, 62.60, 37.40, NULL, NULL, NULL, 23100000.0, '0.049', 1, 0),
-(4, 2022, 288300, 1, 0, 1, 62.80, 37.20, NULL, NULL, NULL, 24300000.0, NULL, 1, 0),
-(4, 2021, 282100, 1, 0, 1, 63.30, 36.70, NULL, NULL, NULL, 22500000.0, NULL, 1, 0),
-(4, 2020, 345900, 0, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0),
-(4, 2019, 352600, 0, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 0, 0),
-(2, 2023, 69500, 1, 1, 1, 63.00, 37.00, 14.00, 72.00, 14.00, 625500.0, NULL, 1, 1),
-(2, 2022, 77000, 1, 1, 1, 63.00, 37.00, 15.00, 72.00, 13.00, 462000.0, '0.002', 1, 1),
-(2, 2021, 75000, 0, 1, 1, 63.00, 37.00, 15.00, 73.00, 12.00, 375000.0, NULL, 1, 1),
-(2, 2020, 71500, 0, 1, 1, 64.00, 36.00, 15.00, 73.00, 12.00, NULL, NULL, 1, 1),
-(2, 2019, 63000, 0, 1, 1, 64.00, 36.00, NULL, NULL, NULL, NULL, NULL, 1, 0),
-(8, 2023, 56780, 1, 1, 1, 71.27, 28.73, 31.38, 68.02, 0.60, 1465109.1, '0.13', 1, 1),
-(8, 2022, 61328, 1, 1, 1, 71.24, 28.76, 36.97, 62.61, 0.42, 2225679.7, '0.09', 1, 1),
-(8, 2021, 68226, 1, 1, 1, 70.95, 29.05, 41.93, 57.78, 0.29, 2795780.2, '0.25', 1, 1);
+(7, 2023, 204000, 0, 0, 0, 65.90, 34.10, NULL, NULL, 1, 1),
+(7, 2022, 190234, 0, 0, 0, 65.90, 34.10, NULL, NULL, 1, 1),
+(7, 2021, 186779, 0, 0, 0, 66.10, 33.90, NULL, NULL, 1, 1),
+(7, 2020, 156500, 0, 0, 0, 67.50, 32.50, NULL, NULL, 1, 1),
+(7, 2019, 118899, 0, 0, 0, 68.00, 32.00, NULL, NULL, 1, 1),
+(6, 2023, 267860, 1, 1, 1, 71.60, 28.40, 9500000.0, '0.025', 1, 1),
+(6, 2022, 270372, 1, 1, 1, 64.90, 35.10, 9140000.0, '0.031', 1, 1),
+(6, 2021, 266673, 1, 1, 1, 63.70, 36.30, 8180000.0, '0.022', 1, 1),
+(6, 2020, 267937, 1, 1, 1, 62.70, 37.30, 7340000.0, '0.008', 1, 1),
+(3, 2023, 35116, 1, 1, 1, 73.65, 26.35, 172705.0, NULL, 1, 1),
+(3, 2022, 35997, 1, 1, 1, 69.35, 30.65, 302383.0, NULL, 1, 1),
+(3, 2021, 33415, 1, 1, 1, 66.70, 33.30, 363531.0, NULL, 1, 1),
+(3, 2020, 24810, 1, 1, 1, NULL, NULL, NULL, '0.000045', 0, 1),
+(5, 2023, 67317, 0, 0, 0, 63.30, 36.70, NULL, NULL, 1, 0),
+(5, 2022, 86482, 0, 0, 0, 62.90, 37.10, NULL, NULL, 1, 0),
+(5, 2021, 71970, 0, 0, 0, 63.30, 36.70, NULL, NULL, 1, 0),
+(5, 2020, 58604, 0, 0, 0, 63.00, 37.00, NULL, NULL, 1, 0),
+(1, 2023, 161000, 1, 1, 1, 64.41, 35.59, NULL, NULL, 1, 0),
+(1, 2022, 164000, 1, 1, 1, 64.60, 35.30, NULL, NULL, 1, 0),
+(1, 2021, 154000, 1, 1, 1, 65.20, 34.80, NULL, NULL, 1, 0),
+(1, 2020, 147000, 1, 1, 1, 66.00, 34.00, NULL, NULL, 1, 0),
+(1, 2019, 137000, 1, 1, 1, 67.00, 33.00, NULL, NULL, 1, 0),
+(4, 2023, 282200, 1, 0, 1, 62.60, 37.40, 23100000.0, '0.049', 1, 0),
+(4, 2022, 288300, 1, 0, 1, 62.80, 37.20, 24300000.0, NULL, 1, 0),
+(4, 2021, 282100, 1, 0, 1, 63.30, 36.70, 22500000.0, NULL, 1, 0),
+(4, 2020, 345900, 0, 0, 0, NULL, NULL, NULL, NULL, 0, 0),
+(4, 2019, 352600, 0, 0, 0, NULL, NULL, NULL, NULL, 0, 0),
+(2, 2023, 69500, 1, 1, 1, 63.00, 37.00, 625500.0, NULL, 1, 1),
+(2, 2022, 77000, 1, 1, 1, 63.00, 37.00, 462000.0, '0.002', 1, 1),
+(2, 2021, 75000, 0, 1, 1, 63.00, 37.00, 375000.0, NULL, 1, 1),
+(2, 2020, 71500, 0, 1, 1, 64.00, 36.00, NULL, NULL, 1, 1),
+(2, 2019, 63000, 0, 1, 1, 64.00, 36.00, NULL, NULL, 1, 0),
+(8, 2023, 56780, 1, 1, 1, 71.27, 28.73, 1465109.1, '0.13', 1, 1),
+(8, 2022, 61328, 1, 1, 1, 71.24, 28.76, 2225679.7, '0.09', 1, 1),
+(8, 2021, 68226, 1, 1, 1, 70.95, 29.05, 2795780.2, '0.25', 1, 1);
 
 
     -- Drop the existing e_score table if it exists
@@ -197,6 +196,7 @@ VALUES
 (7, 2021, 0, 1, 1, 2),
 (7, 2020, 0, 1, 1, 2),
 (7, 2019, 0, 1, 1, 2),
+(6, 2023, 1, 1, 1, 5),
 (6, 2022, 1, 1, 1, 5),
 (6, 2021, 1, 1, 1, 5),
 (6, 2020, 1, 1, 1, 5),
@@ -257,3 +257,49 @@ CREATE TABLE esg_scores (
     PRIMARY KEY (CompanyID, ReportYear),
     FOREIGN KEY (CompanyID) REFERENCES company_info(CompanyID)
 );
+
+-- Drop the existing esg_finance table if it exists
+DROP TABLE IF EXISTS esg_fin;
+
+-- Create the esg_finance table
+CREATE TABLE esg_fin (
+    CompanyID INT NOT NULL,
+	Final_ESG_Score DECIMAL(7, 4) NULL,
+    ROE DECIMAL(10,4),
+    ROA DECIMAL(10,4),
+    DebtToEquity DECIMAL(5,2),
+    TotalAssets_thousandsUSD BIGINT,
+	Beta DECIMAL(6, 3) NULL,
+	Mean_stockprice DECIMAL(10, 2) NULL,
+	Yearend_stockprice DECIMAL(10, 2) NULL,
+	Currency VARCHAR(255) NULL,
+    PRIMARY KEY (CompanyID),
+    FOREIGN KEY (CompanyID) REFERENCES company_info(CompanyID)
+);
+
+INSERT INTO esg_fin (CompanyID, Final_ESG_Score, ROE, ROA, DebtToEquity, TotalAssets_thousandsUSD, Beta, Mean_stockprice, Yearend_stockprice, Currency) VALUES
+(1, NULL, 1.5580, 0.2750, 4.67, 352583000, NULL, NULL, NULL, NULL),
+(2, NULL, 0.1975, 0.0281, 6.03, 39256653, NULL, NULL, NULL, NULL),
+(3, NULL, 0.1650, 0.0539, 0.97, 45506507, NULL, NULL, NULL, NULL),
+(4, NULL, 0.3311, 0.0555, 4.98, 135241000, NULL, NULL, NULL, NULL),
+(5, NULL, 0.2552, 0.1703, 0.50, 229623000, NULL, NULL, NULL, NULL),
+(6, NULL, 0.0400, 0.0340, 0.25, 349053672, NULL, NULL, NULL, NULL),
+(7, NULL, 0.2600, 0.1830, 0.42, 402392000, NULL, NULL, NULL, NULL),
+(8, NULL, 0.1351, 0.0748, 0.80, 221370966, NULL, NULL, NULL, NULL);
+
+
+-- Drop the existing esg_finance table if it exists
+DROP TABLE IF EXISTS corr_matrix;
+
+-- Create the corr_matrix table
+CREATE TABLE corr_matrix (
+	Financial_metric VARCHAR(255) NOT NULL
+);
+
+INSERT INTO corr_matrix (Financial_metric) VALUES
+('ESG_Score'),
+('ROE'),
+('ROA'),
+('DebtToEquity'),
+('TotalAssets_thousandsUSD'),
+('Beta')

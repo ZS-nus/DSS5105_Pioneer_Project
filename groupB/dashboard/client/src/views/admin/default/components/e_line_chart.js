@@ -54,7 +54,7 @@ export default function TotalSpent(props) {
     return chartData.length > 0 ? [chartData[0]] : [];
   }, [chartData, selectedCompany]);
 
-  console.log(currentChartData)
+  // console.log(currentChartData)
 
   const updatedChartOptions = useMemo(() => ({
     ...E_score_line_option,

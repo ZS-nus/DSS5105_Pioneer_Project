@@ -1,0 +1,30 @@
+﻿unnamed: 0,unnamed: 1,unit,fiscal year \n2023,2022,2021,2020,2019
+Corporate facilities,Electricity,,,,,,
+energy,,,,,,,
+,Total,MWh,3487000.0,3199000.0,2854000.0,2580000.0,2427000.0
+,U.S.,MWh,2830000.0,2614000.0,2377000.0,2192000.0,2075000.0
+,International,MWh,657000.0,585000.0,477000.0,389000.0,351000.0
+,Fuel,,,,,,
+,Total,MWh,662950.0,334250.0,467280.0,439170.0,462680.0
+,Natural gas,MWh,312490.0,188630.0,203010.0,202360.0,202340.0
+,Biogas,MWh,218780.0,76280.0,208620.0,210820.0,217140.0
+,Propane liquid,MWh,1030.0,1830.0,40.0,140.0,280.0
+,Gasoline,MWh,50760.0,38790.0,34880.0,14910.0,23950.0
+,Diesel (other),MWh,57030.0,15610.0,9780.0,9610.0,16450.0
+,Diesel (mobile combustion),MWh,22860.0,13120.0,10950.0,1330.0,2520.0
+,Other,,,,,,
+,Steam heating and cooling 1,MWh,45370.0,19800.0,22480.0,0.0,0.0
+Energy efficiency,Corporate facilities 2,,,,,,
+,Electricity savings,MWh/year,298500.0,290220.0,223940.0,215260.0,118830.0
+,Fuel savings,MMBtu/year,126540.0,116190.0,110330.0,136820.0,162280.0
+,Supplier facilities 3,,,,,,
+,Electricity savings,MWh/year,2040000000.0,1620425230.0,1418825350.0,1101440.0,943890.0
+,Fuel savings,MMBtu/year,2281060.0,2038930.0,1047440.0,752680.0,25120.0
+Renewable electricity,Corporate facilities,,,,,,
+,Renewable electricity used,MWh,3489000.0,3199000.0,2854000.0,2580000.0,2430000.0
+,Renewable electricity percentage 4,% of total energy,100.0,100.0,100.0,100.0,100.0
+,Scope 2 emissions avoided,metric tons CO 2 e,1144000.0,1201000.0,1063720.0,948000.0,899000.0
+,Supply chain 5,,,,,,
+,Renewable electricity capacity (operational),GW,16.5,13.7,10.3,4.5,2.7
+,Renewable electricity capacity (committed),GW,21.0,20.0,15.9,7.9,5.1
+,Renewable electricity used,MWh,25500000.0,23700000.0,18100000.0,11400000.0,5700000.0

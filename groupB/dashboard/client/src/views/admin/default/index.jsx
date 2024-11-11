@@ -21,11 +21,12 @@ import ELineChart from "views/admin/default/components/e_line_chart";
 import SLineChart from "views/admin/default/components/s_line_chart";
 import GLineChart from "views/admin/default/components/g_line_chart";
 import ESGLineChart from "views/admin/default/components/esg_line_chart";
-import WeeklyRevenue from "views/admin/default/components/WeeklyRevenue";
+import E_hue_bar from "views/admin/default/components/e_hue_bar";
 import EBarChart from "views/admin/default/components/e_bar_chart";
 import SBarChart from "views/admin/default/components/s_bar_chart";
 import GBarChart from "views/admin/default/components/g_bar_chart";
 import ESGLinePredict from "views/admin/default/components/esg_predict_line";
+
 import {
   columnsDataCheck,
   columnsDataComplex,
@@ -93,7 +94,7 @@ export default function UserReports() {
         </SimpleGrid>
 
         <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
-        <ESG_analysis gap='20px' mb='20px'/>
+        <ESG_analysis gap='20px' mb='20px'company={companyName} data={esg_score}/>
         <Card px='0px' mb='20px'>
           <Flex direction="column" h="100%"> {/* Add this Flex container */}
             <Box pl='10px' pr='10px' flex="1"> {/* Modify this Box */}

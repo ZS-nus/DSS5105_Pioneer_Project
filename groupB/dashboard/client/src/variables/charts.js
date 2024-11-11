@@ -502,7 +502,7 @@ export const barChartOptionsConsumption = {
   },
   xaxis: {
     categories: ["17", "18", "19", "20", "21", "22", "23", "24", "25"],
-    show: false,
+    show: true,
     labels: {
       show: true,
       style: {
@@ -512,17 +512,17 @@ export const barChartOptionsConsumption = {
       },
     },
     axisBorder: {
-      show: false,
+      show: true,
     },
     axisTicks: {
-      show: false,
+      show: true,
     },
   },
   yaxis: {
-    show: false,
+    show: true,
     color: "black",
     labels: {
-      show: false,
+      show: true,
       style: {
         colors: "#A3AED0",
         fontSize: "14px",
@@ -536,7 +536,7 @@ export const barChartOptionsConsumption = {
     show: true,
     yaxis: {
       lines: {
-        show: false,
+        show: true,
         opacity: 0.5,
       },
     },
@@ -977,6 +977,19 @@ export const G_score_line_option = {
   },
   yaxis: {
     show: true,
+    min: 0,
+    max: 10,
+    tickAmount: 10, // This will create 10 ticks on the y-axis
+    labels: {
+      formatter: function(val) {
+        return val.toFixed(1); // This will format the labels to one decimal place
+      },
+      style: {
+        colors: "#A3AED0",
+        fontSize: "12px",
+        fontWeight: "500",
+      }
+    }
   },
   legend: {
     show: true,
@@ -1058,9 +1071,7 @@ export const ESG_score_line_option = {
   },
   yaxis: {
     show: true,
-    min: 0,
-    max: 10,
-    tickAmount: 10, // This will create 5 ticks on the y-axis (0, 2.5, 5, 7.5, 10)
+    tickAmount: 3,
     labels: {
       formatter: function(val) {
         return val.toFixed(1); // This will format the labels to one decimal place
@@ -1161,9 +1172,7 @@ export const ESG_predict_line_option = {
   },
   yaxis: {
     show: true,
-    min: 0,
-    max: 10,
-    tickAmount: 10, // This will create 5 ticks on the y-axis (0, 2.5, 5, 7.5, 10)
+    tickAmount: 3, // This will create 5 ticks on the y-axis (0, 2.5, 5, 7.5, 10)
     labels: {
       formatter: function(val) {
         return val.toFixed(1); // This will format the labels to one decimal place
@@ -1188,4 +1197,5 @@ export const ESG_predict_line_option = {
     },
   },
 };
+
 

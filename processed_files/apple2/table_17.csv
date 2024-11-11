@@ -1,0 +1,6 @@
+﻿default grid mix,% x,apple actual renewable energy allocation,%,default grid mix.1
+Gas,43,Apple’s solar projects,82.0,Renewable
+Nuclear,31,Apple’s wind projects,18.0,Hydro
+Coal,13,Source: 2023 energy data.,,Coal
+Hydro,5,,,Gas
+Renewable,9,,,Nuclear

@@ -1,0 +1,27 @@
+﻿recognized,unnamed: 1,unnamed: 2,fiscal year \n2023,2022,2021,2020,2019
+,Corporate emissions,Gross emissions,324100.0,324000.0,166380.0,334430.0,573730.0
+(GHG),(metric tons CO2e)2,Scope 1,55200.0,55200.0,55200.0,47430.0,52730.0
+,,Natural gas diesel propane,35300.0,39700.0,40070.0,39340.0,40910.0
+,,Fleet vehicles,17000.0,12600.0,12090.0,4270.0,6950.0
+,,Other emissions3,2900.0,2900.0,3040.0,3830.0,4870.0
+,,Scope 2 (market-based)4,3400.0,3000.0,2780.0,0.0,0.0
+,,Electricity,0.0,0.0,0.0,0.0,0.0
+,,Steam heating and cooling5,3400.0,3000.0,2780.0,0.0,0.0
+,,Scope 3,412800.0,265800.0,108400.0,287000.0,521000.0
+,,Business travel,225700.0,113500.0,22850.0,153000.0,326000.0
+,,Employee commute6,164100.0,134200.0,85570.0,134000.0,195000.0
+,,Upstream impacts (scope 1),18300.0,10600.0,0.0,0.0,0.0
+,,Work from home (market-based),4700.0,7500.0,0.0,0.0,0.0
+,,Transmission and distribution loss (market-based),,,,,
+,,Third-party cloud (market-based),0.0,0.0,0.0,0.0,0.0
+,,Carbon removals,,,,,
+,,Corporate carbon offsets7,-471400.0,-3241008.0,-1670009.0,-7000010.0,0.0
+,Product life,Gross emissions (Scope 3),15570000.0,20280000.0,23020000.0,22260000.0,24460000.0
+,cycle emissions,Manufacturing (purchased goods and services),9400000.0,13400000.0,16200000.0,16100000.0,18900000.0
+,(metric tons CO2e)11,Product transportation (upstream and downstream),1500000.0,1900000.0,1750000.0,1800000.0,1400000.0
+,,Product use (use of sold products),4600000.0,4900000.0,4990000.0,4300000.0,4100000.0
+,,End-of-life processing,70000.0,80000.0,80000.0,60000.0,60000.0
+,,Product carbon offsets,-13500.0,0.0,-50000012.0,0.0,0.0
+,Total gross scope 3,emissions (corporate and product) (metric tons CO2e),15980000.0,20545800.0,23128400.0,22550000.0,24980000.0
+,Total gross carbon,footprint (without offsets) (metric tons CO2e)13,16100000.0,20600000.0,23200000.0,22600000.0,25100000.0
+,Total net carbon footprint,(after applying offsets) (metric tons CO2e)12,15600000.0,20300000.0,22530000.0,22530000.0,25100000.0

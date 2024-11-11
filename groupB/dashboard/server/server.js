@@ -251,6 +251,44 @@ app.get('/api/table/environment', async (req, res) => {
   }
 });
 
+// Modify the /api/table/environment endpoint
+app.get('/api/table/financial', async (req, res) => {
+  try {
+    console.log('Fetching financial data...');
+    const query = `
+      SELECT 
+        c.CompanyName,
+        f.CompanyID,
+        ROUND(f.Final_ESG_Score, 2) AS Final_ESG_Score,
+        ROUND(f.ROE, 2) AS ROE,
+        ROUND(f.ROA, 2) AS ROA,
+        ROUND(f.DebtToEquity, 2) AS DebtToEquity,
+        f.TotalAssets_thousandsUSD,
+        ROUND(f.Beta, 3) AS Beta,
+        ROUND(f.Mean_stockprice, 2) AS Mean_stockprice,
+        ROUND(f.Yearend_stockprice, 2) AS Yearend_stockprice,
+        f.Currency
+      FROM esg_fin f
+      INNER JOIN company_info c ON f.CompanyID = c.CompanyID
+      ORDER BY c.CompanyName
+    `;
+
+    const rows = await executeQuery(query);
+    
+    if (rows.length > 0) {
+      console.log('First financial data row:', rows[0]);
+      res.json(rows);
+    } else {
+      console.log('No financial data found.');
+      res.status(404).json({ error: 'No data found' });
+    }
+  } catch (error) {
+    console.error('Error fetching financial data:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
+
 // Add this new endpoint for social data
 app.get('/api/table/social', async (req, res) => {
   try {
@@ -266,9 +304,6 @@ app.get('/api/table/social', async (req, res) => {
         s.Cybersecurity,
         ROUND(s.MalePercentage, 2) AS MalePercentage,
         ROUND(s.FemalePercentage, 2) AS FemalePercentage,
-        ROUND(s.AgeUnder30, 2) AS AgeUnder30,
-        ROUND(s.Age30to50, 2) AS Age30to50,
-        ROUND(s.AgeAbove50, 2) AS AgeAbove50,
         ROUND(s.TrainingHours, 1) AS TrainingHours,
         s.WorkRelatedInjuries
       FROM social s
@@ -332,11 +367,7 @@ app.get('/api/table/governance', async (req, res) => {
         g.BoardComposition,
         g.EthicalBehaviour,
         g.RiskManagement,
-        ROUND(g.BoardIndependence, 2) AS BoardIndependence,
-        ROUND(g.WomenOnBoard, 2) AS WomenOnBoard,
-        g.ManagementDiversity,
-        g.CertificationList,
-        g.Certifications
+        g.CertificationList
       FROM governance g
       INNER JOIN company_info c ON g.CompanyID = c.CompanyID
       INNER JOIN (
@@ -411,17 +442,32 @@ app.get('/api/s3/storage/files', async (req, res) => {
 
 // Placeholder function for calling the Python API
 async function callPythonExtractionAPI(fileName) {
-  // This URL should be updated when the actual API is available
-  const pythonAPIUrl = process.env.PYTHON_Extraction_API_URL;
-  
-  try {
-    const response = await axios.post(pythonAPIUrl, { fileName });
-    console.log('Python API response:', response.data);
-    return response.data;
-  } catch (error) {
-    console.error('Error calling Python API:', error);
-    throw error;
-  }
+    const pythonAPIUrl = process.env.PYTHON_Extraction_API_URL || 'http://localhost:5106';
+    
+    try {
+        // Clean up the fileName by removing any 'reports/' prefix
+        const cleanFileName = fileName.replace('reports/', '');
+        
+        // First call the fetch endpoint to process the PDF
+        const fetchResponse = await axios.post(
+            `${pythonAPIUrl}/reports/fetch/${encodeURIComponent(cleanFileName)}`
+        );
+        console.log('Python API fetch response:', fetchResponse.data);
+
+        if (fetchResponse.data.status === 'success') {
+            // If fetch was successful, call the extract endpoint
+            const extractResponse = await axios.post(
+                `${pythonAPIUrl}/reports/extract/text/${encodeURIComponent(cleanFileName)}`
+            );
+            console.log('Python API extract response:', extractResponse.data);
+            return extractResponse.data;
+        } else {
+            throw new Error('Failed to fetch and process the PDF');
+        }
+    } catch (error) {
+        console.error('Error calling Python API:', error);
+        throw error;
+    }
 }
 
 
@@ -454,36 +500,49 @@ app.post('/api/firebase/upload', upload.single('file'), async (req, res) => {
       }
     });
 
-    blobStream.on('error', (error) => {
-      console.error('Error uploading file:', error);
-      res.status(500).send('Error uploading file.');
+    // Create a promise to handle the upload
+    const uploadPromise = new Promise((resolve, reject) => {
+      blobStream.on('error', (error) => {
+        console.error('Error uploading file:', error);
+        reject(error);
+      });
+
+      blobStream.on('finish', async () => {
+        try {
+          // Make the file publicly accessible
+          await fileUpload.makePublic();
+          const publicUrl = `https://storage.googleapis.com/${bucket.name}/${fileUpload.name}`;
+          resolve(publicUrl);
+        } catch (error) {
+          reject(error);
+        }
+      });
+
+      blobStream.end(file.buffer);
     });
 
-    blobStream.on('finish', async () => {
-      // Make the file publicly accessible
-      await fileUpload.makePublic();
+    // Wait for upload to complete before calling Python API
+    const publicUrl = await uploadPromise;
+    
+    // Add a small delay to ensure file is available
+    await new Promise(resolve => setTimeout(resolve, 2000));
 
-      const publicUrl = `https://storage.googleapis.com/${bucket.name}/${fileUpload.name}`;
-      
-      // Call the Python API
-      try {
-        const pythonAPIResponse = await callPythonExtractionAPI(fileName);
-        res.status(200).send({ 
-          message: 'File uploaded successfully and processed', 
-          url: publicUrl,
-          pythonAPIResponse 
-        });
-      } catch (pythonAPIError) {
-        console.error('Error from Python API:', pythonAPIError);
-        res.status(200).send({ 
-          message: 'File uploaded successfully, but processing failed', 
-          url: publicUrl,
-          error: 'PDF processing failed'
-        });
-      }
-    });
-
-    blobStream.end(file.buffer);
+    // Call the Python API
+    try {
+      const pythonAPIResponse = await callPythonExtractionAPI(fileName);
+      res.status(200).send({ 
+        message: 'File uploaded successfully and processed', 
+        url: publicUrl,
+        pythonAPIResponse 
+      });
+    } catch (pythonAPIError) {
+      console.error('Error from Python API:', pythonAPIError);
+      res.status(200).send({ 
+        message: 'File uploaded successfully, but processing failed', 
+        url: publicUrl,
+        error: 'PDF processing failed'
+      });
+    }
   } catch (error) {
     console.error('Error in file upload:', error);
     res.status(500).send('Server error during file upload.');
