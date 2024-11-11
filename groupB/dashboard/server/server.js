@@ -288,6 +288,32 @@ app.get('/api/table/financial', async (req, res) => {
   }
 });
 
+app.get('/api/table/financialCorr', async (req, res) => {
+  try {
+    console.log('Fetching financial corr data...');
+    const query = `
+      SELECT 
+        \`index\` as metric_name,
+        Final_ESG_Score as correlation_value,
+        update_time
+      FROM corr_matrix
+    `;
+
+    const rows = await executeQuery(query);
+    
+    if (rows.length > 0) {
+      console.log('First financial corr data row:', rows[0]);
+      res.json(rows);
+    } else {
+      console.log('No financial corr data found.');
+      res.status(404).json({ error: 'No data found' });
+    }
+  } catch (error) {
+    console.error('Error fetching financial corr data:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
 
 // Add this new endpoint for social data
 app.get('/api/table/social', async (req, res) => {

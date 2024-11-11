@@ -32,7 +32,7 @@ export default function Overview() {
         
         <Storage
           
-          used={75.3}
+          used={48.3}
           total={100}
         />
       </Grid>
