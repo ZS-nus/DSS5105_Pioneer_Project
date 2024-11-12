@@ -47,7 +47,20 @@ def execute_query(pool, query, params=None):
             time.sleep(1)
 
 def fetch_predict_data(pool):
-    query = "SELECT * FROM esg_predictions"
+    query = """
+        SELECT 
+            c.CompanyName,
+            p.CompanyID,
+            p.Year,
+            ROUND(p.Environmental, 2) AS Environmental_Score,
+            ROUND(p.Social, 2) AS Social_Score,
+            ROUND(p.Governance, 2) AS Governance_Score,
+            ROUND(p.ESG_Score, 2) AS ESG_Score,
+            p.Data_Type
+        FROM esg_predictions p
+        INNER JOIN company_info c ON p.CompanyID = c.CompanyID
+        ORDER BY c.CompanyName, p.Year
+    """
     return execute_query(pool, query)
 
 def fetch_company_info(pool):
