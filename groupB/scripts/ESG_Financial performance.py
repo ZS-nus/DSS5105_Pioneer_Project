@@ -1,7 +1,19 @@
 import yfinance as yf
 import pandas as pd
 from db_connect import get_connection_pool, fetch_ESG_score_2023, update_table, fetch_2023_finances
+import scipy.stats as stats
 
+def calculate_p_values(esg_fin_metrics):
+    p_values = {}
+    
+    # Loop through each financial metric and calculate p-value
+    for column in esg_fin_metrics.columns:
+        if column != 'Final_ESG_Score':
+            # Get correlation and p-value between ESG Score and the financial metric
+            corr_coeff, p_value = stats.pearsonr(esg_fin_metrics['Final_ESG_Score'], esg_fin_metrics[column])
+            p_values[column] = p_value
+            
+    return p_values
 
 def main():
     db_pool = get_connection_pool()
@@ -93,18 +105,20 @@ def main():
     
     esg_fin[['Final_ESG_Score']] = esg_score_2023[['Final_ESG_Score']]
     esg_fin[['Beta', 'Mean_stockprice', 'Yearend_stockprice', 'Currency']] = financial_results[['Beta', 'Mean_stockprice', 'Yearend_stockprice', 'Currency']]
-    
-    '''
-    high negative correlation between beta and ESG Score 2023
-    - higher beta, more risk, lower ESG score
-    '''
+
     esg_fin_metrics = esg_fin[['ROA', 'ROE', 'DebtToEquity', 'TotalAssets_thousandsUSD', 'Beta','Final_ESG_Score']]
+    esg_fin_metrics[esg_fin_metrics.columns] = esg_fin_metrics[esg_fin_metrics.columns].astype(float)
     corr_matrix = esg_fin_metrics.corr(method='pearson')['Final_ESG_Score']
     corr_matrix = corr_matrix.reset_index()
     
     update_table(db_pool, esg_fin, 'esg_fin')
     update_table(db_pool, corr_matrix, 'corr_matrix')
     print(corr_matrix)
+    p_values = calculate_p_values(esg_fin_metrics)
+    significant_metrics = {metric: p_val for metric, p_val in p_values.items() if p_val < 0.1}
 
+    print("Correlation Matrix:\n", corr_matrix)
+    print("\nMetrics with 90% significance level (p-value < 0.1):\n", significant_metrics)
+    
 if __name__ == "__main__":
     main()
