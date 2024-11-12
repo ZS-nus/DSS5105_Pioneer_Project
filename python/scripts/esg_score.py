@@ -107,6 +107,9 @@ def calculate_environmental_score(env_data, pax):
     # Calculate percentile rank within each year and scale to 10
     env_data['Percentile_rank'] = environmental_score.groupby(env_data['ReportYear']).rank(pct=True) * 10
     
+    # Clip the final percentile rank
+    env_data['Percentile_rank'] = env_data['Percentile_rank'].clip(0, 10)
+    
     # Return the percentile rank as the final environmental score
     return env_data['Percentile_rank']
 
@@ -134,6 +137,9 @@ def calculate_social_score(social_data):
     for col, weight in zip(social_indicator_score.columns, social_weights):
         social_score += social_indicator_score[col].apply(decimal_to_float) * weight
     
+    # Clip to ensure scores are within range
+    social_score = social_score.clip(0, 10)
+    
     return social_score
 
 def calculate_governance_score(gov_data):
@@ -155,6 +161,9 @@ def calculate_governance_score(gov_data):
     gov_score = pd.Series(0.0, index=gov_indicator_score.index)
     for col, weight in zip(gov_indicator_score.columns, gov_weights):
         gov_score += gov_indicator_score[col].apply(decimal_to_float) * weight
+    
+    # Clip to ensure scores are within range
+    gov_score = gov_score.clip(0, 10)
     
     return gov_score
 
