@@ -6,6 +6,7 @@ python-multipart==0.0.9
 # Database
 mysql-connector-python==9.0.0
 SQLAlchemy==2.0.35
+pymysql==1.1.1  # Updated version
 
 # PDF Processing
 PyPDF2==3.0.1
@@ -35,8 +36,7 @@ google-cloud-storage==2.18.2
 # Utilities
 python-dotenv==1.0.1
 schedule==1.2.2
-pathlib==1.0.1
 
 # Dependencies for the above packages
-protobuf>=4.25.0
-typing-extensions>=4.12.0
+protobuf>=4.25.5
+typing-extensions>=4.12.2

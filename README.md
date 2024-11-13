@@ -65,5 +65,26 @@ docker run -d \
 pioneer-server-1
 ```
 
+## Dockerize Python API
+```
+docker build -t pioneer-server-2 .
 
+docker run -d \
+  --name pioneer-server-2 \
+  --gpus all \
+  -p 5106:5106 \
+  pioneer-server-2
+```
 
+## Dockerize Frontend
+```
+cd groupB/dashboard/client
+
+docker build -t pioneer-frontend .
+
+docker run -d \
+  --name pioneer-client \
+  -p 3000:3000 \
+  -e REACT_APP_API_URL=http://localhost:5106 \
+  pioneer-client
+```
