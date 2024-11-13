@@ -21,6 +21,8 @@ from scripts.report_extraction_text import ReportAnalyzer
 from scripts.convert_pdf_table import process_pdf
 import asyncio
 from scripts.report_extraction_table import TableDataExtractor
+from scripts.esg_financial import update_financial_metrics
+from datetime import datetime
 
 # pip install fastapi
 # pip install uvicorn
@@ -114,6 +116,24 @@ cleanup_thread.start()
 @app.get("/")
 async def root():
     return {"message": "Pioneer Python API"}
+
+
+@app.post("/api/financial/update")
+async def update_financial_data():
+    """Update financial metrics and correlations"""
+    try:
+        result = await update_financial_metrics(db_pool)
+        return {
+            "status": "success",
+            "data": result
+        }
+    except Exception as e:
+        logger.error(f"Error updating financial data: {str(e)}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error updating financial data: {str(e)}"
+        )
+
 
 # Add cleanup check before processing new files
 @app.post("/convert-to-text/{file_name}")
@@ -758,6 +778,11 @@ async def update_report_data(report_name: str):
 
             conn.commit()
 
+            # Calculate new ESG scores and predictions
+            esg_calc_result = await calculate_esg()
+            predict_result = await predict_esg()
+            
+            # Integrate ESG updates into the existing response structure
             return {
                 "status": "success",
                 "report_name": report_name,
@@ -810,6 +835,12 @@ async def update_report_data(report_name: str):
                         "social": True,
                         "environment": True
                     }
+                },
+                "esg_updates": {
+                    "status": "success",
+                    "esg_calculation": esg_calc_result.get("message", "ESG scores updated"),
+                    "predictions": predict_result.get("message", "Predictions updated"),
+                    "calculation_time": datetime.now().isoformat()
                 }
             }
 
