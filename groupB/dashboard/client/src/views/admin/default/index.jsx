@@ -33,7 +33,7 @@ import {
 } from "views/admin/default/variables/columnsData";
 import tableDataCheck from "views/admin/default/variables/tableDataCheck.json";
 import tableDataComplex from "views/admin/default/variables/tableDataComplex.json";
-import { fetchDashboardESGData,fetchESGScoreData} from '../../../api'; // Import your API function
+import { fetchDashboardESGData,fetchESGScoreData,fetchESGPredict} from '../../../api'; // Import your API function
 import tableDataTopCreators from "views/admin/marketplace/variables/tableDataTopCreators.json";
 import { tableColumnsTopCreators } from "views/admin/marketplace/variables/tableColumnsTopCreators";
 import OverallRanking from "views/admin/default/components/Overall_ranking";
@@ -46,23 +46,28 @@ import {
 
 export default function UserReports() {
   const [esg_score, setESGScore] = useState([]);
-  const [latestScores, setLatestScores] = useState([]); // Add this line
+  const [latestScores, setLatestScores] = useState([]);
+  const [predictData, setPredictData] = useState([]); // Add new state for prediction data
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetchDashboardESGData();
-        const data = response.data;
+        // Fetch both regular ESG data and prediction data
+        const [esgResponse, predictResponse] = await Promise.all([
+          fetchDashboardESGData(),
+          fetchESGPredict()
+        ]);
 
-        if (!Array.isArray(data)) {
-          throw new Error("Fetched data is not an array");
+        const esgData = esgResponse.data;
+        const predictData = predictResponse.data;
+
+        if (!Array.isArray(esgData)) {
+          throw new Error("Fetched ESG data is not an array");
         }
 
-        // Set the entire fetched data as esg_score
-        setESGScore(data); // Save all fetched data into esg_score
-
-        // Set all fetched data as latest scores
-        setLatestScores(data); // Now this line is valid
+        setESGScore(esgData);
+        setLatestScores(esgData);
+        setPredictData(predictData);
 
       } catch (error) {
         console.error("Error fetching data:", error);
@@ -71,7 +76,6 @@ export default function UserReports() {
 
     fetchData();
   }, []);
-
 
   // Get the company name from the first entry in esg_score
   const companyName = esg_score.length > 0 ? esg_score[0].CompanyName : "Unknown Company";
@@ -114,17 +118,17 @@ export default function UserReports() {
 
       <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
           <EBarChart data={esg_score} />
-          <ELineChart data={esg_score} company={companyName} /> 
+          <ELineChart data={predictData} company={companyName} /> 
       </SimpleGrid>
 
       <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
           <SBarChart data={esg_score} />
-          <SLineChart data={esg_score} company={companyName} /> 
+          <SLineChart data={predictData} company={companyName} /> 
       </SimpleGrid>
 
       <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
           <GBarChart data={esg_score} />
-          <GLineChart data={esg_score} company={companyName} /> 
+          <GLineChart data={predictData} company={companyName} /> 
       </SimpleGrid>
 
 
