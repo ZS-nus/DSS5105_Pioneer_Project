@@ -17,7 +17,7 @@ const processChartData = (data) => {
       companyData[item.CompanyName] = [];
     }
     companyData[item.CompanyName].push({
-      x: item.ReportYear,
+      x: item.Year,
       y: item.Social_Score
     });
   });
@@ -93,8 +93,10 @@ export default function TotalSpent(props) {
           fontSize="18px"
           fontWeight="700"
           lineHeight="100%"
+          textAlign="left"
+          alignSelf="flex-start"
         >
-          Social Score Trend by Company
+          Social Score Trend by Company (3-Year Forecast)
         </Text>
         <LineChartMenu 
           menuItems={menuItems} 

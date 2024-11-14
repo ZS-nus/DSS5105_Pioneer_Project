@@ -769,7 +769,7 @@ export const E_score_line_option = {
       color: "#4318FF",
     },
   },
-  colors: ["#11998e","#38ef7d","#1D976C", "#93F9B9" , "#56ab2f", "#4318FF"],
+  colors: ["#11998e"],
   markers: {
     size: 0,
     colors: "white",
@@ -794,6 +794,20 @@ export const E_score_line_option = {
   stroke: {
     curve: "smooth",
     type: "line",
+    width: 3,
+  },
+  fill: {
+    type: "gradient",
+    gradient: {
+      shade: "dark",
+      type: "horizontal",
+      shadeIntensity: 0.5,
+      gradientToColors: ["#38ef7d"],
+      inverseColors: false,
+      opacityFrom: 1,
+      opacityTo: 1,
+      stops: [0, 100]
+    }
   },
   xaxis: {
     type: "numeric",
@@ -814,6 +828,17 @@ export const E_score_line_option = {
   },
   yaxis: {
     show: true,
+    tickAmount: 5,
+    labels: {
+      formatter: function(val) {
+        return val.toFixed(1);
+      },
+      style: {
+        colors: "#A3AED0",
+        fontSize: "12px",
+        fontWeight: "500",
+      }
+    }
   },
   legend: {
     show: true,
@@ -831,8 +856,7 @@ export const E_score_line_option = {
       color: ["#7551FF", "#39B8FF"],
       opacity: 0.5,
     },
-  },
-  color: ["#11998e", "#39B8FF"],
+  }
 };
 
 export const S_score_line_option = {
@@ -874,6 +898,20 @@ export const S_score_line_option = {
   stroke: {
     curve: "smooth",
     type: "line",
+    width: 3,
+  },
+  fill: {
+    type: "gradient",
+    gradient: {
+      shade: "dark",
+      type: "horizontal",
+      shadeIntensity: 0.5,
+      gradientToColors: ["#56CCF2"],
+      inverseColors: false,
+      opacityFrom: 1,
+      opacityTo: 1,
+      stops: [0, 100]
+    }
   },
   xaxis: {
     type: "numeric",
@@ -894,93 +932,10 @@ export const S_score_line_option = {
   },
   yaxis: {
     show: true,
-    max: 10,
     tickAmount: 5,
-  },
-  legend: {
-    show: true,
-    showForSingleSeries: true,
-    position: 'bottom',
-    horizontalAlign: 'center',
-    floating: false,
-    fontSize: '14px',
-    fontFamily: 'Helvetica, Arial',
-    fontWeight: 400,
-  },
-  grid: {
-    show: true,
-    column: {
-      color: ["#7551FF", "#39B8FF"],
-      opacity: 0.5,
-    },
-  },
-  color: ["#2F80ED", "#39B8FF"],
-};
-
-export const G_score_line_option = {
-  chart: {
-    toolbar: {
-      show: false,
-    },
-    dropShadow: {
-      enabled: true,
-      top: 13,
-      left: 0,
-      blur: 10,
-      opacity: 0.1,
-      color: "#4318FF",
-    },
-  },
-  colors: ["#F2994A","#38ef7d","#1D976C", "#93F9B9" , "#56ab2f", "#4318FF"],
-  markers: {
-    size: 0,
-    colors: "white",
-    strokeColors: "#7551FF",
-    strokeWidth: 3,
-    strokeOpacity: 0.9,
-    strokeDashArray: 0,
-    fillOpacity: 1,
-    discrete: [],
-    shape: "circle",
-    radius: 2,
-    offsetX: 0,
-    offsetY: 0,
-    showNullDataPoints: true,
-  },
-  tooltip: {
-    theme: "dark",
-  },
-  dataLabels: {
-    enabled: true,
-  },
-  stroke: {
-    curve: "smooth",
-    type: "line",
-  },
-  xaxis: {
-    type: "numeric",
-    categories: [],
-    labels: {
-      style: {
-        colors: "#A3AED0",
-        fontSize: "12px",
-        fontWeight: "500",
-      },
-    },
-    axisBorder: {
-      show: false,
-    },
-    axisTicks: {
-      show: false,
-    },
-  },
-  yaxis: {
-    show: true,
-    max:10,
-    tickAmount: 4, // This will create 10 ticks on the y-axis
     labels: {
       formatter: function(val) {
-        return val.toFixed(1); // This will format the labels to one decimal place
+        return val.toFixed(1);
       },
       style: {
         colors: "#A3AED0",
@@ -1005,8 +960,113 @@ export const G_score_line_option = {
       color: ["#7551FF", "#39B8FF"],
       opacity: 0.5,
     },
+  }
+};
+
+
+
+export const G_score_line_option = {
+  chart: {
+    toolbar: {
+      show: false,
+    },
+    dropShadow: {
+      enabled: true,
+      top: 13,
+      left: 0,
+      blur: 10,
+      opacity: 0.1,
+      color: "#4318FF",
+    },
   },
-  color: ["#F2994A", "#39B8FF"],
+  colors: ["#F2994A"],
+  markers: {
+    size: 0,
+    colors: "white",
+    strokeColors: "#7551FF",
+    strokeWidth: 3,
+    strokeOpacity: 0.9,
+    strokeDashArray: 0,
+    fillOpacity: 1,
+    discrete: [],
+    shape: "circle",
+    radius: 2,
+    offsetX: 0,
+    offsetY: 0,
+    showNullDataPoints: true,
+  },
+  tooltip: {
+    theme: "dark",
+  },
+  dataLabels: {
+    enabled: true,
+  },
+  stroke: {
+    curve: "smooth",
+    type: "line",
+    width: 3,
+  },
+  fill: {
+    type: "gradient",
+    gradient: {
+      shade: "dark",
+      type: "horizontal",
+      shadeIntensity: 0.5,
+      gradientToColors: ["#FFE5B4"],
+      inverseColors: false,
+      opacityFrom: 1,
+      opacityTo: 1,
+      stops: [0, 100]
+    }
+  },
+  xaxis: {
+    type: "numeric",
+    categories: [],
+    labels: {
+      style: {
+        colors: "#A3AED0",
+        fontSize: "12px",
+        fontWeight: "500",
+      },
+    },
+    axisBorder: {
+      show: false,
+    },
+    axisTicks: {
+      show: false,
+    },
+  },
+  yaxis: {
+    show: true,
+    tickAmount: 5,
+    labels: {
+      formatter: function(val) {
+        return val.toFixed(1);
+      },
+      style: {
+        colors: "#A3AED0",
+        fontSize: "12px",
+        fontWeight: "500",
+      }
+    }
+  },
+  legend: {
+    show: true,
+    showForSingleSeries: true,
+    position: 'bottom',
+    horizontalAlign: 'center',
+    floating: false,
+    fontSize: '14px',
+    fontFamily: 'Helvetica, Arial',
+    fontWeight: 400,
+  },
+  grid: {
+    show: true,
+    column: {
+      color: ["#7551FF", "#39B8FF"],
+      opacity: 0.5,
+    },
+  }
 };
 
 

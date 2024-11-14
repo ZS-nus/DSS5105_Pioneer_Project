@@ -11,13 +11,14 @@ import LineChartMenu from 'views/admin/default/components/line_chart_menu';
 import { E_score_line_option } from "variables/charts"; 
 
 const processChartData = (data) => {
+  // console.log(data)
   const companyData = {};
   data.forEach(item => {
     if (!companyData[item.CompanyName]) {
       companyData[item.CompanyName] = [];
     }
     companyData[item.CompanyName].push({
-      x: item.ReportYear,
+      x: item.Year,
       y: item.Environmental_Score
     });
   });
@@ -95,9 +96,12 @@ export default function TotalSpent(props) {
           fontSize="18px"
           fontWeight="700"
           lineHeight="100%"
+          textAlign="left"
+          alignSelf="flex-start"
         >
-          Environmental Score Trend by Company
+          Environmental Score Trend by Company (3-Year Forecast)
         </Text>
+        
         <LineChartMenu 
           menuItems={menuItems} 
           onSelectCompany={handleCompanySelect}
