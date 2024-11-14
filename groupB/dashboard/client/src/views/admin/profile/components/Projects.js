@@ -1,9 +1,5 @@
 // Chakra imports
 import { Text, useColorModeValue } from "@chakra-ui/react";
-// Assets
-import Project1 from "assets/img/profile/Project1.png";
-import Project2 from "assets/img/profile/Project2.png";
-import Project3 from "assets/img/profile/Project3.png";
 // Custom components
 import Card from "components/card/Card.js";
 import React from "react";
@@ -25,34 +21,49 @@ export default function Projects(props) {
         fontSize='2xl'
         mt='10px'
         mb='4px'>
-        All projects
+        ESG Data Processing Pipeline
       </Text>
       <Text color={textColorSecondary} fontSize='md' me='26px' mb='40px'>
-        Here you can find more details about your projects. Keep you user
-        engaged by providing meaningful information.
+        Our comprehensive ESG data processing workflow ensures accurate and efficient analysis
       </Text>
       <Project
         boxShadow={cardShadow}
         mb='20px'
-        image={Project1}
         ranking='1'
         link='#'
-        title='Technology behind the Blockchain'
+        title='PDF Document Processing'
+        description='Upload and process PDF documents containing ESG-related information'
       />
       <Project
         boxShadow={cardShadow}
         mb='20px'
-        image={Project2}
         ranking='2'
         link='#'
-        title='Greatest way to a good Economy'
+        title='Data Preprocessing & Extraction'
+        description='Convert PDFs to structured text and tables, clean and normalize data'
       />
       <Project
         boxShadow={cardShadow}
-        image={Project3}
+        mb='20px'
         ranking='3'
         link='#'
-        title='Most essential tips for Burnout'
+        title='ESG Data Analysis'
+        description='Extract relevant ESG metrics and indicators from processed data'
+      />
+      <Project
+        boxShadow={cardShadow}
+        mb='20px'
+        ranking='4'
+        link='#'
+        title='ESG Rating Generation'
+        description='Calculate and assign ESG ratings based on extracted metrics'
+      />
+      <Project
+        boxShadow={cardShadow}
+        ranking='5'
+        link='#'
+        title='Results Visualization'
+        description='Present ESG ratings and analysis through interactive dashboards'
       />
     </Card>
   );

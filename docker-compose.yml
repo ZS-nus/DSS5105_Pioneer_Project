@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  client:
+    build:
+      context: ./groupB/dashboard/client
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - REACT_APP_API_URL=http://localhost:5106
+    depends_on:
+      - server-node
+      - server-python
+
+  server-node:
+    build:
+      context: ./groupB/dashboard/server
+      dockerfile: Dockerfile
+    ports:
+      - "5105:5105"
+    volumes:
+      - ./groupB/dashboard/server/pioneer_key.json:/usr/src/app/pioneer_key.json
+    env_file:
+      - ./groupB/dashboard/server/.env
+
+  server-python:
+    build:
+      context: ./python
+      dockerfile: Dockerfile
+    ports:
+      - "5106:5106"
+    environment:
+      - PYTORCH_ENABLE_MPS_FALLBACK=1
+    volumes:
+      - ./python/storage:/app/storage

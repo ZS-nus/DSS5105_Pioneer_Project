@@ -107,6 +107,9 @@ def calculate_environmental_score(env_data, pax):
     # Calculate percentile rank within each year and scale to 10
     env_data['Percentile_rank'] = environmental_score.groupby(env_data['ReportYear']).rank(pct=True) * 10
     
+    # Clip the final percentile rank
+    env_data['Percentile_rank'] = env_data['Percentile_rank'].clip(0, 10)
+    
     # Return the percentile rank as the final environmental score
     return env_data['Percentile_rank']
 
@@ -134,6 +137,9 @@ def calculate_social_score(social_data):
     for col, weight in zip(social_indicator_score.columns, social_weights):
         social_score += social_indicator_score[col].apply(decimal_to_float) * weight
     
+    # Clip to ensure scores are within range
+    social_score = social_score.clip(0, 10)
+    
     return social_score
 
 def calculate_governance_score(gov_data):
@@ -145,16 +151,28 @@ def calculate_governance_score(gov_data):
         gov_data[col] = gov_data[col].apply(decimal_to_float)
     
     gov_data.fillna(0, inplace=True)
+    
+    # Handle binary columns normally
     gov_data[binary_col] = gov_data[binary_col] * 10
-    gov_data[certificate] = gov_data[certificate] * 2
     
+    # Calculate certification score using percentile ranking
+    cert_scores = pd.Series(0.0, index=gov_data.index)
+    if not gov_data[certificate[0]].empty:
+        # Use percentile ranking for certificates
+        cert_scores = gov_data[certificate[0]].rank(pct=True) * 10
+    
+    # Combine scores with weights
     gov_weights = [0.15, 0.3, 0.3, 0.25]
-    gov_indicator_score = gov_data[binary_col + certificate]
+    binary_scores = gov_data[binary_col]
     
-    # Calculate weighted sum ensuring float values
-    gov_score = pd.Series(0.0, index=gov_indicator_score.index)
-    for col, weight in zip(gov_indicator_score.columns, gov_weights):
-        gov_score += gov_indicator_score[col].apply(decimal_to_float) * weight
+    gov_score = pd.Series(0.0, index=gov_data.index)
+    
+    # Apply weights to binary columns
+    for col, weight in zip(binary_col, gov_weights[:-1]):
+        gov_score += binary_scores[col].apply(decimal_to_float) * weight
+    
+    # Add weighted certification score
+    gov_score += cert_scores * gov_weights[-1]
     
     return gov_score
 

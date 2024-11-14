@@ -6,6 +6,7 @@ import EnvTable from "views/admin/dataTables/components/EnvTable";
 import SocialTable from "views/admin/dataTables/components/SocialTable";
 import GovTable from "views/admin/dataTables/components/GovTable";
 import Financial from "views/admin/dataTables/components/financial";
+import FinancialCorr from "views/admin/dataTables/components/financialCorr";
 import {
   columnsDataDevelopment,
   columnsDataCheck,
@@ -28,7 +29,7 @@ export default function Settings() {
         <SocialTable />
         <GovTable />
         <Financial />
-        <Financial />
+        <FinancialCorr />
         {/* <ColumnsTable
           columnsData={columnsDataColumns}
           tableData={tableDataColumns}

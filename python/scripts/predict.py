@@ -105,9 +105,9 @@ def generate_predictions(esg_score):
 
         # Calculate final ESG score
         forecast_df['ESG_Score'] = (
-            0.35 * forecast_df['Environmental'] + 
-            0.45 * forecast_df['Social'] + 
-            0.2 * forecast_df['Governance']
+            0.4 * forecast_df['Environmental'] + 
+            0.3 * forecast_df['Social'] + 
+            0.3 * forecast_df['Governance']
         )
         
         # Clip values between 0 and 10

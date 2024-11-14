@@ -894,7 +894,6 @@ export const S_score_line_option = {
   },
   yaxis: {
     show: true,
-    min: 0,
     max: 10,
     tickAmount: 5,
   },
@@ -977,9 +976,8 @@ export const G_score_line_option = {
   },
   yaxis: {
     show: true,
-    min: 0,
-    max: 10,
-    tickAmount: 10, // This will create 10 ticks on the y-axis
+    max:10,
+    tickAmount: 4, // This will create 10 ticks on the y-axis
     labels: {
       formatter: function(val) {
         return val.toFixed(1); // This will format the labels to one decimal place
@@ -1071,7 +1069,7 @@ export const ESG_score_line_option = {
   },
   yaxis: {
     show: true,
-    tickAmount: 3,
+    tickAmount: 4,
     labels: {
       formatter: function(val) {
         return val.toFixed(1); // This will format the labels to one decimal place
@@ -1172,7 +1170,7 @@ export const ESG_predict_line_option = {
   },
   yaxis: {
     show: true,
-    tickAmount: 3, // This will create 5 ticks on the y-axis (0, 2.5, 5, 7.5, 10)
+    tickAmount: 4, // This will create 5 ticks on the y-axis (0, 2.5, 5, 7.5, 10)
     labels: {
       formatter: function(val) {
         return val.toFixed(1); // This will format the labels to one decimal place

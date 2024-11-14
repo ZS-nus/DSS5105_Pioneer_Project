@@ -1,0 +1,37 @@
+# Use NVIDIA PyTorch image as base
+FROM pytorch/pytorch:2.1.0-cuda12.1-cudnn8-runtime
+
+# Set working directory
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    gcc \
+    libmariadb-dev \
+    pkg-config \
+    libpoppler-cpp-dev \
+    poppler-utils \
+    tesseract-ocr \
+    && rm -rf /var/lib/apt/lists/*
+
+# Upgrade pip
+RUN pip install --no-cache-dir --upgrade pip
+
+# Copy and install requirements
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Download NLTK data
+RUN python -c "import nltk; nltk.download(['punkt', 'punkt_tab', 'averaged_perceptron_tagger', 'maxent_ne_chunker', 'words', 'stopwords', 'wordnet', 'omw-1.4'])"
+
+# Copy application code
+COPY . .
+
+# Create directories
+RUN mkdir -p storage/pdf_uploads storage/txt_outputs storage/table_outputs storage/logs
+
+# Expose port
+EXPOSE 5106
+
+# Run the application
+CMD ["python", "main.py"]
