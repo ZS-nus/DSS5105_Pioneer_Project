@@ -11,6 +11,8 @@ from gmft.auto import CroppedTable, AutoTableDetector, AutoTableFormatter
 from gmft.pdf_bindings import PyPDFium2Document
 
 # SSL workaround
+
+
 try:
     _create_unverified_https_context = ssl._create_unverified_context
 except AttributeError:
