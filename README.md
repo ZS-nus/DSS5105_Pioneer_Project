@@ -61,6 +61,7 @@ A comprehensive platform for extracting and analyzing Environmental, Social, and
 
 ## 🏗 Project Structure tree
 
+```
 pioneer/
 ├── python/ # Python Backend (FastAPI)
 │ ├── Dockerfile # Python service container
@@ -90,6 +91,7 @@ pioneer/
 ├── docker-compose.nvidia.yml # Root level GPU container setup
 ├── README.md # Project documentation
 └── requirements.txt # Global Python dependencies
+```
 
 ---
 
