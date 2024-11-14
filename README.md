@@ -60,7 +60,7 @@ A comprehensive platform for extracting and analyzing Environmental, Social, and
 ---
 ## 📊 Web App Overview
 
-![ESG Analysis Dashboard](web_app_1.jpg)
+![ESG Analysis Dashboard](./images/web_app_1.jpg)
 
 - **ESG Ranking**: Real-time ranking of companies based on their ESG performance scores
 - **ESG Analysis & Recommendations**: 
@@ -75,7 +75,7 @@ A comprehensive platform for extracting and analyzing Environmental, Social, and
 - **Dynamic Updates**: Real-time score updates and trend analysis
 - **Company Selection**: Easy company switching through dropdown menu
 
-![ESG Analysis Dashboard](web_app_2.jpg)
+![ESG Analysis Dashboard](./images/web_app_2.jpg)
 
 - **ESG Score Trend**: Historical and current ESG performance tracking
 - **3-Year Forecast in ESG**: Predictive analytics showing future ESG score trajectories

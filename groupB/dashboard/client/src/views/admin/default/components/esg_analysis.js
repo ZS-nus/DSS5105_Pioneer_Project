@@ -125,7 +125,7 @@ export default function ESG_analysis(props) {
           {error}
         </Text>
       ) : (
-        <Text color={textColorPrimary} fontSize='md' me='26px' mb='40px'>
+        <Text color={textColorPrimary} fontSize='15px' me='26px' mb='40px'>
           {commentary || "Select a company to view its ESG analysis."}
         </Text>
       )}
