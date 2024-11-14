@@ -58,6 +58,32 @@ A comprehensive platform for extracting and analyzing Environmental, Social, and
 
 
 ---
+## 📊 Web App Overview
+
+![ESG Analysis Dashboard](web_app_1.jpg)
+
+- **ESG Ranking**: Real-time ranking of companies based on their ESG performance scores
+- **ESG Analysis & Recommendations**: 
+  - Detailed trend analysis with natural language insights about company performance
+  - Component-specific analysis highlighting strongest and weakest areas
+  - Strategic recommendations for ESG improvement:
+    - Environmental: Suggestions for improving energy consumption, emissions, waste management
+    - Social: Recommendations for enhancing workforce diversity, safety measures, data security
+    - Governance: Guidelines for strengthening board composition, risk management, ethical practices
+- **ESG Metrics**: Visual breakdown of Environmental (40%), Social (30%), and Governance (30%) components
+- **Interactive Dashboard**: User-friendly interface for exploring ESG data and company comparisons
+- **Dynamic Updates**: Real-time score updates and trend analysis
+- **Company Selection**: Easy company switching through dropdown menu
+
+![ESG Analysis Dashboard](web_app_2.jpg)
+
+- **ESG Score Trend**: Historical and current ESG performance tracking
+- **3-Year Forecast in ESG**: Predictive analytics showing future ESG score trajectories
+- **Component-Specific Analysis**: Detailed breakdown of environmental, social, and governance metrics
+- **Interactive Visualizations**: Dynamic charts and graphs for trend analysis
+- **Comparative Analysis**: Tools for benchmarking against industry peers
+
+---
 
 ## 🏗 Project Structure tree
 

@@ -98,10 +98,10 @@ export default function ESG_analysis(props) {
           <Text
             color={textColorPrimary}
             fontWeight='bold'
-            fontSize='2xl'
+            fontSize='xl'
             mt='10px'
             mb='4px'>
-            ESG Analysis
+            ESG Analysis & Recommendations
           </Text>
           <Text
             color={textColorPrimary}
