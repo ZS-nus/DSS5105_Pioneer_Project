@@ -75,17 +75,14 @@ pioneer/
 │ └── notebooks/ # Jupyter notebooks for NLP
 │
 ├── groupB/
-│ ├── dashboard/
-│ │ ├── client/ # React Frontend
-│ │ │ ├── Dockerfile # Frontend container
-│ │ │ └── package.json # Node.js dependencies
-│ │ │
-│ │ └── server/ # Node.js Backend
-│ │ ├── Dockerfile # Node.js service container
+│ └── dashboard/
+│ ├── client/ # React Frontend
+│ │ ├── Dockerfile # Frontend container
 │ │ └── package.json # Node.js dependencies
 │ │
-│ ├── docker-compose.yml # Multi-container orchestration
-│ └── docker-compose-nvidia.yml # GPU-enabled orchestration
+│ └── server/ # Node.js Backend
+│ ├── Dockerfile # Node.js service container
+│ └── package.json # Node.js dependencies
 │
 ├── .gitignore # Git ignore rules
 ├── .env # Environment variables
