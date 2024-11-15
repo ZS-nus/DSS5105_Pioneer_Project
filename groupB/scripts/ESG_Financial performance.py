@@ -1,6 +1,6 @@
 import yfinance as yf
 import pandas as pd
-from db_connect import get_connection_pool, fetch_ESG_score_2023, update_table, fetch_2023_finances
+from db_connect import get_connection_pool, fetch_ESG_score_2023, update_table, fetch_2023_finances, fetch_corr_matrix
 import scipy.stats as stats
 
 def calculate_p_values(esg_fin_metrics):
@@ -84,7 +84,6 @@ def main():
         yearend_stockprice = company_data['Adj Close'].iloc[-1]  # year end price
         mean_stockprice = company_data['Adj Close'].mean()  # mean stock price
 
-        # beta formula: beta = covariance(Company, Market) / variance(Market)
         # measure of the volatility of an investment compared to the market 
         covariance = returns_data['Company'].cov(returns_data['Market'])
         market_variance = returns_data['Market'].var()
@@ -97,7 +96,6 @@ def main():
                                                     ignore_index=True)
         financial_results.sort_values(by='CompanyID', inplace=True)
         financial_results.reset_index(drop=True, inplace=True)
-        # financial_results = financial_results[['Beta', 'Mean_stockprice', 'Yearend_stockprice', 'Currency']]       
     
     # Update ESG and financial performance data in db
     esg_score_2023 = pd.DataFrame(fetch_ESG_score_2023(db_pool)).sort_values(by='CompanyID')
@@ -108,12 +106,17 @@ def main():
 
     esg_fin_metrics = esg_fin[['ROA', 'ROE', 'DebtToEquity', 'TotalAssets_thousandsUSD', 'Beta','Final_ESG_Score']]
     esg_fin_metrics[esg_fin_metrics.columns] = esg_fin_metrics[esg_fin_metrics.columns].astype(float)
-    corr_matrix = esg_fin_metrics.corr(method='pearson')['Final_ESG_Score']
-    corr_matrix = corr_matrix.reset_index()
+    esg_corr = esg_fin_metrics.corr(method='pearson')['Final_ESG_Score']
+    esg_corr = esg_corr.reset_index()
+    esg_corr.columns = ['Financial_metric', 'ESG_Score_correlation']
+    esg_corr = esg_corr.sort_values(by='Financial_metric', ascending=True).reset_index()
+    
+    corr_matrix = pd.DataFrame(fetch_corr_matrix(db_pool))
+    corr_matrix['ESG_Score_correlation'] = esg_corr['ESG_Score_correlation'].round(3)
+    
     
     update_table(db_pool, esg_fin, 'esg_fin')
     update_table(db_pool, corr_matrix, 'corr_matrix')
-    print(corr_matrix)
     p_values = calculate_p_values(esg_fin_metrics)
     significant_metrics = {metric: p_val for metric, p_val in p_values.items() if p_val < 0.1}
 

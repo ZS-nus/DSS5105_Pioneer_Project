@@ -8,22 +8,68 @@ A comprehensive platform for extracting and analyzing Environmental, Social, and
 
 ---
 
+## 📊 Web App Overview
+
+![ESG Analysis Dashboard](./images/web_app_1.jpg)
+
+- **ESG Ranking**: Real-time ranking of companies based on their ESG performance scores
+- **ESG Analysis & Recommendations**: 
+  - Detailed trend analysis with natural language insights about company performance
+  - Component-specific analysis highlighting strongest and weakest areas
+  - Strategic recommendations for ESG improvement:
+    - Environmental: Suggestions for improving energy consumption, emissions, waste management
+    - Social: Recommendations for enhancing workforce diversity, safety measures, data security
+    - Governance: Guidelines for strengthening board composition, risk management, ethical practices
+- **ESG Metrics**: Visual breakdown of Environmental (40%), Social (30%), and Governance (30%) components
+- **Interactive Dashboard**: User-friendly interface for exploring ESG data and company comparisons
+- **Dynamic Updates**: Real-time score updates and trend analysis
+- **Company Selection**: Easy company switching through dropdown menu
+
+![ESG Analysis Dashboard](./images/web_app_2.jpg)
+
+- **ESG Score Trend**: Historical and current ESG performance tracking
+- **3-Year Forecast in ESG**: Predictive analytics showing future ESG score trajectories
+- **Component-Specific Analysis**: Detailed breakdown of environmental, social, and governance metrics
+- **Interactive Visualizations**: Dynamic charts and graphs for trend analysis
+- **Comparative Analysis**: Tools for benchmarking against industry peers
+
+---
+## 🆕 New Updates 
+
+![ESG Analysis Dashboard](./images/web_app_3.jpg)
+
+### 🌱 Enhanced Environmental Analytics
+
+The dashboard now includes detailed environmental performance tracking and analysis:
+
+#### 1. 📊 Environmental Metrics Table
+- Comprehensive year-by-year tracking of key metrics:
+  - ⚡ Energy Consumption
+  - 🌫️ GHG Emissions
+  - 💧 Water Usage
+  - ♻️ Waste Generated
+- 🔄 Interactive company selection
+- 📈 Sortable metrics for easy comparison
+
+#### 2. 📝 Environmental Analysis & Recommendations
+- 📈 Real-time analysis of environmental performance trends
+- 🎯 Structured performance breakdown:
+  - 📊 Significant Changes: Detailed tracking of metric movements
+  - ⭐ Performance Highlights: Identification of strongest and priority areas
+  - 💡 Key Recommendations: Actionable insights for improvement
+- 📅 Company-specific insights with historical context (2019-2023)
+- 🔄 Dynamic updates based on company selection
+
+These new features provide deeper insights into companies' environmental performance and offer actionable recommendations for sustainability improvements.
+
+---
+
 > 📚 **Documentation**
-> - For detailed implementation and setup guide, visit our [Wiki Page](https://github.com/ZS-nus/DSS5105_Pioneer_Project/wiki)
+> - For detailed information visit our [Wiki Page](https://github.com/ZS-nus/DSS5105_Pioneer_Project/wiki)
 > - For API endpoints and usage, see our [API Documentation](https://github.com/ZS-nus/DSS5105_Pioneer_Project/wiki/API-Documentation)
 
-
 ---
 
-## 🌟 Features
-
-- Automated ESG data extraction from PDF reports
-- Real-time data analysis and visualization
-- Interactive dashboard with React frontend
-- GPU-accelerated NLP processing
-- Multi-container architecture with Docker
-
----
 
 ### Technical Stack
 
@@ -56,34 +102,8 @@ A comprehensive platform for extracting and analyzing Environmental, Social, and
 - Firebase integration
 - MySQL database
 
-
 ---
-## 📊 Web App Overview
 
-![ESG Analysis Dashboard](./images/web_app_1.jpg)
-
-- **ESG Ranking**: Real-time ranking of companies based on their ESG performance scores
-- **ESG Analysis & Recommendations**: 
-  - Detailed trend analysis with natural language insights about company performance
-  - Component-specific analysis highlighting strongest and weakest areas
-  - Strategic recommendations for ESG improvement:
-    - Environmental: Suggestions for improving energy consumption, emissions, waste management
-    - Social: Recommendations for enhancing workforce diversity, safety measures, data security
-    - Governance: Guidelines for strengthening board composition, risk management, ethical practices
-- **ESG Metrics**: Visual breakdown of Environmental (40%), Social (30%), and Governance (30%) components
-- **Interactive Dashboard**: User-friendly interface for exploring ESG data and company comparisons
-- **Dynamic Updates**: Real-time score updates and trend analysis
-- **Company Selection**: Easy company switching through dropdown menu
-
-![ESG Analysis Dashboard](./images/web_app_2.jpg)
-
-- **ESG Score Trend**: Historical and current ESG performance tracking
-- **3-Year Forecast in ESG**: Predictive analytics showing future ESG score trajectories
-- **Component-Specific Analysis**: Detailed breakdown of environmental, social, and governance metrics
-- **Interactive Visualizations**: Dynamic charts and graphs for trend analysis
-- **Comparative Analysis**: Tools for benchmarking against industry peers
-
----
 
 ## 🏗 Project Structure tree
 
@@ -122,6 +142,13 @@ pioneer/
 ---
 
 ## 🚀 Quick Start
+
+### Login Credentials 🔐
+
+```
+Email: admin@pioneer.com
+Password: 123456
+```
 
 ### Prerequisites
 - Docker & Docker Compose

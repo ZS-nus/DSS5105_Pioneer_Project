@@ -6,7 +6,7 @@ import pandas as pd
 from pathlib import Path
 import os
 from scripts.db_connect import get_connection_pool, fetch_environmental_data, fetch_social_data, fetch_governance_data, fetch_ESG_data, fetch_predict_data, fetch_company_info, update_table, update_predict_table
-from scripts.esg_score import calculate_environmental_score, calculate_social_score, calculate_governance_score, decimal_to_float
+from scripts.esg_score import calculate_environmental_score, calculate_social_score, calculate_governance_score, decimal_to_float, ESG_WEIGHTS
 from scripts.predict import generate_predictions
 from scripts.esg_commentary import analyze_trend_with_template
 from scripts.convert_pdf_text import PDFConverter
@@ -23,6 +23,7 @@ import asyncio
 from scripts.report_extraction_table import TableDataExtractor
 from scripts.esg_financial import update_financial_metrics
 from datetime import datetime
+from scripts.env_commentary import analyze_env_metrics
 
 # pip install fastapi
 # pip install uvicorn
@@ -253,33 +254,44 @@ async def calculate_esg():
         pax['EmployeeCount'] = pax['EmployeeCount'].apply(decimal_to_float)
         pax.dropna(inplace=True)
         
-        # Calculate scores
-        environmental_score = calculate_environmental_score(env_data, pax)
+        # Calculate scores - properly unpack the tuple
+        environmental_percentile, env_component_scores = calculate_environmental_score(env_data, pax)
         social_score = calculate_social_score(social_data)
         governance_score = calculate_governance_score(gov_data)
         
-        # Combine scores
+        # Create ESG score DataFrame
         esg_score = pd.DataFrame({
             'CompanyID': env_data['CompanyID'],
             'ReportYear': env_data['ReportYear'],
-            'Environmental_Score': environmental_score.apply(decimal_to_float),
-            'Social_Score': social_score.apply(decimal_to_float),
-            'Governance_Score': governance_score.apply(decimal_to_float)
+            'Environmental_Score': environmental_percentile,
+            'Social_Score': social_score,
+            'Governance_Score': governance_score
         })
-    
-        esg_score['Final_ESG_score'] = (
-            esg_score['Environmental_Score'] * 0.4 +
-            esg_score['Social_Score'] * 0.3 +
-            esg_score['Governance_Score'] * 0.3
-        )
         
-        # Update database
+        # Process ESG scores
+        esg_score = esg_score.fillna(0)
+        for col in ['Environmental_Score', 'Social_Score', 'Governance_Score']:
+            esg_score[col] = esg_score[col].clip(0, 10)
+        
+        # Calculate final ESG score with weights
+        esg_score['Final_ESG_score'] = (
+            esg_score['Environmental_Score'] * ESG_WEIGHTS['Environmental'] +
+            esg_score['Social_Score'] * ESG_WEIGHTS['Social'] +
+            esg_score['Governance_Score'] * ESG_WEIGHTS['Governance']
+        )
+        esg_score['Final_ESG_score'] = esg_score['Final_ESG_score'].clip(0, 10)
+        
+        # Update tables
+        update_table(db_pool, env_component_scores, 'env_score')
         update_table(db_pool, esg_score, 'esg_scores')
         
         return {"message": "ESG scores calculated and updated successfully"}
         
     except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+        raise HTTPException(
+            status_code=500,
+            detail=str(e)
+        )
 
 @app.post("/predict")
 async def predict_esg():
@@ -921,6 +933,22 @@ async def delete_company_data(company_name: str):
         raise HTTPException(
             status_code=500,
             detail=f"Error deleting company data: {str(e)}"
+        )
+
+@app.get("/dashboard/env/analysis/{company_id}")
+async def get_env_analysis(company_id: int):
+    """Get environmental metrics analysis for a specific company"""
+    try:
+        analysis = analyze_env_metrics(company_id)
+        return {
+            "status": "success",
+            "data": analysis
+        }
+    except Exception as e:
+        logger.error(f"Error generating environmental analysis: {str(e)}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error generating environmental analysis: {str(e)}"
         )
 
 if __name__ == "__main__":

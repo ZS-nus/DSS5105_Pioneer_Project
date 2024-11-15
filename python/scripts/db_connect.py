@@ -155,3 +155,19 @@ def update_predict_table(pool, final_df):
     finally:
         # Close the database connection
         engine.dispose()
+
+def fetch_env_score_data(pool):
+    query = """
+        SELECT 
+            e.CompanyID,
+            c.CompanyName,
+            e.ReportYear,
+            e.EnergyConsumption_score,
+            e.GHGEmissions_score,
+            e.WaterUsage_score,
+            e.WasteGenerated_score
+        FROM env_score e
+        JOIN company_info c ON e.CompanyID = c.CompanyID
+        ORDER BY c.CompanyName, e.ReportYear
+    """
+    return execute_query(pool, query)

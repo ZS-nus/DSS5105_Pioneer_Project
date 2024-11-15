@@ -1,6 +1,6 @@
 'use client';
 import React, { useEffect } from 'react';
-import { fetchFinancialCorr } from '../../../../api';
+import { fetchEnvMetrics } from '../../../../api';
 import {
   Box,
   Flex,
@@ -21,14 +21,16 @@ import {
   useReactTable,
 } from '@tanstack/react-table';
 import Card from 'components/card/Card';
+import LineChartMenu from 'views/admin/default/components/line_chart_menu';  
 
 const columnHelper = createColumnHelper();
 
-export default function ComplexTable(props) {
+export default function ComplexTable({ onCompanySelect }) {
   const [data, setData] = React.useState([]);
   const [loading, setLoading] = React.useState(true);
   const [error, setError] = React.useState(null);
   const [sorting, setSorting] = React.useState([]);
+  const [selectedCompany, setSelectedCompany] = React.useState(null);
 
   const textColor = useColorModeValue('secondaryGray.900', 'white');
   const borderColor = useColorModeValue('gray.200', 'whiteAlpha.100');
@@ -36,11 +38,11 @@ export default function ComplexTable(props) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetchFinancialCorr();
+        const response = await fetchEnvMetrics();
         setData(response.data);
         setLoading(false);
       } catch (err) {
-        console.error('Error fetching corr data:', err);
+        console.error('Error fetching data:', err);
         setError('Error fetching data');
         setLoading(false);
       }
@@ -50,61 +52,121 @@ export default function ComplexTable(props) {
   }, []);
 
   const columns = [
-    columnHelper.accessor('Financial_metric', {
-      id: 'Financial_metric',
+    columnHelper.accessor('CompanyName', {
+      id: 'company_name',
       header: () => (
         <Text
           justifyContent="space-between"
-          align="center"
+          align="left"
           fontSize={{ sm: '10px', lg: '12px' }}
           color="gray.400"
         >
-          Index
+          NAME
         </Text>
       ),
       cell: (info) => (
         <Flex align="center">
-          <Text color={textColor} fontSize="sm" fontWeight="700">
+          <Text color={textColor} fontSize="md" fontWeight="700">
             {info.getValue()}
           </Text>
         </Flex>
       ),
     }),
-    columnHelper.accessor('ESG_Score_correlation', {
-      id: 'ESG_Score_correlation',
+    columnHelper.accessor('ReportYear', {
+      id: 'report_year',
       header: () => (
         <Text
           justifyContent="space-between"
-          align="center"
+          align="left"
           fontSize={{ sm: '10px', lg: '12px' }}
           color="gray.400"
         >
-          ESG Score
+          Year
         </Text>
       ),
       cell: (info) => (
         <Flex align="center">
-          <Text color={textColor} fontSize="sm" fontWeight="700">
+          <Text color={textColor} fontSize="md" fontWeight="700">
             {info.getValue()}
           </Text>
         </Flex>
       ),
     }),
-    columnHelper.accessor('update_time', {
-      id: 'update_time',
+    columnHelper.accessor('EnergyConsumption_score', {
+      id: 'EnergyConsumption_score',
       header: () => (
         <Text
           justifyContent="space-between"
-          align="center"
+          align="left"
           fontSize={{ sm: '10px', lg: '12px' }}
           color="gray.400"
         >
-          Update Time
+          Energy Used
+        </Text>
+      ),
+      cell: (info) => (
+        <Flex align="left">
+          <Text color={textColor} fontSize="md" fontWeight="700">
+            {info.getValue()}
+          </Text>
+        </Flex>
+      ),
+    }),
+    columnHelper.accessor('GHGEmissions_score', {
+      id: 'GHGEmissions_score',
+      header: () => (
+        <Text
+          justifyContent="space-between"
+          align="left"
+          fontSize={{ sm: '10px', lg: '12px' }}
+          color="gray.400"
+        >
+          GHG Emissions
         </Text>
       ),
       cell: (info) => (
         <Flex align="center">
-          <Text color={textColor} fontSize="sm" fontWeight="700">
+          <Text color={textColor} fontSize="md" fontWeight="700">
+            {info.getValue()}
+          </Text>
+        </Flex>
+      ),
+    }),
+    columnHelper.accessor('WaterUsage_score', {
+      id: 'WaterUsage_score',
+      header: () => (
+        <Text
+          justifyContent="space-between"
+          align="left"
+          fontSize={{ sm: '10px', lg: '12px' }}
+          color="gray.400"
+        >
+          Water Usage
+        </Text>
+      ),
+      cell: (info) => (
+        <Flex align="left">
+          <Text color={textColor} fontSize="md" fontWeight="700">
+            {info.getValue()}
+          </Text>
+        </Flex>
+      ),
+    }),
+    columnHelper.accessor('WasteGenerated_score', {
+      id: 'WasteGenerated_score',
+      header: () => (
+        <Text
+          justifyContent="space-between"
+          align="left"
+          fontSize={{ sm: '10px', lg: '12px' }}
+          color="gray.400"
+        >
+          Waste Generated
+        </Text>
+      ),
+      cell: (info) => (
+        <Flex align="center">
+          <Text color={textColor} fontSize="md" fontWeight="700">
             {info.getValue()}
           </Text>
         </Flex>
@@ -112,8 +174,34 @@ export default function ComplexTable(props) {
     }),
   ];
 
+  const menuItems = React.useMemo(() => 
+    [...new Set(data.map(item => item.CompanyName))],
+    [data]
+  );
+
+  const handleCompanySelect = React.useCallback((company) => {
+    setSelectedCompany(company);
+    if (onCompanySelect) {
+      onCompanySelect(company);
+    }
+  }, [onCompanySelect]);
+
+  const filteredData = React.useMemo(() => {
+    if (selectedCompany) {
+      return data.filter(item => item.CompanyName === selectedCompany);
+    }
+    const firstCompany = data.length > 0 ? data[0].CompanyName : null;
+    return firstCompany ? data.filter(item => item.CompanyName === firstCompany) : [];
+  }, [data, selectedCompany]);
+
+  useEffect(() => {
+    if (data.length > 0 && !selectedCompany) {
+      setSelectedCompany(data[0].CompanyName);
+    }
+  }, [data, selectedCompany]);
+
   const table = useReactTable({
-    data,
+    data: filteredData,
     columns,
     state: {
       sorting,
@@ -143,8 +231,13 @@ export default function ComplexTable(props) {
           fontWeight="700"
           lineHeight="100%"
         >
-          Financial Correlation Analysis
+          Environmental Metrics
         </Text>
+        <LineChartMenu 
+          menuItems={menuItems} 
+          onSelectCompany={handleCompanySelect}
+          selectedCompany={selectedCompany}
+        />
       </Flex>
       <Box>
         <Table variant="simple" color="gray.500" mb="24px" mt="12px">

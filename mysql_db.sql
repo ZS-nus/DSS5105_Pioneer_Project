@@ -45,49 +45,63 @@ CREATE TABLE environment (
     GHGEmissions DECIMAL(15,2),
     WaterUsage DECIMAL(15,2),
     WasteGenerated DECIMAL(15,2),
-    RenewableEnergyUse DECIMAL(15,2),
     PRIMARY KEY (CompanyID, ReportYear),
     FOREIGN KEY (CompanyID) REFERENCES company_info(CompanyID)
 );
 
 -- Insert data into the environment table
-INSERT INTO environment (CompanyID, ReportYear, EnergyConsumption, GHGEmissions, WaterUsage, WasteGenerated, RenewableEnergyUse)
+INSERT INTO environment (CompanyID, ReportYear, EnergyConsumption, GHGEmissions, WaterUsage, WasteGenerated)
 VALUES
-(3, 2023, 211171.84, 116722.56, 1371360.69, 7270.61, NULL),
-(3, 2022, 144741.38, 85742.61, 1020312.10, 7053.71, NULL),
-(3, 2021, 144626.56, 82820.16, 927326.00, 6331.38, NULL),
-(3, 2020, 118397.58, 66481.29, 606265.84, 4661.44, NULL),
-(4, 2019, 2837000, 809000, NULL, 31500, NULL),
-(4, 2020, 2529000, 569000, NULL, 22100, NULL),
-(4, 2021, 2846000, 475000, NULL, 20700, NULL),
-(4, 2022, 2448000, 430000, NULL, 14800, NULL),
-(4, 2023, 2287000, 364000, NULL, 16500, NULL),
-(6, 2023, 36399000, 13291000, 177361000, 1314923, NULL),
-(6, 2022, 35177000, 15053000, 172811000, 1413365, 8704000),
-(6, 2021, 32322000, 17400000, 163660000, 1324972, 5278000),
-(6, 2020, 29024000, 14806000, 141648000, 1181741, 4030000),
-(5, 2023, 15543490, 7443182, 5274000, 38468, 15543490),
-(5, 2022, 11822293, 8453471, 4893023, 18519, 11822293),
-(5, 2021, 9689497, 5740244, 5042564, 18430, 9689497),
-(5, 2020, 7520839, 4984000, 3726000, 10000, 7520839),
-(1, 2023, 483299062, 324100, 6100000, 497000, 3489000),
-(1, 2022, 487921930, 324000, 5800000, 523000, 3199000),
-(1, 2021, 384727076, 166380, 5300000, 419000, 2854000),
-(1, 2020, 372901398, 334430, 4900000, 400000, 2580000),
-(1, 2019, 339047649, 573730, 4900000, 322000, 2430000),
-(2, 2023, 377338, 219825, 1420000, 48452, 16956),
-(2, 2022, 392825, 228282, 1499000, 51099, 13333),
-(2, 2021, 366885, 210007, 1567000, 49528, 9360),
-(2, 2020, 346683, 206466, 1428000, 51685, 9065),
-(2, 2019, 327798, 194215, 1307000, NULL, 4226),
-(7, 2023, 25910500, 14314800, 6352.00, 41100, 25307000),
-(7, 2022, 22367100, 12617400, 5564.70, 38200, 21776200),
-(7, 2021, 18639900, 10775200, 4561.80, 28200, 18287100),
-(7, 2020, 15492000, 8567200, 3748.90, 28900, 15138500),
-(7, 2019, 12801900, 9671400, 3412.40, 48100, 12237200),
-(8, 2023, 5165168.20, 5793823.70, 8191328.40, 47858.1, 604277.10),
-(8, 2022, 5046045.10, 5739723.70, 8152481.90, 34113.4, 336419.50),
-(8, 2021, 4452650.10, 5871780.70, 6201651.60, 30173.6, 63000.00);
+(3, 2023, 211171.84, 116722.56, 1371360.69, 7270.61),
+(3, 2022, 144741.38, 85742.61, 1020312.10, 7053.71),
+(3, 2021, 144626.56, 82820.16, 927326.00, 6331.38),
+(3, 2020, 118397.58, 66481.29, 606265.84, 4661.44),
+(4, 2019, 2837000, 809000, NULL, 31500),
+(4, 2020, 2529000, 569000, NULL, 22100),
+(4, 2021, 2846000, 475000, NULL, 20700),
+(4, 2022, 2448000, 430000, NULL, 14800),
+(4, 2023, 2287000, 364000, NULL, 16500),
+(6, 2023, 36399000, 13291000, 177361000, 1314923),
+(6, 2022, 35177000, 15053000, 172811000, 1413365),
+(6, 2021, 32322000, 17400000, 163660000, 1324972),
+(6, 2020, 29024000, 14806000, 141648000, 1181741),
+(5, 2023, 15543490, 7443182, 5274000, 38468),
+(5, 2022, 11822293, 8453471, 4893023, 18519),
+(5, 2021, 9689497, 5740244, 5042564, 18430),
+(5, 2020, 7520839, 4984000, 3726000, 10000),
+(1, 2023, 483299062, 324100, 6100000, 497000),
+(1, 2022, 487921930, 324000, 5800000, 523000),
+(1, 2021, 384727076, 166380, 5300000, 419000),
+(1, 2020, 372901398, 334430, 4900000, 400000),
+(1, 2019, 339047649, 573730, 4900000, 322000),
+(2, 2023, 377338, 219825, 1420000, 48452),
+(2, 2022, 392825, 228282, 1499000, 51099),
+(2, 2021, 366885, 210007, 1567000, 49528),
+(2, 2020, 346683, 206466, 1428000, 51685),
+(2, 2019, 327798, 194215, 1307000, NULL),
+(7, 2023, 25910500, 14314800, 6352.00, 41100),
+(7, 2022, 22367100, 12617400, 5564.70, 38200),
+(7, 2021, 18639900, 10775200, 4561.80, 28200),
+(7, 2020, 15492000, 8567200, 3748.90, 28900),
+(7, 2019, 12801900, 9671400, 3412.40, 48100),
+(8, 2023, 5165168.20, 5793823.70, 8191328.40, 47858.1),
+(8, 2022, 5046045.10, 5739723.70, 8152481.90, 34113.4),
+(8, 2021, 4452650.10, 5871780.70, 6201651.60, 30173.6);
+
+
+DROP TABLE IF EXISTS env_score;
+-- Create the env_score table
+CREATE TABLE env_score (
+    CompanyID INT NOT NULL,
+    ReportYear INT NOT NULL,
+    Energy_score DECIMAL(5,2),
+    GHG_score DECIMAL(5,2),
+    Water_score DECIMAL(5,2),
+    Waste_score DECIMAL(5,2),
+    PRIMARY KEY (CompanyID, ReportYear),
+    FOREIGN KEY (CompanyID) REFERENCES company_info(CompanyID)
+);
+
 
 -- Drop the existing social table
 DROP TABLE IF EXISTS social;
@@ -114,26 +128,26 @@ CREATE TABLE social (
 INSERT INTO social (CompanyID, ReportYear, EmployeeCount, DataSecurity, CustomerPrivacy, Cybersecurity, MalePercentage, FemalePercentage, TrainingHours, WorkRelatedInjuries, GenderStats, AgeStats)
 VALUES
 (7, 2023, 204000, 0, 0, 0, 65.90, 34.10, NULL, NULL, 1, 1),
-(7, 2022, 190234, 0, 0, 0, 65.90, 34.10, NULL, NULL, 1, 1),
+(7, 2022, 190234, 0, 1, 0, 65.90, 34.10, NULL, NULL, 1, 1),
 (7, 2021, 186779, 0, 0, 0, 66.10, 33.90, NULL, NULL, 1, 1),
-(7, 2020, 156500, 0, 0, 0, 67.50, 32.50, NULL, NULL, 1, 1),
-(7, 2019, 118899, 0, 0, 0, 68.00, 32.00, NULL, NULL, 1, 1),
+(7, 2020, 156500, 1, 0, 0, 67.50, 32.50, NULL, NULL, 1, 1),
+(7, 2019, 118899, 0, 1, 1, 68.00, 32.00, NULL, NULL, 1, 1),
 (6, 2023, 267860, 1, 1, 1, 71.60, 28.40, 9500000.0, '0.025', 1, 1),
 (6, 2022, 270372, 1, 1, 1, 64.90, 35.10, 9140000.0, '0.031', 1, 1),
 (6, 2021, 266673, 1, 1, 1, 63.70, 36.30, 8180000.0, '0.022', 1, 1),
 (6, 2020, 267937, 1, 1, 1, 62.70, 37.30, 7340000.0, '0.008', 1, 1),
 (3, 2023, 35116, 1, 1, 1, 73.65, 26.35, 172705.0, NULL, 1, 1),
 (3, 2022, 35997, 1, 1, 1, 69.35, 30.65, 302383.0, NULL, 1, 1),
-(3, 2021, 33415, 1, 1, 1, 66.70, 33.30, 363531.0, NULL, 1, 1),
+(3, 2021, 33415, 1, 0, 1, 66.70, 33.30, 363531.0, NULL, 1, 1),
 (3, 2020, 24810, 1, 1, 1, NULL, NULL, NULL, '0.000045', 0, 1),
 (5, 2023, 67317, 0, 0, 0, 63.30, 36.70, NULL, NULL, 1, 0),
-(5, 2022, 86482, 0, 0, 0, 62.90, 37.10, NULL, NULL, 1, 0),
+(5, 2022, 86482, 1, 0, 0, 62.90, 37.10, NULL, NULL, 1, 0),
 (5, 2021, 71970, 0, 0, 0, 63.30, 36.70, NULL, NULL, 1, 0),
-(5, 2020, 58604, 0, 0, 0, 63.00, 37.00, NULL, NULL, 1, 0),
-(1, 2023, 161000, 1, 1, 1, 64.41, 35.59, NULL, NULL, 1, 0),
-(1, 2022, 164000, 1, 1, 1, 64.60, 35.30, NULL, NULL, 1, 0),
-(1, 2021, 154000, 1, 1, 1, 65.20, 34.80, NULL, NULL, 1, 0),
-(1, 2020, 147000, 1, 1, 1, 66.00, 34.00, NULL, NULL, 1, 0),
+(5, 2020, 58604, 0, 1, 0, 63.00, 37.00, NULL, NULL, 1, 0),
+(1, 2023, 161000, 0, 1, 1, 64.41, 35.59, NULL, NULL, 1, 0),
+(1, 2022, 164000, 1, 0, 0, 64.60, 35.30, NULL, NULL, 1, 0),
+(1, 2021, 154000, 1, 1, 1, 65.20, 34.80, NULL, NULL, 0, 0),
+(1, 2020, 147000, 1, 0, 1, 66.00, 34.00, NULL, NULL, 1, 0),
 (1, 2019, 137000, 1, 1, 1, 67.00, 33.00, NULL, NULL, 1, 0),
 (4, 2023, 282200, 1, 0, 1, 62.60, 37.40, 23100000.0, '0.049', 1, 0),
 (4, 2022, 288300, 1, 0, 1, 62.80, 37.20, 24300000.0, NULL, 1, 0),
@@ -145,33 +159,11 @@ VALUES
 (2, 2021, 75000, 0, 1, 1, 63.00, 37.00, 375000.0, NULL, 1, 1),
 (2, 2020, 71500, 0, 1, 1, 64.00, 36.00, NULL, NULL, 1, 1),
 (2, 2019, 63000, 0, 1, 1, 64.00, 36.00, NULL, NULL, 1, 0),
-(8, 2023, 56780, 1, 1, 1, 71.27, 28.73, 1465109.1, '0.13', 1, 1),
+(8, 2023, 56780, 0, 0, 1, 71.27, 28.73, 1465109.1, '0.13', 1, 1),
 (8, 2022, 61328, 1, 1, 1, 71.24, 28.76, 2225679.7, '0.09', 1, 1),
 (8, 2021, 68226, 1, 1, 1, 70.95, 29.05, 2795780.2, '0.25', 1, 1);
 
 
-    -- Drop the existing e_score table if it exists
-    DROP TABLE IF EXISTS e_score;
-
-    -- Create the e_score table with all columns including update_time
-    CREATE TABLE e_score (
-        CompanyID INT NOT NULL,
-        ReportYear INT NOT NULL,
-        Energy_score DECIMAL(5,2),
-        Water_score DECIMAL(5,2),
-        GHG_score DECIMAL(5,2),
-        Waste_score DECIMAL(5,2),
-        Renewable_score DECIMAL(5,2),
-        Energy_score_weighted DECIMAL(5,2),
-        Water_score_weighted DECIMAL(5,2),
-        GHG_score_weighted DECIMAL(5,2),
-        Waste_score_weighted DECIMAL(5,2),
-        Renewable_score_weighted DECIMAL(5,2),
-        env_score_weighted DECIMAL(5,2),
-        update_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-        PRIMARY KEY (CompanyID, ReportYear),
-        FOREIGN KEY (CompanyID) REFERENCES company_info(CompanyID)
-    );
 
 -- Drop the existing governance table if it exists
 DROP TABLE IF EXISTS governance;
@@ -191,41 +183,41 @@ CREATE TABLE IF NOT EXISTS governance (
 -- Insert data into the governance table
 INSERT INTO governance (CompanyID, ReportYear, BoardComposition, EthicalBehaviour, RiskManagement, CertificationList)
 VALUES
-(7, 2023, 0, 1, 1, 2),
+(7, 2023, 0, 0, 1, 2),
 (7, 2022, 0, 1, 1, 2),
-(7, 2021, 0, 1, 1, 2),
-(7, 2020, 0, 1, 1, 2),
-(7, 2019, 0, 1, 1, 2),
-(6, 2023, 1, 1, 1, 5),
-(6, 2022, 1, 1, 1, 5),
-(6, 2021, 1, 1, 1, 5),
+(7, 2021, 0, 0, 1, 2),
+(7, 2020, 0, 0, 1, 2),
+(7, 2019, 1, 1, 1, 4),
+(6, 2023, 1, 1, 1, 2),
+(6, 2022, 1, 1, 0, 3),
+(6, 2021, 1, 1, 0, 1),
 (6, 2020, 1, 1, 1, 5),
-(1, 2023, 1, 1, 1, 2),
-(1, 2022, 1, 1, 1, 2),
+(1, 2023, 1, 1, 1, 5),
+(1, 2022, 0, 1, 1, 0),
 (1, 2021, 1, 1, 1, 2),
-(1, 2020, 1, 1, 1, 2),
-(1, 2019, 1, 1, 1, 2),
-(2, 2023, 0, 0, 1, 3),
+(1, 2020, 1, 1, 1, 0),
+(1, 2019, 0, 0, 1, 4),
+(2, 2023, 1, 0, 1, 3),
 (2, 2022, 0, 0, 1, 3),
 (2, 2021, 0, 0, 1, 3),
-(2, 2020, 0, 0, 1, 3),
+(2, 2020, 1, 0, 1, 0),
 (2, 2019, 0, 0, 1, 3),
 (3, 2023, 1, 1, 1, 3),
-(3, 2022, 1, 1, 1, 3),
-(3, 2021, 1, 1, 1, 3),
-(3, 2020, 1, 1, 1, 3),
-(5, 2023, 0, 1, 1, 1),
-(5, 2022, 0, 1, 1, 1),
-(5, 2021, 0, 1, 1, 1),
+(3, 2022, 1, 1, 1, 1),
+(3, 2021, 1, 0, 1, 1),
+(3, 2020, 0, 1, 1, 0),
+(5, 2023, 0, 1, 1, 3),
+(5, 2022, 0, 1, 1, 0),
+(5, 2021, 0, 1, 0, 1),
 (5, 2020, 0, 1, 1, 1),
-(4, 2023, 1, 1, 1, 0),
-(4, 2022, 0, 0, 1, 4),
-(4, 2021, 0, 0, 1, 4),
+(4, 2023, 1, 1, 1, 4),
+(4, 2022, 0, 0, 1, 3),
+(4, 2021, 0, 0, 1, 0),
 (4, 2020, 1, 1, 1, 4),
 (4, 2019, 0, 0, 1, 4),
 (8, 2023, 1, 1, 1, 4),
-(8, 2022, 1, 1, 1, 4),
-(8, 2021, 1, 1, 1, 4);
+(8, 2022, 1, 1, 0, 4),
+(8, 2021, 0, 1, 1, 3);
 
 CREATE TABLE IF NOT EXISTS users (
     uid VARCHAR(128) PRIMARY KEY,
@@ -288,18 +280,33 @@ INSERT INTO esg_fin (CompanyID, Final_ESG_Score, ROE, ROA, DebtToEquity, TotalAs
 (8, NULL, 0.1351, 0.0748, 0.80, 221370966, NULL, NULL, NULL, NULL);
 
 
--- Drop the existing esg_finance table if it exists
+-- Drop the existing corr_matrix table if it exists
 DROP TABLE IF EXISTS corr_matrix;
 
 -- Create the corr_matrix table
 CREATE TABLE corr_matrix (
-	Financial_metric VARCHAR(255) NOT NULL
+	Financial_metric VARCHAR(255) NOT NULL,
+    ESG_Score_correlation DECIMAL(5,2),
+    Comments_and_Recommendations VARCHAR(255) NOT NULL
 );
 
-INSERT INTO corr_matrix (Financial_metric) VALUES
-('ESG_Score'),
-('ROE'),
-('ROA'),
-('DebtToEquity'),
-('TotalAssets_thousandsUSD'),
-('Beta')
+INSERT INTO corr_matrix (Financial_metric, ESG_Score_correlation, Comments_and_Recommendations) VALUES
+('Beta', NULL, 'Assess market risk and economic fluctuations accompanied by long term sustainability'),
+('DebtToEquity', NULL, 'Analyse amount of investments in green technology and sustainable debt instruments'),
+('Final_ESG_Score', NULL, 'Assessment of company sustainability and ethical impact on society'),
+('ROA', NULL, 'Assess trade-off between short term profits and long term impacts of ESG initiatives'),
+('ROE', NULL, 'Weak correlation between profitability (relative to equity) and ESG impact'),
+('TotalAssets_thousandsUSD', NULL, 'Analyse company size and complexity of managing ESG impacts'),
+
+-- pioneerDB.esg_predictions definition
+
+CREATE TABLE `esg_predictions` (
+  `Year` int(11) DEFAULT NULL,
+  `CompanyID` bigint(20) DEFAULT NULL,
+  `Environmental` double DEFAULT NULL,
+  `Social` double DEFAULT NULL,
+  `Governance` double DEFAULT NULL,
+  `ESG_Score` double DEFAULT NULL,
+  `Data_Type` text DEFAULT NULL,
+  `update_time` datetime DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_uca1400_ai_ci;

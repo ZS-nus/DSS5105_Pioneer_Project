@@ -41,7 +41,7 @@ def train_score(TrainingHours): # specifically for training hours -> higher is b
 
 
 def calculate_environmental_score(env_data, pax):
-    env_metric = ['EnergyConsumption', 'GHGEmissions', 'WaterUsage', 'WasteGenerated'] # renewable removed
+    env_metric = ['EnergyConsumption', 'GHGEmissions', 'WaterUsage', 'WasteGenerated'] 
     env_data = pd.merge(pax, env_data, how='inner', on=['CompanyID', 'ReportYear'])
     
     for col in env_metric:
@@ -51,7 +51,6 @@ def calculate_environmental_score(env_data, pax):
         env_data[col + "_score"] = calc_score(env_data[col + '_per_employee'])
     
     env_data.fillna(0, inplace=True)
-    
     env_weights = [0.4, 0.2, 0.2, 0.2]
     env_indicator_score = env_data[[col + '_score' for col in env_metric]]
     environmental_score = (env_indicator_score * env_weights).sum(axis=1)
@@ -59,7 +58,11 @@ def calculate_environmental_score(env_data, pax):
     env_data['Percentile_rank'] = environmental_score.groupby(env_data['ReportYear']).rank(pct=True) * 10
     environmental_score =  env_data['Percentile_rank']
     
-    return environmental_score
+    # Individual env scores
+    env_score = env_data[['CompanyID', 'ReportYear', 'EnergyConsumption_score', 'GHGEmissions_score', 
+                          'WaterUsage_score', 'WasteGenerated_score']].copy()
+    
+    return environmental_score, env_score
 
 def calculate_social_score(social_data):
     binary_col = ['DataSecurity', 'CustomerPrivacy', 'Cybersecurity', 'GenderStats', 'AgeStats']
@@ -106,7 +109,8 @@ def main():
     pax.dropna(inplace=True)
     
     # Calculate scores
-    environmental_score = calculate_environmental_score(env_data, pax)
+    environmental_score = calculate_environmental_score(env_data, pax)[0]
+
     # Create environmental score DataFrame
     e_score_df = pd.DataFrame({
         'CompanyID': env_data['CompanyID'],
@@ -144,8 +148,13 @@ def main():
     )
     esg_score['Final_ESG_score'] = esg_score['Final_ESG_score'].clip(0, 10)
     
+    # Individual components of environmental score
+    env_score = calculate_environmental_score(env_data, pax)[1]
+    update_table(db_pool, env_score, 'env_score')
+    
     # Update the ESG scores table
     update_table(db_pool, esg_score, 'esg_scores')
+    
 
 if __name__ == "__main__":
     main()
