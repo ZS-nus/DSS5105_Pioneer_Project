@@ -26,6 +26,8 @@ import EBarChart from "views/admin/default/components/e_bar_chart";
 import SBarChart from "views/admin/default/components/s_bar_chart";
 import GBarChart from "views/admin/default/components/g_bar_chart";
 import ESGLinePredict from "views/admin/default/components/esg_predict_line";
+import FinancialCorr from "views/admin/default/components/financialCorr";
+import EnvMetrics from "views/admin/default/components/EnvTable";
 
 import {
   columnsDataCheck,
@@ -122,6 +124,12 @@ export default function UserReports() {
       </SimpleGrid>
 
       <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
+          <EnvMetrics />
+          <ELineChart data={predictData} company={companyName} /> 
+      </SimpleGrid>
+
+
+      <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
           <SBarChart data={esg_score} />
           <SLineChart data={predictData} company={companyName} /> 
       </SimpleGrid>
@@ -134,6 +142,10 @@ export default function UserReports() {
 
       <SimpleGrid columns={{ base: 1, md: 1, xl: 1 }} gap='20px' mb='20px'>
       <ESGLinePredict company={companyName} /> 
+      </SimpleGrid>
+
+      <SimpleGrid columns={{ base: 1, md: 1, xl: 1 }} gap='20px' mb='20px'>
+      <FinancialCorr />
       </SimpleGrid>
 
 

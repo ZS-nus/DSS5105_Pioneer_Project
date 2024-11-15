@@ -224,8 +224,7 @@ app.get('/api/table/environment', async (req, res) => {
         ROUND(e.EnergyConsumption) AS EnergyConsumption,
         ROUND(e.GHGEmissions) AS GHGEmissions,
         ROUND(e.WaterUsage) AS WaterUsage,
-        ROUND(e.WasteGenerated) AS WasteGenerated,
-        ROUND(e.RenewableEnergyUse) AS RenewableEnergyUse
+        ROUND(e.WasteGenerated) AS WasteGenerated
       FROM environment e
       INNER JOIN company_info c ON e.CompanyID = c.CompanyID
       INNER JOIN (
@@ -293,10 +292,12 @@ app.get('/api/table/financialCorr', async (req, res) => {
     console.log('Fetching financial corr data...');
     const query = `
       SELECT 
-        \`index\` as metric_name,
-        Final_ESG_Score as correlation_value,
-        update_time
+        Financial_metric,
+        ESG_Score_correlation,
+        update_time,
+        Comments_and_Recommendations
       FROM corr_matrix
+      ORDER BY ESG_Score_correlation ASC
     `;
 
     const rows = await executeQuery(query);

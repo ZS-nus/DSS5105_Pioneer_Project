@@ -90,8 +90,8 @@ export default function ComplexTable(props) {
         </Flex>
       ),
     }),
-    columnHelper.accessor('update_time', {
-      id: 'update_time',
+    columnHelper.accessor('Comments_and_Recommendations', {
+      id: 'Comments_and_Recommendations',
       header: () => (
         <Text
           justifyContent="space-between"
@@ -99,7 +99,7 @@ export default function ComplexTable(props) {
           fontSize={{ sm: '10px', lg: '12px' }}
           color="gray.400"
         >
-          Update Time
+          Comments & Recommendations
         </Text>
       ),
       cell: (info) => (

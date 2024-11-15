@@ -1,6 +1,6 @@
 'use client';
 import React, { useEffect } from 'react';
-import { fetchFinancialCorr } from '../../../../api';
+import { fetchEnvironmentalData } from '../../../../api';
 import {
   Box,
   Flex,
@@ -36,11 +36,11 @@ export default function ComplexTable(props) {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetchFinancialCorr();
+        const response = await fetchEnvironmentalData();
         setData(response.data);
         setLoading(false);
       } catch (err) {
-        console.error('Error fetching corr data:', err);
+        console.error('Error fetching data:', err);
         setError('Error fetching data');
         setLoading(false);
       }
@@ -50,8 +50,8 @@ export default function ComplexTable(props) {
   }, []);
 
   const columns = [
-    columnHelper.accessor('Financial_metric', {
-      id: 'Financial_metric',
+    columnHelper.accessor('CompanyName', {
+      id: 'company_name',
       header: () => (
         <Text
           justifyContent="space-between"
@@ -59,7 +59,7 @@ export default function ComplexTable(props) {
           fontSize={{ sm: '10px', lg: '12px' }}
           color="gray.400"
         >
-          Index
+          NAME
         </Text>
       ),
       cell: (info) => (
@@ -70,8 +70,8 @@ export default function ComplexTable(props) {
         </Flex>
       ),
     }),
-    columnHelper.accessor('ESG_Score_correlation', {
-      id: 'ESG_Score_correlation',
+    columnHelper.accessor('ReportYear', {
+      id: 'report_year',
       header: () => (
         <Text
           justifyContent="space-between"
@@ -79,7 +79,7 @@ export default function ComplexTable(props) {
           fontSize={{ sm: '10px', lg: '12px' }}
           color="gray.400"
         >
-          ESG Score
+          Year
         </Text>
       ),
       cell: (info) => (
@@ -90,8 +90,8 @@ export default function ComplexTable(props) {
         </Flex>
       ),
     }),
-    columnHelper.accessor('update_time', {
-      id: 'update_time',
+    columnHelper.accessor('GHGEmissions', {
+      id: 'ghg_emissions',
       header: () => (
         <Text
           justifyContent="space-between"
@@ -99,7 +99,47 @@ export default function ComplexTable(props) {
           fontSize={{ sm: '10px', lg: '12px' }}
           color="gray.400"
         >
-          Update Time
+          GHG (MT of CO2e)
+        </Text>
+      ),
+      cell: (info) => (
+        <Flex align="center">
+          <Text color={textColor} fontSize="sm" fontWeight="700">
+            {info.getValue()}
+          </Text>
+        </Flex>
+      ),
+    }),
+    columnHelper.accessor('EnergyConsumption', {
+      id: 'energy_consumption',
+      header: () => (
+        <Text
+          justifyContent="space-between"
+          align="center"
+          fontSize={{ sm: '10px', lg: '12px' }}
+          color="gray.400"
+        >
+          Energy (MWh)
+        </Text>
+      ),
+      cell: (info) => (
+        <Flex align="center">
+          <Text color={textColor} fontSize="sm" fontWeight="700">
+            {info.getValue()}
+          </Text>
+        </Flex>
+      ),
+    }),
+    columnHelper.accessor('WaterUsage', {
+      id: 'water_consumption',
+      header: () => (
+        <Text
+          justifyContent="space-between"
+          align="center"
+          fontSize={{ sm: '10px', lg: '12px' }}
+          color="gray.400"
+        >
+          Water (MT)
         </Text>
       ),
       cell: (info) => (
@@ -143,7 +183,7 @@ export default function ComplexTable(props) {
           fontWeight="700"
           lineHeight="100%"
         >
-          Financial Correlation Analysis
+          Environmental Data
         </Text>
       </Flex>
       <Box>

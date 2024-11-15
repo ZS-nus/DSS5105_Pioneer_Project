@@ -319,3 +319,15 @@ INSERT INTO corr_matrix (Financial_metric, ESG_Score_correlation, Comments_and_R
 ('ROE', NULL, 'Weak correlation between profitability (relative to equity) and ESG impact'),
 ('TotalAssets_thousandsUSD', NULL, 'Analyse company size and complexity of managing ESG impacts'),
 
+-- pioneerDB.esg_predictions definition
+
+CREATE TABLE `esg_predictions` (
+  `Year` int(11) DEFAULT NULL,
+  `CompanyID` bigint(20) DEFAULT NULL,
+  `Environmental` double DEFAULT NULL,
+  `Social` double DEFAULT NULL,
+  `Governance` double DEFAULT NULL,
+  `ESG_Score` double DEFAULT NULL,
+  `Data_Type` text DEFAULT NULL,
+  `update_time` datetime DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_uca1400_ai_ci;
