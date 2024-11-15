@@ -23,6 +23,7 @@ import asyncio
 from scripts.report_extraction_table import TableDataExtractor
 from scripts.esg_financial import update_financial_metrics
 from datetime import datetime
+from scripts.env_commentary import analyze_env_metrics
 
 # pip install fastapi
 # pip install uvicorn
@@ -921,6 +922,22 @@ async def delete_company_data(company_name: str):
         raise HTTPException(
             status_code=500,
             detail=f"Error deleting company data: {str(e)}"
+        )
+
+@app.get("/dashboard/env/analysis/{company_id}")
+async def get_env_analysis(company_id: int):
+    """Get environmental metrics analysis for a specific company"""
+    try:
+        analysis = analyze_env_metrics(company_id)
+        return {
+            "status": "success",
+            "data": analysis
+        }
+    except Exception as e:
+        logger.error(f"Error generating environmental analysis: {str(e)}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error generating environmental analysis: {str(e)}"
         )
 
 if __name__ == "__main__":

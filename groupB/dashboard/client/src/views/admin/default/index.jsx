@@ -28,6 +28,7 @@ import GBarChart from "views/admin/default/components/g_bar_chart";
 import ESGLinePredict from "views/admin/default/components/esg_predict_line";
 import FinancialCorr from "views/admin/default/components/financialCorr";
 import EnvMetrics from "views/admin/default/components/EnvTable";
+import EnvAnalysis from "views/admin/default/components/Env_analysis";
 
 import {
   columnsDataCheck,
@@ -50,6 +51,7 @@ export default function UserReports() {
   const [esg_score, setESGScore] = useState([]);
   const [latestScores, setLatestScores] = useState([]);
   const [predictData, setPredictData] = useState([]); // Add new state for prediction data
+  const [selectedCompany, setSelectedCompany] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -85,6 +87,12 @@ export default function UserReports() {
   // Chakra Color Mode
   const brandColor = useColorModeValue("brand.500", "white");
   const boxBg = useColorModeValue("secondaryGray.300", "whiteAlpha.100");
+
+  const handleCompanySelect = (company) => {
+    console.log('Company selected:', company);
+    setSelectedCompany(company);
+  };
+
   return (
     <Box pt={{ base: "130px", md: "80px", xl: "80px" }}>
 
@@ -124,8 +132,15 @@ export default function UserReports() {
       </SimpleGrid>
 
       <SimpleGrid columns={{ base: 1, md: 2, xl: 2 }} gap='20px' mb='20px'>
-          <EnvMetrics />
-          <ELineChart data={predictData} company={companyName} /> 
+          <EnvMetrics 
+            company={companyName} 
+            data={esg_score} 
+            onCompanySelect={handleCompanySelect}
+          />
+          <EnvAnalysis 
+            company={selectedCompany || companyName} 
+            data={esg_score}
+          />
       </SimpleGrid>
 
 

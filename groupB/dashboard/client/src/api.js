@@ -25,6 +25,10 @@ export const fetchESGCommentary = (companyId) => {
   return pythonApi.get(`/dashboard/analysis/${companyId}`);
 };
 
+export const fetchEnvCommentary = (companyId) => {
+  return pythonApi.get(`/dashboard/env/analysis/${companyId}`);
+};
+
 export const loginUser = (credentials) => {
   return api.post('/login', credentials);
 };
@@ -39,6 +43,10 @@ export const fetchGovernanceData = () => {
 
   export const fetchEnvironmentalData = () => {
     return api.get('/table/environment');
+  };
+
+  export const fetchEnvMetrics = () => {
+    return api.get('/table/envMetrics');
   };
 
   export const fetchSocialData = () => {

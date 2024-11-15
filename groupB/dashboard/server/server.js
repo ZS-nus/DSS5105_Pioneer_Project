@@ -687,3 +687,36 @@ app.get('/api/score/predict', async (req, res) => {
     res.status(500).json({ error: 'Internal server error' });
   }
 });
+
+// Add this new endpoint for fetching environmental metrics
+app.get('/api/table/envMetrics', async (req, res) => {
+  try {
+    console.log('Fetching environmental metrics...');
+    const query = `
+      SELECT 
+        c.CompanyName,
+        e.CompanyID,
+        e.ReportYear,
+        ROUND(e.EnergyConsumption_score, 2) AS EnergyConsumption_score,
+        ROUND(e.GHGEmissions_score, 2) AS GHGEmissions_score,
+        ROUND(e.WaterUsage_score, 2) AS WaterUsage_score,
+        ROUND(e.WasteGenerated_score, 2) AS WasteGenerated_score
+      FROM env_score e
+      INNER JOIN company_info c ON e.CompanyID = c.CompanyID
+      ORDER BY c.CompanyName, e.ReportYear ASC
+    `;
+
+    const rows = await executeQuery(query);
+    
+    if (rows.length > 0) {
+      console.log('First environmental metrics row:', rows[0]);
+      res.json(rows);
+    } else {
+      console.log('No environmental metrics found.');
+      res.status(404).json({ error: 'No data found' });
+    }
+  } catch (error) {
+    console.error('Error fetching environmental metrics:', error);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
