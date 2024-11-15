@@ -60,10 +60,9 @@ def calculate_environmental_score(env_data, pax):
     
     # Individual env scores
     env_score = env_data[['CompanyID', 'ReportYear', 'EnergyConsumption_score', 'GHGEmissions_score', 
-                          'WaterUsage_score', 'WasteGenerated_score']]
-    update_table(db_pool, env_score, 'env_score')
+                          'WaterUsage_score', 'WasteGenerated_score']].copy()
     
-    return environmental_score
+    return environmental_score, env_score
 
 def calculate_social_score(social_data):
     binary_col = ['DataSecurity', 'CustomerPrivacy', 'Cybersecurity', 'GenderStats', 'AgeStats']
@@ -110,7 +109,8 @@ def main():
     pax.dropna(inplace=True)
     
     # Calculate scores
-    environmental_score = calculate_environmental_score(env_data, pax)
+    environmental_score = calculate_environmental_score(env_data, pax)[0]
+
     # Create environmental score DataFrame
     e_score_df = pd.DataFrame({
         'CompanyID': env_data['CompanyID'],
@@ -147,6 +147,10 @@ def main():
         esg_score['Governance_Score'] * 0.3
     )
     esg_score['Final_ESG_score'] = esg_score['Final_ESG_score'].clip(0, 10)
+    
+    # Individual components of environmental score
+    env_score = calculate_environmental_score(env_data, pax)[1]
+    update_table(db_pool, env_score, 'env_score')
     
     # Update the ESG scores table
     update_table(db_pool, esg_score, 'esg_scores')

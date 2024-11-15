@@ -301,18 +301,21 @@ INSERT INTO esg_fin (CompanyID, Final_ESG_Score, ROE, ROA, DebtToEquity, TotalAs
 (8, NULL, 0.1351, 0.0748, 0.80, 221370966, NULL, NULL, NULL, NULL);
 
 
--- Drop the existing esg_finance table if it exists
+-- Drop the existing corr_matrix table if it exists
 DROP TABLE IF EXISTS corr_matrix;
 
 -- Create the corr_matrix table
 CREATE TABLE corr_matrix (
-	Financial_metric VARCHAR(255) NOT NULL
+	Financial_metric VARCHAR(255) NOT NULL,
+    ESG_Score_correlation DECIMAL(5,2),
+    Comments_and_Recommendations VARCHAR(255) NOT NULL
 );
 
-INSERT INTO corr_matrix (Financial_metric) VALUES
-('ESG_Score'),
-('ROE'),
-('ROA'),
-('DebtToEquity'),
-('TotalAssets_thousandsUSD'),
-('Beta')
+INSERT INTO corr_matrix (Financial_metric, ESG_Score_correlation, Comments_and_Recommendations) VALUES
+('Beta', NULL, 'Assess market risk and economic fluctuations accompanied by long term sustainability'),
+('DebtToEquity', NULL, 'Analyse amount of investments in green technology and sustainable debt instruments'),
+('Final_ESG_Score', NULL, 'Assessment of company sustainability and ethical impact on society'),
+('ROA', NULL, 'Assess trade-off between short term profits and long term impacts of ESG initiatives'),
+('ROE', NULL, 'Weak correlation between profitability (relative to equity) and ESG impact'),
+('TotalAssets_thousandsUSD', NULL, 'Analyse company size and complexity of managing ESG impacts'),
+

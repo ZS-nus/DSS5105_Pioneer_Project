@@ -113,10 +113,9 @@ def calculate_environmental_score(env_data, pax):
     # Individual env scores
     env_score = env_data[['CompanyID', 'ReportYear', 'EnergyConsumption_score', 'GHGEmissions_score', 
                           'WaterUsage_score', 'WasteGenerated_score']].copy()
-    update_table(db_pool, env_score, 'env_score')
-    
+
     # Return the percentile rank as the final environmental score
-    return env_data['Percentile_rank']
+    return env_data['Percentile_rank'], env_score
 
 
 def calculate_social_score(social_data):
@@ -245,10 +244,16 @@ def main():
     print("\nAfter final ESG calculation:")
     print(esg_score.head())
     
+    # Update the env_score table (individual env components)
+    env_score = calculate_environmental_score(env_data, pax)[1]
+    update_table(db_pool, env_score, 'env_score')
+    
     # Update the ESG scores table
     print("\nUpdating database...")
     update_table(db_pool, esg_score, 'esg_scores')
     print("Database update complete")
 
+
+    
 if __name__ == "__main__":
     main()
