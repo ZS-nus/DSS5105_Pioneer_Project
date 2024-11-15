@@ -110,8 +110,14 @@ def calculate_environmental_score(env_data, pax):
     # Clip the final percentile rank
     env_data['Percentile_rank'] = env_data['Percentile_rank'].clip(0, 10)
     
+    # Individual env scores
+    env_score = env_data[['CompanyID', 'ReportYear', 'EnergyConsumption_score', 'GHGEmissions_score', 
+                          'WaterUsage_score', 'WasteGenerated_score']].copy()
+    update_table(db_pool, env_score, 'env_score')
+    
     # Return the percentile rank as the final environmental score
     return env_data['Percentile_rank']
+
 
 def calculate_social_score(social_data):
     binary_col = ['DataSecurity', 'CustomerPrivacy', 'Cybersecurity', 'GenderStats', 'AgeStats']
