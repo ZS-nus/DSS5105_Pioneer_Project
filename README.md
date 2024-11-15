@@ -84,6 +84,35 @@ A comprehensive platform for extracting and analyzing Environmental, Social, and
 - **Comparative Analysis**: Tools for benchmarking against industry peers
 
 ---
+## 🆕 New Updates 
+
+![ESG Analysis Dashboard](./images/web_app_3.jpg)
+
+### 🌱 Enhanced Environmental Analytics
+
+The dashboard now includes detailed environmental performance tracking and analysis:
+
+#### 1. 📊 Environmental Metrics Table
+- Comprehensive year-by-year tracking of key metrics:
+  - ⚡ Energy Consumption
+  - 🌫️ GHG Emissions
+  - 💧 Water Usage
+  - ♻️ Waste Generated
+- 🔄 Interactive company selection
+- 📈 Sortable metrics for easy comparison
+
+#### 2. 📝 Environmental Analysis & Recommendations
+- 📈 Real-time analysis of environmental performance trends
+- 🎯 Structured performance breakdown:
+  - 📊 Significant Changes: Detailed tracking of metric movements
+  - ⭐ Performance Highlights: Identification of strongest and priority areas
+  - 💡 Key Recommendations: Actionable insights for improvement
+- 📅 Company-specific insights with historical context (2019-2023)
+- 🔄 Dynamic updates based on company selection
+
+These new features provide deeper insights into companies' environmental performance and offer actionable recommendations for sustainability improvements.
+
+---
 
 ## 🏗 Project Structure tree
 
@@ -122,6 +151,13 @@ pioneer/
 ---
 
 ## 🚀 Quick Start
+
+### Login Credentials 🔐
+
+```
+Email: admin@pioneer.com
+Password: 123456
+```
 
 ### Prerequisites
 - Docker & Docker Compose

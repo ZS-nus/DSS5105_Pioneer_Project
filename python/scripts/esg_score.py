@@ -193,32 +193,21 @@ def main():
     social_data = pd.DataFrame(fetch_social_data(db_pool))
     gov_data = pd.DataFrame(fetch_governance_data(db_pool))
     
-    # Debug: Print the shapes of our dataframes
-    print(f"Environmental data shape: {env_data.shape}")
-    print(f"Social data shape: {social_data.shape}")
-    print(f"Governance data shape: {gov_data.shape}")
-    
     # Prepare pax data
     pax = social_data[['CompanyID', 'EmployeeCount', 'ReportYear']].copy()
     pax['EmployeeCount'] = pax['EmployeeCount'].apply(decimal_to_float)
     pax.dropna(inplace=True)
     
-    # Calculate scores
-    environmental_score = calculate_environmental_score(env_data, pax)
+    # Calculate scores - properly unpack the tuple for environmental score
+    environmental_percentile, env_component_scores = calculate_environmental_score(env_data, pax)
     social_score = calculate_social_score(social_data)
     governance_score = calculate_governance_score(gov_data)
-    
-    # Debug: Print sample of scores
-    print("\nSample of calculated scores:")
-    print("Environmental scores:", environmental_score.head())
-    print("Social scores:", social_score.head())
-    print("Governance scores:", governance_score.head())
     
     # Combine scores into a single DataFrame for ESG scores
     esg_score = pd.DataFrame({
         'CompanyID': env_data['CompanyID'],
         'ReportYear': env_data['ReportYear'],
-        'Environmental_Score': environmental_score,
+        'Environmental_Score': environmental_percentile,  # Use the percentile rank
         'Social_Score': social_score,
         'Governance_Score': governance_score
     })
@@ -228,10 +217,6 @@ def main():
     for col in ['Environmental_Score', 'Social_Score', 'Governance_Score']:
         esg_score[col] = esg_score[col].clip(0, 10)
     
-    # Debug: Print before final calculation
-    print("\nBefore final ESG calculation:")
-    print(esg_score.head())
-    
     # Calculate final ESG score with weights
     esg_score['Final_ESG_score'] = (
         esg_score['Environmental_Score'] * ESG_WEIGHTS['Environmental'] +
@@ -240,16 +225,8 @@ def main():
     )
     esg_score['Final_ESG_score'] = esg_score['Final_ESG_score'].clip(0, 10)
     
-    # Debug: Print after final calculation
-    print("\nAfter final ESG calculation:")
-    print(esg_score.head())
-    
-    # Update the env_score table (individual env components)
-    env_score = calculate_environmental_score(env_data, pax)[1]
-    update_table(db_pool, env_score, 'env_score')
-    
-    # Update the ESG scores table
-    print("\nUpdating database...")
+    # Update both tables
+    update_table(db_pool, env_component_scores, 'env_score')
     update_table(db_pool, esg_score, 'esg_scores')
     print("Database update complete")
 
