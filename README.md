@@ -8,56 +8,6 @@ A comprehensive platform for extracting and analyzing Environmental, Social, and
 
 ---
 
-> 📚 **Documentation**
-> - For detailed implementation and setup guide, visit our [Wiki Page](https://github.com/ZS-nus/DSS5105_Pioneer_Project/wiki)
-> - For API endpoints and usage, see our [API Documentation](https://github.com/ZS-nus/DSS5105_Pioneer_Project/wiki/API-Documentation)
-
-
----
-
-## 🌟 Features
-
-- Automated ESG data extraction from PDF reports
-- Real-time data analysis and visualization
-- Interactive dashboard with React frontend
-- GPU-accelerated NLP processing
-- Multi-container architecture with Docker
-
----
-
-### Technical Stack
-
-#### Frontend
-- React.js with Chakra UI
-- Interactive data visualization
-- Real-time ESG score updates
-- Company comparison tools
-- Responsive dashboard design
-
-#### Backend Services
-1. **Node.js Backend**
-   - RESTful API endpoints
-   - Database management
-   - Authentication services
-   - Real-time data processing
-
-2. **Python Backend (FastAPI)**
-   - NLP processing engine
-   - BERT model integration
-   - PDF text extraction
-   - ESG scoring algorithms
-
----
-
-### Infrastructure
-- Docker containerization
-- GPU acceleration support
-- AWS cloud deployment
-- Firebase integration
-- MySQL database
-
-
----
 ## 📊 Web App Overview
 
 ![ESG Analysis Dashboard](./images/web_app_1.jpg)
@@ -113,6 +63,47 @@ The dashboard now includes detailed environmental performance tracking and analy
 These new features provide deeper insights into companies' environmental performance and offer actionable recommendations for sustainability improvements.
 
 ---
+
+> 📚 **Documentation**
+> - For detailed information visit our [Wiki Page](https://github.com/ZS-nus/DSS5105_Pioneer_Project/wiki)
+> - For API endpoints and usage, see our [API Documentation](https://github.com/ZS-nus/DSS5105_Pioneer_Project/wiki/API-Documentation)
+
+---
+
+
+### Technical Stack
+
+#### Frontend
+- React.js with Chakra UI
+- Interactive data visualization
+- Real-time ESG score updates
+- Company comparison tools
+- Responsive dashboard design
+
+#### Backend Services
+1. **Node.js Backend**
+   - RESTful API endpoints
+   - Database management
+   - Authentication services
+   - Real-time data processing
+
+2. **Python Backend (FastAPI)**
+   - NLP processing engine
+   - BERT model integration
+   - PDF text extraction
+   - ESG scoring algorithms
+
+---
+
+### Infrastructure
+- Docker containerization
+- GPU acceleration support
+- AWS cloud deployment
+- Firebase integration
+- MySQL database
+
+---
+
 
 ## 🏗 Project Structure tree
 
